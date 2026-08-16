@@ -1,0 +1,22 @@
+{
+  "id": "gift_9790",
+  "title": "镌刻的异文",
+  "url": "https://limbuscompany.huijiwiki.com/wiki/E.G.O饰品",
+  "categories": [
+    "E.G.O饰品"
+  ],
+  "content": "与带有破裂的目标拼点时，使自身的拼点威力+(目标的破裂强度/20)(最多+2)\n- 与带有咒杀【迅捷】的目标拼点时，改为使自身的拼点威力+(目标的破裂强度/15)(最多+3)\n通过咒杀【迅捷】效果造成伤害时，对目标造成(咒杀【迅捷】伤害量/3)点固定伤害",
+  "source": "tabx",
+  "_structured": true,
+  "page_type": "ego_gift",
+  "gift_name": "镌刻的异文",
+  "rarity": 3,
+  "cost": "245",
+  "effect_types": "破裂",
+  "attack_type": "忧郁",
+  "location": "镜像迷宫",
+  "stage": "base",
+  "special": "深夜清扫",
+  "event": "事件-镌刻的异文",
+  "_schema_version": 1
+}

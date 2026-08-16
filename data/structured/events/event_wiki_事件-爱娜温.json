@@ -1,0 +1,115 @@
+{
+  "page_type": "event",
+  "title": "事件-爱娜温",
+  "event_name": "爱娜温",
+  "narration": "电梯门打开后，看到的是不见一丝光明的走廊。\n自墙壁与地板上绽放的无数花朵中，清新的香气扑鼻而来。\n在那里，被花瓣逐渐侵蚀的员工们正如酣睡般闭着眼睛。\n\n前去救援员工们。\n还不算太晚。\n如果把他们搬到电梯里，或许能救他们。\n当我们把所有员工都搬到电梯后。\n从走廊中央传来了人的悲鸣。\n在那里的是陷入恐慌，蜷缩着身体的员工……\n以及如同陶瓷娃娃一样，眼窝中空无一物的怪物。\n正在那时，怪物的脚下绽开了巨大的花。\n选项一\n选项二\n也去救援陷入恐慌的员工们。\n将陷入恐慌的员工们搬进电梯。\n不知何时，眼窝中空无一物的怪物脚下再度绽开了一朵巨大的花。\n我们救下了所有能够救到的员工。\n之后要怎么办呢。\n选项一\n选项二\n镇压怪物。\n或许试着镇压比较好？\n当罪人们一起接近过去时，怪物脚下又一次绽开了花。\n青翠的绿叶伸向天花板，粉色的花如同落雨般降下。\n在那花瓣的漩涡遮蔽视野的瞬间，罪人们纷纷捂着脑袋痛苦地喊出了声。\n当花瓣平息下来时，怪物也已经消失得无影无踪了。\n全体友方单位失去\n50点体力\n！\n全体友方单位失去\n10点理智值\n！\n获得\n！\n返回。\n充斥于走廊中的异香加剧了我的不安。\n我们从倒地的员工身上回收了可能有用的物品后，便逃了出去。\n获得100\n经费\n全体友方单位恢复\n20点体力\n全体友方单位恢复\n5点理智值\n获得\n！\n这次就丢下他们不管了。\n获得50\n经费\n获得\n！\n\n也去救援陷入恐慌的员工们。\n将陷入恐慌的员工们搬进电梯。\n不知何时，眼窝中空无一物的怪物脚下再度绽开了一朵巨大的花。\n我们救下了所有能够救到的员工。\n之后要怎么办呢。\n选项一\n选项二\n镇压怪物。\n或许试着镇压比较好？\n当罪人们一起接近过去时，怪物脚下又一次绽开了花。\n青翠的绿叶伸向天花板，粉色的花如同落雨般降下。\n在那花瓣的漩涡遮蔽视野的瞬间，罪人们纷纷捂着脑袋痛苦地喊出了声。\n当花瓣平息下来时，怪物也已经消失得无影无踪了。\n全体友方单位失去\n50点体力\n！\n全体友方单位失去\n10点理智值\n！\n获得\n！\n返回。\n充斥于走廊中的异香加剧了我的不安。\n我们从倒地的员工身上回收了可能有用的物品后，便逃了出去。\n获得100\n经费\n全体友方单位恢复\n20点体力\n全体友方单位恢复\n5点理智值\n获得\n！\n\n镇压怪物。\n或许试着镇压比较好？\n当罪人们一起接近过去时，怪物脚下又一次绽开了花。\n青翠的绿叶伸向天花板，粉色的花如同落雨般降下。\n在那花瓣的漩涡遮蔽视野的瞬间，罪人们纷纷捂着脑袋痛苦地喊出了声。\n当花瓣平息下来时，怪物也已经消失得无影无踪了。\n全体友方单位失去\n50点体力\n！\n全体友方单位失去\n10点理智值\n！\n获得\n！\n\n返回。\n充斥于走廊中的异香加剧了我的不安。\n我们从倒地的员工身上回收了可能有用的物品后，便逃了出去。\n获得100\n经费\n全体友方单位恢复\n20点体力\n全体友方单位恢复\n5点理智值\n获得\n！\n\n这次就丢下他们不管了。\n获得50\n经费\n获得\n！\n\n丢下员工们不管。\n也许为时已晚。\n还是前往其他走廊比较好吧。\n什么都没有发生。",
+  "options": [
+    {
+      "choice_text": "前去救援员工们。",
+      "check_type": "",
+      "check_sin": "",
+      "check_threshold": 0,
+      "success_outcomes": [],
+      "failure_outcomes": []
+    },
+    {
+      "choice_text": "也去救援陷入恐慌的员工们。",
+      "check_type": "",
+      "check_sin": "",
+      "check_threshold": 0,
+      "success_outcomes": [],
+      "failure_outcomes": []
+    },
+    {
+      "choice_text": "镇压怪物。",
+      "check_type": "",
+      "check_sin": "",
+      "check_threshold": 0,
+      "success_outcomes": [],
+      "failure_outcomes": []
+    },
+    {
+      "choice_text": "返回。",
+      "check_type": "",
+      "check_sin": "",
+      "check_threshold": 0,
+      "success_outcomes": [],
+      "failure_outcomes": []
+    },
+    {
+      "choice_text": "这次就丢下他们不管了。",
+      "check_type": "",
+      "check_sin": "",
+      "check_threshold": 0,
+      "success_outcomes": [],
+      "failure_outcomes": []
+    },
+    {
+      "choice_text": "丢下员工们不管。",
+      "check_type": "",
+      "check_sin": "",
+      "check_threshold": 0,
+      "success_outcomes": [],
+      "failure_outcomes": []
+    },
+    {
+      "choice_text": "也去救援陷入恐慌的员工们。",
+      "check_type": "",
+      "check_sin": "",
+      "check_threshold": 0,
+      "success_outcomes": [],
+      "failure_outcomes": []
+    },
+    {
+      "choice_text": "镇压怪物。",
+      "check_type": "",
+      "check_sin": "",
+      "check_threshold": 0,
+      "success_outcomes": [],
+      "failure_outcomes": []
+    },
+    {
+      "choice_text": "返回。",
+      "check_type": "",
+      "check_sin": "",
+      "check_threshold": 0,
+      "success_outcomes": [],
+      "failure_outcomes": []
+    },
+    {
+      "choice_text": "这次就丢下他们不管了。",
+      "check_type": "",
+      "check_sin": "",
+      "check_threshold": 0,
+      "success_outcomes": [],
+      "failure_outcomes": []
+    },
+    {
+      "choice_text": "镇压怪物。",
+      "check_type": "",
+      "check_sin": "",
+      "check_threshold": 0,
+      "success_outcomes": [],
+      "failure_outcomes": []
+    },
+    {
+      "choice_text": "返回。",
+      "check_type": "",
+      "check_sin": "",
+      "check_threshold": 0,
+      "success_outcomes": [],
+      "failure_outcomes": []
+    }
+  ],
+  "ego_gifts": [],
+  "related_abnormalities": [
+    "爱娜温"
+  ],
+  "trigger_location": "",
+  "_structured": true,
+  "id": "wiki_事件-爱娜温",
+  "url": "https://limbuscompany.huijiwiki.com/wiki/事件-爱娜温",
+  "categories": [],
+  "source": "wiki",
+  "_schema_version": 1
+}

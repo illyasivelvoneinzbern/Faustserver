@@ -1,0 +1,152 @@
+{
+  "page_type": "enemy",
+  "title": "集中战斗-无我入定",
+  "enemy_name": "无我入定",
+  "battle_stage": "集中战斗-无我入定",
+  "body_part": "石头底座",
+  "hp": 118,
+  "defense_level": 38,
+  "speed_min": 2,
+  "speed_max": 5,
+  "chaos_threshold": "0.5",
+  "physical_resistances": {
+    "斩击": 1.0,
+    "突刺": 1.0,
+    "打击": 2.0
+  },
+  "sin_resistances": {
+    "暴怒": 1.0,
+    "色欲": 2.0,
+    "怠惰": 1.0,
+    "暴食": 1.0,
+    "忧郁": 1.0,
+    "傲慢": 1.0,
+    "嫉妒": 1.0
+  },
+  "panic_types": [],
+  "passives": [],
+  "skills": [
+    {
+      "skill_name": "阐经",
+      "icon_id": "852702",
+      "sin_type": "色欲",
+      "damage_type": "穿刺",
+      "base_value": 4,
+      "coin_power": 1,
+      "coin_count": 2,
+      "attack_level": 40,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": []
+    },
+    {
+      "skill_name": "般若波罗蜜",
+      "icon_id": "852705",
+      "sin_type": "暴怒",
+      "damage_type": "穿刺",
+      "base_value": 18,
+      "coin_power": 8,
+      "coin_count": 2,
+      "attack_level": 40,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[命中时] 若目标带有 业报 受到的伤害+{0}%。回合结束时,若本效果的层数高于108层,则使角色直接死亡。 ，则对其施加50层 业报 受到的伤害+{0}%。回合结束时,若本效果的层数高于108层,则使角色直接死亡。"
+      ]
+    },
+    {
+      "skill_name": "强制供奉",
+      "icon_id": "852707",
+      "sin_type": "暴怒",
+      "damage_type": "穿刺",
+      "base_value": 6,
+      "coin_power": 3,
+      "coin_count": 2,
+      "attack_level": 40,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[命中时] 对目标施加20层 业报 受到的伤害+{0}%。回合结束时,若本效果的层数高于108层,则使角色直接死亡。"
+      ]
+    },
+    {
+      "skill_name": "鞭策",
+      "icon_id": "852708",
+      "sin_type": "暴怒",
+      "damage_type": "穿刺",
+      "base_value": 5,
+      "coin_power": 4,
+      "coin_count": 3,
+      "attack_level": 40,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[命中时] 对目标施加10层 业报 受到的伤害+{0}%。回合结束时,若本效果的层数高于108层,则使角色直接死亡。"
+      ]
+    },
+    {
+      "skill_name": "摩诃室利",
+      "icon_id": "852703",
+      "sin_type": "色欲",
+      "damage_type": "穿刺",
+      "base_value": 4,
+      "coin_power": 4,
+      "coin_count": 1,
+      "attack_level": 40,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": []
+    },
+    {
+      "skill_name": "娑婆诃",
+      "icon_id": "852704",
+      "sin_type": "色欲",
+      "damage_type": "穿刺",
+      "base_value": 3,
+      "coin_power": 1,
+      "coin_count": 1,
+      "attack_level": 40,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": []
+    },
+    {
+      "skill_name": "禅那",
+      "icon_id": "852706",
+      "sin_type": "色欲",
+      "damage_type": "穿刺",
+      "base_value": 10,
+      "coin_power": 2,
+      "coin_count": 2,
+      "attack_level": 40,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[命中时] 下回合对目标施加2层 虚弱 本回合内攻击技能的最终威力-{0}"
+      ]
+    }
+  ],
+  "is_ally": false,
+  "_structured": true,
+  "appear_stages": [
+    "集中战斗-无我入定"
+  ],
+  "enemy_id": "集中战斗-无我入定|无我入定|石头底座",
+  "defense": 38,
+  "speed": "2~5",
+  "_schema_version": 1
+}

@@ -1,0 +1,204 @@
+{
+  "page_type": "enemy",
+  "title": "主线战斗8-32",
+  "enemy_name": "N公司 E.G.O::轻蔑，敬畏 贾环",
+  "battle_stage": "主线战斗8-32",
+  "body_part": "躯干",
+  "hp": 1824,
+  "defense_level": 70,
+  "speed_min": 2,
+  "speed_max": 5,
+  "chaos_threshold": "1094/547/0",
+  "physical_resistances": {
+    "斩击": 1.0,
+    "突刺": 1.0,
+    "打击": 1.0
+  },
+  "sin_resistances": {
+    "暴怒": 0.5,
+    "色欲": 1.5,
+    "怠惰": 1.0,
+    "暴食": 1.1,
+    "忧郁": 1.25,
+    "傲慢": 0.75,
+    "嫉妒": 1.0
+  },
+  "panic_types": [
+    "脆金所铸之心（士气低落）",
+    "脆金所铸之心（陷入恐慌）",
+    "E.G.O侵蚀-N公司",
+    "视线",
+    "掌"
+  ],
+  "passives": [
+    "E.G.O侵蚀-N公司: 自身登场后每经过1回合，回合结束时使自身获得1层 E.G.O侵蚀-N公司 - 回合结束时，若现存体力低于体力上限的50%，或自身的理智值不高于-20点，则额外获得1层 E.G.O侵蚀-N公司",
+    "未能握住的弟弟之手: 自身的攻击命中敌方单位时，对该敌方单位施加1层 视线 (每回合每名人格最多1次) 受到敌方单位的攻击时，对攻击者施加1层 视线 (每回合每名人格最多1次) 回合开始时，若鸿璐在场，则对其施加1层 视线",
+    "掌: 优先指定带有 掌 的目标 有目标带有 掌 时改变自身模式，使自身的所有抗性+0.1",
+    "E.G.O瞬间感应度 最大化: 若带有不低于4层 视线 的罪人不低于4名，则使用“敬畏，轻蔑【潜能解放】”技能",
+    "可不能只盯上我啊: 其他友方单位存活时，若自身成为不低于5名敌方单位的主要目标，则使该敌方单位失去10点体力与理智值",
+    "固定恐慌: 被施加改变恐慌类型的状态时，自身的恐慌类型不会改变。效果改为对没有理智值的单位施加的效果。",
+    "恐慌恢复: 回合结束时，若陷入恐慌，则使自身理智值恢复为0点。"
+  ],
+  "skills": [
+    {
+      "skill_name": "轻蔑",
+      "icon_id": "113501",
+      "sin_type": "色欲",
+      "damage_type": "穿刺",
+      "base_value": 3,
+      "coin_power": 9,
+      "coin_count": 3,
+      "attack_level": 70,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[使用时] 若目标的 流血 强度不低于6级，则使本技能的硬币威力+1",
+        "[正面命中时] 对目标施加2层 流血",
+        "[正面命中时] 使目标增加4级 流血 强度"
+      ]
+    },
+    {
+      "skill_name": "敬畏",
+      "icon_id": "113502",
+      "sin_type": "怠惰",
+      "damage_type": "打击",
+      "base_value": 3,
+      "coin_power": 9703,
+      "coin_count": 3,
+      "attack_level": 71,
+      "attack_weight": 1,
+      "is_guard": true,
+      "guard_type": "防御",
+      "importance": 0,
+      "coin_effects": [
+        "[使用时] 若目标的 流血 强度不低于6级，则使本技能的硬币威力+1",
+        "[命中时] 使目标增加2级 流血 强度",
+        "[正面命中时] 下回合对目标施加3层 防御等级降低",
+        "[命中时] 对目标施加1层 流血",
+        "[正面命中时] 下回合对目标施加1层 伤害弱化"
+      ]
+    },
+    {
+      "skill_name": "轻蔑，敬畏【潜能解放】",
+      "icon_id": "113503",
+      "sin_type": "色欲",
+      "damage_type": "穿刺",
+      "base_value": 3,
+      "coin_power": 9,
+      "coin_count": 5,
+      "attack_level": 73,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[命中时] 对目标施加1层 易损",
+        "[命中时] 对目标造成10点理智伤害 不可摧毁的硬币",
+        "[命中时] 使目标的混乱阈值前移(目标的 视线 层数×5)",
+        "[命中时] 解除目标所有 视线"
+      ]
+    },
+    {
+      "skill_name": "轻蔑之物",
+      "icon_id": "113504",
+      "sin_type": "傲慢",
+      "damage_type": "打击",
+      "base_value": 6,
+      "coin_power": 3,
+      "coin_count": 3,
+      "attack_level": 70,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[使用时] 对目标施加4层 掌",
+        "[使用时] 下回合使自身获得2层 伤害强化 不可摧毁的硬币"
+      ]
+    },
+    {
+      "skill_name": "敬畏吧",
+      "icon_id": "113505",
+      "sin_type": "色欲",
+      "damage_type": "穿刺",
+      "base_value": 14,
+      "coin_power": 9,
+      "coin_count": 3,
+      "attack_level": 72,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[命中时] 对目标施加2层 流血",
+        "[命中时] 使目标增加6级 流血 强度"
+      ]
+    },
+    {
+      "skill_name": "你必承担",
+      "icon_id": "113506",
+      "sin_type": "暴怒",
+      "damage_type": "打击",
+      "base_value": 6,
+      "coin_power": 987,
+      "coin_count": 2,
+      "attack_level": 71,
+      "attack_weight": 1,
+      "is_guard": true,
+      "guard_type": "反击",
+      "importance": 0,
+      "coin_effects": [
+        "[命中时] 对目标施加2层 流血"
+      ]
+    },
+    {
+      "skill_name": "敬畏，轻蔑【潜能解放】",
+      "icon_id": "113507",
+      "sin_type": "暴怒",
+      "damage_type": "穿刺",
+      "base_value": 4,
+      "coin_power": 987,
+      "coin_count": 3,
+      "attack_level": 74,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[命中时] 下回合对目标施加1层 束缚",
+        "[命中时] 若目标的 视线 层数不低于4层，则对其施加1层 视线"
+      ]
+    },
+    {
+      "skill_name": "螺旋型扭曲场",
+      "icon_id": "113508",
+      "sin_type": "色欲",
+      "damage_type": "防御",
+      "base_value": 8,
+      "coin_power": 9,
+      "coin_count": 3,
+      "attack_level": 0,
+      "attack_weight": 1,
+      "is_guard": true,
+      "guard_type": "防御",
+      "importance": 0,
+      "coin_effects": [
+        "可拼点防御",
+        "战斗开始使贾环与仇甫获得30点护盾",
+        "拼点胜利使贾环与仇甫获得30点护盾",
+        "1{{状态2|不可摧毁的硬币|4=特殊}}"
+      ]
+    }
+  ],
+  "is_ally": false,
+  "_structured": true,
+  "appear_stages": [
+    "主线战斗8-32"
+  ],
+  "enemy_id": "主线战斗8-32|N公司 E.G.O::轻蔑，敬畏 贾环|躯干",
+  "defense": 70,
+  "speed": "2~5",
+  "_schema_version": 1
+}

@@ -1,0 +1,60 @@
+{
+  "page_type": "enemy",
+  "title": "纺锤采光-暴怒-5",
+  "enemy_name": "荆棘套索",
+  "battle_stage": "纺锤采光-暴怒-5",
+  "body_part": "",
+  "hp": 26,
+  "defense_level": 57,
+  "speed_min": 4,
+  "speed_max": 7,
+  "chaos_threshold": "20",
+  "physical_resistances": {
+    "斩击": 2.0,
+    "突刺": 2.0,
+    "打击": 2.0
+  },
+  "sin_resistances": {
+    "暴怒": 1.0,
+    "色欲": 1.0,
+    "怠惰": 1.0,
+    "暴食": 1.0,
+    "忧郁": 1.0,
+    "傲慢": 1.0,
+    "嫉妒": 1.0
+  },
+  "panic_types": [
+    "荆棘套索"
+  ],
+  "passives": [
+    "荆棘套索: 无恐慌类型数据"
+  ],
+  "skills": [
+    {
+      "skill_name": "荆棘",
+      "icon_id": "837701",
+      "sin_type": "暴食",
+      "damage_type": "穿刺",
+      "base_value": 2,
+      "coin_power": 854,
+      "coin_count": 2,
+      "attack_level": 60,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[命中时] 使目标增加4级 破裂 强度并对其施加2层 破裂"
+      ]
+    }
+  ],
+  "is_ally": false,
+  "_structured": true,
+  "appear_stages": [
+    "纺锤采光-暴怒-5"
+  ],
+  "enemy_id": "纺锤采光-暴怒-5|荆棘套索|",
+  "defense": 57,
+  "speed": "4~7",
+  "_schema_version": 1
+}

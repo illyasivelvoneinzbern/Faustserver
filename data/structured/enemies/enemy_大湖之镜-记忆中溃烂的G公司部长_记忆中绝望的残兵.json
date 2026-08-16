@@ -1,0 +1,107 @@
+{
+  "page_type": "enemy",
+  "title": "大湖之镜-记忆中溃烂的G公司部长",
+  "enemy_name": "记忆中绝望的残兵",
+  "battle_stage": "大湖之镜-记忆中溃烂的G公司部长",
+  "body_part": "",
+  "hp": 102,
+  "defense_level": 39,
+  "speed_min": 3,
+  "speed_max": 5,
+  "chaos_threshold": "",
+  "physical_resistances": {
+    "斩击": 1.0,
+    "突刺": 0.75,
+    "打击": 2.0
+  },
+  "sin_resistances": {
+    "暴怒": 1.0,
+    "色欲": 1.0,
+    "怠惰": 1.0,
+    "暴食": 1.0,
+    "忧郁": 1.0,
+    "傲慢": 1.0,
+    "嫉妒": 1.0
+  },
+  "panic_types": [
+    "畏缩"
+  ],
+  "passives": [
+    "被侵蚀的强化肉体：回合开始时，若自身的体力低于50%，则回复4点体力。"
+  ],
+  "skills": [
+    {
+      "skill_name": "尖刺突袭",
+      "icon_id": "9001501",
+      "sin_type": "暴食",
+      "damage_type": "斩击",
+      "base_value": 2,
+      "coin_power": 854,
+      "coin_count": 1,
+      "attack_level": 41,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": []
+    },
+    {
+      "skill_name": "迅捷捕杀",
+      "icon_id": "9001502",
+      "sin_type": "暴食",
+      "damage_type": "穿刺",
+      "base_value": 2,
+      "coin_power": 854,
+      "coin_count": 4,
+      "attack_level": 41,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[正面命中时] 对目标施加1层 流血"
+      ]
+    },
+    {
+      "skill_name": "尖刺突袭",
+      "icon_id": "9001501",
+      "sin_type": "暴食",
+      "damage_type": "斩击",
+      "base_value": 2,
+      "coin_power": 9,
+      "coin_count": 1,
+      "attack_level": 2,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": []
+    },
+    {
+      "skill_name": "迅捷捕杀",
+      "icon_id": "9001502",
+      "sin_type": "暴食",
+      "damage_type": "穿刺",
+      "base_value": 2,
+      "coin_power": 1,
+      "coin_count": 4,
+      "attack_level": 2,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "1正面命中时对目标施加1层流血"
+      ]
+    }
+  ],
+  "is_ally": false,
+  "_structured": true,
+  "appear_stages": [
+    "大湖之镜-记忆中溃烂的G公司部长"
+  ],
+  "enemy_id": "大湖之镜-记忆中溃烂的G公司部长|记忆中绝望的残兵|",
+  "defense": 39,
+  "speed": "3~5",
+  "_schema_version": 1
+}

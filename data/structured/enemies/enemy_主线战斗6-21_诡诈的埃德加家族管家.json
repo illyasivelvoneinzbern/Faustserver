@@ -1,0 +1,114 @@
+{
+  "page_type": "enemy",
+  "title": "主线战斗6-21",
+  "enemy_name": "诡诈的埃德加家族管家",
+  "battle_stage": "主线战斗6-21",
+  "body_part": "",
+  "hp": 228,
+  "defense_level": 33,
+  "speed_min": 4,
+  "speed_max": 5,
+  "chaos_threshold": "",
+  "physical_resistances": {
+    "斩击": 2.0,
+    "突刺": 0.75,
+    "打击": 1.0
+  },
+  "sin_resistances": {
+    "暴怒": 1.0,
+    "色欲": 1.0,
+    "怠惰": 1.0,
+    "暴食": 1.0,
+    "忧郁": 1.0,
+    "傲慢": 1.0,
+    "嫉妒": 1.0
+  },
+  "panic_types": [
+    "整理强迫",
+    "迅捷",
+    "整理强迫",
+    "易损",
+    "迅捷"
+  ],
+  "passives": [
+    "瓮中之鳖:使用技能时，若自身的速度值高于目标，则使自身拼点威力+1",
+    "恐慌恢复：回合结束时，若陷入恐慌，则使自身理智值恢复为0点。"
+  ],
+  "skills": [
+    {
+      "skill_name": "捉鼠",
+      "icon_id": "9012301",
+      "sin_type": "色欲",
+      "damage_type": "",
+      "base_value": 0,
+      "coin_power": 3,
+      "coin_count": 3,
+      "attack_level": 45,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "coin_effects": [
+        "[命中时] 使目标增加3级 流血 强度",
+        "[命中时] 下回合对目标施加2层 流血",
+        "[正面命中时] 下回合对目标施加1层 束缚"
+      ]
+    },
+    {
+      "skill_name": "扭动",
+      "icon_id": "9012302",
+      "sin_type": "嫉妒",
+      "damage_type": "",
+      "base_value": 0,
+      "coin_power": 4,
+      "coin_count": 3,
+      "attack_level": 45,
+      "attack_weight": 1,
+      "is_guard": true,
+      "guard_type": "防御",
+      "coin_effects": [
+        "[命中时] 使目标增加4级 流血 强度",
+        "[正面命中时] 对目标施加2层 流血",
+        "[命中时] 若目标的 流血 强度不低于5级，则下回合对其施加1层 麻痹"
+      ]
+    },
+    {
+      "skill_name": "割裂伤口",
+      "icon_id": "9012303",
+      "sin_type": "傲慢",
+      "damage_type": "",
+      "base_value": 0,
+      "coin_power": 3,
+      "coin_count": 5,
+      "attack_level": 45,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "coin_effects": [
+        "[命中时] 使目标增加6级 流血 强度",
+        "[命中时] 对目标施加2层 流血",
+        "[正面命中时] 下回合对目标施加2层 束缚",
+        "[命中时] 若目标的 流血 强度不低于7级，则对其追加本硬币伤害量20%的伤害"
+      ]
+    },
+    {
+      "skill_name": "闪避",
+      "icon_id": "9012304",
+      "sin_type": "常规",
+      "damage_type": "",
+      "base_value": 0,
+      "coin_power": 8,
+      "coin_count": 1,
+      "attack_level": 0,
+      "attack_weight": 1,
+      "is_guard": true,
+      "guard_type": "闪避",
+      "coin_effects": []
+    }
+  ],
+  "is_ally": false,
+  "_structured": true,
+  "enemy_id": "主线战斗6-21|诡诈的埃德加家族管家",
+  "defense": 33,
+  "speed": "4~5",
+  "_schema_version": 1
+}

@@ -1,0 +1,96 @@
+{
+  "page_type": "enemy",
+  "title": "4-54-1-绽放的九人会 外圈上方路径（1）",
+  "enemy_name": "复活的K公司检查站工作人员",
+  "battle_stage": "4-54-1-绽放的九人会 外圈上方路径（1）",
+  "body_part": "",
+  "hp": 94,
+  "defense_level": 33,
+  "speed_min": 1,
+  "speed_max": 2,
+  "chaos_threshold": "",
+  "physical_resistances": {
+    "斩击": 0.75,
+    "突刺": 1.0,
+    "打击": 2.0
+  },
+  "sin_resistances": {
+    "暴怒": 1.0,
+    "色欲": 1.0,
+    "怠惰": 1.0,
+    "暴食": 1.0,
+    "忧郁": 1.0,
+    "傲慢": 1.0,
+    "嫉妒": 1.0
+  },
+  "panic_types": [
+    "抑郁"
+  ],
+  "passives": [
+    "HP弹：回合开始时，恢复15点体力。若自身现存体力不高于50%，则额外恢复15点体力。",
+    "流淌的忧郁：反面命中时，使目标增加2级 沉沦 强度。",
+    "溢出的哀伤:回合结束时，自身失去5点理智值"
+  ],
+  "skills": [
+    {
+      "skill_name": "防护",
+      "icon_id": "9003001",
+      "sin_type": "暴食",
+      "damage_type": "打击",
+      "base_value": 4,
+      "coin_power": 854,
+      "coin_count": 1,
+      "attack_level": 25,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "拼点胜利下回合随机使2名友方单位获得1层忍耐"
+      ]
+    },
+    {
+      "skill_name": "阻截",
+      "icon_id": "9003002",
+      "sin_type": "怠惰",
+      "damage_type": "打击",
+      "base_value": 6,
+      "coin_power": 9703,
+      "coin_count": 2,
+      "attack_level": 25,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[正面命中时] 使目标 震颤引爆"
+      ]
+    },
+    {
+      "skill_name": "掩护",
+      "icon_id": "9003101",
+      "sin_type": "暴食",
+      "damage_type": "打击",
+      "base_value": 4,
+      "coin_power": 854,
+      "coin_count": 1,
+      "attack_level": 25,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "拼点胜利下回合随机使除自身以外的1名友方单位获得2层守护"
+      ]
+    }
+  ],
+  "is_ally": false,
+  "_structured": true,
+  "appear_stages": [
+    "4-54-1-绽放的九人会 外圈上方路径（1）"
+  ],
+  "enemy_id": "4-54-1-绽放的九人会 外圈上方路径（1）|复活的K公司检查站工作人员|",
+  "defense": 33,
+  "speed": "1~2",
+  "_schema_version": 1
+}

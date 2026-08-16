@@ -1,0 +1,90 @@
+{
+  "page_type": "enemy",
+  "title": "集中战斗-迷失的乘客",
+  "enemy_name": "血流成河的次元",
+  "battle_stage": "集中战斗-迷失的乘客",
+  "body_part": "次元",
+  "hp": 53,
+  "defense_level": 40,
+  "speed_min": 1,
+  "speed_max": 1,
+  "chaos_threshold": "",
+  "physical_resistances": {
+    "斩击": 1.0,
+    "突刺": 1.0,
+    "打击": 1.0
+  },
+  "sin_resistances": {
+    "暴怒": 1.5,
+    "色欲": 1.0,
+    "怠惰": 1.0,
+    "暴食": 1.0,
+    "忧郁": 1.0,
+    "傲慢": 1.0,
+    "嫉妒": 1.0
+  },
+  "panic_types": [],
+  "passives": [],
+  "skills": [
+    {
+      "skill_name": "把握时机",
+      "icon_id": "855008",
+      "sin_type": "嫉妒",
+      "damage_type": "斩击",
+      "base_value": 5,
+      "coin_power": 5793,
+      "coin_count": 2,
+      "attack_level": 43,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[使用时] 目标带有 次元裂痕 时，使本技能伤害+20%",
+        "[命中时] 对目标施加3层 次元裂痕"
+      ]
+    },
+    {
+      "skill_name": "攻击破绽",
+      "icon_id": "855009",
+      "sin_type": "嫉妒",
+      "damage_type": "斩击",
+      "base_value": 5,
+      "coin_power": 5793,
+      "coin_count": 2,
+      "attack_level": 43,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[使用时] 目标带有 次元裂痕 时，使本技能伤害+10%",
+        "[命中时] 对目标施加3层 次元裂痕"
+      ]
+    },
+    {
+      "skill_name": "次元移动",
+      "icon_id": "856101",
+      "sin_type": "暴食",
+      "damage_type": "防御",
+      "base_value": 1,
+      "coin_power": 854,
+      "coin_count": 1,
+      "attack_level": 0,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": []
+    }
+  ],
+  "is_ally": false,
+  "_structured": true,
+  "appear_stages": [
+    "集中战斗-迷失的乘客"
+  ],
+  "enemy_id": "集中战斗-迷失的乘客|血流成河的次元|次元",
+  "defense": 40,
+  "speed": "1~1",
+  "_schema_version": 1
+}

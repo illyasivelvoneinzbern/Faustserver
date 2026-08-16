@@ -1,0 +1,21 @@
+{
+  "id": "gift_9067",
+  "title": "特别合约",
+  "url": "https://limbuscompany.huijiwiki.com/wiki/E.G.O饰品",
+  "categories": [
+    "E.G.O饰品"
+  ],
+  "content": "战斗中通过技能伤害使敌方单位陷入混乱时，额外造成相当于目标体力上限33%（若是异想体，则为相应的部位）的伤害，并在下回合对其施加2层易损。(每场战斗最多1次)",
+  "source": "tabx",
+  "_structured": true,
+  "page_type": "ego_gift",
+  "gift_name": "特别合约",
+  "rarity": 3,
+  "cost": "250",
+  "effect_types": "泛用",
+  "attack_type": "傲慢",
+  "location": "镜像迷宫",
+  "stage": "base",
+  "event": "事件-特别合约",
+  "_schema_version": 1
+}

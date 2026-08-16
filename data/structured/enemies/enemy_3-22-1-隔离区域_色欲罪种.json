@@ -1,0 +1,66 @@
+{
+  "page_type": "enemy",
+  "title": "3-22-1-隔离区域",
+  "enemy_name": "色欲罪种",
+  "battle_stage": "3-22-1-隔离区域",
+  "body_part": "躯干",
+  "hp": 49,
+  "defense_level": 21,
+  "speed_min": 1,
+  "speed_max": 3,
+  "chaos_threshold": "25",
+  "physical_resistances": {
+    "斩击": 2.0,
+    "突刺": 1.0,
+    "打击": 1.0
+  },
+  "sin_resistances": {
+    "暴怒": 1.0,
+    "色欲": 0.75,
+    "怠惰": 1.0,
+    "暴食": 0.75,
+    "忧郁": 1.0,
+    "傲慢": 2.0,
+    "嫉妒": 2.0
+  },
+  "panic_types": [],
+  "passives": [],
+  "skills": [
+    {
+      "skill_name": "巨鄂重击",
+      "icon_id": "801701",
+      "sin_type": "色欲",
+      "damage_type": "",
+      "base_value": 0,
+      "coin_power": 8,
+      "coin_count": 1,
+      "attack_level": 17,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "coin_effects": []
+    },
+    {
+      "skill_name": "欲望贯穿",
+      "icon_id": "801702",
+      "sin_type": "色欲",
+      "damage_type": "",
+      "base_value": 0,
+      "coin_power": 2,
+      "coin_count": 2,
+      "attack_level": 17,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "coin_effects": [
+        "[正面命中时] 下回合使目标增加2级 流血 下{1}次掷出硬币时受到{0}点固定伤害。 强度"
+      ]
+    }
+  ],
+  "is_ally": false,
+  "_structured": true,
+  "enemy_id": "3-22-1-隔离区域|色欲罪种",
+  "defense": 21,
+  "speed": "1~3",
+  "_schema_version": 1
+}

@@ -1,0 +1,107 @@
+{
+  "page_type": "enemy",
+  "title": "主线战斗3-21",
+  "enemy_name": "执着的N公司异端审判官",
+  "battle_stage": "主线战斗3-21",
+  "body_part": "",
+  "hp": 149,
+  "defense_level": 28,
+  "speed_min": 2,
+  "speed_max": 3,
+  "chaos_threshold": "",
+  "physical_resistances": {
+    "斩击": 0.75,
+    "突刺": 1.0,
+    "打击": 2.0
+  },
+  "sin_resistances": {
+    "暴怒": 1.0,
+    "色欲": 1.0,
+    "怠惰": 1.0,
+    "暴食": 1.0,
+    "忧郁": 1.0,
+    "傲慢": 1.0,
+    "嫉妒": 1.0
+  },
+  "panic_types": [
+    "畏缩",
+    "虚弱",
+    "畏缩",
+    "虚弱"
+  ],
+  "passives": [
+    "高贵的牺牲在此：友方单位死亡时，下回合开始时使自身获得1层 强壮 。",
+    "处刑的喜悦：击杀敌人后，下回合开始时使自身获得2层 伤害强化 。"
+  ],
+  "skills": [
+    {
+      "skill_name": "贯穿之钉",
+      "icon_id": "9003801",
+      "sin_type": "傲慢",
+      "damage_type": "",
+      "base_value": 0,
+      "coin_power": 8,
+      "coin_count": 2,
+      "attack_level": 24,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "coin_effects": [
+        "[命中时] 下回合对目标施加2层 N公司的尖钉"
+      ]
+    },
+    {
+      "skill_name": "坚定信仰",
+      "icon_id": "9003804",
+      "sin_type": "常规",
+      "damage_type": "",
+      "base_value": 0,
+      "coin_power": 4,
+      "coin_count": 1,
+      "attack_level": 0,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "coin_effects": []
+    },
+    {
+      "skill_name": "集结",
+      "icon_id": "9003803",
+      "sin_type": "色欲",
+      "damage_type": "",
+      "base_value": 0,
+      "coin_power": 5,
+      "coin_count": 2,
+      "attack_level": 24,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "coin_effects": [
+        "[命中时] 下回合使目标增加2级 流血 强度"
+      ]
+    },
+    {
+      "skill_name": "沉重的异端审判",
+      "icon_id": "9004001",
+      "sin_type": "暴怒",
+      "damage_type": "",
+      "base_value": 0,
+      "coin_power": 0,
+      "coin_count": 3,
+      "attack_level": 24,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "coin_effects": [
+        "[正面命中时] 对目标施加2层 N公司的尖钉",
+        "[命中时] 若目标的 N公司的尖钉 层数不低于5层，则在下回合对其施加10层 虚弱 和10层 麻痹"
+      ]
+    }
+  ],
+  "is_ally": false,
+  "_structured": true,
+  "enemy_id": "主线战斗3-21|执着的N公司异端审判官",
+  "defense": 28,
+  "speed": "2~3",
+  "_schema_version": 1
+}

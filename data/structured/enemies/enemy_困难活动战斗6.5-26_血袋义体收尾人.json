@@ -1,0 +1,125 @@
+{
+  "page_type": "enemy",
+  "title": "困难活动战斗6.5-26",
+  "enemy_name": "血袋义体收尾人",
+  "battle_stage": "困难活动战斗6.5-26",
+  "body_part": "",
+  "hp": 246,
+  "defense_level": 58,
+  "speed_min": 3,
+  "speed_max": 4,
+  "chaos_threshold": "",
+  "physical_resistances": {
+    "斩击": 0.75,
+    "突刺": 1.0,
+    "打击": 1.2
+  },
+  "sin_resistances": {
+    "暴怒": 1.0,
+    "色欲": 0.75,
+    "怠惰": 1.0,
+    "暴食": 1.0,
+    "忧郁": 1.0,
+    "傲慢": 1.0,
+    "嫉妒": 1.5
+  },
+  "panic_types": [],
+  "passives": [
+    "血液硬化：受到攻击时，对自身施加1层 流血 回合结束时，消耗自身的3层 流血 并使自身获得1层 硬化血液",
+    "血之渴求：优先指定带有 流血 的目标 回合结束时，若本回合自身未造成伤害，则下回合对自身施加2层 易损 并使自身获得2层 攻击等级提升",
+    "漏电：受到攻击时，若攻击者使用获得 充能 的技能，则使自身的1层 充能 转移给攻击者。 (每个技能最多1次，自身未带有 充能 时不会生效)",
+    "坚韧：通过自身技能受到的伤害不会使自身的体力降至1点以下",
+    "血液供脑：自身受到的 流血 伤害-30%(向下取整) 攻击命中时，若目标带有 流血 ，则使自身恢复伤害量15%的体力",
+    "义体型号 - L37：回合开始时，若自身的 充能 层数低于5层，则对自身施加1层 虚弱 回合开始时，若自身的 充能 层数不低于5层，则使自身获得2层 拼点威力提升"
+  ],
+  "skills": [
+    {
+      "skill_name": "义体启动",
+      "icon_id": "9015101",
+      "sin_type": "嫉妒",
+      "damage_type": "穿刺",
+      "base_value": 3,
+      "coin_power": 5793,
+      "coin_count": 2,
+      "attack_level": 55,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[使用时] 若自身的 充能 层数不低于10层，则消耗5层 充能 并使自身获得3层 攻击等级提升",
+        "[命中时] 使目标增加3级 流血 强度"
+      ]
+    },
+    {
+      "skill_name": "鱼叉标记",
+      "icon_id": "9015102",
+      "sin_type": "色欲",
+      "damage_type": "穿刺",
+      "base_value": 5,
+      "coin_power": 9,
+      "coin_count": 3,
+      "attack_level": 55,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[使用时] 若自身的 充能 层数不低于10层，则消耗5层 充能 并使自身获得3层 攻击等级提升",
+        "[命中时] 使目标增加4级 流血 强度",
+        "[命中时] 使目标增加2级 流血 强度",
+        "[命中时] 下回合对目标施加2层 束缚"
+      ]
+    },
+    {
+      "skill_name": "硬血强化鱼叉",
+      "icon_id": "9015103",
+      "sin_type": "暴怒",
+      "damage_type": "斩击",
+      "base_value": 4,
+      "coin_power": 987,
+      "coin_count": 3,
+      "attack_level": 56,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[使用时] 消耗自身体力上限10%的体力并使自身获得10层 充能",
+        "[命中时] 对目标施加3层 流血",
+        "[命中时] 使目标增加6级 流血 强度",
+        "[命中时] 对目标施加2层 流血",
+        "[命中时] 对目标施加2层 麻痹"
+      ]
+    },
+    {
+      "skill_name": "反击",
+      "icon_id": "9015104",
+      "sin_type": "暴怒",
+      "damage_type": "斩击",
+      "base_value": 6,
+      "coin_power": 987,
+      "coin_count": 1,
+      "attack_level": 57,
+      "attack_weight": 1,
+      "is_guard": true,
+      "guard_type": "反击",
+      "importance": 0,
+      "coin_effects": [
+        "使用时自身每带有3层{{状态2|流血|4=负面}}，使本技能的基础威力+1(最多+2)"
+      ]
+    }
+  ],
+  "is_ally": false,
+  "_structured": true,
+  "appear_stages": [
+    "困难活动战斗6.5-26",
+    "困难活动战斗6.5-27",
+    "活动战斗6.5-26",
+    "活动战斗6.5-27"
+  ],
+  "enemy_id": "困难活动战斗6.5-26|血袋义体收尾人|",
+  "defense": 58,
+  "speed": "3~4",
+  "_schema_version": 1
+}

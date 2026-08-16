@@ -1,0 +1,21 @@
+{
+  "id": "gift_1023",
+  "title": "记号",
+  "url": "https://limbuscompany.huijiwiki.com/wiki/E.G.O饰品",
+  "categories": [
+    "E.G.O饰品"
+  ],
+  "content": "辛克莱向克罗默抗争的决心。刻下3个的话……",
+  "source": "tabx",
+  "_structured": true,
+  "page_type": "ego_gift",
+  "gift_name": "记号",
+  "rarity": 0,
+  "cost": "0",
+  "effect_types": "",
+  "attack_type": "暴怒",
+  "location": "第三章",
+  "stage": "base",
+  "event": "事件-救一。救。我。救。救。",
+  "_schema_version": 1
+}

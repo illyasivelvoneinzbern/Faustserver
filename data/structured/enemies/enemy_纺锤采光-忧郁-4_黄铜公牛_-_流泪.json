@@ -1,0 +1,136 @@
+{
+  "page_type": "enemy",
+  "title": "纺锤采光-忧郁-4",
+  "enemy_name": "黄铜公牛 - 流泪",
+  "battle_stage": "纺锤采光-忧郁-4",
+  "body_part": "躯干",
+  "hp": 1291,
+  "defense_level": 57,
+  "speed_min": 1,
+  "speed_max": 4,
+  "chaos_threshold": "322/0",
+  "physical_resistances": {
+    "斩击": 1.0,
+    "突刺": 1.0,
+    "打击": 1.0
+  },
+  "sin_resistances": {
+    "暴怒": 0.75,
+    "色欲": 0.75,
+    "怠惰": 0.75,
+    "暴食": 0.5,
+    "忧郁": 2.0,
+    "傲慢": 0.5,
+    "嫉妒": 0.75
+  },
+  "panic_types": [],
+  "passives": [],
+  "skills": [
+    {
+      "skill_name": "突进",
+      "icon_id": "804101",
+      "sin_type": "暴怒",
+      "damage_type": "",
+      "base_value": 0,
+      "coin_power": 5,
+      "coin_count": 3,
+      "attack_level": 49,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "coin_effects": [
+        "[命中时] 使目标增加3级 烧伤 回合结束时：受到{0}点固定伤害。持续{1}回合。 强度"
+      ]
+    },
+    {
+      "skill_name": "压倒",
+      "icon_id": "804102",
+      "sin_type": "暴怒",
+      "damage_type": "",
+      "base_value": 0,
+      "coin_power": 10,
+      "coin_count": 2,
+      "attack_level": 49,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "coin_effects": [
+        "[命中时] 对目标施加3层 烧伤 回合结束时：受到{0}点固定伤害。持续{1}回合。"
+      ]
+    },
+    {
+      "skill_name": "猛撞",
+      "icon_id": "804103",
+      "sin_type": "暴怒",
+      "damage_type": "",
+      "base_value": 0,
+      "coin_power": 4,
+      "coin_count": 4,
+      "attack_level": 52,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "coin_effects": [
+        "[命中时] 使目标增加2级 烧伤 回合结束时：受到{0}点固定伤害。持续{1}回合。 强度",
+        "[命中时] 使目标的混乱阈值前移20%"
+      ]
+    },
+    {
+      "skill_name": "满溢而出的哀伤",
+      "icon_id": "804104",
+      "sin_type": "怠惰",
+      "damage_type": "",
+      "base_value": 0,
+      "coin_power": 4,
+      "coin_count": 2,
+      "attack_level": 45,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "coin_effects": [
+        "[命中时] 使目标损失15点理智值",
+        "[命中时] 使目标的混乱阈值前移伤害量的50%"
+      ]
+    },
+    {
+      "skill_name": "炽热啼哭",
+      "icon_id": "804105",
+      "sin_type": "忧郁",
+      "damage_type": "",
+      "base_value": 0,
+      "coin_power": 10,
+      "coin_count": 2,
+      "attack_level": 52,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "coin_effects": [
+        "[命中时] 使自身获得1层 飘忽不定的情绪 回合开始时，随机施加 虚弱 、 麻痹 、 束缚 中的一种效果，其层数与本效果相同，随后移除本效果。",
+        "[命中时] 对目标施加3层 沉沦 下{1}次被攻击时，额外受到{0}点固定理智伤害。(没有理智值的目标则受到忧郁属性伤害)"
+      ]
+    },
+    {
+      "skill_name": "炽热悲鸣",
+      "icon_id": "804105",
+      "sin_type": "忧郁",
+      "damage_type": "",
+      "base_value": 0,
+      "coin_power": 8,
+      "coin_count": 3,
+      "attack_level": 52,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "coin_effects": [
+        "[命中时] 使自身获得1层 飘忽不定的情绪 回合开始时，随机施加 虚弱 、 麻痹 、 束缚 中的一种效果，其层数与本效果相同，随后移除本效果。",
+        "[命中时] 使目标增加2级 沉沦 下{1}次被攻击时，额外受到{0}点固定理智伤害。(没有理智值的目标则受到忧郁属性伤害) 强度"
+      ]
+    }
+  ],
+  "is_ally": false,
+  "_structured": true,
+  "enemy_id": "纺锤采光-忧郁-4|黄铜公牛 - 流泪",
+  "defense": 57,
+  "speed": "1~4",
+  "_schema_version": 1
+}

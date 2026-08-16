@@ -1,0 +1,104 @@
+{
+  "page_type": "enemy",
+  "title": "经验采光-4",
+  "enemy_name": "焦虑的K公司1级员工",
+  "battle_stage": "经验采光-4",
+  "body_part": "",
+  "hp": 96,
+  "defense_level": 33,
+  "speed_min": 2,
+  "speed_max": 6,
+  "chaos_threshold": "",
+  "physical_resistances": {
+    "斩击": 2.0,
+    "突刺": 0.75,
+    "打击": 0.5
+  },
+  "sin_resistances": {
+    "暴怒": 1.0,
+    "色欲": 1.0,
+    "怠惰": 1.0,
+    "暴食": 1.0,
+    "忧郁": 1.0,
+    "傲慢": 1.0,
+    "嫉妒": 1.0
+  },
+  "panic_types": [
+    "畏缩",
+    "虚弱",
+    "畏缩",
+    "虚弱"
+  ],
+  "passives": [
+    "HP弹：回合开始时，恢复15点体力。 若自身的体力不高于50%，则额外恢复15点体力。",
+    "恐怖装置：友方单位攻击友方单位时，造成3点理智伤害。"
+  ],
+  "skills": [
+    {
+      "skill_name": "暂停！暂停！",
+      "icon_id": "9005501",
+      "sin_type": "怠惰",
+      "damage_type": "",
+      "base_value": 0,
+      "coin_power": 6,
+      "coin_count": 2,
+      "attack_level": 30,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "coin_effects": [
+        "[命中时] 下回合使目标增加2级 震颤 在{1}回合内，受到造成 震颤引爆 的攻击时，混乱阈值前移{0}。 强度"
+      ]
+    },
+    {
+      "skill_name": "请停下来！",
+      "icon_id": "9005502",
+      "sin_type": "怠惰",
+      "damage_type": "",
+      "base_value": 0,
+      "coin_power": 3,
+      "coin_count": 2,
+      "attack_level": 30,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "coin_effects": []
+    },
+    {
+      "skill_name": "进行拘捕！",
+      "icon_id": "9005503",
+      "sin_type": "怠惰",
+      "damage_type": "",
+      "base_value": 0,
+      "coin_power": 7,
+      "coin_count": 2,
+      "attack_level": 30,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "coin_effects": [
+        "[命中时] 引爆目标的 震颤 在{1}回合内，受到造成 震颤引爆 的攻击时，混乱阈值前移{0}。"
+      ]
+    },
+    {
+      "skill_name": "寻找掩护！",
+      "icon_id": "9005504",
+      "sin_type": "常规",
+      "damage_type": "",
+      "base_value": 0,
+      "coin_power": 5,
+      "coin_count": 1,
+      "attack_level": 0,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "coin_effects": []
+    }
+  ],
+  "is_ally": false,
+  "_structured": true,
+  "enemy_id": "经验采光-4|焦虑的K公司1级员工",
+  "defense": 33,
+  "speed": "2~6",
+  "_schema_version": 1
+}

@@ -1,0 +1,487 @@
+{
+  "page_type": "personality",
+  "title": "李箱臼齿事务所收尾人",
+  "sinner": "李箱",
+  "sinner_id": "yisang",
+  "personality_name": "李箱臼齿事务所收尾人",
+  "release_date": "2023.09.14",
+  "acquisition": "每日签到第二期赠送",
+  "sin_affinities": {
+    "色欲": 3,
+    "怠惰": 2,
+    "暴怒": 1
+  },
+  "physical_resistances": {
+    "斩击": 0.5,
+    "突刺": 2.0,
+    "打击": 1.0
+  },
+  "ego_resources": {
+    "色欲": 3,
+    "怠惰": 2,
+    "暴怒": 1
+  },
+  "skills": [
+    {
+      "skill_index": 0,
+      "skill_name": "沉着冷静",
+      "sin_type": "",
+      "damage_type": "",
+      "guard_type": "",
+      "attack_capacity": 1,
+      "coin_count": 2,
+      "stage_groups": [
+        [
+          {
+            "stage": "I",
+            "base_value": 2,
+            "coin_power": 4,
+            "effects": [
+              {
+                "timing": "正面命中时",
+                "description": "对目标施加2层 震颤"
+              }
+            ],
+            "raw_text": "基础值： 2 变动值： +4 若本 技能 被 丢弃 ，则对自身施加3层 震颤 [正面命中时] 对目标施加2层 震颤"
+          },
+          {
+            "stage": "II",
+            "base_value": 2,
+            "coin_power": 4,
+            "effects": [
+              {
+                "timing": "使用时",
+                "description": "对自身施加2层 震颤"
+              },
+              {
+                "timing": "命中时",
+                "description": "对目标施加2层 震颤"
+              }
+            ],
+            "raw_text": "基础值： 2 变动值： +4 若本 技能 被 丢弃 ，则对自身施加4层 震颤 [使用时] 对自身施加2层 震颤 [命中时] 对目标施加2层 震颤"
+          },
+          {
+            "stage": "III",
+            "base_value": 3,
+            "coin_power": 4,
+            "effects": [
+              {
+                "timing": "使用时",
+                "description": "对自身施加2层 震颤"
+              },
+              {
+                "timing": "命中时",
+                "description": "对目标施加2层 震颤"
+              }
+            ],
+            "raw_text": "基础值： 3 变动值： +4 若本 技能 被 丢弃 ，则对自身施加4层 震颤 [使用时] 对自身施加2层 震颤 [命中时] 对目标施加2层 震颤"
+          },
+          {
+            "stage": "IV",
+            "base_value": 3,
+            "coin_power": 4,
+            "effects": [
+              {
+                "timing": "使用时",
+                "description": "对自身施加2层 震颤 若自身的 震颤 层数不低于5层，则使本 技能 的 硬币威力 +1"
+              },
+              {
+                "timing": "命中时",
+                "description": "对目标施加2层 震颤"
+              }
+            ],
+            "raw_text": "基础值： 3 变动值： +4 若本 技能 被 丢弃 ，则对自身施加4层 震颤 [使用时] 对自身施加2层 震颤 若自身的 震颤 层数不低于5层，则使本 技能 的 硬币威力 +1 [命中时] 对目标施加2层 震颤"
+          }
+        ]
+      ],
+      "coin_effects": [
+        {
+          "coin_index": 0,
+          "description": "技能一"
+        },
+        {
+          "coin_index": 0,
+          "description": "沉着冷静 3"
+        },
+        {
+          "coin_index": 0,
+          "timing": "",
+          "description": "2"
+        },
+        {
+          "coin_index": 0,
+          "description": "-2"
+        },
+        {
+          "coin_index": 0,
+          "description": "1"
+        },
+        {
+          "coin_index": 0,
+          "description": "基础值： 2 变动值： +4 若本 技能 被 丢弃 ，则对自身施加3层 震颤"
+        },
+        {
+          "coin_index": 2,
+          "timing": "正面命中时",
+          "description": "[正面命中时] 对目标施加2层 震颤"
+        },
+        {
+          "coin_index": 2,
+          "timing": "命中时",
+          "description": "[命中时] 对目标施加2层 震颤"
+        },
+        {
+          "coin_index": 2,
+          "timing": "命中时",
+          "description": "[命中时] 对目标施加2层 震颤"
+        },
+        {
+          "coin_index": 2,
+          "timing": "命中时",
+          "description": "[命中时] 对目标施加2层 震颤"
+        }
+      ],
+      "wikitext_key": "1技能"
+    },
+    {
+      "skill_index": 1,
+      "skill_name": "铤而走险",
+      "sin_type": "怠惰",
+      "damage_type": "打击",
+      "guard_type": "",
+      "attack_capacity": 1,
+      "coin_count": 2,
+      "stage_groups": [
+        [
+          {
+            "stage": "I",
+            "base_value": 3,
+            "coin_power": 12,
+            "effects": [
+              {
+                "timing": "使用时",
+                "description": "丢弃 自身所有 行动槽 中级别最低的1个 技能"
+              },
+              {
+                "timing": "命中时",
+                "description": "若自身的 震颤 层数不低于5层，则使目标 震颤引爆 ；使目标的 震颤 层数减少2层"
+              }
+            ],
+            "raw_text": "基础值： 3 变动值： +12 若本 技能 被 丢弃 ，则对自身施加3层 震颤 [使用时] 丢弃 自身所有 行动槽 中级别最低的1个 技能 [命中时] 若自身的 震颤 层数不低于5层，则使目标 震颤引爆 ；使目标的 震颤 层数减少2层"
+          },
+          {
+            "stage": "II",
+            "base_value": 3,
+            "coin_power": 12,
+            "effects": [
+              {
+                "timing": "使用时",
+                "description": "丢弃 自身所有 行动槽 中级别最低的1个 技能"
+              },
+              {
+                "timing": "命中时",
+                "description": "对目标施加2层 震颤"
+              },
+              {
+                "timing": "命中时",
+                "description": "若自身的 震颤 层数不低于5层，则使目标 震颤引爆 ；使目标的 震颤 层数减少2层"
+              }
+            ],
+            "raw_text": "基础值： 3 变动值： +12 若本 技能 被 丢弃 ，则对自身施加4层 震颤 [使用时] 丢弃 自身所有 行动槽 中级别最低的1个 技能 [命中时] 对目标施加2层 震颤 [命中时] 若自身的 震颤 层数不低于5层，则使目标 震颤引爆 ；使目标的 震颤 层数减少2层"
+          },
+          {
+            "stage": "III",
+            "base_value": 4,
+            "coin_power": 12,
+            "effects": [
+              {
+                "timing": "使用时",
+                "description": "丢弃 自身所有 行动槽 中级别最低的1个 技能"
+              },
+              {
+                "timing": "命中时",
+                "description": "对目标施加2层 震颤"
+              },
+              {
+                "timing": "命中时",
+                "description": "若自身的 震颤 层数不低于5层，则使目标 震颤引爆 ；使目标的 震颤 层数减少2层"
+              }
+            ],
+            "raw_text": "基础值： 4 变动值： +12 若本 技能 被 丢弃 ，则对自身施加4层 震颤 [使用时] 丢弃 自身所有 行动槽 中级别最低的1个 技能 [命中时] 对目标施加2层 震颤 [命中时] 若自身的 震颤 层数不低于5层，则使目标 震颤引爆 ；使目标的 震颤 层数减少2层"
+          },
+          {
+            "stage": "IV",
+            "base_value": 4,
+            "coin_power": 12,
+            "effects": [
+              {
+                "timing": "使用时",
+                "description": "丢弃 自身所有 行动槽 中级别最低的1个 技能"
+              },
+              {
+                "timing": "命中时",
+                "description": "对目标施加3层 震颤"
+              },
+              {
+                "timing": "命中时",
+                "description": "若自身的 震颤 层数不低于5层，则使目标 震颤引爆 ；使目标的 震颤 层数减少2层"
+              }
+            ],
+            "raw_text": "基础值： 4 变动值： +12 若本 技能 被 丢弃 ，则对自身施加4层 震颤 [使用时] 丢弃 自身所有 行动槽 中级别最低的1个 技能 [命中时] 对目标施加3层 震颤 [命中时] 若自身的 震颤 层数不低于5层，则使目标 震颤引爆 ；使目标的 震颤 层数减少2层"
+          }
+        ]
+      ],
+      "coin_effects": [
+        {
+          "coin_index": 0,
+          "description": "技能二"
+        },
+        {
+          "coin_index": 0,
+          "description": "铤而走险 2"
+        },
+        {
+          "coin_index": 0,
+          "timing": "",
+          "description": "1"
+        },
+        {
+          "coin_index": 0,
+          "description": "+2"
+        },
+        {
+          "coin_index": 0,
+          "description": "1"
+        },
+        {
+          "coin_index": 0,
+          "description": "基础值： 3 变动值： +12 若本 技能 被 丢弃 ，则对自身施加3层 震颤 [使用时] 丢弃 自身所有 行动槽 中级别最低的1个 技能"
+        },
+        {
+          "coin_index": 1,
+          "timing": "命中时",
+          "description": "[命中时] 若自身的 震颤 层数不低于5层，则使目标 震颤引爆 ；使目标的 震颤 层数减少2层"
+        },
+        {
+          "coin_index": 1,
+          "timing": "命中时",
+          "description": "[命中时] 对目标施加2层 震颤 [命中时] 若自身的 震颤 层数不低于5层，则使目标 震颤引爆 ；使目标的 震颤 层数减少2层"
+        },
+        {
+          "coin_index": 1,
+          "timing": "命中时",
+          "description": "[命中时] 对目标施加2层 震颤 [命中时] 若自身的 震颤 层数不低于5层，则使目标 震颤引爆 ；使目标的 震颤 层数减少2层"
+        },
+        {
+          "coin_index": 1,
+          "timing": "命中时",
+          "description": "[命中时] 对目标施加3层 震颤 [命中时] 若自身的 震颤 层数不低于5层，则使目标 震颤引爆 ；使目标的 震颤 层数减少2层"
+        }
+      ],
+      "wikitext_key": "2技能"
+    },
+    {
+      "skill_index": 2,
+      "skill_name": "咬紧臼齿",
+      "sin_type": "暴怒",
+      "damage_type": "打击",
+      "guard_type": "",
+      "attack_capacity": 1,
+      "coin_count": 3,
+      "stage_groups": [
+        [
+          {
+            "stage": "I",
+            "base_value": 4,
+            "coin_power": 3,
+            "effects": [
+              {
+                "timing": "使用时",
+                "description": "丢弃 自身所有 行动槽 中级别最低的1个 技能"
+              },
+              {
+                "timing": "使用时",
+                "description": "消耗10层 震颤 并使本 技能 的 硬币威力 +1"
+              },
+              {
+                "timing": "命中时",
+                "description": "使目标增加4级 震颤 强度"
+              },
+              {
+                "timing": "命中时",
+                "description": "若使用本 技能 时消耗了 震颤 层数，则使目标 震颤引爆"
+              },
+              {
+                "timing": "正面命中时",
+                "description": "对目标施加2层 防御等级降低"
+              },
+              {
+                "timing": "命中时",
+                "description": "若使用本 技能 时消耗了 震颤 层数，则使目标 震颤引爆"
+              }
+            ],
+            "raw_text": "基础值： 4 变动值： +3 [使用时] 丢弃 自身所有 行动槽 中级别最低的1个 技能 [使用时] 消耗10层 震颤 并使本 技能 的 硬币威力 +1 [命中时] 使目标增加4级 震颤 强度 [命中时] 若使用本 技能 时消耗了 震颤 层数，则使目标 震颤引爆 [正面命中时] 对目标施加2层 防御等级降低 [命中时] 若使用本 技能 时消耗了 震颤 层数，则使目标 震颤引爆"
+          },
+          {
+            "stage": "II",
+            "base_value": 4,
+            "coin_power": 3,
+            "effects": [
+              {
+                "timing": "使用时",
+                "description": "丢弃 自身所有 行动槽 中级别最低的1个 技能"
+              },
+              {
+                "timing": "使用时",
+                "description": "消耗10层 震颤 并使本 技能 的 硬币威力 +2"
+              },
+              {
+                "timing": "命中时",
+                "description": "使目标增加4级 震颤 强度"
+              },
+              {
+                "timing": "命中时",
+                "description": "若使用本 技能 时消耗了 震颤 层数，则使目标 震颤引爆"
+              },
+              {
+                "timing": "命中时",
+                "description": "对目标施加2层 防御等级降低"
+              },
+              {
+                "timing": "命中时",
+                "description": "若使用本 技能 时消耗了 震颤 层数，则使目标 震颤引爆"
+              }
+            ],
+            "raw_text": "基础值： 4 变动值： +3 [使用时] 丢弃 自身所有 行动槽 中级别最低的1个 技能 [使用时] 消耗10层 震颤 并使本 技能 的 硬币威力 +2 [命中时] 使目标增加4级 震颤 强度 [命中时] 若使用本 技能 时消耗了 震颤 层数，则使目标 震颤引爆 [命中时] 对目标施加2层 防御等级降低 [命中时] 若使用本 技能 时消耗了 震颤 层数，则使目标 震颤引爆"
+          }
+        ]
+      ],
+      "coin_effects": [
+        {
+          "coin_index": 0,
+          "description": "技能三"
+        },
+        {
+          "coin_index": 0,
+          "description": "咬紧臼齿 1"
+        },
+        {
+          "coin_index": 0,
+          "timing": "",
+          "description": "3"
+        },
+        {
+          "coin_index": 0,
+          "description": "+5"
+        },
+        {
+          "coin_index": 0,
+          "description": "1"
+        },
+        {
+          "coin_index": 0,
+          "description": "基础值： 4 变动值： +3 [使用时] 丢弃 自身所有 行动槽 中级别最低的1个 技能 [使用时] 消耗10层 震颤 并使本 技能 的 硬币威力 +1"
+        },
+        {
+          "coin_index": 1,
+          "timing": "命中时",
+          "description": "[命中时] 使目标增加4级 震颤 强度 [命中时] 若使用本 技能 时消耗了 震颤 层数，则使目标 震颤引爆"
+        },
+        {
+          "coin_index": 3,
+          "timing": "正面命中时",
+          "description": "[正面命中时] 对目标施加2层 防御等级降低 [命中时] 若使用本 技能 时消耗了 震颤 层数，则使目标 震颤引爆"
+        },
+        {
+          "coin_index": 1,
+          "timing": "命中时",
+          "description": "[命中时] 使目标增加4级 震颤 强度 [命中时] 若使用本 技能 时消耗了 震颤 层数，则使目标 震颤引爆"
+        },
+        {
+          "coin_index": 3,
+          "timing": "命中时",
+          "description": "[命中时] 对目标施加2层 防御等级降低 [命中时] 若使用本 技能 时消耗了 震颤 层数，则使目标 震颤引爆"
+        }
+      ],
+      "wikitext_key": "3技能"
+    },
+    {
+      "skill_index": 3,
+      "skill_name": "防御",
+      "sin_type": "",
+      "damage_type": "",
+      "guard_type": "防御",
+      "attack_capacity": 1,
+      "coin_count": 1,
+      "stage_groups": [
+        [
+          {
+            "stage": "I",
+            "base_value": 10,
+            "coin_power": 2,
+            "effects": [
+              {
+                "timing": "使用时",
+                "description": "丢弃 自身所有 行动槽 中级别最低的1个 技能"
+              }
+            ],
+            "raw_text": "基础值： 10 变动值： +2 [使用时] 丢弃 自身所有 行动槽 中级别最低的1个 技能"
+          },
+          {
+            "stage": "II",
+            "base_value": 10,
+            "coin_power": 5,
+            "effects": [
+              {
+                "timing": "使用时",
+                "description": "丢弃 自身所有 行动槽 中级别最低的1个 技能"
+              }
+            ],
+            "raw_text": "基础值： 10 变动值： +5 [使用时] 丢弃 自身所有 行动槽 中级别最低的1个 技能"
+          }
+        ]
+      ],
+      "coin_effects": [
+        {
+          "coin_index": 0,
+          "description": "守备技能"
+        },
+        {
+          "coin_index": 0,
+          "description": "防御"
+        },
+        {
+          "coin_index": 0,
+          "timing": "",
+          "description": "1"
+        },
+        {
+          "coin_index": 0,
+          "description": "+0"
+        },
+        {
+          "coin_index": 0,
+          "description": "1"
+        },
+        {
+          "coin_index": 0,
+          "description": "I阶 - III阶 IV阶 追加属性： 基础值： 10 变动值： +2 [使用时] 丢弃 自身所有 行动槽 中级别最低的1个 技能 基础值： 10 变动值： +5 [使用时] 丢弃 自身所有 行动槽 中级别最低的1个 技能"
+        }
+      ],
+      "wikitext_key": "守备技能4"
+    }
+  ],
+  "battle_passive": "人格被动1010501\n人格被动1010521",
+  "support_passive": "",
+  "notes": "",
+  "voice_lines": [],
+  "skill_voice": [],
+  "_structured": true,
+  "id": "wiki_李箱臼齿事务所收尾人",
+  "url": "https://limbuscompany.huijiwiki.com/wiki/李箱臼齿事务所收尾人",
+  "categories": [
+    "人格"
+  ],
+  "source": "wiki",
+  "_schema_version": 1
+}

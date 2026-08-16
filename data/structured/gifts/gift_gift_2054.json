@@ -1,0 +1,21 @@
+{
+  "id": "gift_2054",
+  "title": "无尽的饥饿",
+  "url": "https://limbuscompany.huijiwiki.com/wiki/E.G.O饰品",
+  "categories": [
+    "E.G.O饰品"
+  ],
+  "content": "关卡的首个回合开始时，使全体参战的友方单位失去5点理智值，3回合内使其获得1层强壮。\n若该友方单位属于血魔，则使其失去10点理智值，3回合内使其获得2层强壮，令其技能或硬币效果增加的流血强度与施加的流血层数额外+1",
+  "source": "tabx",
+  "_structured": true,
+  "page_type": "ego_gift",
+  "gift_name": "无尽的饥饿",
+  "rarity": 1,
+  "cost": "0",
+  "effect_types": "",
+  "attack_type": "暴食",
+  "location": "第七章",
+  "stage": "base",
+  "event": "事件-无尽的饥饿",
+  "_schema_version": 1
+}

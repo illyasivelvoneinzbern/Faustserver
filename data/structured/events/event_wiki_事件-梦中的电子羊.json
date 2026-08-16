@@ -1,0 +1,36 @@
+{
+  "page_type": "event",
+  "title": "事件-梦中的电子羊",
+  "event_name": "梦中的电子羊",
+  "narration": "这里是暗无边际的城市，\n但建筑物的光亮清晰可见。\n这座城市貌似是从其中央的巨大雷云中\n获取电力，加以使用。\n乌云有着头和脚。\n那副姿态就如同羊一般。\n电子羊痛苦不堪。\n是因为电力被夺走了吗？\n\n切断电缆\n瞬间，每家每户都失去了照明。\n电子羊发出如同暴风般的叫声后，冲向远方。\n无光的城市里\n飘满了失去光明的悲泣。\n电子羊曾待过的地方放着小小的什么东西。\n获得\n！\n\n接入另一根电缆\n电子羊的悲鸣更加凄厉。\n令人不悦的悲鸣嘈杂响彻。\n整个空间闪闪发光。\n建筑物的光亮更上一层，亮得似乎要燃烧起来。\n随后那片云散发的光亮迅速衰弱。\n好似沉入了梦境。\n停止悲鸣的电子羊合上了双眼。\n技能组不包含\n嫉妒属性攻击技能\n的友方单位失去\n15点理智值\n！",
+  "options": [
+    {
+      "choice_text": "切断电缆",
+      "check_type": "",
+      "check_sin": "",
+      "check_threshold": 0,
+      "success_outcomes": [],
+      "failure_outcomes": []
+    },
+    {
+      "choice_text": "接入另一根电缆",
+      "check_type": "",
+      "check_sin": "",
+      "check_threshold": 0,
+      "success_outcomes": [],
+      "failure_outcomes": []
+    }
+  ],
+  "ego_gifts": [],
+  "related_abnormalities": [
+    "事件触发地点",
+    "镜像迷宫"
+  ],
+  "trigger_location": "",
+  "_structured": true,
+  "id": "wiki_事件-梦中的电子羊",
+  "url": "https://limbuscompany.huijiwiki.com/wiki/事件-梦中的电子羊",
+  "categories": [],
+  "source": "wiki",
+  "_schema_version": 1
+}

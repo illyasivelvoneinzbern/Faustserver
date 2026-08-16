@@ -1,0 +1,96 @@
+{
+  "page_type": "enemy",
+  "title": "紫罗兰的正午-一般模式",
+  "enemy_name": "理解的果实-1",
+  "battle_stage": "紫罗兰的正午-一般模式",
+  "body_part": "躯干",
+  "hp": 228,
+  "defense_level": 45,
+  "speed_min": 1,
+  "speed_max": 2,
+  "chaos_threshold": "46",
+  "physical_resistances": {
+    "斩击": 1.0,
+    "突刺": 1.2,
+    "打击": 1.2
+  },
+  "sin_resistances": {
+    "暴怒": 1.0,
+    "色欲": 1.5,
+    "怠惰": 2.0,
+    "暴食": 1.0,
+    "忧郁": 1.5,
+    "傲慢": 1.0,
+    "嫉妒": 1.0
+  },
+  "panic_types": [],
+  "passives": [],
+  "skills": [
+    {
+      "skill_name": "理解",
+      "icon_id": "836301",
+      "sin_type": "嫉妒",
+      "damage_type": "打击",
+      "base_value": 4,
+      "coin_power": 5793,
+      "coin_count": 2,
+      "attack_level": 45,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[使用时] 使自身获得1层 理解",
+        "[命中时] 对目标施加1层 精神裂痕"
+      ]
+    },
+    {
+      "skill_name": "认知",
+      "icon_id": "836302",
+      "sin_type": "嫉妒",
+      "damage_type": "打击",
+      "base_value": 4,
+      "coin_power": 5793,
+      "coin_count": 3,
+      "attack_level": 45,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[使用时] 使自身获得2层 理解",
+        "[命中时] 对目标施加1层 嫉妒易损",
+        "[命中时] 对目标施加1层 精神裂痕"
+      ]
+    },
+    {
+      "skill_name": "崩坏",
+      "icon_id": "836305",
+      "sin_type": "嫉妒",
+      "damage_type": "打击",
+      "base_value": 5,
+      "coin_power": 5793,
+      "coin_count": 3,
+      "attack_level": 45,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[攻击后] 自身阵亡",
+        "[命中时] 下回合对目标施加2层 嫉妒易损",
+        "[命中时] 对目标造成10~14点理智伤害"
+      ]
+    }
+  ],
+  "is_ally": false,
+  "_structured": true,
+  "appear_stages": [
+    "紫罗兰的正午-一般模式",
+    "紫罗兰的正午-困难模式"
+  ],
+  "enemy_id": "紫罗兰的正午-一般模式|理解的果实-1|躯干",
+  "defense": 45,
+  "speed": "1~2",
+  "_schema_version": 1
+}

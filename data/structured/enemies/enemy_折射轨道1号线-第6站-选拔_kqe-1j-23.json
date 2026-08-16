@@ -1,0 +1,201 @@
+{
+  "page_type": "enemy",
+  "title": "折射轨道1号线-第6站-选拔",
+  "enemy_name": "kqe-1j-23",
+  "battle_stage": "折射轨道1号线-第6站-选拔",
+  "body_part": "",
+  "hp": 2428,
+  "defense_level": 62,
+  "speed_min": 1,
+  "speed_max": 5,
+  "chaos_threshold": "无",
+  "physical_resistances": {
+    "斩击": 1.0,
+    "突刺": 1.5,
+    "打击": 0.75
+  },
+  "sin_resistances": {
+    "暴怒": 0.75,
+    "色欲": 1.5,
+    "怠惰": 1.0,
+    "暴食": 1.0,
+    "忧郁": 1.5,
+    "傲慢": 1.0,
+    "嫉妒": 0.5
+  },
+  "panic_types": [
+    "充能"
+  ],
+  "passives": [
+    "小镇参观活动开始: 回合开始时，若自身带有的 充能 层数不低于10层，则改变自身模式",
+    "折射的挣扎: 无恐慌类型数据"
+  ],
+  "skills": [
+    {
+      "skill_name": "准备小镇参观活动",
+      "icon_id": "851901",
+      "sin_type": "忧郁",
+      "damage_type": "打击",
+      "base_value": 5,
+      "coin_power": 3,
+      "coin_count": 1,
+      "attack_level": 50,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "使用时使自身获得4层充能"
+      ]
+    },
+    {
+      "skill_name": "欢迎参观小镇",
+      "icon_id": "851902",
+      "sin_type": "忧郁",
+      "damage_type": "打击",
+      "base_value": 7,
+      "coin_power": 3,
+      "coin_count": 3,
+      "attack_level": 50,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[命中时] 下回合对目标施加1层 加算硬币弱化"
+      ]
+    },
+    {
+      "skill_name": "请您配合！",
+      "icon_id": "851903",
+      "sin_type": "嫉妒",
+      "damage_type": "打击",
+      "base_value": 8,
+      "coin_power": 5793,
+      "coin_count": 3,
+      "attack_level": 50,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "1{{状态2|不可摧毁的硬币|4=特殊}}",
+        "未摧毁 - 命中时下回合对目标施加3层{{状态2|麻痹|4=负面}}"
+      ]
+    },
+    {
+      "skill_name": "处理小镇移居申请",
+      "icon_id": "851904",
+      "sin_type": "嫉妒",
+      "damage_type": "打击",
+      "base_value": 16,
+      "coin_power": 5793,
+      "coin_count": 2,
+      "attack_level": 50,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[使用时] 消耗所有 充能 层数",
+        "[命中时] 对目标施加 禁锢"
+      ]
+    },
+    {
+      "skill_name": "请多多关照，亲爱的邻居",
+      "icon_id": "851905",
+      "sin_type": "嫉妒",
+      "damage_type": "打击",
+      "base_value": 20,
+      "coin_power": 5793,
+      "coin_count": 2,
+      "attack_level": 50,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[命中时] 使目标增加10级 烧伤 强度"
+      ]
+    },
+    {
+      "skill_name": "检测到系统错误",
+      "icon_id": "851906",
+      "sin_type": "嫉妒",
+      "damage_type": "打击",
+      "base_value": 7,
+      "coin_power": 5793,
+      "coin_count": 3,
+      "attack_level": 50,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[使用时] 下回合使自身陷入混乱",
+        "[命中时] 消耗2层 充能 并使目标增加10级 烧伤 强度"
+      ]
+    },
+    {
+      "skill_name": "正在进行计算处理",
+      "icon_id": "851907",
+      "sin_type": "常规",
+      "damage_type": "守备",
+      "base_value": 10,
+      "coin_power": 79,
+      "coin_count": 1,
+      "attack_level": 0,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "使用时使自身获得5层守护",
+        "使用时下回合使自身获得10层打击伤害强化",
+        "回合结束时若自身未陷入混乱，则下回合对自身施加5层{{状态2|易损|4=负面}}"
+      ]
+    },
+    {
+      "skill_name": "重启中…",
+      "icon_id": "851907",
+      "sin_type": "常规",
+      "damage_type": "守备",
+      "base_value": 4,
+      "coin_power": 79,
+      "coin_count": 1,
+      "attack_level": 0,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": []
+    },
+    {
+      "skill_name": "处理小镇新移居申请",
+      "icon_id": "851904",
+      "sin_type": "嫉妒",
+      "damage_type": "打击",
+      "base_value": 16,
+      "coin_power": 5793,
+      "coin_count": 2,
+      "attack_level": 50,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[使用时] 消耗所有 充能",
+        "[命中时] 对目标施加 禁锢"
+      ]
+    }
+  ],
+  "is_ally": false,
+  "_structured": true,
+  "appear_stages": [
+    "折射轨道1号线-第6站-选拔"
+  ],
+  "enemy_id": "折射轨道1号线-第6站-选拔|kqe-1j-23|",
+  "defense": 62,
+  "speed": "1~5",
+  "_schema_version": 1
+}

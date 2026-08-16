@@ -1,0 +1,38 @@
+{
+  "page_type": "enemy",
+  "title": "跑-战斗",
+  "enemy_name": "黄铜公牛 - 流泪",
+  "battle_stage": "跑-战斗",
+  "body_part": "躯干",
+  "hp": 549,
+  "defense_level": 40,
+  "speed_min": 1,
+  "speed_max": 4,
+  "chaos_threshold": "137",
+  "physical_resistances": {
+    "斩击": 0.5,
+    "突刺": 1.0,
+    "打击": 1.25
+  },
+  "sin_resistances": {
+    "暴怒": 0.5,
+    "色欲": 1.0,
+    "怠惰": 1.5,
+    "暴食": 0.5,
+    "忧郁": 2.0,
+    "傲慢": 1.0,
+    "嫉妒": 1.0
+  },
+  "panic_types": [],
+  "passives": [],
+  "skills": [],
+  "is_ally": false,
+  "_structured": true,
+  "appear_stages": [
+    "跑-战斗"
+  ],
+  "enemy_id": "跑-战斗|黄铜公牛 - 流泪|躯干",
+  "defense": 40,
+  "speed": "1~4",
+  "_schema_version": 1
+}

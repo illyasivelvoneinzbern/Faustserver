@@ -1,0 +1,21 @@
+{
+  "id": "gift_2062",
+  "title": "陈旧的通行证",
+  "url": "https://limbuscompany.huijiwiki.com/wiki/E.G.O饰品",
+  "categories": [
+    "E.G.O饰品"
+  ],
+  "content": "破碎陈旧的通行证。\n或许能用来打开某个地方的门扉？",
+  "source": "tabx",
+  "_structured": true,
+  "page_type": "ego_gift",
+  "gift_name": "陈旧的通行证",
+  "rarity": 0,
+  "cost": "0",
+  "effect_types": "",
+  "attack_type": "傲慢",
+  "location": "第八章",
+  "stage": "base",
+  "event": "事件-操作装置",
+  "_schema_version": 1
+}

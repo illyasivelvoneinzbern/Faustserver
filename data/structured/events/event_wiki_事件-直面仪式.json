@@ -1,0 +1,39 @@
+{
+  "page_type": "event",
+  "title": "事件-直面仪式",
+  "event_name": "直面仪式",
+  "narration": "紧闭的大门上方刻写道：\n直面你的恐惧，证明你的感情。\n以泪水填满容器。\n环顾四周，能看到一把看起来很不舒服的椅子旁边有一个所谓的容器。\n要怎么做？\n\n进行仪式\n坐在椅子上后仪式就会开始。\n虽然不知道是怎样的形式……但没有别的方法开门。\n【让谁坐在椅子上？】\n有利判定\n：\n≥10\n不利判定\n：\n≥15\n判定成功\n：\n罪人X坐上了椅子。\n……难以形容的悲鸣充满房间。\n罪人X泪如雨下。\n最终，器皿里盛满了泪水。\n将器皿放在靠近大门的祭坛上后，祭坛缓缓下降，大门打开了。\n“哈啊，哈啊……哈啊……”\n罪人X的瞳孔不断颤动。\n我决定不去询问其所见之事。\n“……大门内侧有个印章。”\n取下门内的青色印章后，我们走出房间。\n所选人格失去\n10点理智值\n！\n获得E.G.O饰品\n泪水之证\n！\n判定失败\n：\n罪人X坐上了椅子。\n难以形容的悲鸣充满房间。\n罪人X泪如雨下。\n但是，眼泪没能填满器皿。\n准确来说，是受到的精神冲击过大以至于让其连流泪都做不到了。\n我们带着沉浸在巨大悲伤中的罪人X走出房间。\n所选人格失去\n20点理智值\n！\n所选人格在下两场战斗中，获得\n3层\n虚弱\n\n离开房间\n在不知道仪式到底是怎样进行的情况下进行尝试是很危险的。\n我们离开了房间。\n什么都没有发生。",
+  "options": [
+    {
+      "choice_text": "进行仪式",
+      "check_type": "有利判定",
+      "check_sin": "忧郁",
+      "check_threshold": 10,
+      "success_outcomes": [
+        "失去 10点理智值 ！ 获得E.G.O饰品 泪水之证 ！ 判定失败 ： 罪人X坐上了椅子。 难以形容的悲鸣充满房间。 罪人X泪如雨下。 但是",
+        "失去 20点理"
+      ],
+      "failure_outcomes": [
+        "失去 20点理智值 ！ 所选人格在下两场战斗中",
+        "获得 3层 虚弱"
+      ]
+    },
+    {
+      "choice_text": "离开房间",
+      "check_type": "",
+      "check_sin": "",
+      "check_threshold": 0,
+      "success_outcomes": [],
+      "failure_outcomes": []
+    }
+  ],
+  "ego_gifts": [],
+  "related_abnormalities": [],
+  "trigger_location": "",
+  "_structured": true,
+  "id": "wiki_事件-直面仪式",
+  "url": "https://limbuscompany.huijiwiki.com/wiki/事件-直面仪式",
+  "categories": [],
+  "source": "wiki",
+  "_schema_version": 1
+}

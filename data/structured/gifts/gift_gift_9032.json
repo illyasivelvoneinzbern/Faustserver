@@ -1,0 +1,21 @@
+{
+  "id": "gift_9032",
+  "title": "梦中的电子羊",
+  "url": "https://limbuscompany.huijiwiki.com/wiki/E.G.O饰品",
+  "categories": [
+    "E.G.O饰品"
+  ],
+  "content": "嫉妒技能或斩击技能攻击后，若敌方单位阵亡，则在除本回合以外的下2回合内使该友方单位的斩击技能威力+2\n激活嫉妒完全共鸣时，战斗开始时，使全体友方单位获得2层攻击等级提升与2层防御等级提升。",
+  "source": "tabx",
+  "_structured": true,
+  "page_type": "ego_gift",
+  "gift_name": "梦中的电子羊",
+  "rarity": 2,
+  "cost": "198",
+  "effect_types": "斩击",
+  "attack_type": "嫉妒",
+  "location": "镜像迷宫",
+  "stage": "base",
+  "event": "事件-梦中的电子羊",
+  "_schema_version": 1
+}

@@ -1,0 +1,107 @@
+{
+  "page_type": "enemy",
+  "title": "主线战斗5-08",
+  "enemy_name": "留胡子的双钩海盗团成员",
+  "battle_stage": "主线战斗5-08",
+  "body_part": "",
+  "hp": 119,
+  "defense_level": 37,
+  "speed_min": 1,
+  "speed_max": 4,
+  "chaos_threshold": "",
+  "physical_resistances": {
+    "斩击": 0.75,
+    "突刺": 1.0,
+    "打击": 2.0
+  },
+  "sin_resistances": {
+    "暴怒": 1.0,
+    "色欲": 1.0,
+    "怠惰": 1.0,
+    "暴食": 1.0,
+    "忧郁": 1.0,
+    "傲慢": 1.0,
+    "嫉妒": 1.0
+  },
+  "panic_types": [
+    "畏缩",
+    "虚弱",
+    "畏缩",
+    "虚弱"
+  ],
+  "passives": [
+    "轻松喘息：若自身带有 呼吸法 ，则拼点胜利后使自身增加5级 呼吸法 强度。",
+    "硬币的两面：每回合第1枚硬币正面命中时，下回合使自身获得1层 伤害强化 。 第1枚硬币反面命中时，下回合使自身获得1层 伤害弱化 。"
+  ],
+  "skills": [
+    {
+      "skill_name": "爪钩切割",
+      "icon_id": "9008401",
+      "sin_type": "色欲",
+      "damage_type": "",
+      "base_value": 0,
+      "coin_power": 7,
+      "coin_count": 2,
+      "attack_level": 34,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "coin_effects": [
+        "[正面命中时] 使目标增加3级 流血 强度"
+      ]
+    },
+    {
+      "skill_name": "爪钩连割",
+      "icon_id": "9008402",
+      "sin_type": "色欲",
+      "damage_type": "",
+      "base_value": 0,
+      "coin_power": 5,
+      "coin_count": 3,
+      "attack_level": 34,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "coin_effects": [
+        "[命中时] 对目标施加2层 流血",
+        "[命中时] 使目标增加5级 流血 强度"
+      ]
+    },
+    {
+      "skill_name": "战吼",
+      "icon_id": "9008403",
+      "sin_type": "常规",
+      "damage_type": "",
+      "base_value": 0,
+      "coin_power": 10,
+      "coin_count": 1,
+      "attack_level": 0,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "coin_effects": []
+    },
+    {
+      "skill_name": "撕开裂口",
+      "icon_id": "9008404",
+      "sin_type": "傲慢",
+      "damage_type": "",
+      "base_value": 0,
+      "coin_power": 6,
+      "coin_count": 3,
+      "attack_level": 34,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "coin_effects": [
+        "[反面命中时] 使本硬币造成的伤害+30%"
+      ]
+    }
+  ],
+  "is_ally": false,
+  "_structured": true,
+  "enemy_id": "主线战斗5-08|留胡子的双钩海盗团成员",
+  "defense": 37,
+  "speed": "1~4",
+  "_schema_version": 1
+}

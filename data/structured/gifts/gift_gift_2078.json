@@ -1,0 +1,21 @@
+{
+  "id": "gift_2078",
+  "title": "孔灭日的记忆",
+  "url": "https://limbuscompany.huijiwiki.com/wiki/E.G.O饰品",
+  "categories": [
+    "E.G.O饰品"
+  ],
+  "content": "鸿璐人格等级提升至55\n鸿璐人格同步与异想解析提升至4阶段。\n<i><span style=\"color:#a16a3b\">“勿忘孔家灭门之日。\n灭门皆因孔家罪孽深重。\n对其未能遵守鸿园戒律之罪业，无需悲悯，只应感到可笑。\n因此，报应必当降至其身。”</span></i>",
+  "source": "tabx",
+  "_structured": true,
+  "page_type": "ego_gift",
+  "gift_name": "孔灭日的记忆",
+  "rarity": 0,
+  "cost": "0",
+  "effect_types": "",
+  "attack_type": "忧郁",
+  "location": "第八章",
+  "stage": "base",
+  "event": "主线战斗8-20",
+  "_schema_version": 1
+}

@@ -1,0 +1,86 @@
+{
+  "page_type": "enemy",
+  "title": "大湖之镜-嘎吱嘎吱？来吧！",
+  "enemy_name": "普通 - 粉红鞋魅惑之人",
+  "battle_stage": "大湖之镜-嘎吱嘎吱？来吧！",
+  "body_part": "躯干",
+  "hp": 153,
+  "defense_level": 43,
+  "speed_min": 2,
+  "speed_max": 5,
+  "chaos_threshold": "",
+  "physical_resistances": {
+    "斩击": 2.0,
+    "突刺": 1.0,
+    "打击": 1.0
+  },
+  "sin_resistances": {
+    "暴怒": 1.5,
+    "色欲": 0.75,
+    "怠惰": 2.0,
+    "暴食": 0.75,
+    "忧郁": 1.0,
+    "傲慢": 2.0,
+    "嫉妒": 1.0
+  },
+  "panic_types": [],
+  "passives": [],
+  "skills": [
+    {
+      "skill_name": "受缚姿态",
+      "icon_id": "801301",
+      "sin_type": "色欲",
+      "damage_type": "打击",
+      "base_value": 2,
+      "coin_power": 9,
+      "coin_count": 1,
+      "attack_level": 47,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": []
+    },
+    {
+      "skill_name": "紧缚欲望",
+      "icon_id": "801302",
+      "sin_type": "色欲",
+      "damage_type": "打击",
+      "base_value": 2,
+      "coin_power": 9,
+      "coin_count": 1,
+      "attack_level": 47,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": []
+    },
+    {
+      "skill_name": "粉红之舞",
+      "icon_id": "801303",
+      "sin_type": "色欲",
+      "damage_type": "打击",
+      "base_value": 3,
+      "coin_power": 9,
+      "coin_count": 3,
+      "attack_level": 47,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[命中时] 下回合对目标施加1层 欲望"
+      ]
+    }
+  ],
+  "is_ally": false,
+  "_structured": true,
+  "appear_stages": [
+    "大湖之镜-嘎吱嘎吱？来吧！"
+  ],
+  "enemy_id": "大湖之镜-嘎吱嘎吱？来吧！|普通 - 粉红鞋魅惑之人|躯干",
+  "defense": 43,
+  "speed": "2~5",
+  "_schema_version": 1
+}

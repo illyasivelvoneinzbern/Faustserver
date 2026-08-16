@@ -1,0 +1,175 @@
+{
+  "page_type": "enemy",
+  "title": "困难活动战斗6.5-10",
+  "enemy_name": "20区圣愚队长",
+  "battle_stage": "困难活动战斗6.5-10",
+  "body_part": "躯干",
+  "hp": 689,
+  "defense_level": 55,
+  "speed_min": 3,
+  "speed_max": 4,
+  "chaos_threshold": "516/0",
+  "physical_resistances": {
+    "斩击": 0.5,
+    "突刺": 2.0,
+    "打击": 1.0
+  },
+  "sin_resistances": {
+    "暴怒": 1.0,
+    "色欲": 1.0,
+    "怠惰": 1.0,
+    "暴食": 1.0,
+    "忧郁": 1.0,
+    "傲慢": 1.0,
+    "嫉妒": 1.0
+  },
+  "panic_types": [
+    "瓦解的同盟"
+  ],
+  "passives": [],
+  "skills": [
+    {
+      "skill_name": "你有良心吗？",
+      "icon_id": "9101701",
+      "sin_type": "忧郁",
+      "damage_type": "打击",
+      "base_value": 3,
+      "coin_power": 3,
+      "coin_count": 3,
+      "attack_level": 59,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[使用时] 对自身施加2层 震颤 若自身的 震颤 层数不低于5层，则使本技能的拼点威力+1",
+        "[命中时] 使目标增加2级 震颤 强度"
+      ]
+    },
+    {
+      "skill_name": "你没良心啊",
+      "icon_id": "9101702",
+      "sin_type": "暴食",
+      "damage_type": "打击",
+      "base_value": 3,
+      "coin_power": 854,
+      "coin_count": 3,
+      "attack_level": 59,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[使用时] 对自身施加2层 震颤 若自身的 震颤 层数不低于5层，则使本技能的拼点威力+1",
+        "[命中时] 使目标增加3级 震颤 强度"
+      ]
+    },
+    {
+      "skill_name": "保护得了他们吗？",
+      "icon_id": "9101703",
+      "sin_type": "傲慢",
+      "damage_type": "穿刺",
+      "base_value": 4,
+      "coin_power": 3,
+      "coin_count": 3,
+      "attack_level": 59,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[使用时] 对自身施加2层 震颤 若自身的 震颤 层数不低于5层，则使本技能的拼点威力+1",
+        "[命中时] 使目标增加5级 震颤 强度",
+        "[命中时] 若自身的 震颤 层数不低于10层，则使目标 震颤引爆 并使其 震颤 层数减少1层",
+        "[命中时] 若目标的 震颤 强度不低于15级，则使其 震颤引爆 并使其 震颤 层数减少1层"
+      ]
+    },
+    {
+      "skill_name": "你那武器报废了吧？",
+      "icon_id": "9101704",
+      "sin_type": "怠惰",
+      "damage_type": "穿刺",
+      "base_value": 3,
+      "coin_power": 9703,
+      "coin_count": 4,
+      "attack_level": 59,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[使用时] 对自身施加3层 震颤 若自身的 震颤 层数不低于5层，则使本技能的拼点威力+1",
+        "[命中时] 使目标增加5级 震颤 强度",
+        "[命中时] 使目标 振幅转换 为 震颤-崩坏"
+      ]
+    },
+    {
+      "skill_name": "准备好了？",
+      "icon_id": "9101705",
+      "sin_type": "傲慢",
+      "damage_type": "穿刺",
+      "base_value": 5,
+      "coin_power": 3,
+      "coin_count": 9,
+      "attack_level": 59,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[使用时] 根据自身带有的 震颤 层数，对除自身以外的全体友方单位施加相应层数的 震颤",
+        "[使用时] 使包括自身在内的全体友方单位的 震颤 振幅转换 为 震颤-分配",
+        "[命中时] 使目标以 震颤-回响 振幅纠缠"
+      ]
+    },
+    {
+      "skill_name": "防御",
+      "icon_id": "9101706",
+      "sin_type": "常规",
+      "damage_type": "防御",
+      "base_value": 5,
+      "coin_power": 79,
+      "coin_count": 1,
+      "attack_level": 0,
+      "attack_weight": 1,
+      "is_guard": true,
+      "guard_type": "防御",
+      "importance": 0,
+      "coin_effects": [
+        "战斗开始使自身获得5×(自身的{{状态2|震颤|4=负面}}层数)点护盾体力(最多60点)"
+      ]
+    },
+    {
+      "skill_name": "为了我们的事业",
+      "icon_id": "9101707",
+      "sin_type": "暴怒",
+      "damage_type": "穿刺",
+      "base_value": 10,
+      "coin_power": 987,
+      "coin_count": 4,
+      "attack_level": 59,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[使用时] 对自身施加10层 震颤",
+        "[命中时] 使目标增加10级 震颤 强度",
+        "[命中时] 对目标追加自身带有的 震颤 层数20%的怠惰伤害",
+        "[命中时] 对目标施加4层 震颤",
+        "[命中时] 消耗自身的1层 震颤 ，使目标 震颤引爆 并使其 震颤 层数减少1层",
+        "[命中时] 消耗自身的1层 震颤 使目标 震颤引爆 ，并使其 震颤 层数减少1层"
+      ]
+    }
+  ],
+  "is_ally": false,
+  "_structured": true,
+  "appear_stages": [
+    "困难活动战斗6.5-10",
+    "活动战斗6.5-10"
+  ],
+  "enemy_id": "困难活动战斗6.5-10|20区圣愚队长|躯干",
+  "defense": 55,
+  "speed": "3~4",
+  "_schema_version": 1
+}

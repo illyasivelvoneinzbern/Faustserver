@@ -1,0 +1,177 @@
+{
+  "page_type": "enemy",
+  "title": "折射轨道3号线-第10站",
+  "enemy_name": "折射的斯达巴克",
+  "battle_stage": "折射轨道3号线-第10站",
+  "body_part": "躯干",
+  "hp": 499,
+  "defense_level": 41,
+  "speed_min": 3,
+  "speed_max": 5,
+  "chaos_threshold": "349/200/100/0",
+  "physical_resistances": {
+    "斩击": 1.0,
+    "突刺": 1.5,
+    "打击": 0.5
+  },
+  "sin_resistances": {
+    "暴怒": 0.5,
+    "色欲": 0.5,
+    "怠惰": 1.0,
+    "暴食": 1.25,
+    "忧郁": 1.0,
+    "傲慢": 1.0,
+    "嫉妒": 1.0
+  },
+  "panic_types": [],
+  "passives": [],
+  "skills": [
+    {
+      "skill_name": "穿刺",
+      "icon_id": "810401",
+      "sin_type": "暴食",
+      "damage_type": "穿刺",
+      "base_value": 3,
+      "coin_power": 3,
+      "coin_count": 3,
+      "attack_level": 0,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "使用时使自身获得3层呼吸法",
+        "1命中时使目标增加1层{{状态2|流血|4=负面}}",
+        "2命中时使目标增加1层{{状态2|流血|4=负面}}",
+        "3命中时使目标增加1层{{状态2|流血|4=负面}}"
+      ]
+    },
+    {
+      "skill_name": "利刃穿身",
+      "icon_id": "810402",
+      "sin_type": "暴食",
+      "damage_type": "穿刺",
+      "base_value": 5,
+      "coin_power": 4,
+      "coin_count": 2,
+      "attack_level": 0,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "使用时使自身获得5级呼吸法强度",
+        "1命中时使目标增加1层{{状态2|易损|4=负面}}",
+        "2命中时使目标增加2层{{状态2|防御等级降低|4=负面}}",
+        "正面命中时重复使用本硬币（最多3次）"
+      ]
+    },
+    {
+      "skill_name": "听从命令…",
+      "icon_id": "810403",
+      "sin_type": "怠惰",
+      "damage_type": "突刺",
+      "base_value": 5,
+      "coin_power": 5,
+      "coin_count": 1,
+      "attack_level": 0,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "1命中时使目标增加1层{{状态2|流血|4=负面}}"
+      ]
+    },
+    {
+      "skill_name": "突击",
+      "icon_id": "810404",
+      "sin_type": "暴怒",
+      "damage_type": "突刺",
+      "base_value": 5,
+      "coin_power": 5,
+      "coin_count": 1,
+      "attack_level": 0,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "本技能暴击时造成的伤害+50%",
+        "目标每带有1级{{状态2|流血|4=负面}}强度，使本技能造成的伤害+5%",
+        "1命中时使目标增加3层{{状态2|流血|4=负面}}",
+        "暴击命中时使目标的第一混乱阈值前移本硬币伤害量的50%"
+      ]
+    },
+    {
+      "skill_name": "恐惧的叹息",
+      "icon_id": "810405",
+      "sin_type": "怠惰",
+      "damage_type": "突刺",
+      "base_value": 12,
+      "coin_power": 3,
+      "coin_count": 3,
+      "attack_level": 0,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "使用时使自身获得6层呼吸法",
+        "1命中时使目标增加1层{{状态2|流血|4=负面}}",
+        "2命中时使目标增加1层{{状态2|流血|4=负面}}",
+        "3命中时使目标增加1层{{状态2|流血|4=负面}}"
+      ]
+    },
+    {
+      "skill_name": "决心鱼叉",
+      "icon_id": "810406",
+      "sin_type": "色欲",
+      "damage_type": "突刺",
+      "base_value": 16,
+      "coin_power": 5,
+      "coin_count": 2,
+      "attack_level": 0,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "与魁魁格攻击相同目标时，使本技能的最终威力+2",
+        "1命中时对目标施加捕获",
+        "命中时下回合对目标施加5层{{状态2|防御等级降低|4=负面}}",
+        "2命中时对目标施加1层{{状态2|易损|4=负面}}",
+        "反面命中时重复使用本硬币（最多3次）"
+      ]
+    },
+    {
+      "skill_name": "为了离开",
+      "icon_id": "810407",
+      "sin_type": "怠惰",
+      "damage_type": "突刺",
+      "base_value": 20,
+      "coin_power": 10,
+      "coin_count": 1,
+      "attack_level": 0,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "本技能暴击时造成的伤害+100%",
+        "目标每带有1级{{状态2|流血|4=负面}}强度，使本技能造成的伤害+5%",
+        "1命中时对目标施加3层{{状态2|流血|4=负面}}",
+        "暴击命中时使目标的第一混乱阈值前移本硬币伤害量的50%"
+      ]
+    }
+  ],
+  "is_ally": false,
+  "_structured": true,
+  "appear_stages": [
+    "折射轨道3号线-第10站"
+  ],
+  "enemy_id": "折射轨道3号线-第10站|折射的斯达巴克|躯干",
+  "defense": 41,
+  "speed": "3~5",
+  "_schema_version": 1
+}

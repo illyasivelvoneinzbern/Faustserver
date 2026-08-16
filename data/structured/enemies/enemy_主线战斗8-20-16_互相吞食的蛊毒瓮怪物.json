@@ -1,0 +1,140 @@
+{
+  "page_type": "enemy",
+  "title": "主线战斗8-20-16",
+  "enemy_name": "互相吞食的蛊毒瓮怪物",
+  "battle_stage": "主线战斗8-20-16",
+  "body_part": "躯干",
+  "hp": 212,
+  "defense_level": 58,
+  "speed_min": 3,
+  "speed_max": 5,
+  "chaos_threshold": "127/0",
+  "physical_resistances": {
+    "斩击": 0.8,
+    "突刺": 1.0,
+    "打击": 0.8
+  },
+  "sin_resistances": {
+    "暴怒": 0.5,
+    "色欲": 0.5,
+    "怠惰": 1.0,
+    "暴食": 1.3,
+    "忧郁": 1.25,
+    "傲慢": 1.0,
+    "嫉妒": 1.25
+  },
+  "panic_types": [],
+  "passives": [
+    "偏离的诅咒: 自身陷入混乱时，解除自身最后攻击的目标的 破裂 强度与 破裂 层数",
+    "咒鬼之瓮: 命中时，若目标的 破裂 强度与 破裂 层数之和不低于5，则对其施加1层 防御等级降低 (每回合最多5次)",
+    "宿于瓮中的诅咒: 回合结束时，对全体敌方单位施加相当于自身登场后进行的回合数的 剧毒 (最多5层) 若自身自毁，则对全体敌方单位施加(进行的回合数×5)层 剧毒 (最多25层)与2层 破裂"
+  ],
+  "skills": [
+    {
+      "skill_name": "撕挠伤口",
+      "icon_id": "9102201",
+      "sin_type": "色欲",
+      "damage_type": "斩击",
+      "base_value": 4,
+      "coin_power": 9,
+      "coin_count": 3,
+      "attack_level": 55,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[使用时] 若目标的 破裂 强度不低于4级，则使本技能的硬币威力+1",
+        "[命中时] 使目标增加2级 破裂 强度",
+        "[命中时] 使目标增加2级 流血 强度"
+      ]
+    },
+    {
+      "skill_name": "撕裂血肉",
+      "icon_id": "9102202",
+      "sin_type": "暴食",
+      "damage_type": "斩击",
+      "base_value": 4,
+      "coin_power": 854,
+      "coin_count": 3,
+      "attack_level": 55,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[使用时] 目标每带有4级 破裂 强度，使本技能的硬币威力+1(最多+2)",
+        "[命中时] 对目标施加3层 破裂",
+        "[命中时] 对目标施加3层 流血"
+      ]
+    },
+    {
+      "skill_name": "于蛊毒之中挣扎",
+      "icon_id": "9102203",
+      "sin_type": "暴怒",
+      "damage_type": "斩击",
+      "base_value": 4,
+      "coin_power": 987,
+      "coin_count": 9,
+      "attack_level": 55,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[使用时] 自身每失去10%的体力，使本技能的基础威力+1(最多+5)",
+        "[使用时] 目标每带有6级 破裂 强度，使本技能的硬币威力+1(最多+3)",
+        "[使用时] 若目标的 破裂 强度与 破裂 层数之和不低于10，则对其施加层数相当于其 破裂 层数的 破裂 不可摧毁的硬币",
+        "[命中时] 使目标增加2级 破裂 强度",
+        "[命中时] 使目标增加2级 流血 强度 不可摧毁的硬币",
+        "[命中时] 若目标的 破裂 强度与 破裂 层数之和不低于15，则对其造成(其 破裂 强度与 破裂 层数之积)点暴食伤害。(最多40点)",
+        "[命中时] 对目标施加5层 流血"
+      ]
+    },
+    {
+      "skill_name": "反击",
+      "icon_id": "9102204",
+      "sin_type": "嫉妒",
+      "damage_type": "斩击",
+      "base_value": 3,
+      "coin_power": 5793,
+      "coin_count": 2,
+      "attack_level": 55,
+      "attack_weight": 1,
+      "is_guard": true,
+      "guard_type": "反击",
+      "importance": 0,
+      "coin_effects": [
+        "[命中时] 使目标增加1级 破裂 强度",
+        "[命中时] 使目标增加2级 流血 强度",
+        "[命中时] 若目标的 破裂 强度不低于5级，则重复使用本硬币(最多2次)"
+      ]
+    },
+    {
+      "skill_name": "飞扑而来的破瓮",
+      "icon_id": "9102205",
+      "sin_type": "暴怒",
+      "damage_type": "打击",
+      "base_value": 6,
+      "coin_power": 987,
+      "coin_count": 3,
+      "attack_level": 55,
+      "attack_weight": 1,
+      "is_guard": true,
+      "guard_type": "防御",
+      "importance": 0,
+      "coin_effects": [
+        "[攻击后] 下回合随机对目标施加3种以下效果。造成30点伤害后自身阵亡 - 4层 攻击等级降低 - 4层 防御等级降低 - 2层 麻痹 - 2层 束缚 不可摧毁的硬币"
+      ]
+    }
+  ],
+  "is_ally": false,
+  "_structured": true,
+  "appear_stages": [
+    "主线战斗8-20-16"
+  ],
+  "enemy_id": "主线战斗8-20-16|互相吞食的蛊毒瓮怪物|躯干",
+  "defense": 58,
+  "speed": "3~5",
+  "_schema_version": 1
+}

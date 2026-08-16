@@ -1,0 +1,44 @@
+{
+  "page_type": "event",
+  "title": "事件-黄铜公牛 - 流泪",
+  "event_name": "黄铜公牛 - 流泪",
+  "narration": "痛苦的声音从热气中传来。\n难以分清那到底是一只野兽，又或是人的声音。\n火焰噼啪作响，\n伴着皮肉被烧焦的臭味回荡在空气中。\n“求你了！哪怕一口也好，\n有谁能给我一口水吗！”\n\n给它水\n水刚流进它的口中，\n便立刻化为蒸汽从口中喷出。\n灼热的身体甚至不容许它喝下哪怕一口水。\n不知是因为被沸水烫伤的痛苦，\n还是因为没能解渴的惋惜，\n公牛一边闹腾一边到处冲撞。\n随后，它用灼热的身体撞向我们。\n技能组不包含\n怠惰属性攻击技能\n的友方单位失去\n20点体力\n！\n获得\n！\n\n不给它水\n想要抬起身体却无法做到的公牛\n趴在地面中央，大声哭喊。\n那声音过于痛苦，仿佛让我也要跟着哭出来。\n深沉而悲痛的哭声，始终回荡在空间中。\n技能组不包含\n怠惰属性攻击技能\n的友方单位失去失去\n12点体力\n及\n12点理智值！\n获得\n！\n\n喝掉水\n将水倒到灼热的黄铜上似乎没有什么意义。\n相反地，我将水递给了忍受酷热折磨而汗流浃背的罪人们。\n公牛绝望地咆哮着……\n……但至少每个罪人都润了润喉咙。\n我还在这么想的时候，公牛径直向我们的方向冲来。\n触发\n集中战斗\n！\n战斗胜利后，获得\n！\n战斗失败后，没有奖励",
+  "options": [
+    {
+      "choice_text": "给它水",
+      "check_type": "",
+      "check_sin": "",
+      "check_threshold": 0,
+      "success_outcomes": [],
+      "failure_outcomes": []
+    },
+    {
+      "choice_text": "不给它水",
+      "check_type": "",
+      "check_sin": "",
+      "check_threshold": 0,
+      "success_outcomes": [],
+      "failure_outcomes": []
+    },
+    {
+      "choice_text": "喝掉水",
+      "check_type": "",
+      "check_sin": "",
+      "check_threshold": 0,
+      "success_outcomes": [],
+      "failure_outcomes": []
+    }
+  ],
+  "ego_gifts": [],
+  "related_abnormalities": [
+    "事件触发地点",
+    "镜像迷宫"
+  ],
+  "trigger_location": "",
+  "_structured": true,
+  "id": "wiki_事件-黄铜公牛_-_流泪",
+  "url": "https://limbuscompany.huijiwiki.com/wiki/事件-黄铜公牛 - 流泪",
+  "categories": [],
+  "source": "wiki",
+  "_schema_version": 1
+}

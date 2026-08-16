@@ -1,0 +1,21 @@
+{
+  "id": "gift_9258_upgraded_2",
+  "title": "复仇账簿：附录",
+  "url": "https://limbuscompany.huijiwiki.com/wiki/E.G.O饰品",
+  "categories": [
+    "E.G.O饰品"
+  ],
+  "content": "战斗开始时，根据装备的守备技能数，使属于中指的友方单位增加相应的攻击等级(最多增加12级)\n- 若装备的守备技能数不低于6，则使嫉妒基础技能造成的伤害+30%，每额外装备1个守备技能，使其造成的伤害额外+10%(最多额外+60%)",
+  "source": "tabx",
+  "_structured": true,
+  "page_type": "ego_gift",
+  "gift_name": "复仇账簿：附录",
+  "rarity": 4,
+  "cost": "400",
+  "effect_types": "打击",
+  "attack_type": "嫉妒",
+  "location": "镜像迷宫",
+  "stage": "upgraded_2",
+  "special": "隐藏节点-蜘蛛巢的中指",
+  "_schema_version": 1
+}

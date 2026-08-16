@@ -1,0 +1,21 @@
+{
+  "id": "gift_9707",
+  "title": "闪光废料",
+  "url": "https://limbuscompany.huijiwiki.com/wiki/E.G.O饰品",
+  "categories": [
+    "E.G.O饰品"
+  ],
+  "content": "若友方单位带有护盾时受到敌方单位攻击，则反弹3点固定伤害。(护盾没有受到伤害时不反弹伤害)",
+  "source": "tabx",
+  "_structured": true,
+  "page_type": "ego_gift",
+  "gift_name": "闪光废料",
+  "rarity": 2,
+  "cost": "191",
+  "effect_types": "泛用",
+  "attack_type": "怠惰",
+  "location": "镜像迷宫",
+  "stage": "base",
+  "special": "去·海·边",
+  "_schema_version": 1
+}

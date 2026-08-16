@@ -1,0 +1,88 @@
+{
+  "page_type": "enemy",
+  "title": "1-11-2-重要异想体管理所",
+  "enemy_name": "2阶段",
+  "battle_stage": "1-11-2-重要异想体管理所",
+  "body_part": "右臂",
+  "hp": 62,
+  "defense_level": 7,
+  "speed_min": 1,
+  "speed_max": 2,
+  "chaos_threshold": "31",
+  "physical_resistances": {
+    "斩击": 2.0,
+    "突刺": 1.0,
+    "打击": 1.0
+  },
+  "sin_resistances": {
+    "暴怒": 1.5,
+    "色欲": 0.5,
+    "怠惰": 2.0,
+    "暴食": 1.0,
+    "忧郁": 1.0,
+    "傲慢": 1.0,
+    "嫉妒": 1.0
+  },
+  "panic_types": [],
+  "passives": [],
+  "skills": [
+    {
+      "skill_name": "巨力猛砸",
+      "icon_id": "800201",
+      "sin_type": "怠惰",
+      "damage_type": "",
+      "base_value": 2,
+      "coin_power": 9703,
+      "coin_count": 1,
+      "attack_level": 1,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": []
+    },
+    {
+      "skill_name": "大地震颤",
+      "icon_id": "800203",
+      "sin_type": "怠惰",
+      "damage_type": "斩击",
+      "base_value": 3,
+      "coin_power": 9703,
+      "coin_count": 2,
+      "attack_level": 1,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[命中时] 下回合对目标施加1层 束缚"
+      ]
+    },
+    {
+      "skill_name": "活祭仪式",
+      "icon_id": "800204",
+      "sin_type": "色欲",
+      "damage_type": "斩击",
+      "base_value": 10,
+      "coin_power": 9,
+      "coin_count": 2,
+      "attack_level": 1,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[命中时] 下回合对目标施加3层 流血"
+      ]
+    }
+  ],
+  "is_ally": false,
+  "_structured": true,
+  "appear_stages": [
+    "1-11-2-重要异想体管理所"
+  ],
+  "enemy_id": "1-11-2-重要异想体管理所|2阶段|右臂",
+  "defense": 7,
+  "speed": "1~2",
+  "_schema_version": 1
+}

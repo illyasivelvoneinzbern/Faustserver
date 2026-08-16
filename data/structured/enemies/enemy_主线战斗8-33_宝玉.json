@@ -1,0 +1,103 @@
+{
+  "page_type": "enemy",
+  "title": "主线战斗8-33",
+  "enemy_name": "宝玉",
+  "battle_stage": "主线战斗8-33",
+  "body_part": "玉",
+  "hp": 171,
+  "defense_level": 55,
+  "speed_min": 2,
+  "speed_max": 4,
+  "chaos_threshold": "",
+  "physical_resistances": {
+    "斩击": 1.0,
+    "突刺": 1.0,
+    "打击": 1.0
+  },
+  "sin_resistances": {
+    "暴怒": 1.0,
+    "色欲": 1.5,
+    "怠惰": 1.0,
+    "暴食": 1.5,
+    "忧郁": 1.0,
+    "傲慢": 1.0,
+    "嫉妒": 1.0
+  },
+  "panic_types": [],
+  "passives": [
+    "仙人啊，请看吧！: 自身在场时，回合开始时使贾母的本体与所有部位获得200点护盾",
+    "宝玉的本分: 自身在场时，被关住的单位获得以下效果 - 处于无法行动状态 - 自身的状态效果，体力与理智值不会改变",
+    "离家: 自身阵亡后，下回合使被关住的单位重返战斗",
+    "破邪显正: 若自身被罪人击杀，则触发以下效果 - 使全体友方单位恢复10点理智值，下回合使全体友方单位获得2层 伤害强化 - 下2回合对贾母施加5层 束缚 ，3层 攻击等级降低 与5层 易损 - 使本单位关住的单位的理智值恢复至45点。重返战斗时使其获得2层 强壮 - 获得所有属性的罪孽碎片各3个"
+  ],
+  "skills": [
+    {
+      "skill_name": "在此向您请安",
+      "icon_id": "115301",
+      "sin_type": "忧郁",
+      "damage_type": "打击",
+      "base_value": 4,
+      "coin_power": 8,
+      "coin_count": 1,
+      "attack_level": 1,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "1{{状态2|不可摧毁的硬币|4=特殊}}",
+        "未摧毁 - 命中时对目标造成5点理智伤害",
+        "未摧毁 - 命中时下回合对目标施加1层{{状态2|易损|4=负面}}"
+      ]
+    },
+    {
+      "skill_name": "我会安分守己",
+      "icon_id": "115302",
+      "sin_type": "怠惰",
+      "damage_type": "无",
+      "base_value": 6,
+      "coin_power": 8,
+      "coin_count": 1,
+      "attack_level": 1,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "{{状态2|可拼点防御|4=特殊}}",
+        "拼点胜利使贾母恢复15点理智值。若贾母的理智值不高于0点，则改为恢复30点理智值。",
+        "1{{状态2|不可摧毁的硬币|4=特殊}}"
+      ]
+    },
+    {
+      "skill_name": "奉上欢愉",
+      "icon_id": "115303",
+      "sin_type": "暴怒",
+      "damage_type": "打击",
+      "base_value": 20,
+      "coin_power": 5,
+      "coin_count": 1,
+      "attack_level": 1,
+      "attack_weight": 7,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "无法拼点",
+        "攻击后自身阵亡，使贾母的理智值恢复至45点，下回合使贾母获得2层强壮与5层伤害强化",
+        "1{{状态2|不可摧毁的硬币|4=特殊}}",
+        "命中时对目标造成15点理智伤害",
+        "命中时使目标的混乱阈值前移本硬币伤害量的50%"
+      ]
+    }
+  ],
+  "is_ally": false,
+  "_structured": true,
+  "appear_stages": [
+    "主线战斗8-33"
+  ],
+  "enemy_id": "主线战斗8-33|宝玉|玉",
+  "defense": 55,
+  "speed": "2~4",
+  "_schema_version": 1
+}

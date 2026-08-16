@@ -1,0 +1,175 @@
+{
+  "page_type": "enemy",
+  "title": "主线战斗8-20-20",
+  "enemy_name": "史易华",
+  "battle_stage": "主线战斗8-20-20",
+  "body_part": "躯干",
+  "hp": 1057,
+  "defense_level": 60,
+  "speed_min": 4,
+  "speed_max": 6,
+  "chaos_threshold": "420/0",
+  "physical_resistances": {
+    "斩击": 0.8,
+    "突刺": 0.8,
+    "打击": 0.8
+  },
+  "sin_resistances": {
+    "暴怒": 0.75,
+    "色欲": 0.75,
+    "怠惰": 1.0,
+    "暴食": 1.5,
+    "忧郁": 0.5,
+    "傲慢": 1.25,
+    "嫉妒": 1.0
+  },
+  "panic_types": [
+    "双刃羽（士气低落）",
+    "双刃羽（陷入恐慌）",
+    "眼羽"
+  ],
+  "passives": [
+    "不老不死之丸？: 技能命中时，使自身恢复该技能伤害量10%的体力(向下取整) 若目标带有 眼羽 ，则使自身额外恢复(目标的 眼羽 层数)%的体力",
+    "感觉最棒了！: 自身的攻击命中时，使自身恢复3点理智值",
+    "余的复仇开始啦！: 每当自身拼点失败时，下回合使自身获得1层 攻击等级提升 (最多3层)",
+    "羽之破裂伤: 同一回合内自身每命中同一目标3次，下回合对该目标施加1层 易损",
+    "狂暴: 本场战斗自身每累计失去15%的体力，使自身增加1级攻击等级并减少1级防御等级(最多6级)",
+    "战斗结束: 本场战斗中，史易华失去了全部体力时，战斗结束",
+    "固定恐慌: 被施加改变恐慌类型的状态时，自身的恐慌类型不会改变。效果改为对没有理智值的单位施加的效果。",
+    "恐慌恢复: 回合结束时，若陷入恐慌，则使自身理智值恢复为0点。"
+  ],
+  "skills": [
+    {
+      "skill_name": "接着！",
+      "icon_id": "115801",
+      "sin_type": "怠惰",
+      "damage_type": "穿刺",
+      "base_value": 4,
+      "coin_power": 9703,
+      "coin_count": 3,
+      "attack_level": 61,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[使用时] 目标每带有2种负面状态，使本技能的硬币威力+1(最多+2)",
+        "[命中时] 对目标施加1层 眼羽",
+        "[命中时] 对目标施加2层 破裂",
+        "[命中时] 下回合对目标施加2层 束缚"
+      ]
+    },
+    {
+      "skill_name": "跪下！",
+      "icon_id": "115802",
+      "sin_type": "色欲",
+      "damage_type": "穿刺",
+      "base_value": 4,
+      "coin_power": 9,
+      "coin_count": 5,
+      "attack_level": 62,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[使用时] 目标每带有2种负面状态，使本技能的硬币威力+1(最多+2) 不可摧毁的硬币",
+        "[命中时] 对目标施加1层 眼羽",
+        "[命中时] 对目标施加2层 破裂 不可摧毁的硬币",
+        "[命中时] 使目标增加2级 破裂 强度"
+      ]
+    },
+    {
+      "skill_name": "瞧你那蠢样！",
+      "icon_id": "115803",
+      "sin_type": "暴食",
+      "damage_type": "穿刺",
+      "base_value": 4,
+      "coin_power": 854,
+      "coin_count": 3,
+      "attack_level": 62,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[使用时] 目标每带有2种负面状态，使本技能的硬币威力+1(最多+2)",
+        "[命中时] 对目标施加1层 眼羽",
+        "[命中时] 使目标增加4级 破裂 强度",
+        "[命中时] 触发目标的 破裂 1次。使目标的 破裂 层数减少1层",
+        "[命中时] 根据目标的 眼羽 层数，使其增加相应的 流血 强度与 破裂 强度"
+      ]
+    },
+    {
+      "skill_name": "给余行礼！",
+      "icon_id": "115804",
+      "sin_type": "暴怒",
+      "damage_type": "穿刺",
+      "base_value": 5,
+      "coin_power": 987,
+      "coin_count": 7,
+      "attack_level": 63,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[使用时] 消耗自身体力上限3%的体力(不会因该伤害而阵亡) 不可摧毁的硬币",
+        "[命中时] 对目标施加1层 眼羽",
+        "[命中时] 使目标增加1级 破裂 强度",
+        "[命中时] 下回合对目标施加1层 暴食易损 不可摧毁的硬币",
+        "[命中时] 对目标施加2层 眼羽",
+        "[命中时] 使目标增加2级 破裂 强度",
+        "[命中时] 对目标施加3层 眼羽",
+        "[命中时] 使目标增加3级 破裂 强度",
+        "[命中时] 下回合对目标施加1层 暴食易损"
+      ]
+    },
+    {
+      "skill_name": "跪拜叩首！",
+      "icon_id": "115805",
+      "sin_type": "暴食",
+      "damage_type": "穿刺",
+      "base_value": 6,
+      "coin_power": 854,
+      "coin_count": 10,
+      "attack_level": 65,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[使用时] 消耗自身体力上限5%的体力(不会因该伤害而阵亡) 不可摧毁的硬币",
+        "[命中时] 触发目标的 破裂 2次，使目标的 破裂 层数减少2层"
+      ]
+    },
+    {
+      "skill_name": "给你个机会吧",
+      "icon_id": "115806",
+      "sin_type": "傲慢",
+      "damage_type": "穿刺",
+      "base_value": 5,
+      "coin_power": 3,
+      "coin_count": 3,
+      "attack_level": 62,
+      "attack_weight": 1,
+      "is_guard": true,
+      "guard_type": "反击",
+      "importance": 0,
+      "coin_effects": [
+        "[命中时] 对目标施加2层 眼羽",
+        "[命中时] 对目标施加1层 眼羽",
+        "[命中时] 下回合对目标施加2层 束缚"
+      ]
+    }
+  ],
+  "is_ally": false,
+  "_structured": true,
+  "appear_stages": [
+    "主线战斗8-20-20"
+  ],
+  "enemy_id": "主线战斗8-20-20|史易华|躯干",
+  "defense": 60,
+  "speed": "4~6",
+  "_schema_version": 1
+}

@@ -1,0 +1,47 @@
+{
+  "page_type": "event",
+  "title": "事件-石冢",
+  "event_name": "石冢",
+  "narration": "咔啦——\n咔啦——\n随着白雾弥漫，眼前是一座用带孔的石头组成的山。\n不知哪里传来岩石相互碰撞的声音。\n有一个四肢修长、皮肤如石质般的生物正在堆起这座塔。\n这是一座为了祈愿而堆起的石塔吗？\n还是一个活埋某人的石冢？\n\n在塔上放一块石头\n【谁来放下石头？】\n有利判定\n：\n/\n≥10\n不利判定\n：\n≥20\n判定成功\n：\n你是否虔诚地放下了石块？\n若是如此，愿望或能成真。\n获得\n！\n判定失败\n：\n若要将自己的愿望凌驾于万人之上……\n要轻拿轻放，谨慎小心。\n一块石头落地，别的石头也会应之崩塌。\n破坏了这石塔的代价，可从来不轻。\n所选人格失去\n15点体力\n及\n25点理智值\n！\n\n推倒石冢\n【谁来推倒石塔？】\n有利判定\n：\n/\n≥14\n不利判定\n：\n≥28\n判定成功\n：\n已然倒塌的石塔下埋藏着什么东西。\n为什么它要被埋藏得如此隐秘，我们无从得知。\n获得70\n经费\n判定失败\n：\n石塔在顷刻间崩塌。\n我试着避开落石，却依然被落石掩埋。\n现在，我被永远地掩埋在这石塔之中。\n所选人格失去\n30点体力\n！",
+  "options": [
+    {
+      "choice_text": "在塔上放一块石头",
+      "check_type": "有利判定",
+      "check_sin": "怠惰",
+      "check_threshold": 10,
+      "success_outcomes": [
+        "获得 ！ 判定失败 ： 若要将自己的愿望凌驾于万人之上…… 要轻拿轻放",
+        "失去 15点体力 及 25点理智值 ！"
+      ],
+      "failure_outcomes": [
+        "失去 15点体力 及 25点理智值 ！"
+      ]
+    },
+    {
+      "choice_text": "推倒石冢",
+      "check_type": "有利判定",
+      "check_sin": "暴怒",
+      "check_threshold": 14,
+      "success_outcomes": [
+        "获得70 经费 判定失败 ： 石塔在顷刻间崩塌。 我试着避开落石",
+        "失去 30点体力 ！"
+      ],
+      "failure_outcomes": [
+        "失去 30点体力 ！"
+      ]
+    }
+  ],
+  "ego_gifts": [],
+  "related_abnormalities": [
+    "绕佛塔",
+    "事件触发地点",
+    "镜像迷宫"
+  ],
+  "trigger_location": "",
+  "_structured": true,
+  "id": "wiki_事件-石冢",
+  "url": "https://limbuscompany.huijiwiki.com/wiki/事件-石冢",
+  "categories": [],
+  "source": "wiki",
+  "_schema_version": 1
+}

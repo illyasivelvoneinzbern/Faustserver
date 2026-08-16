@@ -1,0 +1,21 @@
+{
+  "id": "gift_9180_upgraded_2",
+  "title": "桶装烈酒",
+  "url": "https://limbuscompany.huijiwiki.com/wiki/E.G.O饰品",
+  "categories": [
+    "E.G.O饰品"
+  ],
+  "content": "通过技能效果增加呼吸法强度时，额外增加2级呼吸法强度并获得2层呼吸法。若自身的呼吸法强度与层数之和低于20点，则改为增加3级呼吸法强度并获得3层呼吸法。\n战斗结束时，若自身的呼吸法强度不低于40级，则消耗15级呼吸法强度并丢弃自身所有行动槽中级别最低的1个技能(每回合每名单位最多1次)",
+  "source": "tabx",
+  "_structured": true,
+  "page_type": "ego_gift",
+  "gift_name": "桶装烈酒",
+  "rarity": 4,
+  "cost": "402",
+  "effect_types": "呼吸法",
+  "attack_type": "傲慢",
+  "location": "镜像迷宫",
+  "stage": "upgraded_2",
+  "special": "困难合成",
+  "_schema_version": 1
+}

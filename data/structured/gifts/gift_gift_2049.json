@@ -1,0 +1,21 @@
+{
+  "id": "gift_2049",
+  "title": "拉·曼却领常规通行券",
+  "url": "https://limbuscompany.huijiwiki.com/wiki/E.G.O饰品",
+  "categories": [
+    "E.G.O饰品"
+  ],
+  "content": "关卡的首个回合开始时，使全体单位增加4级流血强度并对其施加4层流血。",
+  "source": "tabx",
+  "_structured": true,
+  "page_type": "ego_gift",
+  "gift_name": "拉·曼却领常规通行券",
+  "rarity": 1,
+  "cost": "0",
+  "effect_types": "",
+  "attack_type": "色欲",
+  "location": "第七章",
+  "stage": "base",
+  "event": "事件-拉·曼却领自由通行券",
+  "_schema_version": 1
+}

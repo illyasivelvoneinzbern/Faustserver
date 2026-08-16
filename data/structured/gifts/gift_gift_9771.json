@@ -1,0 +1,22 @@
+{
+  "id": "gift_9771",
+  "title": "近身格斗术教材",
+  "url": "https://limbuscompany.huijiwiki.com/wiki/E.G.O饰品",
+  "categories": [
+    "E.G.O饰品"
+  ],
+  "content": "若可消耗弹药的技能未消耗弹药，则本回合与下回合使自身获得1层强壮(每回合最多1次)\n获得弹药时，本回合与下回合使3技能造成的伤害+50%\n使用消耗弹药的技能时，使自身增加3级呼吸法强度并施加1层呼吸法",
+  "source": "tabx",
+  "_structured": true,
+  "page_type": "ego_gift",
+  "gift_name": "近身格斗术教材",
+  "rarity": 3,
+  "cost": "251",
+  "effect_types": "呼吸法",
+  "attack_type": "暴怒",
+  "location": "镜像迷宫",
+  "stage": "base",
+  "special": "由子弹画下的句点",
+  "event": "事件-学习",
+  "_schema_version": 1
+}

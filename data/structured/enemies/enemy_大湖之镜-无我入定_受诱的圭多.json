@@ -1,0 +1,108 @@
+{
+  "page_type": "enemy",
+  "title": "大湖之镜-无我入定",
+  "enemy_name": "受诱的圭多",
+  "battle_stage": "大湖之镜-无我入定",
+  "body_part": "躯干",
+  "hp": 658,
+  "defense_level": 46,
+  "speed_min": 1,
+  "speed_max": 4,
+  "chaos_threshold": "",
+  "physical_resistances": {
+    "斩击": 0.75,
+    "突刺": 1.0,
+    "打击": 2.0
+  },
+  "sin_resistances": {
+    "暴怒": 2.0,
+    "色欲": 0.5,
+    "怠惰": 1.0,
+    "暴食": 1.0,
+    "忧郁": 1.0,
+    "傲慢": 1.0,
+    "嫉妒": 1.0
+  },
+  "panic_types": [],
+  "passives": [],
+  "skills": [
+    {
+      "skill_name": "穿刺钉刑",
+      "icon_id": "9100601",
+      "sin_type": "傲慢",
+      "damage_type": "突刺",
+      "base_value": 5,
+      "coin_power": 3,
+      "coin_count": 2,
+      "attack_level": 47,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[正面命中时] 下回合对目标施加1层 伤害弱化"
+      ]
+    },
+    {
+      "skill_name": "……涤净",
+      "icon_id": "9100603",
+      "sin_type": "色欲",
+      "damage_type": "突刺",
+      "base_value": 5,
+      "coin_power": 9,
+      "coin_count": 2,
+      "attack_level": 47,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "2正面命中时 下回合对目标施加1层束缚"
+      ]
+    },
+    {
+      "skill_name": "异端抹杀",
+      "icon_id": "9100605",
+      "sin_type": "暴怒",
+      "damage_type": "打击",
+      "base_value": 5,
+      "coin_power": 987,
+      "coin_count": 2,
+      "attack_level": 47,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[命中时] 下回合对目标施加1层 麻痹"
+      ]
+    },
+    {
+      "skill_name": "曼怛罗",
+      "icon_id": "852709",
+      "sin_type": "暴怒",
+      "damage_type": "穿刺",
+      "base_value": 6,
+      "coin_power": 987,
+      "coin_count": 3,
+      "attack_level": 47,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[命中时] 移除随机属性的3个罪孽碎片"
+      ]
+    }
+  ],
+  "is_ally": false,
+  "_structured": true,
+  "appear_stages": [
+    "大湖之镜-无我入定",
+    "集中战斗-无我入定"
+  ],
+  "enemy_id": "大湖之镜-无我入定|受诱的圭多|躯干",
+  "defense": 46,
+  "speed": "1~4",
+  "_schema_version": 1
+}

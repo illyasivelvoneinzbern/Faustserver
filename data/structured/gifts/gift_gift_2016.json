@@ -1,0 +1,21 @@
+{
+  "id": "gift_2016",
+  "title": "追忆流转的残片",
+  "url": "https://limbuscompany.huijiwiki.com/wiki/E.G.O饰品",
+  "categories": [
+    "E.G.O饰品"
+  ],
+  "content": "李箱人格等级提升至35\n李箱人格同步与异想解析提升至3阶段\n<i>\"我们既非好高骛远之辈，也非贪得无厌之徒；\n我们只不过是喜爱技术的孩童。\"</i>",
+  "source": "tabx",
+  "_structured": true,
+  "page_type": "ego_gift",
+  "gift_name": "追忆流转的残片",
+  "rarity": 0,
+  "cost": "0",
+  "effect_types": "",
+  "attack_type": "怠惰",
+  "location": "第四章",
+  "stage": "base",
+  "event": "追忆流转的残片",
+  "_schema_version": 1
+}

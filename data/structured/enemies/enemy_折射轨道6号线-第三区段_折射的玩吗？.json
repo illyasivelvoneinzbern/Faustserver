@@ -1,0 +1,178 @@
+{
+  "page_type": "enemy",
+  "title": "折射轨道6号线-第三区段",
+  "enemy_name": "折射的玩吗？",
+  "battle_stage": "折射轨道6号线-第三区段",
+  "body_part": "",
+  "hp": 11,
+  "defense_level": 60,
+  "speed_min": 1,
+  "speed_max": 1,
+  "chaos_threshold": "无",
+  "physical_resistances": {
+    "斩击": 1.0,
+    "突刺": 1.0,
+    "打击": 1.0
+  },
+  "sin_resistances": {
+    "暴怒": 1.2,
+    "色欲": 1.5,
+    "怠惰": 0.8,
+    "暴食": 1.2,
+    "忧郁": 0.8,
+    "傲慢": 1.0,
+    "嫉妒": 0.8
+  },
+  "panic_types": [],
+  "passives": [
+    "鬼抓人开始咯: 回合开始时，若没有 鬼 ，则使除自身以外等级最低的1/2/3名友方单位在3回合内成为 鬼 (根据该效果的触发次数相应增加人数) 若 鬼 存活时解除了 鬼 ，则触发以下效果 - 全体罪人受到其体力上限40%的固定体力伤害 - 随机强制使可侵蚀或陷入恐慌的1名罪人的理智值变为-45点 若罪人击杀了 鬼 ，则使该罪人在本场战斗期间获得1层 威力提升 (该效果可叠加)",
+    "要陪我玩吗？要陪我玩吗？要陪我玩吗？: 回合结束时，若存活的友方单位仅剩自身或自身本体体力不高于50%，则下回合使用“永远一起玩吧~！”(每场战斗最多1次)",
+    "已然结束的游戏: 回合开始时，使玩偶部位获得 层数相当于除自身外的友方单位数的 守护 玩偶部位被破坏时，玩吗？与剩余的友方单位阵亡",
+    "折射的挣扎: 若与同一目标拼点不低于10次，则拼点判定时随机使自身的拼点威力增加或减少(拼点次数/10)。(向下取整)",
+    "依恋的玩偶: 无"
+  ],
+  "skills": [
+    {
+      "skill_name": "保护我",
+      "icon_id": "955601",
+      "sin_type": "暴怒",
+      "damage_type": "守备",
+      "base_value": 20,
+      "coin_power": 987,
+      "coin_count": 3,
+      "attack_level": 0,
+      "attack_weight": 1,
+      "is_guard": true,
+      "guard_type": "防御",
+      "importance": 0,
+      "coin_effects": [
+        "可拼点防御",
+        "本场战斗中每有1名阵亡的友方单位，使本技能的最终威力-4",
+        "1不可摧毁的硬币"
+      ]
+    },
+    {
+      "skill_name": "陪我玩！",
+      "icon_id": "955602",
+      "sin_type": "色欲",
+      "damage_type": "打击",
+      "base_value": 7,
+      "coin_power": 9,
+      "coin_count": 5,
+      "attack_level": 61,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[命中时] 下回合对目标施加1层 威力降低"
+      ]
+    },
+    {
+      "skill_name": "呀！",
+      "icon_id": "955603",
+      "sin_type": "色欲",
+      "damage_type": "打击",
+      "base_value": 8,
+      "coin_power": 9,
+      "coin_count": 3,
+      "attack_level": 61,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[命中时] 下回合对目标施加1层 威力降低"
+      ]
+    },
+    {
+      "skill_name": "喜欢玩偶吗？",
+      "icon_id": "955604",
+      "sin_type": "色欲",
+      "damage_type": "打击",
+      "base_value": 10,
+      "coin_power": 9,
+      "coin_count": 5,
+      "attack_level": 62,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[命中时] 下回合对目标施加2层 威力降低"
+      ]
+    },
+    {
+      "skill_name": "我出剪刀，你呢？",
+      "icon_id": "955605",
+      "sin_type": "嫉妒",
+      "damage_type": "斩击",
+      "base_value": 4,
+      "coin_power": 5793,
+      "coin_count": 7,
+      "attack_level": 63,
+      "attack_weight": 1,
+      "is_guard": true,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "本技能单方面攻击或拼点失败时，使本技能造成的伤害+300%",
+        "拼点开始 若目标带有威力降低，则使本技能的拼点威力+20",
+        "拼点胜利本技能不会触发目标的守备技能",
+        "拼点胜利结束本技能并对目标使用“你赢啦”",
+        "1不可摧毁的硬币",
+        "2不可摧毁的硬币",
+        "3不可摧毁的硬币",
+        "未摧毁 - 命中时使目标增加5级流血强度并对其施加4层流血"
+      ]
+    },
+    {
+      "skill_name": "你赢啦",
+      "icon_id": "955606",
+      "sin_type": "嫉妒",
+      "damage_type": "突刺",
+      "base_value": 6,
+      "coin_power": 5793,
+      "coin_count": 5,
+      "attack_level": 60,
+      "attack_weight": 1,
+      "is_guard": true,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "无法拼点",
+        "本技能适用于以下效果",
+        "- 不会命中目标",
+        "使用时下回合使目标获得2层攻击等级提升",
+        "攻击后使现存体力最低的2名罪人恢复(本硬币的最终威力×5)点体力"
+      ]
+    },
+    {
+      "skill_name": "永远一起玩吧~！",
+      "icon_id": "955607",
+      "sin_type": "嫉妒",
+      "damage_type": "斩击",
+      "base_value": 4,
+      "coin_power": 5793,
+      "coin_count": 7,
+      "attack_level": 63,
+      "attack_weight": 1,
+      "is_guard": true,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[使用时] 若目标装备了守备技能，则使本技能对其造成的伤害-90%",
+        "[攻击后] 结束本回合 不可摧毁的硬币 不可摧毁的硬币 不可摧毁的硬币"
+      ]
+    }
+  ],
+  "is_ally": false,
+  "_structured": true,
+  "appear_stages": [
+    "折射轨道6号线-第三区段"
+  ],
+  "enemy_id": "折射轨道6号线-第三区段|折射的玩吗？|",
+  "defense": 60,
+  "speed": "1~1",
+  "_schema_version": 1
+}

@@ -1,0 +1,56 @@
+{
+  "page_type": "enemy",
+  "title": "主线战斗1-09",
+  "enemy_name": "惊讶的残兵",
+  "battle_stage": "主线战斗1-09",
+  "body_part": "",
+  "hp": 26,
+  "defense_level": 1,
+  "speed_min": 3,
+  "speed_max": 5,
+  "chaos_threshold": "",
+  "physical_resistances": {
+    "斩击": 2.0,
+    "突刺": 1.0,
+    "打击": 1.0
+  },
+  "sin_resistances": {
+    "暴怒": 1.0,
+    "色欲": 1.0,
+    "怠惰": 1.0,
+    "暴食": 1.0,
+    "忧郁": 1.0,
+    "傲慢": 1.0,
+    "嫉妒": 1.0
+  },
+  "panic_types": [
+    "无措",
+    "虚弱",
+    "无措"
+  ],
+  "passives": [
+    "无"
+  ],
+  "skills": [
+    {
+      "skill_name": "突刺",
+      "icon_id": "9001001",
+      "sin_type": "色欲",
+      "damage_type": "",
+      "base_value": 0,
+      "coin_power": 5,
+      "coin_count": 1,
+      "attack_level": 1,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "coin_effects": []
+    }
+  ],
+  "is_ally": false,
+  "_structured": true,
+  "enemy_id": "主线战斗1-09|惊讶的残兵",
+  "defense": 1,
+  "speed": "3~5",
+  "_schema_version": 1
+}

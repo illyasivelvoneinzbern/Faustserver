@@ -1,0 +1,22 @@
+{
+  "id": "gift_9814",
+  "title": "强制纠缠定序器",
+  "url": "https://limbuscompany.huijiwiki.com/wiki/E.G.O饰品",
+  "categories": [
+    "E.G.O饰品"
+  ],
+  "content": "回合开始时，使震颤层数最高的1名友方单位的震颤以震颤-分配振幅纠缠",
+  "source": "tabx",
+  "_structured": true,
+  "page_type": "ego_gift",
+  "gift_name": "强制纠缠定序器",
+  "rarity": 3,
+  "cost": "243",
+  "effect_types": "震颤",
+  "attack_type": "怠惰",
+  "location": "镜像迷宫",
+  "stage": "base",
+  "special": "时间杀人时间复刻",
+  "event": "事件-圣愚",
+  "_schema_version": 1
+}

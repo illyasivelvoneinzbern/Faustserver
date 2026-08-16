@@ -1,0 +1,20 @@
+{
+  "id": "gift_9194",
+  "title": "拐杖短剑",
+  "url": "https://limbuscompany.huijiwiki.com/wiki/E.G.O饰品",
+  "categories": [
+    "E.G.O饰品"
+  ],
+  "content": "斩击基础攻击技能拼点胜利时，下回合对目标施加2层防御等级降低。(每回合每名友方单位最多1次，不会对同一名敌方单位叠加)\n- 对于属于Seven协会的友方单位，该效果同样适用于突刺与打击基础攻击技能\n关卡开始时，使属于Seven协会的友方单位获得(除自身外属于Seven协会的友方单位数/2)层拼点威力提升。(向下取整，最多2层)",
+  "source": "tabx",
+  "_structured": true,
+  "page_type": "ego_gift",
+  "gift_name": "拐杖短剑",
+  "rarity": 2,
+  "cost": "207",
+  "effect_types": "斩击",
+  "attack_type": "暴食",
+  "location": "镜像迷宫",
+  "stage": "base",
+  "_schema_version": 1
+}

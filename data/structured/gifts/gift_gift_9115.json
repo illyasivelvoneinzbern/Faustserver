@@ -1,0 +1,21 @@
+{
+  "id": "gift_9115",
+  "title": "齿轮发条",
+  "url": "https://limbuscompany.huijiwiki.com/wiki/E.G.O饰品",
+  "categories": [
+    "E.G.O饰品"
+  ],
+  "content": "[第1、第2顺位友方单位专属]\n增加震颤强度或施加震颤层数的技能（包括对自身施加的技能）拼点威力+1。\n增加震颤强度或施加震颤层数的攻击技能（不包括E.G.O技能）对带有震颤的敌方单位造成伤害时，使该技能造成的伤害+（目标的震颤强度+5）%\n傲慢技能改为造成的伤害+（目标的震颤强度与层数之和+5）%",
+  "source": "tabx",
+  "_structured": true,
+  "page_type": "ego_gift",
+  "gift_name": "齿轮发条",
+  "rarity": 3,
+  "cost": "249",
+  "effect_types": "震颤",
+  "attack_type": "傲慢",
+  "location": "镜像迷宫",
+  "stage": "base",
+  "event": "事件-蒸汽运输机",
+  "_schema_version": 1
+}

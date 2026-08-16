@@ -1,0 +1,559 @@
+{
+  "page_type": "personality",
+  "title": "格里高尔LCB罪人",
+  "sinner": "格里高尔",
+  "sinner_id": "gregor",
+  "personality_name": "格里高尔LCB罪人",
+  "release_date": "2023.02.27",
+  "acquisition": "主线及常驻提取",
+  "sin_affinities": {
+    "忧郁": 3,
+    "暴食": 2,
+    "怠惰": 1
+  },
+  "physical_resistances": {
+    "斩击": 1.0,
+    "突刺": 0.5,
+    "打击": 2.0
+  },
+  "ego_resources": {
+    "忧郁": 3,
+    "暴食": 2,
+    "怠惰": 1
+  },
+  "skills": [
+    {
+      "skill_index": 0,
+      "skill_name": "挥砍",
+      "sin_type": "忧郁",
+      "damage_type": "斩击",
+      "guard_type": "",
+      "attack_capacity": 1,
+      "coin_count": 2,
+      "stage_groups": [
+        [
+          {
+            "stage": "I",
+            "base_value": 2,
+            "coin_power": 7,
+            "effects": [
+              {
+                "timing": "正面命中时",
+                "description": "使目标增加2级 破裂 强度"
+              }
+            ],
+            "raw_text": "基础值： 2 变动值： +7 [正面命中时] 使目标增加2级 破裂 强度"
+          },
+          {
+            "stage": "II",
+            "base_value": 2,
+            "coin_power": 7,
+            "effects": [
+              {
+                "timing": "正面命中时",
+                "description": "使目标增加4级 破裂 强度"
+              }
+            ],
+            "raw_text": "基础值： 2 变动值： +7 [正面命中时] 使目标增加4级 破裂 强度"
+          },
+          {
+            "stage": "III",
+            "base_value": 3,
+            "coin_power": 7,
+            "effects": [
+              {
+                "timing": "正面命中时",
+                "description": "使目标增加4级 破裂 强度"
+              }
+            ],
+            "raw_text": "基础值： 3 变动值： +7 [正面命中时] 使目标增加4级 破裂 强度"
+          },
+          {
+            "stage": "IV",
+            "base_value": 4,
+            "coin_power": 7,
+            "effects": [
+              {
+                "timing": "正面命中时",
+                "description": "使目标增加4级 破裂 强度"
+              }
+            ],
+            "raw_text": "基础值： 4 变动值： +7 [正面命中时] 使目标增加4级 破裂 强度"
+          }
+        ]
+      ],
+      "coin_effects": [
+        {
+          "coin_index": 0,
+          "description": "技能一"
+        },
+        {
+          "coin_index": 0,
+          "description": "挥砍 3"
+        },
+        {
+          "coin_index": 0,
+          "timing": "",
+          "description": "1"
+        },
+        {
+          "coin_index": 0,
+          "description": "-1"
+        },
+        {
+          "coin_index": 0,
+          "description": "1"
+        },
+        {
+          "coin_index": 0,
+          "description": "基础值： 2 变动值： +7"
+        },
+        {
+          "coin_index": 1,
+          "timing": "正面命中时",
+          "description": "[正面命中时] 使目标增加2级 破裂 强度"
+        },
+        {
+          "coin_index": 1,
+          "timing": "正面命中时",
+          "description": "[正面命中时] 使目标增加4级 破裂 强度"
+        },
+        {
+          "coin_index": 1,
+          "timing": "正面命中时",
+          "description": "[正面命中时] 使目标增加4级 破裂 强度"
+        },
+        {
+          "coin_index": 1,
+          "timing": "正面命中时",
+          "description": "[正面命中时] 使目标增加4级 破裂 强度"
+        }
+      ],
+      "wikitext_key": "1技能"
+    },
+    {
+      "skill_index": 1,
+      "skill_name": "深剜",
+      "sin_type": "",
+      "damage_type": "",
+      "guard_type": "",
+      "attack_capacity": 1,
+      "coin_count": 2,
+      "stage_groups": [
+        [
+          {
+            "stage": "I",
+            "base_value": 3,
+            "coin_power": 10,
+            "effects": [
+              {
+                "timing": "正面命中时",
+                "description": "对目标施加1层 破裂"
+              }
+            ],
+            "raw_text": "基础值： 3 变动值： +10 [正面命中时] 对目标施加1层 破裂"
+          },
+          {
+            "stage": "II",
+            "base_value": 3,
+            "coin_power": 10,
+            "effects": [
+              {
+                "timing": "命中时",
+                "description": "对目标施加1层 破裂"
+              },
+              {
+                "timing": "正面命中时",
+                "description": "对目标施加1层 突刺易损"
+              }
+            ],
+            "raw_text": "基础值： 3 变动值： +10 [命中时] 对目标施加1层 破裂 [正面命中时] 对目标施加1层 突刺易损"
+          },
+          {
+            "stage": "III",
+            "base_value": 4,
+            "coin_power": 10,
+            "effects": [
+              {
+                "timing": "命中时",
+                "description": "对目标施加1层 破裂"
+              },
+              {
+                "timing": "正面命中时",
+                "description": "对目标施加1层 突刺易损"
+              }
+            ],
+            "raw_text": "基础值： 4 变动值： +10 [命中时] 对目标施加1层 破裂 [正面命中时] 对目标施加1层 突刺易损"
+          },
+          {
+            "stage": "IV",
+            "base_value": 5,
+            "coin_power": 10,
+            "effects": [
+              {
+                "timing": "命中时",
+                "description": "对目标施加1层 破裂"
+              },
+              {
+                "timing": "正面命中时",
+                "description": "对目标施加1层 突刺易损"
+              },
+              {
+                "timing": "正面命中时",
+                "description": "使目标增加2级 破裂 强度"
+              }
+            ],
+            "raw_text": "基础值： 5 变动值： +10 [命中时] 对目标施加1层 破裂 [正面命中时] 对目标施加1层 突刺易损 [正面命中时] 使目标增加2级 破裂 强度"
+          }
+        ]
+      ],
+      "coin_effects": [
+        {
+          "coin_index": 0,
+          "description": "技能二"
+        },
+        {
+          "coin_index": 0,
+          "description": "深剜 2"
+        },
+        {
+          "coin_index": 0,
+          "timing": "",
+          "description": "1"
+        },
+        {
+          "coin_index": 0,
+          "description": "-1"
+        },
+        {
+          "coin_index": 0,
+          "description": "1"
+        },
+        {
+          "coin_index": 0,
+          "description": "基础值： 3 变动值： +10"
+        },
+        {
+          "coin_index": 1,
+          "timing": "正面命中时",
+          "description": "[正面命中时] 对目标施加1层 破裂"
+        },
+        {
+          "coin_index": 1,
+          "timing": "命中时",
+          "description": "[命中时] 对目标施加1层 破裂 [正面命中时] 对目标施加1层 突刺易损"
+        },
+        {
+          "coin_index": 1,
+          "timing": "命中时",
+          "description": "[命中时] 对目标施加1层 破裂 [正面命中时] 对目标施加1层 突刺易损"
+        },
+        {
+          "coin_index": 1,
+          "timing": "命中时",
+          "description": "[命中时] 对目标施加1层 破裂 [正面命中时] 对目标施加1层 突刺易损 [正面命中时] 使目标增加2级 破裂 强度"
+        }
+      ],
+      "wikitext_key": "2技能"
+    },
+    {
+      "skill_index": 2,
+      "skill_name": "剁碎",
+      "sin_type": "",
+      "damage_type": "",
+      "guard_type": "",
+      "attack_capacity": 1,
+      "coin_count": 3,
+      "stage_groups": [
+        [
+          {
+            "stage": "I",
+            "base_value": 5,
+            "coin_power": 4,
+            "effects": [
+              {
+                "timing": "命中时",
+                "description": "若目标带有 破裂 ，则使本硬币造成的伤害+10%"
+              },
+              {
+                "timing": "命中时",
+                "description": "若目标带有 破裂 ，则使本硬币造成的伤害+10%"
+              },
+              {
+                "timing": "正面命中时",
+                "description": "使自身恢复本硬币伤害量30%的 体力"
+              }
+            ],
+            "raw_text": "基础值： 5 变动值： +4 [命中时] 若目标带有 破裂 ，则使本硬币造成的伤害+10% [命中时] 若目标带有 破裂 ，则使本硬币造成的伤害+10% [正面命中时] 使自身恢复本硬币伤害量30%的 体力"
+          },
+          {
+            "stage": "II",
+            "base_value": 6,
+            "coin_power": 4,
+            "effects": [
+              {
+                "timing": "命中时",
+                "description": "若目标带有 破裂 ，则使本硬币造成的伤害+10%"
+              },
+              {
+                "timing": "命中时",
+                "description": "若目标带有 破裂 ，则使本硬币造成的伤害+10%"
+              },
+              {
+                "timing": "正面命中时",
+                "description": "使自身恢复本硬币伤害量30%的 体力"
+              }
+            ],
+            "raw_text": "基础值： 6 变动值： +4 [命中时] 若目标带有 破裂 ，则使本硬币造成的伤害+10% [命中时] 若目标带有 破裂 ，则使本硬币造成的伤害+10% [正面命中时] 使自身恢复本硬币伤害量30%的 体力"
+          }
+        ]
+      ],
+      "coin_effects": [
+        {
+          "coin_index": 0,
+          "description": "技能三"
+        },
+        {
+          "coin_index": 0,
+          "description": "剁碎 1"
+        },
+        {
+          "coin_index": 0,
+          "timing": "",
+          "description": "2"
+        },
+        {
+          "coin_index": 0,
+          "description": "-1"
+        },
+        {
+          "coin_index": 0,
+          "description": "1"
+        },
+        {
+          "coin_index": 0,
+          "description": "基础值： 5 变动值： +4"
+        },
+        {
+          "coin_index": 1,
+          "timing": "命中时",
+          "description": "[命中时] 若目标带有 破裂 ，则使本硬币造成的伤害+10%"
+        },
+        {
+          "coin_index": 2,
+          "timing": "命中时",
+          "description": "[命中时] 若目标带有 破裂 ，则使本硬币造成的伤害+10% [正面命中时] 使自身恢复本硬币伤害量30%的 体力"
+        },
+        {
+          "coin_index": 1,
+          "timing": "命中时",
+          "description": "[命中时] 若目标带有 破裂 ，则使本硬币造成的伤害+10%"
+        },
+        {
+          "coin_index": 2,
+          "timing": "命中时",
+          "description": "[命中时] 若目标带有 破裂 ，则使本硬币造成的伤害+10% [正面命中时] 使自身恢复本硬币伤害量30%的 体力"
+        }
+      ],
+      "wikitext_key": "3技能"
+    },
+    {
+      "skill_index": 3,
+      "skill_name": "防御",
+      "sin_type": "",
+      "damage_type": "",
+      "guard_type": "防御",
+      "attack_capacity": 1,
+      "coin_count": 1,
+      "stage_groups": [
+        [
+          {
+            "stage": "I",
+            "base_value": 8,
+            "coin_power": 2,
+            "effects": [],
+            "raw_text": "基础值： 8 变动值： +2"
+          },
+          {
+            "stage": "II",
+            "base_value": 8,
+            "coin_power": 3,
+            "effects": [],
+            "raw_text": "基础值： 8 变动值： +3"
+          }
+        ]
+      ],
+      "coin_effects": [
+        {
+          "coin_index": 0,
+          "description": "守备技能"
+        },
+        {
+          "coin_index": 0,
+          "description": "防御"
+        },
+        {
+          "coin_index": 0,
+          "timing": "",
+          "description": "1"
+        },
+        {
+          "coin_index": 0,
+          "description": "+0"
+        },
+        {
+          "coin_index": 0,
+          "description": "1"
+        },
+        {
+          "coin_index": 0,
+          "description": "I阶 - III阶 IV阶 追加属性： 基础值： 8 变动值： +2 基础值： 8 变动值： +3"
+        }
+      ],
+      "wikitext_key": "守备技能4"
+    }
+  ],
+  "battle_passive": "战斗 求死不得 ——持有： 3 I阶 ：战斗开始时，使自身恢复5点 体力",
+  "support_passive": "支援 基因编码G-0 ——持有： 3 III阶 ：战斗开始时，使现存 体力 最低的1名友方单位恢复5点 体力",
+  "notes": "",
+  "voice_lines": [
+    {
+      "file": "格里高尔LCB语音1.ogg",
+      "title": "获得时",
+      "text": "||嗯……我是格里高尔。嘛啊，除了睡觉的时候以外都可以随意找我聊天。"
+    },
+    {
+      "file": "格里高尔LCB语音2.ogg",
+      "title": "早间问候",
+      "text": "||是个挺不错的早晨吧？"
+    },
+    {
+      "file": "格里高尔LCB语音3.ogg",
+      "title": "午间问候",
+      "text": "||来来，再怎么忙也得先把午饭吃了。"
+    },
+    {
+      "file": "格里高尔LCB语音4.ogg",
+      "title": "晚间问候",
+      "text": "||今天一天也辛苦啦。"
+    },
+    {
+      "file": "格里高尔LCB语音5.ogg",
+      "title": "对话 1",
+      "text": "||咱们经理兄平常都是怎么消磨时间的？我倒是可以递你根烟……但你看上去也抽不了啊。"
+    },
+    {
+      "file": "格里高尔LCB语音6.ogg",
+      "title": "对话 2",
+      "text": "||我最讨厌的东西？那些长着一对触须还有黑壳子的家伙。我尤其讨厌它们淹进水里还能咕噜咕噜浮起来的那种顽强的生命力。"
+    },
+    {
+      "file": "格里高尔LCB语音7.ogg",
+      "title": "对话 3",
+      "text": "||经理兄，你有眼镜布……不对，是我多嘴了。你要为自己不用戴眼镜感到庆幸啊。"
+    },
+    {
+      "file": "格里高尔LCB语音8.ogg",
+      "title": "对话 4",
+      "text": "||虽然对失去记忆的经理兄说这话也有些那什么……但确实也有些完全抹除也不让人觉得可惜的记忆，你能理解吗？就像是，在等待漫长的战争结束的那天一样。"
+    },
+    {
+      "file": "格里高尔LCB语音9.ogg",
+      "title": "对话 5",
+      "text": "||这只手臂，不管怎么切掉都会再长出来。啊，还是叫虫肢比较好？现在它已经快和我成为一家人了，我是指不管喜不喜欢我都只能接受它这样。"
+    },
+    {
+      "file": "格里高尔LCB语音10.ogg",
+      "title": "闲置",
+      "text": "||嗯？经理兄？你去哪儿了？"
+    },
+    {
+      "file": "格里高尔LCB语音11.ogg",
+      "title": "人格出战",
+      "text": "||啊啊，我会尽力的。"
+    },
+    {
+      "file": "格里高尔LCB语音12.ogg",
+      "title": "进入战斗",
+      "text": "||上？让我上……？唉……算了，我会尽力的。"
+    },
+    {
+      "file": "格里高尔LCB语音13.ogg",
+      "title": "战斗中选中人格",
+      "text": "||怎么了，找我有事？"
+    },
+    {
+      "file": "格里高尔LCB语音14.ogg",
+      "title": "进行攻击",
+      "text": "||好嘞，我上了！"
+    },
+    {
+      "file": "格里高尔LCB语音15.ogg",
+      "title": "敌方混乱",
+      "text": "||哟，感觉比我想象的更顺啊。"
+    },
+    {
+      "file": "格里高尔LCB语音16.ogg",
+      "title": "陷入混乱",
+      "text": "||哎呀……"
+    },
+    {
+      "file": "格里高尔LCB语音17.ogg",
+      "title": "友方阵亡",
+      "text": "||那个，经理兄。是不是该，回拨一下指针了？"
+    },
+    {
+      "file": "格里高尔LCB语音18.ogg",
+      "title": "判定成功",
+      "text": "||经理兄！这次还挺成功的吧？"
+    },
+    {
+      "file": "格里高尔LCB语音19.ogg",
+      "title": "判定失败",
+      "text": "||我告诉过你……我是真尽力了。"
+    },
+    {
+      "file": "格里高尔LCB语音20.ogg",
+      "title": "战斗胜利",
+      "text": "||哈啊~总算赢了。辛苦啦，经理兄。"
+    },
+    {
+      "file": "格里高尔LCB语音21.ogg",
+      "title": "EX CLEAR战斗胜利",
+      "text": "||勋章就算了。但香烟我倒是来者不拒。"
+    },
+    {
+      "file": "格里高尔LCB语音22.ogg",
+      "title": "战斗失败",
+      "text": "||对不住啊，今天好像没能集中精神。谁都偶尔会有这种日子，对吧？"
+    }
+  ],
+  "skill_voice": [
+    {
+      "file": "Battle_s2_11201_1.ogg",
+      "skill_index": 2,
+      "skill_label": "",
+      "skill_name": "深剜"
+    },
+    {
+      "file": "Battle_s3_11201_1_1.ogg",
+      "skill_index": 3,
+      "skill_label": "技能三",
+      "skill_name": "剁碎"
+    },
+    {
+      "file": "Battle_s3_11201_1_2.ogg",
+      "skill_index": 3,
+      "skill_label": "",
+      "skill_name": "剁碎"
+    }
+  ],
+  "_structured": true,
+  "id": "wiki_格里高尔LCB罪人",
+  "url": "https://limbuscompany.huijiwiki.com/wiki/格里高尔LCB罪人",
+  "categories": [
+    "人格"
+  ],
+  "source": "wiki",
+  "_schema_version": 1
+}

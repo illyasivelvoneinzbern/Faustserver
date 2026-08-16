@@ -1,0 +1,22 @@
+{
+  "id": "gift_9843",
+  "title": "硬血长柄刀",
+  "url": "https://limbuscompany.huijiwiki.com/wiki/E.G.O饰品",
+  "categories": [
+    "E.G.O饰品"
+  ],
+  "content": "根据编入的拥有消耗血宴的攻击技能的友方单位数，相应强化本饰品效果(不包括E.G.O技能，包括编队中全体单位)\n关卡开始时，使全体友方单位获得(编入单位数-2)层硬血铸造(最多3层)",
+  "source": "tabx",
+  "_structured": true,
+  "page_type": "ego_gift",
+  "gift_name": "硬血长柄刀",
+  "rarity": 3,
+  "cost": "247",
+  "effect_types": "流血",
+  "attack_type": "色欲",
+  "location": "镜像迷宫",
+  "stage": "base",
+  "special": "WARP快车谋杀案复刻",
+  "event": "事件-休息时发现的硬血武器",
+  "_schema_version": 1
+}

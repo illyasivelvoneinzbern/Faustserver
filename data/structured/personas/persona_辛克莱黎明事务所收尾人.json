@@ -1,0 +1,670 @@
+{
+  "page_type": "personality",
+  "title": "辛克莱黎明事务所收尾人",
+  "sinner": "辛克莱",
+  "sinner_id": "sinclair",
+  "personality_name": "辛克莱黎明事务所收尾人",
+  "release_date": "2024.05.02",
+  "acquisition": "瓦尔普吉斯之夜-3提取",
+  "sin_affinities": {
+    "忧郁": 3,
+    "嫉妒": 2,
+    "暴怒": 1
+  },
+  "physical_resistances": {
+    "斩击": 0.5,
+    "突刺": 1.0,
+    "打击": 2.0
+  },
+  "ego_resources": {
+    "忧郁": 3,
+    "嫉妒": 2,
+    "暴怒": 1
+  },
+  "skills": [
+    {
+      "skill_index": 0,
+      "skill_name": "挺身而出",
+      "sin_type": "忧郁",
+      "damage_type": "斩击",
+      "guard_type": "",
+      "attack_capacity": 1,
+      "coin_count": 2,
+      "stage_groups": [
+        [
+          {
+            "stage": "I",
+            "base_value": 2,
+            "coin_power": 7,
+            "effects": [
+              {
+                "timing": "命中时",
+                "description": "使目标增加1级 烧伤 强度"
+              },
+              {
+                "timing": "正面命中时",
+                "description": "若自身处于 不稳定E.G.O状态 ，则重复使用本硬币（每个技能最多1次）"
+              }
+            ],
+            "raw_text": "基础值： 2 变动值： +7 [命中时] 使目标增加1级 烧伤 强度 [正面命中时] 若自身处于 不稳定E.G.O状态 ，则重复使用本硬币（每个技能最多1次）"
+          },
+          {
+            "stage": "II",
+            "base_value": 2,
+            "coin_power": 7,
+            "effects": [
+              {
+                "timing": "命中时",
+                "description": "使目标增加2级 烧伤 强度"
+              },
+              {
+                "timing": "正面命中时",
+                "description": "若自身处于 不稳定E.G.O状态 ，则重复使用本硬币（每个技能最多1次）"
+              }
+            ],
+            "raw_text": "基础值： 2 变动值： +7 [命中时] 使目标增加2级 烧伤 强度 [正面命中时] 若自身处于 不稳定E.G.O状态 ，则重复使用本硬币（每个技能最多1次）"
+          },
+          {
+            "stage": "III",
+            "base_value": 3,
+            "coin_power": 7,
+            "effects": [
+              {
+                "timing": "命中时",
+                "description": "使目标增加2级 烧伤 强度"
+              },
+              {
+                "timing": "正面命中时",
+                "description": "若自身处于 不稳定E.G.O状态 ，则重复使用本硬币（每个技能最多1次）"
+              }
+            ],
+            "raw_text": "基础值： 3 变动值： +7 [命中时] 使目标增加2级 烧伤 强度 [正面命中时] 若自身处于 不稳定E.G.O状态 ，则重复使用本硬币（每个技能最多1次）"
+          },
+          {
+            "stage": "IV",
+            "base_value": 3,
+            "coin_power": 7,
+            "effects": [
+              {
+                "timing": "命中时",
+                "description": "使目标增加2级 烧伤 强度"
+              },
+              {
+                "timing": "正面命中时",
+                "description": "若自身处于 不稳定E.G.O状态 ，则重复使用本硬币（每个技能最多1次）"
+              }
+            ],
+            "raw_text": "基础值： 3 变动值： +7 [命中时] 使目标增加2级 烧伤 强度 [正面命中时] 若自身处于 不稳定E.G.O状态 ，则重复使用本硬币（每个技能最多1次）"
+          }
+        ]
+      ],
+      "coin_effects": [
+        {
+          "coin_index": 0,
+          "description": "技能一"
+        },
+        {
+          "coin_index": 0,
+          "description": "挺身而出 3"
+        },
+        {
+          "coin_index": 0,
+          "timing": "",
+          "description": "1"
+        },
+        {
+          "coin_index": 0,
+          "description": "+2"
+        },
+        {
+          "coin_index": 0,
+          "description": "1"
+        },
+        {
+          "coin_index": 0,
+          "description": "基础值： 2 变动值： +7"
+        },
+        {
+          "coin_index": 1,
+          "timing": "命中时",
+          "description": "[命中时] 使目标增加1级 烧伤 强度 [正面命中时] 若自身处于 不稳定E.G.O状态 ，则重复使用本硬币（每个技能最多1次）"
+        },
+        {
+          "coin_index": 1,
+          "timing": "命中时",
+          "description": "[命中时] 使目标增加2级 烧伤 强度 [正面命中时] 若自身处于 不稳定E.G.O状态 ，则重复使用本硬币（每个技能最多1次）"
+        },
+        {
+          "coin_index": 1,
+          "timing": "命中时",
+          "description": "[命中时] 使目标增加2级 烧伤 强度 [正面命中时] 若自身处于 不稳定E.G.O状态 ，则重复使用本硬币（每个技能最多1次）"
+        },
+        {
+          "coin_index": 1,
+          "timing": "命中时",
+          "description": "[命中时] 使目标增加2级 烧伤 强度 [正面命中时] 若自身处于 不稳定E.G.O状态 ，则重复使用本硬币（每个技能最多1次）"
+        }
+      ],
+      "wikitext_key": "1技能"
+    },
+    {
+      "skill_index": 1,
+      "skill_name": "霞光剑刃",
+      "sin_type": "",
+      "damage_type": "",
+      "guard_type": "",
+      "attack_capacity": 1,
+      "coin_count": 4,
+      "stage_groups": [
+        [
+          {
+            "stage": "I",
+            "base_value": 4,
+            "coin_power": 3,
+            "effects": [
+              {
+                "timing": "使用时",
+                "description": "若自身处于 不稳定E.G.O状态 ，则消耗5点 理智值"
+              },
+              {
+                "timing": "攻击前",
+                "description": "若自身处于 不稳定E.G.O状态 ，则使本技能的 攻击容量 +1"
+              },
+              {
+                "timing": "攻击后",
+                "description": "若自身处于 不稳定E.G.O状态 ，则消耗5点 理智值"
+              },
+              {
+                "timing": "命中时",
+                "description": "对目标施加1层 烧伤"
+              },
+              {
+                "timing": "命中时",
+                "description": "对目标施加1层 烧伤"
+              },
+              {
+                "timing": "命中时",
+                "description": "对目标施加1层 烧伤"
+              }
+            ],
+            "raw_text": "基础值： 4 变动值： +3 [使用时] 若自身处于 不稳定E.G.O状态 ，则消耗5点 理智值 [攻击前] 若自身处于 不稳定E.G.O状态 ，则使本技能的 攻击容量 +1 [攻击后] 若自身处于 不稳定E.G.O状态 ，则消耗5点 理智值 [命中时] 对目标施加1层 烧伤 [命中时] 对目标施加1层 烧伤 [命中时] 对目标施加1层 烧伤"
+          },
+          {
+            "stage": "II",
+            "base_value": 4,
+            "coin_power": 3,
+            "effects": [
+              {
+                "timing": "使用时",
+                "description": "若自身处于 不稳定E.G.O状态 ，则消耗5点 理智值"
+              },
+              {
+                "timing": "攻击前",
+                "description": "若自身处于 不稳定E.G.O状态 ，则使本技能的 攻击容量 +1"
+              },
+              {
+                "timing": "攻击后",
+                "description": "若自身处于 不稳定E.G.O状态 ，则消耗5点 理智值"
+              },
+              {
+                "timing": "命中时",
+                "description": "对目标施加1层 烧伤"
+              },
+              {
+                "timing": "命中时",
+                "description": "对目标施加1层 烧伤"
+              },
+              {
+                "timing": "命中时",
+                "description": "对目标施加1层 烧伤"
+              }
+            ],
+            "raw_text": "基础值： 4 变动值： +3 若目标的 烧伤 强度不低于4级，则使本技能的拼点威力+1 [使用时] 若自身处于 不稳定E.G.O状态 ，则消耗5点 理智值 [攻击前] 若自身处于 不稳定E.G.O状态 ，则使本技能的 攻击容量 +1 [攻击后] 若自身处于 不稳定E.G.O状态 ，则消耗5点 理智值 [命中时] 对目标施加1层 烧伤 [命中时] 对目标施加1层 烧伤 [命中时] 对目标施加1层 烧伤"
+          },
+          {
+            "stage": "III",
+            "base_value": 5,
+            "coin_power": 3,
+            "effects": [
+              {
+                "timing": "使用时",
+                "description": "若自身处于 不稳定E.G.O状态 ，则消耗5点 理智值"
+              },
+              {
+                "timing": "攻击前",
+                "description": "若自身处于 不稳定E.G.O状态 ，则使本技能的 攻击容量 +1"
+              },
+              {
+                "timing": "攻击后",
+                "description": "若自身处于 不稳定E.G.O状态 ，则消耗5点 理智值"
+              },
+              {
+                "timing": "命中时",
+                "description": "对目标施加1层 烧伤"
+              },
+              {
+                "timing": "命中时",
+                "description": "对目标施加1层 烧伤"
+              },
+              {
+                "timing": "命中时",
+                "description": "对目标施加1层 烧伤"
+              }
+            ],
+            "raw_text": "基础值： 5 变动值： +3 若目标的 烧伤 强度不低于4级，则使本技能的拼点威力+1 [使用时] 若自身处于 不稳定E.G.O状态 ，则消耗5点 理智值 [攻击前] 若自身处于 不稳定E.G.O状态 ，则使本技能的 攻击容量 +1 [攻击后] 若自身处于 不稳定E.G.O状态 ，则消耗5点 理智值 [命中时] 对目标施加1层 烧伤 [命中时] 对目标施加1层 烧伤 [命中时] 对目标施加1层 烧伤"
+          },
+          {
+            "stage": "IV",
+            "base_value": 5,
+            "coin_power": 3,
+            "effects": [
+              {
+                "timing": "使用时",
+                "description": "若自身处于 不稳定E.G.O状态 ，则消耗5点 理智值"
+              },
+              {
+                "timing": "攻击前",
+                "description": "若自身处于 不稳定E.G.O状态 ，则使本技能的 攻击容量 +1 - 若自身的 理智值 为45点，则改为使本技能的 攻击容量 +2"
+              },
+              {
+                "timing": "攻击后",
+                "description": "若自身处于 不稳定E.G.O状态 ，则消耗5点 理智值"
+              },
+              {
+                "timing": "命中时",
+                "description": "对目标施加1层 烧伤"
+              },
+              {
+                "timing": "命中时",
+                "description": "对目标施加1层 烧伤"
+              },
+              {
+                "timing": "命中时",
+                "description": "对目标施加1层 烧伤"
+              }
+            ],
+            "raw_text": "基础值： 5 变动值： +3 若目标的 烧伤 强度不低于4级，则使本技能的拼点威力+1 [使用时] 若自身处于 不稳定E.G.O状态 ，则消耗5点 理智值 [攻击前] 若自身处于 不稳定E.G.O状态 ，则使本技能的 攻击容量 +1 - 若自身的 理智值 为45点，则改为使本技能的 攻击容量 +2 [攻击后] 若自身处于 不稳定E.G.O状态 ，则消耗5点 理智值 [命中时] 对目标施加1层 烧伤 [命中时] 对目标施加1层 烧伤 [命中时] 对目标施加1层 烧伤"
+          }
+        ]
+      ],
+      "coin_effects": [
+        {
+          "coin_index": 0,
+          "description": "技能二"
+        },
+        {
+          "coin_index": 0,
+          "description": "霞光剑刃 2"
+        },
+        {
+          "coin_index": 0,
+          "timing": "",
+          "description": "3"
+        },
+        {
+          "coin_index": 0,
+          "description": "+2"
+        },
+        {
+          "coin_index": 0,
+          "description": "1"
+        },
+        {
+          "coin_index": 0,
+          "description": "基础值： 4 变动值： +3 [使用时] 若自身处于 不稳定E.G.O状态 ，则消耗5点 理智值 [攻击前] 若自身处于 不稳定E.G.O状态 ，则使本技能的 攻击容量 +1 [攻击后] 若自身处于 不稳定E.G.O状态 ，则消耗5点 理智值"
+        },
+        {
+          "coin_index": 1,
+          "timing": "命中时",
+          "description": "[命中时] 对目标施加1层 烧伤"
+        },
+        {
+          "coin_index": 2,
+          "timing": "命中时",
+          "description": "[命中时] 对目标施加1层 烧伤"
+        },
+        {
+          "coin_index": 3,
+          "timing": "命中时",
+          "description": "[命中时] 对目标施加1层 烧伤"
+        },
+        {
+          "coin_index": 1,
+          "timing": "命中时",
+          "description": "[命中时] 对目标施加1层 烧伤"
+        },
+        {
+          "coin_index": 2,
+          "timing": "命中时",
+          "description": "[命中时] 对目标施加1层 烧伤"
+        },
+        {
+          "coin_index": 3,
+          "timing": "命中时",
+          "description": "[命中时] 对目标施加1层 烧伤"
+        },
+        {
+          "coin_index": 1,
+          "timing": "命中时",
+          "description": "[命中时] 对目标施加1层 烧伤"
+        },
+        {
+          "coin_index": 2,
+          "timing": "命中时",
+          "description": "[命中时] 对目标施加1层 烧伤"
+        },
+        {
+          "coin_index": 3,
+          "timing": "命中时",
+          "description": "[命中时] 对目标施加1层 烧伤"
+        },
+        {
+          "coin_index": 1,
+          "timing": "命中时",
+          "description": "[命中时] 对目标施加1层 烧伤"
+        },
+        {
+          "coin_index": 2,
+          "timing": "命中时",
+          "description": "[命中时] 对目标施加1层 烧伤"
+        },
+        {
+          "coin_index": 3,
+          "timing": "命中时",
+          "description": "[命中时] 对目标施加1层 烧伤"
+        }
+      ],
+      "wikitext_key": "2技能"
+    },
+    {
+      "skill_index": 2,
+      "skill_name": "烙印",
+      "sin_type": "暴怒",
+      "damage_type": "斩击",
+      "guard_type": "",
+      "attack_capacity": 1,
+      "coin_count": 3,
+      "stage_groups": [
+        [
+          {
+            "stage": "I",
+            "base_value": 4,
+            "coin_power": 7,
+            "effects": [
+              {
+                "timing": "拼点胜利",
+                "description": "使自身恢复10点 理智值"
+              },
+              {
+                "timing": "拼点失败",
+                "description": "使自身失去10点 理智值"
+              },
+              {
+                "timing": "命中时",
+                "description": "使目标增加3级 烧伤 强度"
+              },
+              {
+                "timing": "命中时",
+                "description": "使目标增加3级 烧伤 强度"
+              }
+            ],
+            "raw_text": "基础值： 4 变动值： +7 若目标的 烧伤 强度不低于10级，则使本技能的硬币威力+1 若自身处于 不稳定E.G.O状态 ，则改为使用 爆炎一击 [拼点胜利] 使自身恢复10点 理智值 [拼点失败] 使自身失去10点 理智值 [命中时] 使目标增加3级 烧伤 强度 [命中时] 使目标增加3级 烧伤 强度"
+          },
+          {
+            "stage": "II",
+            "base_value": 4,
+            "coin_power": 7,
+            "effects": [
+              {
+                "timing": "拼点胜利",
+                "description": "使自身恢复10点 理智值"
+              },
+              {
+                "timing": "拼点失败",
+                "description": "使自身失去10点 理智值"
+              },
+              {
+                "timing": "命中时",
+                "description": "使目标增加3级 烧伤 强度"
+              },
+              {
+                "timing": "命中时",
+                "description": "使目标增加3级 烧伤 强度"
+              }
+            ],
+            "raw_text": "基础值： 4 变动值： +7 目标每带有7级 烧伤 强度，使本技能的硬币威力+1（最多+2） 若自身处于 不稳定E.G.O状态 ，则改为使用 爆炎一击 [拼点胜利] 使自身恢复10点 理智值 [拼点失败] 使自身失去10点 理智值 [命中时] 使目标增加3级 烧伤 强度 [命中时] 使目标增加3级 烧伤 强度"
+          }
+        ],
+        [
+          {
+            "stage": "I",
+            "base_value": 13,
+            "coin_power": 15,
+            "effects": [
+              {
+                "timing": "拼点胜利",
+                "description": "使自身恢复10点 理智值"
+              },
+              {
+                "timing": "拼点失败",
+                "description": "使自身失去30点 理智值 每有1点 暴怒共鸣数 ，使本技能造成的伤害+5%（最多+30%）"
+              },
+              {
+                "timing": "攻击后",
+                "description": "使自身失去15点 理智值 目标每带有1级 烧伤 强度，使本硬币造成的伤害+2.5%（最多+100%）"
+              },
+              {
+                "timing": "命中时",
+                "description": "若目标的 烧伤 强度不低于10级，则随机使（ 最大共鸣数 ）名敌方单位增加2级 烧伤 强度"
+              },
+              {
+                "timing": "命中时",
+                "description": "使目标增加10级 烧伤 强度"
+              },
+              {
+                "timing": "击杀敌方时",
+                "description": "随机使全体敌方单位增加共计相当于 击杀 目标带有的 烧伤 强度的 烧伤 强度（最多10级。若是 集中遭遇战 ，则改为使所有部位）"
+              }
+            ],
+            "raw_text": "基础值： 13 变动值： +15 全体敌方单位每带有共计4级 烧伤 强度，使本技能的硬币威力+1（最多+8） [拼点胜利] 使自身恢复10点 理智值 [拼点失败] 使自身失去30点 理智值 每有1点 暴怒共鸣数 ，使本技能造成的伤害+5%（最多+30%） [攻击后] 使自身失去15点 理智值 目标每带有1级 烧伤 强度，使本硬币造成的伤害+2.5%（最多+100%） [命中时] 若目标的 烧伤 强度不低于10级，则随机使（ 最大共鸣数 ）名敌方单位增加2级 烧伤 强度 [命中时] 使目标增加10级 烧伤 强度 [击杀敌方时] 随机使全体敌方单位增加共计相当于 击杀 目标带有的 烧伤 强度的 烧伤 强度（最多10级。若是 集中遭遇战 ，则改为使所有部位）"
+          },
+          {
+            "stage": "II",
+            "base_value": 13,
+            "coin_power": 15,
+            "effects": [
+              {
+                "timing": "拼点胜利",
+                "description": "使自身恢复10点 理智值"
+              },
+              {
+                "timing": "拼点失败",
+                "description": "使自身失去30点 理智值 每有1点 暴怒共鸣数 ，使本技能造成的伤害+10%（最多+60%） 若 最大暴怒完全共鸣数 不低于4，则改为每有1点 暴怒共鸣数 ，使本技能造成的伤害+20%（最多+120%）"
+              },
+              {
+                "timing": "攻击后",
+                "description": "使自身失去15点 理智值 目标每带有1级 烧伤 强度，使本硬币造成的伤害+4%（最多+120%）"
+              },
+              {
+                "timing": "命中时",
+                "description": "若目标的 烧伤 强度不低于10级，则随机使（最大共鸣数）名敌方单位增加2级 烧伤 强度 - 若该共鸣为 暴怒共鸣 ，则额外对敌方单位施加1层 烧伤"
+              },
+              {
+                "timing": "命中时",
+                "description": "使目标增加10级 烧伤 强度"
+              },
+              {
+                "timing": "击杀敌方时",
+                "description": "随机使全体敌方单位增加共计相当于 击杀 目标带有的 烧伤 强度的 烧伤 强度（最多10级。若是 集中遭遇战 ，则改为使所有部位）"
+              }
+            ],
+            "raw_text": "基础值： 13 变动值： +15 全体敌方单位每带有共计4级 烧伤 强度，使本技能的硬币威力+2（最多+8） [拼点胜利] 使自身恢复10点 理智值 [拼点失败] 使自身失去30点 理智值 每有1点 暴怒共鸣数 ，使本技能造成的伤害+10%（最多+60%） 若 最大暴怒完全共鸣数 不低于4，则改为每有1点 暴怒共鸣数 ，使本技能造成的伤害+20%（最多+120%） [攻击后] 使自身失去15点 理智值 目标每带有1级 烧伤 强度，使本硬币造成的伤害+4%（最多+120%） [命中时] 若目标的 烧伤 强度不低于10级，则随机使（最大共鸣数）名敌方单位增加2级 烧伤 强度 - 若该共鸣为 暴怒共鸣 ，则额外对敌方单位施加1层 烧伤 [命中时] 使目标增加10级 烧伤 强度 [击杀敌方时] 随机使全体敌方单位增加共计相当于 击杀 目标带有的 烧伤 强度的 烧伤 强度（最多10级。若是 集中遭遇战 ，则改为使所有部位）"
+          }
+        ]
+      ],
+      "coin_effects": [
+        {
+          "coin_index": 0,
+          "description": "技能三"
+        },
+        {
+          "coin_index": 0,
+          "description": "烙印 1"
+        },
+        {
+          "coin_index": 0,
+          "timing": "",
+          "description": "2"
+        },
+        {
+          "coin_index": 0,
+          "description": "+3"
+        },
+        {
+          "coin_index": 0,
+          "description": "1"
+        },
+        {
+          "coin_index": 0,
+          "description": "基础值： 4 变动值： +7 若目标的 烧伤 强度不低于10级，则使本技能的硬币威力+1 若自身处于 不稳定E.G.O状态 ，则改为使用 爆炎一击 [拼点胜利] 使自身恢复10点 理智值 [拼点失败] 使自身失去10点 理智值"
+        },
+        {
+          "coin_index": 1,
+          "timing": "命中时",
+          "description": "[命中时] 使目标增加3级 烧伤 强度"
+        },
+        {
+          "coin_index": 2,
+          "timing": "命中时",
+          "description": "[命中时] 使目标增加3级 烧伤 强度"
+        },
+        {
+          "coin_index": 1,
+          "timing": "命中时",
+          "description": "[命中时] 使目标增加3级 烧伤 强度"
+        },
+        {
+          "coin_index": 2,
+          "timing": "命中时",
+          "description": "[命中时] 使目标增加3级 烧伤 强度"
+        },
+        {
+          "coin_index": 0,
+          "description": "爆炎一击 0"
+        },
+        {
+          "coin_index": 0,
+          "timing": "",
+          "description": "1"
+        },
+        {
+          "coin_index": 0,
+          "description": "+5"
+        },
+        {
+          "coin_index": 0,
+          "description": "1"
+        },
+        {
+          "coin_index": 0,
+          "description": "基础值： 13 变动值： +15 全体敌方单位每带有共计4级 烧伤 强度，使本技能的硬币威力+1（最多+8） [拼点胜利] 使自身恢复10点 理智值 [拼点失败] 使自身失去30点 理智值 每有1点 暴怒共鸣数 ，使本技能造成的伤害+5%（最多+30%） [攻击后] 使自身失去15点 理智值"
+        },
+        {
+          "coin_index": 1,
+          "timing": "命中时",
+          "description": "目标每带有1级 烧伤 强度，使本硬币造成的伤害+2.5%（最多+100%） [命中时] 若目标的 烧伤 强度不低于10级，则随机使（ 最大共鸣数 ）名敌方单位增加2级 烧伤 强度 [命中时] 使目标增加10级 烧伤 强度 [击杀敌方时] 随机使全体敌方单位增加共计相当于 击杀 目标带有的 烧伤 强度的 烧伤 强度（最多10级。若是 集中遭遇战 ，则改为使所有部位）"
+        },
+        {
+          "coin_index": 1,
+          "timing": "命中时",
+          "description": "目标每带有1级 烧伤 强度，使本硬币造成的伤害+4%（最多+120%） [命中时] 若目标的 烧伤 强度不低于10级，则随机使（最大共鸣数）名敌方单位增加2级 烧伤 强度 - 若该共鸣为 暴怒共鸣 ，则额外对敌方单位施加1层 烧伤 [命中时] 使目标增加10级 烧伤 强度 [击杀敌方时] 随机使全体敌方单位增加共计相当于 击杀 目标带有的 烧伤 强度的 烧伤 强度（最多10级。若是 集中遭遇战 ，则改为使所有部位）"
+        }
+      ],
+      "wikitext_key": "3技能"
+    },
+    {
+      "skill_index": 3,
+      "skill_name": "悔恨交加",
+      "sin_type": "",
+      "damage_type": "",
+      "guard_type": "",
+      "attack_capacity": 1,
+      "coin_count": 1,
+      "stage_groups": [
+        [
+          {
+            "stage": "I",
+            "base_value": 15,
+            "coin_power": 5,
+            "effects": [],
+            "raw_text": "基础值： 15 变动值： +5 若自身处于 不稳定E.G.O状态 ，则目标每带有2级 烧伤 强度，使本技能的基础威力+1（最多+10）"
+          },
+          {
+            "stage": "II",
+            "base_value": 15,
+            "coin_power": 5,
+            "effects": [],
+            "raw_text": "基础值： 15 变动值： +5 若自身处于 不稳定E.G.O状态 ，则目标每带有2级 烧伤 强度，使本技能的基础威力+1（最多+20）"
+          }
+        ]
+      ],
+      "coin_effects": [
+        {
+          "coin_index": 0,
+          "description": "守备技能"
+        },
+        {
+          "coin_index": 0,
+          "description": "悔恨交加"
+        },
+        {
+          "coin_index": 0,
+          "timing": "",
+          "description": "1"
+        },
+        {
+          "coin_index": 0,
+          "description": "+5"
+        },
+        {
+          "coin_index": 0,
+          "description": "1"
+        },
+        {
+          "coin_index": 0,
+          "description": "I阶 - III阶 IV阶 追加属性： 基础值： 15 变动值： +5 若自身处于 不稳定E.G.O状态 ，则目标每带有2级 烧伤 强度，使本技能的基础威力+1（最多+10） 基础值： 15 变动值： +5 若自身处于 不稳定E.G.O状态 ，则目标每带有2级 烧伤 强度，使本技能的基础威力+1（最多+20）"
+        }
+      ],
+      "wikitext_key": "4技能"
+    }
+  ],
+  "battle_passive": "人格被动1100902\n人格被动1100901\n人格被动1100921",
+  "support_passive": "",
+  "notes": "",
+  "voice_lines": [
+    {
+      "file": "battle_endcommand_11009_2.ogg",
+      "title": "进行攻击",
+      "text": "||虽仍旧害怕与恐惧……但我不能止步于此！"
+    },
+    {
+      "file": "battle_kill_11009_2.ogg",
+      "title": "击杀敌方",
+      "text": "||如果犹豫就无法前进！"
+    },
+    {
+      "file": "battle_dead_11009_2.ogg",
+      "title": "自身阵亡",
+      "text": "||或许……我从一开始……就走错了路……"
+    }
+  ],
+  "skill_voice": [],
+  "_structured": true,
+  "id": "wiki_辛克莱黎明事务所收尾人",
+  "url": "https://limbuscompany.huijiwiki.com/wiki/辛克莱黎明事务所收尾人",
+  "categories": [
+    "人格"
+  ],
+  "source": "wiki",
+  "_schema_version": 1
+}

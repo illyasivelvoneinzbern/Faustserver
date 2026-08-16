@@ -1,0 +1,557 @@
+{
+  "page_type": "personality",
+  "title": "良秀W公司3级清扫人员",
+  "sinner": "良秀",
+  "sinner_id": "ryoshu",
+  "personality_name": "良秀W公司3级清扫人员",
+  "release_date": "2023.08.24",
+  "acquisition": "常驻提取",
+  "sin_affinities": {
+    "色欲": 3,
+    "傲慢": 2,
+    "嫉妒": 1
+  },
+  "physical_resistances": {
+    "斩击": 0.5,
+    "突刺": 1.0,
+    "打击": 2.0
+  },
+  "ego_resources": {
+    "色欲": 3,
+    "傲慢": 2,
+    "嫉妒": 1
+  },
+  "skills": [
+    {
+      "skill_index": 0,
+      "skill_name": "能·循",
+      "sin_type": "色欲",
+      "damage_type": "斩击",
+      "guard_type": "",
+      "attack_capacity": 1,
+      "coin_count": 3,
+      "stage_groups": [
+        [
+          {
+            "stage": "I",
+            "base_value": 3,
+            "coin_power": 1,
+            "effects": [
+              {
+                "timing": "命中时",
+                "description": "使自身获得2层 充能"
+              },
+              {
+                "timing": "命中时",
+                "description": "使自身获得2层 充能"
+              }
+            ],
+            "raw_text": "基础值： 3 变动值： +1 [命中时] 使自身获得2层 充能 [命中时] 使自身获得2层 充能"
+          },
+          {
+            "stage": "II",
+            "base_value": 3,
+            "coin_power": 1,
+            "effects": [
+              {
+                "timing": "命中时",
+                "description": "使自身获得2层 充能"
+              },
+              {
+                "timing": "命中时",
+                "description": "使自身获得2层 充能"
+              }
+            ],
+            "raw_text": "基础值： 3 变动值： +1 若自身的 充能 层数不低于10层，则使本技能造成的伤害+10% [命中时] 使自身获得2层 充能 [命中时] 使自身获得2层 充能"
+          },
+          {
+            "stage": "III",
+            "base_value": 3,
+            "coin_power": 2,
+            "effects": [
+              {
+                "timing": "命中时",
+                "description": "使自身获得2层 充能"
+              },
+              {
+                "timing": "命中时",
+                "description": "使自身获得2层 充能"
+              }
+            ],
+            "raw_text": "基础值： 3 变动值： +2 若自身的 充能 层数不低于10层，则使本技能造成的伤害+10% [命中时] 使自身获得2层 充能 [命中时] 使自身获得2层 充能"
+          },
+          {
+            "stage": "IV",
+            "base_value": 3,
+            "coin_power": 2,
+            "effects": [
+              {
+                "timing": "命中时",
+                "description": "使自身获得2层 充能"
+              },
+              {
+                "timing": "命中时",
+                "description": "使自身获得2层 充能"
+              }
+            ],
+            "raw_text": "基础值： 3 变动值： +2 若自身的 充能 层数不低于10层，则使本技能造成的伤害+10% 若自身的 充能 层数不低于15层，则使本技能造成的伤害额外+10% [命中时] 使自身获得2层 充能 [命中时] 使自身获得2层 充能"
+          }
+        ]
+      ],
+      "coin_effects": [
+        {
+          "coin_index": 0,
+          "description": "技能一"
+        },
+        {
+          "coin_index": 0,
+          "description": "能·循 3"
+        },
+        {
+          "coin_index": 0,
+          "timing": "",
+          "description": "3"
+        },
+        {
+          "coin_index": 0,
+          "description": "+5"
+        },
+        {
+          "coin_index": 0,
+          "description": "1"
+        },
+        {
+          "coin_index": 0,
+          "description": "基础值： 3 变动值： +1"
+        },
+        {
+          "coin_index": 1,
+          "timing": "命中时",
+          "description": "[命中时] 使自身获得2层 充能"
+        },
+        {
+          "coin_index": 2,
+          "timing": "命中时",
+          "description": "[命中时] 使自身获得2层 充能"
+        },
+        {
+          "coin_index": 1,
+          "timing": "命中时",
+          "description": "[命中时] 使自身获得2层 充能"
+        },
+        {
+          "coin_index": 2,
+          "timing": "命中时",
+          "description": "[命中时] 使自身获得2层 充能"
+        },
+        {
+          "coin_index": 1,
+          "timing": "命中时",
+          "description": "[命中时] 使自身获得2层 充能"
+        },
+        {
+          "coin_index": 2,
+          "timing": "命中时",
+          "description": "[命中时] 使自身获得2层 充能"
+        },
+        {
+          "coin_index": 1,
+          "timing": "命中时",
+          "description": "[命中时] 使自身获得2层 充能"
+        },
+        {
+          "coin_index": 2,
+          "timing": "命中时",
+          "description": "[命中时] 使自身获得2层 充能"
+        }
+      ],
+      "wikitext_key": "1技能"
+    },
+    {
+      "skill_index": 1,
+      "skill_name": "跃迁",
+      "sin_type": "傲慢",
+      "damage_type": "斩击",
+      "guard_type": "",
+      "attack_capacity": 1,
+      "coin_count": 3,
+      "stage_groups": [
+        [
+          {
+            "stage": "I",
+            "base_value": 1,
+            "coin_power": 5,
+            "effects": [
+              {
+                "timing": "使用时",
+                "description": "使自身获得5层 充能"
+              },
+              {
+                "timing": "正面命中时",
+                "description": "若自身的 充能 层数不低于10层，则对目标施加1层 斩击易损"
+              },
+              {
+                "timing": "命中时",
+                "description": "若目标的体力不高于30%，则使本硬币造成的伤害+15%"
+              }
+            ],
+            "raw_text": "基础值： 1 变动值： +5 [使用时] 使自身获得5层 充能 [正面命中时] 若自身的 充能 层数不低于10层，则对目标施加1层 斩击易损 [命中时] 若目标的体力不高于30%，则使本硬币造成的伤害+15%"
+          },
+          {
+            "stage": "II",
+            "base_value": 1,
+            "coin_power": 5,
+            "effects": [
+              {
+                "timing": "使用时",
+                "description": "使自身获得6层 充能 若自身的 充能 层数不低于10层，则使本技能的硬币威力+1"
+              },
+              {
+                "timing": "命中时",
+                "description": "若自身的 充能 层数不低于10层，则对目标施加1层 斩击易损"
+              },
+              {
+                "timing": "命中时",
+                "description": "若目标的体力不高于30%，则使本硬币造成的伤害+15%"
+              },
+              {
+                "timing": "击杀敌方时",
+                "description": "下回合使自身获得1层 迅捷"
+              }
+            ],
+            "raw_text": "基础值： 1 变动值： +5 [使用时] 使自身获得6层 充能 若自身的 充能 层数不低于10层，则使本技能的硬币威力+1 [命中时] 若自身的 充能 层数不低于10层，则对目标施加1层 斩击易损 [命中时] 若目标的体力不高于30%，则使本硬币造成的伤害+15% [击杀敌方时] 下回合使自身获得1层 迅捷"
+          },
+          {
+            "stage": "III",
+            "base_value": 2,
+            "coin_power": 5,
+            "effects": [
+              {
+                "timing": "使用时",
+                "description": "使自身获得6层 充能 若自身的 充能 层数不低于10层，则使本技能的硬币威力+1"
+              },
+              {
+                "timing": "命中时",
+                "description": "若自身的 充能 层数不低于10层，则对目标施加1层 斩击易损"
+              },
+              {
+                "timing": "命中时",
+                "description": "若目标的体力不高于30%，则使本硬币造成的伤害+20%"
+              },
+              {
+                "timing": "击杀敌方时",
+                "description": "下回合使自身获得1层 迅捷"
+              }
+            ],
+            "raw_text": "基础值： 2 变动值： +5 [使用时] 使自身获得6层 充能 若自身的 充能 层数不低于10层，则使本技能的硬币威力+1 [命中时] 若自身的 充能 层数不低于10层，则对目标施加1层 斩击易损 [命中时] 若目标的体力不高于30%，则使本硬币造成的伤害+20% [击杀敌方时] 下回合使自身获得1层 迅捷"
+          },
+          {
+            "stage": "IV",
+            "base_value": 2,
+            "coin_power": 5,
+            "effects": [
+              {
+                "timing": "使用时",
+                "description": "使自身获得7层 充能 若自身的 充能 层数不低于10层，则使本技能的硬币威力+1 若自身的 充能 层数不低于15层，则使本技能的硬币威力额外+1"
+              },
+              {
+                "timing": "命中时",
+                "description": "若自身的 充能 层数不低于10层，则对目标施加2层 斩击易损"
+              },
+              {
+                "timing": "命中时",
+                "description": "若目标的体力不高于30%，则使本硬币造成的伤害+30%"
+              },
+              {
+                "timing": "击杀敌方时",
+                "description": "下回合使自身获得3层 迅捷"
+              }
+            ],
+            "raw_text": "基础值： 2 变动值： +5 [使用时] 使自身获得7层 充能 若自身的 充能 层数不低于10层，则使本技能的硬币威力+1 若自身的 充能 层数不低于15层，则使本技能的硬币威力额外+1 [命中时] 若自身的 充能 层数不低于10层，则对目标施加2层 斩击易损 [命中时] 若目标的体力不高于30%，则使本硬币造成的伤害+30% [击杀敌方时] 下回合使自身获得3层 迅捷"
+          }
+        ]
+      ],
+      "coin_effects": [
+        {
+          "coin_index": 0,
+          "description": "技能二"
+        },
+        {
+          "coin_index": 0,
+          "description": "跃迁 2"
+        },
+        {
+          "coin_index": 0,
+          "timing": "",
+          "description": "3"
+        },
+        {
+          "coin_index": 0,
+          "description": "+5"
+        },
+        {
+          "coin_index": 0,
+          "description": "1"
+        },
+        {
+          "coin_index": 0,
+          "description": "基础值： 1 变动值： +5 [使用时] 使自身获得5层 充能"
+        },
+        {
+          "coin_index": 1,
+          "timing": "正面命中时",
+          "description": "[正面命中时] 若自身的 充能 层数不低于10层，则对目标施加1层 斩击易损"
+        },
+        {
+          "coin_index": 3,
+          "timing": "命中时",
+          "description": "[命中时] 若目标的体力不高于30%，则使本硬币造成的伤害+15%"
+        },
+        {
+          "coin_index": 1,
+          "timing": "命中时",
+          "description": "[命中时] 若自身的 充能 层数不低于10层，则对目标施加1层 斩击易损"
+        },
+        {
+          "coin_index": 3,
+          "timing": "命中时",
+          "description": "[命中时] 若目标的体力不高于30%，则使本硬币造成的伤害+15% [击杀敌方时] 下回合使自身获得1层 迅捷"
+        },
+        {
+          "coin_index": 1,
+          "timing": "命中时",
+          "description": "[命中时] 若自身的 充能 层数不低于10层，则对目标施加1层 斩击易损"
+        },
+        {
+          "coin_index": 3,
+          "timing": "命中时",
+          "description": "[命中时] 若目标的体力不高于30%，则使本硬币造成的伤害+20% [击杀敌方时] 下回合使自身获得1层 迅捷"
+        },
+        {
+          "coin_index": 1,
+          "timing": "命中时",
+          "description": "[命中时] 若自身的 充能 层数不低于10层，则对目标施加2层 斩击易损"
+        },
+        {
+          "coin_index": 3,
+          "timing": "命中时",
+          "description": "[命中时] 若目标的体力不高于30%，则使本硬币造成的伤害+30% [击杀敌方时] 下回合使自身获得3层 迅捷"
+        }
+      ],
+      "wikitext_key": "2技能"
+    },
+    {
+      "skill_index": 2,
+      "skill_name": "次·魔·空·裂",
+      "sin_type": "",
+      "damage_type": "",
+      "guard_type": "",
+      "attack_capacity": 1,
+      "coin_count": 5,
+      "stage_groups": [
+        [
+          {
+            "stage": "I",
+            "base_value": 3,
+            "coin_power": 2,
+            "effects": [
+              {
+                "timing": "使用时",
+                "description": "若自身的 充能 层数在7-14层之间，则消耗所有 充能 层数，并消耗体力上限3×(15-消耗的 充能 层数)%的体力，使本技能的硬币威力+3"
+              },
+              {
+                "timing": "使用时",
+                "description": "消耗15层 充能 并使本技能的硬币威力+3"
+              },
+              {
+                "timing": "正面命中时",
+                "description": "使最后一枚硬币造成的伤害+5%"
+              },
+              {
+                "timing": "正面命中时",
+                "description": "使最后一枚硬币造成的伤害+5%"
+              },
+              {
+                "timing": "正面命中时",
+                "description": "使最后一枚硬币造成的伤害+5%"
+              },
+              {
+                "timing": "击杀敌方时",
+                "description": "若消耗了15层 充能 ，使自身与除自身以外随机1名友方单位获得5层 充能力场"
+              }
+            ],
+            "raw_text": "基础值： 3 变动值： +2 [使用时] 若自身的 充能 层数在7-14层之间，则消耗所有 充能 层数，并消耗体力上限3×(15-消耗的 充能 层数)%的体力，使本技能的硬币威力+3 [使用时] 消耗15层 充能 并使本技能的硬币威力+3 [正面命中时] 使最后一枚硬币造成的伤害+5% [正面命中时] 使最后一枚硬币造成的伤害+5% [正面命中时] 使最后一枚硬币造成的伤害+5% [击杀敌方时] 若消耗了15层 充能 ，使自身与除自身以外随机1名友方单位获得5层 充能力场"
+          },
+          {
+            "stage": "II",
+            "base_value": 3,
+            "coin_power": 2,
+            "effects": [
+              {
+                "timing": "使用时",
+                "description": "若自身的 充能 层数在7-14层之间，则消耗所有 充能 层数，并消耗体力上限3×(15-消耗的 充能 层数)%的体力，使本技能的硬币威力+5"
+              },
+              {
+                "timing": "使用时",
+                "description": "消耗15层 充能 并使本技能的硬币威力+5"
+              },
+              {
+                "timing": "正面命中时",
+                "description": "使最后一枚硬币造成的伤害+10%"
+              },
+              {
+                "timing": "正面命中时",
+                "description": "使最后一枚硬币造成的伤害+10%"
+              },
+              {
+                "timing": "正面命中时",
+                "description": "使最后一枚硬币造成的伤害+10%"
+              },
+              {
+                "timing": "击杀敌方时",
+                "description": "若消耗了15层 充能 ，使自身与除自身以外随机1名友方单位获得7层 充能力场"
+              }
+            ],
+            "raw_text": "基础值： 3 变动值： +2 [使用时] 若自身的 充能 层数在7-14层之间，则消耗所有 充能 层数，并消耗体力上限3×(15-消耗的 充能 层数)%的体力，使本技能的硬币威力+5 [使用时] 消耗15层 充能 并使本技能的硬币威力+5 [正面命中时] 使最后一枚硬币造成的伤害+10% [正面命中时] 使最后一枚硬币造成的伤害+10% [正面命中时] 使最后一枚硬币造成的伤害+10% [击杀敌方时] 若消耗了15层 充能 ，使自身与除自身以外随机1名友方单位获得7层 充能力场"
+          }
+        ]
+      ],
+      "coin_effects": [
+        {
+          "coin_index": 0,
+          "description": "技能三"
+        },
+        {
+          "coin_index": 0,
+          "description": "次·魔·空·裂 1"
+        },
+        {
+          "coin_index": 0,
+          "timing": "",
+          "description": "4"
+        },
+        {
+          "coin_index": 0,
+          "description": "+5"
+        },
+        {
+          "coin_index": 0,
+          "description": "1"
+        },
+        {
+          "coin_index": 0,
+          "description": "基础值： 3 变动值： +2 [使用时] 若自身的 充能 层数在7-14层之间，则消耗所有 充能 层数，并消耗体力上限3×(15-消耗的 充能 层数)%的体力，使本技能的硬币威力+3 [使用时] 消耗15层 充能 并使本技能的硬币威力+3"
+        },
+        {
+          "coin_index": 1,
+          "timing": "正面命中时",
+          "description": "[正面命中时] 使最后一枚硬币造成的伤害+5%"
+        },
+        {
+          "coin_index": 2,
+          "timing": "正面命中时",
+          "description": "[正面命中时] 使最后一枚硬币造成的伤害+5%"
+        },
+        {
+          "coin_index": 3,
+          "timing": "正面命中时",
+          "description": "[正面命中时] 使最后一枚硬币造成的伤害+5%"
+        },
+        {
+          "coin_index": 4,
+          "timing": "击杀敌方时",
+          "description": "[击杀敌方时] 若消耗了15层 充能 ，使自身与除自身以外随机1名友方单位获得5层 充能力场"
+        },
+        {
+          "coin_index": 1,
+          "timing": "正面命中时",
+          "description": "[正面命中时] 使最后一枚硬币造成的伤害+10%"
+        },
+        {
+          "coin_index": 2,
+          "timing": "正面命中时",
+          "description": "[正面命中时] 使最后一枚硬币造成的伤害+10%"
+        },
+        {
+          "coin_index": 3,
+          "timing": "正面命中时",
+          "description": "[正面命中时] 使最后一枚硬币造成的伤害+10%"
+        },
+        {
+          "coin_index": 4,
+          "timing": "击杀敌方时",
+          "description": "[击杀敌方时] 若消耗了15层 充能 ，使自身与除自身以外随机1名友方单位获得7层 充能力场"
+        }
+      ],
+      "wikitext_key": "3技能"
+    },
+    {
+      "skill_index": 3,
+      "skill_name": "充能闪避",
+      "sin_type": "",
+      "damage_type": "",
+      "guard_type": "闪避",
+      "attack_capacity": 1,
+      "coin_count": 1,
+      "stage_groups": [
+        [
+          {
+            "stage": "I",
+            "base_value": 3,
+            "coin_power": 10,
+            "effects": [],
+            "raw_text": "基础值： 3 变动值： +10 自身每带有5层 充能 ，使本技能的基础威力+1（最大为2）"
+          },
+          {
+            "stage": "II",
+            "base_value": 4,
+            "coin_power": 10,
+            "effects": [],
+            "raw_text": "基础值： 4 变动值： +10 自身每带有5层 充能 ，使本技能的基础威力+1（最大为3）"
+          }
+        ]
+      ],
+      "coin_effects": [
+        {
+          "coin_index": 0,
+          "description": "守备技能"
+        },
+        {
+          "coin_index": 0,
+          "description": "充能闪避"
+        },
+        {
+          "coin_index": 0,
+          "timing": "",
+          "description": "1"
+        },
+        {
+          "coin_index": 0,
+          "description": "-4"
+        },
+        {
+          "coin_index": 0,
+          "description": "1"
+        },
+        {
+          "coin_index": 0,
+          "description": "I阶 - III阶 IV阶 追加属性： 基础值： 3 变动值： +10 自身每带有5层 充能 ，使本技能的基础威力+1（最大为2） 基础值： 4 变动值： +10 自身每带有5层 充能 ，使本技能的基础威力+1（最大为3）"
+        }
+      ],
+      "wikitext_key": "守备技能4"
+    }
+  ],
+  "battle_passive": "人格被动1040501\n人格被动1040521",
+  "support_passive": "",
+  "notes": "",
+  "voice_lines": [],
+  "skill_voice": [],
+  "_structured": true,
+  "id": "wiki_良秀W公司3级清扫人员",
+  "url": "https://limbuscompany.huijiwiki.com/wiki/良秀W公司3级清扫人员",
+  "categories": [
+    "人格"
+  ],
+  "source": "wiki",
+  "_schema_version": 1
+}

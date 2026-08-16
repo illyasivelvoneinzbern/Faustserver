@@ -1,0 +1,21 @@
+{
+  "id": "gift_9803",
+  "title": "镜中花",
+  "url": "https://limbuscompany.huijiwiki.com/wiki/E.G.O饰品",
+  "categories": [
+    "E.G.O饰品"
+  ],
+  "content": "每回合开始时，使全体敌方单位增加3级破裂强度并对其施加1层破裂(若是集中遭遇战，则改为所有部位)\n根据编入的拥有施加破裂或获得呼吸法的攻击技能的友方单位数，相应强化本饰品效果(不包括E.G.O技能，包括待命人员)。\n- 不低于6名\n技能命中并触发破裂伤害时，使自身获得1层呼吸法(每个技能最多3次)\n- 不低于10名\n技能命中并暴击时，对目标施加1层破裂(每个技能最多3次)",
+  "source": "tabx",
+  "_structured": true,
+  "page_type": "ego_gift",
+  "gift_name": "镜中花",
+  "rarity": 3,
+  "cost": "255",
+  "effect_types": "破裂",
+  "attack_type": "暴食",
+  "location": "镜像迷宫",
+  "stage": "base",
+  "special": "不思观望",
+  "_schema_version": 1
+}

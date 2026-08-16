@@ -1,0 +1,73 @@
+{
+  "page_type": "enemy",
+  "title": "1-11-2-第五收容长廊",
+  "enemy_name": "终末土偶",
+  "battle_stage": "1-11-2-第五收容长廊",
+  "body_part": "头部",
+  "hp": 39,
+  "defense_level": 2,
+  "speed_min": 1,
+  "speed_max": 4,
+  "chaos_threshold": "",
+  "physical_resistances": {
+    "斩击": 1.0,
+    "突刺": 1.0,
+    "打击": 2.0
+  },
+  "sin_resistances": {
+    "暴怒": 1.5,
+    "色欲": 0.75,
+    "怠惰": 2.0,
+    "暴食": 1.0,
+    "忧郁": 1.0,
+    "傲慢": 1.0,
+    "嫉妒": 2.0
+  },
+  "panic_types": [],
+  "passives": [],
+  "skills": [
+    {
+      "skill_name": "戳刺",
+      "icon_id": "800301",
+      "sin_type": "色欲",
+      "damage_type": "",
+      "base_value": 2,
+      "coin_power": 9,
+      "coin_count": 2,
+      "attack_level": 8,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[正面命中时] 下回合对目标施加1层 流血"
+      ]
+    },
+    {
+      "skill_name": "撕挠",
+      "icon_id": "800302",
+      "sin_type": "色欲",
+      "damage_type": "",
+      "base_value": 1,
+      "coin_power": 9,
+      "coin_count": 2,
+      "attack_level": 8,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": []
+    }
+  ],
+  "is_ally": false,
+  "_structured": true,
+  "appear_stages": [
+    "1-11-2-第五收容长廊",
+    "1-11-2-第四收容长廊",
+    "以人为祭-战斗"
+  ],
+  "enemy_id": "1-11-2-第五收容长廊|终末土偶|头部",
+  "defense": 2,
+  "speed": "1~4",
+  "_schema_version": 1
+}

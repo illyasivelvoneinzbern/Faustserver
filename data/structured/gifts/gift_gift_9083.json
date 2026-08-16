@@ -1,0 +1,20 @@
+{
+  "id": "gift_9083",
+  "title": "月之记忆",
+  "url": "https://limbuscompany.huijiwiki.com/wiki/E.G.O饰品",
+  "categories": [
+    "E.G.O饰品"
+  ],
+  "content": "全体敌方单位（异想体则为所有部位）的物理抗性及罪孽抗性全部变为“致命”。",
+  "source": "tabx",
+  "_structured": true,
+  "page_type": "ego_gift",
+  "gift_name": "月之记忆",
+  "rarity": 5,
+  "cost": "600",
+  "effect_types": "泛用",
+  "attack_type": "嫉妒",
+  "location": "镜像迷宫",
+  "stage": "base",
+  "_schema_version": 1
+}

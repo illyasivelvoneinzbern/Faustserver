@@ -1,0 +1,22 @@
+{
+  "id": "gift_9244",
+  "title": "试验提取：提灯",
+  "url": "https://limbuscompany.huijiwiki.com/wiki/E.G.O饰品",
+  "categories": [
+    "E.G.O饰品"
+  ],
+  "content": "增加破裂强度或施加破裂层数的攻击技能造成的伤害+10%\n- 若自身已失去体力不低于体力上限的20%，则额外使该技能的拼点威力+1\n- 自身所有行动槽的挑衅值之和每有1点，使攻击技能造成的伤害+1%(最多+15%)",
+  "source": "tabx",
+  "_structured": true,
+  "page_type": "ego_gift",
+  "gift_name": "试验提取：提灯",
+  "rarity": 3,
+  "cost": "248",
+  "effect_types": "破裂",
+  "attack_type": "暴食",
+  "location": "LCB定期体检、镜像迷宫",
+  "stage": "base",
+  "special": "LCB定期体检复刻",
+  "event": "事件-精灵提灯出逃",
+  "_schema_version": 1
+}

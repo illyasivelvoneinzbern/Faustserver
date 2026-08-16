@@ -1,0 +1,136 @@
+{
+  "page_type": "enemy",
+  "title": "主线战斗7-36-10",
+  "enemy_name": "紧随其后的游行血袋",
+  "battle_stage": "主线战斗7-36-10",
+  "body_part": "躯干",
+  "hp": 181,
+  "defense_level": 47,
+  "speed_min": 1,
+  "speed_max": 4,
+  "chaos_threshold": "54/0",
+  "physical_resistances": {
+    "斩击": 1.0,
+    "突刺": 1.0,
+    "打击": 1.0
+  },
+  "sin_resistances": {
+    "暴怒": 1.2,
+    "色欲": 1.2,
+    "怠惰": 0.7,
+    "暴食": 1.0,
+    "忧郁": 1.0,
+    "傲慢": 1.0,
+    "嫉妒": 1.2
+  },
+  "panic_types": [],
+  "passives": [],
+  "skills": [
+    {
+      "skill_name": "硬血挥击",
+      "icon_id": "9017401",
+      "sin_type": "暴怒",
+      "damage_type": "斩击",
+      "base_value": 4,
+      "coin_power": 987,
+      "coin_count": 2,
+      "attack_level": 45,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[使用时] 自身的 庆典的热潮 层数不低于5层，则使本技能的最终威力+1",
+        "[命中时] 对目标施加3层 流血",
+        "[正面命中时] 使目标增加2级 破裂 强度"
+      ]
+    },
+    {
+      "skill_name": "硬血乱刺",
+      "icon_id": "9017402",
+      "sin_type": "嫉妒",
+      "damage_type": "斩击",
+      "base_value": 3,
+      "coin_power": 5793,
+      "coin_count": 3,
+      "attack_level": 45,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[使用时] 自身每带有5层 庆典的热潮 或目标每带有6级 流血 强度，使本技能的最终威力+1(最多+2)",
+        "[使用时] 使自身增加15级 流血 强度并立即触发自身的 流血 1次，随后使自身的 流血 层数减少1层",
+        "[命中时] 若目标的 流血 强度不低于6级，则使自身获得1层 硬化血液",
+        "[命中时] 使目标增加3级 流血 强度并对其施加2层 流血",
+        "[命中时] 使自身获得1层 绽放的荆棘"
+      ]
+    },
+    {
+      "skill_name": "闪避",
+      "icon_id": "9017404",
+      "sin_type": "色欲",
+      "damage_type": "闪避",
+      "base_value": 2,
+      "coin_power": 9,
+      "coin_count": 1,
+      "attack_level": 0,
+      "attack_weight": 1,
+      "is_guard": true,
+      "guard_type": "闪避",
+      "importance": 0,
+      "coin_effects": [
+        "使用时自身的庆典的热潮层数不低于5层，则使本技能的最终威力+1",
+        "战斗开始使自身获得2层庆典的热潮",
+        "闪避失败使自身失去2层庆典的热潮"
+      ]
+    },
+    {
+      "skill_name": "开幕鸣奏！",
+      "icon_id": "840303",
+      "sin_type": "暴怒",
+      "damage_type": "打击",
+      "base_value": 7,
+      "coin_power": 987,
+      "coin_count": 2,
+      "attack_level": 45,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "无法拼点",
+        "1硬币攻击结束时对目标造成10点色欲伤害，随后自身阵亡"
+      ]
+    },
+    {
+      "skill_name": "硬血强化展开",
+      "icon_id": "9017403",
+      "sin_type": "色欲",
+      "damage_type": "穿刺",
+      "base_value": 3,
+      "coin_power": 9,
+      "coin_count": 2,
+      "attack_level": 45,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[使用时] 使自身增加15级 流血 强度并对自身施加2层 流血 ，立即触发自身的 流血 2次，随后使自身的 流血 层数减少2层",
+        "[命中时] 根据自身带有的 硬化血液 层数，使目标增加 流血 强度与 破裂 强度",
+        "[命中时] 使自身恢复体力上限(自身的 庆典的热潮 层数×2.5)%的体力(最多20%)",
+        "[命中时] 使自身获得2层 绽放的荆棘"
+      ]
+    }
+  ],
+  "is_ally": false,
+  "_structured": true,
+  "appear_stages": [
+    "主线战斗7-36-10"
+  ],
+  "enemy_id": "主线战斗7-36-10|紧随其后的游行血袋|躯干",
+  "defense": 47,
+  "speed": "1~4",
+  "_schema_version": 1
+}

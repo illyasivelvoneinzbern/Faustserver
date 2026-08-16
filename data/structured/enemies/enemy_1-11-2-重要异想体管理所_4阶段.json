@@ -1,0 +1,69 @@
+{
+  "page_type": "enemy",
+  "title": "1-11-2-重要异想体管理所",
+  "enemy_name": "4阶段",
+  "battle_stage": "1-11-2-重要异想体管理所",
+  "body_part": "面部",
+  "hp": 143,
+  "defense_level": 7,
+  "speed_min": 1,
+  "speed_max": 5,
+  "chaos_threshold": "",
+  "physical_resistances": {
+    "斩击": 1.0,
+    "突刺": 0.5,
+    "打击": 2.0
+  },
+  "sin_resistances": {
+    "暴怒": 1.5,
+    "色欲": 0.5,
+    "怠惰": 2.0,
+    "暴食": 1.0,
+    "忧郁": 1.0,
+    "傲慢": 0.75,
+    "嫉妒": 0.75
+  },
+  "panic_types": [],
+  "passives": [],
+  "skills": [
+    {
+      "skill_name": "宇宙燃烧",
+      "icon_id": "800205",
+      "sin_type": "",
+      "damage_type": "",
+      "base_value": 45,
+      "coin_power": 5793,
+      "coin_count": 1,
+      "attack_level": 1,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": []
+    },
+    {
+      "skill_name": "宇宙燃烧",
+      "icon_id": "800205",
+      "sin_type": "",
+      "damage_type": "",
+      "base_value": 45,
+      "coin_power": 5793,
+      "coin_count": 1,
+      "attack_level": 1,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": []
+    }
+  ],
+  "is_ally": false,
+  "_structured": true,
+  "appear_stages": [
+    "1-11-2-重要异想体管理所"
+  ],
+  "enemy_id": "1-11-2-重要异想体管理所|4阶段|面部",
+  "defense": 7,
+  "speed": "1~5",
+  "_schema_version": 1
+}

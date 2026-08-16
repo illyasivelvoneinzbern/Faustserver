@@ -1,0 +1,73 @@
+{
+  "page_type": "enemy",
+  "title": "4-54-3-K公司某处的实验室",
+  "enemy_name": "欲望之树",
+  "battle_stage": "4-54-3-K公司某处的实验室",
+  "body_part": "欲望",
+  "hp": 95,
+  "defense_level": 30,
+  "speed_min": 1,
+  "speed_max": 3,
+  "chaos_threshold": "",
+  "physical_resistances": {
+    "斩击": 1.0,
+    "突刺": 1.0,
+    "打击": 1.5
+  },
+  "sin_resistances": {
+    "暴怒": 1.5,
+    "色欲": 0.75,
+    "怠惰": 2.0,
+    "暴食": 1.0,
+    "忧郁": 1.0,
+    "傲慢": 1.5,
+    "嫉妒": 1.0
+  },
+  "panic_types": [],
+  "passives": [
+    "耀眼的欲望: 回合开始时，若本单位存活，使东朗获得1层 伤害强化 ，1层 守护"
+  ],
+  "skills": [
+    {
+      "skill_name": "栽培成就",
+      "icon_id": "806001",
+      "sin_type": "暴食",
+      "damage_type": "穿刺",
+      "base_value": 3,
+      "coin_power": 854,
+      "coin_count": 3,
+      "attack_level": 35,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[命中时] 对目标施加1层 种子"
+      ]
+    },
+    {
+      "skill_name": "期盼",
+      "icon_id": "806002",
+      "sin_type": "常规",
+      "damage_type": "防御",
+      "base_value": 6,
+      "coin_power": 79,
+      "coin_count": 1,
+      "attack_level": 0,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": []
+    }
+  ],
+  "is_ally": false,
+  "_structured": true,
+  "appear_stages": [
+    "4-54-3-K公司某处的实验室"
+  ],
+  "enemy_id": "4-54-3-K公司某处的实验室|欲望之树|欲望",
+  "defense": 30,
+  "speed": "1~3",
+  "_schema_version": 1
+}

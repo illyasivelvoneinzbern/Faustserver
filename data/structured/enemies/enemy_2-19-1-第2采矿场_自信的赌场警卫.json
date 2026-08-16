@@ -1,0 +1,95 @@
+{
+  "page_type": "enemy",
+  "title": "2-19-1-第2采矿场",
+  "enemy_name": "自信的赌场警卫",
+  "battle_stage": "2-19-1-第2采矿场",
+  "body_part": "",
+  "hp": 66,
+  "defense_level": 11,
+  "speed_min": 3,
+  "speed_max": 5,
+  "chaos_threshold": "",
+  "physical_resistances": {
+    "斩击": 2.0,
+    "突刺": 1.0,
+    "打击": 0.75
+  },
+  "sin_resistances": {
+    "暴怒": 1.0,
+    "色欲": 1.0,
+    "怠惰": 1.0,
+    "暴食": 1.0,
+    "忧郁": 1.0,
+    "傲慢": 1.0,
+    "嫉妒": 1.0
+  },
+  "panic_types": [
+    "无措"
+  ],
+  "passives": [
+    "无"
+  ],
+  "skills": [
+    {
+      "skill_name": "发现入侵者！",
+      "icon_id": "9002001",
+      "sin_type": "傲慢",
+      "damage_type": "打击",
+      "base_value": 2,
+      "coin_power": 3,
+      "coin_count": 2,
+      "attack_level": 0,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "2正面命中时下回合对目标施加1层束缚"
+      ]
+    },
+    {
+      "skill_name": "站住！",
+      "icon_id": "9002003",
+      "sin_type": "怠惰",
+      "damage_type": "打击",
+      "base_value": 3,
+      "coin_power": 2,
+      "coin_count": 2,
+      "attack_level": 0,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "1命中时下回合对目标施加1层威力降低",
+        "2命中时下回合对目标施加1层威力降低"
+      ]
+    },
+    {
+      "skill_name": "自讨苦吃！",
+      "icon_id": "9002101",
+      "sin_type": "暴怒",
+      "damage_type": "打击",
+      "base_value": 2,
+      "coin_power": 2,
+      "coin_count": 3,
+      "attack_level": 0,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "拼点胜利使本技能的威力+1"
+      ]
+    }
+  ],
+  "is_ally": false,
+  "_structured": true,
+  "appear_stages": [
+    "2-19-1-第2采矿场"
+  ],
+  "enemy_id": "2-19-1-第2采矿场|自信的赌场警卫|",
+  "defense": 11,
+  "speed": "3~5",
+  "_schema_version": 1
+}

@@ -1,0 +1,40 @@
+{
+  "page_type": "enemy",
+  "title": "主线战斗4-47",
+  "enemy_name": "冬柏的伞",
+  "battle_stage": "主线战斗4-47",
+  "body_part": "伞",
+  "hp": 9,
+  "defense_level": 31,
+  "speed_min": 1,
+  "speed_max": 4,
+  "chaos_threshold": "",
+  "physical_resistances": {
+    "斩击": 1.0,
+    "突刺": 1.0,
+    "打击": 1.5
+  },
+  "sin_resistances": {
+    "暴怒": 0.5,
+    "色欲": 0.5,
+    "怠惰": 1.0,
+    "暴食": 1.0,
+    "忧郁": 2.0,
+    "傲慢": 1.5,
+    "嫉妒": 1.0
+  },
+  "panic_types": [],
+  "passives": [
+    "封闭的心: 每当本单位被破坏时，对冬柏施加5层 沉沦 ，使全体罪人失去2级 沉沦 强度。下回合使全体罪人获得1层 守护 ，2层 强壮"
+  ],
+  "skills": [],
+  "is_ally": false,
+  "_structured": true,
+  "appear_stages": [
+    "主线战斗4-47"
+  ],
+  "enemy_id": "主线战斗4-47|冬柏的伞|伞",
+  "defense": 31,
+  "speed": "1~4",
+  "_schema_version": 1
+}

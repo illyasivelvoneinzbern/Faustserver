@@ -1,0 +1,21 @@
+{
+  "id": "gift_9827",
+  "title": "家人的怨恨",
+  "url": "https://limbuscompany.huijiwiki.com/wiki/E.G.O饰品",
+  "categories": [
+    "E.G.O饰品"
+  ],
+  "content": "关卡内生成的血宴变为2倍\n增加流血强度，施加流血层数与施加特殊流血的技能攻击后，使自身恢复造成伤害量30%的体力(最多20点)\n- 通过以上效果恢复体力时，下回合使自身获得1层强壮(最多2层)\n共用消耗血宴总数层数每有50层，",
+  "source": "tabx",
+  "_structured": true,
+  "page_type": "ego_gift",
+  "gift_name": "家人的怨恨",
+  "rarity": 4,
+  "cost": "201",
+  "effect_types": "流血",
+  "attack_type": "色欲",
+  "location": "镜像迷宫",
+  "stage": "base",
+  "special": "极限模式节点-拉·曼却领之主",
+  "_schema_version": 1
+}

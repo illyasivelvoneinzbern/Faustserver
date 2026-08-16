@@ -1,0 +1,21 @@
+{
+  "id": "gift_9791",
+  "title": "影织斗笠",
+  "url": "https://limbuscompany.huijiwiki.com/wiki/E.G.O饰品",
+  "categories": [
+    "E.G.O饰品"
+  ],
+  "content": "回合结束时，使属于黑兽-卯的友方单位在下回合获得2层迅捷\n若自身的速度值高于目标或进行单方面攻击，则(速度值之差/3)每有1点，使自身造成的斩击伤害+10%(最多+30%)\n若自身的速度值高于目标，则(速度值之差/3)每有1点，使自身受到的伤害-10%(最多-30%)",
+  "source": "tabx",
+  "_structured": true,
+  "page_type": "ego_gift",
+  "gift_name": "影织斗笠",
+  "rarity": 3,
+  "cost": "251",
+  "effect_types": "斩击",
+  "attack_type": "暴食",
+  "location": "镜像迷宫",
+  "stage": "base",
+  "special": "深夜清扫",
+  "_schema_version": 1
+}

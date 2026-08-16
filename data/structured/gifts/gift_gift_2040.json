@@ -1,0 +1,21 @@
+{
+  "id": "gift_2040",
+  "title": "锈蚀的指针",
+  "url": "https://limbuscompany.huijiwiki.com/wiki/E.G.O饰品",
+  "categories": [
+    "E.G.O饰品"
+  ],
+  "content": "波次的首个回合开始时，使速度值最高的1名敌方单位增加(9-当前速度值)级震颤强度(最少3级)并对其施加相当于该数值一半的震颤层数(向上取整，若是异想体，则改为1个部位)\n受到回合开始时带有的震颤或特殊震颤强度不低于12级的敌方单位的伤害-10%",
+  "source": "tabx",
+  "_structured": true,
+  "page_type": "ego_gift",
+  "gift_name": "锈蚀的指针",
+  "rarity": 2,
+  "cost": "207",
+  "effect_types": "震颤",
+  "attack_type": "嫉妒",
+  "location": "时间杀人时间",
+  "stage": "base",
+  "event": "事件-T公司的街道",
+  "_schema_version": 1
+}

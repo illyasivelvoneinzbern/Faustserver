@@ -1,0 +1,21 @@
+{
+  "id": "gift_9026",
+  "title": "刺青：大器晚成",
+  "url": "https://limbuscompany.huijiwiki.com/wiki/E.G.O饰品",
+  "categories": [
+    "E.G.O饰品"
+  ],
+  "content": "使用傲慢技能或单硬币技能造成伤害时，下回合使该友方单位获得2层攻击等级提升与2层防御等级提升。（最多5层）",
+  "source": "tabx",
+  "_structured": true,
+  "page_type": "ego_gift",
+  "gift_name": "刺青：大器晚成",
+  "rarity": 2,
+  "cost": "183",
+  "effect_types": "泛用",
+  "attack_type": "傲慢",
+  "location": "镜像迷宫",
+  "stage": "base",
+  "event": "事件-刺青：大器晚成",
+  "_schema_version": 1
+}

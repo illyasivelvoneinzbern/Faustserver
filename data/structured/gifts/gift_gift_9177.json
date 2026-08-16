@@ -1,0 +1,21 @@
+{
+  "id": "gift_9177",
+  "title": "某日的记忆",
+  "url": "https://limbuscompany.huijiwiki.com/wiki/E.G.O饰品",
+  "categories": [
+    "E.G.O饰品"
+  ],
+  "content": "拥有增加呼吸法强度或获得呼吸法层数的技能(不包括E.G.O技能)的友方单位的3技能最终威力+2",
+  "source": "tabx",
+  "_structured": true,
+  "page_type": "ego_gift",
+  "gift_name": "某日的记忆",
+  "rarity": 2,
+  "cost": "213",
+  "effect_types": "呼吸法",
+  "attack_type": "忧郁",
+  "location": "镜像迷宫",
+  "stage": "base",
+  "event": "事件-某日的肖像",
+  "_schema_version": 1
+}

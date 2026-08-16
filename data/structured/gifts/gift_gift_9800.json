@@ -1,0 +1,22 @@
+{
+  "id": "gift_9800",
+  "title": "富",
+  "url": "https://limbuscompany.huijiwiki.com/wiki/E.G.O饰品",
+  "categories": [
+    "E.G.O饰品"
+  ],
+  "content": "所有饰品的购买与强化费用固定为1。\n每拥有500点经费，使全体友方单位获得1层攻击等级提升(最多20层)",
+  "source": "tabx",
+  "_structured": true,
+  "page_type": "ego_gift",
+  "gift_name": "富",
+  "rarity": 6,
+  "cost": "999",
+  "effect_types": "泛用",
+  "attack_type": "嫉妒",
+  "location": "镜像迷宫",
+  "stage": "base",
+  "special": "特殊事件",
+  "event": "事件-奇怪的机器",
+  "_schema_version": 1
+}

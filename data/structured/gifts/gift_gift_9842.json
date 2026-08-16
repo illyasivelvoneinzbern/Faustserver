@@ -1,0 +1,22 @@
+{
+  "id": "gift_9842",
+  "title": "由血而成之肉，由肉而成之血",
+  "url": "https://limbuscompany.huijiwiki.com/wiki/E.G.O饰品",
+  "categories": [
+    "E.G.O饰品"
+  ],
+  "content": "根据编入的拥有消耗血宴的攻击技能的友方单位数，相应强化本饰品效果(不包括E.G.O技能，包括编队中全体单位)\n波次的首个回合开始时，获得(编入单位数×20)层血宴，使全体目标增加3级流血强度并对其施加3层流血(每波次最多获得100层血宴)\n友方单位受到的流血伤害-(编入单位数×10)%(受到的流血伤害最少为1点，最多-40%)\n- 减少的伤害不会影响生成的血宴",
+  "source": "tabx",
+  "_structured": true,
+  "page_type": "ego_gift",
+  "gift_name": "由血而成之肉，由肉而成之血",
+  "rarity": 3,
+  "cost": "251",
+  "effect_types": "流血",
+  "attack_type": "色欲",
+  "location": "镜像迷宫",
+  "stage": "base",
+  "special": "WARP快车谋杀案复刻",
+  "event": "事件-在变成血袋的W公司清扫人员身上发现了一件有用的装备",
+  "_schema_version": 1
+}

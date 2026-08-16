@@ -1,0 +1,145 @@
+{
+  "page_type": "enemy",
+  "title": "大湖之镜-流浪狐狸",
+  "enemy_name": "普通 - 流浪狐狸",
+  "battle_stage": "大湖之镜-流浪狐狸",
+  "body_part": "躯干",
+  "hp": 1266,
+  "defense_level": 42,
+  "speed_min": 2,
+  "speed_max": 4,
+  "chaos_threshold": "",
+  "physical_resistances": {
+    "斩击": 1.0,
+    "突刺": 1.5,
+    "打击": 0.5
+  },
+  "sin_resistances": {
+    "暴怒": 0.5,
+    "色欲": 1.0,
+    "怠惰": 1.0,
+    "暴食": 1.5,
+    "忧郁": 2.0,
+    "傲慢": 1.0,
+    "嫉妒": 0.5
+  },
+  "panic_types": [],
+  "passives": [],
+  "skills": [
+    {
+      "skill_name": "沉闷的呻吟",
+      "icon_id": "804601",
+      "sin_type": "怠惰",
+      "damage_type": "",
+      "base_value": 5,
+      "coin_power": 9703,
+      "coin_count": 2,
+      "attack_level": 54,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[命中时] 使目标增加3级 沉沦 强度"
+      ]
+    },
+    {
+      "skill_name": "席卷而来的沉沦",
+      "icon_id": "804602",
+      "sin_type": "怠惰",
+      "damage_type": "",
+      "base_value": 5,
+      "coin_power": 9703,
+      "coin_count": 3,
+      "attack_level": 54,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[命中时] 对目标施加2层 沉沦",
+        "[命中时] 使目标增加3级 沉沦 强度"
+      ]
+    },
+    {
+      "skill_name": "寻找某物的哭声",
+      "icon_id": "804605",
+      "sin_type": "忧郁",
+      "damage_type": "",
+      "base_value": 16,
+      "coin_power": 3,
+      "coin_count": 2,
+      "attack_level": 54,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[使用时] 下回合召唤 旧伞",
+        "[命中时] 使目标增加5级 沉沦 强度",
+        "[正面命中时] 每把 旧伞 使伤害量+15%"
+      ]
+    },
+    {
+      "skill_name": "哀伤的反冲",
+      "icon_id": "804603",
+      "sin_type": "暴食",
+      "damage_type": "",
+      "base_value": 5,
+      "coin_power": 854,
+      "coin_count": 3,
+      "attack_level": 54,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[命中时] 对目标施加3层 破裂",
+        "[命中时] 使目标增加2级 破裂 强度"
+      ]
+    },
+    {
+      "skill_name": "哀伤的洪流",
+      "icon_id": "804604",
+      "sin_type": "暴食",
+      "damage_type": "",
+      "base_value": 4,
+      "coin_power": 854,
+      "coin_count": 3,
+      "attack_level": 54,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[命中时] 对目标施加2层 破裂",
+        "[命中时] 使目标增加3级 破裂 强度",
+        "[正面命中时] 使目标增加2级 破裂 强度"
+      ]
+    },
+    {
+      "skill_name": "等待",
+      "icon_id": "804606",
+      "sin_type": "常规",
+      "damage_type": "",
+      "base_value": 15,
+      "coin_power": 79,
+      "coin_count": 1,
+      "attack_level": 0,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": []
+    }
+  ],
+  "is_ally": false,
+  "_structured": true,
+  "appear_stages": [
+    "大湖之镜-流浪狐狸"
+  ],
+  "enemy_id": "大湖之镜-流浪狐狸|普通 - 流浪狐狸|躯干",
+  "defense": 42,
+  "speed": "2~4",
+  "_schema_version": 1
+}

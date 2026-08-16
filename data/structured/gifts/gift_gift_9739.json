@@ -1,0 +1,22 @@
+{
+  "id": "gift_9739",
+  "title": "血液结晶",
+  "url": "https://limbuscompany.huijiwiki.com/wiki/E.G.O饰品",
+  "categories": [
+    "E.G.O饰品"
+  ],
+  "content": "回合结束时，若自身带有流血，则使自身的流血强度减半并使自身恢复(减少的流血强度×自身的流血层数)点体力。(向下取整，每次最多恢复体力上限10%的体力)",
+  "source": "tabx",
+  "_structured": true,
+  "page_type": "ego_gift",
+  "gift_name": "血液结晶",
+  "rarity": 2,
+  "cost": "195",
+  "effect_types": "流血",
+  "attack_type": "暴怒",
+  "location": "镜像迷宫",
+  "stage": "base",
+  "special": "WARP快车谋杀案",
+  "event": "事件-义体关节伺服电机",
+  "_schema_version": 1
+}

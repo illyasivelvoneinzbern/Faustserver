@@ -1,0 +1,21 @@
+{
+  "id": "gift_2011",
+  "title": "破碎之春的残片",
+  "url": "https://limbuscompany.huijiwiki.com/wiki/E.G.O饰品",
+  "categories": [
+    "E.G.O饰品"
+  ],
+  "content": "受到的傲慢伤害-10%\n<i>\"我升起一种欲望，想要消散在那葱葱郁郁的碧蓝之风中，感受着种子摇曳着嵌入躁动着的心灵。\"</i>",
+  "source": "tabx",
+  "_structured": true,
+  "page_type": "ego_gift",
+  "gift_name": "破碎之春的残片",
+  "rarity": 0,
+  "cost": "0",
+  "effect_types": "",
+  "attack_type": "傲慢",
+  "location": "第四章",
+  "stage": "base",
+  "event": "破碎之春的残片",
+  "_schema_version": 1
+}

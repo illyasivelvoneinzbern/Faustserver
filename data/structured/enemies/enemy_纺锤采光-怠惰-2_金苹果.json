@@ -1,0 +1,140 @@
+{
+  "page_type": "enemy",
+  "title": "纺锤采光-怠惰-2",
+  "enemy_name": "金苹果",
+  "battle_stage": "纺锤采光-怠惰-2",
+  "body_part": "躯干",
+  "hp": 299,
+  "defense_level": 30,
+  "speed_min": 2,
+  "speed_max": 5,
+  "chaos_threshold": "149",
+  "physical_resistances": {
+    "斩击": 1.0,
+    "突刺": 1.0,
+    "打击": 1.0
+  },
+  "sin_resistances": {
+    "暴怒": 0.75,
+    "色欲": 0.75,
+    "怠惰": 2.0,
+    "暴食": 0.75,
+    "忧郁": 0.75,
+    "傲慢": 0.75,
+    "嫉妒": 0.75
+  },
+  "panic_types": [],
+  "passives": [],
+  "skills": [
+    {
+      "skill_name": "发芽",
+      "icon_id": "800801",
+      "sin_type": "暴食",
+      "damage_type": "穿刺",
+      "base_value": 2,
+      "coin_power": 854,
+      "coin_count": 1,
+      "attack_level": 28,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": []
+    },
+    {
+      "skill_name": "金灿果实",
+      "icon_id": "800802",
+      "sin_type": "暴食",
+      "damage_type": "打击",
+      "base_value": 5,
+      "coin_power": 854,
+      "coin_count": 1,
+      "attack_level": 28,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "拼点失败对自身造成20点伤害",
+        "拼点失败使自身失去1层光辉"
+      ]
+    },
+    {
+      "skill_name": "坚硬的黄金",
+      "icon_id": "800803",
+      "sin_type": "常规",
+      "damage_type": "防御",
+      "base_value": 5,
+      "coin_power": 79,
+      "coin_count": 1,
+      "attack_level": 0,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": []
+    },
+    {
+      "skill_name": "榨取养分",
+      "icon_id": "800901",
+      "sin_type": "色欲",
+      "damage_type": "打击",
+      "base_value": 3,
+      "coin_power": 1,
+      "coin_count": 2,
+      "attack_level": 0,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "2命中时使自身的本体恢复3点体力"
+      ]
+    },
+    {
+      "skill_name": "腐烂果肉",
+      "icon_id": "800902",
+      "sin_type": "色欲",
+      "damage_type": "斩击",
+      "base_value": 4,
+      "coin_power": 8,
+      "coin_count": 1,
+      "attack_level": 0,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "1命中时下回合对目标施加3层流血",
+        "命中时下回合对目标施加2层易损"
+      ]
+    },
+    {
+      "skill_name": "捕杀",
+      "icon_id": "800903",
+      "sin_type": "色欲",
+      "damage_type": "穿刺",
+      "base_value": 4,
+      "coin_power": 4,
+      "coin_count": 2,
+      "attack_level": 0,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "2命中时使自身的本体恢复10点体力",
+        "命中时下回合使目标增加5级流血强度"
+      ]
+    }
+  ],
+  "is_ally": false,
+  "_structured": true,
+  "appear_stages": [
+    "纺锤采光-怠惰-2"
+  ],
+  "enemy_id": "纺锤采光-怠惰-2|金苹果|躯干",
+  "defense": 30,
+  "speed": "2~5",
+  "_schema_version": 1
+}

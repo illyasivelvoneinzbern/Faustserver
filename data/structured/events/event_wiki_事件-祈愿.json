@@ -1,0 +1,33 @@
+{
+  "page_type": "event",
+  "title": "事件-祈愿",
+  "event_name": "祈愿",
+  "narration": "“那些……是星星吗?”\n抬头望去，我们透过裂缝看见了像是夜空一样的景色。\n“此乃流星！！”\n我听说当流星划过天空时许愿会成真。\n我们也许个愿怎么样？\n\n许个愿吧\n（50%概率获取E.G.O饰品）\n“实属浪漫。”\n每个人都闭上了眼睛，静静许下愿望。\n这样会获得回应么？\n当我们的眼睛睁开时，一块闪闪发亮的碎片出现在地上。\n“唔，是谁许下了这种愿望？”\n罪人们各抒己见，但好像都与这个愿望无关。\n我们捡起碎片后离开了房间。\n获得E.G.O饰品\n星迹\n！\n（50%概率什么都没有发生）\n“实属浪漫。”\n每个人都闭上了眼睛，静静许下愿望。\n……然而，无事发生。\n“何人！一定是何人于许愿途中睁眼了！”\n劝着那个气哄哄的罪人，我们离开了房间。\n什么都没有发生。\n\n离开\n如果这个如梦似幻的故事是真的，那我的钟表脑袋早就该恢复了。\n比起浪费时间更应该做出有效的选择，于是我们离开了房间。\n什么都没有发生。",
+  "options": [
+    {
+      "choice_text": "许个愿吧",
+      "check_type": "",
+      "check_sin": "",
+      "check_threshold": 0,
+      "success_outcomes": [],
+      "failure_outcomes": []
+    },
+    {
+      "choice_text": "离开",
+      "check_type": "",
+      "check_sin": "",
+      "check_threshold": 0,
+      "success_outcomes": [],
+      "failure_outcomes": []
+    }
+  ],
+  "ego_gifts": [],
+  "related_abnormalities": [],
+  "trigger_location": "",
+  "_structured": true,
+  "id": "wiki_事件-祈愿",
+  "url": "https://limbuscompany.huijiwiki.com/wiki/事件-祈愿",
+  "categories": [],
+  "source": "wiki",
+  "_schema_version": 1
+}

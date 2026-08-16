@@ -1,0 +1,38 @@
+{
+  "page_type": "event",
+  "title": "事件-灰色大衣",
+  "event_name": "灰色大衣",
+  "narration": "广场上有谁孤身独立。\n它挥舞起一只胳膊盯着我们。\n头上的孔洞看上去既像它的眼睛，\n也像洞穿的弹痕。\n那一定是它手中的\n那把左轮手枪制造的空洞。\n它将枪口对准了我。\n\n接近\n朝向我的枪口并不可怕。\n那是因为无论扣下多少次扳机，\n无论拨动多少次击锤，\n它都只会往自己的头上打入子弹。\n它将原本朝向我的枪口\n猛地对准自己，\n火光瞬息间迸发而出。\n它就此消散，\n唯留一件静静落在地板的灰色大衣。\n获得\n！\n\n卧倒\n击中目标的那份幸运，一旦不慎丢失便会随风而逝。\n错失目标的那份不幸，无论如何躲避都会紧追而来。\n枪口虽朝向了它的头，\n但子弹却向我们飞来。\n技能组不包含\n忧郁属性攻击技能\n的友方单位失去\n15点体力\n！\n技能组内包含\n忧郁属性攻击技能\n的友方单位恢复\n15点体力",
+  "options": [
+    {
+      "choice_text": "接近",
+      "check_type": "",
+      "check_sin": "",
+      "check_threshold": 0,
+      "success_outcomes": [],
+      "failure_outcomes": []
+    },
+    {
+      "choice_text": "卧倒",
+      "check_type": "",
+      "check_sin": "",
+      "check_threshold": 0,
+      "success_outcomes": [],
+      "failure_outcomes": []
+    }
+  ],
+  "ego_gifts": [],
+  "related_abnormalities": [
+    "白幕内涉及目前游戏未公开内容，仅供参考，请以后续实装内容为准。",
+    "구멍난사람",
+    "事件触发地点",
+    "镜像迷宫"
+  ],
+  "trigger_location": "",
+  "_structured": true,
+  "id": "wiki_事件-灰色大衣",
+  "url": "https://limbuscompany.huijiwiki.com/wiki/事件-灰色大衣",
+  "categories": [],
+  "source": "wiki",
+  "_schema_version": 1
+}

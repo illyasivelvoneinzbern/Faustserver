@@ -1,0 +1,21 @@
+{
+  "id": "gift_9258",
+  "title": "复仇账簿：附录",
+  "url": "https://limbuscompany.huijiwiki.com/wiki/E.G.O饰品",
+  "categories": [
+    "E.G.O饰品"
+  ],
+  "content": "全体友方单位的加算硬币技能的硬币威力+(8/硬币数)，减算硬币技能的最终威力+(8/硬币数)(最少+1，包括E.G.O技能，向下取整)\n关卡开始时，每有1名属于中指的友方单位，使全体友方单位获得50点护盾(不包括待命人员，通过该效果获得的护盾不会在回合结束时解除)\n属于中指的友方单位的嫉妒或打击基础技能攻击结束时，使其恢复造成体力伤害量10%的体力\n- 若该技能为反击技能，则改为恢复造成体力伤害量20%的体力\n- 超过体力上限的溢出恢复量改为获得相应的护盾(通过该效果获得的护盾不会在回合结束时解除)",
+  "source": "tabx",
+  "_structured": true,
+  "page_type": "ego_gift",
+  "gift_name": "复仇账簿：附录",
+  "rarity": 4,
+  "cost": "400",
+  "effect_types": "打击",
+  "attack_type": "嫉妒",
+  "location": "镜像迷宫",
+  "stage": "base",
+  "special": "隐藏节点-蜘蛛巢的中指",
+  "_schema_version": 1
+}

@@ -1,0 +1,127 @@
+{
+  "page_type": "enemy",
+  "title": "主线战斗8-20-26",
+  "enemy_name": "稳重的史家私兵",
+  "battle_stage": "主线战斗8-20-26",
+  "body_part": "",
+  "hp": 264,
+  "defense_level": 58,
+  "speed_min": 1,
+  "speed_max": 4,
+  "chaos_threshold": "",
+  "physical_resistances": {
+    "斩击": 1.5,
+    "突刺": 1.0,
+    "打击": 0.75
+  },
+  "sin_resistances": {
+    "暴怒": 1.0,
+    "色欲": 1.0,
+    "怠惰": 1.0,
+    "暴食": 1.0,
+    "忧郁": 1.0,
+    "傲慢": 1.0,
+    "嫉妒": 1.0
+  },
+  "panic_types": [
+    "充能回路逆流（士气低落）",
+    "充能回路逆流（陷入恐慌）"
+  ],
+  "passives": [
+    "对家主候选人的牵制：对鸿璐造成的伤害+10%",
+    "史家制充能回路：本场战斗中，每当自身累计消耗10层 充能 时，使自身增加1级 充能 强度 回合结束时，若自身的 充能 强度不低于2级，则下回合使自身获得1层 拼点威力提升",
+    "充能回路发动：目标每带有6级 破裂 强度，对其造成的伤害+5%(最多+10%)",
+    "残酷的过载：回合结束时，若自身的 充能 强度不低于5级，则下回合对自身施加4层 防御等级降低 并使自身获得3层 伤害强化"
+  ],
+  "skills": [
+    {
+      "skill_name": "充斧流-劈碎",
+      "icon_id": "9021201",
+      "sin_type": "忧郁",
+      "damage_type": "",
+      "base_value": 5,
+      "coin_power": 3,
+      "coin_count": 2,
+      "attack_level": 55,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[使用时] 使自身获得2层 充能",
+        "[命中时] 使自身获得2层 充能",
+        "[命中时] 使目标增加4级 破裂 强度"
+      ]
+    },
+    {
+      "skill_name": "充斧流-卷碎",
+      "icon_id": "9021202",
+      "sin_type": "嫉妒",
+      "damage_type": "",
+      "base_value": 4,
+      "coin_power": 5793,
+      "coin_count": 3,
+      "attack_level": 55,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[使用时] 使自身获得5层 充能",
+        "[命中时] 使自身获得2层 充能",
+        "[命中时] 使目标增加3级 破裂 强度",
+        "[命中时] 对目标施加2层 破裂"
+      ]
+    },
+    {
+      "skill_name": "充斧流-破碎",
+      "icon_id": "9021203",
+      "sin_type": "暴食",
+      "damage_type": "打击",
+      "base_value": 3,
+      "coin_power": 854,
+      "coin_count": 3,
+      "attack_level": 55,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[使用时] 消耗5层 充能 并使本技能的硬币威力+1(最多+2)",
+        "[命中时] 使目标增加6级 破裂 强度",
+        "[命中时] 使目标增加3级 破裂 强度",
+        "[命中时] 对目标施加2层 破裂",
+        "[命中时] 对目标造成相当于其 破裂 强度的暴食伤害，并使其 破裂 层数减少1层(最多30点)"
+      ]
+    },
+    {
+      "skill_name": "充斧流-汇流而聚",
+      "icon_id": "9021204",
+      "sin_type": "嫉妒",
+      "damage_type": "",
+      "base_value": 5,
+      "coin_power": 5793,
+      "coin_count": 3,
+      "attack_level": 0,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[使用时] 使自身获得5层 充能",
+        "[命中时] 使目标增加2级 破裂 强度",
+        "[命中时] 对目标施加2层 破裂"
+      ]
+    }
+  ],
+  "is_ally": false,
+  "_structured": true,
+  "appear_stages": [
+    "主线战斗8-20-26",
+    "经验采光-8-打击"
+  ],
+  "enemy_id": "主线战斗8-20-26|稳重的史家私兵|",
+  "defense": 58,
+  "speed": "1~4",
+  "_schema_version": 1
+}

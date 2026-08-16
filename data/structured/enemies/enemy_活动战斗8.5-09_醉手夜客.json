@@ -1,0 +1,182 @@
+{
+  "page_type": "enemy",
+  "title": "活动战斗8.5-09",
+  "enemy_name": "醉手夜客",
+  "battle_stage": "活动战斗8.5-09",
+  "body_part": "躯干",
+  "hp": 1215,
+  "defense_level": 70,
+  "speed_min": 3,
+  "speed_max": 5,
+  "chaos_threshold": "729/0",
+  "physical_resistances": {
+    "斩击": 1.25,
+    "突刺": 1.0,
+    "打击": 0.5
+  },
+  "sin_resistances": {
+    "暴怒": 1.0,
+    "色欲": 1.0,
+    "怠惰": 1.0,
+    "暴食": 1.0,
+    "忧郁": 1.0,
+    "傲慢": 1.0,
+    "嫉妒": 1.0
+  },
+  "panic_types": [
+    "朴刀"
+  ],
+  "passives": [
+    "哎呀，哎呀…嗝，这可不行: 现存体力为50%时，解除自身的混乱并结束本回合 下回合自身的速度值固定为10",
+    "恐慌恢复: 回合结束时，若陷入恐慌，则使自身理智值恢复为0点。",
+    "固定恐慌: 被施加改变恐慌类型的状态时，自身的恐慌类型不会改变。效果改为对没有理智值的单位施加的效果。",
+    "受击之时: 战斗中受到攻击时，本回合使自身造成的伤害+20% 战斗中拼点失败时，使自身造成的伤害+15%",
+    "酒醉修行: 自身每失去1%的体力，使自身造成的伤害+2%(最多+100%)"
+  ],
+  "skills": [
+    {
+      "skill_name": "前旋斩",
+      "icon_id": "9102101",
+      "sin_type": "色欲",
+      "damage_type": "斩击",
+      "base_value": 5,
+      "coin_power": 9,
+      "coin_count": 2,
+      "attack_level": 70,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[使用时] 若目标的 流血 强度不低于5级，则使本技能的基础威力+1",
+        "[使用时] 使自身获得1层 小酌",
+        "[命中时] 使目标增加5级 流血 强度"
+      ]
+    },
+    {
+      "skill_name": "咽道酒",
+      "icon_id": "9102102",
+      "sin_type": "暴食",
+      "damage_type": "斩击",
+      "base_value": 5,
+      "coin_power": 854,
+      "coin_count": 3,
+      "attack_level": 70,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[使用时] 目标每带有5级 流血 强度，使本技能的基础威力+1(最多+2)",
+        "[使用时] 使自身获得1层 小酌",
+        "[命中时] 对目标施加2层 流血"
+      ]
+    },
+    {
+      "skill_name": "落酒",
+      "icon_id": "9102103",
+      "sin_type": "怠惰",
+      "damage_type": "斩击",
+      "base_value": 5,
+      "coin_power": 9703,
+      "coin_count": 4,
+      "attack_level": 71,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[使用时] 若目标的 流血 强度不低于5级，则使本技能的硬币威力+1",
+        "[命中时] 使目标增加5级 流血 强度"
+      ]
+    },
+    {
+      "skill_name": "醉",
+      "icon_id": "9102104",
+      "sin_type": "暴怒",
+      "damage_type": "斩击",
+      "base_value": 5,
+      "coin_power": 987,
+      "coin_count": 5,
+      "attack_level": 72,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[使用时] 目标每带有5级 流血 强度，使本技能的硬币威力+1(最多+2)",
+        "[使用时] 若自身的 小酌 层数不低于3层，则使本技能中的所有硬币转化为 不可摧毁的硬币",
+        "[命中时] 对目标施加2层 流血",
+        "[命中时] 使目标增加5级 流血 强度 目标的 流血 强度与 流血 层数之和每有1点，使本硬币造成的伤害+1%(最多+20%)",
+        "[命中时] 若自身的 小酌 层数不低于3层，则重复使用本硬币1次(每个技能最多1次)"
+      ]
+    },
+    {
+      "skill_name": "醉回攻",
+      "icon_id": "9102105",
+      "sin_type": "暴怒",
+      "damage_type": "斩击",
+      "base_value": 5,
+      "coin_power": 987,
+      "coin_count": 3,
+      "attack_level": 0,
+      "attack_weight": 1,
+      "is_guard": true,
+      "guard_type": "防御",
+      "importance": 0,
+      "coin_effects": [
+        "[使用时] 若目标的 流血 强度不低于5级，则使本技能的基础威力+1",
+        "[命中时] 使目标增加4级 流血 强度",
+        "[命中时] 下回合对目标施加4层 麻痹",
+        "[命中时] 下回合对目标施加5层 攻击等级降低 与5层 防御等级降低"
+      ]
+    },
+    {
+      "skill_name": "真镇终斩",
+      "icon_id": "9102106",
+      "sin_type": "傲慢",
+      "damage_type": "斩击",
+      "base_value": 10,
+      "coin_power": 3,
+      "coin_count": 2,
+      "attack_level": 75,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[使用时] 使自身获得10层 攻击等级提升",
+        "[使用时] 使自身获得5层 强壮",
+        "[使用时] 使自身获得10层 伤害强化 目标的 流血 强度与 流血 层数之和每有1点，使本硬币造成的伤害+1%(最多+100%)",
+        "[命中时] 使自身获得5层 小酌"
+      ]
+    },
+    {
+      "skill_name": "醉倚",
+      "icon_id": "9102107",
+      "sin_type": "嫉妒",
+      "damage_type": "防御",
+      "base_value": 10,
+      "coin_power": 5793,
+      "coin_count": 1,
+      "attack_level": 0,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "使用时自身每带有1层小酌，使自身获得5点护盾(最多25点)",
+        "使用时每有1名敌方单位指定自身为目标，使自身获得1层小酌(最多5层)"
+      ]
+    }
+  ],
+  "is_ally": false,
+  "_structured": true,
+  "appear_stages": [
+    "活动战斗8.5-09"
+  ],
+  "enemy_id": "活动战斗8.5-09|醉手夜客|躯干",
+  "defense": 70,
+  "speed": "3~5",
+  "_schema_version": 1
+}

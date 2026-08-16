@@ -1,0 +1,21 @@
+{
+  "id": "gift_9078",
+  "title": "贪婪之锤",
+  "url": "https://limbuscompany.huijiwiki.com/wiki/E.G.O饰品",
+  "categories": [
+    "E.G.O饰品"
+  ],
+  "content": "战斗胜利后，获得(阵亡敌方单位数量×3)点经费。",
+  "source": "tabx",
+  "_structured": true,
+  "page_type": "ego_gift",
+  "gift_name": "贪婪之锤",
+  "rarity": 2,
+  "cost": "213",
+  "effect_types": "泛用",
+  "attack_type": "色欲",
+  "location": "镜像迷宫",
+  "stage": "base",
+  "event": "事件-贪婪之锤",
+  "_schema_version": 1
+}

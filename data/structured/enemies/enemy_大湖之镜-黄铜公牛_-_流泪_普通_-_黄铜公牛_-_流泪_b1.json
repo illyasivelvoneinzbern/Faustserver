@@ -1,0 +1,145 @@
+{
+  "page_type": "enemy",
+  "title": "大湖之镜-黄铜公牛 - 流泪",
+  "enemy_name": "普通 - 黄铜公牛 - 流泪",
+  "battle_stage": "大湖之镜-黄铜公牛 - 流泪",
+  "body_part": "头部",
+  "hp": 568,
+  "defense_level": 40,
+  "speed_min": 3,
+  "speed_max": 5,
+  "chaos_threshold": "",
+  "physical_resistances": {
+    "斩击": 1.0,
+    "突刺": 2.0,
+    "打击": 1.0
+  },
+  "sin_resistances": {
+    "暴怒": 0.5,
+    "色欲": 1.0,
+    "怠惰": 1.0,
+    "暴食": 0.5,
+    "忧郁": 1.5,
+    "傲慢": 2.0,
+    "嫉妒": 1.0
+  },
+  "panic_types": [],
+  "passives": [],
+  "skills": [
+    {
+      "skill_name": "突进",
+      "icon_id": "804101",
+      "sin_type": "暴怒",
+      "damage_type": "打击",
+      "base_value": 6,
+      "coin_power": 987,
+      "coin_count": 3,
+      "attack_level": 49,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[命中时] 使目标增加3级 烧伤 强度"
+      ]
+    },
+    {
+      "skill_name": "压倒",
+      "icon_id": "804102",
+      "sin_type": "暴怒",
+      "damage_type": "打击",
+      "base_value": 10,
+      "coin_power": 987,
+      "coin_count": 2,
+      "attack_level": 49,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[命中时] 对目标施加3层 烧伤"
+      ]
+    },
+    {
+      "skill_name": "猛撞",
+      "icon_id": "804103",
+      "sin_type": "暴怒",
+      "damage_type": "打击",
+      "base_value": 6,
+      "coin_power": 987,
+      "coin_count": 4,
+      "attack_level": 53,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[命中时] 使目标增加2级 烧伤 强度",
+        "[命中时] 使目标的混乱阈值前移20%"
+      ]
+    },
+    {
+      "skill_name": "满溢而出的哀伤",
+      "icon_id": "804104",
+      "sin_type": "怠惰",
+      "damage_type": "打击",
+      "base_value": 15,
+      "coin_power": 9703,
+      "coin_count": 2,
+      "attack_level": 45,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[命中时] 使目标损失15点理智值",
+        "[命中时] 使目标的混乱阈值前移伤害量的50%"
+      ]
+    },
+    {
+      "skill_name": "炽热啼哭",
+      "icon_id": "804105",
+      "sin_type": "忧郁",
+      "damage_type": "打击",
+      "base_value": 12,
+      "coin_power": 3,
+      "coin_count": 2,
+      "attack_level": 53,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[命中时] 使自身获得1层 飘忽不定的情绪",
+        "[命中时] 对目标施加3层 沉沦"
+      ]
+    },
+    {
+      "skill_name": "炽热悲鸣",
+      "icon_id": "804105",
+      "sin_type": "忧郁",
+      "damage_type": "打击",
+      "base_value": 12,
+      "coin_power": 3,
+      "coin_count": 3,
+      "attack_level": 53,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[命中时] 使自身获得1层 飘忽不定的情绪",
+        "[命中时] 使目标增加2级 沉沦 强度"
+      ]
+    }
+  ],
+  "is_ally": false,
+  "_structured": true,
+  "appear_stages": [
+    "大湖之镜-黄铜公牛 - 流泪"
+  ],
+  "enemy_id": "大湖之镜-黄铜公牛 - 流泪|普通 - 黄铜公牛 - 流泪|头部",
+  "defense": 40,
+  "speed": "3~5",
+  "_schema_version": 1
+}

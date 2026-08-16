@@ -1,0 +1,22 @@
+{
+  "id": "gift_9766",
+  "title": "默示契约更新",
+  "url": "https://limbuscompany.huijiwiki.com/wiki/E.G.O饰品",
+  "categories": [
+    "E.G.O饰品"
+  ],
+  "content": "若没有存活的委托目标，则对友方单位攻击的首个敌方单位施加委托目标。(每回合最多1次)",
+  "source": "tabx",
+  "_structured": true,
+  "page_type": "ego_gift",
+  "gift_name": "默示契约更新",
+  "rarity": 3,
+  "cost": "255",
+  "effect_types": "泛用",
+  "attack_type": "傲慢",
+  "location": "镜像迷宫",
+  "stage": "base",
+  "special": "由子弹画下的句点",
+  "event": "事件-魔弹射手",
+  "_schema_version": 1
+}

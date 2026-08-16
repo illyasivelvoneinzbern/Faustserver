@@ -1,0 +1,22 @@
+{
+  "id": "gift_9735",
+  "title": "便携式力场电池",
+  "url": "https://limbuscompany.huijiwiki.com/wiki/E.G.O饰品",
+  "categories": [
+    "E.G.O饰品"
+  ],
+  "content": "获得充能层数或特殊充能的1技能拼点威力+2。\n友方单位使用获得充能层数的1技能时，使其获得2层充能与1层充能力场。(每回合最多1次)\n本场战斗中，属于W公司的友方单位受到除技能直接伤害以外的体力伤害时，使其获得5层充能力场。(每回合最多1次)",
+  "source": "tabx",
+  "_structured": true,
+  "page_type": "ego_gift",
+  "gift_name": "便携式力场电池",
+  "rarity": 3,
+  "cost": "250",
+  "effect_types": "充能",
+  "attack_type": "傲慢",
+  "location": "镜像迷宫",
+  "stage": "base",
+  "special": "WARP快车谋杀案",
+  "event": "事件-E式次元短剑",
+  "_schema_version": 1
+}

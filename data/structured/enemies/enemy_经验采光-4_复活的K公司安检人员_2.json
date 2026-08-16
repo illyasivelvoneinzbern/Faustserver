@@ -1,0 +1,85 @@
+{
+  "page_type": "enemy",
+  "title": "经验采光-4",
+  "enemy_name": "复活的K公司安检人员 2",
+  "battle_stage": "经验采光-4",
+  "body_part": "",
+  "hp": 86,
+  "defense_level": 36,
+  "speed_min": 1,
+  "speed_max": 2,
+  "chaos_threshold": "",
+  "physical_resistances": {
+    "斩击": 2.0,
+    "突刺": 0.75,
+    "打击": 0.5
+  },
+  "sin_resistances": {
+    "暴怒": 1.0,
+    "色欲": 1.0,
+    "怠惰": 1.0,
+    "暴食": 1.0,
+    "忧郁": 1.0,
+    "傲慢": 1.0,
+    "嫉妒": 1.0
+  },
+  "panic_types": [
+    "抑郁",
+    "抑郁"
+  ],
+  "passives": [
+    "HP弹：回合开始时，恢复15点体力;若自身的体力低于50%，则额外恢复15点体力",
+    "流淌的忧郁：反面命中时，使目标增加2级 沉沦 下{1}次被攻击时，额外受到{0}点固定理智伤害。(没有理智值的目标则受到忧郁属性伤害) 强度",
+    "溢出的哀伤：回合结束时，自身失去5点理智值"
+  ],
+  "skills": [
+    {
+      "skill_name": "突袭",
+      "icon_id": "9003001",
+      "sin_type": "暴食",
+      "damage_type": "",
+      "base_value": 0,
+      "coin_power": 4,
+      "coin_count": 1,
+      "attack_level": 28,
+      "attack_weight": 1,
+      "is_guard": true,
+      "guard_type": "",
+      "coin_effects": []
+    },
+    {
+      "skill_name": "阻截",
+      "icon_id": "9003002",
+      "sin_type": "怠惰",
+      "damage_type": "",
+      "base_value": 0,
+      "coin_power": 2,
+      "coin_count": 2,
+      "attack_level": 28,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "coin_effects": []
+    },
+    {
+      "skill_name": "掩护",
+      "icon_id": "9003101",
+      "sin_type": "暴食",
+      "damage_type": "",
+      "base_value": 0,
+      "coin_power": 7,
+      "coin_count": 1,
+      "attack_level": 28,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "coin_effects": []
+    }
+  ],
+  "is_ally": false,
+  "_structured": true,
+  "enemy_id": "经验采光-4|复活的K公司安检人员 2",
+  "defense": 36,
+  "speed": "1~2",
+  "_schema_version": 1
+}

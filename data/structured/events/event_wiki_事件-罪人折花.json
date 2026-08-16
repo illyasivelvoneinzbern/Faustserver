@@ -1,0 +1,41 @@
+{
+  "page_type": "event",
+  "title": "事件-罪人折花",
+  "event_name": "罪人折花",
+  "narration": "一个枉自嗟呀，\n一个空劳牵挂。\n一个是水中月，\n一个是镜中花。\n在被打倒的鸿园的囚犯身上，盛开着鲜花。\n他们一动不动了，看来已经气绝身亡。\n“这里的花……蕴含着H公司的强化技术。”\n“如果带走的话，应该能在之后的战斗中发挥作用。”\n要折下哪朵花呢。\n\n莲花\n折下莲花。\n折下的花变成了小小的丸，\n未被折下的花则在镜中盛放。\n希望鸿园的囚犯能够安息……\n表达了哀悼之意后，我们向着下一个地点前进。\n获得\n！\n\n彼岸花\n折下彼岸花。\n折下的花变成了小小的丸，\n未被折下的花则在镜中盛放。\n希望鸿园的囚犯能够安息……\n表达了哀悼之意后，我们向着下一个地点前进。\n获得\n！\n\n无名草\n折下无名草。\n折下的草变成了小小的丸，\n未被折下的花则在镜中盛放。\n希望鸿园的囚犯能够安息……\n表达了哀悼之意后，我们向着下一个地点前进。\n获得\n！",
+  "options": [
+    {
+      "choice_text": "莲花",
+      "check_type": "",
+      "check_sin": "",
+      "check_threshold": 0,
+      "success_outcomes": [],
+      "failure_outcomes": []
+    },
+    {
+      "choice_text": "彼岸花",
+      "check_type": "",
+      "check_sin": "",
+      "check_threshold": 0,
+      "success_outcomes": [],
+      "failure_outcomes": []
+    },
+    {
+      "choice_text": "无名草",
+      "check_type": "",
+      "check_sin": "",
+      "check_threshold": 0,
+      "success_outcomes": [],
+      "failure_outcomes": []
+    }
+  ],
+  "ego_gifts": [],
+  "related_abnormalities": [],
+  "trigger_location": "",
+  "_structured": true,
+  "id": "wiki_事件-罪人折花",
+  "url": "https://limbuscompany.huijiwiki.com/wiki/事件-罪人折花",
+  "categories": [],
+  "source": "wiki",
+  "_schema_version": 1
+}

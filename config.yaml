@@ -1,0 +1,202 @@
+# ─────────────────────────────────────
+# 边狱巴士 RAG Agent 配置文件
+# ─────────────────────────────────────
+
+# ── LLM 配置（单模型运行）──
+llm:
+  provider: "deepseek"              # deepseek | openai
+  model: "deepseek-chat"
+  api_key: "${DEEPSEEK_API_KEY}"    # 从环境变量读取
+  base_url: "https://api.deepseek.com/v1"
+  temperature: 0.7
+  max_tokens: 512                   # 单次回复硬上限
+
+# ── Embedding 配置 ──
+# 推荐方案：硅基流动（SiliconFlow）— 国内直连，OpenAI 兼容，BGE-M3 云端推理
+#   注册 https://siliconflow.cn → 获取 API Key → 填入 .env 的 SILICONFLOW_API_KEY
+#   备选：provider 改 "local" 走本地 CPU（免费但慢，首次需下载约 2GB 模型）
+embedding:
+  provider: "openai"                      # siliconflow 兼容 OpenAI API 格式
+  model: "BAAI/bge-m3"                    # 硅基流动普通版 BGE-M3（非 Pro；维度同为 1024）
+  api_key: "${SILICONFLOW_API_KEY}"       # 从环境变量读取
+  base_url: "https://api.siliconflow.cn/v1"
+  # device: "cpu"                   # 仅 provider=local 时需要（cpu / cuda）
+  # modelscope_id: "BAAI/bge-m3"    # ModelScope 模型 ID（国内直连，默认自动推断）
+  # hf_endpoint: "https://hf-mirror.com"  # 如想走 HuggingFace 镜像，取消此行注释
+
+# ── 向量数据库 ──
+vector_store:
+  type: "chromadb"
+  persist_directory: "./data/vector_db"
+  collection_name: "limbus_wiki"
+
+# ── 检索配置 ──
+retrieval:
+  top_k: 6
+  similarity_threshold: 0.35       # 余弦相似度阈值（已修正距离→相似度转换），BGE-M3 对中文短查询相似度约 0.35~0.55
+  max_context_chars: 2000           # 检索结果最大注入字符数（技能/人格详情需要更多上下文）
+  enable_rerank: false
+  hybrid_search:
+    enabled: true                   # 启用 BM25 + 向量混合检索
+    bm25_weight: 0.6                # BM25 权重（0.0=纯向量, 1.0=纯BM25）
+    vector_weight: 0.4              # 向量权重
+    bm25_candidate_k: 60            # BM25 候选池大小
+    vector_candidate_k: 30          # 向量候选池大小（top_k × 5）
+    fusion_method: "weighted"       # 融合方式: "weighted" | "rrf" | "hybrid"
+
+  # ── LLM 查询扩展 ──
+  query_expansion:
+    enabled: true                   # 启用 LLM 查询扩展（口语化→规范化查询短语）
+    max_phrases: 3                  # 最多生成几条扩展查询
+
+  # ── 语义重排序 ──
+  rerank:
+    enabled: false                  # 启用 LLM Reranker（语义相关性评分重排序）
+    method: "llm"                   # "llm" | "cross_encoder"(预留)
+    top_n: 6                        # 最终保留条数
+    candidate_multiplier: 2         # 候选池倍数 (top_n × multiplier)
+
+  # ── 渐进式检索 ──
+  progressive:
+    enabled: true                     # 启用多轮渐进检索（信号驱动自动扩池）
+    max_rounds: 3                     # 最大检索轮数（personality 查询需3轮才能收集全）
+    round_k_multipliers: [5, 20, 50]  # 每轮向量 k 乘数（top_k × multiplier）
+    round_bm25_multipliers: [10, 40, 100]  # 每轮 BM25 k 乘数
+    saturation_threshold: 0.3         # 饱和阈值（新增 < top_k × 此值 则停止）
+    result_mult_cap: 17               # 最终输出上限乘数（top_k × 17 ≈ 100 条，覆盖 ~15 人格）
+
+  # ── Parent-Child 穷举检索 ──
+  parent_child:
+    enabled: true                     # 人格列表查询走元数据直查（标题前缀匹配），保证 100% 召回
+
+  # ── 噪声过滤 ──
+  noise_filter:
+    enabled: true                     # 对检索结果做 post-retrieval 质量评分过滤
+    quality_threshold: 0.25           # 质量评分阈值（0~1），低于此值的 chunk 丢弃
+
+# ── 分块配置 ──
+chunking:
+  chunk_size: 512
+  chunk_overlap: 64
+
+# ── Token 节省 ──
+token_saver:
+  enable_compression: true
+  enable_cache: true
+  cache_similarity_threshold: 0.92
+  compression_keep_recent: 6
+
+# ── 频率控制 ──
+rate_limit:
+  per_user_cooldown: 5.0            # 同用户冷却（秒）
+  global_per_minute: 10             # 全局每分钟上限
+  global_per_hour: 200
+  group_per_minute: 3               # 同群每分钟上限
+
+# ── 打字延迟 ──
+typing_delay:
+  base_delay: 1.0                   # 基础思考时间（秒）
+  char_delay_min: 0.05              # 每字最小延迟
+  char_delay_max: 0.15              # 每字最大延迟
+  max_delay: 8.0                    # 最大延迟硬上限
+
+# ── 敏感词过滤 ──
+sensitive_filter:
+  wordlist_path: "./data/sensitive_words.txt"
+  enable_input_filter: true
+  enable_output_filter: true
+  enable_topic_guard: true
+  max_violations_before_block: 3
+  violation_block_minutes: 30
+
+# ── X/Twitter 拉取 + 新推推送（P20-B）──
+# 通过 Nitter RSS 拉取官方账号推文（公开，无需 API key），检测到新推时
+# 推送到目标群（含文本/图片/视频多模态，NapCat CQ 码）。
+x_fetcher:
+  enabled: true                       # 是否开启后台轮询推送
+  accounts: ["LimbusCompany_B"]       # 关注账号（ProjMoonOfficial 已在实测中 404 移除）
+  # RSS 镜像模板（支持 {handle} 占位符；Nitter 失效时可换公共实例）
+  rss_urls:
+    - "https://nitter.net/{handle}/rss"
+  fetch_interval_minutes: 2           # 轮询间隔（分钟）；Nitter 限流，建议 >=60s
+  max_new_per_cycle: 5                # 每轮最多推送的新推条数（防刷屏）
+  filter_retweets: true               # 改进计划 P1：过滤转发（RT）推文，避免非官方内容污染推送
+  initial_backfill_hours: 24          # 改进计划 P1：首启水位线——首次运行（无已推记录）时仅推送最近 N 小时内的推文
+  video_quality: "high"               # P35：视频清晰度 high(1080p)/medium(640p)/low(480p)；分开发送已修复发出问题，默认高清
+  push_group_id: 953062556                    # 目标群号；0=未设置 → 用 handle_event 记忆的群号兜底
+  media_dir: "data/media"             # 媒体（图片/视频）本地落地目录
+  max_video_mb: 100.0                 # 视频超过该大小(MB)时降级
+  fallback_video_to_file: true        # 超大视频降级为发文件；false=仅发文字+链接
+  prefer_local_images: true           # true=图片下载到本地再发（更稳）；false=远程直发
+  pushed_ids_path: "data/x_pushed_ids.json"   # 已推送 tweet_id 状态文件（幂等防重推）
+  push_groups_path: "data/push_groups.json"   # 记忆群号状态文件（兜底）
+  feed_state_path: "data/x_feed_state.json"
+  # 媒体定期清理（P20 收尾）：按文件修改时间删除超过保留天数且未被引用的下载媒体
+  media_cleanup:
+    enabled: true                     # 是否启用定期清理
+    max_age_days: 7                   # 文件修改时间超过该天数即删除
+    interval_cycles: 10               # 每 N 个轮询周期清理一次（约 interval*N 分钟）
+    keep_newest: 20                   # 每次清理时至少保留最近 N 个文件（防误删刚推送的）
+
+# ── NapCatQQ 配置 ──
+napcat:
+  ws_url: "ws://localhost:3001"
+  reconnect_interval: 5
+  # token 从 .env 读取 NAPCAT_TOKEN（未设置时回退为空，即无鉴权）。
+  # 原明文 token 已迁移到 .env：请把旧 token 填入 .env 的 NAPCAT_TOKEN。
+  token: "${NAPCAT_TOKEN}"
+  # bot 自身 QQ 号（从 .env 读取 NAPCAT_QQ）→ 群聊 @机器人 检测（P21-C）
+  bot_qq: "${NAPCAT_QQ}"
+  trigger_keywords: ["边狱", "巴士", "limbus", "Limbus", "罪人", "人格"]
+  command_prefix: "/"
+
+# ── Agent 配置 ──
+agent:
+  default_persona: "faust"          # 默认人格：浮士德
+  memory_window: 10
+  session_timeout: 3600
+  # ── 人格结构化直答（Persona Direct Answer）──
+  # 人格数据查询（技能/抗性/被动/语音等）绕开向量检索，直接从
+  # data/structured/persona_*.json 精确取数并确定性输出；未命中回落 RAG。
+  persona_direct:
+    enabled: true                   # 启用人格直答（爬虫重建结构化目录后自动生效）
+    data_dir: "data/structured"     # 结构化人格 JSON 目录
+  # ── E.G.O 饰品结构化直答（Gift Direct Answer）──
+  # 饰品数据查询（名称/稀有度/地点/效果类型/罪孽/经费/效果文本）绕开向量检索，
+  # 直接从 data/structured/gift_*.json 精确取数并确定性输出（多版本全部列出）；
+  # 未命中回落 RAG。
+  gift_direct:
+    enabled: true                   # 启用饰品直答（爬虫重建结构化目录后自动生效）
+    data_dir: "data/structured"     # 结构化饰品 JSON 目录
+  # ── 事件结构化直答（Event Direct Answer）──
+  # 事件数据查询（描述/选项/判定/关联异想体/触发地点/E.G.O饰品）绕开向量检索，
+  # 直接从 data/structured/events/event_*.json 精确取数并确定性输出；
+  # 未命中回落 RAG。
+  event_direct:
+    enabled: true                   # 启用事件直答（爬虫重建结构化目录后自动生效）
+    data_dir: "data/structured"     # 结构化事件 JSON 目录（events 子目录）
+  # ── 敌方单位结构化直答（Enemy Direct Answer）──
+  # 敌方单位数据查询（关卡/部位/HP/防御/速度/混乱阈值/抗性/恐慌/被动/技能）绕开
+  # 向量检索，直接从 data/structured/enemies/enemy_*.json 精确取数并确定性输出；
+  # 未命中回落 RAG。
+  enemy_direct:
+    enabled: true                   # 启用敌方直答（爬虫重建结构化目录后自动生效）
+    data_dir: "data/structured"     # 结构化敌方 JSON 目录（enemies 子目录）
+
+# ── 人格配置 ──
+personas:
+  config_dir: "./personas"
+
+# ── 置信度评估 ──
+confidence:
+  enabled: true                     # 启用答案置信度评估（P21-E：数据类未命中硬短路闸）
+  low_threshold: 0.3                # 低于此值触发低置信度提示
+  enable_follow_up: false           # P21-E：低置信度不再追加模糊提示，改由硬短路直接返回「未收录」
+  # ── 自我反思闭环（LLM 判定 → 改写查询 → 二次检索 → 再生成）──
+  reflect_enabled: true             # 低置信度时是否触发自我反思改写查询重答
+  reflect_max_attempts: 1           # 反思重答的最大尝试次数
+
+# ── 日志 ──
+logging:
+  level: "INFO"
+  file: "./logs/agent.log"

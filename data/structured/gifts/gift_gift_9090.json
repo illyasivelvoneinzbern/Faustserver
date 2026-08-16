@@ -1,0 +1,21 @@
+{
+  "id": "gift_9090",
+  "title": "血雾",
+  "url": "https://limbuscompany.huijiwiki.com/wiki/E.G.O饰品",
+  "categories": [
+    "E.G.O饰品"
+  ],
+  "content": "回合开始时，若拥有增加流血强度，施加流血层数或施加特殊流血的攻击技能的人格不低于5名，则在本场战斗期间触发该效果。(不包括E.G.O技能，不包括待命人员)\n全体友方单位通过技能效果使敌方单位增加的流血强度与对敌方单位施加的流血层数变为2倍。",
+  "source": "tabx",
+  "_structured": true,
+  "page_type": "ego_gift",
+  "gift_name": "血雾",
+  "rarity": 4,
+  "cost": "421",
+  "effect_types": "流血",
+  "attack_type": "怠惰",
+  "location": "镜像迷宫",
+  "stage": "base",
+  "special": "合成",
+  "_schema_version": 1
+}

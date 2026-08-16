@@ -1,0 +1,21 @@
+{
+  "id": "gift_9248_upgraded_2",
+  "title": "山茶花、眼镜和送达的信",
+  "url": "https://limbuscompany.huijiwiki.com/wiki/E.G.O饰品",
+  "categories": [
+    "E.G.O饰品"
+  ],
+  "content": "使用1技能，2技能或3技能时，触发以下效果(每种技能最多1次)\n- 使用以上技能的友方单位本场战斗中，回合开始时获得1层迅捷与1层基础威力提升(最多叠加3次)",
+  "source": "tabx",
+  "_structured": true,
+  "page_type": "ego_gift",
+  "gift_name": "山茶花、眼镜和送达的信",
+  "rarity": 4,
+  "cost": "401",
+  "effect_types": "破裂",
+  "attack_type": "怠惰",
+  "location": "镜像迷宫",
+  "stage": "upgraded_2",
+  "special": "落花，无改变者合成",
+  "_schema_version": 1
+}

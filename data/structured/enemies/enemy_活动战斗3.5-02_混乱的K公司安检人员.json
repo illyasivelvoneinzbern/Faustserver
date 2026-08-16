@@ -1,0 +1,89 @@
+{
+  "page_type": "enemy",
+  "title": "活动战斗3.5-02",
+  "enemy_name": "混乱的K公司安检人员",
+  "battle_stage": "活动战斗3.5-02",
+  "body_part": "",
+  "hp": 94,
+  "defense_level": 24,
+  "speed_min": 2,
+  "speed_max": 4,
+  "chaos_threshold": "",
+  "physical_resistances": {
+    "斩击": 2.0,
+    "突刺": 0.75,
+    "打击": 1.0
+  },
+  "sin_resistances": {
+    "暴怒": 1.0,
+    "色欲": 1.0,
+    "怠惰": 1.0,
+    "暴食": 1.0,
+    "忧郁": 1.0,
+    "傲慢": 1.0,
+    "嫉妒": 1.0
+  },
+  "panic_types": [
+    "无措",
+    "虚弱",
+    "无措"
+  ],
+  "passives": [
+    "HP弹：回合开始时，恢复15点体力。 若自身的体力低于50%，则额外恢复15点体力。"
+  ],
+  "skills": [
+    {
+      "skill_name": "叽",
+      "icon_id": "9004201",
+      "sin_type": "怠惰",
+      "damage_type": "",
+      "base_value": 0,
+      "coin_power": 7,
+      "coin_count": 2,
+      "attack_level": 26,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "coin_effects": [
+        "[正面命中时] 使目标增加3级 破裂 下{1}次被攻击时，额外受到{0}点固定伤害。 强度"
+      ]
+    },
+    {
+      "skill_name": "叽伊",
+      "icon_id": "9004202",
+      "sin_type": "怠惰",
+      "damage_type": "",
+      "base_value": 0,
+      "coin_power": 3,
+      "coin_count": 3,
+      "attack_level": 26,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "coin_effects": [
+        "[正面命中时] 使目标增加3层 破裂 下{1}次被攻击时，额外受到{0}点固定伤害。",
+        "[正面命中时] 使目标增加2级 破裂 下{1}次被攻击时，额外受到{0}点固定伤害。 强度"
+      ]
+    },
+    {
+      "skill_name": "防御",
+      "icon_id": "9004203",
+      "sin_type": "常规",
+      "damage_type": "",
+      "base_value": 0,
+      "coin_power": 3,
+      "coin_count": 1,
+      "attack_level": 0,
+      "attack_weight": 1,
+      "is_guard": true,
+      "guard_type": "防御",
+      "coin_effects": []
+    }
+  ],
+  "is_ally": false,
+  "_structured": true,
+  "enemy_id": "活动战斗3.5-02|混乱的K公司安检人员",
+  "defense": 24,
+  "speed": "2~4",
+  "_schema_version": 1
+}

@@ -1,0 +1,107 @@
+{
+  "page_type": "enemy",
+  "title": "主线战斗4-51",
+  "enemy_name": "复活的脑叶公司E.G.O::荡漾",
+  "battle_stage": "主线战斗4-51",
+  "body_part": "",
+  "hp": 107,
+  "defense_level": 38,
+  "speed_min": 1,
+  "speed_max": 3,
+  "chaos_threshold": "",
+  "physical_resistances": {
+    "斩击": 0.5,
+    "突刺": 2.0,
+    "打击": 1.0
+  },
+  "sin_resistances": {
+    "暴怒": 1.0,
+    "色欲": 1.0,
+    "怠惰": 1.0,
+    "暴食": 0.8,
+    "忧郁": 1.0,
+    "傲慢": 1.0,
+    "嫉妒": 1.2
+  },
+  "panic_types": [
+    "抑郁",
+    "抑郁"
+  ],
+  "passives": [
+    "醉意：每拥有5层 昂扬 每回合获得{0}层 伤害强化 （最多5层） 带有 醉意 时无法获得 ，则获得5层 醉意 拼点威力-{0}（最多5层） 。",
+    "醒酒：拥有5层 醉意 拼点威力-{0}（最多5层） 时，使用守备技能。",
+    "流淌的忧郁：反面命中时，使目标增加2级 沉沦 下{1}次被攻击时，额外受到{0}点固定理智伤害。(没有理智值的目标则受到忧郁属性伤害) 强度",
+    "溢出的哀伤：回合结束时，自身失去5点理智值"
+  ],
+  "skills": [
+    {
+      "skill_name": "液体压制",
+      "icon_id": "9005801",
+      "sin_type": "暴食",
+      "damage_type": "",
+      "base_value": 0,
+      "coin_power": 7,
+      "coin_count": 2,
+      "attack_level": 30,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "coin_effects": [
+        "[命中时] 下回合使目标增加2层 束缚 本回合内速度值-{0}"
+      ]
+    },
+    {
+      "skill_name": "液体爆发",
+      "icon_id": "9005802",
+      "sin_type": "怠惰",
+      "damage_type": "",
+      "base_value": 0,
+      "coin_power": 7,
+      "coin_count": 2,
+      "attack_level": 30,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "coin_effects": [
+        "[命中时] 使目标 震颤引爆 使目标的混乱阈值前移与 震颤 强度相同的数值"
+      ]
+    },
+    {
+      "skill_name": "液体晃动",
+      "icon_id": "9005803",
+      "sin_type": "暴食",
+      "damage_type": "",
+      "base_value": 0,
+      "coin_power": 3,
+      "coin_count": 3,
+      "attack_level": 30,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "coin_effects": [
+        "[命中时] 使目标增加4级 震颤 在{1}回合内，受到造成 震颤引爆 的攻击时，混乱阈值前移{0}。 强度",
+        "[命中时] 对目标施加1层 震颤 在{1}回合内，受到造成 震颤引爆 的攻击时，混乱阈值前移{0}。"
+      ]
+    },
+    {
+      "skill_name": "液体阻塞",
+      "icon_id": "9005804",
+      "sin_type": "常规",
+      "damage_type": "",
+      "base_value": 0,
+      "coin_power": 7,
+      "coin_count": 1,
+      "attack_level": 0,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "coin_effects": []
+    }
+  ],
+  "is_ally": false,
+  "_structured": true,
+  "enemy_id": "主线战斗4-51|复活的脑叶公司E.G.O::荡漾",
+  "defense": 38,
+  "speed": "1~3",
+  "_schema_version": 1
+}

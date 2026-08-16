@@ -1,0 +1,33 @@
+{
+  "page_type": "event",
+  "title": "事件-靠近花树",
+  "event_name": "靠近花树",
+  "narration": "在田野中心有一棵花树。\n附近没有一棵花树。\n花树就像热心地想象\n自己所想象的花树一样\n热心地开放着花朵。\n该如何抉择？\n\n走近花树\n花树无法走近自己所想象的花树。\n强风像是不愿有人靠近一般，将我们吹走了。\n全体友方单位失去\n10点理智值\n！\n李箱\n失去\n15点理智值\n！\n\n远离花树\n花树无法走近自己所想象的花树。\n我逃之夭夭。\n就像为了一颗花树所做的那样，我真是奇怪地模仿了它。\n离开的那一瞬间，花树四散消逝。\n我拾起了花树曾在的地方遗留下的残枝。\n获得E.G.O饰品\n香气刺鼻的花蕾\n！\n李箱\n恢复\n10点理智值",
+  "options": [
+    {
+      "choice_text": "走近花树",
+      "check_type": "",
+      "check_sin": "",
+      "check_threshold": 0,
+      "success_outcomes": [],
+      "failure_outcomes": []
+    },
+    {
+      "choice_text": "远离花树",
+      "check_type": "",
+      "check_sin": "",
+      "check_threshold": 0,
+      "success_outcomes": [],
+      "failure_outcomes": []
+    }
+  ],
+  "ego_gifts": [],
+  "related_abnormalities": [],
+  "trigger_location": "",
+  "_structured": true,
+  "id": "wiki_事件-靠近花树",
+  "url": "https://limbuscompany.huijiwiki.com/wiki/事件-靠近花树",
+  "categories": [],
+  "source": "wiki",
+  "_schema_version": 1
+}

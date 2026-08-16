@@ -1,0 +1,35 @@
+{
+  "page_type": "event",
+  "title": "事件-使用红色通行证",
+  "event_name": "使用红色通行证",
+  "narration": "春梦随云散，\n飞花逐水流；\n寄言众儿女，\n何必觅闲愁？\n进入房间后，我们看见了另一位候选人。\n就在下一瞬，房门砰然关闭，主持人的声音随之响起：\n“击败对手并获得胜利的候选人，将有机会前往蕴含更多机遇的房间！”\n“不过……如果只是普通地战斗，那可就和在外面战斗没什么区别了，对吧？”\n伴随着咔咔声，奇怪的烟雾从地板缝隙间悄然冒出。\n吸入烟雾的罪人们表情逐渐僵硬，房间四处传来剧烈的咳嗽声。\n……情况似乎不妙。\n\n接受战斗的挑战。\n决定在罪人们受到严重伤害之前，迅速打倒敌人并离开。\n触发遭遇战！\n下场战斗胜利后，将获得器物\n×2\n\n使用通行证打开锁住的门并离开。\n持有红色通行证时可选择\n在这里与其他候选人交战是十分危险的选择。\n正思考着是否还有其他路可走时，一个防盗锁映入眼帘。\n能不能在那里用之前遇到的候选人给予的通行卡呢？\n抱着试一试的心态，我把卡片贴了上去。\n已批准。\n伴随着哔哔声，紧锁的门打开了。\n门一打开，我便和罪人们一起冲出了房间……\n另一位候选人似乎没发现我们已经不见踪影。\n失去器物\n地图中追加了新的道路！",
+  "options": [
+    {
+      "choice_text": "接受战斗的挑战。",
+      "check_type": "",
+      "check_sin": "",
+      "check_threshold": 0,
+      "success_outcomes": [],
+      "failure_outcomes": []
+    },
+    {
+      "choice_text": "使用通行证打开锁住的门并离开。",
+      "check_type": "",
+      "check_sin": "",
+      "check_threshold": 0,
+      "success_outcomes": [],
+      "failure_outcomes": []
+    }
+  ],
+  "ego_gifts": [],
+  "related_abnormalities": [],
+  "trigger_location": "",
+  "_structured": true,
+  "id": "wiki_事件-使用红色通行证",
+  "url": "https://limbuscompany.huijiwiki.com/wiki/事件-使用红色通行证",
+  "categories": [
+    "战斗数据"
+  ],
+  "source": "wiki",
+  "_schema_version": 1
+}

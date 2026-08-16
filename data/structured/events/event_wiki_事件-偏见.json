@@ -1,0 +1,38 @@
+{
+  "page_type": "event",
+  "title": "事件-偏见",
+  "event_name": "偏见",
+  "narration": "这里是由荆棘交织而成的蜘蛛巢。\n蜘蛛巢或许曾被当做贺礼，其中盛满了花。\n新郎与新娘在\n仿佛由某人的血浇灌出的鲜花中爬行。\n它们每爬行一步，\n手脚便渗出鲜血。\n在一方的血流干之前，另一方会与之上下交换，\n它们就这样交替爬行着。\n\n摘下鲜花\n取下血染的鲜花送去后，它们似乎感到欣喜。\n承载祝福的花不知从何时起，\n化为了将它们\n永世囚禁在蜘蛛巢中的诅咒。\n那些花并非它们栽种养育的东西。\n只是有谁无趣的情感在滋养着，\n使得花瓣愈加鲜艳。\n技能组不包含\n傲慢属性攻击技能\n的友方单位失去\n5点体力\n！\n技能组内包含\n傲慢属性攻击技能\n的友方单位恢复\n15点体力\n获得\n！\n\n扯断荆棘\n（50%概率）\n一旦尝试扯断荆棘，它们就会发出惨叫。\n即使会让自己遍身伤痕，这里对它们而言仍旧是家。\n它们憎恶破坏自己居所的人。\n一知半解地接触他人的痛苦并非是一件明智的选择。\n全体友方单位失去\n10点理智值\n！\n扯断荆棘\n（50%概率）\n虽然试图扯断荆棘，\n但荆棘比预想的要牢固。\n使尽全力尝试数次，\n却只徒增了手掌的伤痕。\n它们只是静静站着，\n一动不动地眺望着这里。\n脸上既未生出愤怒，\n也丝毫不见恐惧的神色。\n全体友方单位失去\n10点体力\n！",
+  "options": [
+    {
+      "choice_text": "摘下鲜花",
+      "check_type": "",
+      "check_sin": "",
+      "check_threshold": 0,
+      "success_outcomes": [],
+      "failure_outcomes": []
+    },
+    {
+      "choice_text": "扯断荆棘",
+      "check_type": "",
+      "check_sin": "",
+      "check_threshold": 0,
+      "success_outcomes": [],
+      "failure_outcomes": []
+    }
+  ],
+  "ego_gifts": [],
+  "related_abnormalities": [
+    "白幕内涉及目前游戏未公开内容，仅供参考，请以后续实装内容为准。",
+    "결혼거미",
+    "事件触发地点",
+    "镜像迷宫"
+  ],
+  "trigger_location": "",
+  "_structured": true,
+  "id": "wiki_事件-偏见",
+  "url": "https://limbuscompany.huijiwiki.com/wiki/事件-偏见",
+  "categories": [],
+  "source": "wiki",
+  "_schema_version": 1
+}

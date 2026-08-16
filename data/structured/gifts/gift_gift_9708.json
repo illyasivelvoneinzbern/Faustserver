@@ -1,0 +1,21 @@
+{
+  "id": "gift_9708",
+  "title": "废料蟹脑髓泡酒",
+  "url": "https://limbuscompany.huijiwiki.com/wiki/E.G.O饰品",
+  "categories": [
+    "E.G.O饰品"
+  ],
+  "content": "友方单位增加破裂强度或施加破裂层数的技能攻击带有破裂的敌方单位时，造成的伤害+(目标的破裂层数×1.25)%(最多+50%)。\n友方单位解除混乱时，使其恢复其体力上限20%的体力(每场战斗最多2次)。",
+  "source": "tabx",
+  "_structured": true,
+  "page_type": "ego_gift",
+  "gift_name": "废料蟹脑髓泡酒",
+  "rarity": 3,
+  "cost": "268",
+  "effect_types": "破裂",
+  "attack_type": "色欲",
+  "location": "镜像迷宫",
+  "stage": "base",
+  "special": "去·海·边",
+  "_schema_version": 1
+}

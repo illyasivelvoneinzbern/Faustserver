@@ -1,0 +1,38 @@
+{
+  "page_type": "event",
+  "title": "事件-异想狩猎",
+  "event_name": "异想狩猎",
+  "narration": "“我可以把一切都擦得干干净净。”\n“清扫让人感到愉悦。”\n“我喜欢和其他人一样。\"\n“……”\n“老实说，我很烦恼。”\n“我旁边的那个型号夸口说自己有了独特的部件。”\n“那种东西就能让我变得特别吗？”\n“我真的显得特别吗？”\n\n你是特别的。\n“不。我并不特别。”\n它无视了回答，坚决地驳斥。\n“我会继续平凡的生活，和现在一样，就像分配给我的那样。”\n随后它以惊人的速度旋转着，消失在了黑暗中。\n什么都没有发生。\n\n你不是特别的。\n“我不特别吗，不特别吗，不是特别的吗？”\n在给出了消极的答复后，它突然撕扯掉了它身上所有的清洁用具，随后一头撞到了墙上。\n伴随着四溅的火星，它在其他物体上剐蹭身体，就好像要把这些东西固定在自己身上。\n一段时间后，它停了下来。\n“也许我想变得特别。”\n当空洞的声音传达到耳边时，它已经不见了。\n获得\n！",
+  "options": [
+    {
+      "choice_text": "你是特别的。",
+      "check_type": "",
+      "check_sin": "",
+      "check_threshold": 0,
+      "success_outcomes": [],
+      "failure_outcomes": []
+    },
+    {
+      "choice_text": "你不是特别的。",
+      "check_type": "",
+      "check_sin": "",
+      "check_threshold": 0,
+      "success_outcomes": [],
+      "failure_outcomes": []
+    }
+  ],
+  "ego_gifts": [],
+  "related_abnormalities": [
+    "白幕内涉及目前游戏未公开内容，仅供参考，请以后续实装内容为准。",
+    "무엇이든닦아드립니다",
+    "事件触发地点",
+    "镜像迷宫"
+  ],
+  "trigger_location": "",
+  "_structured": true,
+  "id": "wiki_事件-异想狩猎",
+  "url": "https://limbuscompany.huijiwiki.com/wiki/事件-异想狩猎",
+  "categories": [],
+  "source": "wiki",
+  "_schema_version": 1
+}

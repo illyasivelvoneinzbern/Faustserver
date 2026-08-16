@@ -1,0 +1,128 @@
+{
+  "page_type": "enemy",
+  "title": "折射轨道1号线-第4站：再会",
+  "enemy_name": "执着的圭多",
+  "battle_stage": "折射轨道1号线-第4站：再会",
+  "body_part": "身体",
+  "hp": 405,
+  "defense_level": 405,
+  "speed_min": 0,
+  "speed_max": 0,
+  "chaos_threshold": "1-5",
+  "physical_resistances": {
+    "斩击": 0.5,
+    "突刺": 1.0,
+    "打击": 2.0
+  },
+  "sin_resistances": {
+    "暴怒": 1.0,
+    "色欲": 0.5,
+    "怠惰": 2.0,
+    "暴食": 1.5,
+    "忧郁": 1.0,
+    "傲慢": 0.5,
+    "嫉妒": 1.0
+  },
+  "panic_types": [],
+  "passives": [
+    "无"
+  ],
+  "skills": [
+    {
+      "skill_name": "尖钉洗礼",
+      "icon_id": "9100601",
+      "sin_type": "傲慢",
+      "damage_type": "突刺",
+      "base_value": 5,
+      "coin_power": 3,
+      "coin_count": 4,
+      "attack_level": 30,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[命中时] 下回合对目标施加1层 N公司的尖钉",
+        "[命中时] 下回合对目标施加2层 N公司的尖钉"
+      ]
+    },
+    {
+      "skill_name": "穿刺钉刑",
+      "icon_id": "9100602",
+      "sin_type": "傲慢",
+      "damage_type": "突刺",
+      "base_value": 4,
+      "coin_power": 3,
+      "coin_count": 2,
+      "attack_level": 30,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[命中时] 下回合使目标增加5级 流血 强度并对其施加2层 易损"
+      ]
+    },
+    {
+      "skill_name": "虔诚信仰",
+      "icon_id": "9100505",
+      "sin_type": "常规",
+      "damage_type": "防御",
+      "base_value": 12,
+      "coin_power": 79,
+      "coin_count": 1,
+      "attack_level": 0,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "使用时使自身获得2层守护"
+      ]
+    },
+    {
+      "skill_name": "圣锤，听命……！",
+      "icon_id": "9100603",
+      "sin_type": "色欲",
+      "damage_type": "突刺",
+      "base_value": 4,
+      "coin_power": 9,
+      "coin_count": 2,
+      "attack_level": 30,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[命中时] 使理智值最低的2名友方单位恢复10点理智值"
+      ]
+    },
+    {
+      "skill_name": "涤净汝罪",
+      "icon_id": "9100605",
+      "sin_type": "暴怒",
+      "damage_type": "打击",
+      "base_value": 5,
+      "coin_power": 987,
+      "coin_count": 3,
+      "attack_level": 30,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[正面命中时] 对目标施加3层 N公司的尖钉",
+        "[命中时] 若目标的 N公司的尖钉 层数高于5层，则使其陷入混乱"
+      ]
+    }
+  ],
+  "is_ally": false,
+  "_structured": true,
+  "appear_stages": [
+    "折射轨道1号线-第4站：再会"
+  ],
+  "enemy_id": "折射轨道1号线-第4站：再会|执着的圭多|身体",
+  "defense": 405,
+  "speed": "0~0",
+  "_schema_version": 1
+}

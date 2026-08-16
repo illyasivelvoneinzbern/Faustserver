@@ -1,0 +1,22 @@
+{
+  "id": "gift_9275",
+  "title": "N公司定格小队的包",
+  "url": "https://limbuscompany.huijiwiki.com/wiki/E.G.O饰品",
+  "categories": [
+    "E.G.O饰品"
+  ],
+  "content": "增加流血强度，施加流血层数或施加特殊流血的技能命中敌方单位时，对其施加1层尖钉（我方）(每个技能最多1次)\n对带有尖钉（我方）的敌方单位触发震颤引爆时，下回合对其施加2层束缚(每回合最多3次)",
+  "source": "tabx",
+  "_structured": true,
+  "page_type": "ego_gift",
+  "gift_name": "N公司定格小队的包",
+  "rarity": 2,
+  "cost": "199",
+  "effect_types": "流血",
+  "attack_type": "色欲",
+  "location": "经验记忆、镜像迷宫",
+  "stage": "base",
+  "special": "经验记忆",
+  "event": "事件-经验记忆迷宫起始选项事件",
+  "_schema_version": 1
+}

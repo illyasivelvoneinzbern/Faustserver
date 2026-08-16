@@ -1,0 +1,22 @@
+{
+  "id": "gift_9732",
+  "title": "经济舱折扣券",
+  "url": "https://limbuscompany.huijiwiki.com/wiki/E.G.O饰品",
+  "categories": [
+    "E.G.O饰品"
+  ],
+  "content": "回合结束时，使速度值最低且不高于5的1名友方单位在下回合获得1层迅捷。",
+  "source": "tabx",
+  "_structured": true,
+  "page_type": "ego_gift",
+  "gift_name": "经济舱折扣券",
+  "rarity": 1,
+  "cost": "151",
+  "effect_types": "泛用",
+  "attack_type": "暴食",
+  "location": "镜像迷宫",
+  "stage": "base",
+  "special": "WARP快车谋杀案",
+  "event": "事件-经济舱折扣券",
+  "_schema_version": 1
+}

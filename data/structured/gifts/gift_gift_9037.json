@@ -1,0 +1,21 @@
+{
+  "id": "gift_9037",
+  "title": "瓶中婴孩",
+  "url": "https://limbuscompany.huijiwiki.com/wiki/E.G.O饰品",
+  "categories": [
+    "E.G.O饰品"
+  ],
+  "content": "关卡开始时，所有E.G.O资源+1。\n战斗胜利时，获得持有量最少的2种E.G.O资源各2个",
+  "source": "tabx",
+  "_structured": true,
+  "page_type": "ego_gift",
+  "gift_name": "瓶中婴孩",
+  "rarity": 2,
+  "cost": "212",
+  "effect_types": "泛用",
+  "attack_type": "色欲",
+  "location": "镜像迷宫",
+  "stage": "base",
+  "event": "事件-瓶中婴孩",
+  "_schema_version": 1
+}

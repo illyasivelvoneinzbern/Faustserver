@@ -1,0 +1,131 @@
+{
+  "page_type": "enemy",
+  "title": "折射轨道2号线-第7站 - 异味-2",
+  "enemy_name": "折射的长腿精灵",
+  "battle_stage": "折射轨道2号线-第7站 - 异味-2",
+  "body_part": "躯干",
+  "hp": 1160,
+  "defense_level": 23,
+  "speed_min": 2,
+  "speed_max": 4,
+  "chaos_threshold": "464/0",
+  "physical_resistances": {
+    "斩击": 1.5,
+    "突刺": 1.0,
+    "打击": 0.75
+  },
+  "sin_resistances": {
+    "暴怒": 1.0,
+    "色欲": 0.5,
+    "怠惰": 1.0,
+    "暴食": 0.75,
+    "忧郁": 1.0,
+    "傲慢": 1.5,
+    "嫉妒": 1.5
+  },
+  "panic_types": [],
+  "passives": [],
+  "skills": [
+    {
+      "skill_name": "绿荫笼罩",
+      "icon_id": "805904",
+      "sin_type": "暴食",
+      "damage_type": "打击",
+      "base_value": 17,
+      "coin_power": 854,
+      "coin_count": 2,
+      "attack_level": 35,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[命中时] 目标每带有1级 流血 强度，使本硬币造成的伤害+5%",
+        "[命中时] 消耗目标所有 流血 强度"
+      ]
+    },
+    {
+      "skill_name": "消化",
+      "icon_id": "805905",
+      "sin_type": "傲慢",
+      "damage_type": "打击",
+      "base_value": 7,
+      "coin_power": 3,
+      "coin_count": 2,
+      "attack_level": 35,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[命中时] 目标每带有1级 流血 强度，使自身恢复体力上限1%的体力",
+        "[命中时] 消耗目标1层 流血"
+      ]
+    },
+    {
+      "skill_name": "舔舐伤口",
+      "icon_id": "805901",
+      "sin_type": "色欲",
+      "damage_type": "打击",
+      "base_value": 6,
+      "coin_power": 9,
+      "coin_count": 2,
+      "attack_level": 35,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[命中时] 若目标的 流血 层数不低于2层，则使目标增加5级 流血 强度",
+        "[命中时] 若目标的 流血 层数不低于2层，则对目标施加1层 麻痹",
+        "[命中时] 对目标施加4层 流血"
+      ]
+    },
+    {
+      "skill_name": "束缚伤痕",
+      "icon_id": "805902",
+      "sin_type": "色欲",
+      "damage_type": "穿刺",
+      "base_value": 5,
+      "coin_power": 9,
+      "coin_count": 2,
+      "attack_level": 35,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[命中时] 使目标增加3级 流血 强度",
+        "[命中时] 若目标带有 流血 ，则下回合对目标施加1层 束缚"
+      ]
+    },
+    {
+      "skill_name": "陷于血肉",
+      "icon_id": "805903",
+      "sin_type": "暴食",
+      "damage_type": "打击",
+      "base_value": 5,
+      "coin_power": 854,
+      "coin_count": 3,
+      "attack_level": 35,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[命中时] 使目标增加3级 流血 强度",
+        "[命中时] 若目标带有 流血 ，则使自身恢复25点体力",
+        "[命中时] 若目标的 流血 层数不低于2层，则使目标增加5级 流血 强度"
+      ]
+    }
+  ],
+  "is_ally": false,
+  "_structured": true,
+  "appear_stages": [
+    "折射轨道2号线-第7站 - 异味-2"
+  ],
+  "enemy_id": "折射轨道2号线-第7站 - 异味-2|折射的长腿精灵|躯干",
+  "defense": 23,
+  "speed": "2~4",
+  "_schema_version": 1
+}

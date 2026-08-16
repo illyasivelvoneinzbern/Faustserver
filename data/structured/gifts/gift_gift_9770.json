@@ -1,0 +1,22 @@
+{
+  "id": "gift_9770",
+  "title": "齿轮碎片",
+  "url": "https://limbuscompany.huijiwiki.com/wiki/E.G.O饰品",
+  "categories": [
+    "E.G.O饰品"
+  ],
+  "content": "回合开始时，若自身带有呼吸法，则使自身获得2层防御等级提升与1层忍耐\n若自身带有呼吸法，则首个命中的硬币造成的伤害+10%\n若该硬币命中时暴击，则使其暴击时造成的伤害+20%",
+  "source": "tabx",
+  "_structured": true,
+  "page_type": "ego_gift",
+  "gift_name": "齿轮碎片",
+  "rarity": 2,
+  "cost": "207",
+  "effect_types": "呼吸法",
+  "attack_type": "色欲",
+  "location": "镜像迷宫",
+  "stage": "base",
+  "special": "由子弹画下的句点",
+  "event": "事件-锯齿讲台",
+  "_schema_version": 1
+}

@@ -1,0 +1,508 @@
+{
+  "page_type": "personality",
+  "title": "格里高尔良·派帮厨",
+  "sinner": "格里高尔",
+  "sinner_id": "gregor",
+  "personality_name": "格里高尔良·派帮厨",
+  "release_date": "2023.04.20",
+  "acquisition": "第1赛季活动赠送",
+  "sin_affinities": {
+    "色欲": 3,
+    "暴食": 2,
+    "嫉妒": 1
+  },
+  "physical_resistances": {
+    "斩击": 0.5,
+    "突刺": 2.0,
+    "打击": 1.0
+  },
+  "ego_resources": {
+    "色欲": 3,
+    "暴食": 2,
+    "嫉妒": 1
+  },
+  "skills": [
+    {
+      "skill_index": 0,
+      "skill_name": "保鲜",
+      "sin_type": "色欲",
+      "damage_type": "打击",
+      "guard_type": "",
+      "attack_capacity": 1,
+      "coin_count": 3,
+      "stage_groups": [
+        [
+          {
+            "stage": "I",
+            "base_value": 3,
+            "coin_power": 2,
+            "effects": [
+              {
+                "timing": "正面命中时",
+                "description": "对目标施加1层 麻痹"
+              },
+              {
+                "timing": "正面命中时",
+                "description": "使目标增加1级 流血 强度"
+              }
+            ],
+            "raw_text": "基础值： 3 变动值： +2 [正面命中时] 对目标施加1层 麻痹 [正面命中时] 使目标增加1级 流血 强度"
+          },
+          {
+            "stage": "II",
+            "base_value": 3,
+            "coin_power": 2,
+            "effects": [
+              {
+                "timing": "命中时",
+                "description": "对目标施加1层 麻痹 。若目标带有 流血 ，则下回合对其施加1层 麻痹"
+              },
+              {
+                "timing": "命中时",
+                "description": "使目标增加1级 流血 强度"
+              }
+            ],
+            "raw_text": "基础值： 3 变动值： +2 [命中时] 对目标施加1层 麻痹 。若目标带有 流血 ，则下回合对其施加1层 麻痹 [命中时] 使目标增加1级 流血 强度"
+          },
+          {
+            "stage": "III",
+            "base_value": 4,
+            "coin_power": 2,
+            "effects": [
+              {
+                "timing": "命中时",
+                "description": "对目标施加1层 麻痹 。若目标带有 流血 ，则下回合对其施加1层 麻痹"
+              },
+              {
+                "timing": "命中时",
+                "description": "使目标增加1级 流血 强度"
+              }
+            ],
+            "raw_text": "基础值： 4 变动值： +2 [命中时] 对目标施加1层 麻痹 。若目标带有 流血 ，则下回合对其施加1层 麻痹 [命中时] 使目标增加1级 流血 强度"
+          },
+          {
+            "stage": "IV",
+            "base_value": 4,
+            "coin_power": 2,
+            "effects": [
+              {
+                "timing": "命中时",
+                "description": "对目标施加1层 麻痹 。若目标带有 流血 ，则下回合对其施加1层 麻痹"
+              },
+              {
+                "timing": "命中时",
+                "description": "使目标增加1级 流血 强度"
+              }
+            ],
+            "raw_text": "基础值： 4 变动值： +2 若目标的 束缚 层数不低于4层，则使本技能造成的伤害+30% [命中时] 对目标施加1层 麻痹 。若目标带有 流血 ，则下回合对其施加1层 麻痹 [命中时] 使目标增加1级 流血 强度"
+          }
+        ]
+      ],
+      "coin_effects": [
+        {
+          "coin_index": 0,
+          "description": "技能一"
+        },
+        {
+          "coin_index": 0,
+          "description": "保鲜 3"
+        },
+        {
+          "coin_index": 0,
+          "timing": "",
+          "description": "2"
+        },
+        {
+          "coin_index": 0,
+          "description": "+1"
+        },
+        {
+          "coin_index": 0,
+          "description": "1"
+        },
+        {
+          "coin_index": 0,
+          "description": "基础值： 3 变动值： +2"
+        },
+        {
+          "coin_index": 1,
+          "timing": "正面命中时",
+          "description": "[正面命中时] 对目标施加1层 麻痹"
+        },
+        {
+          "coin_index": 2,
+          "timing": "正面命中时",
+          "description": "[正面命中时] 使目标增加1级 流血 强度"
+        },
+        {
+          "coin_index": 1,
+          "timing": "命中时",
+          "description": "[命中时] 对目标施加1层 麻痹 。若目标带有 流血 ，则下回合对其施加1层 麻痹"
+        },
+        {
+          "coin_index": 2,
+          "timing": "命中时",
+          "description": "[命中时] 使目标增加1级 流血 强度"
+        },
+        {
+          "coin_index": 1,
+          "timing": "命中时",
+          "description": "[命中时] 对目标施加1层 麻痹 。若目标带有 流血 ，则下回合对其施加1层 麻痹"
+        },
+        {
+          "coin_index": 2,
+          "timing": "命中时",
+          "description": "[命中时] 使目标增加1级 流血 强度"
+        },
+        {
+          "coin_index": 1,
+          "timing": "命中时",
+          "description": "[命中时] 对目标施加1层 麻痹 。若目标带有 流血 ，则下回合对其施加1层 麻痹"
+        },
+        {
+          "coin_index": 2,
+          "timing": "命中时",
+          "description": "[命中时] 使目标增加1级 流血 强度"
+        }
+      ],
+      "wikitext_key": "1技能"
+    },
+    {
+      "skill_index": 1,
+      "skill_name": "够新鲜吗？",
+      "sin_type": "暴食",
+      "damage_type": "斩击",
+      "guard_type": "",
+      "attack_capacity": 1,
+      "coin_count": 2,
+      "stage_groups": [
+        [
+          {
+            "stage": "I",
+            "base_value": 5,
+            "coin_power": 8,
+            "effects": [
+              {
+                "timing": "命中时",
+                "description": "对目标施加1层 流血 并在下回合对其施加1层 束缚"
+              }
+            ],
+            "raw_text": "基础值： 5 变动值： +8 [命中时] 对目标施加1层 流血 并在下回合对其施加1层 束缚"
+          },
+          {
+            "stage": "II",
+            "base_value": 5,
+            "coin_power": 8,
+            "effects": [
+              {
+                "timing": "命中时",
+                "description": "对目标施加2层 流血 并在下回合对其施加2层 束缚"
+              }
+            ],
+            "raw_text": "基础值： 5 变动值： +8 [命中时] 对目标施加2层 流血 并在下回合对其施加2层 束缚"
+          },
+          {
+            "stage": "III",
+            "base_value": 6,
+            "coin_power": 8,
+            "effects": [
+              {
+                "timing": "命中时",
+                "description": "对目标施加2层 流血 并在下回合对其施加2层 束缚"
+              }
+            ],
+            "raw_text": "基础值： 6 变动值： +8 [命中时] 对目标施加2层 流血 并在下回合对其施加2层 束缚"
+          },
+          {
+            "stage": "IV",
+            "base_value": 6,
+            "coin_power": 8,
+            "effects": [
+              {
+                "timing": "命中时",
+                "description": "对目标施加2层 流血 并在下回合对其施加2层 束缚"
+              }
+            ],
+            "raw_text": "基础值： 6 变动值： +8 若自身的 速度值 高于目标至少3点，则本技能的硬币威力+3 [命中时] 对目标施加2层 流血 并在下回合对其施加2层 束缚"
+          }
+        ]
+      ],
+      "coin_effects": [
+        {
+          "coin_index": 0,
+          "description": "技能二"
+        },
+        {
+          "coin_index": 0,
+          "description": "够新鲜吗？ 2"
+        },
+        {
+          "coin_index": 0,
+          "timing": "",
+          "description": "1"
+        },
+        {
+          "coin_index": 0,
+          "description": "+0"
+        },
+        {
+          "coin_index": 0,
+          "description": "1"
+        },
+        {
+          "coin_index": 0,
+          "description": "基础值： 5 变动值： +8"
+        },
+        {
+          "coin_index": 1,
+          "timing": "命中时",
+          "description": "[命中时] 对目标施加1层 流血 并在下回合对其施加1层 束缚"
+        },
+        {
+          "coin_index": 1,
+          "timing": "命中时",
+          "description": "[命中时] 对目标施加2层 流血 并在下回合对其施加2层 束缚"
+        },
+        {
+          "coin_index": 1,
+          "timing": "命中时",
+          "description": "[命中时] 对目标施加2层 流血 并在下回合对其施加2层 束缚"
+        },
+        {
+          "coin_index": 1,
+          "timing": "命中时",
+          "description": "[命中时] 对目标施加2层 流血 并在下回合对其施加2层 束缚"
+        }
+      ],
+      "wikitext_key": "2技能"
+    },
+    {
+      "skill_index": 2,
+      "skill_name": "分解食材",
+      "sin_type": "",
+      "damage_type": "",
+      "guard_type": "",
+      "attack_capacity": 1,
+      "coin_count": 5,
+      "stage_groups": [
+        [
+          {
+            "stage": "I",
+            "base_value": 5,
+            "coin_power": 1,
+            "effects": [
+              {
+                "timing": "命中时",
+                "description": "使目标增加1级 流血 强度"
+              },
+              {
+                "timing": "命中时",
+                "description": "对目标施加1层 麻痹"
+              },
+              {
+                "timing": "命中时",
+                "description": "对目标施加1层 麻痹"
+              },
+              {
+                "timing": "命中时",
+                "description": "根据目标带有的 流血 强度来使自身恢复相应的 体力 （最多恢复20%）"
+              }
+            ],
+            "raw_text": "基础值： 5 变动值： +1 [命中时] 使目标增加1级 流血 强度 [命中时] 对目标施加1层 麻痹 [命中时] 对目标施加1层 麻痹 [命中时] 根据目标带有的 流血 强度来使自身恢复相应的 体力 （最多恢复20%）"
+          },
+          {
+            "stage": "II",
+            "base_value": 5,
+            "coin_power": 1,
+            "effects": [
+              {
+                "timing": "命中时",
+                "description": "使目标增加1级 流血 强度"
+              },
+              {
+                "timing": "命中时",
+                "description": "对目标施加1层 麻痹"
+              },
+              {
+                "timing": "命中时",
+                "description": "对目标施加1层 麻痹"
+              },
+              {
+                "timing": "命中时",
+                "description": "根据目标带有的 流血 强度来使自身恢复相应的 体力 （最多恢复20%）"
+              }
+            ],
+            "raw_text": "基础值： 5 变动值： +1 若目标的 流血 层数不低于10层，则使本技能的硬币威力+1 [命中时] 使目标增加1级 流血 强度 [命中时] 对目标施加1层 麻痹 [命中时] 对目标施加1层 麻痹 [命中时] 根据目标带有的 流血 强度来使自身恢复相应的 体力 （最多恢复20%）"
+          }
+        ]
+      ],
+      "coin_effects": [
+        {
+          "coin_index": 0,
+          "description": "技能三"
+        },
+        {
+          "coin_index": 0,
+          "description": "分解食材 1"
+        },
+        {
+          "coin_index": 0,
+          "timing": "",
+          "description": "4"
+        },
+        {
+          "coin_index": 0,
+          "description": "+3"
+        },
+        {
+          "coin_index": 0,
+          "description": "1"
+        },
+        {
+          "coin_index": 0,
+          "description": "基础值： 5 变动值： +1"
+        },
+        {
+          "coin_index": 1,
+          "timing": "命中时",
+          "description": "[命中时] 使目标增加1级 流血 强度"
+        },
+        {
+          "coin_index": 2,
+          "timing": "命中时",
+          "description": "[命中时] 对目标施加1层 麻痹"
+        },
+        {
+          "coin_index": 3,
+          "timing": "命中时",
+          "description": "[命中时] 对目标施加1层 麻痹"
+        },
+        {
+          "coin_index": 4,
+          "timing": "命中时",
+          "description": "[命中时] 根据目标带有的 流血 强度来使自身恢复相应的 体力 （最多恢复20%）"
+        },
+        {
+          "coin_index": 1,
+          "timing": "命中时",
+          "description": "[命中时] 使目标增加1级 流血 强度"
+        },
+        {
+          "coin_index": 2,
+          "timing": "命中时",
+          "description": "[命中时] 对目标施加1层 麻痹"
+        },
+        {
+          "coin_index": 3,
+          "timing": "命中时",
+          "description": "[命中时] 对目标施加1层 麻痹"
+        },
+        {
+          "coin_index": 4,
+          "timing": "命中时",
+          "description": "[命中时] 根据目标带有的 流血 强度来使自身恢复相应的 体力 （最多恢复20%）"
+        }
+      ],
+      "wikitext_key": "3技能"
+    },
+    {
+      "skill_index": 3,
+      "skill_name": "防御",
+      "sin_type": "",
+      "damage_type": "",
+      "guard_type": "防御",
+      "attack_capacity": 1,
+      "coin_count": 1,
+      "stage_groups": [
+        [
+          {
+            "stage": "I",
+            "base_value": 8,
+            "coin_power": 5,
+            "effects": [],
+            "raw_text": "基础值： 8 变动值： +5"
+          },
+          {
+            "stage": "II",
+            "base_value": 8,
+            "coin_power": 8,
+            "effects": [],
+            "raw_text": "基础值： 8 变动值： +8"
+          }
+        ]
+      ],
+      "coin_effects": [
+        {
+          "coin_index": 0,
+          "description": "守备技能"
+        },
+        {
+          "coin_index": 0,
+          "description": "防御"
+        },
+        {
+          "coin_index": 0,
+          "timing": "",
+          "description": "1"
+        },
+        {
+          "coin_index": 0,
+          "description": "+2"
+        },
+        {
+          "coin_index": 0,
+          "description": "1"
+        },
+        {
+          "coin_index": 0,
+          "description": "I阶 - III阶 IV阶 追加属性： 基础值： 8 变动值： +5 基础值： 8 变动值： +8"
+        }
+      ],
+      "wikitext_key": "守备技能4"
+    }
+  ],
+  "battle_passive": "人格被动1120401\n人格被动1120421",
+  "support_passive": "",
+  "notes": "",
+  "voice_lines": [],
+  "skill_voice": [
+    {
+      "file": "Battle_s2_11204_1.ogg",
+      "skill_index": 2,
+      "skill_label": "",
+      "skill_name": "够新鲜吗？"
+    },
+    {
+      "file": "Battle_s3_11204_1_1.ogg",
+      "skill_index": 3,
+      "skill_label": "技能三",
+      "skill_name": "分解食材"
+    },
+    {
+      "file": "Battle_s3_11204_1_2.ogg",
+      "skill_index": 3,
+      "skill_label": "",
+      "skill_name": "分解食材"
+    },
+    {
+      "file": "Battle_s3_11204_1_3.ogg",
+      "skill_index": 3,
+      "skill_label": "",
+      "skill_name": "分解食材"
+    },
+    {
+      "file": "Battle_s3_11204_1_4.ogg",
+      "skill_index": 3,
+      "skill_label": "",
+      "skill_name": "分解食材"
+    }
+  ],
+  "_structured": true,
+  "id": "wiki_格里高尔良·派帮厨",
+  "url": "https://limbuscompany.huijiwiki.com/wiki/格里高尔良·派帮厨",
+  "categories": [
+    "人格"
+  ],
+  "source": "wiki",
+  "_schema_version": 1
+}

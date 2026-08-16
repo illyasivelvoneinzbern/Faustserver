@@ -1,0 +1,22 @@
+{
+  "id": "gift_9243",
+  "title": "试验提取：红艳煞",
+  "url": "https://limbuscompany.huijiwiki.com/wiki/E.G.O饰品",
+  "categories": [
+    "E.G.O饰品"
+  ],
+  "content": "增加烧伤强度，施加烧伤层数或施加特殊烧伤的攻击技能造成的伤害+10%\n- 若该技能对自身施加烧伤层数，则额外使该技能的拼点威力+1\n- 自身每失去2%的体力，使造成的伤害额外+1%(最多+15%)",
+  "source": "tabx",
+  "_structured": true,
+  "page_type": "ego_gift",
+  "gift_name": "试验提取：红艳煞",
+  "rarity": 3,
+  "cost": "246",
+  "effect_types": "烧伤",
+  "attack_type": "暴怒",
+  "location": "LCB定期体检、镜像迷宫",
+  "stage": "base",
+  "special": "LCB定期体检复刻",
+  "event": "事件-红焰蛾出逃",
+  "_schema_version": 1
+}

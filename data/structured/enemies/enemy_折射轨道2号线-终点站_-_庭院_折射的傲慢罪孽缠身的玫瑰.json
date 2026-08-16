@@ -1,0 +1,91 @@
+{
+  "page_type": "enemy",
+  "title": "折射轨道2号线-终点站 - 庭院",
+  "enemy_name": "折射的傲慢罪孽缠身的玫瑰",
+  "battle_stage": "折射轨道2号线-终点站 - 庭院",
+  "body_part": "花",
+  "hp": 82,
+  "defense_level": 31,
+  "speed_min": 1,
+  "speed_max": 3,
+  "chaos_threshold": "57/25",
+  "physical_resistances": {
+    "斩击": 1.0,
+    "突刺": 1.0,
+    "打击": 1.0
+  },
+  "sin_resistances": {
+    "暴怒": 0.5,
+    "色欲": 0.5,
+    "怠惰": 0.5,
+    "暴食": 0.5,
+    "忧郁": 0.5,
+    "傲慢": 2.0,
+    "嫉妒": 0.5
+  },
+  "panic_types": [],
+  "passives": [],
+  "skills": [
+    {
+      "skill_name": "喷吐的傲慢",
+      "icon_id": "856901",
+      "sin_type": "傲慢",
+      "damage_type": "穿刺",
+      "base_value": 3,
+      "coin_power": 3,
+      "coin_count": 1,
+      "attack_level": 38,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "使用时使全体友方单位增加3级呼吸法强度"
+      ]
+    },
+    {
+      "skill_name": "翻涌的傲慢",
+      "icon_id": "856901",
+      "sin_type": "傲慢",
+      "damage_type": "穿刺",
+      "base_value": 4,
+      "coin_power": 3,
+      "coin_count": 3,
+      "attack_level": 38,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[使用时] 使全体友方单位获得2层 呼吸法",
+        "[命中时] 使自身获得1层 呼吸法"
+      ]
+    },
+    {
+      "skill_name": "尖锐的傲慢",
+      "icon_id": "856903",
+      "sin_type": "傲慢",
+      "damage_type": "穿刺",
+      "base_value": 2,
+      "coin_power": 3,
+      "coin_count": 1,
+      "attack_level": 36,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "自身的呼吸法强度不低于5级时，使本技能的硬币威力+3"
+      ]
+    }
+  ],
+  "is_ally": false,
+  "_structured": true,
+  "appear_stages": [
+    "折射轨道2号线-终点站 - 庭院"
+  ],
+  "enemy_id": "折射轨道2号线-终点站 - 庭院|折射的傲慢罪孽缠身的玫瑰|花",
+  "defense": 31,
+  "speed": "1~3",
+  "_schema_version": 1
+}

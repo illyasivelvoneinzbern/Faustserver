@@ -1,0 +1,86 @@
+{
+  "page_type": "enemy",
+  "title": "2-19-3-邻里沉眠的冰霜城堡",
+  "enemy_name": "长梦初醒的邻居",
+  "battle_stage": "2-19-3-邻里沉眠的冰霜城堡",
+  "body_part": "躯干",
+  "hp": 41,
+  "defense_level": 12,
+  "speed_min": 2,
+  "speed_max": 5,
+  "chaos_threshold": "20",
+  "physical_resistances": {
+    "斩击": 1.0,
+    "突刺": 0.75,
+    "打击": 2.0
+  },
+  "sin_resistances": {
+    "暴怒": 2.0,
+    "色欲": 1.0,
+    "怠惰": 1.0,
+    "暴食": 0.75,
+    "忧郁": 1.0,
+    "傲慢": 1.5,
+    "嫉妒": 0.75
+  },
+  "panic_types": [],
+  "passives": [],
+  "skills": [
+    {
+      "skill_name": "尖喙凿击",
+      "icon_id": "801901",
+      "sin_type": "傲慢",
+      "damage_type": "斩击",
+      "base_value": 3,
+      "coin_power": 3,
+      "coin_count": 1,
+      "attack_level": 13,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": []
+    },
+    {
+      "skill_name": "冰镰刨切",
+      "icon_id": "801902",
+      "sin_type": "傲慢",
+      "damage_type": "斩击",
+      "base_value": 2,
+      "coin_power": 3,
+      "coin_count": 1,
+      "attack_level": 13,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": []
+    },
+    {
+      "skill_name": "趾足践踏",
+      "icon_id": "801903",
+      "sin_type": "傲慢",
+      "damage_type": "打击",
+      "base_value": 11,
+      "coin_power": 3,
+      "coin_count": 2,
+      "attack_level": 13,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[正面命中时] 下回合对目标施加1层 易损"
+      ]
+    }
+  ],
+  "is_ally": false,
+  "_structured": true,
+  "appear_stages": [
+    "2-19-3-邻里沉眠的冰霜城堡"
+  ],
+  "enemy_id": "2-19-3-邻里沉眠的冰霜城堡|长梦初醒的邻居|躯干",
+  "defense": 12,
+  "speed": "2~5",
+  "_schema_version": 1
+}

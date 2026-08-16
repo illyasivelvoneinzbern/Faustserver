@@ -1,0 +1,119 @@
+{
+  "page_type": "enemy",
+  "title": "主线战斗6-25",
+  "enemy_name": "发狂的环指研究员？",
+  "battle_stage": "主线战斗6-25",
+  "body_part": "",
+  "hp": 143,
+  "defense_level": 40,
+  "speed_min": 1,
+  "speed_max": 4,
+  "chaos_threshold": "",
+  "physical_resistances": {
+    "斩击": 1.8,
+    "突刺": 0.6,
+    "打击": 1.0
+  },
+  "sin_resistances": {
+    "暴怒": 1.0,
+    "色欲": 1.0,
+    "怠惰": 1.0,
+    "暴食": 1.0,
+    "忧郁": 1.0,
+    "傲慢": 1.0,
+    "嫉妒": 1.0
+  },
+  "panic_types": [
+    "凌乱的绘画"
+  ],
+  "passives": [
+    "天生的品格:进行拼点时，拼点威力+1",
+    "血点描画：攻击命中带有 流血 的目标时，使自身恢复2点理智值"
+  ],
+  "skills": [
+    {
+      "skill_name": "线稿",
+      "icon_id": "9013201",
+      "sin_type": "色欲",
+      "damage_type": "穿刺",
+      "base_value": 3,
+      "coin_power": 9,
+      "coin_count": 4,
+      "attack_level": 40,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[命中时] 对目标施加2层 流血"
+      ]
+    },
+    {
+      "skill_name": "划线",
+      "icon_id": "9013202",
+      "sin_type": "色欲",
+      "damage_type": "穿刺",
+      "base_value": 3,
+      "coin_power": 9,
+      "coin_count": 4,
+      "attack_level": 40,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[命中时] 对目标施加2层 流血",
+        "[命中时] 若目标带有 流血 ，则使自身恢复5点理智值",
+        "[命中时] 使目标增加相当于其 流血 强度的 破裂 强度"
+      ]
+    },
+    {
+      "skill_name": "血点画",
+      "icon_id": "9013203",
+      "sin_type": "暴怒",
+      "damage_type": "穿刺",
+      "base_value": 3,
+      "coin_power": 987,
+      "coin_count": 4,
+      "attack_level": 40,
+      "attack_weight": 1,
+      "is_guard": true,
+      "guard_type": "防御",
+      "importance": 0,
+      "coin_effects": [
+        "[命中时] 若目标的 流血 层数不低于4层，则对其追加本硬币伤害量20%的伤害",
+        "[正面命中时] 对目标施加1层 防御等级降低",
+        "[命中时] 若目标的 流血 层数不低于4层，则重复使用本硬币（最多1次）",
+        "[正面命中时] 对目标施加2层 防御等级降低"
+      ]
+    },
+    {
+      "skill_name": "防御",
+      "icon_id": "9013104",
+      "sin_type": "常规",
+      "damage_type": "防御",
+      "base_value": 10,
+      "coin_power": 79,
+      "coin_count": 1,
+      "attack_level": 0,
+      "attack_weight": 1,
+      "is_guard": true,
+      "guard_type": "防御",
+      "importance": 0,
+      "coin_effects": [
+        "回合结束时若自身带有护盾，则下回合使自身获得3层伤害强化"
+      ]
+    }
+  ],
+  "is_ally": false,
+  "_structured": true,
+  "appear_stages": [
+    "主线战斗6-25",
+    "主线战斗6-27",
+    "主线战斗6-28"
+  ],
+  "enemy_id": "主线战斗6-25|发狂的环指研究员？|",
+  "defense": 40,
+  "speed": "1~4",
+  "_schema_version": 1
+}

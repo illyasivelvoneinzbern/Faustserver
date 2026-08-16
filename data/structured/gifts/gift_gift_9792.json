@@ -1,0 +1,21 @@
+{
+  "id": "gift_9792",
+  "title": "永恒的缘分锁链",
+  "url": "https://limbuscompany.huijiwiki.com/wiki/E.G.O饰品",
+  "categories": [
+    "E.G.O饰品"
+  ],
+  "content": "回合开始时，若属于中指的友方单位不低于2名，则触发该效果(以参战人员为基准)\n友方单位受到攻击时，使与该友方单位属于同一阵营的全体友方单位造成的打击伤害+5%(每回合最多+15%)\n属于中指的友方单位改为获得1层攻击等级提升并使造成的打击伤害+10%(每回合最多3次，每回合最多+30%)",
+  "source": "tabx",
+  "_structured": true,
+  "page_type": "ego_gift",
+  "gift_name": "永恒的缘分锁链",
+  "rarity": 4,
+  "cost": "401",
+  "effect_types": "打击",
+  "attack_type": "嫉妒",
+  "location": "镜像迷宫",
+  "stage": "base",
+  "special": "深夜清扫合成",
+  "_schema_version": 1
+}

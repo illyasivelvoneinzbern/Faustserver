@@ -1,0 +1,22 @@
+{
+  "id": "gift_9164",
+  "title": "摇晃的酒桶",
+  "url": "https://limbuscompany.huijiwiki.com/wiki/E.G.O饰品",
+  "categories": [
+    "E.G.O饰品"
+  ],
+  "content": "回合开始时，若自身的震颤层数不低于8层，则使自身的拼点威力+1\n若消耗自身的震颤层数的技能击杀目标或使目标陷入混乱，则对自身施加(消耗的震颤层数/4)层震颤(每个技能最多1次)",
+  "source": "tabx",
+  "_structured": true,
+  "page_type": "ego_gift",
+  "gift_name": "摇晃的酒桶",
+  "rarity": 2,
+  "cost": "211",
+  "effect_types": "震颤",
+  "attack_type": "傲慢",
+  "location": "镜像迷宫",
+  "stage": "base",
+  "special": "困难",
+  "event": "事件-膏血",
+  "_schema_version": 1
+}

@@ -1,0 +1,132 @@
+{
+  "page_type": "enemy",
+  "title": "活动战斗4.5-12",
+  "enemy_name": "炮刃废料蟹",
+  "battle_stage": "活动战斗4.5-12",
+  "body_part": "身体",
+  "hp": 195,
+  "defense_level": 195,
+  "speed_min": 195,
+  "speed_max": 195,
+  "chaos_threshold": "",
+  "physical_resistances": {
+    "斩击": 0.5,
+    "突刺": 2.0,
+    "打击": 1.0
+  },
+  "sin_resistances": {
+    "暴怒": 1.0,
+    "色欲": 0.75,
+    "怠惰": 1.2,
+    "暴食": 0.75,
+    "忧郁": 1.5,
+    "傲慢": 1.0,
+    "嫉妒": 1.0
+  },
+  "panic_types": [],
+  "passives": [],
+  "skills": [
+    {
+      "skill_name": "刺击",
+      "icon_id": "9008101",
+      "sin_type": "色欲",
+      "damage_type": "",
+      "base_value": 0,
+      "coin_power": 5,
+      "coin_count": 2,
+      "attack_level": 34,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "coin_effects": [
+        "[命中时] 使目标增加5级 破裂 强度"
+      ]
+    },
+    {
+      "skill_name": "胡乱刺击",
+      "icon_id": "9008102",
+      "sin_type": "色欲",
+      "damage_type": "",
+      "base_value": 0,
+      "coin_power": 2,
+      "coin_count": 4,
+      "attack_level": 34,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "coin_effects": [
+        "[命中时] 对目标施加2层 破裂"
+      ]
+    },
+    {
+      "skill_name": "吐泡",
+      "icon_id": "9008103",
+      "sin_type": "暴食",
+      "damage_type": "",
+      "base_value": 0,
+      "coin_power": 3,
+      "coin_count": 3,
+      "attack_level": 35,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "coin_effects": [
+        "[命中时] 对目标施加5层 破裂"
+      ]
+    },
+    {
+      "skill_name": "蟹铲！！！",
+      "icon_id": "9008104",
+      "sin_type": "暴食",
+      "damage_type": "",
+      "base_value": 0,
+      "coin_power": 4,
+      "coin_count": 2,
+      "attack_level": 36,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "coin_effects": [
+        "[命中时] 对目标施加3层 突刺易损 本回合内受到来自突刺技能的伤害+{0}0%（最多+100%）"
+      ]
+    },
+    {
+      "skill_name": "废弃蟹壳弹发射",
+      "icon_id": "9008105",
+      "sin_type": "暴食",
+      "damage_type": "",
+      "base_value": 0,
+      "coin_power": 10,
+      "coin_count": 2,
+      "attack_level": 39,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "coin_effects": [
+        "[命中时] 消耗1枚 蟹壳废料弹 使用特定技能时，消耗蟹壳废料弹"
+      ]
+    },
+    {
+      "skill_name": "咕哦！",
+      "icon_id": "9008106",
+      "sin_type": "常规",
+      "damage_type": "",
+      "base_value": 0,
+      "coin_power": 1,
+      "coin_count": 4,
+      "attack_level": 34,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "coin_effects": [
+        "[正面命中时] 使目标增加2级 破裂 强度"
+      ]
+    }
+  ],
+  "is_ally": false,
+  "_structured": true,
+  "enemy_id": "活动战斗4.5-12|炮刃废料蟹",
+  "defense": 195,
+  "speed": "195~195",
+  "_schema_version": 1
+}

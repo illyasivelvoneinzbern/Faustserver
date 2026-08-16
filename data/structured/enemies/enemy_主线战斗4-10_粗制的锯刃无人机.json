@@ -1,0 +1,87 @@
+{
+  "page_type": "enemy",
+  "title": "主线战斗4-10",
+  "enemy_name": "粗制的锯刃无人机",
+  "battle_stage": "主线战斗4-10",
+  "body_part": "",
+  "hp": 88,
+  "defense_level": 24,
+  "speed_min": 2,
+  "speed_max": 5,
+  "chaos_threshold": "50",
+  "physical_resistances": {
+    "斩击": 0.75,
+    "突刺": 1.0,
+    "打击": 2.0
+  },
+  "sin_resistances": {
+    "暴怒": 1.0,
+    "色欲": 1.0,
+    "怠惰": 1.0,
+    "暴食": 1.0,
+    "忧郁": 1.0,
+    "傲慢": 1.0,
+    "嫉妒": 1.0
+  },
+  "panic_types": [],
+  "passives": [
+    "机械精神：理智值固定为0.",
+    "注意摇晃： 震颤引爆 对自身造成的混乱阈值前移量+50%。",
+    "注意损伤： 破裂 效果对自身造成的伤害+30%（向下取整）"
+  ],
+  "skills": [
+    {
+      "skill_name": "正在分割。",
+      "icon_id": "9004701",
+      "sin_type": "暴食",
+      "damage_type": "",
+      "base_value": 5,
+      "coin_power": 854,
+      "coin_count": 2,
+      "attack_level": 30,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[命中时] 对目标施加3层 破裂"
+      ]
+    },
+    {
+      "skill_name": "正在切削。",
+      "icon_id": "9004702",
+      "sin_type": "嫉妒",
+      "damage_type": "",
+      "base_value": 6,
+      "coin_power": 5793,
+      "coin_count": 2,
+      "attack_level": 30,
+      "attack_weight": 1,
+      "is_guard": true,
+      "guard_type": "防御",
+      "importance": 0,
+      "coin_effects": [
+        "[正面命中时] 下回合对目标施加1层 易损",
+        "[正面命中时] 下回合对目标施加5层 防御等级降低"
+      ]
+    }
+  ],
+  "is_ally": false,
+  "_structured": true,
+  "appear_stages": [
+    "主线战斗4-10",
+    "主线战斗4-11",
+    "主线战斗4-12",
+    "主线战斗4-13",
+    "主线战斗4-14",
+    "主线战斗4-16",
+    "主线战斗4-17",
+    "主线战斗4-18",
+    "主线战斗4-19",
+    "主线战斗4-20"
+  ],
+  "enemy_id": "主线战斗4-10|粗制的锯刃无人机|",
+  "defense": 24,
+  "speed": "2~5",
+  "_schema_version": 1
+}

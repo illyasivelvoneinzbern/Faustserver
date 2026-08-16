@@ -1,0 +1,21 @@
+{
+  "id": "gift_9094",
+  "title": "恍惚镜",
+  "url": "https://limbuscompany.huijiwiki.com/wiki/E.G.O饰品",
+  "categories": [
+    "E.G.O饰品"
+  ],
+  "content": "回合开始时，若拥有增加破裂强度或施加破裂层数的攻击技能的人格不低于5名，则在本场战斗期间触发该效果。(不包括E.G.O技能，不包括待命人员)\n技能命中敌方单位时，使其增加5级破裂强度\n- 令增加破裂强度或施加破裂层数的攻击技能额外增加3级破裂强度并施加1层破裂(每个技能最多1次)",
+  "source": "tabx",
+  "_structured": true,
+  "page_type": "ego_gift",
+  "gift_name": "恍惚镜",
+  "rarity": 4,
+  "cost": "416",
+  "effect_types": "破裂",
+  "attack_type": "暴怒",
+  "location": "镜像迷宫",
+  "stage": "base",
+  "special": "合成",
+  "_schema_version": 1
+}

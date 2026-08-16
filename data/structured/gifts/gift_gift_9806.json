@@ -1,0 +1,22 @@
+{
+  "id": "gift_9806",
+  "title": "未被选中之人",
+  "url": "https://limbuscompany.huijiwiki.com/wiki/E.G.O饰品",
+  "categories": [
+    "E.G.O饰品"
+  ],
+  "content": "友方单位受到攻击时，使攻击者增加3级沉沦强度\n\n友方单位阵亡时，下回合使全体友方单位获得2层强壮(每回合最多1次)",
+  "source": "tabx",
+  "_structured": true,
+  "page_type": "ego_gift",
+  "gift_name": "未被选中之人",
+  "rarity": 2,
+  "cost": "197",
+  "effect_types": "沉沦",
+  "attack_type": "嫉妒",
+  "location": "镜像迷宫",
+  "stage": "base",
+  "special": "憎恶与绝望",
+  "event": "事件-绝望骑士 收容单元",
+  "_schema_version": 1
+}

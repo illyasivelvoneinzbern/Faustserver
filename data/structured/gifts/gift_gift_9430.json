@@ -1,0 +1,21 @@
+{
+  "id": "gift_9430",
+  "title": "照亮前方的汽灯",
+  "url": "https://limbuscompany.huijiwiki.com/wiki/E.G.O饰品",
+  "categories": [
+    "E.G.O饰品"
+  ],
+  "content": "波次的首个回合开始时，使全体友方单位增加5级呼吸法强度并获得5层呼吸法\n回合结束时，呼吸法强度与层数之和最高的1名友方单位在下回合获得2层迅捷，3层攻击等级提升与3层伤害强化\n属于裴廓德号的友方单位技能威力+2，最大速度值+2",
+  "source": "tabx",
+  "_structured": true,
+  "page_type": "ego_gift",
+  "gift_name": "照亮前方的汽灯",
+  "rarity": 4,
+  "cost": "411",
+  "effect_types": "呼吸法",
+  "attack_type": "暴食",
+  "location": "镜像迷宫",
+  "stage": "base",
+  "special": "定义为恶合成",
+  "_schema_version": 1
+}

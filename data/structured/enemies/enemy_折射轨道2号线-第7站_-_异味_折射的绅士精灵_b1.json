@@ -1,0 +1,39 @@
+{
+  "page_type": "enemy",
+  "title": "折射轨道2号线-第7站 - 异味",
+  "enemy_name": "折射的绅士精灵",
+  "battle_stage": "折射轨道2号线-第7站 - 异味",
+  "body_part": "左臂",
+  "hp": 502,
+  "defense_level": 28,
+  "speed_min": 2,
+  "speed_max": 4,
+  "chaos_threshold": "251/0",
+  "physical_resistances": {
+    "斩击": 1.0,
+    "突刺": 2.0,
+    "打击": 0.5
+  },
+  "sin_resistances": {
+    "暴怒": 1.5,
+    "色欲": 0.75,
+    "怠惰": 1.0,
+    "暴食": 0.5,
+    "忧郁": 1.0,
+    "傲慢": 1.0,
+    "嫉妒": 2.0
+  },
+  "panic_types": [],
+  "passives": [],
+  "skills": [],
+  "is_ally": false,
+  "_structured": true,
+  "appear_stages": [
+    "折射轨道2号线-第7站 - 异味",
+    "折射轨道2号线-第7站 - 异味-2"
+  ],
+  "enemy_id": "折射轨道2号线-第7站 - 异味|折射的绅士精灵|左臂",
+  "defense": 28,
+  "speed": "2~4",
+  "_schema_version": 1
+}

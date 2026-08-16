@@ -1,0 +1,20 @@
+{
+  "id": "gift_9120",
+  "title": "寻死者",
+  "url": "https://limbuscompany.huijiwiki.com/wiki/E.G.O饰品",
+  "categories": [
+    "E.G.O饰品"
+  ],
+  "content": "[第1、第2顺位友方单位专属]\n增加破裂强度或施加破裂层数的攻击技能（不包括E.G.O技能）拼点威力+1，攻击等级+2，造成的伤害+15%。\n单硬币技能改为拼点威力+2，攻击等级+2，造成的伤害+40%。",
+  "source": "tabx",
+  "_structured": true,
+  "page_type": "ego_gift",
+  "gift_name": "寻死者",
+  "rarity": 3,
+  "cost": "271",
+  "effect_types": "破裂",
+  "attack_type": "暴食",
+  "location": "镜像迷宫",
+  "stage": "base",
+  "_schema_version": 1
+}

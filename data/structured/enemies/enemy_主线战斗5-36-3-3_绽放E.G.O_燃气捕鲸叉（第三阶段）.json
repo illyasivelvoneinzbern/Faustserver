@@ -1,0 +1,136 @@
+{
+  "page_type": "enemy",
+  "title": "主线战斗5-36-3-3",
+  "enemy_name": "绽放E.G.O::燃气捕鲸叉（第三阶段）",
+  "battle_stage": "主线战斗5-36-3-3",
+  "body_part": "躯干",
+  "hp": 660,
+  "defense_level": 37,
+  "speed_min": 2,
+  "speed_max": 3,
+  "chaos_threshold": "330/0/-132",
+  "physical_resistances": {
+    "斩击": 1.0,
+    "突刺": 1.2,
+    "打击": 1.0
+  },
+  "sin_resistances": {
+    "暴怒": 1.2,
+    "色欲": 1.0,
+    "怠惰": 1.0,
+    "暴食": 1.0,
+    "忧郁": 1.0,
+    "傲慢": 1.5,
+    "嫉妒": 1.5
+  },
+  "panic_types": [
+    "不洁",
+    "忍耐",
+    "魁魁格的自我"
+  ],
+  "passives": [],
+  "skills": [
+    {
+      "skill_name": "放马过来！",
+      "icon_id": "810601",
+      "sin_type": "傲慢",
+      "damage_type": "",
+      "base_value": 3,
+      "coin_power": 3,
+      "coin_count": 3,
+      "attack_level": 40,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[命中时] 使目标增加3级 流血 强度",
+        "[命中时] 对目标施加3层 流血"
+      ]
+    },
+    {
+      "skill_name": "刺杀",
+      "icon_id": "810602",
+      "sin_type": "傲慢",
+      "damage_type": "",
+      "base_value": 5,
+      "coin_power": 3,
+      "coin_count": 3,
+      "attack_level": 42,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[命中时] 对目标施加6层 攻击等级降低",
+        "[命中时] 对目标施加3层 流血"
+      ]
+    },
+    {
+      "skill_name": "浑浊轨迹",
+      "icon_id": "810610",
+      "sin_type": "傲慢",
+      "damage_type": "",
+      "base_value": 4,
+      "coin_power": 3,
+      "coin_count": 4,
+      "attack_level": 37,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[使用时] 对目标施加1层 猎物标记",
+        "[命中时] 对目标施加2层 伤害弱化",
+        "[命中时] 对目标施加3层 流血",
+        "[正面命中时] 对目标施加1层 苍白的噪音",
+        "[命中时] 使目标增加5级 流血 强度"
+      ]
+    },
+    {
+      "skill_name": "褪色的忏悔",
+      "icon_id": "810611",
+      "sin_type": "嫉妒",
+      "damage_type": "",
+      "base_value": 10,
+      "coin_power": 5793,
+      "coin_count": 2,
+      "attack_level": 40,
+      "attack_weight": 1,
+      "is_guard": true,
+      "guard_type": "防御",
+      "importance": 0,
+      "coin_effects": [
+        "[使用时] 使自身失去5层 魁魁格的自我",
+        "[命中时] 对目标施加2层 苍白的噪音",
+        "[命中时] 使目标陷入混乱"
+      ]
+    },
+    {
+      "skill_name": "扩散白化",
+      "icon_id": "810612",
+      "sin_type": "怠惰",
+      "damage_type": "",
+      "base_value": 2,
+      "coin_power": 9703,
+      "coin_count": 3,
+      "attack_level": 35,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[命中时] 使目标增加1级 流血 强度"
+      ]
+    }
+  ],
+  "is_ally": false,
+  "_structured": true,
+  "appear_stages": [
+    "主线战斗5-36-3-3"
+  ],
+  "enemy_id": "主线战斗5-36-3-3|绽放E.G.O::燃气捕鲸叉（第三阶段）|躯干",
+  "defense": 37,
+  "speed": "2~3",
+  "_schema_version": 1
+}

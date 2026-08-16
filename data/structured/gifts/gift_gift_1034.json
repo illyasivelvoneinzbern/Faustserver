@@ -1,0 +1,21 @@
+{
+  "id": "gift_1034",
+  "title": "血红鬃毛",
+  "url": "https://limbuscompany.huijiwiki.com/wiki/E.G.O饰品",
+  "categories": [
+    "E.G.O饰品"
+  ],
+  "content": "拥有色欲技能的友方单位获得以下效果：\n若本回合未受到攻击，则下回合获得2层迅捷和2层忍耐。\n若本回合受到了攻击，则下回合获得2层束缚和2层强壮。",
+  "source": "tabx",
+  "_structured": true,
+  "page_type": "ego_gift",
+  "gift_name": "血红鬃毛",
+  "rarity": 0,
+  "cost": "0",
+  "effect_types": "",
+  "attack_type": "色欲",
+  "location": "第三章",
+  "stage": "base",
+  "event": "四足野兽",
+  "_schema_version": 1
+}

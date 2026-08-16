@@ -1,0 +1,22 @@
+{
+  "id": "gift_9734",
+  "title": "E型次元短剑",
+  "url": "https://limbuscompany.huijiwiki.com/wiki/E.G.O饰品",
+  "categories": [
+    "E.G.O饰品"
+  ],
+  "content": "获得充能层数或特殊充能的1技能拼点威力+1，造成的伤害+5%。\n若该技能为单硬币技能，则改为拼点威力+1，造成的伤害+12.5%\n属于W公司的友方单位通过嫉妒技能(包括E.G.O技能)对敌方单位造成伤害时，对该敌方单位施加2层体力恢复降低。(不可叠加)",
+  "source": "tabx",
+  "_structured": true,
+  "page_type": "ego_gift",
+  "gift_name": "E型次元短剑",
+  "rarity": 3,
+  "cost": "250",
+  "effect_types": "充能",
+  "attack_type": "忧郁",
+  "location": "镜像迷宫",
+  "stage": "base",
+  "special": "WARP快车谋杀案",
+  "event": "事件-E型次元短剑",
+  "_schema_version": 1
+}

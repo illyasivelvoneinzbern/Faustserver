@@ -1,0 +1,146 @@
+{
+  "page_type": "enemy",
+  "title": "困难活动战斗6.5-02",
+  "enemy_name": "T公司 3级征收人员 - 枪杀",
+  "battle_stage": "困难活动战斗6.5-02",
+  "body_part": "",
+  "hp": 234,
+  "defense_level": 55,
+  "speed_min": 1,
+  "speed_max": 5,
+  "chaos_threshold": "",
+  "physical_resistances": {
+    "斩击": 0.5,
+    "突刺": 2.0,
+    "打击": 1.0
+  },
+  "sin_resistances": {
+    "暴怒": 1.0,
+    "色欲": 1.0,
+    "怠惰": 1.0,
+    "暴食": 1.0,
+    "忧郁": 1.0,
+    "傲慢": 1.0,
+    "嫉妒": 1.0
+  },
+  "panic_types": [],
+  "passives": [
+    "黄金时间 II：回合结束时，若现存体力为10%~20%，则立刻使自身恢复体力上限80%的体力。解除混乱状态。(最多1次)",
+    "时间反冲 II：激活黄金时间后，回合开始时对自身施加3层 易损",
+    "时间租赁：关卡开始时，使自身获得4层 T公司的时间租赁",
+    "恐慌恢复：回合结束时，若陷入恐慌，则使自身理智值恢复为0点。"
+  ],
+  "skills": [
+    {
+      "skill_name": "征收准备",
+      "icon_id": "9014301",
+      "sin_type": "暴怒",
+      "damage_type": "穿刺",
+      "base_value": 4,
+      "coin_power": 987,
+      "coin_count": 2,
+      "attack_level": 55,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[使用时] 对自身施加2层 震颤",
+        "[命中时] 若自身的 震颤 层数不低于3层，则使目标增加3级 震颤 强度",
+        "[正面命中时] 对自身施加1层 震颤"
+      ]
+    },
+    {
+      "skill_name": "T公司产加速切断器",
+      "icon_id": "9014302",
+      "sin_type": "色欲",
+      "damage_type": "斩击",
+      "base_value": 3,
+      "coin_power": 9,
+      "coin_count": 3,
+      "attack_level": 55,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[使用时] 对自身施加2层 震颤",
+        "[命中时] 下回合对目标施加1层 易损",
+        "[命中时] 使目标增加2级 震颤 强度",
+        "[命中时] 对自身施加2层 震颤"
+      ]
+    },
+    {
+      "skill_name": "请出示钟表。",
+      "icon_id": "9014303",
+      "sin_type": "怠惰",
+      "damage_type": "斩击",
+      "base_value": 4,
+      "coin_power": 9703,
+      "coin_count": 3,
+      "attack_level": 55,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[使用时] 若自身的 震颤 层数不低于5层，则使本技能拼点威力+1",
+        "[使用时] 对自身施加2层 震颤",
+        "[命中时] 下回合对目标施加2层 易损",
+        "[命中时] 下回合对目标施加1层 虚弱",
+        "[命中时] 若自身的 震颤 层数不低于5层，则使目标 振幅转换 为 震颤-锁链"
+      ]
+    },
+    {
+      "skill_name": "强制征收执行。",
+      "icon_id": "9014304",
+      "sin_type": "暴怒",
+      "damage_type": "斩击",
+      "base_value": 4,
+      "coin_power": 987,
+      "coin_count": 5,
+      "attack_level": 55,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[使用时] 对自身施加3层 震颤",
+        "[使用时] 自身每带有4层 震颤 ，使本技能的基础威力+1（最多+3）",
+        "[命中时] 消耗自身的1层 震颤 并对目标施加1层 易损",
+        "[命中时] 消耗自身的1层 震颤 并对目标施加3层 震颤",
+        "[命中时] 消耗自身的1层 震颤 并使目标增加8级 震颤 强度",
+        "[命中时] 消耗自身的2层 震颤 并使目标 震颤引爆 并重复使用本硬币（最多1次）",
+        "[命中时] 消耗自身的5层 震颤 并对目标施加2层 时间泄露"
+      ]
+    },
+    {
+      "skill_name": "时间租赁",
+      "icon_id": "9014305",
+      "sin_type": "常规",
+      "damage_type": "防御",
+      "base_value": 8,
+      "coin_power": 79,
+      "coin_count": 1,
+      "attack_level": 0,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "战斗开始消耗4层{{状态2|震颤|4=负面}}并使自身获得3层{{状态2|T公司的时间租赁|3=借来的时间}}",
+        "战斗开始对自身施加2层{{状态2|震颤|4=负面}}"
+      ]
+    }
+  ],
+  "is_ally": false,
+  "_structured": true,
+  "appear_stages": [
+    "困难活动战斗6.5-02",
+    "活动战斗6.5-02"
+  ],
+  "enemy_id": "困难活动战斗6.5-02|T公司 3级征收人员 - 枪杀|",
+  "defense": 55,
+  "speed": "1~5",
+  "_schema_version": 1
+}

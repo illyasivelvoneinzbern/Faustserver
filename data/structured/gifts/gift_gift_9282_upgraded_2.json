@@ -1,0 +1,21 @@
+{
+  "id": "gift_9282_upgraded_2",
+  "title": "翼形蜡烛",
+  "url": "https://limbuscompany.huijiwiki.com/wiki/E.G.O饰品",
+  "categories": [
+    "E.G.O饰品"
+  ],
+  "content": "属于黎明事务所的人格视作施加烧伤与震颤的人格\n- 属于黎明事务所的人格的基础技能视作施加烧伤与震颤的技能\n关卡开始时，若黎明事务所 收尾人 浮士德在场，则使其获得1层战斗直觉",
+  "source": "tabx",
+  "_structured": true,
+  "page_type": "ego_gift",
+  "gift_name": "翼形蜡烛",
+  "rarity": 3,
+  "cost": "250",
+  "effect_types": "烧伤",
+  "attack_type": "暴怒",
+  "location": "镜像迷宫",
+  "stage": "upgraded_2",
+  "special": "解放的暴怒，盛火时节",
+  "_schema_version": 1
+}

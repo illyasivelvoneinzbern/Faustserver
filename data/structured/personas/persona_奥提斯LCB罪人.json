@@ -1,0 +1,511 @@
+{
+  "page_type": "personality",
+  "title": "奥提斯LCB罪人",
+  "sinner": "奥提斯",
+  "sinner_id": "outis",
+  "personality_name": "奥提斯LCB罪人",
+  "release_date": "2023.02.27",
+  "acquisition": "主线及常驻提取",
+  "sin_affinities": {
+    "怠惰": 3,
+    "傲慢": 2,
+    "忧郁": 1
+  },
+  "physical_resistances": {
+    "斩击": 0.5,
+    "突刺": 1.0,
+    "打击": 2.0
+  },
+  "ego_resources": {
+    "怠惰": 3,
+    "傲慢": 2,
+    "忧郁": 1
+  },
+  "skills": [
+    {
+      "skill_index": 0,
+      "skill_name": "拔剑",
+      "sin_type": "",
+      "damage_type": "",
+      "guard_type": "",
+      "attack_capacity": 1,
+      "coin_count": 3,
+      "stage_groups": [
+        [
+          {
+            "stage": "I",
+            "base_value": 3,
+            "coin_power": 1,
+            "effects": [
+              {
+                "timing": "正面命中时",
+                "description": "使目标增加2级 破裂 强度"
+              }
+            ],
+            "raw_text": "基础值： 3 变动值： +1 [正面命中时] 使目标增加2级 破裂 强度"
+          },
+          {
+            "stage": "II",
+            "base_value": 3,
+            "coin_power": 1,
+            "effects": [
+              {
+                "timing": "命中时",
+                "description": "使目标增加2级 破裂 强度"
+              }
+            ],
+            "raw_text": "基础值： 3 变动值： +1 [命中时] 使目标增加2级 破裂 强度"
+          },
+          {
+            "stage": "III",
+            "base_value": 3,
+            "coin_power": 2,
+            "effects": [
+              {
+                "timing": "命中时",
+                "description": "使目标增加2级 破裂 强度"
+              }
+            ],
+            "raw_text": "基础值： 3 变动值： +2 [命中时] 使目标增加2级 破裂 强度"
+          },
+          {
+            "stage": "IV",
+            "base_value": 3,
+            "coin_power": 2,
+            "effects": [
+              {
+                "timing": "命中时",
+                "description": "使目标增加2级 破裂 强度"
+              },
+              {
+                "timing": "正面命中时",
+                "description": "使目标增加1级 破裂 强度"
+              }
+            ],
+            "raw_text": "基础值： 3 变动值： +2 [命中时] 使目标增加2级 破裂 强度 [正面命中时] 使目标增加1级 破裂 强度"
+          }
+        ]
+      ],
+      "coin_effects": [
+        {
+          "coin_index": 0,
+          "description": "技能一"
+        },
+        {
+          "coin_index": 0,
+          "description": "拔剑 3"
+        },
+        {
+          "coin_index": 0,
+          "timing": "",
+          "description": "3"
+        },
+        {
+          "coin_index": 0,
+          "description": "+3"
+        },
+        {
+          "coin_index": 0,
+          "description": "1"
+        },
+        {
+          "coin_index": 0,
+          "description": "基础值： 3 变动值： +1"
+        },
+        {
+          "coin_index": 2,
+          "timing": "正面命中时",
+          "description": "[正面命中时] 使目标增加2级 破裂 强度"
+        },
+        {
+          "coin_index": 2,
+          "timing": "命中时",
+          "description": "[命中时] 使目标增加2级 破裂 强度"
+        },
+        {
+          "coin_index": 2,
+          "timing": "命中时",
+          "description": "[命中时] 使目标增加2级 破裂 强度"
+        },
+        {
+          "coin_index": 2,
+          "timing": "命中时",
+          "description": "[命中时] 使目标增加2级 破裂 强度"
+        },
+        {
+          "coin_index": 3,
+          "timing": "正面命中时",
+          "description": "[正面命中时] 使目标增加1级 破裂 强度"
+        }
+      ],
+      "wikitext_key": "1技能"
+    },
+    {
+      "skill_index": 1,
+      "skill_name": "绕后斩击",
+      "sin_type": "傲慢",
+      "damage_type": "斩击",
+      "guard_type": "",
+      "attack_capacity": 1,
+      "coin_count": 3,
+      "stage_groups": [
+        [
+          {
+            "stage": "I",
+            "base_value": 3,
+            "coin_power": 4,
+            "effects": [],
+            "raw_text": "基础值： 3 变动值： +4 若自身的 速度值 高于目标，则使本硬币造成的伤害+10% 若自身的 速度值 高于目标，则使本硬币造成的伤害+10%"
+          },
+          {
+            "stage": "II",
+            "base_value": 3,
+            "coin_power": 4,
+            "effects": [],
+            "raw_text": "基础值： 3 变动值： +4 若自身的 速度值 高于目标，则使本硬币造成的伤害+20% 若自身的 速度值 高于目标，则使本硬币造成的伤害+20%"
+          },
+          {
+            "stage": "III",
+            "base_value": 4,
+            "coin_power": 4,
+            "effects": [],
+            "raw_text": "基础值： 4 变动值： +4 若自身的 速度值 高于目标，则使本硬币造成的伤害+20% 若自身的 速度值 高于目标，则使本硬币造成的伤害+20%"
+          },
+          {
+            "stage": "IV",
+            "base_value": 5,
+            "coin_power": 4,
+            "effects": [],
+            "raw_text": "基础值： 5 变动值： +4 若自身的 速度值 高于目标，则使本硬币造成的伤害+20% 若自身的 速度值 高于目标，则使本硬币造成的伤害+20%"
+          }
+        ]
+      ],
+      "coin_effects": [
+        {
+          "coin_index": 0,
+          "description": "技能二"
+        },
+        {
+          "coin_index": 0,
+          "description": "绕后斩击 2"
+        },
+        {
+          "coin_index": 0,
+          "timing": "",
+          "description": "2"
+        },
+        {
+          "coin_index": 0,
+          "description": "+3"
+        },
+        {
+          "coin_index": 0,
+          "description": "1"
+        },
+        {
+          "coin_index": 0,
+          "description": "基础值： 3 变动值： +4"
+        },
+        {
+          "coin_index": 1,
+          "timing": "",
+          "description": "若自身的 速度值 高于目标，则使本硬币造成的伤害+10%"
+        },
+        {
+          "coin_index": 2,
+          "timing": "",
+          "description": "若自身的 速度值 高于目标，则使本硬币造成的伤害+10%"
+        },
+        {
+          "coin_index": 1,
+          "timing": "",
+          "description": "若自身的 速度值 高于目标，则使本硬币造成的伤害+20%"
+        },
+        {
+          "coin_index": 2,
+          "timing": "",
+          "description": "若自身的 速度值 高于目标，则使本硬币造成的伤害+20%"
+        },
+        {
+          "coin_index": 1,
+          "timing": "",
+          "description": "若自身的 速度值 高于目标，则使本硬币造成的伤害+20%"
+        },
+        {
+          "coin_index": 2,
+          "timing": "",
+          "description": "若自身的 速度值 高于目标，则使本硬币造成的伤害+20%"
+        },
+        {
+          "coin_index": 1,
+          "timing": "",
+          "description": "若自身的 速度值 高于目标，则使本硬币造成的伤害+20%"
+        },
+        {
+          "coin_index": 2,
+          "timing": "",
+          "description": "若自身的 速度值 高于目标，则使本硬币造成的伤害+20%"
+        }
+      ],
+      "wikitext_key": "2技能"
+    },
+    {
+      "skill_index": 2,
+      "skill_name": "贯穿",
+      "sin_type": "",
+      "damage_type": "",
+      "guard_type": "",
+      "attack_capacity": 1,
+      "coin_count": 2,
+      "stage_groups": [
+        [
+          {
+            "stage": "I",
+            "base_value": 6,
+            "coin_power": 14,
+            "effects": [],
+            "raw_text": "基础值： 6 变动值： +14 若目标的 体力 不低于50%，本技能造成的伤害+20%"
+          },
+          {
+            "stage": "II",
+            "base_value": 7,
+            "coin_power": 14,
+            "effects": [
+              {
+                "timing": "命中时",
+                "description": "对目标施加1层 破裂"
+              }
+            ],
+            "raw_text": "基础值： 7 变动值： +14 若目标的 体力 不低于50%，本技能造成的伤害+20% [命中时] 对目标施加1层 破裂"
+          }
+        ]
+      ],
+      "coin_effects": [
+        {
+          "coin_index": 0,
+          "description": "技能三"
+        },
+        {
+          "coin_index": 0,
+          "description": "贯穿 1"
+        },
+        {
+          "coin_index": 0,
+          "timing": "",
+          "description": "1"
+        },
+        {
+          "coin_index": 0,
+          "description": "+3"
+        },
+        {
+          "coin_index": 0,
+          "description": "1"
+        },
+        {
+          "coin_index": 0,
+          "description": "基础值： 7 变动值： +14 若目标的 体力 不低于50%，本技能造成的伤害+20%"
+        },
+        {
+          "coin_index": 1,
+          "timing": "命中时",
+          "description": "[命中时] 对目标施加1层 破裂"
+        }
+      ],
+      "wikitext_key": "3技能"
+    },
+    {
+      "skill_index": 3,
+      "skill_name": "闪避",
+      "sin_type": "",
+      "damage_type": "",
+      "guard_type": "闪避",
+      "attack_capacity": 1,
+      "coin_count": 1,
+      "stage_groups": [
+        [
+          {
+            "stage": "I",
+            "base_value": 2,
+            "coin_power": 10,
+            "effects": [],
+            "raw_text": "基础值： 2 变动值： +10"
+          },
+          {
+            "stage": "II",
+            "base_value": 2,
+            "coin_power": 10,
+            "effects": [],
+            "raw_text": "基础值： 2 变动值： +10"
+          }
+        ]
+      ],
+      "coin_effects": [
+        {
+          "coin_index": 0,
+          "description": "守备技能"
+        },
+        {
+          "coin_index": 0,
+          "description": "闪避"
+        },
+        {
+          "coin_index": 0,
+          "timing": "",
+          "description": "1"
+        },
+        {
+          "coin_index": 0,
+          "description": "-3"
+        },
+        {
+          "coin_index": 0,
+          "description": "1"
+        },
+        {
+          "coin_index": 0,
+          "description": "I阶 - III阶 IV阶 追加属性： 基础值： 2 变动值： +10 基础值： 2 变动值： +10"
+        }
+      ],
+      "wikitext_key": "守备技能4"
+    }
+  ],
+  "battle_passive": "人格被动1110101\n人格被动1110121",
+  "support_passive": "",
+  "notes": "",
+  "voice_lines": [
+    {
+      "file": "奥提斯LCB语音1.ogg",
+      "title": "获得时",
+      "text": "||在下奥提斯。希望您能牢记我的名字。"
+    },
+    {
+      "file": "奥提斯LCB语音2.ogg",
+      "title": "早间问候",
+      "text": "||早上好，经理！用过早餐了吗？您看上去精神不振，请容我提醒：合理的饮食十分重要。"
+    },
+    {
+      "file": "奥提斯LCB语音3.ogg",
+      "title": "午间问候",
+      "text": "||一位像您一样杰出的领导者，绝不应困于独自用餐的悲哀境地！我将与您一同用餐！"
+    },
+    {
+      "file": "奥提斯LCB语音4.ogg",
+      "title": "晚间问候",
+      "text": "||我建议您早些入睡，以良好的状态处理明天的事务。"
+    },
+    {
+      "file": "奥提斯LCB语音5.ogg",
+      "title": "对话 1",
+      "text": "||尽管忙碌，若是有需要，我完全可以暂停手中一切事项，来回应您的召唤。"
+    },
+    {
+      "file": "奥提斯LCB语音6.ogg",
+      "title": "对话 2",
+      "text": "||为求胜利，您可以做出何等牺牲，经理？若能得胜，您又愿意不择手段到何种地步？"
+    },
+    {
+      "file": "奥提斯LCB语音7.ogg",
+      "title": "对话 3",
+      "text": "||要和未曾亲临战场的一群新兵一同执行任务，何等荒谬……啊，我绝非在指您，经理。"
+    },
+    {
+      "file": "奥提斯LCB语音8.ogg",
+      "title": "闲置",
+      "text": "||经理？独自外出十分危险，尤其对您这样没有战斗能力的人而言！"
+    },
+    {
+      "file": "奥提斯LCB语音9.ogg",
+      "title": "人格出战",
+      "text": "||即刻出击。"
+    },
+    {
+      "file": "奥提斯LCB语音10.ogg",
+      "title": "进入战斗",
+      "text": "||奥提斯，参战。"
+    },
+    {
+      "file": "奥提斯LCB语音11.ogg",
+      "title": "战斗中选中人格",
+      "text": "||有何命令，经理？"
+    },
+    {
+      "file": "奥提斯LCB语音12.ogg",
+      "title": "进行攻击",
+      "text": "||遵命。"
+    },
+    {
+      "file": "奥提斯LCB语音13.ogg",
+      "title": "敌方混乱",
+      "text": "||战略实施很顺利。"
+    },
+    {
+      "file": "奥提斯LCB语音14.ogg",
+      "title": "陷入混乱",
+      "text": "||呃！"
+    },
+    {
+      "file": "奥提斯LCB语音15.ogg",
+      "title": "击杀敌方",
+      "text": "||一计良策。"
+    },
+    {
+      "file": "奥提斯LCB语音16.ogg",
+      "title": "友方阵亡",
+      "text": "||新兵总是这样。"
+    },
+    {
+      "file": "奥提斯LCB语音17.ogg",
+      "title": "判定成功",
+      "text": "||作战胜利完全归功于您优秀的指挥。"
+    },
+    {
+      "file": "奥提斯LCB语音18.ogg",
+      "title": "判定失败",
+      "text": "||是在下的失误……"
+    },
+    {
+      "file": "奥提斯LCB语音19.ogg",
+      "title": "战斗胜利",
+      "text": "||一如既往的杰出，经理！"
+    },
+    {
+      "file": "奥提斯LCB语音20.ogg",
+      "title": "EX CLEAR战斗胜利",
+      "text": "||这胜果99%源于您的睿智领导，仅有1%是在下的绵薄之力！"
+    },
+    {
+      "file": "奥提斯LCB语音21.ogg",
+      "title": "战斗失败",
+      "text": "||无论如何，这并非你我二人的过错，经理。"
+    }
+  ],
+  "skill_voice": [
+    {
+      "file": "Battle_s2_11101_1_1.ogg",
+      "skill_index": 2,
+      "skill_label": "",
+      "skill_name": "绕后斩击"
+    },
+    {
+      "file": "Battle_s2_11101_1_2.ogg",
+      "skill_index": 2,
+      "skill_label": "",
+      "skill_name": "绕后斩击"
+    },
+    {
+      "file": "Battle_s3_11101_1.ogg",
+      "skill_index": 3,
+      "skill_label": "",
+      "skill_name": "贯穿"
+    }
+  ],
+  "_structured": true,
+  "id": "wiki_奥提斯LCB罪人",
+  "url": "https://limbuscompany.huijiwiki.com/wiki/奥提斯LCB罪人",
+  "categories": [
+    "人格"
+  ],
+  "source": "wiki",
+  "_schema_version": 1
+}

@@ -1,0 +1,38 @@
+{
+  "page_type": "enemy",
+  "title": "集中战斗-玫瑰告示牌",
+  "enemy_name": "玫瑰告示牌",
+  "battle_stage": "集中战斗-玫瑰告示牌",
+  "body_part": "告示牌",
+  "hp": 186,
+  "defense_level": 37,
+  "speed_min": 2,
+  "speed_max": 5,
+  "chaos_threshold": "",
+  "physical_resistances": {
+    "斩击": 0.5,
+    "突刺": 0.5,
+    "打击": 0.5
+  },
+  "sin_resistances": {
+    "暴怒": 1.0,
+    "色欲": 1.0,
+    "怠惰": 1.0,
+    "暴食": 1.0,
+    "忧郁": 1.0,
+    "傲慢": 1.0,
+    "嫉妒": 1.0
+  },
+  "panic_types": [],
+  "passives": [],
+  "skills": [],
+  "is_ally": false,
+  "_structured": true,
+  "appear_stages": [
+    "集中战斗-玫瑰告示牌"
+  ],
+  "enemy_id": "集中战斗-玫瑰告示牌|玫瑰告示牌|告示牌",
+  "defense": 37,
+  "speed": "2~5",
+  "_schema_version": 1
+}

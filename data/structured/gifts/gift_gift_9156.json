@@ -1,0 +1,22 @@
+{
+  "id": "gift_9156",
+  "title": "万年炉火",
+  "url": "https://limbuscompany.huijiwiki.com/wiki/E.G.O饰品",
+  "categories": [
+    "E.G.O饰品"
+  ],
+  "content": "回合结束时，烧伤层数不低于3层的敌方单位额外触发1次烧伤(使其烧伤层数减少1层)",
+  "source": "tabx",
+  "_structured": true,
+  "page_type": "ego_gift",
+  "gift_name": "万年炉火",
+  "rarity": 2,
+  "cost": "201",
+  "effect_types": "烧伤",
+  "attack_type": "暴怒",
+  "location": "镜像迷宫",
+  "stage": "base",
+  "special": "困难",
+  "event": "事件-冠汤翼蜥",
+  "_schema_version": 1
+}

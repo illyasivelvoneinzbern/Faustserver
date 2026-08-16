@@ -1,0 +1,155 @@
+{
+  "page_type": "enemy",
+  "title": "主线战斗7-36-10",
+  "enemy_name": "疯狂的时尚血魔",
+  "battle_stage": "主线战斗7-36-10",
+  "body_part": "躯干",
+  "hp": 208,
+  "defense_level": 62,
+  "speed_min": 1,
+  "speed_max": 4,
+  "chaos_threshold": "62/0",
+  "physical_resistances": {
+    "斩击": 1.0,
+    "突刺": 1.0,
+    "打击": 1.0
+  },
+  "sin_resistances": {
+    "暴怒": 1.2,
+    "色欲": 1.2,
+    "怠惰": 0.7,
+    "暴食": 1.0,
+    "忧郁": 1.0,
+    "傲慢": 1.0,
+    "嫉妒": 1.2
+  },
+  "panic_types": [
+    "渴血"
+  ],
+  "passives": [],
+  "skills": [
+    {
+      "skill_name": "是庆典啊，庆典！",
+      "icon_id": "9015501",
+      "sin_type": "傲慢",
+      "damage_type": "斩击",
+      "base_value": 3,
+      "coin_power": 3,
+      "coin_count": 3,
+      "attack_level": 61,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[命中时] 使目标增加3级 流血 强度"
+      ]
+    },
+    {
+      "skill_name": "我来为你打扮",
+      "icon_id": "9015502",
+      "sin_type": "傲慢",
+      "damage_type": "斩击",
+      "base_value": 7,
+      "coin_power": 3,
+      "coin_count": 2,
+      "attack_level": 62,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[命中时] 对目标施加3层 流血",
+        "[命中时] 若目标的 流血 强度不低于5级，则使自身获得1层 硬化血液"
+      ]
+    },
+    {
+      "skill_name": "现在还能参加活动！",
+      "icon_id": "9015503",
+      "sin_type": "暴食",
+      "damage_type": "穿刺",
+      "base_value": 6,
+      "coin_power": 854,
+      "coin_count": 3,
+      "attack_level": 63,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[使用时] 消耗至多50层 血宴 ，每消耗10层 血宴 使自身获得1层 染血的剪刃",
+        "[使用时] 本技能未消耗 血宴 层数，则使自身增加5级 流血 强度，使自身获得1层 硬化血液",
+        "[使用时] 若目标的 流血 强度不低于5级，则使本技能硬币威力+1",
+        "[命中时] 使目标增加3级 流血 强度"
+      ]
+    },
+    {
+      "skill_name": "别着急",
+      "icon_id": "9015504",
+      "sin_type": "色欲",
+      "damage_type": "斩击",
+      "base_value": 10,
+      "coin_power": 9,
+      "coin_count": 4,
+      "attack_level": 65,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[使用时] 若目标的 流血 强度不低于5级，则使本技能硬币威力+1",
+        "[使用时] 自身每带有1层 染血的剪刃 ，使本技能拼点威力+1(最多+3) 自身每带有1层 硬化血液 ，则使本技能造成的伤害+7%(最多+35%)",
+        "[攻击后] 消耗所有 硬化血液 不可摧毁的硬币",
+        "[正面命中时] 使目标增加8级 流血 强度",
+        "[命中时] 消耗至多5层 染血的剪刃 ，使本硬币造成的伤害+(20×消耗的 染血的剪刃 层数)%(最多+100%)",
+        "[命中时] 使自身恢复体力上限(目标的 流血 强度)%的体力(最多30%)"
+      ]
+    },
+    {
+      "skill_name": "开幕鸣奏！",
+      "icon_id": "840303",
+      "sin_type": "暴怒",
+      "damage_type": "打击",
+      "base_value": 7,
+      "coin_power": 987,
+      "coin_count": 2,
+      "attack_level": 60,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "无法拼点",
+        "1硬币攻击结束时对目标造成10点色欲伤害，随后自身阵亡"
+      ]
+    },
+    {
+      "skill_name": "反击",
+      "icon_id": "9015405",
+      "sin_type": "暴怒",
+      "damage_type": "突刺",
+      "base_value": 3,
+      "coin_power": 987,
+      "coin_count": 2,
+      "attack_level": 62,
+      "attack_weight": 1,
+      "is_guard": true,
+      "guard_type": "反击",
+      "importance": 0,
+      "coin_effects": [
+        "[使用时] 若自身的 染血的剪刃 层数不低于1层，则使本技能的基础威力+1",
+        "[使用时] 若自身的 硬化血液 层数不低于3层，则使本技能的硬币威力+1",
+        "[命中时] 使目标增加2级 流血 强度"
+      ]
+    }
+  ],
+  "is_ally": false,
+  "_structured": true,
+  "appear_stages": [
+    "主线战斗7-36-10"
+  ],
+  "enemy_id": "主线战斗7-36-10|疯狂的时尚血魔|躯干",
+  "defense": 62,
+  "speed": "1~4",
+  "_schema_version": 1
+}

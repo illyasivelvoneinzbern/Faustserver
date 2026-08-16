@@ -1,0 +1,81 @@
+{
+  "page_type": "event",
+  "title": "事件-因而无人哭泣",
+  "event_name": "因而无人哭泣",
+  "narration": "这里能听到蜡烛静静燃烧的声音。\n在狭小到仿佛让人呼吸困难一样的房间中，站着一个木人偶。\n贴满房间的护身符，是用来许愿的吗？\n木偶是在期望着什么吗？\n\n撕下木偶身上的护身符\n我一取下护身符，木偶就跪了下来。\n是在恳求着我们不要拿走护身符吗，\n还是说是它表达感谢的表现呢？\n现在的我不得而知。\n获得\n！\n\n撕下墙壁上的护身符\n【应该让谁完成？】\n有利判定\n：\n/\n≥11\n不利判定\n：\n≥22\n判定成功\n：\n一张护身符被剥了下来，\n忽然，屋子里的蜡烛亮了。\n再剥下一张，\n蜡烛燃烧着的火光更加剧烈。\n站在中央的木偶\n身躯开始微微颤抖。\n应该继续下去吗？\n这就是它所期待的吗？\n分支1\n分支2\n继续撕下护身符\n像是被什么东西附身了一般，\n我开始撕下房间里的护身符。\n突然，熄灭的蜡烛\n一根接一根地燃烧了起来。\n狭小的房间变得明亮起来\n近乎于一片纯白。\n房间中心，\n木人偶好像自由了。\n它缓缓向我走来，向我伸出手，\n那手里好像握着什么。\n获得\n！\n停手\n什么都没有发生。\n人偶只是发出摩擦声，\n手里的护身符不知何时化作了黏稠的鲜血\n从我的指间流下。\n获得30\n经费\n判定失败\n：\n什么都没发生。\n木偶只是立在那里，吱嘎作响。\n掌中的护身符化为了黏稠的鲜血，\n血液在指间流淌，自缝隙处滴落。\n获得30\n经费\n\n撕下所有的护身符\n我们开始撕下房间里的每一张护身符。\n木偶在房间里踱来踱去，显得不安而焦虑。\n我们忽略了它并继续撕着护身符。\n当我们几乎撕下所有的护身符时，木偶挡在了在罪人们面前。\n触发\n集中战斗\n！\n战斗胜利后，获得\n！\n战斗失败后，没有奖励",
+  "options": [
+    {
+      "choice_text": "撕下木偶身上的护身符",
+      "check_type": "",
+      "check_sin": "",
+      "check_threshold": 0,
+      "success_outcomes": [],
+      "failure_outcomes": []
+    },
+    {
+      "choice_text": "撕下墙壁上的护身符",
+      "check_type": "有利判定",
+      "check_sin": "怠惰",
+      "check_threshold": 11,
+      "success_outcomes": [
+        "获得 ！ 停手 什么都没有发生。 人偶只是发出摩擦声",
+        "获得30 经费 判定失败 ： 什么都没发生。 木偶只是立"
+      ],
+      "failure_outcomes": [
+        "获得30 经费"
+      ]
+    },
+    {
+      "choice_text": "继续撕下护身符",
+      "check_type": "",
+      "check_sin": "",
+      "check_threshold": 0,
+      "success_outcomes": [],
+      "failure_outcomes": []
+    },
+    {
+      "choice_text": "停手",
+      "check_type": "",
+      "check_sin": "",
+      "check_threshold": 0,
+      "success_outcomes": [],
+      "failure_outcomes": []
+    },
+    {
+      "choice_text": "撕下所有的护身符",
+      "check_type": "",
+      "check_sin": "",
+      "check_threshold": 0,
+      "success_outcomes": [],
+      "failure_outcomes": []
+    },
+    {
+      "choice_text": "继续撕下护身符",
+      "check_type": "",
+      "check_sin": "",
+      "check_threshold": 0,
+      "success_outcomes": [],
+      "failure_outcomes": []
+    },
+    {
+      "choice_text": "停手",
+      "check_type": "",
+      "check_sin": "",
+      "check_threshold": 0,
+      "success_outcomes": [],
+      "failure_outcomes": []
+    }
+  ],
+  "ego_gifts": [],
+  "related_abnormalities": [
+    "事件触发地点",
+    "镜像迷宫"
+  ],
+  "trigger_location": "",
+  "_structured": true,
+  "id": "wiki_事件-因而无人哭泣",
+  "url": "https://limbuscompany.huijiwiki.com/wiki/事件-因而无人哭泣",
+  "categories": [],
+  "source": "wiki",
+  "_schema_version": 1
+}

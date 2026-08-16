@@ -1,0 +1,21 @@
+{
+  "id": "gift_9002",
+  "title": "倒错症",
+  "url": "https://limbuscompany.huijiwiki.com/wiki/E.G.O饰品",
+  "categories": [
+    "E.G.O饰品"
+  ],
+  "content": "通过攻击技能击杀不低于1名敌方单位时，下回合开始时获得1个击杀技能所对应的罪孽碎片。\n若该技能为暴怒技能，则改为下回合获得击杀者所有技能对应的罪孽碎片各1个。",
+  "source": "tabx",
+  "_structured": true,
+  "page_type": "ego_gift",
+  "gift_name": "倒错症",
+  "rarity": 1,
+  "cost": "157",
+  "effect_types": "泛用",
+  "attack_type": "暴怒",
+  "location": "镜像迷宫",
+  "stage": "base",
+  "event": "事件-轻蔑螺旋",
+  "_schema_version": 1
+}

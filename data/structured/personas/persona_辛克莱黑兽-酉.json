@@ -1,0 +1,719 @@
+{
+  "page_type": "personality",
+  "title": "辛克莱黑兽-酉",
+  "sinner": "辛克莱",
+  "sinner_id": "sinclair",
+  "personality_name": "辛克莱黑兽-酉",
+  "release_date": "2025.08.28",
+  "acquisition": "第6赛季活动赠送",
+  "sin_affinities": {
+    "色欲": 3,
+    "暴食": 2,
+    "暴怒": 1
+  },
+  "physical_resistances": {
+    "斩击": 0.5,
+    "突刺": 1.0,
+    "打击": 2.0
+  },
+  "ego_resources": {
+    "色欲": 3,
+    "暴食": 2,
+    "暴怒": 1
+  },
+  "skills": [
+    {
+      "skill_index": 0,
+      "skill_name": "于烧灼的血腥气中…",
+      "sin_type": "色欲",
+      "damage_type": "斩击",
+      "guard_type": "",
+      "attack_capacity": 1,
+      "coin_count": 3,
+      "stage_groups": [
+        [
+          {
+            "stage": "I",
+            "base_value": 2,
+            "coin_power": 2,
+            "effects": [
+              {
+                "timing": "命中时",
+                "description": "使目标增加1级 破裂 强度"
+              },
+              {
+                "timing": "命中时",
+                "description": "对目标施加1层 烧伤"
+              }
+            ],
+            "raw_text": "基础值： 2 变动值： +2 [命中时] 使目标增加1级 破裂 强度 [命中时] 对目标施加1层 烧伤"
+          },
+          {
+            "stage": "II",
+            "base_value": 2,
+            "coin_power": 2,
+            "effects": [
+              {
+                "timing": "使用时",
+                "description": "若目标的 烧伤 强度与 破裂 强度之和不低于6级，则使本技能的硬币威力+1"
+              },
+              {
+                "timing": "命中时",
+                "description": "使目标增加1级 破裂 强度"
+              },
+              {
+                "timing": "命中时",
+                "description": "对目标施加1层 烧伤"
+              }
+            ],
+            "raw_text": "基础值： 2 变动值： +2 [使用时] 若目标的 烧伤 强度与 破裂 强度之和不低于6级，则使本技能的硬币威力+1 [命中时] 使目标增加1级 破裂 强度 [命中时] 对目标施加1层 烧伤"
+          },
+          {
+            "stage": "III",
+            "base_value": 2,
+            "coin_power": 3,
+            "effects": [
+              {
+                "timing": "使用时",
+                "description": "若目标的 烧伤 强度与 破裂 强度之和不低于6级，则使本技能的硬币威力+1"
+              },
+              {
+                "timing": "命中时",
+                "description": "使目标增加1级 破裂 强度"
+              },
+              {
+                "timing": "命中时",
+                "description": "对目标施加1层 烧伤"
+              }
+            ],
+            "raw_text": "基础值： 2 变动值： +3 [使用时] 若目标的 烧伤 强度与 破裂 强度之和不低于6级，则使本技能的硬币威力+1 [命中时] 使目标增加1级 破裂 强度 [命中时] 对目标施加1层 烧伤"
+          },
+          {
+            "stage": "IV",
+            "base_value": 2,
+            "coin_power": 3,
+            "effects": [
+              {
+                "timing": "使用时",
+                "description": "若目标的 烧伤 强度与 破裂 强度之和不低于6级，则使本技能的硬币威力+1"
+              },
+              {
+                "timing": "命中时",
+                "description": "使目标增加1级 破裂 强度"
+              },
+              {
+                "timing": "正面命中时",
+                "description": "使目标增加1级 烧伤 强度"
+              },
+              {
+                "timing": "命中时",
+                "description": "对目标施加1层 烧伤"
+              },
+              {
+                "timing": "正面命中时",
+                "description": "对目标施加1层 破裂"
+              }
+            ],
+            "raw_text": "基础值： 2 变动值： +3 [使用时] 若目标的 烧伤 强度与 破裂 强度之和不低于6级，则使本技能的硬币威力+1 [命中时] 使目标增加1级 破裂 强度 [正面命中时] 使目标增加1级 烧伤 强度 [命中时] 对目标施加1层 烧伤 [正面命中时] 对目标施加1层 破裂"
+          }
+        ]
+      ],
+      "coin_effects": [
+        {
+          "coin_index": 0,
+          "description": "技能一"
+        },
+        {
+          "coin_index": 0,
+          "description": "于烧灼的血腥气中… 3"
+        },
+        {
+          "coin_index": 0,
+          "timing": "",
+          "description": "3"
+        },
+        {
+          "coin_index": 0,
+          "description": "+1"
+        },
+        {
+          "coin_index": 0,
+          "description": "1"
+        },
+        {
+          "coin_index": 0,
+          "description": "基础值： 2 变动值： +2"
+        },
+        {
+          "coin_index": 2,
+          "timing": "命中时",
+          "description": "[命中时] 使目标增加1级 破裂 强度"
+        },
+        {
+          "coin_index": 3,
+          "timing": "命中时",
+          "description": "[命中时] 对目标施加1层 烧伤"
+        },
+        {
+          "coin_index": 2,
+          "timing": "命中时",
+          "description": "[命中时] 使目标增加1级 破裂 强度"
+        },
+        {
+          "coin_index": 3,
+          "timing": "命中时",
+          "description": "[命中时] 对目标施加1层 烧伤"
+        },
+        {
+          "coin_index": 2,
+          "timing": "命中时",
+          "description": "[命中时] 使目标增加1级 破裂 强度"
+        },
+        {
+          "coin_index": 3,
+          "timing": "命中时",
+          "description": "[命中时] 对目标施加1层 烧伤"
+        },
+        {
+          "coin_index": 2,
+          "timing": "命中时",
+          "description": "[命中时] 使目标增加1级 破裂 强度 [正面命中时] 使目标增加1级 烧伤 强度"
+        },
+        {
+          "coin_index": 3,
+          "timing": "命中时",
+          "description": "[命中时] 对目标施加1层 烧伤 [正面命中时] 对目标施加1层 破裂"
+        }
+      ],
+      "wikitext_key": "1技能"
+    },
+    {
+      "skill_index": 1,
+      "skill_name": "沉醉并起舞吧。",
+      "sin_type": "暴食",
+      "damage_type": "斩击",
+      "guard_type": "",
+      "attack_capacity": 1,
+      "coin_count": 4,
+      "stage_groups": [
+        [
+          {
+            "stage": "I",
+            "base_value": 3,
+            "coin_power": 3,
+            "effects": [
+              {
+                "timing": "命中时",
+                "description": "使目标增加1级 破裂 强度"
+              },
+              {
+                "timing": "命中时",
+                "description": "使目标增加1级 烧伤 强度"
+              },
+              {
+                "timing": "正面命中时",
+                "description": "若自身带有 血炎 ，或现存体力低于体力上限的50%，则重复使用本硬币(每个技能最多1次)"
+              }
+            ],
+            "raw_text": "基础值： 3 变动值： +3 [命中时] 使目标增加1级 破裂 强度 [命中时] 使目标增加1级 烧伤 强度 [正面命中时] 若自身带有 血炎 ，或现存体力低于体力上限的50%，则重复使用本硬币(每个技能最多1次)"
+          },
+          {
+            "stage": "II",
+            "base_value": 3,
+            "coin_power": 3,
+            "effects": [
+              {
+                "timing": "使用时",
+                "description": "若目标的 烧伤 强度与 破裂 强度之和不低于6级，则使本技能的硬币威力+1"
+              },
+              {
+                "timing": "命中时",
+                "description": "使目标增加1级 破裂 强度"
+              },
+              {
+                "timing": "命中时",
+                "description": "使目标增加1级 烧伤 强度"
+              },
+              {
+                "timing": "正面命中时",
+                "description": "若自身带有 血炎 ，或现存体力低于体力上限的50%，则重复使用本硬币(每个技能最多1次)"
+              }
+            ],
+            "raw_text": "基础值： 3 变动值： +3 [使用时] 若目标的 烧伤 强度与 破裂 强度之和不低于6级，则使本技能的硬币威力+1 [命中时] 使目标增加1级 破裂 强度 [命中时] 使目标增加1级 烧伤 强度 [正面命中时] 若自身带有 血炎 ，或现存体力低于体力上限的50%，则重复使用本硬币(每个技能最多1次)"
+          },
+          {
+            "stage": "III",
+            "base_value": 3,
+            "coin_power": 4,
+            "effects": [
+              {
+                "timing": "使用时",
+                "description": "若目标的 烧伤 强度与 破裂 强度之和不低于6级，则使本技能的硬币威力+1"
+              },
+              {
+                "timing": "命中时",
+                "description": "使目标增加1级 破裂 强度"
+              },
+              {
+                "timing": "命中时",
+                "description": "使目标增加1级 烧伤 强度"
+              },
+              {
+                "timing": "正面命中时",
+                "description": "若自身带有 血炎 ，或现存体力低于体力上限的50%，则重复使用本硬币(每个技能最多1次)"
+              }
+            ],
+            "raw_text": "基础值： 3 变动值： +4 [使用时] 若目标的 烧伤 强度与 破裂 强度之和不低于6级，则使本技能的硬币威力+1 [命中时] 使目标增加1级 破裂 强度 [命中时] 使目标增加1级 烧伤 强度 [正面命中时] 若自身带有 血炎 ，或现存体力低于体力上限的50%，则重复使用本硬币(每个技能最多1次)"
+          },
+          {
+            "stage": "IV",
+            "base_value": 4,
+            "coin_power": 4,
+            "effects": [
+              {
+                "timing": "使用时",
+                "description": "若目标的 烧伤 强度与 破裂 强度之和不低于6级，则使本技能的硬币威力+1"
+              },
+              {
+                "timing": "命中时",
+                "description": "使目标增加1级 破裂 强度"
+              },
+              {
+                "timing": "正面命中时",
+                "description": "对目标施加1层 破裂"
+              },
+              {
+                "timing": "命中时",
+                "description": "使目标增加1级 烧伤 强度"
+              },
+              {
+                "timing": "正面命中时",
+                "description": "对目标施加1层 破裂"
+              },
+              {
+                "timing": "正面命中时",
+                "description": "若自身带有 血炎 ，或现存体力低于体力上限的50%，则重复使用本硬币(每个技能最多1次)"
+              },
+              {
+                "timing": "正面命中时",
+                "description": "对目标追加本硬币最终伤害量10%的暴怒伤害"
+              }
+            ],
+            "raw_text": "基础值： 4 变动值： +4 [使用时] 若目标的 烧伤 强度与 破裂 强度之和不低于6级，则使本技能的硬币威力+1 [命中时] 使目标增加1级 破裂 强度 [正面命中时] 对目标施加1层 破裂 [命中时] 使目标增加1级 烧伤 强度 [正面命中时] 对目标施加1层 破裂 [正面命中时] 若自身带有 血炎 ，或现存体力低于体力上限的50%，则重复使用本硬币(每个技能最多1次) [正面命中时] 对目标追加本硬币最终伤害量10%的暴怒伤害"
+          }
+        ]
+      ],
+      "coin_effects": [
+        {
+          "coin_index": 0,
+          "description": "技能二"
+        },
+        {
+          "coin_index": 0,
+          "description": "沉醉并起舞吧。 2"
+        },
+        {
+          "coin_index": 0,
+          "timing": "",
+          "description": "3"
+        },
+        {
+          "coin_index": 0,
+          "description": "+2"
+        },
+        {
+          "coin_index": 0,
+          "description": "1"
+        },
+        {
+          "coin_index": 0,
+          "description": "基础值： 3 变动值： +3"
+        },
+        {
+          "coin_index": 1,
+          "timing": "命中时",
+          "description": "[命中时] 使目标增加1级 破裂 强度"
+        },
+        {
+          "coin_index": 2,
+          "timing": "命中时",
+          "description": "[命中时] 使目标增加1级 烧伤 强度"
+        },
+        {
+          "coin_index": 3,
+          "timing": "正面命中时",
+          "description": "[正面命中时] 若自身带有 血炎 ，或现存体力低于体力上限的50%，则重复使用本硬币(每个技能最多1次)"
+        },
+        {
+          "coin_index": 1,
+          "timing": "命中时",
+          "description": "[命中时] 使目标增加1级 破裂 强度"
+        },
+        {
+          "coin_index": 2,
+          "timing": "命中时",
+          "description": "[命中时] 使目标增加1级 烧伤 强度"
+        },
+        {
+          "coin_index": 3,
+          "timing": "正面命中时",
+          "description": "[正面命中时] 若自身带有 血炎 ，或现存体力低于体力上限的50%，则重复使用本硬币(每个技能最多1次)"
+        },
+        {
+          "coin_index": 1,
+          "timing": "命中时",
+          "description": "[命中时] 使目标增加1级 破裂 强度"
+        },
+        {
+          "coin_index": 2,
+          "timing": "命中时",
+          "description": "[命中时] 使目标增加1级 烧伤 强度"
+        },
+        {
+          "coin_index": 3,
+          "timing": "正面命中时",
+          "description": "[正面命中时] 若自身带有 血炎 ，或现存体力低于体力上限的50%，则重复使用本硬币(每个技能最多1次)"
+        },
+        {
+          "coin_index": 1,
+          "timing": "命中时",
+          "description": "[命中时] 使目标增加1级 破裂 强度 [正面命中时] 对目标施加1层 破裂"
+        },
+        {
+          "coin_index": 2,
+          "timing": "命中时",
+          "description": "[命中时] 使目标增加1级 烧伤 强度 [正面命中时] 对目标施加1层 破裂"
+        },
+        {
+          "coin_index": 3,
+          "timing": "正面命中时",
+          "description": "[正面命中时] 若自身带有 血炎 ，或现存体力低于体力上限的50%，则重复使用本硬币(每个技能最多1次) [正面命中时] 对目标追加本硬币最终伤害量10%的暴怒伤害"
+        }
+      ],
+      "wikitext_key": "2技能"
+    },
+    {
+      "skill_index": 2,
+      "skill_name": "血炎乱舞",
+      "sin_type": "暴怒",
+      "damage_type": "斩击",
+      "guard_type": "",
+      "attack_capacity": 1,
+      "coin_count": 5,
+      "stage_groups": [
+        [
+          {
+            "stage": "I",
+            "base_value": 3,
+            "coin_power": 3,
+            "effects": [
+              {
+                "timing": "战斗开始",
+                "description": "若自身带有 血炎 ，或现存体力低于体力上限的50%，则使本技能的所有硬币转化为 不可摧毁的硬币"
+              },
+              {
+                "timing": "使用时",
+                "description": "使自身获得1层 血炎"
+              },
+              {
+                "timing": "使用时",
+                "description": "若目标的 烧伤 强度与 破裂 强度之和不低于6级，则使本技能的硬币威力+1"
+              },
+              {
+                "timing": "拼点失败",
+                "description": "使目标与自身增加2级 烧伤 强度"
+              },
+              {
+                "timing": "命中时",
+                "description": "对目标施加1层 烧伤"
+              },
+              {
+                "timing": "命中时",
+                "description": "对目标施加1层 破裂"
+              },
+              {
+                "timing": "命中时",
+                "description": "使目标增加1级 烧伤 强度"
+              },
+              {
+                "timing": "命中时",
+                "description": "使目标增加1级 破裂 强度"
+              },
+              {
+                "timing": "命中时",
+                "description": "使目标增加2级 烧伤 强度"
+              },
+              {
+                "timing": "命中时",
+                "description": "使目标增加2级 破裂 强度"
+              }
+            ],
+            "raw_text": "基础值： 3 变动值： +3 广域乱射 [战斗开始] 若自身带有 血炎 ，或现存体力低于体力上限的50%，则使本技能的所有硬币转化为 不可摧毁的硬币 [使用时] 使自身获得1层 血炎 [使用时] 若目标的 烧伤 强度与 破裂 强度之和不低于6级，则使本技能的硬币威力+1 [拼点失败] 使目标与自身增加2级 烧伤 强度 [命中时] 对目标施加1层 烧伤 [命中时] 对目标施加1层 破裂 [命中时] 使目标增加1级 烧伤 强度 [命中时] 使目标增加1级 破裂 强度 [命中时] 使目标增加2级 烧伤 强度 [命中时] 使目标增加2级 破裂 强度"
+          },
+          {
+            "stage": "II",
+            "base_value": 4,
+            "coin_power": 3,
+            "effects": [
+              {
+                "timing": "战斗开始",
+                "description": "若自身带有 血炎 ，或现存体力低于体力上限的50%，则使本技能的所有硬币转化为 不可摧毁的硬币"
+              },
+              {
+                "timing": "使用时",
+                "description": "使自身获得1层 血炎"
+              },
+              {
+                "timing": "使用时",
+                "description": "目标的 烧伤 强度与 破裂 强度之和每有6级，使本技能的硬币威力+1(最多+2)"
+              },
+              {
+                "timing": "使用时",
+                "description": "自身每失去体力上限20%的体力，使本技能的拼点威力+1(最多+2)"
+              },
+              {
+                "timing": "拼点失败",
+                "description": "使目标与自身增加2级 烧伤 强度"
+              },
+              {
+                "timing": "命中时",
+                "description": "对目标施加1层 烧伤"
+              },
+              {
+                "timing": "命中时",
+                "description": "对目标施加1层 破裂"
+              },
+              {
+                "timing": "命中时",
+                "description": "使目标增加1级 烧伤 强度"
+              },
+              {
+                "timing": "命中时",
+                "description": "使目标增加1级 破裂 强度"
+              },
+              {
+                "timing": "正面命中时",
+                "description": "对目标追加本硬币最终伤害量10%的暴食伤害"
+              },
+              {
+                "timing": "命中时",
+                "description": "使目标增加2级 烧伤 强度"
+              },
+              {
+                "timing": "命中时",
+                "description": "使目标增加2级 破裂 强度"
+              },
+              {
+                "timing": "正面命中时",
+                "description": "对全体目标追加本硬币最终伤害量20%的暴食伤害"
+              }
+            ],
+            "raw_text": "基础值： 4 变动值： +3 广域乱射 目标与自身已失去体力比例之和每有2%，使本技能造成的伤害+1%(最多+50%) [战斗开始] 若自身带有 血炎 ，或现存体力低于体力上限的50%，则使本技能的所有硬币转化为 不可摧毁的硬币 [使用时] 使自身获得1层 血炎 [使用时] 目标的 烧伤 强度与 破裂 强度之和每有6级，使本技能的硬币威力+1(最多+2) [使用时] 自身每失去体力上限20%的体力，使本技能的拼点威力+1(最多+2) [拼点失败] 使目标与自身增加2级 烧伤 强度 [命中时] 对目标施加1层 烧伤 [命中时] 对目标施加1层 破裂 [命中时] 使目标增加1级 烧伤 强度 [命中时] 使目标增加1级 破裂 强度 [正面命中时] 对目标追加本硬币最终伤害量10%的暴食伤害 [命中时] 使目标增加2级 烧伤 强度 [命中时] 使目标增加2级 破裂 强度 [正面命中时] 对全体目标追加本硬币最终伤害量20%的暴食伤害"
+          }
+        ]
+      ],
+      "coin_effects": [
+        {
+          "coin_index": 0,
+          "description": "技能三"
+        },
+        {
+          "coin_index": 0,
+          "description": "血炎乱舞 1"
+        },
+        {
+          "coin_index": 0,
+          "timing": "",
+          "description": "4"
+        },
+        {
+          "coin_index": 0,
+          "description": "+3"
+        },
+        {
+          "coin_index": 0,
+          "description": "3"
+        },
+        {
+          "coin_index": 0,
+          "timing": "",
+          "description": "不可摧毁的硬币"
+        },
+        {
+          "coin_index": 2,
+          "timing": "命中时",
+          "description": "[命中时] 对目标施加1层 烧伤 [命中时] 对目标施加1层 破裂"
+        },
+        {
+          "coin_index": 3,
+          "timing": "命中时",
+          "description": "[命中时] 使目标增加1级 烧伤 强度 [命中时] 使目标增加1级 破裂 强度"
+        },
+        {
+          "coin_index": 4,
+          "timing": "命中时",
+          "description": "[命中时] 使目标增加2级 烧伤 强度 [命中时] 使目标增加2级 破裂 强度"
+        },
+        {
+          "coin_index": 0,
+          "timing": "",
+          "description": "不可摧毁的硬币"
+        },
+        {
+          "coin_index": 2,
+          "timing": "命中时",
+          "description": "[命中时] 对目标施加1层 烧伤 [命中时] 对目标施加1层 破裂"
+        },
+        {
+          "coin_index": 3,
+          "timing": "命中时",
+          "description": "[命中时] 使目标增加1级 烧伤 强度 [命中时] 使目标增加1级 破裂 强度 [正面命中时] 对目标追加本硬币最终伤害量10%的暴食伤害"
+        },
+        {
+          "coin_index": 4,
+          "timing": "命中时",
+          "description": "[命中时] 使目标增加2级 烧伤 强度 [命中时] 使目标增加2级 破裂 强度 [正面命中时] 对全体目标追加本硬币最终伤害量20%的暴食伤害"
+        }
+      ],
+      "wikitext_key": "3技能"
+    },
+    {
+      "skill_index": 3,
+      "skill_name": "鸡穷则杀",
+      "sin_type": "暴食",
+      "damage_type": "斩击",
+      "guard_type": "反击",
+      "attack_capacity": 1,
+      "coin_count": 3,
+      "stage_groups": [
+        [
+          {
+            "stage": "I",
+            "base_value": 4,
+            "coin_power": 4,
+            "effects": [
+              {
+                "timing": "使用时",
+                "description": "下回合使自身获得3层 血炎"
+              },
+              {
+                "timing": "使用时",
+                "description": "若自身带有 血炎 ，则使本技能的硬币威力+1"
+              },
+              {
+                "timing": "拼点失败",
+                "description": "使目标与自身增加2级 烧伤 强度"
+              },
+              {
+                "timing": "命中时",
+                "description": "对目标施加1层 破裂"
+              },
+              {
+                "timing": "命中时",
+                "description": "使目标增加1级 烧伤 强度"
+              }
+            ],
+            "raw_text": "基础值： 4 变动值： +4 [可拼点反击] [使用时] 下回合使自身获得3层 血炎 [使用时] 若自身带有 血炎 ，则使本技能的硬币威力+1 [拼点失败] 使目标与自身增加2级 烧伤 强度 [命中时] 对目标施加1层 破裂 [命中时] 使目标增加1级 烧伤 强度"
+          },
+          {
+            "stage": "II",
+            "base_value": 5,
+            "coin_power": 4,
+            "effects": [
+              {
+                "timing": "使用时",
+                "description": "下回合使自身获得3层 血炎"
+              },
+              {
+                "timing": "使用时",
+                "description": "若目标的 烧伤 强度与 破裂 强度之和不低于10级，则使本技能的基础威力+1"
+              },
+              {
+                "timing": "使用时",
+                "description": "若自身带有 血炎 ，则使本技能的硬币威力+1"
+              },
+              {
+                "timing": "使用时",
+                "description": "本场战斗自身每累计失去体力上限3%的体力，使本技能造成的伤害+1%(最多+30%)"
+              },
+              {
+                "timing": "拼点失败",
+                "description": "使目标与自身增加2级 烧伤 强度"
+              },
+              {
+                "timing": "命中时",
+                "description": "对目标施加1层 破裂"
+              },
+              {
+                "timing": "命中时",
+                "description": "使目标增加1级 烧伤 强度"
+              }
+            ],
+            "raw_text": "基础值： 5 变动值： +4 [可拼点反击] [使用时] 下回合使自身获得3层 血炎 [使用时] 若目标的 烧伤 强度与 破裂 强度之和不低于10级，则使本技能的基础威力+1 [使用时] 若自身带有 血炎 ，则使本技能的硬币威力+1 [使用时] 本场战斗自身每累计失去体力上限3%的体力，使本技能造成的伤害+1%(最多+30%) [拼点失败] 使目标与自身增加2级 烧伤 强度 [命中时] 对目标施加1层 破裂 [命中时] 使目标增加1级 烧伤 强度"
+          }
+        ]
+      ],
+      "coin_effects": [
+        {
+          "coin_index": 0,
+          "description": "守备技能"
+        },
+        {
+          "coin_index": 0,
+          "description": "鸡穷则杀"
+        },
+        {
+          "coin_index": 0,
+          "timing": "",
+          "description": "2"
+        },
+        {
+          "coin_index": 0,
+          "description": "+2"
+        },
+        {
+          "coin_index": 0,
+          "description": "1"
+        },
+        {
+          "coin_index": 0,
+          "description": "基础值： 4 变动值： +4 [可拼点反击] [使用时] 下回合使自身获得3层 血炎 [使用时] 若自身带有 血炎 ，则使本技能的硬币威力+1 [拼点失败] 使目标与自身增加2级 烧伤 强度"
+        },
+        {
+          "coin_index": 1,
+          "timing": "命中时",
+          "description": "[命中时] 对目标施加1层 破裂"
+        },
+        {
+          "coin_index": 2,
+          "timing": "命中时",
+          "description": "[命中时] 使目标增加1级 烧伤 强度"
+        },
+        {
+          "coin_index": 1,
+          "timing": "命中时",
+          "description": "[命中时] 对目标施加1层 破裂"
+        },
+        {
+          "coin_index": 2,
+          "timing": "命中时",
+          "description": "[命中时] 使目标增加1级 烧伤 强度"
+        }
+      ],
+      "wikitext_key": "守备技能4"
+    }
+  ],
+  "battle_passive": "人格被动1101402\n人格被动1101401\n人格被动1101421",
+  "support_passive": "",
+  "notes": "",
+  "voice_lines": [],
+  "skill_voice": [],
+  "_structured": true,
+  "id": "wiki_辛克莱黑兽-酉",
+  "url": "https://limbuscompany.huijiwiki.com/wiki/辛克莱黑兽-酉",
+  "categories": [
+    "人格"
+  ],
+  "source": "wiki",
+  "_schema_version": 1
+}

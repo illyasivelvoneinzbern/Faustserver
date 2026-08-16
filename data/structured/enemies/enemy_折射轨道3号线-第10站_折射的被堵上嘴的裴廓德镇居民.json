@@ -1,0 +1,134 @@
+{
+  "page_type": "enemy",
+  "title": "折射轨道3号线-第10站",
+  "enemy_name": "折射的被堵上嘴的裴廓德镇居民",
+  "battle_stage": "折射轨道3号线-第10站",
+  "body_part": "躯干",
+  "hp": 131,
+  "defense_level": 43,
+  "speed_min": 1,
+  "speed_max": 4,
+  "chaos_threshold": "59/0",
+  "physical_resistances": {
+    "斩击": 0.75,
+    "突刺": 1.3,
+    "打击": 1.0
+  },
+  "sin_resistances": {
+    "暴怒": 1.0,
+    "色欲": 0.75,
+    "怠惰": 0.75,
+    "暴食": 1.2,
+    "忧郁": 1.0,
+    "傲慢": 1.2,
+    "嫉妒": 1.0
+  },
+  "panic_types": [],
+  "passives": [],
+  "skills": [
+    {
+      "skill_name": "连续突刺",
+      "icon_id": "9009901",
+      "sin_type": "怠惰",
+      "damage_type": "穿刺",
+      "base_value": 3,
+      "coin_power": 4,
+      "coin_count": 2,
+      "attack_level": 0,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "1正面命中时使目标增加2层流血",
+        "2正面命中时使目标增加1层流血"
+      ]
+    },
+    {
+      "skill_name": "刻下伤口",
+      "icon_id": "9009902",
+      "sin_type": "怠惰",
+      "damage_type": "穿刺",
+      "base_value": 3,
+      "coin_power": 2,
+      "coin_count": 4,
+      "attack_level": 0,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "拼点胜利使自身恢复5点理智值"
+      ]
+    },
+    {
+      "skill_name": "保卫小镇！",
+      "icon_id": "9009903",
+      "sin_type": "暴怒",
+      "damage_type": "穿刺",
+      "base_value": 12,
+      "coin_power": 2,
+      "coin_count": 4,
+      "attack_level": 0,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "使用时使自身增加5级呼吸法强度",
+        "1命中时使自身获得1层呼吸法",
+        "命中时使自身恢复4点理智值",
+        "2命中时使自身获得1层呼吸法",
+        "命中时使自身恢复4点理智值",
+        "3命中时使自身获得1层呼吸法",
+        "命中时使自身恢复4点理智值",
+        "4命中时使自身获得1层呼吸法",
+        "命中时使自身恢复4点理智值"
+      ]
+    },
+    {
+      "skill_name": "标枪",
+      "icon_id": "9009904",
+      "sin_type": "傲慢",
+      "damage_type": "穿刺",
+      "base_value": 8,
+      "coin_power": 8,
+      "coin_count": 1,
+      "attack_level": 0,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "使用时使自身增加5级呼吸法强度并获得2层呼吸法",
+        "1命中时下回合对目标施加2层束缚与2层伤害弱化"
+      ]
+    },
+    {
+      "skill_name": "闪避",
+      "icon_id": "9009905",
+      "sin_type": "怠惰",
+      "damage_type": "闪避",
+      "base_value": 5,
+      "coin_power": 10,
+      "coin_count": 1,
+      "attack_level": 0,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "若自身在带有护盾时受到攻击，则在下回合使自身获得1层攻击等级提升(最多3次)"
+      ]
+    }
+  ],
+  "is_ally": false,
+  "_structured": true,
+  "appear_stages": [
+    "折射轨道3号线-第10站"
+  ],
+  "enemy_id": "折射轨道3号线-第10站|折射的被堵上嘴的裴廓德镇居民|躯干",
+  "defense": 43,
+  "speed": "1~4",
+  "_schema_version": 1
+}

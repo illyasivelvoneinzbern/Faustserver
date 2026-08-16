@@ -1,0 +1,131 @@
+{
+  "page_type": "enemy",
+  "title": "大湖之镜-长腿精灵",
+  "enemy_name": "普通 - 长腿精灵",
+  "battle_stage": "大湖之镜-长腿精灵",
+  "body_part": "头部",
+  "hp": 265,
+  "defense_level": 41,
+  "speed_min": 3,
+  "speed_max": 4,
+  "chaos_threshold": "",
+  "physical_resistances": {
+    "斩击": 1.5,
+    "突刺": 1.5,
+    "打击": 1.5
+  },
+  "sin_resistances": {
+    "暴怒": 1.5,
+    "色欲": 1.0,
+    "怠惰": 0.75,
+    "暴食": 1.5,
+    "忧郁": 1.0,
+    "傲慢": 1.0,
+    "嫉妒": 1.5
+  },
+  "panic_types": [],
+  "passives": [],
+  "skills": [
+    {
+      "skill_name": "舔舐伤口",
+      "icon_id": "805901",
+      "sin_type": "色欲",
+      "damage_type": "打击",
+      "base_value": 6,
+      "coin_power": 9,
+      "coin_count": 2,
+      "attack_level": 54,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[使用时] 若目标带有 流血 ，则对目标施加1层 麻痹",
+        "[命中时] 对目标施加3层 流血",
+        "[命中时] 若目标的 流血 层数不低于2层，则使目标增加5级 流血 强度"
+      ]
+    },
+    {
+      "skill_name": "束缚伤痕",
+      "icon_id": "805902",
+      "sin_type": "色欲",
+      "damage_type": "穿刺",
+      "base_value": 5,
+      "coin_power": 9,
+      "coin_count": 2,
+      "attack_level": 54,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[使用时] 若目标带有 流血 ，则对目标施加1层 束缚",
+        "[命中时] 使目标增加3级 流血 强度"
+      ]
+    },
+    {
+      "skill_name": "陷于血肉",
+      "icon_id": "805903",
+      "sin_type": "暴食",
+      "damage_type": "打击",
+      "base_value": 5,
+      "coin_power": 854,
+      "coin_count": 3,
+      "attack_level": 54,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[命中时] 使目标增加3级 流血 强度",
+        "[命中时] 若目标带有 流血 ，则使自身恢复20点体力",
+        "[命中时] 若目标的 流血 层数不低于2层，则使目标增加5级 流血 强度"
+      ]
+    },
+    {
+      "skill_name": "绿荫笼罩",
+      "icon_id": "805904",
+      "sin_type": "暴食",
+      "damage_type": "打击",
+      "base_value": 17,
+      "coin_power": 854,
+      "coin_count": 2,
+      "attack_level": 54,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[使用时] 下回合生成巨大的四叶草",
+        "[使用时] 目标每有1层 流血 使本技能伤害量+5%",
+        "[命中时] 消耗所有 流血 层数"
+      ]
+    },
+    {
+      "skill_name": "消化",
+      "icon_id": "805905",
+      "sin_type": "傲慢",
+      "damage_type": "反击",
+      "base_value": 5,
+      "coin_power": 3,
+      "coin_count": 2,
+      "attack_level": 54,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[命中时] 目标每带有1级 流血 强度，则使自身恢复体力上限1%的体力 消耗全部 流血 层数"
+      ]
+    }
+  ],
+  "is_ally": false,
+  "_structured": true,
+  "appear_stages": [
+    "大湖之镜-长腿精灵"
+  ],
+  "enemy_id": "大湖之镜-长腿精灵|普通 - 长腿精灵|头部",
+  "defense": 41,
+  "speed": "3~4",
+  "_schema_version": 1
+}

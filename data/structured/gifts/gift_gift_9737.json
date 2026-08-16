@@ -1,0 +1,22 @@
+{
+  "id": "gift_9737",
+  "title": "心脏反应模块",
+  "url": "https://limbuscompany.huijiwiki.com/wiki/E.G.O饰品",
+  "categories": [
+    "E.G.O饰品"
+  ],
+  "content": "带有充能层数或特殊充能的友方单位拼点失败时，使其获得相当于其充能层数与特殊充能之和的护盾。(每回合最多1次)\n若其现存体力不高于50%，则改为获得(其充能层数与特殊充能之和×2)点护盾。(每回合最多1次)\n本场战斗中，属于多裂纹事务所的友方单位受到体力伤害时，下回合使其恢复上回合失去体力33%的体力(向下取整)",
+  "source": "tabx",
+  "_structured": true,
+  "page_type": "ego_gift",
+  "gift_name": "心脏反应模块",
+  "rarity": 2,
+  "cost": "197",
+  "effect_types": "充能",
+  "attack_type": "暴食",
+  "location": "镜像迷宫",
+  "stage": "base",
+  "special": "WARP快车谋杀案",
+  "event": "事件-生物发电型电池",
+  "_schema_version": 1
+}

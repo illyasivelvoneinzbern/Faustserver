@@ -1,0 +1,111 @@
+{
+  "page_type": "enemy",
+  "title": "折射轨道3号线-第9站",
+  "enemy_name": "折射的苍白之物-盾",
+  "battle_stage": "折射轨道3号线-第9站",
+  "body_part": "躯干",
+  "hp": 91,
+  "defense_level": 48,
+  "speed_min": 1,
+  "speed_max": 2,
+  "chaos_threshold": "68/0",
+  "physical_resistances": {
+    "斩击": 0.75,
+    "突刺": 1.0,
+    "打击": 1.5
+  },
+  "sin_resistances": {
+    "暴怒": 1.0,
+    "色欲": 1.5,
+    "怠惰": 1.0,
+    "暴食": 1.0,
+    "忧郁": 1.0,
+    "傲慢": 1.0,
+    "嫉妒": 1.2
+  },
+  "panic_types": [],
+  "passives": [],
+  "skills": [
+    {
+      "skill_name": "-- . -.-",
+      "icon_id": "9009201",
+      "sin_type": "暴食",
+      "damage_type": "打击",
+      "base_value": 8,
+      "coin_power": 3,
+      "coin_count": 2,
+      "attack_level": 0,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "1命中时使目标增加3级震颤强度",
+        "2命中时使目标增加3级震颤强度"
+      ]
+    },
+    {
+      "skill_name": "-... .-",
+      "icon_id": "9009202",
+      "sin_type": "暴食",
+      "damage_type": "打击",
+      "base_value": 12,
+      "coin_power": 7,
+      "coin_count": 1,
+      "attack_level": 0,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "使用时下回合随机使1名其他友方单位获得1层守护。若该单位为苍白的单位，则使其额外获得1层守护"
+      ]
+    },
+    {
+      "skill_name": "-.-. ..-",
+      "icon_id": "9009203",
+      "sin_type": "暴食",
+      "damage_type": "打击",
+      "base_value": 12,
+      "coin_power": 5,
+      "coin_count": 2,
+      "attack_level": 0,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "1命中时使目标震颤引爆",
+        "命中时使目标的震颤层数减少2层",
+        "命中时对目标施加1层苍白的噪音",
+        "2命中时使目标增加10级破裂强度并施加4层破裂"
+      ]
+    },
+    {
+      "skill_name": ".--. .",
+      "icon_id": "9009204",
+      "sin_type": "",
+      "damage_type": "防御",
+      "base_value": 15,
+      "coin_power": 8,
+      "coin_count": 1,
+      "attack_level": 0,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "战斗开始除自身以外每有2名苍白的友方单位，下回合使自身获得1层守护"
+      ]
+    }
+  ],
+  "is_ally": false,
+  "_structured": true,
+  "appear_stages": [
+    "折射轨道3号线-第9站"
+  ],
+  "enemy_id": "折射轨道3号线-第9站|折射的苍白之物-盾|躯干",
+  "defense": 48,
+  "speed": "1~2",
+  "_schema_version": 1
+}

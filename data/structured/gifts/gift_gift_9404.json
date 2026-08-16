@@ -1,0 +1,21 @@
+{
+  "id": "gift_9404",
+  "title": "封装蛆虫",
+  "url": "https://limbuscompany.huijiwiki.com/wiki/E.G.O饰品",
+  "categories": [
+    "E.G.O饰品"
+  ],
+  "content": "色欲或暴食攻击技能命中敌方单位(不包括E.G.O技能)时，对其施加2层蛆虫\n\n若该技能为增加流血强度，施加流血层数或施加特殊流血的技能，则改为对目标施加3层蛆虫",
+  "source": "tabx",
+  "_structured": true,
+  "page_type": "ego_gift",
+  "gift_name": "封装蛆虫",
+  "rarity": 3,
+  "cost": "246",
+  "effect_types": "流血",
+  "attack_type": "暴食",
+  "location": "镜像迷宫",
+  "stage": "base",
+  "special": "无归属者",
+  "_schema_version": 1
+}

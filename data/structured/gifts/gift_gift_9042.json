@@ -1,0 +1,21 @@
+{
+  "id": "gift_9042",
+  "title": "烟霾与铁丝网",
+  "url": "https://limbuscompany.huijiwiki.com/wiki/E.G.O饰品",
+  "categories": [
+    "E.G.O饰品"
+  ],
+  "content": "友方单位通过技能效果使敌方单位增加的流血强度变为2倍。\n\n回合结束时带有流血或特殊流血的敌方单位在下回合速度值-2。",
+  "source": "tabx",
+  "_structured": true,
+  "page_type": "ego_gift",
+  "gift_name": "烟霾与铁丝网",
+  "rarity": 3,
+  "cost": "261",
+  "effect_types": "流血",
+  "attack_type": "暴怒",
+  "location": "镜像迷宫",
+  "stage": "base",
+  "event": "事件-烟霾与铁丝网",
+  "_schema_version": 1
+}

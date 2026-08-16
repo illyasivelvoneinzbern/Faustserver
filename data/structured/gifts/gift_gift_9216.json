@@ -1,0 +1,21 @@
+{
+  "id": "gift_9216",
+  "title": "制式服装-六协会",
+  "url": "https://limbuscompany.huijiwiki.com/wiki/E.G.O饰品",
+  "categories": [
+    "E.G.O饰品"
+  ],
+  "content": "回合开始时，若拥有增加烧伤强度，施加烧伤层数或施加特殊烧伤的攻击技能的友方单位不低于5名，则在本场战斗期间触发该效果(不包括E.G.O技能，不包括待命人员)\n属于六协会的友方单位基础攻击技能的加算硬币威力+2(减算硬币技能改为基础威力+(8/硬币数)(最少+1，向下取整))\n增加烧伤强度，施加烧伤层数或施加特殊烧伤的3技能以外的技能造成的伤害+20%(包括E.G.O技能)\n增加烧伤强度，施加烧伤层数或施加特殊烧伤的3技能的加算硬币威力+1(减算硬币技能改为基础威力+(4/硬币数)(最少+1，向下取整))，造成的伤害+30%",
+  "source": "tabx",
+  "_structured": true,
+  "page_type": "ego_gift",
+  "gift_name": "制式服装-六协会",
+  "rarity": 4,
+  "cost": "398",
+  "effect_types": "烧伤",
+  "attack_type": "暴怒",
+  "location": "镜像迷宫",
+  "stage": "base",
+  "special": "教材合成",
+  "_schema_version": 1
+}

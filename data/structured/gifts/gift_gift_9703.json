@@ -1,0 +1,22 @@
+{
+  "id": "gift_9703",
+  "title": "探戈鸡酱料",
+  "url": "https://limbuscompany.huijiwiki.com/wiki/E.G.O饰品",
+  "categories": [
+    "E.G.O饰品"
+  ],
+  "content": "若自身的速度值高于目标，则使自身的拼点威力+（速度值/3）（最多3）。",
+  "source": "tabx",
+  "_structured": true,
+  "page_type": "ego_gift",
+  "gift_name": "探戈鸡酱料",
+  "rarity": 3,
+  "cost": "275",
+  "effect_types": "泛用",
+  "attack_type": "色欲",
+  "location": "镜像迷宫",
+  "stage": "base",
+  "special": "地狱鸡",
+  "event": "事件-鸡群的激情探戈",
+  "_schema_version": 1
+}

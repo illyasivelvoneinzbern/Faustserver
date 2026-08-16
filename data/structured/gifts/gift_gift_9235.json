@@ -1,0 +1,21 @@
+{
+  "id": "gift_9235",
+  "title": "亡命之徒",
+  "url": "https://limbuscompany.huijiwiki.com/wiki/E.G.O饰品",
+  "categories": [
+    "E.G.O饰品"
+  ],
+  "content": "根据编入的拥有获得或消耗弹药的攻击技能的友方单位数，相应强化本饰品效果(不包括E.G.O技能，包括编队中全体单位)\n- 不低于2名\n使用获得或消耗弹药的技能时，下回合使自身获得2层迅捷与4层攻击等级提升(每回合每名友方单位最多1次)\n- 不低于5名\n获得或消耗弹药的友方单位使用的技能拼点威力+1，造成的伤害+10%\n获得或消耗弹药的技能造成的伤害+(100/硬币数)%",
+  "source": "tabx",
+  "_structured": true,
+  "page_type": "ego_gift",
+  "gift_name": "亡命之徒",
+  "rarity": 4,
+  "cost": "400",
+  "effect_types": "突刺",
+  "attack_type": "傲慢",
+  "location": "镜像迷宫",
+  "stage": "base",
+  "special": "琥珀色的黄昏合成",
+  "_schema_version": 1
+}

@@ -1,0 +1,173 @@
+{
+  "page_type": "enemy",
+  "title": "主线战斗7-36-2",
+  "enemy_name": "痛苦泰迪",
+  "battle_stage": "主线战斗7-36-2",
+  "body_part": "躯干",
+  "hp": 1797,
+  "defense_level": 50,
+  "speed_min": 2,
+  "speed_max": 5,
+  "chaos_threshold": "718",
+  "physical_resistances": {
+    "斩击": 1.0,
+    "突刺": 1.25,
+    "打击": 0.8
+  },
+  "sin_resistances": {
+    "暴怒": 1.2,
+    "色欲": 1.0,
+    "怠惰": 1.0,
+    "暴食": 1.0,
+    "忧郁": 0.75,
+    "傲慢": 0.75,
+    "嫉妒": 1.5
+  },
+  "panic_types": [],
+  "passives": [
+    "曾所爱之人: 回合开始时，若全体敌方单位均带有 依恋 ，则使用强力技能",
+    "染血铁钉: 使用单硬币技能造成伤害时，使目标增加3级 流血 强度并对其施加2层 防御等级降低 直到下回合结束。 若目标带有 流血 ，则增加的 流血 强度改为5级。",
+    "为记忆: 若自身因悲伤的拥抱的回合结束效果陷入混乱，则下回合开始时使自身获得10层 模糊的记忆",
+    "给予爱: 回合结束时，若现存体力不高于30%，不会对全体敌方单位施加3层 依恋 ，而改为下回合对自身施加15层 攻击等级降低 (每场战斗最多1次)",
+    "愿不再疼痛: 目标每带有3种负面状态，使自身的基础威力-1(最多-3)"
+  ],
+  "skills": [
+    {
+      "skill_name": "表达爱意",
+      "icon_id": "837901",
+      "sin_type": "忧郁",
+      "damage_type": "打击",
+      "base_value": 4,
+      "coin_power": 3,
+      "coin_count": 3,
+      "attack_level": 46,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[使用时] 若目标未带有负面状态，则下回合使用“粗暴示爱”",
+        "[使用时] 若目标的负面状态数高于自身的 模糊的记忆 层数，则下回合使用“悲伤的拥抱” 不可摧毁的硬币",
+        "[命中时] 对目标施加4层 依恋"
+      ]
+    },
+    {
+      "skill_name": "撕挠",
+      "icon_id": "837902",
+      "sin_type": "怠惰",
+      "damage_type": "斩击",
+      "base_value": 6,
+      "coin_power": 9703,
+      "coin_count": 2,
+      "attack_level": 48,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[命中时] 使目标增加3级 流血 强度",
+        "[命中时] 对目标施加2层 尖钉"
+      ]
+    },
+    {
+      "skill_name": "狂乱横扫",
+      "icon_id": "837903",
+      "sin_type": "怠惰",
+      "damage_type": "斩击",
+      "base_value": 4,
+      "coin_power": 9703,
+      "coin_count": 3,
+      "attack_level": 49,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[命中时] 对目标施加2层 流血",
+        "[命中时] 对目标施加3层 诅咒"
+      ]
+    },
+    {
+      "skill_name": "谨慎示爱",
+      "icon_id": "837904",
+      "sin_type": "嫉妒",
+      "damage_type": "打击",
+      "base_value": 6,
+      "coin_power": 5793,
+      "coin_count": 3,
+      "attack_level": 50,
+      "attack_weight": 1,
+      "is_guard": true,
+      "guard_type": "反击",
+      "importance": 0,
+      "coin_effects": [
+        "[使用时] 下回合对目标施加2层 破绽",
+        "[使用时] 下回合对目标施加1层 诅咒 不可摧毁的硬币",
+        "[命中时] 若目标带有 依恋 ，则消耗目标的 依恋 并对其施加相应层数的 诅咒 与 尖钉 (最多消耗4层)",
+        "[命中时] 若目标的 诅咒 层数不低于4层，则消耗目标的4层 诅咒 并对其施加1层 诅咒包裹"
+      ]
+    },
+    {
+      "skill_name": "粗暴示爱",
+      "icon_id": "837905",
+      "sin_type": "暴怒",
+      "damage_type": "打击",
+      "base_value": 8,
+      "coin_power": 987,
+      "coin_count": 3,
+      "attack_level": 51,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[命中时] 对目标施加3层 诅咒"
+      ]
+    },
+    {
+      "skill_name": "悲伤的拥抱",
+      "icon_id": "837906",
+      "sin_type": "暴食",
+      "damage_type": "穿刺",
+      "base_value": 1,
+      "coin_power": 854,
+      "coin_count": 3,
+      "attack_level": 48,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[命中时] 使目标恢复所有理智值"
+      ]
+    },
+    {
+      "skill_name": "思念的拥抱",
+      "icon_id": "837907",
+      "sin_type": "忧郁",
+      "damage_type": "穿刺",
+      "base_value": 6,
+      "coin_power": 3,
+      "coin_count": 10,
+      "attack_level": 51,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[命中时] 对目标施加4层 诅咒 不可摧毁的硬币",
+        "[命中时] 对目标施加4层 尖钉",
+        "[命中时] 消耗目标所有 依恋 - 若自身拼点胜利，则使目标的混乱阈值前移(消耗的 依恋 层数×10)"
+      ]
+    }
+  ],
+  "is_ally": false,
+  "_structured": true,
+  "appear_stages": [
+    "主线战斗7-36-2"
+  ],
+  "enemy_id": "主线战斗7-36-2|痛苦泰迪|躯干",
+  "defense": 50,
+  "speed": "2~5",
+  "_schema_version": 1
+}

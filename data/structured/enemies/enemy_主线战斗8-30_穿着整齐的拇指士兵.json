@@ -1,0 +1,61 @@
+{
+  "page_type": "enemy",
+  "title": "主线战斗8-30",
+  "enemy_name": "穿着整齐的拇指士兵",
+  "battle_stage": "主线战斗8-30",
+  "body_part": "躯干",
+  "hp": 226,
+  "defense_level": 55,
+  "speed_min": 2,
+  "speed_max": 5,
+  "chaos_threshold": "135/45/0",
+  "physical_resistances": {
+    "斩击": 1.25,
+    "突刺": 0.75,
+    "打击": 1.0
+  },
+  "sin_resistances": {
+    "暴怒": 1.0,
+    "色欲": 1.0,
+    "怠惰": 1.0,
+    "暴食": 1.0,
+    "忧郁": 1.0,
+    "傲慢": 1.0,
+    "嫉妒": 1.0
+  },
+  "panic_types": [
+    "纪律（陷入恐慌）"
+  ],
+  "passives": [
+    "猛虎标弹支援: 回合开始时，对自身施加5层 易损 回合结束时，为雷横补给 猛虎标弹 自身阵亡时无法为雷横补给 猛虎标弹 ，下回合对雷横施加1层 易损 与1层 拼点威力降低"
+  ],
+  "skills": [
+    {
+      "skill_name": "猛虎标弹支援",
+      "icon_id": "9021704",
+      "sin_type": "暴怒",
+      "damage_type": "防御",
+      "base_value": 10,
+      "coin_power": 987,
+      "coin_count": 1,
+      "attack_level": 0,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "回合结束时若自身存活，则使雷横获得6发猛虎标弹",
+        "回合结束时使自身脱离战斗"
+      ]
+    }
+  ],
+  "is_ally": false,
+  "_structured": true,
+  "appear_stages": [
+    "主线战斗8-30"
+  ],
+  "enemy_id": "主线战斗8-30|穿着整齐的拇指士兵|躯干",
+  "defense": 55,
+  "speed": "2~5",
+  "_schema_version": 1
+}

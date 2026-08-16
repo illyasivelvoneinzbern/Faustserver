@@ -1,0 +1,76 @@
+{
+  "page_type": "event",
+  "title": "事件-精灵提灯",
+  "event_name": "精灵提灯",
+  "narration": "在一片宁静祥和的森林中央，放有一根纤细的树枝。\n一位散发着绿色微光的小小精灵坐在上面。\n精灵一言不发，向我们挥挥手，邀请我们过来休息一下。\n它看起来像是在微笑，又好像在跳舞。\n\n稍作休息。\n精灵朝我们挥挥手，示意再靠近一点。\n看起来我们在它的带领下来到了一个更加舒适的地方，也可能只是我们一厢情愿地这样相信着罢了。\n我们的双脚因漫长的旅途而感到疲惫和酸痛。\n【该如何抉择？】\n分支1\n分支2\n靠得更近些。\n精灵的笑容延伸为诡异的咧嘴笑。\n无需指出这奇怪之处，每个人都有相同的看法。\n尽管我们知道不应该以貌取人，我们依然上了它的当。\n我们将会为此付出代价。\n触发\n集中战斗\n！\n战斗胜利后，获得\n！\n战斗失败后，没有奖励\n离开。\n察觉到了犹豫的神色，我们一直坚信是精灵的它毫不犹豫地向我们扑了过来。\n虽然我们勉强躲过了致命伤，但总有一种被背叛的感觉。\n全体友方单位失去\n20点体力\n及\n20点理智值！\n\n不作休息，继续前进。\n我们不能在这样的地方停下脚步。\n树枝纠缠在一起，试图阻止我们前进，但被我们勉强躲过了。\n我们已然了解精灵这手势的隐含意义。\n“世上没有免费的礼物。”有人喃喃自语道。\n获得\n！\n\n原地休息。\n我们无视了精灵的招呼，原地稍作休息。\n休息结束后，树枝缠绕而来，似乎想要将我们包围住。\n我设法在树枝之间穿梭，成功得到了一些陷阱。\n只是累得像完全没休息过一样。\n全体友方单位失去\n12点体力\n及\n12点理智值！\n获得\n！",
+  "options": [
+    {
+      "choice_text": "稍作休息。",
+      "check_type": "",
+      "check_sin": "",
+      "check_threshold": 0,
+      "success_outcomes": [],
+      "failure_outcomes": []
+    },
+    {
+      "choice_text": "靠得更近些。",
+      "check_type": "",
+      "check_sin": "",
+      "check_threshold": 0,
+      "success_outcomes": [],
+      "failure_outcomes": []
+    },
+    {
+      "choice_text": "离开。",
+      "check_type": "",
+      "check_sin": "",
+      "check_threshold": 0,
+      "success_outcomes": [],
+      "failure_outcomes": []
+    },
+    {
+      "choice_text": "不作休息，继续前进。",
+      "check_type": "",
+      "check_sin": "",
+      "check_threshold": 0,
+      "success_outcomes": [],
+      "failure_outcomes": []
+    },
+    {
+      "choice_text": "原地休息。",
+      "check_type": "",
+      "check_sin": "",
+      "check_threshold": 0,
+      "success_outcomes": [],
+      "failure_outcomes": []
+    },
+    {
+      "choice_text": "靠得更近些。",
+      "check_type": "",
+      "check_sin": "",
+      "check_threshold": 0,
+      "success_outcomes": [],
+      "failure_outcomes": []
+    },
+    {
+      "choice_text": "离开。",
+      "check_type": "",
+      "check_sin": "",
+      "check_threshold": 0,
+      "success_outcomes": [],
+      "failure_outcomes": []
+    }
+  ],
+  "ego_gifts": [],
+  "related_abnormalities": [
+    "事件触发地点",
+    "镜像迷宫"
+  ],
+  "trigger_location": "",
+  "_structured": true,
+  "id": "wiki_事件-精灵提灯",
+  "url": "https://limbuscompany.huijiwiki.com/wiki/事件-精灵提灯",
+  "categories": [],
+  "source": "wiki",
+  "_schema_version": 1
+}

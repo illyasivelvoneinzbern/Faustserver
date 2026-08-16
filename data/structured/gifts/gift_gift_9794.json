@@ -1,0 +1,22 @@
+{
+  "id": "gift_9794",
+  "title": "满满当当的燃料罐",
+  "url": "https://limbuscompany.huijiwiki.com/wiki/E.G.O饰品",
+  "categories": [
+    "E.G.O饰品"
+  ],
+  "content": "[第2、第4顺位友方单位专属]\n受到使体力降至0点的伤害时，有60%的概率不会受到伤害并使自身恢复30点体力(每场战斗最多1次)\n以下情况不会触发避免阵亡与体力恢复效果\n- 受到攻击时技能造成的伤害高于自身体力上限\n- 自身带有体力恢复降低效果",
+  "source": "tabx",
+  "_structured": true,
+  "page_type": "ego_gift",
+  "gift_name": "满满当当的燃料罐",
+  "rarity": 3,
+  "cost": "252",
+  "effect_types": "泛用",
+  "attack_type": "暴食",
+  "location": "镜像迷宫",
+  "stage": "base",
+  "special": "深夜清扫",
+  "event": "事件-满满当当的燃料罐",
+  "_schema_version": 1
+}

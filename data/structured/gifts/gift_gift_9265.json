@@ -1,0 +1,22 @@
+{
+  "id": "gift_9265",
+  "title": "中指式指虎",
+  "url": "https://limbuscompany.huijiwiki.com/wiki/E.G.O饰品",
+  "categories": [
+    "E.G.O饰品"
+  ],
+  "content": "若敌方单位的打击抗性不高于1.5，则使其打击抗性+0.3",
+  "source": "tabx",
+  "_structured": true,
+  "page_type": "ego_gift",
+  "gift_name": "中指式指虎",
+  "rarity": 3,
+  "cost": "243",
+  "effect_types": "打击",
+  "attack_type": "怠惰",
+  "location": "镜像迷宫",
+  "stage": "base",
+  "special": "绞丝结线",
+  "event": "事件-寂静的中指走廊",
+  "_schema_version": 1
+}

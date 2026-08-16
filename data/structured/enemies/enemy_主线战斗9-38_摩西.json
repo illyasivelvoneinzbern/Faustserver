@@ -1,0 +1,197 @@
+{
+  "page_type": "enemy",
+  "title": "主线战斗9-38",
+  "enemy_name": "摩西",
+  "battle_stage": "主线战斗9-38",
+  "body_part": "",
+  "hp": 1806,
+  "defense_level": 87,
+  "speed_min": 5,
+  "speed_max": 7,
+  "chaos_threshold": "无",
+  "physical_resistances": {
+    "斩击": 1.0,
+    "突刺": 0.5,
+    "打击": 2.0
+  },
+  "sin_resistances": {
+    "暴怒": 1.0,
+    "色欲": 1.0,
+    "怠惰": 1.0,
+    "暴食": 1.0,
+    "忧郁": 1.0,
+    "傲慢": 1.0,
+    "嫉妒": 1.0
+  },
+  "panic_types": [],
+  "passives": [
+    "恐慌恢复 - 深深思索: 关卡开始时，对自身施加 那一日的记忆 回合结束时，若自身陷入恐慌，则使自身理智值恢复为0点",
+    "红点: 若中指 父辈带有莱瓦汀，则使自身获得 心-摩西 ， 并每回合使用“深吸这赤红的烟气吧。” 若自身带有 深长吐息-红色 ，则自身不会陷入恐慌 回合结束时，若自身的 深长吐息-红色 层数为3层，则使用强力技能 将构成物理的力的一切集中并堆叠于一点所形成的，层积的圆柱，被推向另一个点。",
+    "偏离命运: 自身阵亡时，战斗失败 可以误入歧途，但逆着流向行事或是从中脱离，是被“它”所禁止的。",
+    "固定恐慌: • 拼点胜利后根据拼点次数按比例增加 （增加量：基础值为10，从第二次拼点起，每次拼点增加20%） • 击杀敌方单位时，不论该敌方单位等级，增加10 • 友方单位击杀敌方单位时，不论该敌方单位等级，增加5"
+  ],
+  "skills": [
+    {
+      "skill_name": "红色吐息：切割",
+      "icon_id": "40001001",
+      "sin_type": "暴怒",
+      "damage_type": "突刺",
+      "base_value": 12,
+      "coin_power": 987,
+      "coin_count": 3,
+      "attack_level": 1,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[使用时] 使自身失去3点理智值",
+        "[命中时] 对目标额外造成5点伤害"
+      ]
+    },
+    {
+      "skill_name": "调整呼吸",
+      "icon_id": "40001005",
+      "sin_type": "忧郁",
+      "damage_type": "突刺",
+      "base_value": 1,
+      "coin_power": 3,
+      "coin_count": 1,
+      "attack_level": 1,
+      "attack_weight": 1,
+      "is_guard": true,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "无法拼点",
+        "本技能不会命中敌方单位，且不会触发目标的守备技能",
+        "使用时使自身增加5级呼吸法强度并使自身获得3层呼吸法"
+      ]
+    },
+    {
+      "skill_name": "白色吐息：雾。黎明。隐匿-精神守护",
+      "icon_id": "40001002",
+      "sin_type": "忧郁",
+      "damage_type": "突刺",
+      "base_value": 16,
+      "coin_power": 3,
+      "coin_count": 2,
+      "attack_level": 5,
+      "attack_weight": 1,
+      "is_guard": true,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[使用时] 使自身增加5级 呼吸法 强度并使自身获得3层 呼吸法",
+        "[命中时] 使目标恢复15点理智值",
+        "[命中时] 使自身与目标获得2层 白色吐息-精神守护"
+      ]
+    },
+    {
+      "skill_name": "红色吐息：肉体。血。加速。硬化-身体强化",
+      "icon_id": "40001003",
+      "sin_type": "暴怒",
+      "damage_type": "突刺",
+      "base_value": 17,
+      "coin_power": 987,
+      "coin_count": 2,
+      "attack_level": 5,
+      "attack_weight": 1,
+      "is_guard": true,
+      "guard_type": "防御",
+      "importance": 0,
+      "coin_effects": [
+        "[使用时] 使自身增加5级 呼吸法 强度并使自身获得3层 呼吸法",
+        "[命中时] 使自身与目标获得2层 红色吐息-身体强化 、1层 攻击等级提升 与1层 防御等级提升"
+      ]
+    },
+    {
+      "skill_name": "紫色吐息：焦躁。刺痛。禁锢之物-压迫",
+      "icon_id": "40001004",
+      "sin_type": "嫉妒",
+      "damage_type": "突刺",
+      "base_value": 14,
+      "coin_power": 5793,
+      "coin_count": 4,
+      "attack_level": 1,
+      "attack_weight": 1,
+      "is_guard": true,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[使用时] 使自身失去8点理智值",
+        "[使用时] 使自身增加5级 呼吸法 强度并使自身获得3层 呼吸法 不可摧毁的硬币",
+        "[命中时] 对目标造成8点理智伤害",
+        "[命中时] 对目标施加4层 紫色吐息-歇斯底里 、2层 易损 与3层 加算硬币弱化",
+        "[命中时] 下回合对目标施加5层 束缚"
+      ]
+    },
+    {
+      "skill_name": "红色吐息：血。肌肉。收缩-守护",
+      "icon_id": "40001006",
+      "sin_type": "暴怒",
+      "damage_type": "突刺",
+      "base_value": 17,
+      "coin_power": 987,
+      "coin_count": 2,
+      "attack_level": 5,
+      "attack_weight": 1,
+      "is_guard": true,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[使用时] 使自身增加5级 呼吸法 强度并使自身获得3层 呼吸法",
+        "[命中时] 使自身与目标获得1层 红色吐息-守护 与5层 守护"
+      ]
+    },
+    {
+      "skill_name": "红色吐息：搏动。血。硬化。愤怒。冲动-疾驰的身体",
+      "icon_id": "40001003",
+      "sin_type": "暴怒",
+      "damage_type": "突刺",
+      "base_value": 17,
+      "coin_power": 987,
+      "coin_count": 2,
+      "attack_level": 3,
+      "attack_weight": 1,
+      "is_guard": true,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[使用时] 使自身增加5级 呼吸法 强度并使自身获得3层 呼吸法",
+        "[命中时] 使目标获得1层 红色吐息-疾驰的身体 与5层 攻击等级提升"
+      ]
+    },
+    {
+      "skill_name": "“深吸这赤红的烟气吧。”",
+      "icon_id": "40001007",
+      "sin_type": "暴怒",
+      "damage_type": "突刺",
+      "base_value": 25,
+      "coin_power": 987,
+      "coin_count": 1,
+      "attack_level": 1,
+      "attack_weight": 1,
+      "is_guard": true,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "无法拼点",
+        "本技能不会命中敌方单位，且不会触发目标的守备技能",
+        "战斗开始使自身获得100点护盾(每场战斗最多1次)",
+        "战斗开始使自身获得1层深长吐息-红色",
+        "回合结束时使自身失去15点理智值"
+      ]
+    }
+  ],
+  "is_ally": true,
+  "_structured": true,
+  "appear_stages": [
+    "主线战斗9-38",
+    "主线战斗9-44"
+  ],
+  "enemy_id": "主线战斗9-38|摩西|",
+  "defense": 87,
+  "speed": "5~7",
+  "_schema_version": 1
+}

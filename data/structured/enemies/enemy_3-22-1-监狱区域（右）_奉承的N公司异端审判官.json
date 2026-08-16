@@ -1,0 +1,89 @@
+{
+  "page_type": "enemy",
+  "title": "3-22-1-监狱区域（右）",
+  "enemy_name": "奉承的N公司异端审判官",
+  "battle_stage": "3-22-1-监狱区域（右）",
+  "body_part": "",
+  "hp": 80,
+  "defense_level": 23,
+  "speed_min": 3,
+  "speed_max": 5,
+  "chaos_threshold": "",
+  "physical_resistances": {
+    "斩击": 0.75,
+    "突刺": 1.0,
+    "打击": 2.0
+  },
+  "sin_resistances": {
+    "暴怒": 1.0,
+    "色欲": 1.0,
+    "怠惰": 1.0,
+    "暴食": 1.0,
+    "忧郁": 1.0,
+    "傲慢": 1.0,
+    "嫉妒": 1.0
+  },
+  "panic_types": [
+    "无措",
+    "虚弱",
+    "无措"
+  ],
+  "passives": [
+    "高贵的牺牲在此：友方单位死亡时，下回合开始时使自身获得1层 强壮 本回合内攻击技能的最终威力+{0}"
+  ],
+  "skills": [
+    {
+      "skill_name": "刺入",
+      "icon_id": "9003201",
+      "sin_type": "傲慢",
+      "damage_type": "",
+      "base_value": 0,
+      "coin_power": 3,
+      "coin_count": 2,
+      "attack_level": 24,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "coin_effects": []
+    },
+    {
+      "skill_name": "钉击",
+      "icon_id": "9003202",
+      "sin_type": "傲慢",
+      "damage_type": "",
+      "base_value": 0,
+      "coin_power": 3,
+      "coin_count": 3,
+      "attack_level": 26,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "coin_effects": [
+        "[命中时] 下回合对目标施加1层 N公司的尖钉 回合开始时，增加1级 流血 强度并施加{0}层 流血 。回合结束时，本效果的层数减少1层。"
+      ]
+    },
+    {
+      "skill_name": "异端审判",
+      "icon_id": "9003401",
+      "sin_type": "色欲",
+      "damage_type": "",
+      "base_value": 0,
+      "coin_power": 0,
+      "coin_count": 3,
+      "attack_level": 26,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "coin_effects": [
+        "[正面命中时] 对目标施加1层 N公司的尖钉 回合开始时，增加1级 流血 强度并施加{0}层 流血 。回合结束时，本效果的层数减少1层。",
+        "[命中时] 下回合使目标增加3级 流血 下{1}次掷出硬币时受到{0}点固定伤害。 强度"
+      ]
+    }
+  ],
+  "is_ally": false,
+  "_structured": true,
+  "enemy_id": "3-22-1-监狱区域（右）|奉承的N公司异端审判官",
+  "defense": 23,
+  "speed": "3~5",
+  "_schema_version": 1
+}

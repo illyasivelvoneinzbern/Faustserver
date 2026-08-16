@@ -1,0 +1,261 @@
+{
+  "page_type": "enemy",
+  "title": "4-54-3-N公司的四方形房间（7）",
+  "enemy_name": "心象中的T公司3级征收人员",
+  "battle_stage": "4-54-3-N公司的四方形房间（7）",
+  "body_part": "",
+  "hp": 187,
+  "defense_level": 38,
+  "speed_min": 2,
+  "speed_max": 6,
+  "chaos_threshold": "",
+  "physical_resistances": {
+    "斩击": 0.5,
+    "突刺": 2.0,
+    "打击": 1.0
+  },
+  "sin_resistances": {
+    "暴怒": 1.0,
+    "色欲": 1.0,
+    "怠惰": 1.0,
+    "暴食": 1.0,
+    "忧郁": 1.0,
+    "傲慢": 1.0,
+    "嫉妒": 1.0
+  },
+  "panic_types": [],
+  "passives": [
+    "黄金时间：回合结束时，若现存体力为12%~24%，则立刻使自身恢复体力上限65%的体力。解除混乱状态。(最多1次)",
+    "时间逆转：触发黄金时间后，回合结束时对自身施加3层 易损"
+  ],
+  "skills": [
+    {
+      "skill_name": "啮合的瞬间",
+      "icon_id": "9007001",
+      "sin_type": "怠惰",
+      "damage_type": "打击",
+      "base_value": 5,
+      "coin_power": 9703,
+      "coin_count": 2,
+      "attack_level": 36,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[使用时] 获得1层 充能",
+        "[命中时] 对目标施加1层 啮合的时间",
+        "[命中时] 消耗2层 充能 对目标施加3层 麻痹"
+      ]
+    },
+    {
+      "skill_name": "吸收时间",
+      "icon_id": "9007002",
+      "sin_type": "傲慢",
+      "damage_type": "穿刺",
+      "base_value": 6,
+      "coin_power": 3,
+      "coin_count": 2,
+      "attack_level": 36,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[使用时] 使自身获得1层 充能",
+        "[命中时] 下回合自身获得1层 迅捷 并对目标施加2层 束缚"
+      ]
+    },
+    {
+      "skill_name": "加速的瞬间",
+      "icon_id": "9007003",
+      "sin_type": "嫉妒",
+      "damage_type": "打击",
+      "base_value": 8,
+      "coin_power": 5793,
+      "coin_count": 3,
+      "attack_level": 36,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[使用时] 若自身 充能 层数不低于5层，则使本技能的拼点威力 +2 下回合陷入无法行动状态",
+        "[命中时] 下回合对目标施加1层 束缚",
+        "[命中时] 如果自身有5+层 充能 ，则消耗所有充能层数并使每次攻击的伤害+10%",
+        "[命中时] 对目标施加1层 啮合的时间"
+      ]
+    },
+    {
+      "skill_name": "时间租赁",
+      "icon_id": "9007004",
+      "sin_type": "常规",
+      "damage_type": "防御",
+      "base_value": 8,
+      "coin_power": 79,
+      "coin_count": 1,
+      "attack_level": 0,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "战斗开始使自身获得3层心象中的时间租赁与1层充能"
+      ]
+    },
+    {
+      "skill_name": "液体压制",
+      "icon_id": "9005801",
+      "sin_type": "暴食",
+      "damage_type": "打击",
+      "base_value": 3,
+      "coin_power": 854,
+      "coin_count": 2,
+      "attack_level": 31,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[命中时] 下回合使目标增加2层 束缚"
+      ]
+    },
+    {
+      "skill_name": "液体爆发",
+      "icon_id": "9005802",
+      "sin_type": "怠惰",
+      "damage_type": "打击",
+      "base_value": 4,
+      "coin_power": 9703,
+      "coin_count": 2,
+      "attack_level": 31,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[使用时] 使自身获得1层 昂扬",
+        "[命中时] 使目标 震颤引爆"
+      ]
+    },
+    {
+      "skill_name": "液体晃动",
+      "icon_id": "9005803",
+      "sin_type": "暴食",
+      "damage_type": "打击",
+      "base_value": 5,
+      "coin_power": 854,
+      "coin_count": 3,
+      "attack_level": 31,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[使用时] 使自身获得1层 昂扬",
+        "[命中时] 使目标增加4级 震颤 强度",
+        "[命中时] 对目标施加1层 震颤"
+      ]
+    },
+    {
+      "skill_name": "液体阻塞",
+      "icon_id": "9005804",
+      "sin_type": "常规",
+      "damage_type": "防御",
+      "base_value": 6,
+      "coin_power": 79,
+      "coin_count": 1,
+      "attack_level": 0,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "使用时恢复体力值上限的5%",
+        "下回合获得2层易损",
+        "回合结束时消耗全部醉意"
+      ]
+    },
+    {
+      "skill_name": "伤痕诅咒",
+      "icon_id": "9005901",
+      "sin_type": "色欲",
+      "damage_type": "打击",
+      "base_value": 4,
+      "coin_power": 9,
+      "coin_count": 2,
+      "attack_level": 38,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[使用时] 使自身获得1层 纠缠的咒符",
+        "[命中时] 对目标施加3层 破裂"
+      ]
+    },
+    {
+      "skill_name": "增殖诅咒",
+      "icon_id": "9005902",
+      "sin_type": "色欲",
+      "damage_type": "打击",
+      "base_value": 5,
+      "coin_power": 9,
+      "coin_count": 3,
+      "attack_level": 38,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[使用时] 使自身获得2层 纠缠的咒符",
+        "[命中时] 对目标施加2层 破裂"
+      ]
+    },
+    {
+      "skill_name": "束缚诅咒",
+      "icon_id": "9005903",
+      "sin_type": "色欲",
+      "damage_type": "打击",
+      "base_value": 6,
+      "coin_power": 9,
+      "coin_count": 2,
+      "attack_level": 38,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "使用时使自身获得2层纠缠的咒符"
+      ]
+    },
+    {
+      "skill_name": "凸显伤口",
+      "icon_id": "9006104",
+      "sin_type": "色欲",
+      "damage_type": "打击",
+      "base_value": 3,
+      "coin_power": 9,
+      "coin_count": 4,
+      "attack_level": 38,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[命中时] 对目标施加2层 破裂",
+        "[命中时] 下回合对目标施加2层 束缚",
+        "[正面命中时] 使目标增加5级 破裂 强度"
+      ]
+    }
+  ],
+  "is_ally": false,
+  "_structured": true,
+  "appear_stages": [
+    "4-54-3-N公司的四方形房间（7）"
+  ],
+  "enemy_id": "4-54-3-N公司的四方形房间（7）|心象中的T公司3级征收人员|",
+  "defense": 38,
+  "speed": "2~6",
+  "_schema_version": 1
+}

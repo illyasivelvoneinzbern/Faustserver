@@ -1,0 +1,100 @@
+{
+  "page_type": "enemy",
+  "title": "主线战斗5-33",
+  "enemy_name": "苍白的蓝色人鱼",
+  "battle_stage": "主线战斗5-33",
+  "body_part": "",
+  "hp": 89,
+  "defense_level": 35,
+  "speed_min": 1,
+  "speed_max": 4,
+  "chaos_threshold": "",
+  "physical_resistances": {
+    "斩击": 1.0,
+    "突刺": 1.0,
+    "打击": 1.0
+  },
+  "sin_resistances": {
+    "暴怒": 1.0,
+    "色欲": 1.0,
+    "怠惰": 1.0,
+    "暴食": 1.0,
+    "忧郁": 0.8,
+    "傲慢": 1.6,
+    "嫉妒": 2.0
+  },
+  "panic_types": [],
+  "passives": [
+    "苍白化：回合开始时，除自身以外每有1名苍白的友方单位存活，使自身的攻击等级和防御等级+2.",
+    "袭来的否定：若剩余体力低于体力上限的10%，攻击命中时，造成20点理智伤害，下回合对目标施加1层 苍白的噪音 ，随后阵亡。",
+    "蔓延的污垢：回合结束时：除自身以外每有1名苍白的友方单位存活，使全体理智值不低于20点的敌方单位失去1点理智值"
+  ],
+  "skills": [
+    {
+      "skill_name": "..-. .",
+      "icon_id": "9009001",
+      "sin_type": "忧郁",
+      "damage_type": "",
+      "base_value": 10,
+      "coin_power": 3,
+      "coin_count": 3,
+      "attack_level": 33,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[命中时] 对目标施加2层 沉沦"
+      ]
+    },
+    {
+      "skill_name": "..-. . --",
+      "icon_id": "9009002",
+      "sin_type": "忧郁",
+      "damage_type": "",
+      "base_value": 10,
+      "coin_power": 3,
+      "coin_count": 2,
+      "attack_level": 33,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[命中时] 对目标施加2层 沉沦",
+        "[正面命中时] 使目标增加2级 沉沦 强度"
+      ]
+    },
+    {
+      "skill_name": ".-.. -",
+      "icon_id": "9009003",
+      "sin_type": "色欲",
+      "damage_type": "",
+      "base_value": 12,
+      "coin_power": 9,
+      "coin_count": 3,
+      "attack_level": 33,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[命中时] 使自身恢复本硬币伤害量40%的体力",
+        "[命中时] 下回合使自身获得1项目标带有的状态 （仅限 强壮 ， 迅捷 ， 伤害强化 与 守护 ）"
+      ]
+    }
+  ],
+  "is_ally": false,
+  "_structured": true,
+  "appear_stages": [
+    "主线战斗5-33",
+    "主线战斗5-34",
+    "主线战斗5-36-1-1",
+    "主线战斗5-36-1-3",
+    "主线战斗5-36-2-5"
+  ],
+  "enemy_id": "主线战斗5-33|苍白的蓝色人鱼|",
+  "defense": 35,
+  "speed": "1~4",
+  "_schema_version": 1
+}

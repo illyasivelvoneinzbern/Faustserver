@@ -1,0 +1,39 @@
+{
+  "page_type": "enemy",
+  "title": "纺锤采光-暴食-3",
+  "enemy_name": "巨大的四叶草",
+  "battle_stage": "纺锤采光-暴食-3",
+  "body_part": "躯干",
+  "hp": 117,
+  "defense_level": 44,
+  "speed_min": 1,
+  "speed_max": 1,
+  "chaos_threshold": "",
+  "physical_resistances": {
+    "斩击": 1.0,
+    "突刺": 1.0,
+    "打击": 1.0
+  },
+  "sin_resistances": {
+    "暴怒": 0.75,
+    "色欲": 0.75,
+    "怠惰": 0.5,
+    "暴食": 2.0,
+    "忧郁": 0.5,
+    "傲慢": 0.75,
+    "嫉妒": 0.75
+  },
+  "panic_types": [],
+  "passives": [],
+  "skills": [],
+  "is_ally": false,
+  "_structured": true,
+  "appear_stages": [
+    "纺锤采光-暴食-3",
+    "纺锤采光-暴食-4"
+  ],
+  "enemy_id": "纺锤采光-暴食-3|巨大的四叶草|躯干",
+  "defense": 44,
+  "speed": "1~1",
+  "_schema_version": 1
+}

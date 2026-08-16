@@ -1,0 +1,109 @@
+{
+  "page_type": "enemy",
+  "title": "经验采光-7-打击",
+  "enemy_name": "阴森森的血袋",
+  "battle_stage": "经验采光-7-打击",
+  "body_part": "",
+  "hp": 212,
+  "defense_level": 51,
+  "speed_min": 1,
+  "speed_max": 3,
+  "chaos_threshold": "",
+  "physical_resistances": {
+    "斩击": 0.75,
+    "突刺": 0.5,
+    "打击": 2.0
+  },
+  "sin_resistances": {
+    "暴怒": 1.0,
+    "色欲": 1.0,
+    "怠惰": 1.0,
+    "暴食": 1.0,
+    "忧郁": 1.0,
+    "傲慢": 1.0,
+    "嫉妒": 1.0
+  },
+  "panic_types": [],
+  "passives": [
+    "吸血：攻击命中时，若目标带有 流血 ，则使自身恢复伤害量15%的体力",
+    "血液硬化：攻击后，若目标的 流血 强度不低于8级，则使自身获得1层 硬化血液",
+    "血之渴求：- 优先指定带有 流血 的目标。 - 回合结束时，若自身在本回合未造成伤害，则下回合对自身施加2层 易损 并使自身获得2层 攻击等级提升 。",
+    "血袋：受到攻击时，对自身施加1层 流血 。 每当自身失去体力上限20%的体力时，使自身获得1层 硬化血液 。 友方单位或敌方单位中存在血魔时，阵亡时获得30层 血宴"
+  ],
+  "skills": [
+    {
+      "skill_name": "硬血鞭笞",
+      "icon_id": "9017001",
+      "sin_type": "忧郁",
+      "damage_type": "",
+      "base_value": 0,
+      "coin_power": 7,
+      "coin_count": 2,
+      "attack_level": 48,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "coin_effects": [
+        "[命中时] 使目标增加3级 流血 强度",
+        "[命中时] 使自身增加10级 流血 强度并使自身获得1层 染血之手"
+      ]
+    },
+    {
+      "skill_name": "硬血挥击",
+      "icon_id": "9017002",
+      "sin_type": "暴怒",
+      "damage_type": "",
+      "base_value": 0,
+      "coin_power": 3,
+      "coin_count": 4,
+      "attack_level": 48,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "coin_effects": [
+        "[命中时] 使目标增加2级 流血 强度",
+        "[命中时] 使目标增加2级 流血 强度 若目标的 流血 强度不低于6级，则使自身获得1层 硬化血液",
+        "[命中时] 使自身增加20级 流血 强度并使自身获得2层 染血之手"
+      ]
+    },
+    {
+      "skill_name": "反击",
+      "icon_id": "9017004",
+      "sin_type": "色欲",
+      "damage_type": "",
+      "base_value": 0,
+      "coin_power": 6,
+      "coin_count": 2,
+      "attack_level": 48,
+      "attack_weight": 1,
+      "is_guard": true,
+      "guard_type": "反击",
+      "coin_effects": [
+        "[正面命中时] 使目标增加2级 流血 强度"
+      ]
+    },
+    {
+      "skill_name": "硬血强化打击",
+      "icon_id": "9017003",
+      "sin_type": "色欲",
+      "damage_type": "打击",
+      "base_value": 0,
+      "coin_power": 5,
+      "coin_count": 3,
+      "attack_level": 48,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "coin_effects": [
+        "[命中时] 使目标增加4级 流血 强度并对其施加2层 流血",
+        "[命中时] 使自身恢复体力上限(目标的 流血 强度)%的体力(最多20%)"
+      ]
+    }
+  ],
+  "is_ally": false,
+  "_structured": true,
+  "enemy_id": "经验采光-7-打击|阴森森的血袋",
+  "defense": 51,
+  "speed": "1~3",
+  "_schema_version": 1
+}

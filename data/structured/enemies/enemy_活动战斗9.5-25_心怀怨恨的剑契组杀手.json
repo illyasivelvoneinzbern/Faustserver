@@ -1,0 +1,115 @@
+{
+  "page_type": "enemy",
+  "title": "活动战斗9.5-25",
+  "enemy_name": "心怀怨恨的剑契组杀手",
+  "battle_stage": "活动战斗9.5-25",
+  "body_part": "",
+  "hp": 235,
+  "defense_level": 60,
+  "speed_min": 1,
+  "speed_max": 4,
+  "chaos_threshold": "94",
+  "physical_resistances": {
+    "斩击": 1.25,
+    "突刺": 1.0,
+    "打击": 1.0
+  },
+  "sin_resistances": {
+    "暴怒": 1.25,
+    "色欲": 1.0,
+    "怠惰": 0.75,
+    "暴食": 0.75,
+    "忧郁": 1.0,
+    "傲慢": 1.25,
+    "嫉妒": 1.0
+  },
+  "panic_types": [],
+  "passives": [
+    "被动能力展开最后的气息若自身阵亡，则下回合开始时使属于剑契组的全体友方单位增加5级呼吸法强度并使其获得2层呼吸法回合开始时，若自身的呼吸法强度不低于20级，则在最左侧的行动槽装备“连斩”杀手本位若自身的呼吸法层数为1层，则自身的呼吸法层数不会减少，而改为使自身失去10点体力(该效果不会使自身陷入混乱，且不会使自身的体力低于1点)使自身基础技能暴击时造成的伤害+(自身已失去体力比例/2)(最多+50%)共同呼吸过的气息通过自身的技能或硬币效果使自身增加呼吸法强度时，使未带有呼吸法或呼吸法强度最低的1名友方单位增加1级呼吸法强度(每回合最多5次)回合开始时，若金笠在场，则使自身获得1层斩击伤害强化并对自身施加2层流血刺痛的记忆拼点失败时，使自身获得1层刺痛的记忆恐慌状态展开• 名称：怨恨• 士气低落：回合开始时使自身获得2层伤害强化，并对自身施加3层防御等级降低• 陷入恐慌：回合开始时使自身获得1层强壮，并对自身施加5层防御等级降低理智值展开基础理智值增加条件• 拼点失败时，根据拼点次数按比例增加（增加量：基础值为4，从第二次拼点起，每次拼点增加20%）基础理智值减少条件• 拼点胜利后根据拼点次数按比例减少（减少量：基础值为8，从第二次拼点起，每次拼点增加10%）• 友方单位阵亡时，不论该友方单位等级，减少5"
+  ],
+  "skills": [
+    {
+      "skill_name": "击势",
+      "icon_id": "9105701",
+      "sin_type": "暴怒",
+      "damage_type": "斩击",
+      "base_value": 8,
+      "coin_power": 987,
+      "coin_count": 2,
+      "attack_level": 62,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[使用时] 若自身的 呼吸法 强度不低于6级，则使本技能的基础威力+1",
+        "[使用时] 使自身增加2级 呼吸法 强度",
+        "[命中时] 对目标施加2层 流血"
+      ]
+    },
+    {
+      "skill_name": "刺法",
+      "icon_id": "9105702",
+      "sin_type": "暴食",
+      "damage_type": "斩击",
+      "base_value": 12,
+      "coin_power": 854,
+      "coin_count": 3,
+      "attack_level": 62,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[使用时] 若自身的 呼吸法 强度不低于8级，则使本技能的基础威力+2",
+        "[命中时] 使目标增加2级 流血 强度",
+        "[命中时] 对目标施加1层 流血",
+        "[命中时] 下回合使自身获得1层 斩击伤害强化"
+      ]
+    },
+    {
+      "skill_name": "连斩",
+      "icon_id": "9105703",
+      "sin_type": "傲慢",
+      "damage_type": "斩击",
+      "base_value": 13,
+      "coin_power": 3,
+      "coin_count": 7,
+      "attack_level": 63,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[使用时] 自身每带有4级 呼吸法 强度，使本技能的基础威力+1(最多+5)",
+        "[攻击后] 消耗自身所有 呼吸法 不可摧毁的硬币"
+      ]
+    },
+    {
+      "skill_name": "反击",
+      "icon_id": "9105704",
+      "sin_type": "傲慢",
+      "damage_type": "斩击",
+      "base_value": 16,
+      "coin_power": 3,
+      "coin_count": 1,
+      "attack_level": 0,
+      "attack_weight": 1,
+      "is_guard": true,
+      "guard_type": "反击",
+      "importance": 0,
+      "coin_effects": [
+        "命中时 使自身增加5级呼吸法强度"
+      ]
+    }
+  ],
+  "is_ally": false,
+  "_structured": true,
+  "appear_stages": [
+    "活动战斗9.5-25"
+  ],
+  "enemy_id": "活动战斗9.5-25|心怀怨恨的剑契组杀手|",
+  "defense": 60,
+  "speed": "1~4",
+  "_schema_version": 1
+}

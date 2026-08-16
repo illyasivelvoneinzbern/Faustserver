@@ -1,0 +1,35 @@
+{
+  "page_type": "event",
+  "title": "事件-尝试着交流",
+  "event_name": "尝试着交流",
+  "narration": "窗户中有未知的身影在晃动。\n怎么办才好？\n\n尝试交流\n全体罪人都朝向了窗户。\n【让谁去和它搭话？】\n李箱\n判定值+4\n有利判定\n：\n≥7\n不利判定\n：\n≥12\n李箱\n判定成功\n我不得不哭泣。\n▽啊！我是如此悲伤。\n我要玩游戏。\n如此一来我便能哭泣了吧。\n罪人\n李箱\n前去搭话后，窗户上映照的形体扭动着消失了。\n最后，从窗户上掉下了一片碎片。\n我们拿着那碎片离开了房间。\n获得E.G.O饰品\n碎片的记忆\n！\n李箱\n恢复\n25点理智值\n判定成功\n我不得不哭泣。\n▽啊！我是如此悲伤。\n我要玩游戏。\n如此一来我便能哭泣了吧。\n罪人X前去搭话后，窗户上映照的形体扭动着消失了。\n最后，从窗户上掉下了一片碎片。\n我们拿着那碎片离开了房间。\n获得E.G.O饰品\n碎片的记忆\n！\n所选人格失去\n15点理智值\n！\n判定失败\n……………\n罪人X和它说了很多话，但没有任何回应。\n终于，那形体扭动着消失了。\n“怎么了，难道是要陪它唱首歌吗？”\n我们在罪人们的抱怨声中走出了房间。\n什么都没有发生。\n\n保持沉默\n希 望 沉 默 得 以 被 批 判 。\n若 撕 裂 天 体 则 可 听 得 声 起 。\n窗户突然破碎，碎片四散。\n罪人们都受伤了。\n“……物理意义上十分疼痛。”\n我们带着还没去除干净的碎片一起，离开了房间。\n全体友方单位失去\n20点体力\n及\n10点理智值\n！",
+  "options": [
+    {
+      "choice_text": "尝试交流",
+      "check_type": "有利判定",
+      "check_sin": "忧郁",
+      "check_threshold": 7,
+      "success_outcomes": [
+        "获得E.G.O饰品 碎片的记忆 ！ 李箱 恢复 25点理智值"
+      ],
+      "failure_outcomes": []
+    },
+    {
+      "choice_text": "保持沉默",
+      "check_type": "",
+      "check_sin": "",
+      "check_threshold": 0,
+      "success_outcomes": [],
+      "failure_outcomes": []
+    }
+  ],
+  "ego_gifts": [],
+  "related_abnormalities": [],
+  "trigger_location": "",
+  "_structured": true,
+  "id": "wiki_事件-尝试着交流",
+  "url": "https://limbuscompany.huijiwiki.com/wiki/事件-尝试着交流",
+  "categories": [],
+  "source": "wiki",
+  "_schema_version": 1
+}

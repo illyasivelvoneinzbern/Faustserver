@@ -1,0 +1,560 @@
+{
+  "page_type": "personality",
+  "title": "希斯克利夫多裂纹事务所收尾人",
+  "sinner": "希斯克利夫",
+  "sinner_id": "heathcliff",
+  "personality_name": "希斯克利夫多裂纹事务所收尾人",
+  "release_date": "2024.08.08",
+  "acquisition": "第4赛季活动赠送",
+  "sin_affinities": {
+    "暴怒": 3,
+    "嫉妒": 2,
+    "忧郁": 1
+  },
+  "physical_resistances": {
+    "斩击": 1.0,
+    "突刺": 2.0,
+    "打击": 0.5
+  },
+  "ego_resources": {
+    "暴怒": 3,
+    "嫉妒": 2,
+    "忧郁": 1
+  },
+  "skills": [
+    {
+      "skill_index": 0,
+      "skill_name": "40S-2启动",
+      "sin_type": "暴怒",
+      "damage_type": "斩击",
+      "guard_type": "",
+      "attack_capacity": 1,
+      "coin_count": 3,
+      "stage_groups": [
+        [
+          {
+            "stage": "I",
+            "base_value": 2,
+            "coin_power": 4,
+            "effects": [
+              {
+                "timing": "使用时",
+                "description": "消耗5层 充能 并使本技能的硬币威力+1"
+              },
+              {
+                "timing": "命中时",
+                "description": "使自身获得2层 充能"
+              }
+            ],
+            "raw_text": "基础值： 2 变动值： +4 [使用时] 消耗5层 充能 并使本技能的硬币威力+1 [命中时] 使自身获得2层 充能"
+          },
+          {
+            "stage": "II",
+            "base_value": 2,
+            "coin_power": 4,
+            "effects": [
+              {
+                "timing": "使用时",
+                "description": "消耗5层 充能 并使本技能的硬币威力+1"
+              },
+              {
+                "timing": "命中时",
+                "description": "使自身获得2层 充能"
+              },
+              {
+                "timing": "命中时",
+                "description": "使自身获得2层 充能"
+              }
+            ],
+            "raw_text": "基础值： 2 变动值： +4 [使用时] 消耗5层 充能 并使本技能的硬币威力+1 [命中时] 使自身获得2层 充能 [命中时] 使自身获得2层 充能"
+          },
+          {
+            "stage": "III",
+            "base_value": 3,
+            "coin_power": 4,
+            "effects": [
+              {
+                "timing": "使用时",
+                "description": "消耗5层 充能 并使本技能的硬币威力+1"
+              },
+              {
+                "timing": "命中时",
+                "description": "使自身获得2层 充能"
+              },
+              {
+                "timing": "命中时",
+                "description": "使自身获得2层 充能"
+              }
+            ],
+            "raw_text": "基础值： 3 变动值： +4 [使用时] 消耗5层 充能 并使本技能的硬币威力+1 [命中时] 使自身获得2层 充能 [命中时] 使自身获得2层 充能"
+          },
+          {
+            "stage": "IV",
+            "base_value": 3,
+            "coin_power": 4,
+            "effects": [
+              {
+                "timing": "使用时",
+                "description": "消耗5层 充能 并使本技能的硬币威力+1"
+              },
+              {
+                "timing": "命中时",
+                "description": "使自身获得2层 充能"
+              },
+              {
+                "timing": "命中时",
+                "description": "使自身获得2层 充能"
+              }
+            ],
+            "raw_text": "基础值： 3 变动值： +4 [使用时] 消耗5层 充能 并使本技能的硬币威力+1 [命中时] 使自身获得2层 充能 [命中时] 使自身获得2层 充能"
+          }
+        ]
+      ],
+      "coin_effects": [
+        {
+          "coin_index": 0,
+          "description": "技能一"
+        },
+        {
+          "coin_index": 0,
+          "description": "40S-2启动 3"
+        },
+        {
+          "coin_index": 0,
+          "timing": "",
+          "description": "2"
+        },
+        {
+          "coin_index": 0,
+          "description": "+0"
+        },
+        {
+          "coin_index": 0,
+          "description": "1"
+        },
+        {
+          "coin_index": 0,
+          "description": "基础值： 2 变动值： +4 [使用时] 消耗5层 充能 并使本技能的硬币威力+1"
+        },
+        {
+          "coin_index": 2,
+          "timing": "命中时",
+          "description": "[命中时] 使自身获得2层 充能"
+        },
+        {
+          "coin_index": 1,
+          "timing": "命中时",
+          "description": "[命中时] 使自身获得2层 充能"
+        },
+        {
+          "coin_index": 2,
+          "timing": "命中时",
+          "description": "[命中时] 使自身获得2层 充能"
+        },
+        {
+          "coin_index": 1,
+          "timing": "命中时",
+          "description": "[命中时] 使自身获得2层 充能"
+        },
+        {
+          "coin_index": 2,
+          "timing": "命中时",
+          "description": "[命中时] 使自身获得2层 充能"
+        },
+        {
+          "coin_index": 1,
+          "timing": "命中时",
+          "description": "[命中时] 使自身获得2层 充能"
+        },
+        {
+          "coin_index": 2,
+          "timing": "命中时",
+          "description": "[命中时] 使自身获得2层 充能"
+        }
+      ],
+      "wikitext_key": "1技能"
+    },
+    {
+      "skill_index": 1,
+      "skill_name": "光电标记",
+      "sin_type": "",
+      "damage_type": "",
+      "guard_type": "防御",
+      "attack_capacity": 1,
+      "coin_count": 4,
+      "stage_groups": [
+        [
+          {
+            "stage": "I",
+            "base_value": 3,
+            "coin_power": 3,
+            "effects": [
+              {
+                "timing": "使用时",
+                "description": "若自身的 充能 层数在5~9层之间，则消耗2×(10-现存 充能 层数)%体力并使自身的 充能 层数变为10层"
+              },
+              {
+                "timing": "使用时",
+                "description": "消耗10层 充能 并使本技能的硬币威力+1"
+              },
+              {
+                "timing": "命中时",
+                "description": "对目标施加层数相当于自身 充能 强度的 光电 (最多2层)"
+              }
+            ],
+            "raw_text": "基础值： 3 变动值： +3 [使用时] 若自身的 充能 层数在5~9层之间，则消耗2×(10-现存 充能 层数)%体力并使自身的 充能 层数变为10层 [使用时] 消耗10层 充能 并使本技能的硬币威力+1 [命中时] 对目标施加层数相当于自身 充能 强度的 光电 (最多2层)"
+          },
+          {
+            "stage": "II",
+            "base_value": 3,
+            "coin_power": 3,
+            "effects": [
+              {
+                "timing": "使用时",
+                "description": "若自身的 充能 层数在5~9层之间，则消耗2×(10-现存 充能 层数)%体力并使自身的 充能 层数变为10层"
+              },
+              {
+                "timing": "使用时",
+                "description": "消耗10层 充能 并使本技能的硬币威力+1"
+              },
+              {
+                "timing": "命中时",
+                "description": "若自身消耗了 充能 层数，则对目标施加2层 防御等级降低"
+              },
+              {
+                "timing": "命中时",
+                "description": "对目标施加1层 体力恢复降低"
+              },
+              {
+                "timing": "命中时",
+                "description": "对目标施加层数相当于自身 充能 强度的 光电 (最多3层)"
+              }
+            ],
+            "raw_text": "基础值： 3 变动值： +3 [使用时] 若自身的 充能 层数在5~9层之间，则消耗2×(10-现存 充能 层数)%体力并使自身的 充能 层数变为10层 [使用时] 消耗10层 充能 并使本技能的硬币威力+1 [命中时] 若自身消耗了 充能 层数，则对目标施加2层 防御等级降低 [命中时] 对目标施加1层 体力恢复降低 [命中时] 对目标施加层数相当于自身 充能 强度的 光电 (最多3层)"
+          },
+          {
+            "stage": "III",
+            "base_value": 4,
+            "coin_power": 3,
+            "effects": [
+              {
+                "timing": "使用时",
+                "description": "若自身的 充能 层数在5~9层之间，则消耗2×(10-现存 充能 层数)%体力并使自身的 充能 层数变为10层"
+              },
+              {
+                "timing": "使用时",
+                "description": "消耗10层 充能 并使本技能的硬币威力+1"
+              },
+              {
+                "timing": "命中时",
+                "description": "若自身消耗了 充能 层数，则对目标施加2层 防御等级降低"
+              },
+              {
+                "timing": "命中时",
+                "description": "对目标施加1层 体力恢复降低"
+              },
+              {
+                "timing": "命中时",
+                "description": "对目标施加层数相当于自身 充能 强度的 光电 (最多3层)"
+              }
+            ],
+            "raw_text": "基础值： 4 变动值： +3 [使用时] 若自身的 充能 层数在5~9层之间，则消耗2×(10-现存 充能 层数)%体力并使自身的 充能 层数变为10层 [使用时] 消耗10层 充能 并使本技能的硬币威力+1 [命中时] 若自身消耗了 充能 层数，则对目标施加2层 防御等级降低 [命中时] 对目标施加1层 体力恢复降低 [命中时] 对目标施加层数相当于自身 充能 强度的 光电 (最多3层)"
+          },
+          {
+            "stage": "IV",
+            "base_value": 4,
+            "coin_power": 3,
+            "effects": [
+              {
+                "timing": "使用时",
+                "description": "若自身的 充能 层数在5~9层之间，则消耗2×(10-现存 充能 层数)%体力并使自身的 充能 层数变为10层"
+              },
+              {
+                "timing": "使用时",
+                "description": "消耗10层 充能 并使本技能的硬币威力+2"
+              },
+              {
+                "timing": "命中时",
+                "description": "若自身消耗了 充能 层数，则对目标施加2层 防御等级降低"
+              },
+              {
+                "timing": "命中时",
+                "description": "若自身消耗了 充能 层数，则对目标施加2层 防御等级降低"
+              },
+              {
+                "timing": "命中时",
+                "description": "对目标施加2层 体力恢复降低"
+              },
+              {
+                "timing": "命中时",
+                "description": "对目标施加层数相当于自身 充能 强度的 光电 (最多3层)"
+              }
+            ],
+            "raw_text": "基础值： 4 变动值： +3 [使用时] 若自身的 充能 层数在5~9层之间，则消耗2×(10-现存 充能 层数)%体力并使自身的 充能 层数变为10层 [使用时] 消耗10层 充能 并使本技能的硬币威力+2 [命中时] 若自身消耗了 充能 层数，则对目标施加2层 防御等级降低 [命中时] 若自身消耗了 充能 层数，则对目标施加2层 防御等级降低 [命中时] 对目标施加2层 体力恢复降低 [命中时] 对目标施加层数相当于自身 充能 强度的 光电 (最多3层)"
+          }
+        ]
+      ],
+      "coin_effects": [
+        {
+          "coin_index": 0,
+          "description": "技能二"
+        },
+        {
+          "coin_index": 0,
+          "description": "光电标记 2"
+        },
+        {
+          "coin_index": 0,
+          "timing": "",
+          "description": "3"
+        },
+        {
+          "coin_index": 0,
+          "description": "+1"
+        },
+        {
+          "coin_index": 0,
+          "description": "1"
+        },
+        {
+          "coin_index": 0,
+          "description": "基础值： 3 变动值： +3 [使用时] 若自身的 充能 层数在5~9层之间，则消耗2×(10-现存 充能 层数)%体力并使自身的 充能 层数变为10层 [使用时] 消耗10层 充能 并使本技能的硬币威力+1"
+        },
+        {
+          "coin_index": 3,
+          "timing": "命中时",
+          "description": "[命中时] 对目标施加层数相当于自身 充能 强度的 光电 (最多2层)"
+        },
+        {
+          "coin_index": 2,
+          "timing": "命中时",
+          "description": "[命中时] 若自身消耗了 充能 层数，则对目标施加2层 防御等级降低"
+        },
+        {
+          "coin_index": 3,
+          "timing": "命中时",
+          "description": "[命中时] 对目标施加1层 体力恢复降低 [命中时] 对目标施加层数相当于自身 充能 强度的 光电 (最多3层)"
+        },
+        {
+          "coin_index": 2,
+          "timing": "命中时",
+          "description": "[命中时] 若自身消耗了 充能 层数，则对目标施加2层 防御等级降低"
+        },
+        {
+          "coin_index": 3,
+          "timing": "命中时",
+          "description": "[命中时] 对目标施加1层 体力恢复降低 [命中时] 对目标施加层数相当于自身 充能 强度的 光电 (最多3层)"
+        },
+        {
+          "coin_index": 1,
+          "timing": "命中时",
+          "description": "[命中时] 若自身消耗了 充能 层数，则对目标施加2层 防御等级降低"
+        },
+        {
+          "coin_index": 2,
+          "timing": "命中时",
+          "description": "[命中时] 若自身消耗了 充能 层数，则对目标施加2层 防御等级降低"
+        },
+        {
+          "coin_index": 3,
+          "timing": "命中时",
+          "description": "[命中时] 对目标施加2层 体力恢复降低 [命中时] 对目标施加层数相当于自身 充能 强度的 光电 (最多3层)"
+        }
+      ],
+      "wikitext_key": "守备技能2"
+    },
+    {
+      "skill_index": 2,
+      "skill_name": "光电叉",
+      "sin_type": "忧郁",
+      "damage_type": "打击",
+      "guard_type": "",
+      "attack_capacity": 1,
+      "coin_count": 4,
+      "stage_groups": [
+        [
+          {
+            "stage": "I",
+            "base_value": 4,
+            "coin_power": 2,
+            "effects": [
+              {
+                "timing": "命中时",
+                "description": "使自身获得5层 充能"
+              },
+              {
+                "timing": "命中时",
+                "description": "使自身获得(自身的 充能 强度×3)层 充能 (最多9层)"
+              },
+              {
+                "timing": "命中时",
+                "description": "对目标施加层数相当于自身 充能 强度的 光电 (最多3层)"
+              }
+            ],
+            "raw_text": "基础值： 4 变动值： +2 若自身的 充能 强度不低于2级，则使本技能的硬币威力+1 [命中时] 使自身获得5层 充能 [命中时] 使自身获得(自身的 充能 强度×3)层 充能 (最多9层) [命中时] 对目标施加层数相当于自身 充能 强度的 光电 (最多3层)"
+          },
+          {
+            "stage": "II",
+            "base_value": 5,
+            "coin_power": 2,
+            "effects": [
+              {
+                "timing": "命中时",
+                "description": "使自身获得7层 充能"
+              },
+              {
+                "timing": "命中时",
+                "description": "使自身获得(自身的 充能 强度×3)层 充能 (最多9层)"
+              },
+              {
+                "timing": "命中时",
+                "description": "对目标施加层数相当于自身 充能 强度的 光电 (最多3层)"
+              },
+              {
+                "timing": "命中时",
+                "description": "自身每带有2级 充能 强度，对目标施加1层 打击易损 (最多2层)"
+              }
+            ],
+            "raw_text": "基础值： 5 变动值： +2 自身每带有2级 充能 强度，使本技能的硬币威力+1(最多+2) [命中时] 使自身获得7层 充能 [命中时] 使自身获得(自身的 充能 强度×3)层 充能 (最多9层) [命中时] 对目标施加层数相当于自身 充能 强度的 光电 (最多3层) [命中时] 自身每带有2级 充能 强度，对目标施加1层 打击易损 (最多2层)"
+          }
+        ]
+      ],
+      "coin_effects": [
+        {
+          "coin_index": 0,
+          "description": "技能三"
+        },
+        {
+          "coin_index": 0,
+          "description": "光电叉 1"
+        },
+        {
+          "coin_index": 0,
+          "timing": "",
+          "description": "4"
+        },
+        {
+          "coin_index": 0,
+          "description": "+2"
+        },
+        {
+          "coin_index": 0,
+          "description": "1"
+        },
+        {
+          "coin_index": 0,
+          "description": "基础值： 4 变动值： +2 若自身的 充能 强度不低于2级，则使本技能的硬币威力+1"
+        },
+        {
+          "coin_index": 2,
+          "timing": "命中时",
+          "description": "[命中时] 使自身获得5层 充能"
+        },
+        {
+          "coin_index": 3,
+          "timing": "命中时",
+          "description": "[命中时] 使自身获得(自身的 充能 强度×3)层 充能 (最多9层)"
+        },
+        {
+          "coin_index": 4,
+          "timing": "命中时",
+          "description": "[命中时] 对目标施加层数相当于自身 充能 强度的 光电 (最多3层)"
+        },
+        {
+          "coin_index": 2,
+          "timing": "命中时",
+          "description": "[命中时] 使自身获得7层 充能"
+        },
+        {
+          "coin_index": 3,
+          "timing": "命中时",
+          "description": "[命中时] 使自身获得(自身的 充能 强度×3)层 充能 (最多9层)"
+        },
+        {
+          "coin_index": 4,
+          "timing": "命中时",
+          "description": "[命中时] 对目标施加层数相当于自身 充能 强度的 光电 (最多3层) [命中时] 自身每带有2级 充能 强度，对目标施加1层 打击易损 (最多2层)"
+        }
+      ],
+      "wikitext_key": "3技能"
+    },
+    {
+      "skill_index": 3,
+      "skill_name": "充能",
+      "sin_type": "",
+      "damage_type": "",
+      "guard_type": "",
+      "attack_capacity": 1,
+      "coin_count": 1,
+      "stage_groups": [
+        [
+          {
+            "stage": "I",
+            "base_value": 10,
+            "coin_power": 4,
+            "effects": [
+              {
+                "timing": "使用时",
+                "description": "使自身获得3层 充能 (每回合最多1次)"
+              }
+            ],
+            "raw_text": "基础值： 10 变动值： +4 [使用时] 使自身获得3层 充能 (每回合最多1次)"
+          },
+          {
+            "stage": "II",
+            "base_value": 12,
+            "coin_power": 6,
+            "effects": [
+              {
+                "timing": "使用时",
+                "description": "使自身获得3层 充能 (每回合最多2次)"
+              }
+            ],
+            "raw_text": "基础值： 12 变动值： +6 [使用时] 使自身获得3层 充能 (每回合最多2次)"
+          }
+        ]
+      ],
+      "coin_effects": [
+        {
+          "coin_index": 0,
+          "description": "守备技能"
+        },
+        {
+          "coin_index": 0,
+          "description": "充能"
+        },
+        {
+          "coin_index": 0,
+          "timing": "",
+          "description": "1"
+        },
+        {
+          "coin_index": 0,
+          "description": "+2"
+        },
+        {
+          "coin_index": 0,
+          "description": "1"
+        },
+        {
+          "coin_index": 0,
+          "description": "I阶 - III阶 IV阶 追加属性： 基础值： 10 变动值： +4 [使用时] 使自身获得3层 充能 (每回合最多1次) 基础值： 12 变动值： +6 [使用时] 使自身获得3层 充能 (每回合最多2次)"
+        }
+      ],
+      "wikitext_key": "4技能"
+    }
+  ],
+  "battle_passive": "人格被动1070901\n人格被动1070921",
+  "support_passive": "",
+  "notes": "",
+  "voice_lines": [],
+  "skill_voice": [],
+  "_structured": true,
+  "id": "wiki_希斯克利夫多裂纹事务所收尾人",
+  "url": "https://limbuscompany.huijiwiki.com/wiki/希斯克利夫多裂纹事务所收尾人",
+  "categories": [
+    "人格"
+  ],
+  "source": "wiki",
+  "_schema_version": 1
+}

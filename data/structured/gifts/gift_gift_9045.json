@@ -1,0 +1,20 @@
+{
+  "id": "gift_9045",
+  "title": "炎鳞",
+  "url": "https://limbuscompany.huijiwiki.com/wiki/E.G.O饰品",
+  "categories": [
+    "E.G.O饰品"
+  ],
+  "content": "回合结束时，使带有烧伤的敌方单位消耗一半烧伤层数并对其额外造成（其烧伤强度×消耗的烧伤层数）点暴怒伤害。（最多消耗5层烧伤）\n下回合使其防御等级减少（炎鳞消耗的烧伤层数）级（最多减少3级）",
+  "source": "tabx",
+  "_structured": true,
+  "page_type": "ego_gift",
+  "gift_name": "炎鳞",
+  "rarity": 4,
+  "cost": "379",
+  "effect_types": "烧伤",
+  "attack_type": "暴怒",
+  "location": "镜像迷宫",
+  "stage": "base",
+  "_schema_version": 1
+}

@@ -1,0 +1,178 @@
+{
+  "page_type": "enemy",
+  "title": "折射轨道1号线-第10站-岔舌",
+  "enemy_name": "蠢蠢欲动的异端审判官",
+  "battle_stage": "折射轨道1号线-第10站-岔舌",
+  "body_part": "",
+  "hp": 537,
+  "defense_level": 80,
+  "speed_min": 1,
+  "speed_max": 2,
+  "chaos_threshold": "214",
+  "physical_resistances": {
+    "斩击": 1.0,
+    "突刺": 1.5,
+    "打击": 0.5
+  },
+  "sin_resistances": {
+    "暴怒": 1.5,
+    "色欲": 1.0,
+    "怠惰": 2.0,
+    "暴食": 0.75,
+    "忧郁": 0.75,
+    "傲慢": 1.0,
+    "嫉妒": 1.0
+  },
+  "panic_types": [],
+  "passives": [
+    "蠢蠢欲动的本能: 本单位行为取决于 本能 层数。 带有不低于4层 本能 时将进入攻击模式，带有0层 本能 时将进入防御模式。",
+    "折射的挣扎: 若与同一目标拼点不低于10次，则拼点判定时随机使自身的拼点威力增加或减少(拼点次数/10)。(向下取整)",
+    "腐化外皮: 回合开始时，若现存体力低于50%，则自身受到攻击时，对攻击者施加3层 剧毒 。",
+    "痛苦蠕动: 每回合对自身施加5层 易损 并对全体敌方单位施加10层 剧毒 。",
+    "脱皮: 无恐慌类型数据"
+  ],
+  "skills": [
+    {
+      "skill_name": "盘绕双臂",
+      "icon_id": "802801",
+      "sin_type": "色欲",
+      "damage_type": "突刺",
+      "base_value": 6,
+      "coin_power": 9,
+      "coin_count": 2,
+      "attack_level": 56,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[使用时] 若目标带有的负面状态不少于2种，则使本技能的基础威力+2",
+        "[命中时] 下回合对目标施加3层 麻痹"
+      ]
+    },
+    {
+      "skill_name": "缠绕扭断",
+      "icon_id": "802802",
+      "sin_type": "色欲",
+      "damage_type": "打击",
+      "base_value": 5,
+      "coin_power": 9,
+      "coin_count": 2,
+      "attack_level": 56,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "使用时若目标带有的负面状态不少于2种，则使本技能的硬币威力+1",
+        "拼点失败使自身失去1层本能",
+        "2命中时使自身恢复20点体力",
+        "命中时对目标施加3层{{状态2|流血|4=负面}}"
+      ]
+    },
+    {
+      "skill_name": "双臂挥砸",
+      "icon_id": "802803",
+      "sin_type": "色欲",
+      "damage_type": "打击",
+      "base_value": 5,
+      "coin_power": 9,
+      "coin_count": 4,
+      "attack_level": 56,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[使用时] 若目标带有的负面状态不少于2种，则使本技能的拼点威力+2",
+        "[命中时] 使目标增加3级 流血 强度",
+        "[命中时] 下回合对目标施加2层 麻痹"
+      ]
+    },
+    {
+      "skill_name": "双臂痛殴",
+      "icon_id": "802804",
+      "sin_type": "色欲",
+      "damage_type": "打击",
+      "base_value": 5,
+      "coin_power": 9,
+      "coin_count": 2,
+      "attack_level": 56,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[使用时] 若目标带有的负面状态不少于2种，则使本技能的基础威力+1",
+        "[命中时] 使目标的混乱阈值前移10",
+        "[命中时] 下回合对目标施加5层 束缚"
+      ]
+    },
+    {
+      "skill_name": "屏息凝神",
+      "icon_id": "802805",
+      "sin_type": "常规",
+      "damage_type": "守备",
+      "base_value": 13,
+      "coin_power": 79,
+      "coin_count": 1,
+      "attack_level": 0,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "战斗开始使自身获得5层本能"
+      ]
+    },
+    {
+      "skill_name": "痛苦蠕动",
+      "icon_id": "802807",
+      "sin_type": "暴食",
+      "damage_type": "打击",
+      "base_value": 17,
+      "coin_power": 854,
+      "coin_count": 7,
+      "attack_level": 56,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[使用时] 若目标带有负面状态，则使本技能的基础威力+3",
+        "[使用时] 消耗12点体力；下回合使自身增加5级 流血 强度",
+        "[命中时] 对目标施加3层 剧毒 不可摧毁的硬币",
+        "[命中时] 对目标施加3层 剧毒"
+      ]
+    },
+    {
+      "skill_name": "痛苦挣扎",
+      "icon_id": "802808",
+      "sin_type": "暴食",
+      "damage_type": "打击",
+      "base_value": 16,
+      "coin_power": 854,
+      "coin_count": 3,
+      "attack_level": 56,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[使用时] 若目标带有负面状态，则使本技能的基础威力+4",
+        "[使用时] 消耗12点体力；下回合对自身施加3层 流血",
+        "[命中时] 下回合对目标施加3层 麻痹",
+        "[命中时] 下回合对目标施加3层 束缚"
+      ]
+    }
+  ],
+  "is_ally": false,
+  "_structured": true,
+  "appear_stages": [
+    "折射轨道1号线-第10站-岔舌"
+  ],
+  "enemy_id": "折射轨道1号线-第10站-岔舌|蠢蠢欲动的异端审判官|",
+  "defense": 80,
+  "speed": "1~2",
+  "_schema_version": 1
+}

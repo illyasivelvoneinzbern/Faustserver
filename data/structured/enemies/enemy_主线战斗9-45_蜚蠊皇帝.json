@@ -1,0 +1,240 @@
+{
+  "page_type": "enemy",
+  "title": "主线战斗9-45",
+  "enemy_name": "蜚蠊皇帝",
+  "battle_stage": "主线战斗9-45",
+  "body_part": "",
+  "hp": 3041,
+  "defense_level": 100,
+  "speed_min": 1,
+  "speed_max": 2,
+  "chaos_threshold": "1520",
+  "physical_resistances": {
+    "斩击": 1.0,
+    "突刺": 0.75,
+    "打击": 1.25
+  },
+  "sin_resistances": {
+    "暴怒": 1.2,
+    "色欲": 1.0,
+    "怠惰": 0.75,
+    "暴食": 1.0,
+    "忧郁": 0.75,
+    "傲慢": 1.0,
+    "嫉妒": 1.25
+  },
+  "panic_types": [
+    "威力降低",
+    "防御害虫【蜚蠊】",
+    "烧伤",
+    "流血",
+    "震颤",
+    "破裂",
+    "沉沦",
+    "攻击害虫【蜚蠊】"
+  ],
+  "passives": [
+    "撕开的包装纸: 自身的硬币概率固定为50%，不受理智值影响 与罪人拼点胜利时， 使自身失去5点理智值，对该罪人造成的伤害-40% 士气低落或陷入恐慌时， 对自身施加 拼点威力降低 与 威力降低 解除恐慌时，对自身施加2层 威力降低 “但这真的已经全部撕开了吗？”",
+    "皇帝的臣民: 回合开始时，使自身获得50层 防御害虫【蜚蠊】 (每经过1回合使自身获得的 防御害虫【蜚蠊】 层数减少3层，最多减少20层) - 若自身带有 烧伤 、 流血 、 震颤 、 破裂 或 沉沦 ， 则随机使该效果强度减少，并使自身的 防御害虫【蜚蠊】 层数相应减少 - 若该效果强度为1级，层数不低于2层，则改为减少层数 战斗中， 若自身失去所有 防御害虫【蜚蠊】 ，则下回合触发以下效果 - 自身不会获得 防御害虫【蜚蠊】 ，而改为对自身施加10层 防御等级降低 - 获得持有量最少的3种E.G.O资源各2个 - 回合结束时，解除自身所有负面状态并获得 防御害虫【蜚蠊】 无论何处、无论何时，它们都会从面与面相交的那条线上爬出来。",
+    "皇帝的披风: 回合开始时，使自身获得(自身的 防御害虫【蜚蠊】 层数×40)点护盾 群集的蜚蠊，只为唯一的皇帝而行动。",
+    "皇帝的军势: - 拼点胜利时，对目标施加3层 攻击害虫【蜚蠊】 - 技能命中时，对目标施加1层 攻击害虫【蜚蠊】 钻入、渗入、侵入，啃噬、撕裂、吞食。",
+    "皇帝之血: 受到 烧伤 、 流血 、 震颤 、 破裂 与 沉沦 的体力伤害、理智伤害与混乱阈值前移量-50% 不会因以上伤害而陷入混乱 自身本体每失去25%的体力，回合开始时对自身施加2层 威力降低 “适应一切，变得迟钝。”",
+    "皇帝的震怒: 体力降至50%或陷入混乱时，解除自身的混乱与所有负面状态并改变自身模式 此后，触发以下效果 - 使自身的理智值变为0点 - 使自身获得50层 防御害虫【蜚蠊】 - 令被动技能“皇帝的军势”施加的 攻击害虫【蜚蠊】 层数变为2倍",
+    "固定恐慌: 被施加改变恐慌类型的状态时，自身的恐慌类型不会改变。效果改为对未带有理智值的单位施加的效果。",
+    "恐慌恢复: • 拼点失败时，根据拼点次数按比例减少 （减少量：基础值为3，从第二次拼点起，每次拼点增加10%） • 击杀敌方单位时，不论该敌方单位等级，减少90"
+  ],
+  "skills": [
+    {
+      "skill_name": "皇帝的拳",
+      "icon_id": "133901",
+      "sin_type": "色欲",
+      "damage_type": "打击",
+      "base_value": 12,
+      "coin_power": 9,
+      "coin_count": 3,
+      "attack_level": 92,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[命中时] 使目标增加2级某1种随机效果的强度并对其施加2层该效果，该效果可能为 烧伤 、 流血 、 震颤 、 破裂 或 沉沦"
+      ]
+    },
+    {
+      "skill_name": "皇帝的鞭与拳",
+      "icon_id": "133902",
+      "sin_type": "色欲",
+      "damage_type": "打击",
+      "base_value": 12,
+      "coin_power": 9,
+      "coin_count": 7,
+      "attack_level": 93,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[命中时] 使目标增加3级某1种随机效果的强度并对其施加3层该效果，该效果可能为 烧伤 、 流血 、 震颤 、 破裂 或 沉沦 不可摧毁的硬币"
+      ]
+    },
+    {
+      "skill_name": "皇帝的捕食",
+      "icon_id": "133903",
+      "sin_type": "暴食",
+      "damage_type": "打击",
+      "base_value": 13,
+      "coin_power": 854,
+      "coin_count": 4,
+      "attack_level": 90,
+      "attack_weight": 1,
+      "is_guard": true,
+      "guard_type": "防御",
+      "importance": 0,
+      "coin_effects": [
+        "[使用时] 与本技能拼点的技能 每有1个 不可摧毁的硬币 ，使本技能的基础威力+10",
+        "[命中时] 使目标的 攻击害虫【蜚蠊】 层数减半 (向下取整)",
+        "[命中时] 吸收目标所有负面状态 - 触发该效果时，若自身未带有 防御害虫【蜚蠊】 ，则下回合对自身施加2层 威力降低"
+      ]
+    },
+    {
+      "skill_name": "皇帝的笞刑",
+      "icon_id": "133904",
+      "sin_type": "嫉妒",
+      "damage_type": "打击",
+      "base_value": 14,
+      "coin_power": 5793,
+      "coin_count": 20,
+      "attack_level": 90,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[使用时] 使自身获得10层 充能",
+        "[命中时] 使目标增加3级某1种随机效果的强度并对其施加3层该效果，该效果可能为 烧伤 、 流血 、 震颤 、 破裂 或 沉沦 不可摧毁的硬币",
+        "[命中时] 消耗自身所有 充能 层数并使本硬币造成的伤害+(消耗的 充能 层数×20)%"
+      ]
+    },
+    {
+      "skill_name": "蜚蠊行军",
+      "icon_id": "133905",
+      "sin_type": "忧郁",
+      "damage_type": "打击",
+      "base_value": 10,
+      "coin_power": 3,
+      "coin_count": 4,
+      "attack_level": 90,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[命中时] 对目标施加2层 攻击害虫【蜚蠊】",
+        "[命中时] 对目标施加3层 攻击害虫【蜚蠊】"
+      ]
+    },
+    {
+      "skill_name": "皇帝的窸窣",
+      "icon_id": "133906",
+      "sin_type": "怠惰",
+      "damage_type": "打击",
+      "base_value": 17,
+      "coin_power": 9703,
+      "coin_count": 5,
+      "attack_level": 95,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[命中时] 使目标增加5级 震颤 强度",
+        "[命中时] 对目标施加3层 震颤",
+        "[命中时] 使目标 振幅转换 为随机 震颤 效果",
+        "[命中时] 使目标 震颤引爆 ，并使其 震颤 层数减少1层"
+      ]
+    },
+    {
+      "skill_name": "皇帝的截除",
+      "icon_id": "133907",
+      "sin_type": "暴食",
+      "damage_type": "打击",
+      "base_value": 12,
+      "coin_power": 854,
+      "coin_count": 6,
+      "attack_level": 90,
+      "attack_weight": 1,
+      "is_guard": true,
+      "guard_type": "防御",
+      "importance": 0,
+      "coin_effects": [
+        "[使用时] 与本技能拼点的技能 每有1个 不可摧毁的硬币 ，使本技能的基础威力+20",
+        "[命中时] 使目标增加3级某1种随机效果的强度并对其施加3层该效果，该效果可能为 烧伤 、 流血 、 震颤 、 破裂 或 沉沦"
+      ]
+    },
+    {
+      "skill_name": "皇帝的晚宴",
+      "icon_id": "133908",
+      "sin_type": "暴食",
+      "damage_type": "打击",
+      "base_value": 10,
+      "coin_power": 854,
+      "coin_count": 6,
+      "attack_level": 90,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[使用时] 与本技能拼点的技能 每有1个 不可摧毁的硬币 ，使本技能的基础威力+20"
+      ]
+    },
+    {
+      "skill_name": "“…儿子，要瞄准心脏才行。”",
+      "icon_id": "133909",
+      "sin_type": "傲慢",
+      "damage_type": "突刺",
+      "base_value": 60,
+      "coin_power": 3,
+      "coin_count": 9,
+      "attack_level": 95,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[使用时] 使自身增加10级 呼吸法 强度并使自身获得4层 呼吸法",
+        "[命中时] 使目标增加5级某1种随机效果的强度并对其施加2层该效果，该效果可能为 烧伤 、 流血 、 震颤 、 破裂 或 沉沦"
+      ]
+    },
+    {
+      "skill_name": "皇帝的盾",
+      "icon_id": "133910",
+      "sin_type": "常规",
+      "damage_type": "守备",
+      "base_value": 10,
+      "coin_power": 79,
+      "coin_count": 3,
+      "attack_level": 0,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "本回合使自身受到来自本技能指定目标的攻击技能的伤害-50%",
+        "拼点胜利下回合对目标施加3层束缚",
+        "拼点失败使目标恢复15点理智值",
+        "1不可摧毁的硬币"
+      ]
+    }
+  ],
+  "is_ally": false,
+  "_structured": true,
+  "appear_stages": [
+    "主线战斗9-45"
+  ],
+  "enemy_id": "主线战斗9-45|蜚蠊皇帝|",
+  "defense": 100,
+  "speed": "1~2",
+  "_schema_version": 1
+}

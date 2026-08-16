@@ -1,0 +1,87 @@
+{
+  "page_type": "enemy",
+  "title": "1-11-3-第23-7防线 15:36（2）",
+  "enemy_name": "金苹果",
+  "battle_stage": "1-11-3-第23-7防线 15:36（2）",
+  "body_part": "躯干",
+  "hp": 214,
+  "defense_level": 8,
+  "speed_min": 1,
+  "speed_max": 4,
+  "chaos_threshold": "107",
+  "physical_resistances": {
+    "斩击": 0.5,
+    "突刺": 1.0,
+    "打击": 2.0
+  },
+  "sin_resistances": {
+    "暴怒": 1.5,
+    "色欲": 0.5,
+    "怠惰": 2.0,
+    "暴食": 1.0,
+    "忧郁": 1.0,
+    "傲慢": 0.75,
+    "嫉妒": 0.75
+  },
+  "panic_types": [],
+  "passives": [],
+  "skills": [
+    {
+      "skill_name": "发芽",
+      "icon_id": "800801",
+      "sin_type": "暴食",
+      "damage_type": "穿刺",
+      "base_value": 2,
+      "coin_power": 854,
+      "coin_count": 1,
+      "attack_level": 6,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": []
+    },
+    {
+      "skill_name": "金灿果实",
+      "icon_id": "800802",
+      "sin_type": "暴食",
+      "damage_type": "打击",
+      "base_value": 5,
+      "coin_power": 854,
+      "coin_count": 1,
+      "attack_level": 6,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "拼点失败对自身造成20点伤害",
+        "拼点失败使自身失去1层光辉"
+      ]
+    },
+    {
+      "skill_name": "硬如坚金",
+      "icon_id": "800803",
+      "sin_type": "常规",
+      "damage_type": "防御",
+      "base_value": 5,
+      "coin_power": 79,
+      "coin_count": 1,
+      "attack_level": 0,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": []
+    }
+  ],
+  "is_ally": false,
+  "_structured": true,
+  "appear_stages": [
+    "1-11-3-第23-7防线 15:36（2）"
+  ],
+  "enemy_id": "1-11-3-第23-7防线 15:36（2）|金苹果|躯干",
+  "defense": 8,
+  "speed": "1~4",
+  "_schema_version": 1
+}

@@ -1,0 +1,120 @@
+{
+  "page_type": "enemy",
+  "title": "折射轨道2号线复刻-第4站",
+  "enemy_name": "折射的T公司3级征收人员",
+  "battle_stage": "折射轨道2号线复刻-第4站",
+  "body_part": "",
+  "hp": 552,
+  "defense_level": 63,
+  "speed_min": 1,
+  "speed_max": 4,
+  "chaos_threshold": "276 / 0",
+  "physical_resistances": {
+    "斩击": 1.0,
+    "突刺": 1.5,
+    "打击": 0.5
+  },
+  "sin_resistances": {
+    "暴怒": 0.5,
+    "色欲": 1.0,
+    "怠惰": 0.5,
+    "暴食": 1.0,
+    "忧郁": 1.0,
+    "傲慢": 1.0,
+    "嫉妒": 1.0
+  },
+  "panic_types": [],
+  "passives": [
+    "折射的挣扎: 若与同一目标拼点不低于10次，则拼点判定时随机使自身的拼点威力增加或减少(拼点次数/10)。(向下取整)",
+    "黄金时间: 回合结束时，若现存体力为6%~24%，则立即使自身恢复体力上限80%的本体体力与部位体力。解除自身的混乱。(每场战斗最多1次)",
+    "时间逆行反冲: 激活黄金时间后，回合开始时对自身施加2层 易损",
+    "过度充能: 回合结束时，若自身的 充能 层数不低于5层，则下回合使自身获得3层 伤害强化",
+    "折射的破裂与沉沦: 破裂 与 沉沦 的强度最多累积到30级 破裂 与 沉沦 的层数最多累积到5层",
+    "施加折射的烧伤: • 拼点胜利后根据拼点次数按比例增加 （增加量：基础值为10，从第二次拼点起，每次拼点增加20%） • 击杀敌方单位时，若击杀的敌方单位等级不低于自身，则增加10 • 若友方单位击杀的敌方单位等级不低于自身等级，则增加5"
+  ],
+  "skills": [
+    {
+      "skill_name": "啮合的瞬间",
+      "icon_id": "9007001",
+      "sin_type": "怠惰",
+      "damage_type": "打击",
+      "base_value": 6,
+      "coin_power": 9703,
+      "coin_count": 2,
+      "attack_level": 61,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[使用时] 使自身获得3层 充能",
+        "[命中时] 对目标施加1层 啮合的时间 - 若目标带有负面状态，则改为施加2层 啮合的时间",
+        "[命中时] 下回合对目标施加3层 麻痹"
+      ]
+    },
+    {
+      "skill_name": "吸收时间",
+      "icon_id": "9007002",
+      "sin_type": "傲慢",
+      "damage_type": "突刺",
+      "base_value": 7,
+      "coin_power": 3,
+      "coin_count": 2,
+      "attack_level": 61,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[使用时] 使自身获得4层 充能",
+        "[命中时] 下回合使自身获得3层 时间租赁",
+        "[命中时] 下回合对目标施加3层 束缚"
+      ]
+    },
+    {
+      "skill_name": "加速的瞬间",
+      "icon_id": "9007003",
+      "sin_type": "嫉妒",
+      "damage_type": "打击",
+      "base_value": 6,
+      "coin_power": 5793,
+      "coin_count": 5,
+      "attack_level": 61,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[命中时] 下回合对目标施加2层 束缚",
+        "[命中时] 对目标施加1层 啮合的时间",
+        "[命中时] 使自身获得4层 充能"
+      ]
+    },
+    {
+      "skill_name": "充能防御",
+      "icon_id": "9007004",
+      "sin_type": "常规",
+      "damage_type": "守备",
+      "base_value": 8,
+      "coin_power": 79,
+      "coin_count": 1,
+      "attack_level": 0,
+      "attack_weight": 1,
+      "is_guard": true,
+      "guard_type": "防御",
+      "importance": 0,
+      "coin_effects": [
+        "战斗开始使自身获得2层充能"
+      ]
+    }
+  ],
+  "is_ally": false,
+  "_structured": true,
+  "appear_stages": [
+    "折射轨道2号线复刻-第4站"
+  ],
+  "enemy_id": "折射轨道2号线复刻-第4站|折射的T公司3级征收人员|",
+  "defense": 63,
+  "speed": "1~4",
+  "_schema_version": 1
+}

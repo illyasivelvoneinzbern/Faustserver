@@ -1,0 +1,21 @@
+{
+  "id": "gift_9255",
+  "title": "拍手啪啪！",
+  "url": "https://limbuscompany.huijiwiki.com/wiki/E.G.O饰品",
+  "categories": [
+    "E.G.O饰品"
+  ],
+  "content": "使敌方单位增加震颤强度，对敌方单位施加震颤层数或对敌方单位施加特殊震颤的基础技能拼点胜利时，随机使目标以以下的特殊震颤振幅纠缠(每回合最多1次)\n- 震颤-灼热\n- 震颤-大出血\n- 震颤-回响\n- 震颤-崩坏\n- 震颤-锁链（我方）",
+  "source": "tabx",
+  "_structured": true,
+  "page_type": "ego_gift",
+  "gift_name": "拍手啪啪！",
+  "rarity": 4,
+  "cost": "400",
+  "effect_types": "震颤",
+  "attack_type": "忧郁",
+  "location": "镜像迷宫",
+  "stage": "base",
+  "special": "极限模式节点-血腥味",
+  "_schema_version": 1
+}

@@ -1,0 +1,127 @@
+{
+  "page_type": "enemy",
+  "title": "紫罗兰的正午-困难模式",
+  "enemy_name": "请给我们爱",
+  "battle_stage": "紫罗兰的正午-困难模式",
+  "body_part": "右臂",
+  "hp": 254,
+  "defense_level": 45,
+  "speed_min": 1,
+  "speed_max": 5,
+  "chaos_threshold": "152/76",
+  "physical_resistances": {
+    "斩击": 0.5,
+    "突刺": 1.0,
+    "打击": 1.0
+  },
+  "sin_resistances": {
+    "暴怒": 1.0,
+    "色欲": 1.25,
+    "怠惰": 1.25,
+    "暴食": 1.0,
+    "忧郁": 2.0,
+    "傲慢": 1.0,
+    "嫉妒": 0.8
+  },
+  "panic_types": [],
+  "passives": [],
+  "skills": [
+    {
+      "skill_name": "慈悲",
+      "icon_id": "836601",
+      "sin_type": "嫉妒",
+      "damage_type": "打击",
+      "base_value": 6,
+      "coin_power": 5793,
+      "coin_count": 3,
+      "attack_level": 45,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[命中时] 对目标施加1层 嫉妒易损",
+        "[命中时] 对目标施加1层 精神裂痕"
+      ]
+    },
+    {
+      "skill_name": "爱",
+      "icon_id": "836602",
+      "sin_type": "嫉妒",
+      "damage_type": "打击",
+      "base_value": 6,
+      "coin_power": 5793,
+      "coin_count": 3,
+      "attack_level": 45,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[命中时] 对目标施加1层 嫉妒易损",
+        "[命中时] 对目标施加1层 精神裂痕"
+      ]
+    },
+    {
+      "skill_name": "闪烁的理解的文字",
+      "icon_id": "836604",
+      "sin_type": "嫉妒",
+      "damage_type": "打击",
+      "base_value": 5,
+      "coin_power": 5793,
+      "coin_count": 3,
+      "attack_level": 45,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[命中时] 对目标施加2层 嫉妒易损",
+        "[命中时] 对目标施加1层 精神裂痕"
+      ]
+    },
+    {
+      "skill_name": "不能理解",
+      "icon_id": "836605",
+      "sin_type": "嫉妒",
+      "damage_type": "防御",
+      "base_value": 10,
+      "coin_power": 5793,
+      "coin_count": 1,
+      "attack_level": 0,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "使用时使自身获得2层守护"
+      ]
+    },
+    {
+      "skill_name": "涌出的安息之臂",
+      "icon_id": "836606",
+      "sin_type": "嫉妒",
+      "damage_type": "打击",
+      "base_value": 20,
+      "coin_power": 5793,
+      "coin_count": 2,
+      "attack_level": 45,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[命中时] 造成固定100点伤害"
+      ]
+    }
+  ],
+  "is_ally": false,
+  "_structured": true,
+  "appear_stages": [
+    "紫罗兰的正午-困难模式"
+  ],
+  "enemy_id": "紫罗兰的正午-困难模式|请给我们爱|右臂",
+  "defense": 45,
+  "speed": "1~5",
+  "_schema_version": 1
+}

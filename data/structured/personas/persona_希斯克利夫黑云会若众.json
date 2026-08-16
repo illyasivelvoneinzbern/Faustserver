@@ -1,0 +1,645 @@
+{
+  "page_type": "personality",
+  "title": "希斯克利夫黑云会若众",
+  "sinner": "希斯克利夫",
+  "sinner_id": "heathcliff",
+  "personality_name": "希斯克利夫黑云会若众",
+  "release_date": "2025.02.06",
+  "acquisition": "第5赛季活动赠送",
+  "sin_affinities": {
+    "暴怒": 3,
+    "傲慢": 2,
+    "色欲": 1
+  },
+  "physical_resistances": {
+    "斩击": 0.5,
+    "突刺": 1.0,
+    "打击": 2.0
+  },
+  "ego_resources": {
+    "暴怒": 3,
+    "傲慢": 2,
+    "色欲": 1
+  },
+  "skills": [
+    {
+      "skill_index": 0,
+      "skill_name": "云斩",
+      "sin_type": "暴怒",
+      "damage_type": "斩击",
+      "guard_type": "",
+      "attack_capacity": 1,
+      "coin_count": 3,
+      "stage_groups": [
+        [
+          {
+            "stage": "I",
+            "base_value": 3,
+            "coin_power": 3,
+            "effects": [
+              {
+                "timing": "使用时",
+                "description": "下回合使自身获得1层 忍耐 (每回合最多1次)"
+              },
+              {
+                "timing": "命中时",
+                "description": "使目标增加1级 流血 强度"
+              },
+              {
+                "timing": "命中时",
+                "description": "使目标增加1级 流血 强度"
+              },
+              {
+                "timing": "命中时",
+                "description": "对目标施加1层 攻击等级降低"
+              }
+            ],
+            "raw_text": "基础值： 3 变动值： +3 [使用时] 下回合使自身获得1层 忍耐 (每回合最多1次) [命中时] 使目标增加1级 流血 强度 [命中时] 使目标增加1级 流血 强度 [命中时] 对目标施加1层 攻击等级降低"
+          },
+          {
+            "stage": "II",
+            "base_value": 3,
+            "coin_power": 3,
+            "effects": [
+              {
+                "timing": "使用时",
+                "description": "下回合使自身获得1层 忍耐 (每回合最多1次)"
+              },
+              {
+                "timing": "命中时",
+                "description": "使目标增加1级 流血 强度"
+              },
+              {
+                "timing": "命中时",
+                "description": "使目标增加1级 流血 强度"
+              },
+              {
+                "timing": "命中时",
+                "description": "对目标施加1层 攻击等级降低"
+              }
+            ],
+            "raw_text": "基础值： 3 变动值： +3 若目标的 流血 强度不低于6级，则使本技能的硬币威力+1 [使用时] 下回合使自身获得1层 忍耐 (每回合最多1次) [命中时] 使目标增加1级 流血 强度 [命中时] 使目标增加1级 流血 强度 [命中时] 对目标施加1层 攻击等级降低"
+          },
+          {
+            "stage": "III",
+            "base_value": 3,
+            "coin_power": 4,
+            "effects": [
+              {
+                "timing": "使用时",
+                "description": "下回合使自身获得1层 忍耐 (每回合最多1次)"
+              },
+              {
+                "timing": "命中时",
+                "description": "使目标增加1级 流血 强度"
+              },
+              {
+                "timing": "命中时",
+                "description": "使目标增加1级 流血 强度"
+              },
+              {
+                "timing": "命中时",
+                "description": "对目标施加1层 攻击等级降低"
+              }
+            ],
+            "raw_text": "基础值： 3 变动值： +4 若目标的 流血 强度不低于6级，则使本技能的硬币威力+1 [使用时] 下回合使自身获得1层 忍耐 (每回合最多1次) [命中时] 使目标增加1级 流血 强度 [命中时] 使目标增加1级 流血 强度 [命中时] 对目标施加1层 攻击等级降低"
+          },
+          {
+            "stage": "IV",
+            "base_value": 3,
+            "coin_power": 4,
+            "effects": [
+              {
+                "timing": "使用时",
+                "description": "下回合使自身获得2层 忍耐 (每回合最多1次)"
+              },
+              {
+                "timing": "命中时",
+                "description": "使目标增加1级 流血 强度"
+              },
+              {
+                "timing": "命中时",
+                "description": "使目标增加1级 流血 强度"
+              },
+              {
+                "timing": "命中时",
+                "description": "对目标施加1层 攻击等级降低"
+              }
+            ],
+            "raw_text": "基础值： 3 变动值： +4 目标每带有6级 流血 强度，使本技能的硬币威力+1（最多+2） [使用时] 下回合使自身获得2层 忍耐 (每回合最多1次) [命中时] 使目标增加1级 流血 强度 [命中时] 使目标增加1级 流血 强度 [命中时] 对目标施加1层 攻击等级降低"
+          }
+        ]
+      ],
+      "coin_effects": [
+        {
+          "coin_index": 0,
+          "description": "技能一"
+        },
+        {
+          "coin_index": 0,
+          "description": "云斩 3"
+        },
+        {
+          "coin_index": 0,
+          "timing": "",
+          "description": "2"
+        },
+        {
+          "coin_index": 0,
+          "description": "+2"
+        },
+        {
+          "coin_index": 0,
+          "description": "1"
+        },
+        {
+          "coin_index": 0,
+          "description": "基础值： 3 变动值： +3 [使用时] 下回合使自身获得1层 忍耐 (每回合最多1次)"
+        },
+        {
+          "coin_index": 1,
+          "timing": "命中时",
+          "description": "[命中时] 使目标增加1级 流血 强度"
+        },
+        {
+          "coin_index": 2,
+          "timing": "命中时",
+          "description": "[命中时] 使目标增加1级 流血 强度 [命中时] 对目标施加1层 攻击等级降低"
+        },
+        {
+          "coin_index": 1,
+          "timing": "命中时",
+          "description": "[命中时] 使目标增加1级 流血 强度"
+        },
+        {
+          "coin_index": 2,
+          "timing": "命中时",
+          "description": "[命中时] 使目标增加1级 流血 强度 [命中时] 对目标施加1层 攻击等级降低"
+        },
+        {
+          "coin_index": 1,
+          "timing": "命中时",
+          "description": "[命中时] 使目标增加1级 流血 强度"
+        },
+        {
+          "coin_index": 2,
+          "timing": "命中时",
+          "description": "[命中时] 使目标增加1级 流血 强度 [命中时] 对目标施加1层 攻击等级降低"
+        },
+        {
+          "coin_index": 1,
+          "timing": "命中时",
+          "description": "[命中时] 使目标增加1级 流血 强度"
+        },
+        {
+          "coin_index": 2,
+          "timing": "命中时",
+          "description": "[命中时] 使目标增加1级 流血 强度 [命中时] 对目标施加1层 攻击等级降低"
+        }
+      ],
+      "wikitext_key": "1技能"
+    },
+    {
+      "skill_index": 1,
+      "skill_name": "旋云",
+      "sin_type": "傲慢",
+      "damage_type": "斩击",
+      "guard_type": "",
+      "attack_capacity": 1,
+      "coin_count": 3,
+      "stage_groups": [
+        [
+          {
+            "stage": "I",
+            "base_value": 3,
+            "coin_power": 6,
+            "effects": [
+              {
+                "timing": "命中时",
+                "description": "使目标增加2级 流血 强度"
+              },
+              {
+                "timing": "命中时",
+                "description": "对目标施加2层 流血"
+              },
+              {
+                "timing": "命中时",
+                "description": "对目标施加1层 虚弱 (每回合最多1次)"
+              }
+            ],
+            "raw_text": "基础值： 3 变动值： +6 [命中时] 使目标增加2级 流血 强度 [命中时] 对目标施加2层 流血 [命中时] 对目标施加1层 虚弱 (每回合最多1次)"
+          },
+          {
+            "stage": "II",
+            "base_value": 3,
+            "coin_power": 6,
+            "effects": [
+              {
+                "timing": "命中时",
+                "description": "使目标增加2级 流血 强度"
+              },
+              {
+                "timing": "正面命中时",
+                "description": "对目标施加1层 斩击易损"
+              },
+              {
+                "timing": "命中时",
+                "description": "对目标施加2层 流血"
+              },
+              {
+                "timing": "命中时",
+                "description": "对目标施加1层 虚弱 (每回合最多1次)"
+              }
+            ],
+            "raw_text": "基础值： 3 变动值： +6 若目标的 流血 强度不低于6级，则使本技能的硬币威力+1 [命中时] 使目标增加2级 流血 强度 [正面命中时] 对目标施加1层 斩击易损 [命中时] 对目标施加2层 流血 [命中时] 对目标施加1层 虚弱 (每回合最多1次)"
+          },
+          {
+            "stage": "III",
+            "base_value": 4,
+            "coin_power": 6,
+            "effects": [
+              {
+                "timing": "命中时",
+                "description": "使目标增加2级 流血 强度"
+              },
+              {
+                "timing": "正面命中时",
+                "description": "对目标施加1层 斩击易损"
+              },
+              {
+                "timing": "命中时",
+                "description": "对目标施加2层 流血"
+              },
+              {
+                "timing": "命中时",
+                "description": "对目标施加1层 虚弱 (每回合最多1次)"
+              }
+            ],
+            "raw_text": "基础值： 4 变动值： +6 若目标的 流血 强度不低于6级，则使本技能的硬币威力+1 [命中时] 使目标增加2级 流血 强度 [正面命中时] 对目标施加1层 斩击易损 [命中时] 对目标施加2层 流血 [命中时] 对目标施加1层 虚弱 (每回合最多1次)"
+          },
+          {
+            "stage": "IV",
+            "base_value": 4,
+            "coin_power": 6,
+            "effects": [
+              {
+                "timing": "使用时",
+                "description": "下回合使自身获得1层 忍耐 (每回合最多1次)"
+              },
+              {
+                "timing": "命中时",
+                "description": "使目标增加2级 流血 强度"
+              },
+              {
+                "timing": "正面命中时",
+                "description": "对目标施加1层 斩击易损"
+              },
+              {
+                "timing": "命中时",
+                "description": "对目标施加2层 流血"
+              },
+              {
+                "timing": "命中时",
+                "description": "对目标施加1层 虚弱 (每回合最多2次)"
+              }
+            ],
+            "raw_text": "基础值： 4 变动值： +6 目标每带有6级 流血 强度，使本技能的硬币威力+1（最多+2） [使用时] 下回合使自身获得1层 忍耐 (每回合最多1次) [命中时] 使目标增加2级 流血 强度 [正面命中时] 对目标施加1层 斩击易损 [命中时] 对目标施加2层 流血 [命中时] 对目标施加1层 虚弱 (每回合最多2次)"
+          }
+        ]
+      ],
+      "coin_effects": [
+        {
+          "coin_index": 0,
+          "description": "技能二"
+        },
+        {
+          "coin_index": 0,
+          "description": "旋云 2"
+        },
+        {
+          "coin_index": 0,
+          "timing": "",
+          "description": "2"
+        },
+        {
+          "coin_index": 0,
+          "description": "+3"
+        },
+        {
+          "coin_index": 0,
+          "description": "1"
+        },
+        {
+          "coin_index": 0,
+          "description": "基础值： 3 变动值： +6"
+        },
+        {
+          "coin_index": 1,
+          "timing": "命中时",
+          "description": "[命中时] 使目标增加2级 流血 强度"
+        },
+        {
+          "coin_index": 2,
+          "timing": "命中时",
+          "description": "[命中时] 对目标施加2层 流血 [命中时] 对目标施加1层 虚弱 (每回合最多1次)"
+        },
+        {
+          "coin_index": 1,
+          "timing": "命中时",
+          "description": "[命中时] 使目标增加2级 流血 强度 [正面命中时] 对目标施加1层 斩击易损"
+        },
+        {
+          "coin_index": 2,
+          "timing": "命中时",
+          "description": "[命中时] 对目标施加2层 流血 [命中时] 对目标施加1层 虚弱 (每回合最多1次)"
+        },
+        {
+          "coin_index": 1,
+          "timing": "命中时",
+          "description": "[命中时] 使目标增加2级 流血 强度 [正面命中时] 对目标施加1层 斩击易损"
+        },
+        {
+          "coin_index": 2,
+          "timing": "命中时",
+          "description": "[命中时] 对目标施加2层 流血 [命中时] 对目标施加1层 虚弱 (每回合最多1次)"
+        },
+        {
+          "coin_index": 1,
+          "timing": "命中时",
+          "description": "[命中时] 使目标增加2级 流血 强度 [正面命中时] 对目标施加1层 斩击易损"
+        },
+        {
+          "coin_index": 2,
+          "timing": "命中时",
+          "description": "[命中时] 对目标施加2层 流血 [命中时] 对目标施加1层 虚弱 (每回合最多2次)"
+        }
+      ],
+      "wikitext_key": "2技能"
+    },
+    {
+      "skill_index": 2,
+      "skill_name": "雷鸣斩",
+      "sin_type": "色欲",
+      "damage_type": "斩击",
+      "guard_type": "",
+      "attack_capacity": 1,
+      "coin_count": 4,
+      "stage_groups": [
+        [
+          {
+            "stage": "I",
+            "base_value": 4,
+            "coin_power": 4,
+            "effects": [
+              {
+                "timing": "战斗开始",
+                "description": "下回合使自身获得1层 云壁"
+              },
+              {
+                "timing": "使用时",
+                "description": "下回合使自身获得1层 忍耐 (每回合最多1次)"
+              },
+              {
+                "timing": "命中时",
+                "description": "使目标增加2级 流血 强度"
+              },
+              {
+                "timing": "命中时",
+                "description": "使本技能最后一枚硬币造成的伤害+10%"
+              },
+              {
+                "timing": "命中时",
+                "description": "对目标施加1层 斩击易损"
+              },
+              {
+                "timing": "命中时",
+                "description": "使本技能最后一枚硬币造成的伤害+10% 目标每带有1种 负面状态 ，使本硬币造成的伤害+10%(最多30%)"
+              },
+              {
+                "timing": "命中时",
+                "description": "使目标增加6级 流血 强度"
+              }
+            ],
+            "raw_text": "基础值： 4 变动值： +4 若目标的 流血 强度不低于6级，则使本技能的硬币威力+1 [战斗开始] 下回合使自身获得1层 云壁 [使用时] 下回合使自身获得1层 忍耐 (每回合最多1次) [命中时] 使目标增加2级 流血 强度 [命中时] 使本技能最后一枚硬币造成的伤害+10% [命中时] 对目标施加1层 斩击易损 [命中时] 使本技能最后一枚硬币造成的伤害+10% 目标每带有1种 负面状态 ，使本硬币造成的伤害+10%(最多30%) [命中时] 使目标增加6级 流血 强度"
+          },
+          {
+            "stage": "II",
+            "base_value": 5,
+            "coin_power": 4,
+            "effects": [
+              {
+                "timing": "战斗开始",
+                "description": "下回合使自身获得1层 云壁"
+              },
+              {
+                "timing": "使用时",
+                "description": "下回合使自身获得1层 忍耐 (每回合最多1次)"
+              },
+              {
+                "timing": "拼点胜利",
+                "description": "下回合使自身获得1层 黑云刀 (每回合最多1次)"
+              },
+              {
+                "timing": "命中时",
+                "description": "使目标增加2级 流血 强度"
+              },
+              {
+                "timing": "命中时",
+                "description": "使本技能最后一枚硬币造成的伤害+10%"
+              },
+              {
+                "timing": "命中时",
+                "description": "对目标施加1层 斩击易损"
+              },
+              {
+                "timing": "命中时",
+                "description": "使本技能最后一枚硬币造成的伤害+10% 目标每带有1种 负面状态 ，使本硬币造成的伤害+10%(最多100%)"
+              },
+              {
+                "timing": "命中时",
+                "description": "使目标增加6级 流血 强度"
+              }
+            ],
+            "raw_text": "基础值： 5 变动值： +4 目标每带有6级 流血 强度，使本技能的硬币威力+1(最多+2) [战斗开始] 下回合使自身获得1层 云壁 [使用时] 下回合使自身获得1层 忍耐 (每回合最多1次) [拼点胜利] 下回合使自身获得1层 黑云刀 (每回合最多1次) [命中时] 使目标增加2级 流血 强度 [命中时] 使本技能最后一枚硬币造成的伤害+10% [命中时] 对目标施加1层 斩击易损 [命中时] 使本技能最后一枚硬币造成的伤害+10% 目标每带有1种 负面状态 ，使本硬币造成的伤害+10%(最多100%) [命中时] 使目标增加6级 流血 强度"
+          }
+        ]
+      ],
+      "coin_effects": [
+        {
+          "coin_index": 0,
+          "description": "技能三"
+        },
+        {
+          "coin_index": 0,
+          "description": "雷鸣斩 1"
+        },
+        {
+          "coin_index": 0,
+          "timing": "",
+          "description": "3"
+        },
+        {
+          "coin_index": 0,
+          "description": "+5"
+        },
+        {
+          "coin_index": 0,
+          "description": "1"
+        },
+        {
+          "coin_index": 0,
+          "description": "基础值： 4 变动值： +4 若目标的 流血 强度不低于6级，则使本技能的硬币威力+1 [战斗开始] 下回合使自身获得1层 云壁 [使用时] 下回合使自身获得1层 忍耐 (每回合最多1次)"
+        },
+        {
+          "coin_index": 1,
+          "timing": "命中时",
+          "description": "[命中时] 使目标增加2级 流血 强度 [命中时] 使本技能最后一枚硬币造成的伤害+10%"
+        },
+        {
+          "coin_index": 2,
+          "timing": "命中时",
+          "description": "[命中时] 对目标施加1层 斩击易损 [命中时] 使本技能最后一枚硬币造成的伤害+10%"
+        },
+        {
+          "coin_index": 3,
+          "timing": "命中时",
+          "description": "目标每带有1种 负面状态 ，使本硬币造成的伤害+10%(最多30%) [命中时] 使目标增加6级 流血 强度"
+        },
+        {
+          "coin_index": 1,
+          "timing": "命中时",
+          "description": "[命中时] 使目标增加2级 流血 强度 [命中时] 使本技能最后一枚硬币造成的伤害+10%"
+        },
+        {
+          "coin_index": 2,
+          "timing": "命中时",
+          "description": "[命中时] 对目标施加1层 斩击易损 [命中时] 使本技能最后一枚硬币造成的伤害+10%"
+        },
+        {
+          "coin_index": 3,
+          "timing": "命中时",
+          "description": "目标每带有1种 负面状态 ，使本硬币造成的伤害+10%(最多100%) [命中时] 使目标增加6级 流血 强度"
+        }
+      ],
+      "wikitext_key": "3技能"
+    },
+    {
+      "skill_index": 3,
+      "skill_name": "后巷规矩",
+      "sin_type": "色欲",
+      "damage_type": "斩击",
+      "guard_type": "反击",
+      "attack_capacity": 1,
+      "coin_count": 3,
+      "stage_groups": [
+        [
+          {
+            "stage": "I",
+            "base_value": 4,
+            "coin_power": 5,
+            "effects": [
+              {
+                "timing": "可拼点反击",
+                "description": "若黑云会 副会长 以实玛利在场，则触发以下效果 - 使本技能中的所有硬币转化为 不可摧毁的硬币 - 拼点失败时，使本技能的最终威力+3 若自身带有 云壁 ，则使本技能所有重复使用效果无条件生效"
+              },
+              {
+                "timing": "命中时",
+                "description": "使目标增加2级 流血 强度"
+              },
+              {
+                "timing": "命中时",
+                "description": "若自身带有 黑云刀 ，则重复使用本硬币1次(每个技能最多1次)"
+              },
+              {
+                "timing": "命中时",
+                "description": "若自身带有 临战准备 ，则重复使用本硬币1次(每个技能最多1次)"
+              }
+            ],
+            "raw_text": "基础值： 4 变动值： +5 [可拼点反击] 若黑云会 副会长 以实玛利在场，则触发以下效果 - 使本技能中的所有硬币转化为 不可摧毁的硬币 - 拼点失败时，使本技能的最终威力+3 若自身带有 云壁 ，则使本技能所有重复使用效果无条件生效 [命中时] 使目标增加2级 流血 强度 [命中时] 若自身带有 黑云刀 ，则重复使用本硬币1次(每个技能最多1次) [命中时] 若自身带有 临战准备 ，则重复使用本硬币1次(每个技能最多1次)"
+          },
+          {
+            "stage": "II",
+            "base_value": 4,
+            "coin_power": 5,
+            "effects": [
+              {
+                "timing": "可拼点反击",
+                "description": "若黑云会 副会长 以实玛利在场，则触发以下效果 - 使本技能中的所有硬币转化为 不可摧毁的硬币 - 拼点失败时，使本技能的最终威力+4 目标每带有1种 负面状态 ，使本技能造成的伤害+10%(最多100%) 若自身带有 云壁 ，则使本技能所有重复使用效果无条件生效"
+              },
+              {
+                "timing": "命中时",
+                "description": "使目标增加2级 流血 强度"
+              },
+              {
+                "timing": "命中时",
+                "description": "若自身带有 黑云刀 ，则重复使用本硬币1次(每个技能最多1次)"
+              },
+              {
+                "timing": "命中时",
+                "description": "若自身带有 临战准备 ，则重复使用本硬币1次(每个技能最多1次)"
+              }
+            ],
+            "raw_text": "基础值： 4 变动值： +5 [可拼点反击] 若黑云会 副会长 以实玛利在场，则触发以下效果 - 使本技能中的所有硬币转化为 不可摧毁的硬币 - 拼点失败时，使本技能的最终威力+4 目标每带有1种 负面状态 ，使本技能造成的伤害+10%(最多100%) 若自身带有 云壁 ，则使本技能所有重复使用效果无条件生效 [命中时] 使目标增加2级 流血 强度 [命中时] 若自身带有 黑云刀 ，则重复使用本硬币1次(每个技能最多1次) [命中时] 若自身带有 临战准备 ，则重复使用本硬币1次(每个技能最多1次)"
+          }
+        ]
+      ],
+      "coin_effects": [
+        {
+          "coin_index": 0,
+          "description": "守备技能"
+        },
+        {
+          "coin_index": 0,
+          "description": "后巷规矩"
+        },
+        {
+          "coin_index": 0,
+          "timing": "",
+          "description": "1"
+        },
+        {
+          "coin_index": 0,
+          "description": "+4"
+        },
+        {
+          "coin_index": 0,
+          "description": "1"
+        },
+        {
+          "coin_index": 0,
+          "timing": "",
+          "description": "不可摧毁的硬币"
+        },
+        {
+          "coin_index": 1,
+          "timing": "命中时",
+          "description": "[命中时] 使目标增加2级 流血 强度 [命中时] 若自身带有 黑云刀 ，则重复使用本硬币1次(每个技能最多1次) [命中时] 若自身带有 临战准备 ，则重复使用本硬币1次(每个技能最多1次)"
+        },
+        {
+          "coin_index": 0,
+          "timing": "",
+          "description": "不可摧毁的硬币"
+        },
+        {
+          "coin_index": 1,
+          "timing": "命中时",
+          "description": "[命中时] 使目标增加2级 流血 强度 [命中时] 若自身带有 黑云刀 ，则重复使用本硬币1次(每个技能最多1次) [命中时] 若自身带有 临战准备 ，则重复使用本硬币1次(每个技能最多1次)"
+        }
+      ],
+      "wikitext_key": "守备技能4"
+    }
+  ],
+  "battle_passive": "人格被动1071201\n人格被动1071202\n人格被动1071221",
+  "support_passive": "",
+  "notes": "",
+  "voice_lines": [],
+  "skill_voice": [],
+  "_structured": true,
+  "id": "wiki_希斯克利夫黑云会若众",
+  "url": "https://limbuscompany.huijiwiki.com/wiki/希斯克利夫黑云会若众",
+  "categories": [
+    "人格"
+  ],
+  "source": "wiki",
+  "_schema_version": 1
+}

@@ -1,0 +1,22 @@
+{
+  "id": "gift_9775",
+  "title": "强化剂Mk.4",
+  "url": "https://limbuscompany.huijiwiki.com/wiki/E.G.O饰品",
+  "categories": [
+    "E.G.O饰品"
+  ],
+  "content": "增加破裂强度或施加破裂层数的基础攻击技能的最后一枚硬币命中破裂强度低于15级的敌方单位时，对其施加3层破裂(每回合每名友方单位最多1次)\n施加破裂层数的基础攻击技能的拼点威力+1，造成的伤害+20%",
+  "source": "tabx",
+  "_structured": true,
+  "page_type": "ego_gift",
+  "gift_name": "强化剂Mk.4",
+  "rarity": 3,
+  "cost": "254",
+  "effect_types": "破裂",
+  "attack_type": "暴怒",
+  "location": "LCB定期体检、镜像迷宫",
+  "stage": "base",
+  "special": "LCB定期体检",
+  "event": "事件-尝尝看",
+  "_schema_version": 1
+}

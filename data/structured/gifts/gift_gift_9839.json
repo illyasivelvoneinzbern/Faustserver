@@ -1,0 +1,21 @@
+{
+  "id": "gift_9839",
+  "title": "造型古典的拆信刀",
+  "url": "https://limbuscompany.huijiwiki.com/wiki/E.G.O饰品",
+  "categories": [
+    "E.G.O饰品"
+  ],
+  "content": "攻击容量不低于2的技能造成的伤害+15%\n增加震颤强度，施加震颤层数或施加特殊震颤的技能改为造成的伤害+(15+攻击容量×5)%(最多+50%)\n[未照耀的荣光 格里高尔 E.G.O专属效果]\n- 觉醒：每重复使用1次该E.G.O技能的硬币，使其造成的伤害+20%(最多+60%)\n- 侵蚀：攻击前每消耗10层鞘中人，使自身获得1层伤害强化(最多4层)",
+  "source": "tabx",
+  "_structured": true,
+  "page_type": "ego_gift",
+  "gift_name": "造型古典的拆信刀",
+  "rarity": 4,
+  "cost": "400",
+  "effect_types": "震颤",
+  "attack_type": "怠惰",
+  "location": "善意的巡礼",
+  "stage": "base",
+  "special": "善意的巡礼",
+  "_schema_version": 1
+}

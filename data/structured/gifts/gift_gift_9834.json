@@ -1,0 +1,22 @@
+{
+  "id": "gift_9834",
+  "title": "恐鱼干",
+  "url": "https://limbuscompany.huijiwiki.com/wiki/E.G.O饰品",
+  "categories": [
+    "E.G.O饰品"
+  ],
+  "content": "回合开始时，对全体敌方单位(若是异想体，则改为所有部位)施加3层防御等级降低\n- 若登场的敌方单位包括恐鱼，则改为施加7层防御等级降低",
+  "source": "tabx",
+  "_structured": true,
+  "page_type": "ego_gift",
+  "gift_name": "恐鱼干",
+  "rarity": 4,
+  "cost": "400",
+  "effect_types": "泛用",
+  "attack_type": "傲慢",
+  "location": "善意的巡礼",
+  "stage": "base",
+  "special": "善意的巡礼",
+  "event": "事件-深海教会为了将伊比利亚人恐鱼化，假借救助饥饿的人之名，分发带有恐鱼肉的食物。",
+  "_schema_version": 1
+}

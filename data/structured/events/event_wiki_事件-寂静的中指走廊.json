@@ -1,0 +1,38 @@
+{
+  "page_type": "event",
+  "title": "事件-寂静的中指走廊",
+  "event_name": "寂静的中指走廊",
+  "narration": "在一个看不见天花板的空间里，我们徘徊在一排排无尽高耸的陈列架之间。\n穿过数不清的玩具盒后……\n“这是什么？”\n我们发现了一个仿佛在炫耀般独自立着的木质手指模型。\n在仿佛要抓住什么而弯曲的手指之间，嵌着一个指虎。\n要是拿走它的话，会不会能派上用场呢？\n\n拿走。\n【让哪位罪人上前？】\n有利判定\n：\n≥12\n不利判定\n：\n≥24\n判定成功\n：\n罪人[X]伸手去取指虎。\n将蜷曲的手指一根一根费力掰开后，罪人[X]终于取出了那枚刻有中指标记的指虎。\n获得\n！\n判定失败\n：\n罪人[X]伸手去取指虎。\n正将蜷曲的手指一根一根掰开时，陈列柜突然开始嘎吱晃动。\n“嗯……？！小心……！”\n没等另一名罪人的提醒说完，陈列柜便已经倒塌、砸在罪人[X]身上。\n……看来，那些手指被设计成如果不按特定顺序掰开，就会引发陈列柜倒塌。\n那枚指虎现在被深埋在残骸下，再也找不到了。\n所选人格失去\n60点体力\n！\n\n不去拿。\n特意拿走的话，真的会有用到的时候吗……？\n而且只有它没被放进玩具盒里这一点也很可疑，所以我们决定不去拿。\n什么都没有发生。",
+  "options": [
+    {
+      "choice_text": "拿走。",
+      "check_type": "有利判定",
+      "check_sin": "嫉妒",
+      "check_threshold": 12,
+      "success_outcomes": [
+        "获得 ！ 判定失败 ： 罪人[X]伸手去取指虎。 正将蜷曲的手指一根一根掰开时",
+        "失去 60点体力 ！"
+      ],
+      "failure_outcomes": [
+        "失去 60点体力 ！"
+      ]
+    },
+    {
+      "choice_text": "不去拿。",
+      "check_type": "",
+      "check_sin": "",
+      "check_threshold": 0,
+      "success_outcomes": [],
+      "failure_outcomes": []
+    }
+  ],
+  "ego_gifts": [],
+  "related_abnormalities": [],
+  "trigger_location": "",
+  "_structured": true,
+  "id": "wiki_事件-寂静的中指走廊",
+  "url": "https://limbuscompany.huijiwiki.com/wiki/事件-寂静的中指走廊",
+  "categories": [],
+  "source": "wiki",
+  "_schema_version": 1
+}

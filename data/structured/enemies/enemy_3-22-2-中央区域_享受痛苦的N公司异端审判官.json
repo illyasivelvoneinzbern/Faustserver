@@ -1,0 +1,125 @@
+{
+  "page_type": "enemy",
+  "title": "3-22-2-中央区域",
+  "enemy_name": "享受痛苦的N公司异端审判官",
+  "battle_stage": "3-22-2-中央区域",
+  "body_part": "",
+  "hp": 102,
+  "defense_level": 27,
+  "speed_min": 1,
+  "speed_max": 4,
+  "chaos_threshold": "",
+  "physical_resistances": {
+    "斩击": 0.75,
+    "突刺": 1.0,
+    "打击": 2.0
+  },
+  "sin_resistances": {
+    "暴怒": 1.0,
+    "色欲": 1.0,
+    "怠惰": 1.0,
+    "暴食": 1.0,
+    "忧郁": 1.0,
+    "傲慢": 1.0,
+    "嫉妒": 1.0
+  },
+  "panic_types": [
+    "畏缩"
+  ],
+  "passives": [
+    "高贵的牺牲在此：友方单位死亡时，下回合开始时使自身获得1层 强壮 。",
+    "处刑的喜悦：击杀敌人后，下回合开始时使自身获得2层 伤害强化 。"
+  ],
+  "skills": [
+    {
+      "skill_name": "粗暴钉击",
+      "icon_id": "9003502",
+      "sin_type": "傲慢",
+      "damage_type": "突刺",
+      "base_value": 3,
+      "coin_power": 3,
+      "coin_count": 4,
+      "attack_level": 26,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[命中时] 下回合对目标施加1层 N公司的尖钉 并使其增加1级 流血 强度"
+      ]
+    },
+    {
+      "skill_name": "强力捶打",
+      "icon_id": "9003602",
+      "sin_type": "傲慢",
+      "damage_type": "打击",
+      "base_value": 2,
+      "coin_power": 3,
+      "coin_count": 2,
+      "attack_level": 26,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "2命中时 下回合对目标施加3层束缚和2层麻痹"
+      ]
+    },
+    {
+      "skill_name": "威严的宣教",
+      "icon_id": "9003503",
+      "sin_type": "色欲",
+      "damage_type": "打击",
+      "base_value": 5,
+      "coin_power": 9,
+      "coin_count": 2,
+      "attack_level": 26,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[命中时] 下回合对目标施加2层 虚弱"
+      ]
+    },
+    {
+      "skill_name": "粗暴的异端审判",
+      "icon_id": "9003701",
+      "sin_type": "暴怒",
+      "damage_type": "打击",
+      "base_value": 6,
+      "coin_power": 987,
+      "coin_count": 3,
+      "attack_level": 26,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "2正面命中时对目标施加1层N公司的尖钉",
+        "3命中时若目标的N公司的尖钉层数高于5层，则在下回合对其施加10层束缚"
+      ]
+    }
+  ],
+  "is_ally": false,
+  "_structured": true,
+  "appear_stages": [
+    "3-22-2-中央区域",
+    "3-22-2-礼拜堂内部（右）",
+    "3-22-2-礼拜堂内部（左）",
+    "3-22-2-被封锁的祈祷室（左）",
+    "3-22-3-仪式广场（2）",
+    "3-22-3-仪式广场（4）",
+    "主线战斗3-16",
+    "主线战斗3-17",
+    "主线战斗3-18",
+    "主线战斗3-19",
+    "主线战斗3-20",
+    "第一关口-战斗",
+    "经验采光-3"
+  ],
+  "enemy_id": "3-22-2-中央区域|享受痛苦的N公司异端审判官|",
+  "defense": 27,
+  "speed": "1~4",
+  "_schema_version": 1
+}

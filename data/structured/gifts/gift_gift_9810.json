@@ -1,0 +1,22 @@
+{
+  "id": "gift_9810",
+  "title": "精神屏蔽力场",
+  "url": "https://limbuscompany.huijiwiki.com/wiki/E.G.O饰品",
+  "categories": [
+    "E.G.O饰品"
+  ],
+  "content": "关卡开始时，使全体友方单位获得2层精神屏蔽力场",
+  "source": "tabx",
+  "_structured": true,
+  "page_type": "ego_gift",
+  "gift_name": "精神屏蔽力场",
+  "rarity": 2,
+  "cost": "205",
+  "effect_types": "泛用",
+  "attack_type": "暴食",
+  "location": "镜像迷宫",
+  "stage": "base",
+  "special": "憎恶与绝望",
+  "event": "事件-脑叶公司 中央本部",
+  "_schema_version": 1
+}

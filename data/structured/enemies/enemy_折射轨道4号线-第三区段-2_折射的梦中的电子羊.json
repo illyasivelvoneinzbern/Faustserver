@@ -1,0 +1,179 @@
+{
+  "page_type": "enemy",
+  "title": "折射轨道4号线-第三区段-2",
+  "enemy_name": "折射的梦中的电子羊",
+  "battle_stage": "折射轨道4号线-第三区段-2",
+  "body_part": "躯干",
+  "hp": 2694,
+  "defense_level": 49,
+  "speed_min": 2,
+  "speed_max": 5,
+  "chaos_threshold": "1212/-269",
+  "physical_resistances": {
+    "斩击": 1.0,
+    "突刺": 1.5,
+    "打击": 0.5
+  },
+  "sin_resistances": {
+    "暴怒": 1.5,
+    "色欲": 1.0,
+    "怠惰": 2.0,
+    "暴食": 1.0,
+    "忧郁": 1.25,
+    "傲慢": 0.75,
+    "嫉妒": 0.5
+  },
+  "panic_types": [],
+  "passives": [],
+  "skills": [
+    {
+      "skill_name": "犄角冲撞",
+      "icon_id": "860801",
+      "sin_type": "色欲",
+      "damage_type": "打击",
+      "base_value": 5,
+      "coin_power": 5,
+      "coin_count": 1,
+      "attack_level": 0,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "使用时使自身获得1层充能",
+        "1命中时下回合对目标施加2层防御等级降低"
+      ]
+    },
+    {
+      "skill_name": "羊角冲撞",
+      "icon_id": "860802",
+      "sin_type": "暴怒",
+      "damage_type": "打击",
+      "base_value": 5,
+      "coin_power": 3,
+      "coin_count": 2,
+      "attack_level": 0,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "使用时使自身获得1层充能",
+        "1命中时下回合对目标施加1层攻击等级降低",
+        "2命中时下回合对目标施加2层攻击等级降低"
+      ]
+    },
+    {
+      "skill_name": "羊嚎",
+      "icon_id": "860803",
+      "sin_type": "忧郁",
+      "damage_type": "突刺",
+      "base_value": 5,
+      "coin_power": 7,
+      "coin_count": 1,
+      "attack_level": 0,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "使用时使自身获得2层充能",
+        "1命中时下回合对目标施加1层麻痹"
+      ]
+    },
+    {
+      "skill_name": "操纵雷电",
+      "icon_id": "860804",
+      "sin_type": "忧郁",
+      "damage_type": "突刺",
+      "base_value": 5,
+      "coin_power": 4,
+      "coin_count": 2,
+      "attack_level": 0,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "使用时使自身获得2层充能",
+        "1命中时下回合对目标施加2层麻痹",
+        "2命中时下回合对目标施加2层攻击等级降低"
+      ]
+    },
+    {
+      "skill_name": "电子哀鸣",
+      "icon_id": "860805",
+      "sin_type": "嫉妒",
+      "damage_type": "突刺",
+      "base_value": 15,
+      "coin_power": 3,
+      "coin_count": 3,
+      "attack_level": 0,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "使用时自身每带有4层充能，使本技能的攻击容量+1(最多+5)",
+        "使用时自身每带有5层充能，使本技能的拼点威力+3(最多+4)",
+        "使用时自身每带有6层充能，使自身获得1层嫉妒伤害强化(最多3层)",
+        "回合结束时消耗自身所有的充能层数，解除连接的插头",
+        "1命中时下回合对目标施加4层防御等级降低",
+        "2命中时下回合对目标施加4层攻击等级降低",
+        "3命中时下回合对目标施加3层麻痹"
+      ]
+    },
+    {
+      "skill_name": "电子哀鸣",
+      "icon_id": "860806",
+      "sin_type": "嫉妒",
+      "damage_type": "突刺",
+      "base_value": 2,
+      "coin_power": 1,
+      "coin_count": 3,
+      "attack_level": 0,
+      "attack_weight": 6,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "无法拼点",
+        "使用时使自身获得10层守护",
+        "使用时自身每带有4层充能，使本技能的攻击容量+1(最多+5)",
+        "使用时自身每带有5层充能，使本技能的拼点威力+3(最多+4)",
+        "使用时自身每带有6层充能，使自身获得1层嫉妒伤害强化(最多3层)"
+      ]
+    },
+    {
+      "skill_name": "拒绝接地",
+      "icon_id": "860807",
+      "sin_type": "傲慢",
+      "damage_type": "突刺",
+      "base_value": 2,
+      "coin_power": 3,
+      "coin_count": 2,
+      "attack_level": 0,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "自身每带有1层连接的插头，使本技能的拼点威力+1",
+        "战斗开始使自身获得2×(3-自身的连接的插头层数)层守护",
+        "使用时使自身获得1层充能",
+        "拼点失败若目标带有对羊接地插头，则对自身施加1层连接的插头",
+        "1命中时下回合对目标施加1层麻痹",
+        "2命中时下回合对目标施加2层防御等级降低"
+      ]
+    }
+  ],
+  "is_ally": false,
+  "_structured": true,
+  "appear_stages": [
+    "折射轨道4号线-第三区段-2"
+  ],
+  "enemy_id": "折射轨道4号线-第三区段-2|折射的梦中的电子羊|躯干",
+  "defense": 49,
+  "speed": "2~5",
+  "_schema_version": 1
+}

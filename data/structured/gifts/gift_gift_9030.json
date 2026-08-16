@@ -1,0 +1,21 @@
+{
+  "id": "gift_9030",
+  "title": "头骨收藏",
+  "url": "https://limbuscompany.huijiwiki.com/wiki/E.G.O饰品",
+  "categories": [
+    "E.G.O饰品"
+  ],
+  "content": "傲慢技能或突刺技能攻击后，若敌方单位阵亡，则在除本回合以外的下2回合内使该友方单位的突刺技能威力+2",
+  "source": "tabx",
+  "_structured": true,
+  "page_type": "ego_gift",
+  "gift_name": "头骨收藏",
+  "rarity": 2,
+  "cost": "194",
+  "effect_types": "突刺",
+  "attack_type": "傲慢",
+  "location": "镜像迷宫",
+  "stage": "base",
+  "event": "事件-头骨收藏",
+  "_schema_version": 1
+}

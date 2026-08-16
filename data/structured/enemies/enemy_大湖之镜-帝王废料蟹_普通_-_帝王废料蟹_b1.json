@@ -1,0 +1,143 @@
+{
+  "page_type": "enemy",
+  "title": "大湖之镜-帝王废料蟹",
+  "enemy_name": "普通 - 帝王废料蟹",
+  "battle_stage": "大湖之镜-帝王废料蟹",
+  "body_part": "外壳",
+  "hp": 123,
+  "defense_level": 52,
+  "speed_min": 2,
+  "speed_max": 4,
+  "chaos_threshold": "",
+  "physical_resistances": {
+    "斩击": 0.5,
+    "突刺": 1.0,
+    "打击": 2.0
+  },
+  "sin_resistances": {
+    "暴怒": 1.0,
+    "色欲": 0.5,
+    "怠惰": 1.0,
+    "暴食": 0.75,
+    "忧郁": 2.0,
+    "傲慢": 1.0,
+    "嫉妒": 1.0
+  },
+  "panic_types": [],
+  "passives": [],
+  "skills": [
+    {
+      "skill_name": "胡乱刺击",
+      "icon_id": "806301",
+      "sin_type": "色欲",
+      "damage_type": "穿刺",
+      "base_value": 3,
+      "coin_power": 9,
+      "coin_count": 4,
+      "attack_level": 48,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[命中时] 对目标施加2层 破裂"
+      ]
+    },
+    {
+      "skill_name": "强力！刺击",
+      "icon_id": "806302",
+      "sin_type": "色欲",
+      "damage_type": "穿刺",
+      "base_value": 5,
+      "coin_power": 9,
+      "coin_count": 2,
+      "attack_level": 49,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[命中时] 对目标施加4层 破裂"
+      ]
+    },
+    {
+      "skill_name": "吐泡",
+      "icon_id": "806303",
+      "sin_type": "暴食",
+      "damage_type": "打击",
+      "base_value": 3,
+      "coin_power": 854,
+      "coin_count": 3,
+      "attack_level": 49,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[命中时] 对目标施加5层 破裂"
+      ]
+    },
+    {
+      "skill_name": "激情四蟹",
+      "icon_id": "806305",
+      "sin_type": "暴食",
+      "damage_type": "打击",
+      "base_value": 5,
+      "coin_power": 854,
+      "coin_count": 2,
+      "attack_level": 52,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[攻击后] 回合结束时，若自身外的螃蟹少于5只，则额外召唤3只螃蟹（最多5只）",
+        "[命中时] 使目标增加5级 破裂 强度"
+      ]
+    },
+    {
+      "skill_name": "蟹铲！！！",
+      "icon_id": "806304",
+      "sin_type": "暴食",
+      "damage_type": "穿刺",
+      "base_value": 5,
+      "coin_power": 854,
+      "coin_count": 2,
+      "attack_level": 51,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[命中时] 使目标增加5级 破裂 强度",
+        "[命中时] 对目标施加5层 破裂"
+      ]
+    },
+    {
+      "skill_name": "泡沫护身",
+      "icon_id": "806306",
+      "sin_type": "常规",
+      "damage_type": "防御",
+      "base_value": 5,
+      "coin_power": 79,
+      "coin_count": 1,
+      "attack_level": 0,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "使目标增加1级破裂强度"
+      ]
+    }
+  ],
+  "is_ally": false,
+  "_structured": true,
+  "appear_stages": [
+    "大湖之镜-帝王废料蟹"
+  ],
+  "enemy_id": "大湖之镜-帝王废料蟹|普通 - 帝王废料蟹|外壳",
+  "defense": 52,
+  "speed": "2~4",
+  "_schema_version": 1
+}

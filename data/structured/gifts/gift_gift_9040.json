@@ -1,0 +1,21 @@
+{
+  "id": "gift_9040",
+  "title": "明日的运势",
+  "url": "https://limbuscompany.huijiwiki.com/wiki/E.G.O饰品",
+  "categories": [
+    "E.G.O饰品"
+  ],
+  "content": "遭遇战奖励卡中的第一张变为其可能出现的最高等级。",
+  "source": "tabx",
+  "_structured": true,
+  "page_type": "ego_gift",
+  "gift_name": "明日的运势",
+  "rarity": 1,
+  "cost": "140",
+  "effect_types": "泛用",
+  "attack_type": "傲慢",
+  "location": "镜像迷宫",
+  "stage": "base",
+  "event": "事件-明日的运势",
+  "_schema_version": 1
+}

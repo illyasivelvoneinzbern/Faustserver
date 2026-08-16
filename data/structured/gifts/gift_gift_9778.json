@@ -1,0 +1,22 @@
+{
+  "id": "gift_9778",
+  "title": "常规作战用装备",
+  "url": "https://limbuscompany.huijiwiki.com/wiki/E.G.O饰品",
+  "categories": [
+    "E.G.O饰品"
+  ],
+  "content": "属于边狱公司的友方单位的2技能攻击等级+1，造成的伤害+15%；3技能的攻击等级+2，造成的伤害+30%\n若待命人员中属于边狱公司的友方单位不低于4名，则回合开始时随机使2名友方单位获得2层攻击等级提升",
+  "source": "tabx",
+  "_structured": true,
+  "page_type": "ego_gift",
+  "gift_name": "常规作战用装备",
+  "rarity": 3,
+  "cost": "252",
+  "effect_types": "泛用",
+  "attack_type": "色欲",
+  "location": "LCB定期体检、镜像迷宫",
+  "stage": "base",
+  "special": "LCB定期体检",
+  "event": "事件-同意调查",
+  "_schema_version": 1
+}

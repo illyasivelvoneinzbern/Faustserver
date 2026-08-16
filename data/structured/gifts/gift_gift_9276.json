@@ -1,0 +1,22 @@
+{
+  "id": "gift_9276",
+  "title": "白瓷砚滴",
+  "url": "https://limbuscompany.huijiwiki.com/wiki/E.G.O饰品",
+  "categories": [
+    "E.G.O饰品"
+  ],
+  "content": "友方人格获得援护防御时，使其获得2层伤害强化与2层守护\n[第1顺位友方单位专属]\n回合结束时，下回合使自身获得2层迅捷\n若人格的速度值高于敌方单位，则速度值每相差1点，使该人格造成的伤害+3%(最多+30%)",
+  "source": "tabx",
+  "_structured": true,
+  "page_type": "ego_gift",
+  "gift_name": "白瓷砚滴",
+  "rarity": 3,
+  "cost": "251",
+  "effect_types": "泛用",
+  "attack_type": "暴食",
+  "location": "经验记忆、镜像迷宫",
+  "stage": "base",
+  "special": "经验记忆",
+  "event": "事件-金笠的过去 1",
+  "_schema_version": 1
+}

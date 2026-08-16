@@ -1,0 +1,21 @@
+{
+  "id": "gift_2034",
+  "title": "损坏的竹笠",
+  "url": "https://limbuscompany.huijiwiki.com/wiki/E.G.O饰品",
+  "categories": [
+    "E.G.O饰品"
+  ],
+  "content": "关卡开始时，若属于剑契组成员的友方单位不低于3名(以参战人员为基准)，则触发该效果。\n全体友方单位造成的斩击伤害+50%。\n属于剑契组，且带有呼吸法的友方单位暴击概率固定为100%。",
+  "source": "tabx",
+  "_structured": true,
+  "page_type": "ego_gift",
+  "gift_name": "损坏的竹笠",
+  "rarity": 4,
+  "cost": "432",
+  "effect_types": "呼吸法",
+  "attack_type": "忧郁",
+  "location": "肉斩骨断",
+  "stage": "base",
+  "event": "事件-竹笠，长袍",
+  "_schema_version": 1
+}

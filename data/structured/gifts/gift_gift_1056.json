@@ -1,0 +1,21 @@
+{
+  "id": "gift_1056",
+  "title": "锐利的针与线",
+  "url": "https://limbuscompany.huijiwiki.com/wiki/E.G.O饰品",
+  "categories": [
+    "E.G.O饰品"
+  ],
+  "content": "每回合中首次使用技能对敌方单位造成伤害后，对其追加(伤害量/2)的固定伤害。",
+  "source": "tabx",
+  "_structured": true,
+  "page_type": "ego_gift",
+  "gift_name": "锐利的针与线",
+  "rarity": 2,
+  "cost": "271",
+  "effect_types": "暂无分类",
+  "attack_type": "色欲",
+  "location": "地狱鸡",
+  "stage": "base",
+  "event": "事件-鸡群的激情探戈",
+  "_schema_version": 1
+}

@@ -1,0 +1,22 @@
+{
+  "id": "gift_9795",
+  "title": "落坠的一滴",
+  "url": "https://limbuscompany.huijiwiki.com/wiki/E.G.O饰品",
+  "categories": [
+    "E.G.O饰品"
+  ],
+  "content": "回合开始时，若拥有消耗血宴的技能的友方单位不低于3名，则在本场战斗期间触发该效果。(不包括E.G.O技能，不包括待命人员)\n战斗开始时，若消耗血宴的友方单位攻击目标的流血强度不低于30级，则使其流血强度减少至15级，并获得层数相当于减少的流血强度的血宴。(每回合全体敌方单位共计最多1次，群体技能仅对主要目标生效)\n该效果每获得10层血宴，下回合使拥有消耗血宴的技能的友方单位获得1层威力提升与1层伤害强化。(最多4层)",
+  "source": "tabx",
+  "_structured": true,
+  "page_type": "ego_gift",
+  "gift_name": "落坠的一滴",
+  "rarity": 4,
+  "cost": "398",
+  "effect_types": "流血",
+  "attack_type": "色欲",
+  "location": "镜像迷宫",
+  "stage": "base",
+  "special": "梦之终焉，重新开园的拉·曼却领，无尽的游行",
+  "event": "事件-拉·曼却领嘉年华游行",
+  "_schema_version": 1
+}

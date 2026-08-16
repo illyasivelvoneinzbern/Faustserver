@@ -1,0 +1,136 @@
+{
+  "page_type": "enemy",
+  "title": "主线战斗6-37",
+  "enemy_name": "资深的埃德加家族管家1",
+  "battle_stage": "主线战斗6-37",
+  "body_part": "",
+  "hp": 231,
+  "defense_level": 38,
+  "speed_min": 3,
+  "speed_max": 5,
+  "chaos_threshold": "",
+  "physical_resistances": {
+    "斩击": 1.5,
+    "突刺": 0.5,
+    "打击": 1.0
+  },
+  "sin_resistances": {
+    "暴怒": 1.0,
+    "色欲": 1.0,
+    "怠惰": 1.0,
+    "暴食": 1.0,
+    "忧郁": 1.0,
+    "傲慢": 1.0,
+    "嫉妒": 1.0
+  },
+  "panic_types": [
+    "整理强迫",
+    "迅捷",
+    "整理强迫",
+    "易损",
+    "迅捷"
+  ],
+  "passives": [
+    "整顿:使用技能时，若目标现存体力不高于50%，则使自身技能威力+1",
+    "整理：使用技能时，若目标现存体力不高于50%，则使自身造成的伤害+30%",
+    "恐慌恢复：回合结束时，若陷入恐慌，则使自身理智值恢复为0点。"
+  ],
+  "skills": [
+    {
+      "skill_name": "还击",
+      "icon_id": "9012201",
+      "sin_type": "傲慢",
+      "damage_type": "",
+      "base_value": 0,
+      "coin_power": 3,
+      "coin_count": 2,
+      "attack_level": 46,
+      "attack_weight": 1,
+      "is_guard": true,
+      "guard_type": "防御",
+      "coin_effects": [
+        "[命中时] 下回合对目标施加2层 攻击等级降低",
+        "[正面命中时] 下回合对目标施加2层 防御等级降低"
+      ]
+    },
+    {
+      "skill_name": "阻止法",
+      "icon_id": "9012202",
+      "sin_type": "嫉妒",
+      "damage_type": "",
+      "base_value": 0,
+      "coin_power": 4,
+      "coin_count": 3,
+      "attack_level": 46,
+      "attack_weight": 1,
+      "is_guard": true,
+      "guard_type": "防御",
+      "coin_effects": [
+        "[命中时] 下回合使自身获得2层 迅捷",
+        "[命中时] 对目标施加2层 麻痹",
+        "[命中时] 下回合对目标施加2层 防御等级降低",
+        "[命中时] 下回合对目标施加2层 麻痹"
+      ]
+    },
+    {
+      "skill_name": "躯体束缚法",
+      "icon_id": "9012203",
+      "sin_type": "嫉妒",
+      "damage_type": "",
+      "base_value": 0,
+      "coin_power": 4,
+      "coin_count": 4,
+      "attack_level": 46,
+      "attack_weight": 1,
+      "is_guard": true,
+      "guard_type": "防御",
+      "coin_effects": [
+        "[命中时] 对目标施加2层 易损",
+        "[命中时] 对目标施加3层 防御等级降低",
+        "[命中时] 下回合对目标施加2层 攻击等级降低",
+        "[命中时] 下回合对目标施加2层 防御等级降低",
+        "[命中时] 下回合使自身获得3层 迅捷",
+        "[命中时] 下回合对目标施加2层 斩击抗性弱化",
+        "[正面命中时] 下回合对目标施加2层 麻痹"
+      ]
+    },
+    {
+      "skill_name": "整理整顿",
+      "icon_id": "9012204",
+      "sin_type": "色欲",
+      "damage_type": "",
+      "base_value": 0,
+      "coin_power": 6,
+      "coin_count": 2,
+      "attack_level": 46,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "coin_effects": [
+        "[命中时] 使目标增加15级 流血 强度并对其施加3层 流血",
+        "[命中时] 下回合对目标施加2层 麻痹",
+        "[命中时] 若自身的速度值高于目标至少3点，则重复使用本技能（1次）"
+      ]
+    },
+    {
+      "skill_name": "闪避",
+      "icon_id": "9012205",
+      "sin_type": "常规",
+      "damage_type": "",
+      "base_value": 0,
+      "coin_power": 6,
+      "coin_count": 1,
+      "attack_level": 0,
+      "attack_weight": 1,
+      "is_guard": true,
+      "guard_type": "闪避",
+      "coin_effects": []
+    }
+  ],
+  "is_ally": false,
+  "_structured": true,
+  "enemy_id": "主线战斗6-37|资深的埃德加家族管家1",
+  "defense": 38,
+  "speed": "3~5",
+  "_schema_version": 1
+}

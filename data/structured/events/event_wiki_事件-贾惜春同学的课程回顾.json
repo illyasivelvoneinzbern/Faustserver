@@ -1,0 +1,41 @@
+{
+  "page_type": "event",
+  "title": "事件-贾惜春同学的课程回顾",
+  "event_name": "贾惜春同学的课程回顾",
+  "narration": "为了证明自己是可以成为家主的人才，贾惜春今天也在认真听课。\n在课程结束后的课余时间里。\n贾惜春拜访了为她授课的罪人们。\n“关于今天所学的部分。有些地方我还不太明白……”\n罪人们……不，老师们欣然地倾听了贾惜春的提问。\n\n对智进行讲解。\n“为了弄清房间在重构日中的移动规则以及是否存在例外……”\n“不依赖于双眼所见，而是随心而动的话……”\n“因此比起物理层面的痛苦，若是能在精神层面上给予冲击的话……”\n负责智的几位罪人出来解答了贾惜春的疑惑。\n通过几轮问答，惜春有如解惑般点了点头。\n“谢谢。如果还有不明白的地方，我会再来请教的。”\n获得\n！\n\n对勇进行讲解。\n“首先要沉着冷静。如果仔细观察周围的话肯定会有线索，然后在那里掷骰……啊，没什么。”\n“这种时候呢~气势很重要。就算牌很烂，只要厚着脸皮笑下去……”\n“所以说！重要的是瞪人要双眼用力……”\n负责勇的几位罪人挺身而出解答了贾惜春的疑惑。\n通过几轮问答，惜春有如解惑般点了点头。\n“谢谢。如果还有不明白的地方，我会再来请教的。”\n获得\n！\n\n对仁进行讲解。\n“镜子里映出的左撇子是不知道如何与你握手的左撇子……”\n“话说那收尾人岳飞啊！为了与同伴们肝胆相照……”\n“所以要以孩·眼去看才能理·孩。”\n“……她说要以孩童的眼光去看才能理解孩童。”\n负责仁的几位罪人出来解答了贾惜春的疑惑。\n通过几轮问答，惜春有如解惑般点了点头。\n“谢谢。如果还有不明白的地方，我会再来请教的。”\n获得\n！",
+  "options": [
+    {
+      "choice_text": "对智进行讲解。",
+      "check_type": "",
+      "check_sin": "",
+      "check_threshold": 0,
+      "success_outcomes": [],
+      "failure_outcomes": []
+    },
+    {
+      "choice_text": "对勇进行讲解。",
+      "check_type": "",
+      "check_sin": "",
+      "check_threshold": 0,
+      "success_outcomes": [],
+      "failure_outcomes": []
+    },
+    {
+      "choice_text": "对仁进行讲解。",
+      "check_type": "",
+      "check_sin": "",
+      "check_threshold": 0,
+      "success_outcomes": [],
+      "failure_outcomes": []
+    }
+  ],
+  "ego_gifts": [],
+  "related_abnormalities": [],
+  "trigger_location": "",
+  "_structured": true,
+  "id": "wiki_事件-贾惜春同学的课程回顾",
+  "url": "https://limbuscompany.huijiwiki.com/wiki/事件-贾惜春同学的课程回顾",
+  "categories": [],
+  "source": "wiki",
+  "_schema_version": 1
+}

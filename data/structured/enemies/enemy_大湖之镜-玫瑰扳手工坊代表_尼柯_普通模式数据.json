@@ -1,0 +1,305 @@
+{
+  "page_type": "enemy",
+  "title": "大湖之镜-玫瑰扳手工坊代表 尼柯",
+  "enemy_name": "普通模式数据",
+  "battle_stage": "大湖之镜-玫瑰扳手工坊代表 尼柯",
+  "body_part": "",
+  "hp": 243,
+  "defense_level": 44,
+  "speed_min": 3,
+  "speed_max": 5,
+  "chaos_threshold": "",
+  "physical_resistances": {
+    "斩击": 0.5,
+    "突刺": 2.0,
+    "打击": 1.0
+  },
+  "sin_resistances": {
+    "暴怒": 1.0,
+    "色欲": 1.0,
+    "怠惰": 1.0,
+    "暴食": 1.0,
+    "忧郁": 1.0,
+    "傲慢": 1.0,
+    "嫉妒": 1.0
+  },
+  "panic_types": [],
+  "passives": [
+    "扳手启动：本回合中，根据正面命中时的硬币数量，获得相应层数的 共振 。（最多10层）",
+    "玫瑰扳手工坊代表：在本波次中，根据阵亡的友方单位数量使目标额外增加相应 震颤 强度",
+    "就剩我了吗：单独在场时，每回合获得1层 共振 和1层 震颤同步 。",
+    "那就没办法了：单独在场时，将最后攻击自身的对象指定为下回合的攻击目标。"
+  ],
+  "skills": [
+    {
+      "skill_name": "请你退后！",
+      "icon_id": "9100801",
+      "sin_type": "怠惰",
+      "damage_type": "打击",
+      "base_value": 5,
+      "coin_power": 9703,
+      "coin_count": 2,
+      "attack_level": 44,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[命中时] 使目标增加2级 震颤 强度"
+      ]
+    },
+    {
+      "skill_name": "会有点吵！",
+      "icon_id": "9100802",
+      "sin_type": "忧郁",
+      "damage_type": "打击",
+      "base_value": 3,
+      "coin_power": 3,
+      "coin_count": 3,
+      "attack_level": 44,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "2命中时使目标增加2级震颤强度",
+        "3正面命中时下回合根据目标带有的震颤强度，施加相应层数的麻痹"
+      ]
+    },
+    {
+      "skill_name": "强力增幅",
+      "icon_id": "9100803",
+      "sin_type": "怠惰",
+      "damage_type": "打击",
+      "base_value": 6,
+      "coin_power": 9703,
+      "coin_count": 2,
+      "attack_level": 44,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[命中时] 根据目标带有的 震颤 强度，相应增加 震颤 强度"
+      ]
+    },
+    {
+      "skill_name": "震颤变换",
+      "icon_id": "9100804",
+      "sin_type": "忧郁",
+      "damage_type": "打击",
+      "base_value": 3,
+      "coin_power": 3,
+      "coin_count": 3,
+      "attack_level": 44,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "2命中时使目标增加2级震颤强度",
+        "3命中时根据目标带有的震颤强度，相应增加震颤强度",
+        "正面命中时下回合根据目标带有的震颤强度，施加相应层数的麻痹"
+      ]
+    },
+    {
+      "skill_name": "震颤压缩",
+      "icon_id": "9100805",
+      "sin_type": "傲慢",
+      "damage_type": "斩击",
+      "base_value": 6,
+      "coin_power": 3,
+      "coin_count": 4,
+      "attack_level": 44,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[正面命中时] 使目标增加2级 震颤 强度",
+        "[命中时] 使目标 震颤引爆"
+      ]
+    },
+    {
+      "skill_name": "大干一场",
+      "icon_id": "9100806",
+      "sin_type": "嫉妒",
+      "damage_type": "打击",
+      "base_value": 20,
+      "coin_power": 5793,
+      "coin_count": 2,
+      "attack_level": 44,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[命中时] 使目标的混乱阈值前移10",
+        "[正面命中时] 使目标的混乱阈值前移20"
+      ]
+    },
+    {
+      "skill_name": "最终预热",
+      "icon_id": "9100807",
+      "sin_type": "常规",
+      "damage_type": "防御",
+      "base_value": 7,
+      "coin_power": 79,
+      "coin_count": 1,
+      "attack_level": 0,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "战斗开始使自身获得4层守护"
+      ]
+    },
+    {
+      "skill_name": "尝尝这招！",
+      "icon_id": "9005201",
+      "sin_type": "怠惰",
+      "damage_type": "打击",
+      "base_value": 4,
+      "coin_power": 9703,
+      "coin_count": 2,
+      "attack_level": 35,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[命中时] 使目标增加2级 震颤 强度"
+      ]
+    },
+    {
+      "skill_name": "震颤增幅",
+      "icon_id": "9005202",
+      "sin_type": "怠惰",
+      "damage_type": "打击",
+      "base_value": 5,
+      "coin_power": 9703,
+      "coin_count": 2,
+      "attack_level": 35,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[命中时] 根据目标的 震颤 强度，相应增加 震颤 强度"
+      ]
+    },
+    {
+      "skill_name": "结束了！",
+      "icon_id": "9005203",
+      "sin_type": "傲慢",
+      "damage_type": "打击",
+      "base_value": 3,
+      "coin_power": 3,
+      "coin_count": 4,
+      "attack_level": 35,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[正面命中时] 使目标增加2级 震颤 强度",
+        "[命中时] 使目标 震颤引爆"
+      ]
+    },
+    {
+      "skill_name": "发动引擎",
+      "icon_id": "9005304",
+      "sin_type": "常规",
+      "damage_type": "防御",
+      "base_value": 4,
+      "coin_power": 79,
+      "coin_count": 1,
+      "attack_level": 0,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "使用时下回合使自身获得1层震颤同步"
+      ]
+    },
+    {
+      "skill_name": "头晕眼花",
+      "icon_id": "9005101",
+      "sin_type": "怠惰",
+      "damage_type": "打击",
+      "base_value": 4,
+      "coin_power": 9703,
+      "coin_count": 2,
+      "attack_level": 32,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[命中时] 对目标施加3层 震颤"
+      ]
+    },
+    {
+      "skill_name": "震颤加速",
+      "icon_id": "9005102",
+      "sin_type": "怠惰",
+      "damage_type": "打击",
+      "base_value": 4,
+      "coin_power": 9703,
+      "coin_count": 2,
+      "attack_level": 32,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[命中时] 使目标的 震颤 层数翻倍"
+      ]
+    },
+    {
+      "skill_name": "收尾了！",
+      "icon_id": "9005103",
+      "sin_type": "傲慢",
+      "damage_type": "打击",
+      "base_value": 5,
+      "coin_power": 3,
+      "coin_count": 3,
+      "attack_level": 32,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[命中时] 使目标 震颤引爆"
+      ]
+    },
+    {
+      "skill_name": "发动引擎",
+      "icon_id": "9005304",
+      "sin_type": "常规",
+      "damage_type": "防御",
+      "base_value": 4,
+      "coin_power": 79,
+      "coin_count": 1,
+      "attack_level": 0,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "使用时下回合使自身获得1层震颤同步"
+      ]
+    }
+  ],
+  "is_ally": false,
+  "_structured": true,
+  "appear_stages": [
+    "大湖之镜-玫瑰扳手工坊代表 尼柯"
+  ],
+  "enemy_id": "大湖之镜-玫瑰扳手工坊代表 尼柯|普通模式数据|",
+  "defense": 44,
+  "speed": "3~5",
+  "_schema_version": 1
+}

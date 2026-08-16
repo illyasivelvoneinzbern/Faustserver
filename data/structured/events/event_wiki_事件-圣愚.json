@@ -1,0 +1,46 @@
+{
+  "page_type": "event",
+  "title": "事件-圣愚",
+  "event_name": "圣愚",
+  "narration": "某条小巷中，贴着一幅画得相当粗糙的海报。\n海报上写着简短的介绍文字，以及前往某处地点的指南。\n“没有时间，只剩不满的你，快加入圣愚吧。\n你是愿意忍气吞声、接受不合理之事而活，\n还是愿意粉碎不合理之事而活？\n只要诚心所愿，恳切所求，便有可能实现。\n如果你愿意加入我们，就撕下这张海报，当作火车票。\n从XXX巷，往XX度方向，以时速120公里，独自前来吧。”\n\n撕下海报，前往所写的地点。\n【让哪位罪人前往指定的地点？】\n圣愚 判定值+5\n有利判定\n：\n/\n/\n≥15\n不利判定\n：\n≥30\n判定成功\n：\n在我们潜伏期间，罪人[X]破译了加密文字，并前往了指定地点。\n不久罪人[X]与某人简短交谈后，带着看似像是某种装置的东西回来了。\n获得\n！\n判定失败\n：\n在我们潜伏期间，罪人[X]破译了加密文字，并前往了指定地点。\n但……\n谁也没有在那里现身。\n反而在潜伏着的我们面前，出现了那些戴着怪样围巾的人们。\n“明明写了要只身前来……你们难道是T公司的走狗吗？”\n……看来战斗在所难免。\n触发遭遇战！\n下场战斗胜利后，将获得\n！\n\n无视海报。\n虽然我很想知道圣愚招募成员的目的是什么，但那太浪费时间了。\n我把目光从海报上移开，与罪人们一起离开了。\n什么都没有发生。\n\n拿出涓滴之杯。\n（持有\n）\n有人从远处走来。\n“喂，那杯子是……”\n“啊，我听说过这个。虽然他们没有穿我们的成员制服，但他们这是正在为财富的再分配而奔走。”\n“辛苦了，同志……这台机械应该能帮到你们。”\n他似乎误会了什么，轻轻拍了拍我的肩膀，把什么东西递给我以后就走了。\n获得\n！",
+  "options": [
+    {
+      "choice_text": "撕下海报，前往所写的地点。",
+      "check_type": "有利判定",
+      "check_sin": "色欲",
+      "check_threshold": 15,
+      "success_outcomes": [
+        "获得 ！ 判定失败 ： 在我们潜伏期间",
+        "获得 ！"
+      ],
+      "failure_outcomes": [
+        "获得 ！"
+      ]
+    },
+    {
+      "choice_text": "无视海报。",
+      "check_type": "",
+      "check_sin": "",
+      "check_threshold": 0,
+      "success_outcomes": [],
+      "failure_outcomes": []
+    },
+    {
+      "choice_text": "拿出涓滴之杯。",
+      "check_type": "",
+      "check_sin": "",
+      "check_threshold": 0,
+      "success_outcomes": [],
+      "failure_outcomes": []
+    }
+  ],
+  "ego_gifts": [],
+  "related_abnormalities": [],
+  "trigger_location": "",
+  "_structured": true,
+  "id": "wiki_事件-圣愚",
+  "url": "https://limbuscompany.huijiwiki.com/wiki/事件-圣愚",
+  "categories": [],
+  "source": "wiki",
+  "_schema_version": 1
+}

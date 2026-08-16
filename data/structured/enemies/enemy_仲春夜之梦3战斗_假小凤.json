@@ -1,0 +1,153 @@
+{
+  "page_type": "enemy",
+  "title": "仲春夜之梦3战斗",
+  "enemy_name": "假小凤",
+  "battle_stage": "仲春夜之梦3战斗",
+  "body_part": "",
+  "hp": 80,
+  "defense_level": 15,
+  "speed_min": 2,
+  "speed_max": 5,
+  "chaos_threshold": "0",
+  "physical_resistances": {
+    "斩击": 0.5,
+    "突刺": 1.0,
+    "打击": 2.0
+  },
+  "sin_resistances": {
+    "暴怒": 0.5,
+    "色欲": 1.0,
+    "怠惰": 1.5,
+    "暴食": 1.0,
+    "忧郁": 2.0,
+    "傲慢": 1.0,
+    "嫉妒": 0.5
+  },
+  "panic_types": [
+    "漏出的酱料",
+    "黄金秘传酱汁"
+  ],
+  "passives": [
+    "鼓鼓的鸡: 受到攻击时，使自身获得1层 漏出的酱料 (每场战斗最多6次)",
+    "探戈鸡酱料: 若自身的速度值高于目标，则使自身的拼点威力+(速度值/3)",
+    "直接塞进你嘴里！: 回合结束时，下回合使全体敌方单位获得1层 黄金秘传酱汁",
+    "大家一起来做菜吧: 回合结束时，使除自身以外参战的全体友方单位与敌方单位恢复10点理智值",
+    "都是为了孩子们: 无恐慌类型数据"
+  ],
+  "skills": [
+    {
+      "skill_name": "叽！",
+      "icon_id": "136501",
+      "sin_type": "色欲",
+      "damage_type": "打击",
+      "base_value": 5,
+      "coin_power": 9,
+      "coin_count": 2,
+      "attack_level": 10,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[使用时] 使目标恢复5点理智值",
+        "[命中时] 使目标恢复5点理智值"
+      ]
+    },
+    {
+      "skill_name": "咕",
+      "icon_id": "136502",
+      "sin_type": "色欲",
+      "damage_type": "打击",
+      "base_value": 3,
+      "coin_power": 9,
+      "coin_count": 4,
+      "attack_level": 10,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[命中时] 使目标增加2级 震颤 强度"
+      ]
+    },
+    {
+      "skill_name": "咕叽",
+      "icon_id": "136503",
+      "sin_type": "色欲",
+      "damage_type": "打击",
+      "base_value": 3,
+      "coin_power": 9,
+      "coin_count": 3,
+      "attack_level": 10,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[命中时] 对目标施加1层 震颤"
+      ]
+    },
+    {
+      "skill_name": "咯咯",
+      "icon_id": "136504",
+      "sin_type": "暴怒",
+      "damage_type": "打击",
+      "base_value": 6,
+      "coin_power": 987,
+      "coin_count": 2,
+      "attack_level": 10,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[命中时] 使目标 震颤引爆"
+      ]
+    },
+    {
+      "skill_name": "鸡群的末日",
+      "icon_id": "136505",
+      "sin_type": "色欲",
+      "damage_type": "打击",
+      "base_value": 8,
+      "coin_power": 9,
+      "coin_count": 4,
+      "attack_level": 10,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[命中时] 使目标 震颤引爆"
+      ]
+    },
+    {
+      "skill_name": "咕咕",
+      "icon_id": "136506",
+      "sin_type": "色欲",
+      "damage_type": "守备",
+      "base_value": 5,
+      "coin_power": 9,
+      "coin_count": 3,
+      "attack_level": 0,
+      "attack_weight": 1,
+      "is_guard": true,
+      "guard_type": "防御",
+      "importance": 0,
+      "coin_effects": [
+        "可拼点防御",
+        "拼点胜利使目标恢复5点理智值",
+        "1不可摧毁的硬币"
+      ]
+    }
+  ],
+  "is_ally": false,
+  "_structured": true,
+  "appear_stages": [
+    "仲春夜之梦3战斗"
+  ],
+  "enemy_id": "仲春夜之梦3战斗|假小凤|",
+  "defense": 15,
+  "speed": "2~5",
+  "_schema_version": 1
+}

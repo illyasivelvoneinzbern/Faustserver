@@ -1,0 +1,540 @@
+{
+  "page_type": "personality",
+  "title": "浮士德Seven协会南部4科",
+  "sinner": "浮士德",
+  "sinner_id": "faust",
+  "personality_name": "浮士德Seven协会南部4科",
+  "release_date": "2023.09.07",
+  "acquisition": "常驻提取",
+  "sin_affinities": {
+    "嫉妒": 3,
+    "忧郁": 2,
+    "暴食": 1
+  },
+  "physical_resistances": {
+    "斩击": 1.0,
+    "突刺": 0.5,
+    "打击": 2.0
+  },
+  "ego_resources": {
+    "嫉妒": 3,
+    "忧郁": 2,
+    "暴食": 1
+  },
+  "skills": [
+    {
+      "skill_index": 0,
+      "skill_name": "预测分析",
+      "sin_type": "",
+      "damage_type": "",
+      "guard_type": "",
+      "attack_capacity": 1,
+      "coin_count": 2,
+      "stage_groups": [
+        [
+          {
+            "stage": "I",
+            "base_value": 3,
+            "coin_power": 3,
+            "effects": [
+              {
+                "timing": "命中时",
+                "description": "使目标增加3级 破裂 强度"
+              }
+            ],
+            "raw_text": "基础值： 3 变动值： +3 [命中时] 使目标增加3级 破裂 强度"
+          },
+          {
+            "stage": "II",
+            "base_value": 3,
+            "coin_power": 3,
+            "effects": [
+              {
+                "timing": "命中时",
+                "description": "使目标增加3级 破裂 强度"
+              }
+            ],
+            "raw_text": "基础值： 3 变动值： +3 若目标的 破裂 强度不低于3级，使本 技能 的 硬币威力 +1 [命中时] 使目标增加3级 破裂 强度"
+          },
+          {
+            "stage": "III",
+            "base_value": 4,
+            "coin_power": 3,
+            "effects": [
+              {
+                "timing": "命中时",
+                "description": "使目标增加3级 破裂 强度"
+              }
+            ],
+            "raw_text": "基础值： 4 变动值： +3 若目标的 破裂 强度不低于3级，使本 技能 的 硬币威力 +1 [命中时] 使目标增加3级 破裂 强度"
+          },
+          {
+            "stage": "IV",
+            "base_value": 4,
+            "coin_power": 3,
+            "effects": [
+              {
+                "timing": "命中时",
+                "description": "使目标增加3级 破裂 强度"
+              }
+            ],
+            "raw_text": "基础值： 4 变动值： +3 目标每带有3级 破裂 强度，则使本 技能 的 硬币威力 +1(最多+2) [命中时] 使目标增加3级 破裂 强度"
+          }
+        ]
+      ],
+      "coin_effects": [
+        {
+          "coin_index": 0,
+          "description": "技能一"
+        },
+        {
+          "coin_index": 0,
+          "description": "预测分析 3"
+        },
+        {
+          "coin_index": 0,
+          "timing": "",
+          "description": "2"
+        },
+        {
+          "coin_index": 0,
+          "description": "+3"
+        },
+        {
+          "coin_index": 0,
+          "description": "1"
+        },
+        {
+          "coin_index": 0,
+          "description": "基础值： 3 变动值： +3"
+        },
+        {
+          "coin_index": 2,
+          "timing": "命中时",
+          "description": "[命中时] 使目标增加3级 破裂 强度"
+        },
+        {
+          "coin_index": 2,
+          "timing": "命中时",
+          "description": "[命中时] 使目标增加3级 破裂 强度"
+        },
+        {
+          "coin_index": 2,
+          "timing": "命中时",
+          "description": "[命中时] 使目标增加3级 破裂 强度"
+        },
+        {
+          "coin_index": 2,
+          "timing": "命中时",
+          "description": "[命中时] 使目标增加3级 破裂 强度"
+        }
+      ],
+      "wikitext_key": "1技能"
+    },
+    {
+      "skill_index": 1,
+      "skill_name": "目标解体",
+      "sin_type": "忧郁",
+      "damage_type": "斩击",
+      "guard_type": "",
+      "attack_capacity": 1,
+      "coin_count": 3,
+      "stage_groups": [
+        [
+          {
+            "stage": "I",
+            "base_value": 3,
+            "coin_power": 4,
+            "effects": [
+              {
+                "timing": "正面命中时",
+                "description": "使目标增加3级 破裂 强度"
+              },
+              {
+                "timing": "命中时",
+                "description": "若目标的 破裂 强度不低于6级，则下回合对其施加 弱点分析"
+              }
+            ],
+            "raw_text": "基础值： 3 变动值： +4 [正面命中时] 使目标增加3级 破裂 强度 [命中时] 若目标的 破裂 强度不低于6级，则下回合对其施加 弱点分析"
+          },
+          {
+            "stage": "II",
+            "base_value": 3,
+            "coin_power": 4,
+            "effects": [
+              {
+                "timing": "拼点胜利",
+                "description": "对目标施加3层 破裂"
+              },
+              {
+                "timing": "命中时",
+                "description": "使目标增加3级 破裂 强度"
+              },
+              {
+                "timing": "命中时",
+                "description": "若目标的 破裂 强度不低于6级，则下回合对其施加 弱点分析"
+              }
+            ],
+            "raw_text": "基础值： 3 变动值： +4 若目标的 破裂 强度不低于6级，则使本 技能 的 硬币威力 +1 [拼点胜利] 对目标施加3层 破裂 [命中时] 使目标增加3级 破裂 强度 [命中时] 若目标的 破裂 强度不低于6级，则下回合对其施加 弱点分析"
+          },
+          {
+            "stage": "III",
+            "base_value": 4,
+            "coin_power": 4,
+            "effects": [
+              {
+                "timing": "拼点胜利",
+                "description": "对目标施加3层 破裂"
+              },
+              {
+                "timing": "命中时",
+                "description": "使目标增加3级 破裂 强度"
+              },
+              {
+                "timing": "命中时",
+                "description": "若目标的 破裂 强度不低于6级，则下回合对其施加 弱点分析"
+              }
+            ],
+            "raw_text": "基础值： 4 变动值： +4 若目标的 破裂 强度不低于6级，则使本 技能 的 硬币威力 +1 [拼点胜利] 对目标施加3层 破裂 [命中时] 使目标增加3级 破裂 强度 [命中时] 若目标的 破裂 强度不低于6级，则下回合对其施加 弱点分析"
+          },
+          {
+            "stage": "IV",
+            "base_value": 4,
+            "coin_power": 4,
+            "effects": [
+              {
+                "timing": "拼点胜利",
+                "description": "对目标施加3层 破裂"
+              },
+              {
+                "timing": "命中时",
+                "description": "使目标增加3级 破裂 强度"
+              },
+              {
+                "timing": "命中时",
+                "description": "若目标的 破裂 强度不低于6级，则下回合对其施加 弱点分析"
+              }
+            ],
+            "raw_text": "基础值： 4 变动值： +4 目标每带有6级 破裂 强度，则使本 技能 的 硬币威力 +1(最多+2) [拼点胜利] 对目标施加3层 破裂 [命中时] 使目标增加3级 破裂 强度 [命中时] 若目标的 破裂 强度不低于6级，则下回合对其施加 弱点分析"
+          }
+        ]
+      ],
+      "coin_effects": [
+        {
+          "coin_index": 0,
+          "description": "技能二"
+        },
+        {
+          "coin_index": 0,
+          "description": "目标解体 2"
+        },
+        {
+          "coin_index": 0,
+          "timing": "",
+          "description": "3"
+        },
+        {
+          "coin_index": 0,
+          "description": "+3"
+        },
+        {
+          "coin_index": 0,
+          "description": "1"
+        },
+        {
+          "coin_index": 0,
+          "description": "基础值： 3 变动值： +4"
+        },
+        {
+          "coin_index": 1,
+          "timing": "正面命中时",
+          "description": "[正面命中时] 使目标增加3级 破裂 强度"
+        },
+        {
+          "coin_index": 3,
+          "timing": "命中时",
+          "description": "[命中时] 若目标的 破裂 强度不低于6级，则下回合对其施加 弱点分析"
+        },
+        {
+          "coin_index": 1,
+          "timing": "命中时",
+          "description": "[命中时] 使目标增加3级 破裂 强度"
+        },
+        {
+          "coin_index": 3,
+          "timing": "命中时",
+          "description": "[命中时] 若目标的 破裂 强度不低于6级，则下回合对其施加 弱点分析"
+        },
+        {
+          "coin_index": 1,
+          "timing": "命中时",
+          "description": "[命中时] 使目标增加3级 破裂 强度"
+        },
+        {
+          "coin_index": 3,
+          "timing": "命中时",
+          "description": "[命中时] 若目标的 破裂 强度不低于6级，则下回合对其施加 弱点分析"
+        },
+        {
+          "coin_index": 1,
+          "timing": "命中时",
+          "description": "[命中时] 使目标增加3级 破裂 强度"
+        },
+        {
+          "coin_index": 3,
+          "timing": "命中时",
+          "description": "[命中时] 若目标的 破裂 强度不低于6级，则下回合对其施加 弱点分析"
+        }
+      ],
+      "wikitext_key": "2技能"
+    },
+    {
+      "skill_index": 2,
+      "skill_name": "特征剖析",
+      "sin_type": "暴食",
+      "damage_type": "斩击",
+      "guard_type": "",
+      "attack_capacity": 1,
+      "coin_count": 3,
+      "stage_groups": [
+        [
+          {
+            "stage": "I",
+            "base_value": 5,
+            "coin_power": 4,
+            "effects": [
+              {
+                "timing": "命中时",
+                "description": "使目标增加3级 破裂 强度"
+              },
+              {
+                "timing": "攻击后",
+                "description": "若使目标 陷入混乱 或 击杀 目标，下回合使自身获得1层 迅捷 与1层 斩击威力提升"
+              }
+            ],
+            "raw_text": "基础值： 5 变动值： +4 目标每带有3级 破裂 强度，使本 技能 的伤害+10%(最多+20%) [命中时] 使目标增加3级 破裂 强度 [攻击后] 若使目标 陷入混乱 或 击杀 目标，下回合使自身获得1层 迅捷 与1层 斩击威力提升"
+          },
+          {
+            "stage": "II",
+            "base_value": 5,
+            "coin_power": 4,
+            "effects": [
+              {
+                "timing": "拼点胜利",
+                "description": "对目标施加2层 破裂"
+              },
+              {
+                "timing": "命中时",
+                "description": "使目标增加3级 破裂 强度"
+              },
+              {
+                "timing": "攻击后",
+                "description": "若使目标 陷入混乱 或 击杀 目标，下回合使自身获得1层 迅捷 与1层 斩击威力提升"
+              }
+            ],
+            "raw_text": "基础值： 5 变动值： +4 目标每带有3级 破裂 强度，使本 技能 的伤害+10%(最多+50%) [拼点胜利] 对目标施加2层 破裂 [命中时] 使目标增加3级 破裂 强度 [攻击后] 若使目标 陷入混乱 或 击杀 目标，下回合使自身获得1层 迅捷 与1层 斩击威力提升"
+          }
+        ]
+      ],
+      "coin_effects": [
+        {
+          "coin_index": 0,
+          "description": "技能三"
+        },
+        {
+          "coin_index": 0,
+          "description": "特征剖析 1"
+        },
+        {
+          "coin_index": 0,
+          "timing": "",
+          "description": "3"
+        },
+        {
+          "coin_index": 0,
+          "description": "+3"
+        },
+        {
+          "coin_index": 0,
+          "description": "1"
+        },
+        {
+          "coin_index": 0,
+          "description": "基础值： 5 变动值： +4 目标每带有3级 破裂 强度，使本 技能 的伤害+10%(最多+20%)"
+        },
+        {
+          "coin_index": 2,
+          "timing": "命中时",
+          "description": "[命中时] 使目标增加3级 破裂 强度"
+        },
+        {
+          "coin_index": 3,
+          "timing": "攻击后",
+          "description": "[攻击后] 若使目标 陷入混乱 或 击杀 目标，下回合使自身获得1层 迅捷 与1层 斩击威力提升"
+        },
+        {
+          "coin_index": 2,
+          "timing": "命中时",
+          "description": "[命中时] 使目标增加3级 破裂 强度"
+        },
+        {
+          "coin_index": 3,
+          "timing": "攻击后",
+          "description": "[攻击后] 若使目标 陷入混乱 或 击杀 目标，下回合使自身获得1层 迅捷 与1层 斩击威力提升"
+        }
+      ],
+      "wikitext_key": "3技能"
+    },
+    {
+      "skill_index": 3,
+      "skill_name": "尽快解决吧",
+      "sin_type": "",
+      "damage_type": "",
+      "guard_type": "",
+      "attack_capacity": 1,
+      "coin_count": 1,
+      "stage_groups": [
+        [
+          {
+            "stage": "I",
+            "base_value": 10,
+            "coin_power": 4,
+            "effects": [
+              {
+                "timing": "使用时",
+                "description": "下回合使自身获得1层 迅捷 （每回合最多获得3层）"
+              }
+            ],
+            "raw_text": "基础值： 10 变动值： +4 [使用时] 下回合使自身获得1层 迅捷 （每回合最多获得3层）"
+          },
+          {
+            "stage": "II",
+            "base_value": 10,
+            "coin_power": 4,
+            "effects": [
+              {
+                "timing": "使用时",
+                "description": "下回合使自身获得1层 迅捷 （每回合最多获得3层）"
+              }
+            ],
+            "raw_text": "基础值： 10 变动值： +4 [使用时] 下回合使自身获得1层 迅捷 （每回合最多获得3层）"
+          }
+        ]
+      ],
+      "coin_effects": [
+        {
+          "coin_index": 0,
+          "description": "守备技能"
+        },
+        {
+          "coin_index": 0,
+          "description": "尽快解决吧"
+        },
+        {
+          "coin_index": 0,
+          "timing": "",
+          "description": "1"
+        },
+        {
+          "coin_index": 0,
+          "description": "-2"
+        },
+        {
+          "coin_index": 0,
+          "description": "1"
+        },
+        {
+          "coin_index": 0,
+          "description": "I阶 - III阶 IV阶 追加属性： 基础值： 10 变动值： +4 [使用时] 下回合使自身获得1层 迅捷 （每回合最多获得3层） 基础值： 10 变动值： +4 [使用时] 下回合使自身获得1层 迅捷 （每回合最多获得3层）"
+        }
+      ],
+      "wikitext_key": "4技能"
+    }
+  ],
+  "battle_passive": "人格被动1020601\n人格被动1020621",
+  "support_passive": "",
+  "notes": "",
+  "voice_lines": [],
+  "skill_voice": [
+    {
+      "file": "Battle_s2_10206_1_1.ogg",
+      "skill_index": 2,
+      "skill_label": "",
+      "skill_name": "目标解体"
+    },
+    {
+      "file": "Battle_s2_10206_1_1-01.ogg",
+      "skill_index": 2,
+      "skill_label": "",
+      "skill_name": "目标解体"
+    },
+    {
+      "file": "Battle_s2_10206_1_1-02.ogg",
+      "skill_index": 2,
+      "skill_label": "",
+      "skill_name": "目标解体"
+    },
+    {
+      "file": "Battle_s2_10206_1_1-03.ogg",
+      "skill_index": 2,
+      "skill_label": "",
+      "skill_name": "目标解体"
+    },
+    {
+      "file": "Battle_s2_10206_1_1-04.ogg",
+      "skill_index": 2,
+      "skill_label": "",
+      "skill_name": "目标解体"
+    },
+    {
+      "file": "Battle_s2_10206_1_1-05.ogg",
+      "skill_index": 2,
+      "skill_label": "",
+      "skill_name": "目标解体"
+    },
+    {
+      "file": "Battle_s2_10206_1_1-06.ogg",
+      "skill_index": 2,
+      "skill_label": "",
+      "skill_name": "目标解体"
+    },
+    {
+      "file": "Battle_s2_10206_1_1-07.ogg",
+      "skill_index": 2,
+      "skill_label": "",
+      "skill_name": "目标解体"
+    },
+    {
+      "file": "Battle_s2_10206_1_1-08.ogg",
+      "skill_index": 2,
+      "skill_label": "",
+      "skill_name": "目标解体"
+    },
+    {
+      "file": "Battle_s2_10206_1_1-09.ogg",
+      "skill_index": 2,
+      "skill_label": "",
+      "skill_name": "目标解体"
+    },
+    {
+      "file": "Battle_s3_10206_1_1.ogg",
+      "skill_index": 3,
+      "skill_label": "",
+      "skill_name": "特征剖析"
+    },
+    {
+      "file": "Battle_s3_10206_1_2.ogg",
+      "skill_index": 3,
+      "skill_label": "",
+      "skill_name": "特征剖析"
+    }
+  ],
+  "_structured": true,
+  "id": "wiki_浮士德Seven协会南部4科",
+  "url": "https://limbuscompany.huijiwiki.com/wiki/浮士德Seven协会南部4科",
+  "categories": [
+    "人格"
+  ],
+  "source": "wiki",
+  "_schema_version": 1
+}

@@ -1,0 +1,22 @@
+{
+  "id": "gift_9233",
+  "title": "夹杂着噪音的对讲机",
+  "url": "https://limbuscompany.huijiwiki.com/wiki/E.G.O饰品",
+  "categories": [
+    "E.G.O饰品"
+  ],
+  "content": "使用获得或消耗弹药的技能时，下回合使自身获得1层迅捷与2层攻击等级提升(每回合每名友方单位最多1次)\n- 增加沉沦强度，施加沉沦层数与施加特殊沉沦的技能造成的伤害+(20/硬币数)%",
+  "source": "tabx",
+  "_structured": true,
+  "page_type": "ego_gift",
+  "gift_name": "夹杂着噪音的对讲机",
+  "rarity": 3,
+  "cost": "251",
+  "effect_types": "沉沦",
+  "attack_type": "忧郁",
+  "location": "镜像迷宫",
+  "stage": "base",
+  "special": "琥珀色的黄昏",
+  "event": "事件-1.76兆赫",
+  "_schema_version": 1
+}

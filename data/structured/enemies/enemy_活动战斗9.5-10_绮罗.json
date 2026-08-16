@@ -1,0 +1,154 @@
+{
+  "page_type": "enemy",
+  "title": "活动战斗9.5-10",
+  "enemy_name": "绮罗",
+  "battle_stage": "活动战斗9.5-10",
+  "body_part": "",
+  "hp": 329,
+  "defense_level": 65,
+  "speed_min": 3,
+  "speed_max": 5,
+  "chaos_threshold": "98",
+  "physical_resistances": {
+    "斩击": 1.0,
+    "突刺": 1.25,
+    "打击": 1.0
+  },
+  "sin_resistances": {
+    "暴怒": 1.0,
+    "色欲": 1.0,
+    "怠惰": 1.0,
+    "暴食": 1.0,
+    "忧郁": 1.0,
+    "傲慢": 1.0,
+    "嫉妒": 1.0
+  },
+  "panic_types": [],
+  "passives": [
+    "热丝武器: 关卡开始时带有 HeatingWireOffSpider 回合开始时，若自身的 ReinforcedTattooSpiderDaughterTwo 层数不低于2层，则使自身获得 HeatingWireOnSpiderTwo ，令施加 Laceration 的技能额外施加 Combustion",
+    "中指: 2个技能命中后，使自身获得1层 ReinforcedTattooSpiderDaughterTwo (命中次数累计计算)",
+    "仇怨: • 拼点胜利后根据拼点次数按比例增加 （增加量：基础值为10，从第二次拼点起，每次拼点增加20%） • 击杀敌方单位时，不论该敌方单位等级，增加10 • 友方单位击杀敌方单位时，不论该敌方单位等级，增加5"
+  ],
+  "skills": [
+    {
+      "skill_name": "来热个身吧？",
+      "icon_id": "132801",
+      "sin_type": "暴怒",
+      "damage_type": "",
+      "base_value": 0,
+      "coin_power": 2,
+      "coin_count": 4,
+      "attack_level": 62,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "coin_effects": [
+        "[命中时] 对目标额外造成3点打击伤害",
+        "[命中时] 对目标额外造成3点打击伤害 SuperCoin",
+        "[命中时] 若自身带有 ReinforcedTattooSpiderDaughterTwo ，则下回合对目标施加2层 Binding"
+      ]
+    },
+    {
+      "skill_name": "暴揍",
+      "icon_id": "132802",
+      "sin_type": "暴怒",
+      "damage_type": "",
+      "base_value": 0,
+      "coin_power": 3,
+      "coin_count": 3,
+      "attack_level": 62,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "coin_effects": [
+        "[命中时] 对目标额外造成5点打击伤害",
+        "[命中时] 使目标的混乱阈值前移5 对目标额外造成5点打击伤害",
+        "[命中时] 使目标的混乱阈值前移5",
+        "[命中时] 若自身的 ResentmentSpiderDaughterTwo 层数不低于3层，则重复使用本硬币3次"
+      ]
+    },
+    {
+      "skill_name": "切腹！",
+      "icon_id": "132803",
+      "sin_type": "色欲",
+      "damage_type": "",
+      "base_value": 0,
+      "coin_power": 5,
+      "coin_count": 3,
+      "attack_level": 62,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "coin_effects": [
+        "[命中时] 使目标增加3级 Laceration 强度",
+        "[命中时] 对目标施加2层 Laceration"
+      ]
+    },
+    {
+      "skill_name": "十字乱舞！",
+      "icon_id": "132804",
+      "sin_type": "傲慢",
+      "damage_type": "",
+      "base_value": 0,
+      "coin_power": 3,
+      "coin_count": 5,
+      "attack_level": 62,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "coin_effects": [
+        "[命中时] 使目标增加3级 Laceration 强度 SuperCoin",
+        "[命中时] 对目标施加2层 Laceration SuperCoin",
+        "[命中时] 对目标额外造成5点打击伤害",
+        "[命中时] 若自身带有 ReinforcedTattooSpiderDaughterTwo ，则下回合对目标施加2层 Binding"
+      ]
+    },
+    {
+      "skill_name": "紫罗兰破坏猛击！",
+      "icon_id": "132805",
+      "sin_type": "嫉妒",
+      "damage_type": "斩击",
+      "base_value": 6,
+      "coin_power": 2,
+      "coin_count": 5,
+      "attack_level": 3,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "coin_effects": [
+        "使用时若自身带有ReinforcedTattooSpiderDaughterTwo，则令本技能的硬币命中时对目标施加1层Laceration",
+        "使用时若自身的ResentmentSpiderDaughterTwo层数不低于2层，则令本技能的硬币命中时以50%的概率对目标施加1层Paralysis",
+        "命中时使目标增加3级Laceration强度",
+        "命中时对目标施加2层Laceration",
+        "命中时对目标施加2层Laceration",
+        "命中时对目标额外造成5点打击伤害",
+        "命中时使目标的混乱阈值前移5",
+        "命中时使目标增加3级Laceration强度"
+      ]
+    },
+    {
+      "skill_name": "给我等着",
+      "icon_id": "132806",
+      "sin_type": "嫉妒",
+      "damage_type": "",
+      "base_value": 0,
+      "coin_power": 4,
+      "coin_count": 3,
+      "attack_level": 0,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "coin_effects": [
+        "[命中时] 对目标施加2层 Laceration",
+        "[命中时] 使目标增加1级 Laceration 强度",
+        "[命中时] 使自身的混乱阈值后移10"
+      ]
+    }
+  ],
+  "is_ally": true,
+  "_structured": true,
+  "enemy_id": "活动战斗9.5-10|绮罗",
+  "defense": 65,
+  "speed": "3~5",
+  "_schema_version": 1
+}

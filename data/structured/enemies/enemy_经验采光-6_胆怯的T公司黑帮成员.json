@@ -1,0 +1,110 @@
+{
+  "page_type": "enemy",
+  "title": "经验采光-6",
+  "enemy_name": "胆怯的T公司黑帮成员",
+  "battle_stage": "经验采光-6",
+  "body_part": "",
+  "hp": 137,
+  "defense_level": 46,
+  "speed_min": 1,
+  "speed_max": 3,
+  "chaos_threshold": "",
+  "physical_resistances": {
+    "斩击": 0.75,
+    "突刺": 0.5,
+    "打击": 2.0
+  },
+  "sin_resistances": {
+    "暴怒": 1.0,
+    "色欲": 1.0,
+    "怠惰": 1.0,
+    "暴食": 1.0,
+    "忧郁": 1.0,
+    "傲慢": 1.0,
+    "嫉妒": 1.0
+  },
+  "panic_types": [],
+  "passives": [
+    "无"
+  ],
+  "skills": [
+    {
+      "skill_name": "别停下来！",
+      "icon_id": "9011501",
+      "sin_type": "傲慢",
+      "damage_type": "",
+      "base_value": 4,
+      "coin_power": 3,
+      "coin_count": 2,
+      "attack_level": 45,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[使用时] 若目标带有 麻痹 ，则使本技能硬币威力+1",
+        "[命中时] 使目标增加2级 震颤 强度并施加4层 震颤"
+      ]
+    },
+    {
+      "skill_name": "昏过去吧！",
+      "icon_id": "9011502",
+      "sin_type": "傲慢",
+      "damage_type": "",
+      "base_value": 4,
+      "coin_power": 3,
+      "coin_count": 3,
+      "attack_level": 45,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[使用时] 若目标带有 震颤 ，则使本技能硬币威力+1",
+        "[命中时] 使目标增加2级 震颤 强度并施加3层 震颤",
+        "[命中时] 下回合对目标施加2层 麻痹"
+      ]
+    },
+    {
+      "skill_name": "头晕目眩",
+      "icon_id": "9011503",
+      "sin_type": "怠惰",
+      "damage_type": "",
+      "base_value": 3,
+      "coin_power": 9703,
+      "coin_count": 2,
+      "attack_level": 45,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[命中时] 使目标 震颤引爆 若 震颤引爆 使目标陷入混乱，重复使用本硬币"
+      ]
+    },
+    {
+      "skill_name": "防御",
+      "icon_id": "9011404",
+      "sin_type": "常规",
+      "damage_type": "",
+      "base_value": 5,
+      "coin_power": 79,
+      "coin_count": 1,
+      "attack_level": 0,
+      "attack_weight": 1,
+      "is_guard": true,
+      "guard_type": "防御",
+      "importance": 0,
+      "coin_effects": []
+    }
+  ],
+  "is_ally": false,
+  "_structured": true,
+  "appear_stages": [
+    "经验采光-6"
+  ],
+  "enemy_id": "经验采光-6|胆怯的T公司黑帮成员|",
+  "defense": 46,
+  "speed": "1~3",
+  "_schema_version": 1
+}

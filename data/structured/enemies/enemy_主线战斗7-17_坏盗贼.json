@@ -1,0 +1,81 @@
+{
+  "page_type": "enemy",
+  "title": "主线战斗7-17",
+  "enemy_name": "坏盗贼",
+  "battle_stage": "主线战斗7-17",
+  "body_part": "",
+  "hp": 108,
+  "defense_level": 49,
+  "speed_min": 1,
+  "speed_max": 4,
+  "chaos_threshold": "",
+  "physical_resistances": {
+    "斩击": 1.5,
+    "突刺": 1.5,
+    "打击": 1.0
+  },
+  "sin_resistances": {
+    "暴怒": 1.0,
+    "色欲": 1.0,
+    "怠惰": 1.0,
+    "暴食": 1.0,
+    "忧郁": 1.0,
+    "傲慢": 1.0,
+    "嫉妒": 1.0
+  },
+  "panic_types": [],
+  "passives": [
+    "弱者印记：拼点胜利时，对目标施加 弱者",
+    "恶党：爱好欺凌弱者",
+    "卑鄙：攻击带有 弱者 的敌方单位时，使自身的拼点威力+1"
+  ],
+  "skills": [
+    {
+      "skill_name": "横行霸道",
+      "icon_id": "9016001",
+      "sin_type": "暴怒",
+      "damage_type": "斩击",
+      "base_value": 3,
+      "coin_power": 987,
+      "coin_count": 3,
+      "attack_level": 44,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[使用时] 使自身增加2级 呼吸法 强度",
+        "[命中时] 使目标增加1级 流血 强度",
+        "[命中时] 对目标施加1层 麻痹"
+      ]
+    },
+    {
+      "skill_name": "欺凌",
+      "icon_id": "9016002",
+      "sin_type": "嫉妒",
+      "damage_type": "穿刺",
+      "base_value": 4,
+      "coin_power": 5793,
+      "coin_count": 3,
+      "attack_level": 44,
+      "attack_weight": 1,
+      "is_guard": true,
+      "guard_type": "防御",
+      "importance": 0,
+      "coin_effects": [
+        "[使用时] 使自身增加2级 呼吸法 强度",
+        "[命中时] 对目标施加1层 易损",
+        "[命中时] 对目标施加1层 防御等级降低"
+      ]
+    }
+  ],
+  "is_ally": false,
+  "_structured": true,
+  "appear_stages": [
+    "主线战斗7-17"
+  ],
+  "enemy_id": "主线战斗7-17|坏盗贼|",
+  "defense": 49,
+  "speed": "1~4",
+  "_schema_version": 1
+}

@@ -1,0 +1,77 @@
+{
+  "page_type": "enemy",
+  "title": "折射轨道1号线-首站-遭遇",
+  "enemy_name": "记忆中歪曲的残兵",
+  "battle_stage": "折射轨道1号线-首站-遭遇",
+  "body_part": "",
+  "hp": 246,
+  "defense_level": 61,
+  "speed_min": 1,
+  "speed_max": 2,
+  "chaos_threshold": "98",
+  "physical_resistances": {
+    "斩击": 1.0,
+    "突刺": 0.75,
+    "打击": 2.0
+  },
+  "sin_resistances": {
+    "暴怒": 2.0,
+    "色欲": 1.0,
+    "怠惰": 1.5,
+    "暴食": 0.75,
+    "忧郁": 1.0,
+    "傲慢": 0.75,
+    "嫉妒": 1.0
+  },
+  "panic_types": [],
+  "passives": [
+    "深入记忆的强化肉体: 无恐慌类型数据"
+  ],
+  "skills": [
+    {
+      "skill_name": "挥扫",
+      "icon_id": "9001401",
+      "sin_type": "暴食",
+      "damage_type": "斩击",
+      "base_value": 2,
+      "coin_power": 4,
+      "coin_count": 2,
+      "attack_level": 2,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "使用时若目标的破裂强度不低于3级，则使本技能的硬币威力+1",
+        "1命中时下回合对目标施加3层束缚",
+        "2命中时下回合对目标施加3级破裂强度"
+      ]
+    },
+    {
+      "skill_name": "连续招架",
+      "icon_id": "9001402",
+      "sin_type": "",
+      "damage_type": "防御",
+      "base_value": 5,
+      "coin_power": 8,
+      "coin_count": 1,
+      "attack_level": 0,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "使用时使自身获得1层守护"
+      ]
+    }
+  ],
+  "is_ally": false,
+  "_structured": true,
+  "appear_stages": [
+    "折射轨道1号线-首站-遭遇"
+  ],
+  "enemy_id": "折射轨道1号线-首站-遭遇|记忆中歪曲的残兵|",
+  "defense": 61,
+  "speed": "1~2",
+  "_schema_version": 1
+}

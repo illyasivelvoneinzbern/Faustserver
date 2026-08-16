@@ -1,0 +1,21 @@
+{
+  "id": "gift_9254",
+  "title": "再来一杯！",
+  "url": "https://limbuscompany.huijiwiki.com/wiki/E.G.O饰品",
+  "categories": [
+    "E.G.O饰品"
+  ],
+  "content": "消耗震颤层数或充能层数的基础技能造成的伤害+20%(包括特殊充能，不包括固定强度的特殊充能)\n通过基础技能消耗震颤层数或充能层数时，该技能结束时对自身重新施加相当于消耗层数一半的震颤层数或充能层数(最少1层，向下取整；包括特殊充能，不包括固定强度的特殊充能)",
+  "source": "tabx",
+  "_structured": true,
+  "page_type": "ego_gift",
+  "gift_name": "再来一杯！",
+  "rarity": 4,
+  "cost": "400",
+  "effect_types": "震颤",
+  "attack_type": "怠惰",
+  "location": "镜像迷宫",
+  "stage": "base",
+  "special": "极限模式节点-精灵童话",
+  "_schema_version": 1
+}

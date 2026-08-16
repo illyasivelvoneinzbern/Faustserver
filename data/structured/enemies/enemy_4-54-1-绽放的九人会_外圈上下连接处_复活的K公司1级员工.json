@@ -1,0 +1,190 @@
+{
+  "page_type": "enemy",
+  "title": "4-54-1-绽放的九人会 外圈上下连接处",
+  "enemy_name": "复活的K公司1级员工",
+  "battle_stage": "4-54-1-绽放的九人会 外圈上下连接处",
+  "body_part": "",
+  "hp": 101,
+  "defense_level": 30,
+  "speed_min": 2,
+  "speed_max": 5,
+  "chaos_threshold": "",
+  "physical_resistances": {
+    "斩击": 0.75,
+    "突刺": 1.0,
+    "打击": 2.0
+  },
+  "sin_resistances": {
+    "暴怒": 1.0,
+    "色欲": 1.0,
+    "怠惰": 1.0,
+    "暴食": 1.0,
+    "忧郁": 1.0,
+    "傲慢": 1.0,
+    "嫉妒": 1.0
+  },
+  "panic_types": [
+    "抑郁"
+  ],
+  "passives": [
+    "HP弹：回合开始时，恢复15点体力。 若现存体力不高于50%，则额外恢复15点体力。",
+    "流淌的忧郁：反面命中时，使目标增加2级 沉沦 强度",
+    "溢出的哀伤：回合结束时，自身失去5点理智值"
+  ],
+  "skills": [
+    {
+      "skill_name": "阻止入侵者",
+      "icon_id": "9005401",
+      "sin_type": "暴食",
+      "damage_type": "",
+      "base_value": 4,
+      "coin_power": 854,
+      "coin_count": 2,
+      "attack_level": 34,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[命中时] 对目标施加3层 破裂"
+      ]
+    },
+    {
+      "skill_name": "禁止入内",
+      "icon_id": "9005402",
+      "sin_type": "暴食",
+      "damage_type": "",
+      "base_value": 6,
+      "coin_power": 854,
+      "coin_count": 2,
+      "attack_level": 34,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[命中时] 使目标增加2级 破裂 强度"
+      ]
+    },
+    {
+      "skill_name": "禁止通行",
+      "icon_id": "9005403",
+      "sin_type": "暴食",
+      "damage_type": "",
+      "base_value": 5,
+      "coin_power": 854,
+      "coin_count": 2,
+      "attack_level": 34,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": []
+    },
+    {
+      "skill_name": "突袭",
+      "icon_id": "9003001",
+      "sin_type": "暴食",
+      "damage_type": "",
+      "base_value": 4,
+      "coin_power": 854,
+      "coin_count": 1,
+      "attack_level": 27,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": []
+    },
+    {
+      "skill_name": "阻截",
+      "icon_id": "9003002",
+      "sin_type": "怠惰",
+      "damage_type": "",
+      "base_value": 6,
+      "coin_power": 9703,
+      "coin_count": 2,
+      "attack_level": 27,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[正面命中时] 使目标 震颤引爆"
+      ]
+    },
+    {
+      "skill_name": "掩护",
+      "icon_id": "9003101",
+      "sin_type": "暴食",
+      "damage_type": "",
+      "base_value": 4,
+      "coin_power": 854,
+      "coin_count": 1,
+      "attack_level": 27,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": []
+    },
+    {
+      "skill_name": "发现可疑目标",
+      "icon_id": "852301",
+      "sin_type": "暴食",
+      "damage_type": "",
+      "base_value": 6,
+      "coin_power": 854,
+      "coin_count": 2,
+      "attack_level": 31,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[反面命中时] 使目标增加3级 破裂 强度"
+      ]
+    },
+    {
+      "skill_name": "制服",
+      "icon_id": "852302",
+      "sin_type": "暴食",
+      "damage_type": "",
+      "base_value": 6,
+      "coin_power": 854,
+      "coin_count": 2,
+      "attack_level": 31,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[反面命中时] 使目标增加3级 破裂 强度"
+      ]
+    },
+    {
+      "skill_name": "拦截可疑目标",
+      "icon_id": "852303",
+      "sin_type": "暴食",
+      "damage_type": "",
+      "base_value": 5,
+      "coin_power": 854,
+      "coin_count": 4,
+      "attack_level": 31,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": []
+    }
+  ],
+  "is_ally": false,
+  "_structured": true,
+  "appear_stages": [
+    "4-54-1-绽放的九人会 外圈上下连接处"
+  ],
+  "enemy_id": "4-54-1-绽放的九人会 外圈上下连接处|复活的K公司1级员工|",
+  "defense": 30,
+  "speed": "2~5",
+  "_schema_version": 1
+}

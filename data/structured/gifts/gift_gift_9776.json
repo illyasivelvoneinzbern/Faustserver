@@ -1,0 +1,22 @@
+{
+  "id": "gift_9776",
+  "title": "余火",
+  "url": "https://limbuscompany.huijiwiki.com/wiki/E.G.O饰品",
+  "categories": [
+    "E.G.O饰品"
+  ],
+  "content": "回合开始时，对全体敌方单位(若是异想体，则改为部位)施加1~2层烧伤\n带有烧伤的敌方单位受到友方单位增加烧伤强度，施加烧伤层数或施加特殊烧伤的攻击技能(包括E.G.O技能)的攻击5次时，触发该敌方单位的烧伤1次，并使其烧伤层数减少1层(每回合每名敌方单位最多2次，若是异想体则改为每个部位)",
+  "source": "tabx",
+  "_structured": true,
+  "page_type": "ego_gift",
+  "gift_name": "余火",
+  "rarity": 3,
+  "cost": "257",
+  "effect_types": "烧伤",
+  "attack_type": "暴怒",
+  "location": "LCB定期体检、镜像迷宫",
+  "stage": "base",
+  "special": "LCB定期体检",
+  "event": "事件-炼狱炎蝶之梦",
+  "_schema_version": 1
+}

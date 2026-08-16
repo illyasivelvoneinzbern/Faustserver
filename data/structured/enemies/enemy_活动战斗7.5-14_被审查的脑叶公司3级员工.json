@@ -1,0 +1,125 @@
+{
+  "page_type": "enemy",
+  "title": "活动战斗7.5-14",
+  "enemy_name": "被审查的脑叶公司3级员工",
+  "battle_stage": "活动战斗7.5-14",
+  "body_part": "",
+  "hp": 115,
+  "defense_level": 50,
+  "speed_min": 1,
+  "speed_max": 4,
+  "chaos_threshold": "",
+  "physical_resistances": {
+    "斩击": 0.8,
+    "突刺": 1.0,
+    "打击": 1.5
+  },
+  "sin_resistances": {
+    "暴怒": 1.5,
+    "色欲": 1.0,
+    "怠惰": 0.75,
+    "暴食": 1.5,
+    "忧郁": 0.75,
+    "傲慢": 1.0,
+    "嫉妒": 1.0
+  },
+  "panic_types": [
+    "疯狂"
+  ],
+  "passives": [
+    "牙齿：攻击命中时，使自身恢复5点体力。有50%的概率使目标增加1级 流血 强度",
+    "提灯：战斗开始时，若自身被2名及以上的单位指定为目标，则使自身获得1层 守护 ，1层 拼点威力提升 与1层 加算硬币强化",
+    "被审查的勇气：攻击后，若目标未陷入混乱或阵亡，则使自身增加关卡开始时自身体力上限20%的体力上限(最多增加100%)",
+    "被审查的正义：回合结束时，若自身的攻击技能未命中，则下回合使自身的最大与最小速度值+1并获得3层 伤害强化",
+    "不对劲的提灯：战斗开始时，每有1名人格指定自身为目标，对自身施加1层易损 (最多5层) 战斗开始时，若全体敌方单位均攻击自身，则使自身的攻击容量+1 - 每有1名敌方单位，使自身的攻击等级增加1级。恢复体力时，额外恢复5点体力"
+  ],
+  "skills": [
+    {
+      "skill_name": "■嚼",
+      "icon_id": "9018101",
+      "sin_type": "暴怒",
+      "damage_type": "打击",
+      "base_value": 4,
+      "coin_power": 987,
+      "coin_count": 2,
+      "attack_level": 50,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[命中时] 使目标增加3级 破裂 强度",
+        "[命中时] 对目标造成2点理智伤害"
+      ]
+    },
+    {
+      "skill_name": "吃■吧",
+      "icon_id": "9018102",
+      "sin_type": "色欲",
+      "damage_type": "打击",
+      "base_value": 4,
+      "coin_power": 9,
+      "coin_count": 3,
+      "attack_level": 50,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[使用时] 若目标的 破裂 强度不低于5级，则使本技能的硬币威力+1",
+        "[命中时] 对目标施加2层 破裂",
+        "[命中时] 对目标造成3点理智伤害",
+        "[命中时] 使自身恢复本硬币伤害量的体力(最多20点)",
+        "[命中时] 对目标造成5点理智伤害"
+      ]
+    },
+    {
+      "skill_name": "下■就是■！！",
+      "icon_id": "9018103",
+      "sin_type": "暴食",
+      "damage_type": "打击",
+      "base_value": 3,
+      "coin_power": 854,
+      "coin_count": 4,
+      "attack_level": 50,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[使用时] 目标每带有3级破裂 强度，使本技能的硬币威力+1(最多+2)",
+        "[命中时] 对目标施加3层 破裂",
+        "[命中时] 对目标施加2层 破裂",
+        "[命中时] 使自身恢复本硬币伤害量的体力(最多20点)",
+        "[命中时] 若现存体力不高于体力上限的50%，则重复使用本硬币1次",
+        "[命中时] 对目标造成10点理智伤害"
+      ]
+    },
+    {
+      "skill_name": "防■",
+      "icon_id": "9018104",
+      "sin_type": "暴食",
+      "damage_type": "防御",
+      "base_value": 4,
+      "coin_power": 854,
+      "coin_count": 1,
+      "attack_level": 0,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "使用时目标每带有5级{{状态2|破裂|4=负面}}强度，使自身获得5点护盾"
+      ]
+    }
+  ],
+  "is_ally": false,
+  "_structured": true,
+  "appear_stages": [
+    "活动战斗7.5-14"
+  ],
+  "enemy_id": "活动战斗7.5-14|被审查的脑叶公司3级员工|",
+  "defense": 50,
+  "speed": "1~4",
+  "_schema_version": 1
+}

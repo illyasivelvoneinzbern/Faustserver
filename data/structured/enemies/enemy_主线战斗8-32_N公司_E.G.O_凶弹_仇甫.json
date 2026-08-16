@@ -1,0 +1,172 @@
+{
+  "page_type": "enemy",
+  "title": "主线战斗8-32",
+  "enemy_name": "N公司 E.G.O::凶弹 仇甫",
+  "battle_stage": "主线战斗8-32",
+  "body_part": "躯干",
+  "hp": 1305,
+  "defense_level": 58,
+  "speed_min": 2,
+  "speed_max": 5,
+  "chaos_threshold": "1094/547/0",
+  "physical_resistances": {
+    "斩击": 1.0,
+    "突刺": 1.0,
+    "打击": 1.0
+  },
+  "sin_resistances": {
+    "暴怒": 1.0,
+    "色欲": 1.0,
+    "怠惰": 1.25,
+    "暴食": 1.1,
+    "忧郁": 0.5,
+    "傲慢": 0.75,
+    "嫉妒": 1.5
+  },
+  "panic_types": [
+    "迈向新时代的心（士气低落）",
+    "迈向新时代的心（陷入恐慌）",
+    "E.G.O侵蚀-N公司",
+    "呼吸法"
+  ],
+  "passives": [
+    "E.G.O侵蚀-N公司: 自身登场后每经过1回合，回合结束时使自身获得1层 E.G.O侵蚀-N公司 - 回合结束时，若现存体力低于体力上限的50%，或自身的理智值不高于-20点，则额外获得1层 E.G.O侵蚀-N公司",
+    "凶弹的代价: 攻击命中时，使自身恢复5点理智值 拼点失败时，使自身失去5点理智值",
+    "跃进: 击杀敌方单位时，使自身获得3层 呼吸法",
+    "友人啊，新时代即将到来。: 若自身的理智值不高于-20点，则使用特殊模式",
+    "请为崭新的理想献身吧。: 若1名N公司职员(不包括贾环)的体力不高于50%，则使用特殊模式。",
+    "固定恐慌: 被施加改变恐慌类型的状态时，自身的恐慌类型不会改变。效果改为对没有理智值的单位施加的效果。",
+    "恐慌恢复: 回合结束时，若陷入恐慌，则使自身理智值恢复为0点。"
+  ],
+  "skills": [
+    {
+      "skill_name": "前方射击",
+      "icon_id": "113601",
+      "sin_type": "暴怒",
+      "damage_type": "穿刺",
+      "base_value": 5,
+      "coin_power": 987,
+      "coin_count": 2,
+      "attack_level": 61,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[使用时] 使自身获得1层 撕裂的回忆",
+        "[使用时] 若目标的 流血 强度不低于6级，则使本技能的硬币威力+1",
+        "[使用时] 使自身获得1层 呼吸法 使本硬币暴击时造成的伤害+50%",
+        "[命中时] 对目标施加2层 流血"
+      ]
+    },
+    {
+      "skill_name": "后方射击",
+      "icon_id": "113602",
+      "sin_type": "色欲",
+      "damage_type": "穿刺",
+      "base_value": 5,
+      "coin_power": 9,
+      "coin_count": 2,
+      "attack_level": 61,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[使用时] 使自身获得1层 撕裂的回忆",
+        "[使用时] 若目标的 流血 强度不低于6级，则使本技能的硬币威力+1",
+        "[使用时] 使自身获得2层 呼吸法 使本硬币暴击时造成的伤害+70%",
+        "[命中时] 对目标施加2层 流血"
+      ]
+    },
+    {
+      "skill_name": "自魔法阵分割撕裂而来的子弹",
+      "icon_id": "113603",
+      "sin_type": "傲慢",
+      "damage_type": "穿刺",
+      "base_value": 15,
+      "coin_power": 3,
+      "coin_count": 3,
+      "attack_level": 63,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[使用时] 使自身增加3级 呼吸法 强度并使自身获得2层 呼吸法 本硬币仅对主要目标造成伤害",
+        "[命中时] 本硬币仅对次要目标造成伤害 本硬币暴击时造成的伤害+100%",
+        "[命中时] 使目标增加4级 流血 强度并对其施加2层 流血"
+      ]
+    },
+    {
+      "skill_name": "浸透战友之血的子弹",
+      "icon_id": "113604",
+      "sin_type": "傲慢",
+      "damage_type": "穿刺",
+      "base_value": 16,
+      "coin_power": 3,
+      "coin_count": 3,
+      "attack_level": 63,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[使用时] 使自身增加5级 呼吸法 强度",
+        "[命中时] 使本技能的最后一枚硬币额外造成(命中时目标现存体力)点傲慢伤害",
+        "[命中时] 击杀目标 本硬币仅对次要目标造成伤害",
+        "[命中时] 使目标增加4级 流血 强度并对其施加2层 流血",
+        "[命中时] 使目标增加4级 沉沦 强度并对其施加2层 沉沦"
+      ]
+    },
+    {
+      "skill_name": "撕裂回忆的子弹",
+      "icon_id": "113605",
+      "sin_type": "傲慢",
+      "damage_type": "穿刺",
+      "base_value": 6,
+      "coin_power": 3,
+      "coin_count": 9,
+      "attack_level": 63,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[使用时] 使自身失去10点理智值",
+        "[攻击后] 消耗自身所有 撕裂的回忆 不可摧毁的硬币",
+        "[命中时] 使目标增加3级 流血 强度",
+        "[命中时] 使目标增加3级 沉沦 强度",
+        "[命中时] 使目标失去5点理智值 不可摧毁的硬币",
+        "[命中时] 使目标失去5点理智值"
+      ]
+    },
+    {
+      "skill_name": "近身战",
+      "icon_id": "113606",
+      "sin_type": "傲慢",
+      "damage_type": "打击",
+      "base_value": 4,
+      "coin_power": 3,
+      "coin_count": 3,
+      "attack_level": 58,
+      "attack_weight": 1,
+      "is_guard": true,
+      "guard_type": "反击",
+      "importance": 0,
+      "coin_effects": [
+        "[命中时] 使自身获得2层 呼吸法",
+        "[命中时] 使自身增加2级 呼吸法 强度"
+      ]
+    }
+  ],
+  "is_ally": false,
+  "_structured": true,
+  "appear_stages": [
+    "主线战斗8-32"
+  ],
+  "enemy_id": "主线战斗8-32|N公司 E.G.O::凶弹 仇甫|躯干",
+  "defense": 58,
+  "speed": "2~5",
+  "_schema_version": 1
+}

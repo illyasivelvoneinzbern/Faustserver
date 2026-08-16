@@ -1,0 +1,38 @@
+{
+  "page_type": "enemy",
+  "title": "折射轨道4号线-第四区段-2",
+  "enemy_name": "折射的受缚之王",
+  "battle_stage": "折射轨道4号线-第四区段-2",
+  "body_part": "躯干",
+  "hp": 2979,
+  "defense_level": 50,
+  "speed_min": 2,
+  "speed_max": 5,
+  "chaos_threshold": "0",
+  "physical_resistances": {
+    "斩击": 1.0,
+    "突刺": 1.0,
+    "打击": 1.2
+  },
+  "sin_resistances": {
+    "暴怒": 1.0,
+    "色欲": 0.7,
+    "怠惰": 1.5,
+    "暴食": 0.7,
+    "忧郁": 1.3,
+    "傲慢": 1.0,
+    "嫉妒": 0.7
+  },
+  "panic_types": [],
+  "passives": [],
+  "skills": [],
+  "is_ally": false,
+  "_structured": true,
+  "appear_stages": [
+    "折射轨道4号线-第四区段-2"
+  ],
+  "enemy_id": "折射轨道4号线-第四区段-2|折射的受缚之王|躯干",
+  "defense": 50,
+  "speed": "2~5",
+  "_schema_version": 1
+}

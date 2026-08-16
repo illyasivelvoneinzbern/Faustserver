@@ -1,0 +1,21 @@
+{
+  "id": "gift_2005",
+  "title": "芳香满溢的幻想",
+  "url": "https://limbuscompany.huijiwiki.com/wiki/E.G.O饰品",
+  "categories": [
+    "E.G.O饰品"
+  ],
+  "content": "使怠惰技能造成的伤害+10%",
+  "source": "tabx",
+  "_structured": true,
+  "page_type": "ego_gift",
+  "gift_name": "芳香满溢的幻想",
+  "rarity": 0,
+  "cost": "0",
+  "effect_types": "",
+  "attack_type": "怠惰",
+  "location": "第四章",
+  "stage": "base",
+  "event": "事件-选择行与列",
+  "_schema_version": 1
+}

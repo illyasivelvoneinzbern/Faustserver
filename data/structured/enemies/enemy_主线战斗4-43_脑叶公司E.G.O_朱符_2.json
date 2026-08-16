@@ -1,0 +1,119 @@
+{
+  "page_type": "enemy",
+  "title": "主线战斗4-43",
+  "enemy_name": "脑叶公司E.G.O::朱符 2",
+  "battle_stage": "主线战斗4-43",
+  "body_part": "",
+  "hp": 104,
+  "defense_level": 30,
+  "speed_min": 3,
+  "speed_max": 5,
+  "chaos_threshold": "",
+  "physical_resistances": {
+    "斩击": 0.75,
+    "突刺": 1.0,
+    "打击": 2.0
+  },
+  "sin_resistances": {
+    "暴怒": 0.8,
+    "色欲": 1.0,
+    "怠惰": 1.0,
+    "暴食": 1.0,
+    "忧郁": 1.2,
+    "傲慢": 1.0,
+    "嫉妒": 1.0
+  },
+  "panic_types": [
+    "自尽",
+    "自尽"
+  ],
+  "passives": [
+    "无"
+  ],
+  "skills": [
+    {
+      "skill_name": "伤痕诅咒",
+      "icon_id": "9005901",
+      "sin_type": "色欲",
+      "damage_type": "",
+      "base_value": 0,
+      "coin_power": 7,
+      "coin_count": 2,
+      "attack_level": 38,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "coin_effects": [
+        "[命中时] 对目标施加3层 破裂 下{1}次被攻击时，额外受到{0}点固定伤害。"
+      ]
+    },
+    {
+      "skill_name": "咒缚增殖",
+      "icon_id": "9005902",
+      "sin_type": "色欲",
+      "damage_type": "",
+      "base_value": 0,
+      "coin_power": 3,
+      "coin_count": 3,
+      "attack_level": 38,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "coin_effects": [
+        "[命中时] 对目标施加2层 破裂 下{1}次被攻击时，额外受到{0}点固定伤害。"
+      ]
+    },
+    {
+      "skill_name": "束缚诅咒",
+      "icon_id": "9005903",
+      "sin_type": "色欲",
+      "damage_type": "",
+      "base_value": 0,
+      "coin_power": 3,
+      "coin_count": 2,
+      "attack_level": 38,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "coin_effects": []
+    },
+    {
+      "skill_name": "凸显伤口",
+      "icon_id": "9006104",
+      "sin_type": "色欲",
+      "damage_type": "",
+      "base_value": 0,
+      "coin_power": 3,
+      "coin_count": 4,
+      "attack_level": 38,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "coin_effects": [
+        "[命中时] 对目标施加2层 破裂 下{1}次被攻击时，额外受到{0}点固定伤害。",
+        "[命中时] 下回合对目标施加2层 束缚 本回合内速度值-{0}",
+        "[正面命中时] 使目标增加5级 破裂 下{1}次被攻击时，额外受到{0}点固定伤害。 强度"
+      ]
+    },
+    {
+      "skill_name": "防御护符",
+      "icon_id": "9005904",
+      "sin_type": "常规",
+      "damage_type": "",
+      "base_value": 0,
+      "coin_power": 5,
+      "coin_count": 1,
+      "attack_level": 0,
+      "attack_weight": 1,
+      "is_guard": true,
+      "guard_type": "防御",
+      "coin_effects": []
+    }
+  ],
+  "is_ally": false,
+  "_structured": true,
+  "enemy_id": "主线战斗4-43|脑叶公司E.G.O::朱符 2",
+  "defense": 30,
+  "speed": "3~5",
+  "_schema_version": 1
+}

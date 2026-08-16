@@ -1,0 +1,41 @@
+{
+  "page_type": "enemy",
+  "title": "主线战斗2-14",
+  "enemy_name": "危险的铁工会成员",
+  "battle_stage": "主线战斗2-14",
+  "body_part": "",
+  "hp": 76,
+  "defense_level": 11,
+  "speed_min": 1,
+  "speed_max": 4,
+  "chaos_threshold": "",
+  "physical_resistances": {
+    "斩击": 1.0,
+    "突刺": 2.0,
+    "打击": 0.75
+  },
+  "sin_resistances": {
+    "暴怒": 1.0,
+    "色欲": 1.0,
+    "怠惰": 1.0,
+    "暴食": 1.0,
+    "忧郁": 1.0,
+    "傲慢": 1.0,
+    "嫉妒": 1.0
+  },
+  "panic_types": [],
+  "passives": [
+    "无"
+  ],
+  "skills": [],
+  "is_ally": false,
+  "_structured": true,
+  "appear_stages": [
+    "主线战斗2-14",
+    "主线战斗2-15"
+  ],
+  "enemy_id": "主线战斗2-14|危险的铁工会成员|",
+  "defense": 11,
+  "speed": "1~4",
+  "_schema_version": 1
+}

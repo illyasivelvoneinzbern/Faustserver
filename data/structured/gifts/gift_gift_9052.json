@@ -1,0 +1,20 @@
+{
+  "id": "gift_9052",
+  "title": "便携式电源插座",
+  "url": "https://limbuscompany.huijiwiki.com/wiki/E.G.O饰品",
+  "categories": [
+    "E.G.O饰品"
+  ],
+  "content": "回合开始时，随机使2名友方单位获得2层充能（优先选取拥有获得充能层数或特殊充能的技能的友方单位）。\n激活怠惰完全共鸣时，战斗开始时随机使1名友方单位获得3层充能。",
+  "source": "tabx",
+  "_structured": true,
+  "page_type": "ego_gift",
+  "gift_name": "便携式电源插座",
+  "rarity": 2,
+  "cost": "190",
+  "effect_types": "充能",
+  "attack_type": "怠惰",
+  "location": "镜像迷宫",
+  "stage": "base",
+  "_schema_version": 1
+}

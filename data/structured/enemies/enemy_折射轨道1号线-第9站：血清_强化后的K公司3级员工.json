@@ -1,0 +1,88 @@
+{
+  "page_type": "enemy",
+  "title": "折射轨道1号线-第9站：血清",
+  "enemy_name": "强化后的K公司3级员工",
+  "battle_stage": "折射轨道1号线-第9站：血清",
+  "body_part": "身体",
+  "hp": 415,
+  "defense_level": 415,
+  "speed_min": 0,
+  "speed_max": 0,
+  "chaos_threshold": "1-4",
+  "physical_resistances": {
+    "斩击": 2.0,
+    "突刺": 0.75,
+    "打击": 1.0
+  },
+  "sin_resistances": {
+    "暴怒": 2.0,
+    "色欲": 1.0,
+    "怠惰": 1.5,
+    "暴食": 1.0,
+    "忧郁": 1.0,
+    "傲慢": 2.0,
+    "嫉妒": 1.0
+  },
+  "panic_types": [],
+  "passives": [],
+  "skills": [
+    {
+      "skill_name": "发现可疑目标",
+      "icon_id": "852301",
+      "sin_type": "暴食",
+      "damage_type": "打击",
+      "base_value": 6,
+      "coin_power": 854,
+      "coin_count": 2,
+      "attack_level": 27,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[反面命中时] 使目标增加3级 破裂 强度"
+      ]
+    },
+    {
+      "skill_name": "制服",
+      "icon_id": "852302",
+      "sin_type": "暴食",
+      "damage_type": "打击",
+      "base_value": 6,
+      "coin_power": 854,
+      "coin_count": 2,
+      "attack_level": 27,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "2{{Color|#c7ff94|[反面命中时]}}使目标增加3级破裂强度"
+      ]
+    },
+    {
+      "skill_name": "拦截可疑目标",
+      "icon_id": "852303",
+      "sin_type": "暴食",
+      "damage_type": "打击",
+      "base_value": 5,
+      "coin_power": 854,
+      "coin_count": 4,
+      "attack_level": 27,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": []
+    }
+  ],
+  "is_ally": false,
+  "_structured": true,
+  "appear_stages": [
+    "折射轨道1号线-第9站：血清"
+  ],
+  "enemy_id": "折射轨道1号线-第9站：血清|强化后的K公司3级员工|身体",
+  "defense": 415,
+  "speed": "0~0",
+  "_schema_version": 1
+}

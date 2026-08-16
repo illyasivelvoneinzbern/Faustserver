@@ -1,0 +1,65 @@
+{
+  "page_type": "event",
+  "title": "事件-使用再生安瓿",
+  "event_name": "使用再生安瓿",
+  "narration": "这个房间摆满了K公司的安瓿。\n“哦，太好了！但丁，我们就不能拿一个走么？”\n“不行。安瓿注射器只有这个房间有，所以除了这里没有地方能使用安瓿。”\n……该如何抉择？\n\n使用安瓿\n“这里写着使用再生安瓿的注意事项！”\n看向玻璃瓶的旁边，写着小小的注意事项。\n但是，密密麻麻的字很难准确地看清楚。\n“受伤的部位……不足……终止？到底写着什么？”\n“经理老爷！这个装置，可以一个人用也可以集体用！”\n确实，注射器按钮的选择权貌似在我手上。\n该如何抉择？\n分支1\n分支2\n大家一起使用再生安瓿\n不是对全体罪人来说都是好事呢。\n按下了“全员使用”的按钮。\n“……唔！”\n“真奇怪……状态突然变差了。”\n有的罪人在呻吟着。\n考虑到那些罪人的共同点……都是没有受伤的罪人。\n“不应该给健康的人注射的。”\n……下次要注意了。\n体力不满的友方单位恢复\n20点体力\n未受到效果影响的友方单位失去\n20点体力\n及\n10点理智值\n！\n下场战斗开始时，全体友方单位获得\n3层\n强壮\n给状态最差的友方单位注射再生安瓿\n罪人（受到效果影响的单位）看起来状态最差的样子，按下注射器旁边的“单人使用”的按钮。\n……看起来他的状态变好了！\n体力最低的友方单位恢复至\n体力上限\n\n不用安瓿\n我不太愿意在罪人身上实验连注射方法都不清楚的药物。\n于是我们离开了房间。\n什么都没有发生。",
+  "options": [
+    {
+      "choice_text": "使用安瓿",
+      "check_type": "",
+      "check_sin": "",
+      "check_threshold": 0,
+      "success_outcomes": [],
+      "failure_outcomes": []
+    },
+    {
+      "choice_text": "大家一起使用再生安瓿",
+      "check_type": "",
+      "check_sin": "",
+      "check_threshold": 0,
+      "success_outcomes": [],
+      "failure_outcomes": []
+    },
+    {
+      "choice_text": "给状态最差的友方单位注射再生安瓿",
+      "check_type": "",
+      "check_sin": "",
+      "check_threshold": 0,
+      "success_outcomes": [],
+      "failure_outcomes": []
+    },
+    {
+      "choice_text": "不用安瓿",
+      "check_type": "",
+      "check_sin": "",
+      "check_threshold": 0,
+      "success_outcomes": [],
+      "failure_outcomes": []
+    },
+    {
+      "choice_text": "大家一起使用再生安瓿",
+      "check_type": "",
+      "check_sin": "",
+      "check_threshold": 0,
+      "success_outcomes": [],
+      "failure_outcomes": []
+    },
+    {
+      "choice_text": "给状态最差的友方单位注射再生安瓿",
+      "check_type": "",
+      "check_sin": "",
+      "check_threshold": 0,
+      "success_outcomes": [],
+      "failure_outcomes": []
+    }
+  ],
+  "ego_gifts": [],
+  "related_abnormalities": [],
+  "trigger_location": "",
+  "_structured": true,
+  "id": "wiki_事件-使用再生安瓿",
+  "url": "https://limbuscompany.huijiwiki.com/wiki/事件-使用再生安瓿",
+  "categories": [],
+  "source": "wiki",
+  "_schema_version": 1
+}

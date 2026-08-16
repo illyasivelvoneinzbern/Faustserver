@@ -1,0 +1,37 @@
+{
+  "page_type": "event",
+  "title": "事件-朱红蛾群",
+  "event_name": "朱红蛾群",
+  "narration": "“看看这些蝴蝶，十分美丽吧？”\n“这里的晚霞又如何呢？\n真让人想永远在这条路上慢慢散步呢。”\n“你也在这里休息一下\n之后再上路怎么样？”\n一个黄色的东西用温和的语气说着，向我招手。\n\n稍事歇息\n“一路走到这里很辛苦吧？”\n“请看看这些蝴蝶，\n只是望过去心里就会暖洋洋的对吧。”\n你依从它的话\n看向那群黄昏之蝶。\n感到心中有一股暖意正在扩散开来。\n“那群孩子好像想和你们一起上路呢。”\n一群万花筒般的蝴蝶飞离原本的所在地，\n即便在我们离开之后也与我们同行。\n获得\n！\n全体友方单位恢复\n8点体力\n技能组内包含\n色欲属性攻击技能\n的友方单位恢复\n8点理智值\n\n无视离开\n“你很忙呢！”\n那东西像我们刚看见它时一样挥着手。\n或许是目送我们离开，祝愿我们旅途顺利的标志呢。\n“有缘再会吧！”\n回合开始时，恢复\n10点体力\n及\n10点理智值\n（最多3回合）",
+  "options": [
+    {
+      "choice_text": "稍事歇息",
+      "check_type": "",
+      "check_sin": "",
+      "check_threshold": 0,
+      "success_outcomes": [],
+      "failure_outcomes": []
+    },
+    {
+      "choice_text": "无视离开",
+      "check_type": "",
+      "check_sin": "",
+      "check_threshold": 0,
+      "success_outcomes": [],
+      "failure_outcomes": []
+    }
+  ],
+  "ego_gifts": [],
+  "related_abnormalities": [
+    "晚霞旅人",
+    "事件触发地点",
+    "镜像迷宫"
+  ],
+  "trigger_location": "",
+  "_structured": true,
+  "id": "wiki_事件-朱红蛾群",
+  "url": "https://limbuscompany.huijiwiki.com/wiki/事件-朱红蛾群",
+  "categories": [],
+  "source": "wiki",
+  "_schema_version": 1
+}

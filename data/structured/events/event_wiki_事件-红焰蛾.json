@@ -1,0 +1,44 @@
+{
+  "page_type": "event",
+  "title": "事件-红焰蛾",
+  "event_name": "红焰蛾",
+  "narration": "几个橘色的球状物晃晃悠悠地飘浮在空中。\n光芒在空中闪烁着，形成一片雾蒙蒙的微光。\n光雾之中，有什么快要燃尽了的东西。\n倘若触碰那片火焰，那我们也会被灼烧吧。\n\n伸手触碰\n像是被光雾操纵了一般\n我伸出手等待着那片光的靠近。\n闪烁的火光攀上了我的手指。\n火焰立刻将其包覆进去。\n一片火光逐渐化为两片、四片、八片，\n肆无忌惮地增长的火焰裹住了我的身体。\n技能组不包含\n暴怒属性攻击技能\n的友方单位失去\n16点体力\n！\n战斗开始时，技能组不包含\n暴怒属性攻击技能\n的友方单位将受到\n5点暴怒伤害\n获得\n！\n\n转身离开\n虽然不伸出手可能会让我感到后悔，\n但因为觉得应该避开这份未知的温暖，我还是转过了身。\n瞬间，一阵恶寒爬上了我的脊背，但是这样或许反而是幸运的。\n如果我伸出了手，现在的我可能已经被烧尽了吧。\n什么都没有发生。\n\n走入烟火\n有什么将你引入烟火中。\n无尽的鲜花以蝴蝶的外观翩翩飞舞，又形成了一片繁星。\n就在你俯身折花时，一股炽烈的热量自烟火中袭击了你。\n触发\n集中战斗\n！\n战斗胜利后，获得\n！\n战斗失败后，没有奖励",
+  "options": [
+    {
+      "choice_text": "伸手触碰",
+      "check_type": "",
+      "check_sin": "",
+      "check_threshold": 0,
+      "success_outcomes": [],
+      "failure_outcomes": []
+    },
+    {
+      "choice_text": "转身离开",
+      "check_type": "",
+      "check_sin": "",
+      "check_threshold": 0,
+      "success_outcomes": [],
+      "failure_outcomes": []
+    },
+    {
+      "choice_text": "走入烟火",
+      "check_type": "",
+      "check_sin": "",
+      "check_threshold": 0,
+      "success_outcomes": [],
+      "failure_outcomes": []
+    }
+  ],
+  "ego_gifts": [],
+  "related_abnormalities": [
+    "事件触发地点",
+    "镜像迷宫"
+  ],
+  "trigger_location": "",
+  "_structured": true,
+  "id": "wiki_事件-红焰蛾",
+  "url": "https://limbuscompany.huijiwiki.com/wiki/事件-红焰蛾",
+  "categories": [],
+  "source": "wiki",
+  "_schema_version": 1
+}

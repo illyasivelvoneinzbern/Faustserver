@@ -1,0 +1,21 @@
+{
+  "id": "gift_2052",
+  "title": "游行的面具",
+  "url": "https://limbuscompany.huijiwiki.com/wiki/E.G.O饰品",
+  "categories": [
+    "E.G.O饰品"
+  ],
+  "content": "连续遭遇战中有新的敌方单位登场时，战斗开始时使其增加5级流血强度并对其施加3层流血。",
+  "source": "tabx",
+  "_structured": true,
+  "page_type": "ego_gift",
+  "gift_name": "游行的面具",
+  "rarity": 1,
+  "cost": "0",
+  "effect_types": "",
+  "attack_type": "嫉妒",
+  "location": "第七章",
+  "stage": "base",
+  "event": "事件-拉·曼却领自由通行券",
+  "_schema_version": 1
+}

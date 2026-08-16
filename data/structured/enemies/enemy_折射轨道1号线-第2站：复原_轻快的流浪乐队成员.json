@@ -1,0 +1,93 @@
+{
+  "page_type": "enemy",
+  "title": "折射轨道1号线-第2站：复原",
+  "enemy_name": "轻快的流浪乐队成员",
+  "battle_stage": "折射轨道1号线-第2站：复原",
+  "body_part": "身体",
+  "hp": 105,
+  "defense_level": 105,
+  "speed_min": 0,
+  "speed_max": 0,
+  "chaos_threshold": "2-5",
+  "physical_resistances": {
+    "斩击": 2.0,
+    "突刺": 1.0,
+    "打击": 0.75
+  },
+  "sin_resistances": {
+    "暴怒": 0.75,
+    "色欲": 1.5,
+    "怠惰": 1.0,
+    "暴食": 2.0,
+    "忧郁": 0.75,
+    "傲慢": 1.0,
+    "嫉妒": 1.0
+  },
+  "panic_types": [],
+  "passives": [
+    "无"
+  ],
+  "skills": [
+    {
+      "skill_name": "热情之舞",
+      "icon_id": "9002502",
+      "sin_type": "嫉妒",
+      "damage_type": "斩击",
+      "base_value": 3,
+      "coin_power": 5793,
+      "coin_count": 1,
+      "attack_level": 32,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "使用时下回合使自身获得1层强壮"
+      ]
+    },
+    {
+      "skill_name": "舞蹈决斗",
+      "icon_id": "9002403",
+      "sin_type": "忧郁",
+      "damage_type": "斩击",
+      "base_value": 2,
+      "coin_power": 3,
+      "coin_count": 2,
+      "attack_level": 32,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "拼点胜利使目标失去5点理智值",
+        "3命中时下回合对目标施加2层虚弱"
+      ]
+    },
+    {
+      "skill_name": "笑里藏刀",
+      "icon_id": "9002404",
+      "sin_type": "忧郁",
+      "damage_type": "突刺",
+      "base_value": 2,
+      "coin_power": 3,
+      "coin_count": 1,
+      "attack_level": 32,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "若目标的理智值不高于0，则使本技能的威力+1"
+      ]
+    }
+  ],
+  "is_ally": false,
+  "_structured": true,
+  "appear_stages": [
+    "折射轨道1号线-第2站：复原"
+  ],
+  "enemy_id": "折射轨道1号线-第2站：复原|轻快的流浪乐队成员|身体",
+  "defense": 105,
+  "speed": "0~0",
+  "_schema_version": 1
+}

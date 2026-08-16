@@ -1,0 +1,522 @@
+{
+  "page_type": "personality",
+  "title": "辛克莱剑契组杀手",
+  "sinner": "辛克莱",
+  "sinner_id": "sinclair",
+  "personality_name": "辛克莱剑契组杀手",
+  "release_date": "2023.02.27",
+  "acquisition": "常驻提取",
+  "sin_affinities": {
+    "暴食": 3,
+    "暴怒": 2,
+    "傲慢": 1
+  },
+  "physical_resistances": {
+    "斩击": 0.5,
+    "突刺": 2.0,
+    "打击": 1.0
+  },
+  "ego_resources": {
+    "暴食": 3,
+    "暴怒": 2,
+    "傲慢": 1
+  },
+  "skills": [
+    {
+      "skill_index": 0,
+      "skill_name": "斩穿",
+      "sin_type": "",
+      "damage_type": "",
+      "guard_type": "",
+      "attack_capacity": 1,
+      "coin_count": 2,
+      "stage_groups": [
+        [
+          {
+            "stage": "I",
+            "base_value": 4,
+            "coin_power": 1,
+            "effects": [
+              {
+                "timing": "正面命中时",
+                "description": "使自身获得1层 呼吸法"
+              }
+            ],
+            "raw_text": "基础值： 4 变动值： +1 [正面命中时] 使自身获得1层 呼吸法"
+          },
+          {
+            "stage": "II",
+            "base_value": 4,
+            "coin_power": 1,
+            "effects": [
+              {
+                "timing": "命中时",
+                "description": "使自身获得2层 呼吸法"
+              }
+            ],
+            "raw_text": "基础值： 4 变动值： +1 [命中时] 使自身获得2层 呼吸法"
+          },
+          {
+            "stage": "III",
+            "base_value": 5,
+            "coin_power": 1,
+            "effects": [
+              {
+                "timing": "命中时",
+                "description": "使自身获得2层 呼吸法"
+              }
+            ],
+            "raw_text": "基础值： 5 变动值： +1 [命中时] 使自身获得2层 呼吸法"
+          },
+          {
+            "stage": "IV",
+            "base_value": 5,
+            "coin_power": 2,
+            "effects": [
+              {
+                "timing": "命中时",
+                "description": "使自身获得2层 呼吸法"
+              }
+            ],
+            "raw_text": "基础值： 5 变动值： +2 若自身的 呼吸法 层数不低于3层，则使本技能的硬币威力+1 [命中时] 使自身获得2层 呼吸法"
+          }
+        ]
+      ],
+      "coin_effects": [
+        {
+          "coin_index": 0,
+          "description": "技能一"
+        },
+        {
+          "coin_index": 0,
+          "description": "斩穿 3"
+        },
+        {
+          "coin_index": 0,
+          "timing": "",
+          "description": "2"
+        },
+        {
+          "coin_index": 0,
+          "description": "+2"
+        },
+        {
+          "coin_index": 0,
+          "description": "1"
+        },
+        {
+          "coin_index": 0,
+          "description": "基础值： 4 变动值： +1"
+        },
+        {
+          "coin_index": 2,
+          "timing": "正面命中时",
+          "description": "[正面命中时] 使自身获得1层 呼吸法"
+        },
+        {
+          "coin_index": 2,
+          "timing": "命中时",
+          "description": "[命中时] 使自身获得2层 呼吸法"
+        },
+        {
+          "coin_index": 2,
+          "timing": "命中时",
+          "description": "[命中时] 使自身获得2层 呼吸法"
+        },
+        {
+          "coin_index": 2,
+          "timing": "命中时",
+          "description": "[命中时] 使自身获得2层 呼吸法"
+        }
+      ],
+      "wikitext_key": "1技能"
+    },
+    {
+      "skill_index": 1,
+      "skill_name": "连斩",
+      "sin_type": "暴怒",
+      "damage_type": "斩击",
+      "guard_type": "",
+      "attack_capacity": 1,
+      "coin_count": 4,
+      "stage_groups": [
+        [
+          {
+            "stage": "I",
+            "base_value": 5,
+            "coin_power": 1,
+            "effects": [
+              {
+                "timing": "正面命中时",
+                "description": "使自身增加2级 呼吸法 强度"
+              },
+              {
+                "timing": "正面命中时",
+                "description": "使自身增加1级 呼吸法 强度"
+              },
+              {
+                "timing": "正面命中时",
+                "description": "使自身增加1级 呼吸法 强度"
+              }
+            ],
+            "raw_text": "基础值： 5 变动值： +1 [正面命中时] 使自身增加2级 呼吸法 强度 [正面命中时] 使自身增加1级 呼吸法 强度 [正面命中时] 使自身增加1级 呼吸法 强度"
+          },
+          {
+            "stage": "II",
+            "base_value": 5,
+            "coin_power": 1,
+            "effects": [
+              {
+                "timing": "拼点失败",
+                "description": "下回合开始时，使自身获得2层 强壮"
+              },
+              {
+                "timing": "命中时",
+                "description": "使自身增加2级 呼吸法 强度"
+              },
+              {
+                "timing": "命中时",
+                "description": "使自身增加1级 呼吸法 强度"
+              },
+              {
+                "timing": "命中时",
+                "description": "使自身增加1级 呼吸法 强度"
+              }
+            ],
+            "raw_text": "基础值： 5 变动值： +1 [拼点失败] 下回合开始时，使自身获得2层 强壮 [命中时] 使自身增加2级 呼吸法 强度 [命中时] 使自身增加1级 呼吸法 强度 [命中时] 使自身增加1级 呼吸法 强度"
+          },
+          {
+            "stage": "III",
+            "base_value": 6,
+            "coin_power": 1,
+            "effects": [
+              {
+                "timing": "拼点失败",
+                "description": "下回合开始时，使自身获得2层 强壮"
+              },
+              {
+                "timing": "命中时",
+                "description": "使自身增加2级 呼吸法 强度"
+              },
+              {
+                "timing": "命中时",
+                "description": "使自身增加1级 呼吸法 强度"
+              },
+              {
+                "timing": "命中时",
+                "description": "使自身增加1级 呼吸法 强度"
+              }
+            ],
+            "raw_text": "基础值： 6 变动值： +1 [拼点失败] 下回合开始时，使自身获得2层 强壮 [命中时] 使自身增加2级 呼吸法 强度 [命中时] 使自身增加1级 呼吸法 强度 [命中时] 使自身增加1级 呼吸法 强度"
+          },
+          {
+            "stage": "IV",
+            "base_value": 6,
+            "coin_power": 2,
+            "effects": [
+              {
+                "timing": "拼点失败",
+                "description": "下回合开始时，使自身获得2层 强壮"
+              },
+              {
+                "timing": "拼点胜利",
+                "description": "本技能暴击时不消耗 呼吸法 层数"
+              },
+              {
+                "timing": "命中时",
+                "description": "使自身增加2级 呼吸法 强度"
+              },
+              {
+                "timing": "命中时",
+                "description": "使自身增加1级 呼吸法 强度"
+              },
+              {
+                "timing": "命中时",
+                "description": "使自身增加1级 呼吸法 强度"
+              }
+            ],
+            "raw_text": "基础值： 6 变动值： +2 [拼点失败] 下回合开始时，使自身获得2层 强壮 [拼点胜利] 本技能暴击时不消耗 呼吸法 层数 [命中时] 使自身增加2级 呼吸法 强度 [命中时] 使自身增加1级 呼吸法 强度 [命中时] 使自身增加1级 呼吸法 强度"
+          }
+        ]
+      ],
+      "coin_effects": [
+        {
+          "coin_index": 0,
+          "description": "技能二"
+        },
+        {
+          "coin_index": 0,
+          "description": "连斩 2"
+        },
+        {
+          "coin_index": 0,
+          "timing": "",
+          "description": "3"
+        },
+        {
+          "coin_index": 0,
+          "description": "+2"
+        },
+        {
+          "coin_index": 0,
+          "description": "1"
+        },
+        {
+          "coin_index": 0,
+          "description": "基础值： 5 变动值： +1"
+        },
+        {
+          "coin_index": 1,
+          "timing": "正面命中时",
+          "description": "[正面命中时] 使自身增加2级 呼吸法 强度"
+        },
+        {
+          "coin_index": 2,
+          "timing": "正面命中时",
+          "description": "[正面命中时] 使自身增加1级 呼吸法 强度"
+        },
+        {
+          "coin_index": 3,
+          "timing": "正面命中时",
+          "description": "[正面命中时] 使自身增加1级 呼吸法 强度"
+        },
+        {
+          "coin_index": 1,
+          "timing": "命中时",
+          "description": "[命中时] 使自身增加2级 呼吸法 强度"
+        },
+        {
+          "coin_index": 2,
+          "timing": "命中时",
+          "description": "[命中时] 使自身增加1级 呼吸法 强度"
+        },
+        {
+          "coin_index": 3,
+          "timing": "命中时",
+          "description": "[命中时] 使自身增加1级 呼吸法 强度"
+        },
+        {
+          "coin_index": 1,
+          "timing": "命中时",
+          "description": "[命中时] 使自身增加2级 呼吸法 强度"
+        },
+        {
+          "coin_index": 2,
+          "timing": "命中时",
+          "description": "[命中时] 使自身增加1级 呼吸法 强度"
+        },
+        {
+          "coin_index": 3,
+          "timing": "命中时",
+          "description": "[命中时] 使自身增加1级 呼吸法 强度"
+        },
+        {
+          "coin_index": 1,
+          "timing": "命中时",
+          "description": "[命中时] 使自身增加2级 呼吸法 强度"
+        },
+        {
+          "coin_index": 2,
+          "timing": "命中时",
+          "description": "[命中时] 使自身增加1级 呼吸法 强度"
+        },
+        {
+          "coin_index": 3,
+          "timing": "命中时",
+          "description": "[命中时] 使自身增加1级 呼吸法 强度"
+        }
+      ],
+      "wikitext_key": "2技能"
+    },
+    {
+      "skill_index": 2,
+      "skill_name": "骨断",
+      "sin_type": "傲慢",
+      "damage_type": "斩击",
+      "guard_type": "",
+      "attack_capacity": 1,
+      "coin_count": 2,
+      "stage_groups": [
+        [
+          {
+            "stage": "I",
+            "base_value": 8,
+            "coin_power": 14,
+            "effects": [
+              {
+                "timing": "命中时",
+                "description": "对目标施加5层 麻痹"
+              },
+              {
+                "timing": "命中时",
+                "description": "使目标增加3级 流血 强度"
+              }
+            ],
+            "raw_text": "基础值： 8 变动值： +14 [命中时] 对目标施加5层 麻痹 [命中时] 使目标增加3级 流血 强度"
+          },
+          {
+            "stage": "II",
+            "base_value": 8,
+            "coin_power": 18,
+            "effects": [
+              {
+                "timing": "命中时",
+                "description": "对目标施加5层 麻痹"
+              },
+              {
+                "timing": "命中时",
+                "description": "使目标增加3级 流血 强度"
+              }
+            ],
+            "raw_text": "基础值： 8 变动值： +18 若自身的 呼吸法 层数不低于10层，则使本技能暴击时造成的伤害+150% [命中时] 对目标施加5层 麻痹 [命中时] 使目标增加3级 流血 强度"
+          }
+        ]
+      ],
+      "coin_effects": [
+        {
+          "coin_index": 0,
+          "description": "技能三"
+        },
+        {
+          "coin_index": 0,
+          "description": "骨断 1"
+        },
+        {
+          "coin_index": 0,
+          "timing": "",
+          "description": "1"
+        },
+        {
+          "coin_index": 0,
+          "description": "+2"
+        },
+        {
+          "coin_index": 0,
+          "description": "1"
+        },
+        {
+          "coin_index": 0,
+          "description": "基础值： 8 变动值： +14"
+        },
+        {
+          "coin_index": 1,
+          "timing": "命中时",
+          "description": "[命中时] 对目标施加5层 麻痹 [命中时] 使目标增加3级 流血 强度"
+        },
+        {
+          "coin_index": 1,
+          "timing": "命中时",
+          "description": "[命中时] 对目标施加5层 麻痹 [命中时] 使目标增加3级 流血 强度"
+        }
+      ],
+      "wikitext_key": "3技能"
+    },
+    {
+      "skill_index": 3,
+      "skill_name": "反击-初生",
+      "sin_type": "",
+      "damage_type": "",
+      "guard_type": "反击",
+      "attack_capacity": 1,
+      "coin_count": 1,
+      "stage_groups": [
+        [
+          {
+            "stage": "I",
+            "base_value": 9,
+            "coin_power": 6,
+            "effects": [
+              {
+                "timing": "使用时",
+                "description": "下回合使自身获得1层 伤害强化"
+              }
+            ],
+            "raw_text": "基础值： 9 变动值： +6 [使用时] 下回合使自身获得1层 伤害强化"
+          },
+          {
+            "stage": "II",
+            "base_value": 9,
+            "coin_power": 6,
+            "effects": [
+              {
+                "timing": "使用时",
+                "description": "下回合使自身获得1层 伤害强化"
+              },
+              {
+                "timing": "使用时",
+                "description": "使自身获得3层 呼吸法"
+              }
+            ],
+            "raw_text": "基础值： 9 变动值： +6 [使用时] 下回合使自身获得1层 伤害强化 [使用时] 使自身获得3层 呼吸法"
+          }
+        ]
+      ],
+      "coin_effects": [
+        {
+          "coin_index": 0,
+          "description": "守备技能"
+        },
+        {
+          "coin_index": 0,
+          "description": "反击-初生"
+        },
+        {
+          "coin_index": 0,
+          "timing": "",
+          "description": "1"
+        },
+        {
+          "coin_index": 0,
+          "description": "+2"
+        },
+        {
+          "coin_index": 0,
+          "description": "1"
+        },
+        {
+          "coin_index": 0,
+          "description": "I阶 - III阶 IV阶 基础值： 9 变动值： +6 [使用时] 下回合使自身获得1层 伤害强化 基础值： 9 变动值： +6 [使用时] 下回合使自身获得1层 伤害强化 [使用时] 使自身获得3层 呼吸法"
+        }
+      ],
+      "wikitext_key": "守备技能4"
+    }
+  ],
+  "battle_passive": "人格被动1100201\n人格被动1100221",
+  "support_passive": "",
+  "notes": "",
+  "voice_lines": [],
+  "skill_voice": [
+    {
+      "file": "Battle_s2_11002_1_1.ogg",
+      "skill_index": 2,
+      "skill_label": "",
+      "skill_name": "连斩"
+    },
+    {
+      "file": "Battle_s2_11002_1_2.ogg",
+      "skill_index": 2,
+      "skill_label": "",
+      "skill_name": "连斩"
+    },
+    {
+      "file": "Battle_s2_11002_1_3.ogg",
+      "skill_index": 2,
+      "skill_label": "",
+      "skill_name": "连斩"
+    },
+    {
+      "file": "Battle_s3_11002_1_1.ogg",
+      "skill_index": 3,
+      "skill_label": "技能三",
+      "skill_name": "骨断"
+    }
+  ],
+  "_structured": true,
+  "id": "wiki_辛克莱剑契组杀手",
+  "url": "https://limbuscompany.huijiwiki.com/wiki/辛克莱剑契组杀手",
+  "categories": [
+    "人格"
+  ],
+  "source": "wiki",
+  "_schema_version": 1
+}

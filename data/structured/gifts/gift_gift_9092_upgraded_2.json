@@ -1,0 +1,21 @@
+{
+  "id": "gift_9092_upgraded_2",
+  "title": "震颤耦合",
+  "url": "https://limbuscompany.huijiwiki.com/wiki/E.G.O饰品",
+  "categories": [
+    "E.G.O饰品"
+  ],
+  "content": "使敌方单位震颤引爆时，本回合与下回合使其增加5级震颤强度并对其施加2层易损。(每个震颤引爆的攻击技能最多触发1次)\n若本回合使1名敌方单位震颤引爆3次，则下回合开始时使其陷入混乱并在现存体力66%与33%处生成1条混乱阈值。(每场战斗最多1次)\n造成振幅转换或振幅纠缠时，施加1层易损(每回合最多3次)",
+  "source": "tabx",
+  "_structured": true,
+  "page_type": "ego_gift",
+  "gift_name": "震颤耦合",
+  "rarity": 4,
+  "cost": "419",
+  "effect_types": "震颤",
+  "attack_type": "色欲",
+  "location": "镜像迷宫",
+  "stage": "upgraded_2",
+  "special": "合成",
+  "_schema_version": 1
+}

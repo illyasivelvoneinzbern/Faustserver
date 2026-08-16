@@ -1,0 +1,22 @@
+{
+  "id": "gift_9832",
+  "title": "黄金罗盘",
+  "url": "https://limbuscompany.huijiwiki.com/wiki/E.G.O饰品",
+  "categories": [
+    "E.G.O饰品"
+  ],
+  "content": "使用加算硬币技能时，使自身恢复5点理智值；使用减算硬币技能时，使自身失去5点理智值(不会因本效果而使理智值低于-40点，每回合每名友方单位最多1次)\n回合开始时，若自身理智值为最大值或不高于-30点，则使自身获得1层威力提升与2层守护",
+  "source": "tabx",
+  "_structured": true,
+  "page_type": "ego_gift",
+  "gift_name": "黄金罗盘",
+  "rarity": 3,
+  "cost": "250",
+  "effect_types": "泛用",
+  "attack_type": "暴食",
+  "location": "善意的巡礼",
+  "stage": "base",
+  "special": "善意的巡礼",
+  "event": "事件-伊比利亚过去的辉煌荣光",
+  "_schema_version": 1
+}

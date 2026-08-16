@@ -1,0 +1,22 @@
+{
+  "id": "gift_9736",
+  "title": "生物发电电池",
+  "url": "https://limbuscompany.huijiwiki.com/wiki/E.G.O饰品",
+  "categories": [
+    "E.G.O饰品"
+  ],
+  "content": "带有充能层数或特殊充能的友方单位每次拼点时，使其增加1级攻击等级。(最多6级，攻击后重置)\n回合结束时，使充能与特殊充能层数之和不低于10层的友方单位在下回合获得1层迅捷。充能与特殊充能层数之和不低于18层，则额外获得3层攻击等级提升。",
+  "source": "tabx",
+  "_structured": true,
+  "page_type": "ego_gift",
+  "gift_name": "生物发电电池",
+  "rarity": 2,
+  "cost": "203",
+  "effect_types": "充能",
+  "attack_type": "色欲",
+  "location": "镜像迷宫",
+  "stage": "base",
+  "special": "WARP快车谋杀案",
+  "event": "事件-生物发电型电池",
+  "_schema_version": 1
+}

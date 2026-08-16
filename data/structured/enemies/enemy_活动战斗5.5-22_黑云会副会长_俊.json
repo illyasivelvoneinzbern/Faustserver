@@ -1,0 +1,147 @@
+{
+  "page_type": "enemy",
+  "title": "活动战斗5.5-22",
+  "enemy_name": "黑云会副会长 俊",
+  "battle_stage": "活动战斗5.5-22",
+  "body_part": "",
+  "hp": 359,
+  "defense_level": 40,
+  "speed_min": 2,
+  "speed_max": 5,
+  "chaos_threshold": "",
+  "physical_resistances": {
+    "斩击": 1.2,
+    "突刺": 0.5,
+    "打击": 1.0
+  },
+  "sin_resistances": {
+    "暴怒": 1.0,
+    "色欲": 1.0,
+    "怠惰": 1.0,
+    "暴食": 1.0,
+    "忧郁": 1.0,
+    "傲慢": 1.0,
+    "嫉妒": 1.0
+  },
+  "panic_types": [
+    "愤怒",
+    "伤害强化",
+    "易损",
+    "愤怒",
+    "伤害强化",
+    "易损"
+  ],
+  "passives": [
+    "锐利一击：命中时，使目标增加1级 流血 强度（每回合最多3次）",
+    "剜出：攻击技能对目标施加 流血 时，令其增加的 流血 强度额外+1级",
+    "黑云道：斩击技能的最终威力+1",
+    "善后：友方单位阵亡时，下回合增加1个行动槽。（最多5个行动槽）"
+  ],
+  "skills": [
+    {
+      "skill_name": "墨云",
+      "icon_id": "9101301",
+      "sin_type": "色欲",
+      "damage_type": "",
+      "base_value": 0,
+      "coin_power": 3,
+      "coin_count": 3,
+      "attack_level": 45,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "coin_effects": [
+        "[命中时] 使目标增加4级 流血 强度并施加1层 流血"
+      ]
+    },
+    {
+      "skill_name": "善后",
+      "icon_id": "9101302",
+      "sin_type": "色欲",
+      "damage_type": "",
+      "base_value": 0,
+      "coin_power": 4,
+      "coin_count": 3,
+      "attack_level": 45,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "coin_effects": [
+        "[命中时] 下回合对目标施加1层 斩击易损",
+        "[正面命中时] 使目标增加1级 流血 强度"
+      ]
+    },
+    {
+      "skill_name": "云斩",
+      "icon_id": "9101303",
+      "sin_type": "暴怒",
+      "damage_type": "",
+      "base_value": 0,
+      "coin_power": 3,
+      "coin_count": 4,
+      "attack_level": 45,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "coin_effects": [
+        "[命中时] 下回合对目标施加1层 麻痹",
+        "[命中时] 使目标增加8级 流血 强度",
+        "[命中时] 对目标施加3层 流血"
+      ]
+    },
+    {
+      "skill_name": "锋锐剑刃",
+      "icon_id": "9101304",
+      "sin_type": "暴怒",
+      "damage_type": "",
+      "base_value": 0,
+      "coin_power": 4,
+      "coin_count": 2,
+      "attack_level": 45,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "coin_effects": []
+    },
+    {
+      "skill_name": "晴空斩",
+      "icon_id": "9101305",
+      "sin_type": "傲慢",
+      "damage_type": "",
+      "base_value": 0,
+      "coin_power": 4,
+      "coin_count": 4,
+      "attack_level": 45,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "coin_effects": [
+        "[正面命中时] 使目标增加2级 流血 强度",
+        "[正面命中时] 使目标增加3级 流血 强度 若目标的 流血 强度不低于7级，则使本硬币造成的伤害+50%",
+        "[命中时] 对目标施加10层 流血"
+      ]
+    },
+    {
+      "skill_name": "后巷规矩",
+      "icon_id": "9101306",
+      "sin_type": "嫉妒",
+      "damage_type": "",
+      "base_value": 0,
+      "coin_power": 2,
+      "coin_count": 2,
+      "attack_level": 45,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "coin_effects": [
+        "[命中时] 对目标施加2层 流血"
+      ]
+    }
+  ],
+  "is_ally": false,
+  "_structured": true,
+  "enemy_id": "活动战斗5.5-22|黑云会副会长 俊",
+  "defense": 40,
+  "speed": "2~5",
+  "_schema_version": 1
+}

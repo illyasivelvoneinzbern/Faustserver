@@ -1,0 +1,833 @@
+{
+  "page_type": "enemy",
+  "title": "主线战斗6-48",
+  "enemy_name": "魔王希斯克利夫（第二阶段）",
+  "battle_stage": "主线战斗6-48",
+  "body_part": "躯干",
+  "hp": 2439,
+  "defense_level": 45,
+  "speed_min": 2,
+  "speed_max": 4,
+  "chaos_threshold": "1902/1098/0",
+  "physical_resistances": {
+    "斩击": 1.0,
+    "突刺": 1.0,
+    "打击": 1.0
+  },
+  "sin_resistances": {
+    "暴怒": 1.2,
+    "色欲": 1.2,
+    "怠惰": 1.0,
+    "暴食": 1.0,
+    "忧郁": 1.5,
+    "傲慢": 1.0,
+    "嫉妒": 1.5
+  },
+  "panic_types": [
+    "复仇"
+  ],
+  "passives": [],
+  "skills": [
+    {
+      "skill_name": "巨剑砍击",
+      "icon_id": "817301",
+      "sin_type": "嫉妒",
+      "damage_type": "",
+      "base_value": 4,
+      "coin_power": 5793,
+      "coin_count": 2,
+      "attack_level": 45,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[命中时] 对目标施加3层 沉沦 并使其增加3级 沉沦 强度"
+      ]
+    },
+    {
+      "skill_name": "击倒出局",
+      "icon_id": "817302",
+      "sin_type": "暴怒",
+      "damage_type": "",
+      "base_value": 4,
+      "coin_power": 987,
+      "coin_count": 4,
+      "attack_level": 45,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[命中时] 对目标施加3层 沉沦 并使其增加3级 沉沦 强度",
+        "[命中时] 使目标增加3级 流血 强度",
+        "[命中时] 使目标增加相当于其 沉沦 强度的 流血 强度"
+      ]
+    },
+    {
+      "skill_name": "斩首希斯克利夫",
+      "icon_id": "817305",
+      "sin_type": "忧郁",
+      "damage_type": "",
+      "base_value": 8,
+      "coin_power": 3,
+      "coin_count": 2,
+      "attack_level": 45,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[命中时] 下回合对目标施加3层 麻痹",
+        "[命中时] 使目标增加8级 流血 强度"
+      ]
+    },
+    {
+      "skill_name": "空棺之槌",
+      "icon_id": "817306",
+      "sin_type": "色欲",
+      "damage_type": "",
+      "base_value": 4,
+      "coin_power": 9,
+      "coin_count": 2,
+      "attack_level": 45,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[正面命中时] 使本技能下一枚硬币的威力+2"
+      ]
+    },
+    {
+      "skill_name": "奔向死亡吧，杜拉罕啊",
+      "icon_id": "817307",
+      "sin_type": "嫉妒",
+      "damage_type": "",
+      "base_value": 12,
+      "coin_power": 5793,
+      "coin_count": 3,
+      "attack_level": 45,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": []
+    },
+    {
+      "skill_name": "忍耐",
+      "icon_id": "817308",
+      "sin_type": "色欲",
+      "damage_type": "",
+      "base_value": 15,
+      "coin_power": 9,
+      "coin_count": 1,
+      "attack_level": 0,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": []
+    },
+    {
+      "skill_name": "徒劳",
+      "icon_id": "817401",
+      "sin_type": "色欲",
+      "damage_type": "",
+      "base_value": 15,
+      "coin_power": 9,
+      "coin_count": 1,
+      "attack_level": 0,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": []
+    },
+    {
+      "skill_name": "为了一个他没有痛苦的世界",
+      "icon_id": "817402",
+      "sin_type": "忧郁",
+      "damage_type": "",
+      "base_value": 4,
+      "coin_power": 3,
+      "coin_count": 1,
+      "attack_level": 45,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": []
+    },
+    {
+      "skill_name": "所有的凯瑟琳必定死亡",
+      "icon_id": "817403",
+      "sin_type": "嫉妒",
+      "damage_type": "",
+      "base_value": 13,
+      "coin_power": 5793,
+      "coin_count": 2,
+      "attack_level": 52,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[攻击后] 对自身施加1层 撕碎的心",
+        "[命中时] 对目标施加 撕碎的心"
+      ]
+    },
+    {
+      "skill_name": "撕碎的心",
+      "icon_id": "817404",
+      "sin_type": "嫉妒",
+      "damage_type": "",
+      "base_value": 8,
+      "coin_power": 5793,
+      "coin_count": 2,
+      "attack_level": 48,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[攻击后] 使自身获得1层 撕碎的心",
+        "[命中时] 对目标造成相当于体力上限15%的伤害",
+        "[命中时] 对目标施加 撕碎的心"
+      ]
+    },
+    {
+      "skill_name": "苦涩的泪水",
+      "icon_id": "819201",
+      "sin_type": "暴怒",
+      "damage_type": "",
+      "base_value": 4,
+      "coin_power": 987,
+      "coin_count": 1,
+      "attack_level": 45,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": []
+    },
+    {
+      "skill_name": "悲剧之手",
+      "icon_id": "819202",
+      "sin_type": "暴怒",
+      "damage_type": "",
+      "base_value": 4,
+      "coin_power": 987,
+      "coin_count": 3,
+      "attack_level": 45,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[命中时] 下回合对目标施加1层 束缚"
+      ]
+    },
+    {
+      "skill_name": "绝望之手",
+      "icon_id": "819203",
+      "sin_type": "暴怒",
+      "damage_type": "",
+      "base_value": 4,
+      "coin_power": 987,
+      "coin_count": 3,
+      "attack_level": 45,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[命中时] 下回合对目标施加2层 攻击等级降低",
+        "[命中时] 下回合对目标施加1层 攻击等级降低"
+      ]
+    },
+    {
+      "skill_name": "无意义的挣扎",
+      "icon_id": "819204",
+      "sin_type": "忧郁",
+      "damage_type": "",
+      "base_value": 5,
+      "coin_power": 3,
+      "coin_count": 2,
+      "attack_level": 45,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[命中时] 下回合对目标施加3层 麻痹"
+      ]
+    },
+    {
+      "skill_name": "唯留痛苦…",
+      "icon_id": "819205",
+      "sin_type": "嫉妒",
+      "damage_type": "",
+      "base_value": 10,
+      "coin_power": 5793,
+      "coin_count": 2,
+      "attack_level": 45,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[命中时] 对目标造成相当于体力上限15%的伤害"
+      ]
+    },
+    {
+      "skill_name": "无法触碰的灵魂",
+      "icon_id": "819206",
+      "sin_type": "色欲",
+      "damage_type": "",
+      "base_value": 2,
+      "coin_power": 9,
+      "coin_count": 1,
+      "attack_level": 0,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": []
+    },
+    {
+      "skill_name": "苦涩的泪水",
+      "icon_id": "819201",
+      "sin_type": "暴怒",
+      "damage_type": "",
+      "base_value": 4,
+      "coin_power": 987,
+      "coin_count": 1,
+      "attack_level": 45,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": []
+    },
+    {
+      "skill_name": "悲剧之手",
+      "icon_id": "819202",
+      "sin_type": "暴怒",
+      "damage_type": "",
+      "base_value": 4,
+      "coin_power": 987,
+      "coin_count": 3,
+      "attack_level": 45,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[命中时] 下回合对目标施加1层 束缚"
+      ]
+    },
+    {
+      "skill_name": "绝望之手",
+      "icon_id": "819203",
+      "sin_type": "暴怒",
+      "damage_type": "",
+      "base_value": 4,
+      "coin_power": 987,
+      "coin_count": 3,
+      "attack_level": 45,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[命中时] 下回合对目标施加2层 攻击等级降低",
+        "[命中时] 下回合对目标施加1层 攻击等级降低"
+      ]
+    },
+    {
+      "skill_name": "唯留痛苦…",
+      "icon_id": "819205",
+      "sin_type": "嫉妒",
+      "damage_type": "",
+      "base_value": 10,
+      "coin_power": 5793,
+      "coin_count": 2,
+      "attack_level": 45,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[命中时] 造成相当于体力上限15%的伤害"
+      ]
+    },
+    {
+      "skill_name": "无意义的挣扎",
+      "icon_id": "819204",
+      "sin_type": "忧郁",
+      "damage_type": "",
+      "base_value": 5,
+      "coin_power": 3,
+      "coin_count": 2,
+      "attack_level": 45,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[命中时] 下回合对目标施加3层 麻痹"
+      ]
+    },
+    {
+      "skill_name": "无法触碰的灵魂",
+      "icon_id": "819206",
+      "sin_type": "色欲",
+      "damage_type": "",
+      "base_value": 2,
+      "coin_power": 9,
+      "coin_count": 1,
+      "attack_level": 0,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": []
+    },
+    {
+      "skill_name": "巨剑砍击",
+      "icon_id": "817301",
+      "sin_type": "嫉妒",
+      "damage_type": "",
+      "base_value": 4,
+      "coin_power": 5793,
+      "coin_count": 2,
+      "attack_level": 45,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[命中时] 对目标施加3层 沉沦 并使其增加3级 沉沦 强度"
+      ]
+    },
+    {
+      "skill_name": "击倒出局",
+      "icon_id": "817302",
+      "sin_type": "暴怒",
+      "damage_type": "",
+      "base_value": 4,
+      "coin_power": 987,
+      "coin_count": 4,
+      "attack_level": 45,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[命中时] 对目标施加3层 沉沦 并使其增加3级 沉沦 强度",
+        "[命中时] 使目标增加3级 流血 强度",
+        "[命中时] 使目标增加相当于其 沉沦 强度的 流血 强度"
+      ]
+    },
+    {
+      "skill_name": "斩首希斯克利夫",
+      "icon_id": "817305",
+      "sin_type": "忧郁",
+      "damage_type": "",
+      "base_value": 8,
+      "coin_power": 3,
+      "coin_count": 2,
+      "attack_level": 45,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[命中时] 下回合对目标施加3层 麻痹",
+        "[命中时] 使目标增加8级 流血 强度"
+      ]
+    },
+    {
+      "skill_name": "空棺之槌",
+      "icon_id": "817306",
+      "sin_type": "色欲",
+      "damage_type": "",
+      "base_value": 4,
+      "coin_power": 9,
+      "coin_count": 2,
+      "attack_level": 45,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[正面命中时] 使本技能下一枚硬币的威力+2"
+      ]
+    },
+    {
+      "skill_name": "奔向死亡吧，杜拉罕啊",
+      "icon_id": "817307",
+      "sin_type": "嫉妒",
+      "damage_type": "",
+      "base_value": 12,
+      "coin_power": 5793,
+      "coin_count": 3,
+      "attack_level": 45,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": []
+    },
+    {
+      "skill_name": "忍耐",
+      "icon_id": "817308",
+      "sin_type": "色欲",
+      "damage_type": "",
+      "base_value": 15,
+      "coin_power": 9,
+      "coin_count": 1,
+      "attack_level": 0,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": []
+    },
+    {
+      "skill_name": "魔王所经之处，唯余悲伤与哀鸣",
+      "icon_id": "817309",
+      "sin_type": "暴怒",
+      "damage_type": "",
+      "base_value": 4,
+      "coin_power": 987,
+      "coin_count": 5,
+      "attack_level": 45,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[命中时] 使目标增加4级 沉沦 强度与4级 流血 强度",
+        "[命中时] 对目标施加2层 沉沦 与2层 流血"
+      ]
+    },
+    {
+      "skill_name": "所有的希斯克利夫必定死亡…",
+      "icon_id": "817310",
+      "sin_type": "忧郁",
+      "damage_type": "",
+      "base_value": 30,
+      "coin_power": 3,
+      "coin_count": 2,
+      "attack_level": 46,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[命中时] 对目标造成其体力上限100%的伤害"
+      ]
+    },
+    {
+      "skill_name": "前…",
+      "icon_id": "9013801",
+      "sin_type": "忧郁",
+      "damage_type": "",
+      "base_value": 3,
+      "coin_power": 3,
+      "coin_count": 2,
+      "attack_level": 47,
+      "attack_weight": 1,
+      "is_guard": true,
+      "guard_type": "防御",
+      "importance": 0,
+      "coin_effects": [
+        "[命中时] 下回合对目标施加2层 防御等级降低"
+      ]
+    },
+    {
+      "skill_name": "…刺",
+      "icon_id": "9013802",
+      "sin_type": "忧郁",
+      "damage_type": "",
+      "base_value": 4,
+      "coin_power": 3,
+      "coin_count": 2,
+      "attack_level": 47,
+      "attack_weight": 1,
+      "is_guard": true,
+      "guard_type": "防御",
+      "importance": 0,
+      "coin_effects": [
+        "[使用时] 若目标带有不低于2种负面状态，则使本技能的基础威力+1",
+        "[命中时] 下回合对目标施加3层 防御等级降低"
+      ]
+    },
+    {
+      "skill_name": "正…刺",
+      "icon_id": "9013804",
+      "sin_type": "嫉妒",
+      "damage_type": "",
+      "base_value": 4,
+      "coin_power": 5793,
+      "coin_count": 3,
+      "attack_level": 47,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[使用时] 若目标带有不低于5种负面状态，则使本技能的基础威力+2",
+        "[使用时] 若目标带有不低于5种负面状态，则使本技能造成的伤害+30%",
+        "[命中时] 对目标施加2层 易损",
+        "[命中时] 下回合对目标施加2层 易损",
+        "[命中时] 目标带有不低于5种负面状态，则重复使用本硬币（最多2次）",
+        "[命中时] 随机解除目标带有的1种可解除的负面状态"
+      ]
+    },
+    {
+      "skill_name": "…",
+      "icon_id": "9013805",
+      "sin_type": "常规",
+      "damage_type": "",
+      "base_value": 5,
+      "coin_power": 79,
+      "coin_count": 1,
+      "attack_level": 0,
+      "attack_weight": 1,
+      "is_guard": true,
+      "guard_type": "闪避",
+      "importance": 0,
+      "coin_effects": []
+    },
+    {
+      "skill_name": "…击",
+      "icon_id": "9101401",
+      "sin_type": "忧郁",
+      "damage_type": "",
+      "base_value": 3,
+      "coin_power": 3,
+      "coin_count": 3,
+      "attack_level": 50,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[使用时] 若目标的 沉沦 强度不低于5级，则对目标施加1层 攻击等级降低",
+        "[命中时] 使目标增加4级 沉沦 强度",
+        "[命中时] 下回合对目标施加1层 束缚",
+        "[命中时] 下回合对目标施加1层 麻痹"
+      ]
+    },
+    {
+      "skill_name": "…时间",
+      "icon_id": "9101402",
+      "sin_type": "忧郁",
+      "damage_type": "",
+      "base_value": 3,
+      "coin_power": 3,
+      "coin_count": 4,
+      "attack_level": 50,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[使用时] 若目标的理智值不高于10，则对目标施加2层 攻击等级降低",
+        "[命中时] 下回合对目标施加1层 加算硬币弱化",
+        "[命中时] 对目标施加3层 沉沦",
+        "[命中时] 下回合对目标施加2层 易损"
+      ]
+    },
+    {
+      "skill_name": "…尘",
+      "icon_id": "9101404",
+      "sin_type": "傲慢",
+      "damage_type": "",
+      "base_value": 5,
+      "coin_power": 3,
+      "coin_count": 4,
+      "attack_level": 50,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[使用时] 目标每带有6级 沉沦 强度，使本技能的基础威力+1（最多+3）",
+        "[使用时] 目标每带有6层 沉沦 ，使本技能造成的伤害+10%（最多+30%）",
+        "[命中时] 根据目标带有的 沉沦 强度，对其造成相应的忧郁伤害。使其 沉沦 层数减少1层",
+        "[命中时] 使目标增加4级 沉沦 强度",
+        "[命中时] 若目标的 沉沦 层数不低于3层，则重复使用本硬币（最多2次）"
+      ]
+    },
+    {
+      "skill_name": "…鼠辈",
+      "icon_id": "9101405",
+      "sin_type": "常规",
+      "damage_type": "",
+      "base_value": 10,
+      "coin_power": 79,
+      "coin_count": 1,
+      "attack_level": 0,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": []
+    },
+    {
+      "skill_name": "该死的贱…",
+      "icon_id": "9101501",
+      "sin_type": "傲慢",
+      "damage_type": "",
+      "base_value": 3,
+      "coin_power": 3,
+      "coin_count": 3,
+      "attack_level": 48,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[命中时] 下回合使自身获得1层 攻击等级提升"
+      ]
+    },
+    {
+      "skill_name": "除…",
+      "icon_id": "9101502",
+      "sin_type": "傲慢",
+      "damage_type": "",
+      "base_value": 4,
+      "coin_power": 3,
+      "coin_count": 3,
+      "attack_level": 46,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[命中时] 若目标带有 攻击等级降低 ，则对目标追加本硬币伤害量20%的打击伤害"
+      ]
+    },
+    {
+      "skill_name": "…掉你",
+      "icon_id": "9101504",
+      "sin_type": "暴怒",
+      "damage_type": "",
+      "base_value": 5,
+      "coin_power": 987,
+      "coin_count": 3,
+      "attack_level": 46,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[命中时] 对目标施加1层 易损",
+        "[命中时] 下回合对目标施加1层 易损",
+        "[命中时] 下回合对目标施加2层 麻痹",
+        "[命中时] 目标每带有2层 攻击等级降低 ，使本硬币造成的伤害+30%（最多+120%）",
+        "[正面命中时] 若目标带有不低于3种负面状态，则重复使用本硬币（最多1次）"
+      ]
+    },
+    {
+      "skill_name": "防御",
+      "icon_id": "9101505",
+      "sin_type": "常规",
+      "damage_type": "",
+      "base_value": 5,
+      "coin_power": 79,
+      "coin_count": 1,
+      "attack_level": 0,
+      "attack_weight": 1,
+      "is_guard": true,
+      "guard_type": "防御",
+      "importance": 0,
+      "coin_effects": []
+    },
+    {
+      "skill_name": "除…",
+      "icon_id": "816501",
+      "sin_type": "暴食",
+      "damage_type": "",
+      "base_value": 4,
+      "coin_power": 854,
+      "coin_count": 3,
+      "attack_level": 45,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[命中时] 使自身获得1层 攻击等级提升",
+        "[正面命中时] 下回合使自身获得1层 迅捷"
+      ]
+    },
+    {
+      "skill_name": "…混帐",
+      "icon_id": "816502",
+      "sin_type": "嫉妒",
+      "damage_type": "",
+      "base_value": 5,
+      "coin_power": 5793,
+      "coin_count": 3,
+      "attack_level": 45,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[命中时] 使目标增加4级 流血 强度并施加2层 流血",
+        "[命中时] 使目标增加4级 流血 强度并施加2层 流血 若自身的速度值高于目标至少3点，则重复使用本硬币（最多1次）"
+      ]
+    },
+    {
+      "skill_name": "…我的家",
+      "icon_id": "816503",
+      "sin_type": "嫉妒",
+      "damage_type": "",
+      "base_value": 4,
+      "coin_power": 5793,
+      "coin_count": 5,
+      "attack_level": 45,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[使用时] 若目标现存体力不高于70%，则使本技能的拼点威力+2",
+        "[命中时] 下回合使自身获得1层 迅捷",
+        "[命中时] 对目标施加1层 易损",
+        "[命中时] 使目标增加5级 流血 强度并施加2层 流血",
+        "[命中时] 若目标的 流血 强度不低于20级，则使本硬币造成的伤害+100%"
+      ]
+    },
+    {
+      "skill_name": "防…",
+      "icon_id": "816507",
+      "sin_type": "傲慢",
+      "damage_type": "",
+      "base_value": 10,
+      "coin_power": 3,
+      "coin_count": 1,
+      "attack_level": 0,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": []
+    }
+  ],
+  "is_ally": false,
+  "_structured": true,
+  "appear_stages": [
+    "主线战斗6-48"
+  ],
+  "enemy_id": "主线战斗6-48|魔王希斯克利夫（第二阶段）|躯干",
+  "defense": 45,
+  "speed": "2~4",
+  "_schema_version": 1
+}

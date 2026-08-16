@@ -1,0 +1,38 @@
+{
+  "page_type": "enemy",
+  "title": "折射轨道2号线-第8站 - 循环",
+  "enemy_name": "折射的迷失的乘客",
+  "battle_stage": "折射轨道2号线-第8站 - 循环",
+  "body_part": "右刃",
+  "hp": 285,
+  "defense_level": 23,
+  "speed_min": 3,
+  "speed_max": 5,
+  "chaos_threshold": "128/0",
+  "physical_resistances": {
+    "斩击": 1.0,
+    "突刺": 0.75,
+    "打击": 1.0
+  },
+  "sin_resistances": {
+    "暴怒": 1.0,
+    "色欲": 1.5,
+    "怠惰": 1.0,
+    "暴食": 2.0,
+    "忧郁": 1.0,
+    "傲慢": 0.75,
+    "嫉妒": 0.5
+  },
+  "panic_types": [],
+  "passives": [],
+  "skills": [],
+  "is_ally": false,
+  "_structured": true,
+  "appear_stages": [
+    "折射轨道2号线-第8站 - 循环"
+  ],
+  "enemy_id": "折射轨道2号线-第8站 - 循环|折射的迷失的乘客|右刃",
+  "defense": 23,
+  "speed": "3~5",
+  "_schema_version": 1
+}

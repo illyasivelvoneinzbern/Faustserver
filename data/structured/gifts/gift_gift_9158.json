@@ -1,0 +1,21 @@
+{
+  "id": "gift_9158",
+  "title": "盗来的火焰",
+  "url": "https://limbuscompany.huijiwiki.com/wiki/E.G.O饰品",
+  "categories": [
+    "E.G.O饰品"
+  ],
+  "content": "回合开始时，若拥有增加烧伤强度，施加烧伤层数或施加特殊烧伤的攻击技能的友方单位不低于5名，则在本场战斗期间触发该效果。(不包括E.G.O技能，不包括待命人员)\n技能命中时(包括E.G.O技能)，若目标的烧伤层数不低于3层，则触发目标的烧伤1次。(使其烧伤层数减少1层，每个技能最多1次)\n回合结束时，烧伤层数不低于3层的敌方单位额外触发1次烧伤(使其烧伤层数减少1层)",
+  "source": "tabx",
+  "_structured": true,
+  "page_type": "ego_gift",
+  "gift_name": "盗来的火焰",
+  "rarity": 4,
+  "cost": "404",
+  "effect_types": "烧伤",
+  "attack_type": "暴怒",
+  "location": "镜像迷宫",
+  "stage": "base",
+  "special": "困难合成",
+  "_schema_version": 1
+}

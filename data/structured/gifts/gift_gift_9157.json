@@ -1,0 +1,21 @@
+{
+  "id": "gift_9157",
+  "title": "烹饪秘诀书",
+  "url": "https://limbuscompany.huijiwiki.com/wiki/E.G.O饰品",
+  "categories": [
+    "E.G.O饰品"
+  ],
+  "content": "回合开始时，若拥有增加烧伤强度，施加烧伤层数或施加特殊烧伤的攻击技能的友方单位不低于5名，则在本场战斗期间触发该效果。(不包括E.G.O技能，不包括待命人员)\n使增加烧伤强度，施加烧伤层数或施加特殊烧伤的技能的最终威力+1\n增加烧伤强度，施加烧伤层数或施加特殊烧伤的技能拼点胜利时，使目标敌方单位增加(剩余硬币数/2 +1)级烧伤强度",
+  "source": "tabx",
+  "_structured": true,
+  "page_type": "ego_gift",
+  "gift_name": "烹饪秘诀书",
+  "rarity": 3,
+  "cost": "260",
+  "effect_types": "烧伤",
+  "attack_type": "色欲",
+  "location": "镜像迷宫",
+  "stage": "base",
+  "special": "合成",
+  "_schema_version": 1
+}

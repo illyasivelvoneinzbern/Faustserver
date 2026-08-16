@@ -1,0 +1,94 @@
+{
+  "page_type": "enemy",
+  "title": "折射轨道1号线-终点站-无我",
+  "enemy_name": "艾达",
+  "battle_stage": "折射轨道1号线-终点站-无我",
+  "body_part": "",
+  "hp": 304,
+  "defense_level": 57,
+  "speed_min": 2,
+  "speed_max": 5,
+  "chaos_threshold": "212 / 121",
+  "physical_resistances": {
+    "斩击": 1.0,
+    "突刺": 2.0,
+    "打击": 0.75
+  },
+  "sin_resistances": {
+    "暴怒": 1.0,
+    "色欲": 1.0,
+    "怠惰": 1.0,
+    "暴食": 1.0,
+    "忧郁": 0.5,
+    "傲慢": 1.0,
+    "嫉妒": 2.0
+  },
+  "panic_types": [],
+  "passives": [
+    "修复: 回合开始时，体力恢复至满值。",
+    "折射的挣扎: 无恐慌类型数据"
+  ],
+  "skills": [
+    {
+      "skill_name": "曼怛罗",
+      "icon_id": "852709",
+      "sin_type": "暴怒",
+      "damage_type": "突刺",
+      "base_value": 6,
+      "coin_power": 987,
+      "coin_count": 3,
+      "attack_level": 55,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[命中时] 移除随机属性的3个E.G.O资源"
+      ]
+    },
+    {
+      "skill_name": "快点快点~",
+      "icon_id": "852901",
+      "sin_type": "嫉妒",
+      "damage_type": "打击",
+      "base_value": 4,
+      "coin_power": 5793,
+      "coin_count": 3,
+      "attack_level": 55,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[命中时] 下回合对目标施加1层 加算硬币弱化"
+      ]
+    },
+    {
+      "skill_name": "皮纳塔派对~！",
+      "icon_id": "852902",
+      "sin_type": "忧郁",
+      "damage_type": "打击",
+      "base_value": 4,
+      "coin_power": 3,
+      "coin_count": 4,
+      "attack_level": 55,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[命中时] 下回合对目标施加2层 加算硬币弱化",
+        "[命中时] 下回合对目标施加1层 易损"
+      ]
+    }
+  ],
+  "is_ally": false,
+  "_structured": true,
+  "appear_stages": [
+    "折射轨道1号线-终点站-无我"
+  ],
+  "enemy_id": "折射轨道1号线-终点站-无我|艾达|",
+  "defense": 57,
+  "speed": "2~5",
+  "_schema_version": 1
+}

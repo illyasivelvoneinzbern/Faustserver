@@ -1,0 +1,94 @@
+{
+  "page_type": "enemy",
+  "title": "困难活动战斗5.5-13",
+  "enemy_name": "红色小矮人",
+  "battle_stage": "困难活动战斗5.5-13",
+  "body_part": "躯干",
+  "hp": 133,
+  "defense_level": 50,
+  "speed_min": 1,
+  "speed_max": 3,
+  "chaos_threshold": "93/0",
+  "physical_resistances": {
+    "斩击": 1.0,
+    "突刺": 1.5,
+    "打击": 1.0
+  },
+  "sin_resistances": {
+    "暴怒": 1.5,
+    "色欲": 1.0,
+    "怠惰": 0.75,
+    "暴食": 1.5,
+    "忧郁": 0.75,
+    "傲慢": 1.0,
+    "嫉妒": 1.0
+  },
+  "panic_types": [
+    "愤怒",
+    "伤害强化",
+    "易损",
+    "愤怒",
+    "伤害强化",
+    "易损"
+  ],
+  "passives": [
+    "新鲜的人类诺姆: 每有1名敌方单位存活，使自身的正面概率增加2%。（最多95%）",
+    "是我的那份诺姆: 回合结束时，若存活的友方单位少于存活的敌方单位，下回合使自身获得1层 迅捷 与1层 强壮 。"
+  ],
+  "skills": [
+    {
+      "skill_name": "是鲜肉诺姆",
+      "icon_id": "9010201",
+      "sin_type": "暴食",
+      "damage_type": "",
+      "base_value": 0,
+      "coin_power": 3,
+      "coin_count": 3,
+      "attack_level": 49,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "coin_effects": [
+        "[命中时] 使自身增加2级 呼吸法 强度并获得2层 呼吸法",
+        "[命中时] 使自身增加3级 呼吸法 强度",
+        "[正面命中时] 使自身获得1层 呼吸法"
+      ]
+    },
+    {
+      "skill_name": "真鲜活诺姆",
+      "icon_id": "9010202",
+      "sin_type": "怠惰",
+      "damage_type": "",
+      "base_value": 0,
+      "coin_power": 8,
+      "coin_count": 2,
+      "attack_level": 49,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "coin_effects": [
+        "[命中时] 使自身增加2级 呼吸法 强度并获得2层 呼吸法 使本硬币暴击时造成的伤害+40%"
+      ]
+    },
+    {
+      "skill_name": "没用哦诺姆",
+      "icon_id": "9010203",
+      "sin_type": "常规",
+      "damage_type": "",
+      "base_value": 0,
+      "coin_power": 7,
+      "coin_count": 1,
+      "attack_level": 0,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "coin_effects": []
+    }
+  ],
+  "is_ally": false,
+  "_structured": true,
+  "enemy_id": "困难活动战斗5.5-13|红色小矮人",
+  "defense": 50,
+  "speed": "1~3",
+  "_schema_version": 1
+}

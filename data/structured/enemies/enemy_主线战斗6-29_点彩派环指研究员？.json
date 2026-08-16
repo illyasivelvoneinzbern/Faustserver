@@ -1,0 +1,135 @@
+{
+  "page_type": "enemy",
+  "title": "主线战斗6-29",
+  "enemy_name": "点彩派环指研究员？",
+  "battle_stage": "主线战斗6-29",
+  "body_part": "躯干",
+  "hp": 591,
+  "defense_level": 43,
+  "speed_min": 1,
+  "speed_max": 4,
+  "chaos_threshold": "354/118/0",
+  "physical_resistances": {
+    "斩击": 1.25,
+    "突刺": 0.5,
+    "打击": 1.0
+  },
+  "sin_resistances": {
+    "暴怒": 1.0,
+    "色欲": 1.0,
+    "怠惰": 1.0,
+    "暴食": 1.0,
+    "忧郁": 1.0,
+    "傲慢": 1.0,
+    "嫉妒": 1.0
+  },
+  "panic_types": [
+    "凌乱的绘画"
+  ],
+  "passives": [],
+  "skills": [
+    {
+      "skill_name": "上色",
+      "icon_id": "9013301",
+      "sin_type": "色欲",
+      "damage_type": "穿刺",
+      "base_value": 3,
+      "coin_power": 9,
+      "coin_count": 4,
+      "attack_level": 45,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[命中时] 使目标增加3级 流血 强度",
+        "[命中时] 对目标施加4层 流血"
+      ]
+    },
+    {
+      "skill_name": "血点描画",
+      "icon_id": "9013302",
+      "sin_type": "色欲",
+      "damage_type": "穿刺",
+      "base_value": 4,
+      "coin_power": 9,
+      "coin_count": 4,
+      "attack_level": 45,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[命中时] 若目标带有 流血 ，则下回合对其施加2层 攻击等级降低",
+        "[命中时] 使目标增加5级 流血 强度",
+        "[命中时] 下回合对目标施加3层 攻击等级降低",
+        "[命中时] 使目标增加相当于其 流血 强度的 破裂 强度"
+      ]
+    },
+    {
+      "skill_name": "描画",
+      "icon_id": "9013303",
+      "sin_type": "傲慢",
+      "damage_type": "穿刺",
+      "base_value": 4,
+      "coin_power": 3,
+      "coin_count": 4,
+      "attack_level": 45,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[命中时] 使目标增加10级 流血 强度",
+        "[命中时] 对目标施加层数相当于其 流血 层数的 破裂",
+        "[命中时] 使目标增加相当于其 流血 强度的 破裂 强度"
+      ]
+    },
+    {
+      "skill_name": "血滴花",
+      "icon_id": "9013304",
+      "sin_type": "暴怒",
+      "damage_type": "穿刺",
+      "base_value": 4,
+      "coin_power": 987,
+      "coin_count": 4,
+      "attack_level": 45,
+      "attack_weight": 1,
+      "is_guard": true,
+      "guard_type": "防御",
+      "importance": 0,
+      "coin_effects": [
+        "[命中时] 对目标施加2层 防御等级降低",
+        "[命中时] 若目标的 流血 强度不低于5级，则重复使用本硬币（最多3次）",
+        "[命中时] 使目标的 流血 层数减少1层",
+        "[正面命中时] 对目标施加2层 防御等级降低"
+      ]
+    },
+    {
+      "skill_name": "闪避",
+      "icon_id": "9013305",
+      "sin_type": "常规",
+      "damage_type": "闪避",
+      "base_value": 5,
+      "coin_power": 79,
+      "coin_count": 1,
+      "attack_level": 0,
+      "attack_weight": 1,
+      "is_guard": true,
+      "guard_type": "闪避",
+      "importance": 0,
+      "coin_effects": [
+        "闪避成功时使自身获得1层强壮（最多2层）"
+      ]
+    }
+  ],
+  "is_ally": false,
+  "_structured": true,
+  "appear_stages": [
+    "主线战斗6-29"
+  ],
+  "enemy_id": "主线战斗6-29|点彩派环指研究员？|躯干",
+  "defense": 43,
+  "speed": "1~4",
+  "_schema_version": 1
+}

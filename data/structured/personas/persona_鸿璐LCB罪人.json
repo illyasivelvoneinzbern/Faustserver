@@ -1,0 +1,556 @@
+{
+  "page_type": "personality",
+  "title": "鸿璐LCB罪人",
+  "sinner": "鸿璐",
+  "sinner_id": "honglu",
+  "personality_name": "鸿璐LCB罪人",
+  "release_date": "2023.02.27",
+  "acquisition": "主线及常驻提取",
+  "sin_affinities": {
+    "傲慢": 3,
+    "怠惰": 2,
+    "色欲": 1
+  },
+  "physical_resistances": {
+    "斩击": 2.0,
+    "突刺": 1.0,
+    "打击": 0.5
+  },
+  "ego_resources": {
+    "傲慢": 3,
+    "怠惰": 2,
+    "色欲": 1
+  },
+  "skills": [
+    {
+      "skill_index": 0,
+      "skill_name": "纵斩",
+      "sin_type": "傲慢",
+      "damage_type": "打击",
+      "guard_type": "",
+      "attack_capacity": 1,
+      "coin_count": 2,
+      "stage_groups": [
+        [
+          {
+            "stage": "I",
+            "base_value": 2,
+            "coin_power": 7,
+            "effects": [
+              {
+                "timing": "正面命中时",
+                "description": "使目标增加2级 沉沦 强度"
+              }
+            ],
+            "raw_text": "基础值： 2 变动值： +7 [正面命中时] 使目标增加2级 沉沦 强度"
+          },
+          {
+            "stage": "II",
+            "base_value": 2,
+            "coin_power": 7,
+            "effects": [
+              {
+                "timing": "命中时",
+                "description": "使目标增加2级 沉沦 强度"
+              }
+            ],
+            "raw_text": "基础值： 2 变动值： +7 [命中时] 使目标增加2级 沉沦 强度"
+          },
+          {
+            "stage": "III",
+            "base_value": 3,
+            "coin_power": 7,
+            "effects": [
+              {
+                "timing": "命中时",
+                "description": "使目标增加2级 沉沦 强度"
+              }
+            ],
+            "raw_text": "基础值： 3 变动值： +7 [命中时] 使目标增加2级 沉沦 强度"
+          },
+          {
+            "stage": "IV",
+            "base_value": 4,
+            "coin_power": 7,
+            "effects": [
+              {
+                "timing": "命中时",
+                "description": "使目标增加2级 沉沦 强度"
+              }
+            ],
+            "raw_text": "基础值： 4 变动值： +7 [命中时] 使目标增加2级 沉沦 强度"
+          }
+        ]
+      ],
+      "coin_effects": [
+        {
+          "coin_index": 0,
+          "description": "技能一"
+        },
+        {
+          "coin_index": 0,
+          "description": "纵斩 3"
+        },
+        {
+          "coin_index": 0,
+          "timing": "",
+          "description": "1"
+        },
+        {
+          "coin_index": 0,
+          "description": "+2"
+        },
+        {
+          "coin_index": 0,
+          "description": "1"
+        },
+        {
+          "coin_index": 0,
+          "description": "基础值： 2 变动值： +7"
+        },
+        {
+          "coin_index": 1,
+          "timing": "正面命中时",
+          "description": "[正面命中时] 使目标增加2级 沉沦 强度"
+        },
+        {
+          "coin_index": 1,
+          "timing": "命中时",
+          "description": "[命中时] 使目标增加2级 沉沦 强度"
+        },
+        {
+          "coin_index": 1,
+          "timing": "命中时",
+          "description": "[命中时] 使目标增加2级 沉沦 强度"
+        },
+        {
+          "coin_index": 1,
+          "timing": "命中时",
+          "description": "[命中时] 使目标增加2级 沉沦 强度"
+        }
+      ],
+      "wikitext_key": "1技能"
+    },
+    {
+      "skill_index": 1,
+      "skill_name": "二连击",
+      "sin_type": "怠惰",
+      "damage_type": "斩击",
+      "guard_type": "",
+      "attack_capacity": 1,
+      "coin_count": 3,
+      "stage_groups": [
+        [
+          {
+            "stage": "I",
+            "base_value": 3,
+            "coin_power": 4,
+            "effects": [
+              {
+                "timing": "正面命中时",
+                "description": "使目标增加1级 沉沦 强度"
+              },
+              {
+                "timing": "正面命中时",
+                "description": "使目标增加2级 破裂 强度"
+              }
+            ],
+            "raw_text": "基础值： 3 变动值： +4 [正面命中时] 使目标增加1级 沉沦 强度 [正面命中时] 使目标增加2级 破裂 强度"
+          },
+          {
+            "stage": "II",
+            "base_value": 3,
+            "coin_power": 4,
+            "effects": [
+              {
+                "timing": "命中时",
+                "description": "使目标增加1级 沉沦 强度"
+              },
+              {
+                "timing": "命中时",
+                "description": "使目标增加2级 破裂 强度"
+              }
+            ],
+            "raw_text": "基础值： 3 变动值： +4 若自身上回合未受到伤害，则使本技能的硬币威力+1 [命中时] 使目标增加1级 沉沦 强度 [命中时] 使目标增加2级 破裂 强度"
+          },
+          {
+            "stage": "III",
+            "base_value": 4,
+            "coin_power": 4,
+            "effects": [
+              {
+                "timing": "命中时",
+                "description": "使目标增加1级 沉沦 强度"
+              },
+              {
+                "timing": "命中时",
+                "description": "使目标增加2级 破裂 强度"
+              }
+            ],
+            "raw_text": "基础值： 4 变动值： +4 若自身上回合未受到伤害，则使本技能的硬币威力+1 [命中时] 使目标增加1级 沉沦 强度 [命中时] 使目标增加2级 破裂 强度"
+          },
+          {
+            "stage": "IV",
+            "base_value": 4,
+            "coin_power": 4,
+            "effects": [
+              {
+                "timing": "命中时",
+                "description": "使目标增加2级 沉沦 强度"
+              },
+              {
+                "timing": "命中时",
+                "description": "使目标增加2级 破裂 强度"
+              }
+            ],
+            "raw_text": "基础值： 4 变动值： +4 若自身上回合未受到伤害，则使本技能的硬币威力+1 [命中时] 使目标增加2级 沉沦 强度 [命中时] 使目标增加2级 破裂 强度"
+          }
+        ]
+      ],
+      "coin_effects": [
+        {
+          "coin_index": 0,
+          "description": "技能二"
+        },
+        {
+          "coin_index": 0,
+          "description": "二连击 2"
+        },
+        {
+          "coin_index": 0,
+          "timing": "",
+          "description": "2"
+        },
+        {
+          "coin_index": 0,
+          "description": "+2"
+        },
+        {
+          "coin_index": 0,
+          "description": "1"
+        },
+        {
+          "coin_index": 0,
+          "description": "基础值： 3 变动值： +4"
+        },
+        {
+          "coin_index": 1,
+          "timing": "正面命中时",
+          "description": "[正面命中时] 使目标增加1级 沉沦 强度"
+        },
+        {
+          "coin_index": 2,
+          "timing": "正面命中时",
+          "description": "[正面命中时] 使目标增加2级 破裂 强度"
+        },
+        {
+          "coin_index": 1,
+          "timing": "命中时",
+          "description": "[命中时] 使目标增加1级 沉沦 强度"
+        },
+        {
+          "coin_index": 2,
+          "timing": "命中时",
+          "description": "[命中时] 使目标增加2级 破裂 强度"
+        },
+        {
+          "coin_index": 1,
+          "timing": "命中时",
+          "description": "[命中时] 使目标增加1级 沉沦 强度"
+        },
+        {
+          "coin_index": 2,
+          "timing": "命中时",
+          "description": "[命中时] 使目标增加2级 破裂 强度"
+        },
+        {
+          "coin_index": 1,
+          "timing": "命中时",
+          "description": "[命中时] 使目标增加2级 沉沦 强度"
+        },
+        {
+          "coin_index": 2,
+          "timing": "命中时",
+          "description": "[命中时] 使目标增加2级 破裂 强度"
+        }
+      ],
+      "wikitext_key": "2技能"
+    },
+    {
+      "skill_index": 2,
+      "skill_name": "旋风",
+      "sin_type": "色欲",
+      "damage_type": "打击",
+      "guard_type": "",
+      "attack_capacity": 1,
+      "coin_count": 2,
+      "stage_groups": [
+        [
+          {
+            "stage": "I",
+            "base_value": 5,
+            "coin_power": 4,
+            "effects": [
+              {
+                "timing": "正面命中时",
+                "description": "对目标施加2层 虚弱"
+              }
+            ],
+            "raw_text": "基础值： 5 变动值： +4 若自身上回合未受到伤害，则使本技能的硬币威力+2 [正面命中时] 对目标施加2层 虚弱"
+          },
+          {
+            "stage": "II",
+            "base_value": 6,
+            "coin_power": 4,
+            "effects": [
+              {
+                "timing": "正面命中时",
+                "description": "对目标施加2层 虚弱"
+              },
+              {
+                "timing": "命中时",
+                "description": "使目标增加2级 沉沦 强度"
+              },
+              {
+                "timing": "命中时",
+                "description": "使目标增加2级 破裂 强度"
+              }
+            ],
+            "raw_text": "基础值： 6 变动值： +4 若自身上回合未受到伤害，则使本技能的硬币威力+2 [正面命中时] 对目标施加2层 虚弱 [命中时] 使目标增加2级 沉沦 强度 [命中时] 使目标增加2级 破裂 强度"
+          }
+        ]
+      ],
+      "coin_effects": [
+        {
+          "coin_index": 0,
+          "description": "技能三"
+        },
+        {
+          "coin_index": 0,
+          "description": "旋风 1"
+        },
+        {
+          "coin_index": 0,
+          "timing": "",
+          "description": "2"
+        },
+        {
+          "coin_index": 0,
+          "description": "+2"
+        },
+        {
+          "coin_index": 0,
+          "description": "1"
+        },
+        {
+          "coin_index": 0,
+          "description": "基础值： 5 变动值： +4 若自身上回合未受到伤害，则使本技能的硬币威力+2"
+        },
+        {
+          "coin_index": 2,
+          "timing": "正面命中时",
+          "description": "[正面命中时] 对目标施加2层 虚弱"
+        },
+        {
+          "coin_index": 2,
+          "timing": "正面命中时",
+          "description": "[正面命中时] 对目标施加2层 虚弱 [命中时] 使目标增加2级 沉沦 强度 [命中时] 使目标增加2级 破裂 强度"
+        }
+      ],
+      "wikitext_key": "3技能"
+    },
+    {
+      "skill_index": 3,
+      "skill_name": "闪避",
+      "sin_type": "",
+      "damage_type": "",
+      "guard_type": "闪避",
+      "attack_capacity": 1,
+      "coin_count": 1,
+      "stage_groups": [
+        [
+          {
+            "stage": "I",
+            "base_value": 2,
+            "coin_power": 10,
+            "effects": [],
+            "raw_text": "基础值： 2 变动值： +10"
+          },
+          {
+            "stage": "II",
+            "base_value": 2,
+            "coin_power": 10,
+            "effects": [],
+            "raw_text": "基础值： 2 变动值： +10"
+          }
+        ]
+      ],
+      "coin_effects": [
+        {
+          "coin_index": 0,
+          "description": "守备技能"
+        },
+        {
+          "coin_index": 0,
+          "description": "闪避"
+        },
+        {
+          "coin_index": 0,
+          "timing": "",
+          "description": "1"
+        },
+        {
+          "coin_index": 0,
+          "description": "-2"
+        },
+        {
+          "coin_index": 0,
+          "description": "1"
+        },
+        {
+          "coin_index": 0,
+          "description": "I阶 - III阶 IV阶 追加属性： 基础值： 2 变动值： +10 基础值： 2 变动值： +10"
+        }
+      ],
+      "wikitext_key": "守备技能4"
+    }
+  ],
+  "battle_passive": "人格被动1060101\n人格被动1060121",
+  "support_passive": "",
+  "notes": "",
+  "voice_lines": [
+    {
+      "file": "鸿璐LCB语音1.ogg",
+      "title": "获得时",
+      "text": "||名曰鸿璐，让我们一起好好努力吧。"
+    },
+    {
+      "file": "鸿璐LCB语音2.ogg",
+      "title": "早间问候",
+      "text": "||早上好但丁经理！我的厨师长说过，早上疲惫的时候没有什么比来点松露更好的了~"
+    },
+    {
+      "file": "鸿璐LCB语音3.ogg",
+      "title": "午间问候",
+      "text": "||来到这里之后的一件特别有趣的事是，我第一次感受到了饥饿。真是种陌生的体验呢。"
+    },
+    {
+      "file": "鸿璐LCB语音4.ogg",
+      "title": "晚间问候",
+      "text": "||夜晚亦有它独特的美感，虽然在这里看不到和我窗外一样的风景……但是和但丁经理待在一起也不错哦。"
+    },
+    {
+      "file": "鸿璐LCB语音5.ogg",
+      "title": "对话 1",
+      "text": "||如果以后有机会回家，真想开场盛大的宴会来招待但丁经理。然后向父亲介绍我的新朋友……感觉一定会很有趣。"
+    },
+    {
+      "file": "鸿璐LCB语音6.ogg",
+      "title": "对话 2",
+      "text": "||心烦意乱的时候，只要记住就算你一事无成，生活也依然会继续就行啦。这样世上就没有什么是值得困扰的了。"
+    },
+    {
+      "file": "鸿璐LCB语音7.ogg",
+      "title": "对话 3",
+      "text": "||说到我的家族……我听说家庭是彼此的避风港，对吧？实际上我到现在为止都以为在其他亲戚背后捅刀子是非常理所当然的事呢~"
+    },
+    {
+      "file": "鸿璐LCB语音8.ogg",
+      "title": "闲置",
+      "text": "||诶，但丁经理？有什么紧急的事情吗？慢慢来就好哦~"
+    },
+    {
+      "file": "鸿璐LCB语音9.ogg",
+      "title": "人格出战",
+      "text": "||好期待呢~"
+    },
+    {
+      "file": "鸿璐LCB语音10.ogg",
+      "title": "进入战斗",
+      "text": "||希望能发生点有趣的事情~"
+    },
+    {
+      "file": "鸿璐LCB语音11.ogg",
+      "title": "战斗中选中人格",
+      "text": "||怎么了？但丁经理？"
+    },
+    {
+      "file": "鸿璐LCB语音12.ogg",
+      "title": "进行攻击",
+      "text": "||我会做到力所能及的事的~如果不行的话那就没有办法啦~"
+    },
+    {
+      "file": "鸿璐LCB语音13.ogg",
+      "title": "敌方混乱",
+      "text": "||哈哈哈，真是有趣的瞬间啊~"
+    },
+    {
+      "file": "鸿璐LCB语音14.ogg",
+      "title": "陷入混乱",
+      "text": "||哎呀！"
+    },
+    {
+      "file": "鸿璐LCB语音15.ogg",
+      "title": "击杀敌方",
+      "text": "||总是会看见许多新奇的东西呢~"
+    },
+    {
+      "file": "鸿璐LCB语音16.ogg",
+      "title": "友方阵亡",
+      "text": "||啊呀，这样很疼吗？回头一定要告诉我。"
+    },
+    {
+      "file": "鸿璐LCB语音17.ogg",
+      "title": "判定成功",
+      "text": "||啊哈哈，没必要对我如此褒奖啦。"
+    },
+    {
+      "file": "鸿璐LCB语音18.ogg",
+      "title": "判定失败",
+      "text": "||啊~不要太过自责啦，今天只是运气不好。"
+    },
+    {
+      "file": "鸿璐LCB语音19.ogg",
+      "title": "战斗胜利",
+      "text": "||啊……这是我的功劳吗？能赢就是最好啦~"
+    },
+    {
+      "file": "鸿璐LCB语音20.ogg",
+      "title": "EX CLEAR战斗胜利",
+      "text": "||没必要这样吹捧我~这都是托了但丁经理的福。"
+    },
+    {
+      "file": "鸿璐LCB语音21.ogg",
+      "title": "战斗失败",
+      "text": "||胜败乃兵家常事，对吧？不要太沮丧啦~"
+    }
+  ],
+  "skill_voice": [
+    {
+      "file": "Battle_s2_10601_1.ogg",
+      "skill_index": 2,
+      "skill_label": "",
+      "skill_name": "二连击"
+    },
+    {
+      "file": "Battle_s3_10601_1_1.ogg",
+      "skill_index": 3,
+      "skill_label": "",
+      "skill_name": "旋风"
+    },
+    {
+      "file": "Battle_s3_10601_1_2.ogg",
+      "skill_index": 3,
+      "skill_label": "",
+      "skill_name": "旋风"
+    }
+  ],
+  "_structured": true,
+  "id": "wiki_鸿璐LCB罪人",
+  "url": "https://limbuscompany.huijiwiki.com/wiki/鸿璐LCB罪人",
+  "categories": [
+    "人格"
+  ],
+  "source": "wiki",
+  "_schema_version": 1
+}

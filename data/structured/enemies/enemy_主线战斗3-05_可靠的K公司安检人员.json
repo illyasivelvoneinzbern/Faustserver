@@ -1,0 +1,94 @@
+{
+  "page_type": "enemy",
+  "title": "主线战斗3-05",
+  "enemy_name": "可靠的K公司安检人员",
+  "battle_stage": "主线战斗3-05",
+  "body_part": "",
+  "hp": 113,
+  "defense_level": 19,
+  "speed_min": 1,
+  "speed_max": 2,
+  "chaos_threshold": "",
+  "physical_resistances": {
+    "斩击": 1.0,
+    "突刺": 0.75,
+    "打击": 2.0
+  },
+  "sin_resistances": {
+    "暴怒": 1.0,
+    "色欲": 1.0,
+    "怠惰": 1.0,
+    "暴食": 1.0,
+    "忧郁": 1.0,
+    "傲慢": 1.0,
+    "嫉妒": 1.0
+  },
+  "panic_types": [
+    "无措"
+  ],
+  "passives": [
+    "HP弹：回合开始时，恢复15点体力。 若自身的体力不高于50%，则额外恢复15点体力。"
+  ],
+  "skills": [
+    {
+      "skill_name": "阻截",
+      "icon_id": "9003002",
+      "sin_type": "怠惰",
+      "damage_type": "",
+      "base_value": 6,
+      "coin_power": 9703,
+      "coin_count": 2,
+      "attack_level": 13,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[正面命中时] 使目标 震颤引爆"
+      ]
+    },
+    {
+      "skill_name": "压制目标",
+      "icon_id": "9002803",
+      "sin_type": "怠惰",
+      "damage_type": "",
+      "base_value": 5,
+      "coin_power": 9703,
+      "coin_count": 3,
+      "attack_level": 17,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[正面命中时] 下回合使目标增加3级 震颤 强度",
+        "[命中时] 使目标 震颤引爆"
+      ]
+    },
+    {
+      "skill_name": "激活HP弹",
+      "icon_id": "9002804",
+      "sin_type": "常规",
+      "damage_type": "",
+      "base_value": 10,
+      "coin_power": 79,
+      "coin_count": 1,
+      "attack_level": 0,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": []
+    }
+  ],
+  "is_ally": false,
+  "_structured": true,
+  "appear_stages": [
+    "主线战斗3-05",
+    "主线战斗3-06"
+  ],
+  "enemy_id": "主线战斗3-05|可靠的K公司安检人员|",
+  "defense": 19,
+  "speed": "1~2",
+  "_schema_version": 1
+}

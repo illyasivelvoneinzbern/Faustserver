@@ -1,0 +1,21 @@
+{
+  "id": "gift_9283",
+  "title": "奉纳的雪茄",
+  "url": "https://limbuscompany.huijiwiki.com/wiki/E.G.O饰品",
+  "categories": [
+    "E.G.O饰品"
+  ],
+  "content": "回合开始时，若属于拇指的人格不低于3名，则触发该效果(以参战人员为基准)\n回合开始时，使属于拇指的人格获得1层加算硬币强化与2层伤害强化\n每有1名属于拇指的人格，使全体属于拇指的人格获得1层攻击等级提升(最多4层)\n目标每带有1级震颤-灼热强度，使自身造成的伤害+1%(最多+20%)\n- 消耗弹药的技能造成的伤害额外+1%(最多+20%)\n- 属于拇指的人格造成的伤害额外+1%(最多+20%)",
+  "source": "tabx",
+  "_structured": true,
+  "page_type": "ego_gift",
+  "gift_name": "奉纳的雪茄",
+  "rarity": 4,
+  "cost": "390",
+  "effect_types": "震颤",
+  "attack_type": "怠惰",
+  "location": "镜像迷宫",
+  "stage": "base",
+  "special": "教材",
+  "_schema_version": 1
+}

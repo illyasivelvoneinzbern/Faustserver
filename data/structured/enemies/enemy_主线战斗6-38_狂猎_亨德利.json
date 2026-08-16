@@ -1,0 +1,136 @@
+{
+  "page_type": "enemy",
+  "title": "主线战斗6-38",
+  "enemy_name": "狂猎 亨德利",
+  "battle_stage": "主线战斗6-38",
+  "body_part": "",
+  "hp": 511,
+  "defense_level": 44,
+  "speed_min": 2,
+  "speed_max": 5,
+  "chaos_threshold": "",
+  "physical_resistances": {
+    "斩击": 1.25,
+    "突刺": 0.5,
+    "打击": 1.0
+  },
+  "sin_resistances": {
+    "暴怒": 1.0,
+    "色欲": 1.0,
+    "怠惰": 1.0,
+    "暴食": 1.0,
+    "忧郁": 1.0,
+    "傲慢": 1.0,
+    "嫉妒": 1.0
+  },
+  "panic_types": [
+    "憎恶"
+  ],
+  "passives": [
+    "恐慌恢复：回合结束时，若陷入恐慌，则使自身理智值恢复为0点。",
+    "肉体…增强：回合结束时，若自身理智值不高于-10点，则下回合使自身获得3层 攻击等级提升 。",
+    "威…：进行拼点时，拼点威力-1，自身受到10点体力伤害（该效果不会使自身体力降至0点）",
+    "机…了：拼点失败时，使自身获得3层 攻击等级提升 。（每回合最多1次）"
+  ],
+  "skills": [
+    {
+      "skill_name": "该死的贱…",
+      "icon_id": "9101501",
+      "sin_type": "傲慢",
+      "damage_type": "打击",
+      "base_value": 3,
+      "coin_power": 3,
+      "coin_count": 3,
+      "attack_level": 47,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[命中时] 下回合使自身获得1层 攻击等级提升"
+      ]
+    },
+    {
+      "skill_name": "除…",
+      "icon_id": "9101502",
+      "sin_type": "傲慢",
+      "damage_type": "打击",
+      "base_value": 4,
+      "coin_power": 3,
+      "coin_count": 3,
+      "attack_level": 45,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[命中时] 若目标带有 攻击等级降低 ，则对目标追加本硬币伤害量20%的打击伤害"
+      ]
+    },
+    {
+      "skill_name": "重新…",
+      "icon_id": "9101503",
+      "sin_type": "嫉妒",
+      "damage_type": "打击",
+      "base_value": 3,
+      "coin_power": 5793,
+      "coin_count": 4,
+      "attack_level": 45,
+      "attack_weight": 1,
+      "is_guard": true,
+      "guard_type": "防御",
+      "importance": 0,
+      "coin_effects": [
+        "拼点胜利若目标的{{状态2|攻击等级降低|4=负面}}层数不低于2层，则使本技能的基础威力+1",
+        "使用时若目标带有{{状态2|防御等级降低|4=负面}}，则对目标追加本技能伤害量30%的打击伤害"
+      ]
+    },
+    {
+      "skill_name": "…掉你",
+      "icon_id": "9101504",
+      "sin_type": "暴怒",
+      "damage_type": "打击",
+      "base_value": 5,
+      "coin_power": 987,
+      "coin_count": 3,
+      "attack_level": 45,
+      "attack_weight": 1,
+      "is_guard": true,
+      "guard_type": "防御",
+      "importance": 0,
+      "coin_effects": [
+        "[命中时] 对目标施加1层 易损",
+        "[命中时] 下回合对目标施加1层 易损",
+        "[命中时] 下回合对目标施加2层 麻痹",
+        "[命中时] 目标每带有2层 攻击等级降低 ，使本硬币造成的伤害+30%（最多+120%）",
+        "[正面命中时] 若目标带有不低于3种负面状态，则重复使用本硬币（最多1次）"
+      ]
+    },
+    {
+      "skill_name": "防御",
+      "icon_id": "9101505",
+      "sin_type": "常规",
+      "damage_type": "防御",
+      "base_value": 5,
+      "coin_power": 79,
+      "coin_count": 1,
+      "attack_level": 0,
+      "attack_weight": 1,
+      "is_guard": true,
+      "guard_type": "防御",
+      "importance": 0,
+      "coin_effects": [
+        "战斗开始每有1名友方单位存活，使自身额外获得20点护盾"
+      ]
+    }
+  ],
+  "is_ally": false,
+  "_structured": true,
+  "appear_stages": [
+    "主线战斗6-38"
+  ],
+  "enemy_id": "主线战斗6-38|狂猎 亨德利|",
+  "defense": 44,
+  "speed": "2~5",
+  "_schema_version": 1
+}

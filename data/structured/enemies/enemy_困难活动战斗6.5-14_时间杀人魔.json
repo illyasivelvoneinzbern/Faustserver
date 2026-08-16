@@ -1,0 +1,202 @@
+{
+  "page_type": "enemy",
+  "title": "困难活动战斗6.5-14",
+  "enemy_name": "时间杀人魔",
+  "battle_stage": "困难活动战斗6.5-14",
+  "body_part": "躯干",
+  "hp": 1451,
+  "defense_level": 58,
+  "speed_min": 1,
+  "speed_max": 3,
+  "chaos_threshold": "870/435/0/-145",
+  "physical_resistances": {
+    "斩击": 0.5,
+    "突刺": 1.2,
+    "打击": 1.0
+  },
+  "sin_resistances": {
+    "暴怒": 1.2,
+    "色欲": 0.5,
+    "怠惰": 1.5,
+    "暴食": 1.5,
+    "忧郁": 1.0,
+    "傲慢": 0.75,
+    "嫉妒": 1.0
+  },
+  "panic_types": [
+    "怨恨",
+    "抢来的时间",
+    "斩击伤害强化",
+    "突刺伤害强化",
+    "时间加速"
+  ],
+  "passives": [
+    "恐慌恢复: 回合结束时，若陷入恐慌，则使自身理智值恢复为0点。",
+    "固定恐慌: 被施加改变恐慌类型的状态时，自身的恐慌类型不会改变。效果改为对没有理智值的单位施加的效果。",
+    "救赎时间: 战斗开始时，带有1000层 抢来的时间",
+    "加速再生修复: 回合结束时，若有部位被破坏，则消耗该部位的100时间并在下回合解除该部位的破坏。",
+    "准点: 回合结束时，若自身的 抢来的时间 层数可被60整除，则下回合使自身获得2层 斩击伤害强化 与2层 突刺伤害强化",
+    "残剩的时间: 若自身处于 时间加速 状态，则命中敌方单位时，对该敌方单位追加造成伤害量10%的当前使用技能的罪孽属性的伤害(每回合最多2次)"
+  ],
+  "skills": [
+    {
+      "skill_name": "你怕了吗？",
+      "icon_id": "827701",
+      "sin_type": "忧郁",
+      "damage_type": "斩击",
+      "base_value": 3,
+      "coin_power": 3,
+      "coin_count": 3,
+      "attack_level": 51,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[命中时] 使目标增加3级 流血 强度"
+      ]
+    },
+    {
+      "skill_name": "时间杀手的惩罚",
+      "icon_id": "827702",
+      "sin_type": "傲慢",
+      "damage_type": "穿刺",
+      "base_value": 4,
+      "coin_power": 3,
+      "coin_count": 4,
+      "attack_level": 51,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[使用时] 若自身的 抢来的时间 层数不低于700层，则对目标施加3层 流血",
+        "[使用时] 若自身的 抢来的时间 层数不低于500层，则对目标施加1层 流血",
+        "[使用时] 若自身的 抢来的时间 层数不低于400层，则消耗20层 抢来的时间 并使本技能增加的 流血 强度与施加的 流血 层数额外+1",
+        "[命中时] 使目标增加4级 流血 强度",
+        "[命中时] 对目标施加2层 流血"
+      ]
+    },
+    {
+      "skill_name": "截除",
+      "icon_id": "827703",
+      "sin_type": "傲慢",
+      "damage_type": "穿刺",
+      "base_value": 2,
+      "coin_power": 3,
+      "coin_count": 9,
+      "attack_level": 52,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[使用时] 若现存体力不高于75%，则消耗40层 抢来的时间 并使本技能的拼点威力+2(每回合最多1次)",
+        "[命中时] 使目标增加3级 流血 强度 不可摧毁的硬币",
+        "[命中时] 对目标施加2层 流血"
+      ]
+    },
+    {
+      "skill_name": "碎尸万段",
+      "icon_id": "827704",
+      "sin_type": "暴怒",
+      "damage_type": "斩击",
+      "base_value": 5,
+      "coin_power": 987,
+      "coin_count": 5,
+      "attack_level": 52,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[使用时] 若现存体力不高于75%，则消耗60层 抢来的时间 并使本技能的拼点威力+2",
+        "[命中时] 对目标施加1层 流血 不可摧毁的硬币",
+        "[命中时] 使目标增加5级 流血 强度"
+      ]
+    },
+    {
+      "skill_name": "救援时间",
+      "icon_id": "827705",
+      "sin_type": "嫉妒",
+      "damage_type": "斩击",
+      "base_value": 4,
+      "coin_power": 5793,
+      "coin_count": 1,
+      "attack_level": 52,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "无法拼点",
+        "对以自身为目标使用攻击技能的单位在下回合施加时间救援目标",
+        "战斗开始消耗200层抢来的时间并在下回合使自身获得时间加速"
+      ]
+    },
+    {
+      "skill_name": "闪避",
+      "icon_id": "827706",
+      "sin_type": "暴食",
+      "damage_type": "闪避",
+      "base_value": 3,
+      "coin_power": 854,
+      "coin_count": 1,
+      "attack_level": 0,
+      "attack_weight": 1,
+      "is_guard": true,
+      "guard_type": "闪避",
+      "importance": 0,
+      "coin_effects": [
+        "使用时自身每带有100层抢来的时间，使本技能的基础威力+1（最多+3）"
+      ]
+    },
+    {
+      "skill_name": "哎呀…",
+      "icon_id": "827707",
+      "sin_type": "怠惰",
+      "damage_type": "斩击",
+      "base_value": 3,
+      "coin_power": 9703,
+      "coin_count": 3,
+      "attack_level": 52,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[命中时] 使目标增加3级 流血 强度"
+      ]
+    },
+    {
+      "skill_name": "没时间了",
+      "icon_id": "827708",
+      "sin_type": "怠惰",
+      "damage_type": "斩击",
+      "base_value": 3,
+      "coin_power": 9703,
+      "coin_count": 5,
+      "attack_level": 52,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[命中时] 使目标增加3级 流血 强度",
+        "[命中时] 对目标施加2层 流血"
+      ]
+    }
+  ],
+  "is_ally": false,
+  "_structured": true,
+  "appear_stages": [
+    "困难活动战斗6.5-14",
+    "最后的事件-关底BOSS",
+    "最后的事件-关底BOSS 困难难度",
+    "活动战斗6.5-14"
+  ],
+  "enemy_id": "困难活动战斗6.5-14|时间杀人魔|躯干",
+  "defense": 58,
+  "speed": "1~3",
+  "_schema_version": 1
+}

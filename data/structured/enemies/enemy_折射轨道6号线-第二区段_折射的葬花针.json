@@ -1,0 +1,62 @@
+{
+  "page_type": "enemy",
+  "title": "折射轨道6号线-第二区段",
+  "enemy_name": "折射的葬花针",
+  "battle_stage": "折射轨道6号线-第二区段",
+  "body_part": "",
+  "hp": 60,
+  "defense_level": 70,
+  "speed_min": 1,
+  "speed_max": 1,
+  "chaos_threshold": "30",
+  "physical_resistances": {
+    "斩击": 1.0,
+    "突刺": 1.0,
+    "打击": 1.0
+  },
+  "sin_resistances": {
+    "暴怒": 1.0,
+    "色欲": 0.75,
+    "怠惰": 0.75,
+    "暴食": 1.5,
+    "忧郁": 1.5,
+    "傲慢": 1.0,
+    "嫉妒": 1.5
+  },
+  "panic_types": [],
+  "passives": [
+    "物归原主: 被应龙的技能“落雷”命中时，自身立即阵亡并使应龙获得1层 葬花针",
+    "折射的挣扎: 无"
+  ],
+  "skills": [
+    {
+      "skill_name": "寄宿龙气之针",
+      "icon_id": "957101",
+      "sin_type": "暴食",
+      "damage_type": "守备",
+      "base_value": 4,
+      "coin_power": 854,
+      "coin_count": 3,
+      "attack_level": 0,
+      "attack_weight": 1,
+      "is_guard": true,
+      "guard_type": "防御",
+      "importance": 0,
+      "coin_effects": [
+        "可拼点防御",
+        "拼点胜利对目标施加1层易损",
+        "1不可摧毁的硬币"
+      ]
+    }
+  ],
+  "is_ally": false,
+  "_structured": true,
+  "appear_stages": [
+    "折射轨道6号线-第二区段",
+    "折射轨道6号线-第二区段-3"
+  ],
+  "enemy_id": "折射轨道6号线-第二区段|折射的葬花针|",
+  "defense": 70,
+  "speed": "1~1",
+  "_schema_version": 1
+}

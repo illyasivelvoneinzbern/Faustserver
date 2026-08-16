@@ -1,0 +1,99 @@
+{
+  "page_type": "enemy",
+  "title": "主线战斗6-26",
+  "enemy_name": "忧郁罪种？",
+  "battle_stage": "主线战斗6-26",
+  "body_part": "躯干",
+  "hp": 163,
+  "defense_level": 37,
+  "speed_min": 2,
+  "speed_max": 4,
+  "chaos_threshold": "97/0",
+  "physical_resistances": {
+    "斩击": 1.0,
+    "突刺": 1.75,
+    "打击": 1.0
+  },
+  "sin_resistances": {
+    "暴怒": 0.5,
+    "色欲": 1.0,
+    "怠惰": 1.0,
+    "暴食": 1.75,
+    "忧郁": 0.5,
+    "傲慢": 1.0,
+    "嫉妒": 1.75
+  },
+  "panic_types": [],
+  "passives": [],
+  "skills": [
+    {
+      "skill_name": "跃入",
+      "icon_id": "815201",
+      "sin_type": "忧郁",
+      "damage_type": "",
+      "base_value": 0,
+      "coin_power": 2,
+      "coin_count": 3,
+      "attack_level": 34,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "coin_effects": [
+        "[命中时] 使目标增加2级 沉沦 下{1}次被攻击时，额外受到{0}点固定理智伤害。(没有理智值的目标则受到忧郁属性伤害) 强度并对其施加2层 沉沦 下{1}次被攻击时，额外受到{0}点固定理智伤害。(没有理智值的目标则受到忧郁属性伤害)"
+      ]
+    },
+    {
+      "skill_name": "迸射",
+      "icon_id": "815202",
+      "sin_type": "忧郁",
+      "damage_type": "",
+      "base_value": 0,
+      "coin_power": 8,
+      "coin_count": 2,
+      "attack_level": 34,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "coin_effects": [
+        "[命中时] 使目标增加3级 沉沦 下{1}次被攻击时，额外受到{0}点固定理智伤害。(没有理智值的目标则受到忧郁属性伤害) 强度并对其施加3层 沉沦 下{1}次被攻击时，额外受到{0}点固定理智伤害。(没有理智值的目标则受到忧郁属性伤害)"
+      ]
+    },
+    {
+      "skill_name": "水炸弹",
+      "icon_id": "815203",
+      "sin_type": "忧郁",
+      "damage_type": "",
+      "base_value": 0,
+      "coin_power": 10,
+      "coin_count": 2,
+      "attack_level": 34,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "coin_effects": [
+        "[命中时] 使目标增加8级 沉沦 下{1}次被攻击时，额外受到{0}点固定理智伤害。(没有理智值的目标则受到忧郁属性伤害) 强度",
+        "[正面命中时] 下回合对目标施加2层 忧郁易损 本回合内受到来自忧郁技能的伤害+{0}0%（最多+100%）"
+      ]
+    },
+    {
+      "skill_name": "闪避",
+      "icon_id": "815204",
+      "sin_type": "忧郁",
+      "damage_type": "",
+      "base_value": 0,
+      "coin_power": 8,
+      "coin_count": 1,
+      "attack_level": 0,
+      "attack_weight": 1,
+      "is_guard": true,
+      "guard_type": "闪避",
+      "coin_effects": []
+    }
+  ],
+  "is_ally": false,
+  "_structured": true,
+  "enemy_id": "主线战斗6-26|忧郁罪种？",
+  "defense": 37,
+  "speed": "2~4",
+  "_schema_version": 1
+}

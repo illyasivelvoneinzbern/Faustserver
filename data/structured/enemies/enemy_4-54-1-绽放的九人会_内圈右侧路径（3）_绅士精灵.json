@@ -1,0 +1,165 @@
+{
+  "page_type": "enemy",
+  "title": "4-54-1-绽放的九人会 内圈右侧路径（3）",
+  "enemy_name": "绅士精灵",
+  "battle_stage": "4-54-1-绽放的九人会 内圈右侧路径（3）",
+  "body_part": "躯干",
+  "hp": 849,
+  "defense_level": 30,
+  "speed_min": 2,
+  "speed_max": 4,
+  "chaos_threshold": "297/0",
+  "physical_resistances": {
+    "斩击": 1.0,
+    "突刺": 2.0,
+    "打击": 0.75
+  },
+  "sin_resistances": {
+    "暴怒": 1.0,
+    "色欲": 0.5,
+    "怠惰": 1.5,
+    "暴食": 0.75,
+    "忧郁": 1.0,
+    "傲慢": 2.0,
+    "嫉妒": 0.5
+  },
+  "panic_types": [],
+  "passives": [
+    "醉意令人打嗝！: 对带有不低于5层 醉意 的敌方单位使用“这个我吃了！”并命中后，陷入混乱",
+    "香气四溢吧？: 由内而外散发的莫名的香气使人兴致昂扬。 波次开始时，随机使1名罪人获得5层 昂扬"
+  ],
+  "skills": [
+    {
+      "skill_name": "想喝醉吗？",
+      "icon_id": "804801",
+      "sin_type": "暴食",
+      "damage_type": "打击",
+      "base_value": 4,
+      "coin_power": 6,
+      "coin_count": 1,
+      "attack_level": 2,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "进行拼点时，使目标获得1层昂扬"
+      ]
+    },
+    {
+      "skill_name": "分着喝吧！",
+      "icon_id": "804802",
+      "sin_type": "暴食",
+      "damage_type": "打击",
+      "base_value": 5,
+      "coin_power": 6,
+      "coin_count": 1,
+      "attack_level": 2,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "进行拼点时，使目标获得1层昂扬"
+      ]
+    },
+    {
+      "skill_name": "只剩这些了！",
+      "icon_id": "804803",
+      "sin_type": "暴食",
+      "damage_type": "打击",
+      "base_value": 4,
+      "coin_power": 3,
+      "coin_count": 2,
+      "attack_level": 2,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "进行拼点时，使目标获得2层昂扬"
+      ]
+    },
+    {
+      "skill_name": "这个我吃了！",
+      "icon_id": "804804",
+      "sin_type": "色欲",
+      "damage_type": "穿刺",
+      "base_value": 6,
+      "coin_power": 8,
+      "coin_count": 1,
+      "attack_level": 2,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "无法拼点",
+        "无法改变拼点目标",
+        "优先指定带有昂扬的目标",
+        "若目标未带有醉意，则使本技能的拼点威力+5"
+      ]
+    },
+    {
+      "skill_name": "这个我吃了！",
+      "icon_id": "804805",
+      "sin_type": "色欲",
+      "damage_type": "穿刺",
+      "base_value": 6,
+      "coin_power": 10,
+      "coin_count": 1,
+      "attack_level": 2,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "优先指定带有昂扬的目标",
+        "若目标未带有醉意，则使本技能的拼点威力+5"
+      ]
+    },
+    {
+      "skill_name": "这次不行！",
+      "icon_id": "804806",
+      "sin_type": "嫉妒",
+      "damage_type": "打击",
+      "base_value": 5,
+      "coin_power": 7,
+      "coin_count": 1,
+      "attack_level": 2,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": []
+    },
+    {
+      "skill_name": "想要这杯精灵酒吗？",
+      "icon_id": "804807",
+      "sin_type": "",
+      "damage_type": "闪避",
+      "base_value": 5,
+      "coin_power": 8,
+      "coin_count": 1,
+      "attack_level": 0,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "使用时下回合使自身获得1层束缚"
+      ]
+    }
+  ],
+  "is_ally": false,
+  "_structured": true,
+  "appear_stages": [
+    "4-54-1-绽放的九人会 内圈右侧路径（3）",
+    "纺锤采光-怠惰-3",
+    "纺锤采光-怠惰-4"
+  ],
+  "enemy_id": "4-54-1-绽放的九人会 内圈右侧路径（3）|绅士精灵|躯干",
+  "defense": 30,
+  "speed": "2~4",
+  "_schema_version": 1
+}

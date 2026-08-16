@@ -1,0 +1,21 @@
+{
+  "id": "gift_9403",
+  "title": "黑檀胸针",
+  "url": "https://limbuscompany.huijiwiki.com/wiki/E.G.O饰品",
+  "categories": [
+    "E.G.O饰品"
+  ],
+  "content": "关卡的首个回合开始时，使全体敌方单位增加2级破裂强度并对其施加2层破裂。\n3回合内，回合结束时对全体敌方单位施加2层束缚",
+  "source": "tabx",
+  "_structured": true,
+  "page_type": "ego_gift",
+  "gift_name": "黑檀胸针",
+  "rarity": 2,
+  "cost": "192",
+  "effect_types": "破裂",
+  "attack_type": "暴食",
+  "location": "镜像迷宫",
+  "stage": "base",
+  "special": "无归属者",
+  "_schema_version": 1
+}

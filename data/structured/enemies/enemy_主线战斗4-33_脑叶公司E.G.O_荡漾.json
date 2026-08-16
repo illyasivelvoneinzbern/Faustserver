@@ -1,0 +1,114 @@
+{
+  "page_type": "enemy",
+  "title": "主线战斗4-33",
+  "enemy_name": "脑叶公司E.G.O::荡漾",
+  "battle_stage": "主线战斗4-33",
+  "body_part": "",
+  "hp": 112,
+  "defense_level": 32,
+  "speed_min": 1,
+  "speed_max": 3,
+  "chaos_threshold": "",
+  "physical_resistances": {
+    "斩击": 0.75,
+    "突刺": 2.0,
+    "打击": 1.0
+  },
+  "sin_resistances": {
+    "暴怒": 1.0,
+    "色欲": 1.0,
+    "怠惰": 1.0,
+    "暴食": 0.8,
+    "忧郁": 1.0,
+    "傲慢": 1.0,
+    "嫉妒": 1.2
+  },
+  "panic_types": [
+    "徘徊"
+  ],
+  "passives": [
+    "无"
+  ],
+  "skills": [
+    {
+      "skill_name": "液体压制",
+      "icon_id": "9005801",
+      "sin_type": "暴食",
+      "damage_type": "",
+      "base_value": 4,
+      "coin_power": 854,
+      "coin_count": 2,
+      "attack_level": 27,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[命中时] 下回合对目标施加1层 束缚"
+      ]
+    },
+    {
+      "skill_name": "液体爆发",
+      "icon_id": "9005802",
+      "sin_type": "怠惰",
+      "damage_type": "",
+      "base_value": 3,
+      "coin_power": 9703,
+      "coin_count": 2,
+      "attack_level": 27,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[命中时] 使目标 震颤引爆"
+      ]
+    },
+    {
+      "skill_name": "液体晃动",
+      "icon_id": "9005803",
+      "sin_type": "暴食",
+      "damage_type": "",
+      "base_value": 5,
+      "coin_power": 854,
+      "coin_count": 3,
+      "attack_level": 27,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[命中时] 使目标增加3级 震颤 强度",
+        "[命中时] 对目标施加1层 震颤"
+      ]
+    },
+    {
+      "skill_name": "液体阻塞",
+      "icon_id": "9005804",
+      "sin_type": "常规",
+      "damage_type": "",
+      "base_value": 6,
+      "coin_power": 79,
+      "coin_count": 1,
+      "attack_level": 0,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": []
+    }
+  ],
+  "is_ally": false,
+  "_structured": true,
+  "appear_stages": [
+    "主线战斗4-33",
+    "主线战斗4-34",
+    "主线战斗4-35",
+    "主线战斗4-36",
+    "大湖之镜-脑叶公司E.G.O:朱符 - 马里勒"
+  ],
+  "enemy_id": "主线战斗4-33|脑叶公司E.G.O::荡漾|",
+  "defense": 32,
+  "speed": "1~3",
+  "_schema_version": 1
+}

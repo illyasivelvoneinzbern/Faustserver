@@ -1,0 +1,22 @@
+{
+  "id": "gift_9777",
+  "title": "细枝",
+  "url": "https://limbuscompany.huijiwiki.com/wiki/E.G.O饰品",
+  "categories": [
+    "E.G.O饰品"
+  ],
+  "content": "带有破裂的敌方单位因受到友方单位增加破裂强度或施加破裂层数的攻击技能(包括E.G.O技能)的攻击而触发破裂3次时，下回合对该敌方单位施加2层攻击等级降低(每回合每名敌方单位最多3次，若是异想体则改为每个部位)\n通过施加破裂层数的基础攻击技能击杀敌方单位时，下回合随机对1名敌方单位施加层数相当于阵亡单位破裂层数的破裂(每回合最多2次)",
+  "source": "tabx",
+  "_structured": true,
+  "page_type": "ego_gift",
+  "gift_name": "细枝",
+  "rarity": 3,
+  "cost": "244",
+  "effect_types": "破裂",
+  "attack_type": "暴食",
+  "location": "LCB定期体检、镜像迷宫",
+  "stage": "base",
+  "special": "LCB定期体检",
+  "event": "事件-仲冬夜之噩梦",
+  "_schema_version": 1
+}

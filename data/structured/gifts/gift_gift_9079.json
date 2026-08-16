@@ -1,0 +1,21 @@
+{
+  "id": "gift_9079",
+  "title": "金瓮",
+  "url": "https://limbuscompany.huijiwiki.com/wiki/E.G.O饰品",
+  "categories": [
+    "E.G.O饰品"
+  ],
+  "content": "战斗胜利后获得的经费增加20%（不受开局增益与其他E.G.O饰品的影响）",
+  "source": "tabx",
+  "_structured": true,
+  "page_type": "ego_gift",
+  "gift_name": "金瓮",
+  "rarity": 2,
+  "cost": "180",
+  "effect_types": "泛用",
+  "attack_type": "怠惰",
+  "location": "镜像迷宫",
+  "stage": "base",
+  "event": "事件-金瓮",
+  "_schema_version": 1
+}

@@ -1,0 +1,21 @@
+{
+  "id": "gift_2002",
+  "title": "破碎之卵的残片",
+  "url": "https://limbuscompany.huijiwiki.com/wiki/E.G.O饰品",
+  "categories": [
+    "E.G.O饰品"
+  ],
+  "content": "关卡的首个回合开始时，随机使1种持有的罪孽碎片数量+2",
+  "source": "tabx",
+  "_structured": true,
+  "page_type": "ego_gift",
+  "gift_name": "破碎之卵的残片",
+  "rarity": 0,
+  "cost": "0",
+  "effect_types": "",
+  "attack_type": "暴食",
+  "location": "第四章",
+  "stage": "base",
+  "event": "事件-触碰卵",
+  "_schema_version": 1
+}

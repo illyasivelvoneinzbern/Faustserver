@@ -1,0 +1,106 @@
+{
+  "page_type": "enemy",
+  "title": "主线战斗9-22",
+  "enemy_name": "怠惰罪种 2型",
+  "battle_stage": "主线战斗9-22",
+  "body_part": "躯干",
+  "hp": 243,
+  "defense_level": 58,
+  "speed_min": 1,
+  "speed_max": 2,
+  "chaos_threshold": "72/0",
+  "physical_resistances": {
+    "斩击": 1.0,
+    "突刺": 1.0,
+    "打击": 1.75
+  },
+  "sin_resistances": {
+    "暴怒": 1.0,
+    "色欲": 1.0,
+    "怠惰": 0.5,
+    "暴食": 1.75,
+    "忧郁": 1.75,
+    "傲慢": 0.5,
+    "嫉妒": 1.0
+  },
+  "panic_types": [],
+  "passives": [
+    "罪孽抗性: 除非自身陷入混乱或部位被破坏，否则攻击技能命中时使自身的混乱阈值后移5"
+  ],
+  "skills": [
+    {
+      "skill_name": "掌",
+      "icon_id": "815901",
+      "sin_type": "怠惰",
+      "damage_type": "",
+      "base_value": 0,
+      "coin_power": 7,
+      "coin_count": 2,
+      "attack_level": 52,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "coin_effects": [
+        "[命中时] 使目标增加5级 震颤 强度并对其施加2层 震颤",
+        "[正面命中时] 下回合对目标施加2层 束缚"
+      ]
+    },
+    {
+      "skill_name": "堆石",
+      "icon_id": "815902",
+      "sin_type": "怠惰",
+      "damage_type": "",
+      "base_value": 0,
+      "coin_power": 4,
+      "coin_count": 3,
+      "attack_level": 52,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "coin_effects": [
+        "[命中时] 对目标施加3层 震颤",
+        "[命中时] 下回合对目标施加1层 麻痹",
+        "[命中时] 使目标增加8级 震颤 强度",
+        "[命中时] 下回合对目标施加2层 攻击等级降低"
+      ]
+    },
+    {
+      "skill_name": "怠惰的压迫",
+      "icon_id": "815903",
+      "sin_type": "怠惰",
+      "damage_type": "",
+      "base_value": 0,
+      "coin_power": 9,
+      "coin_count": 2,
+      "attack_level": 52,
+      "attack_weight": 1,
+      "is_guard": true,
+      "guard_type": "防御",
+      "coin_effects": [
+        "[命中时] 下回合对目标施加2层 束缚",
+        "[命中时] 下回合对目标施加2层 防御等级降低",
+        "[命中时] 使目标 震颤引爆"
+      ]
+    },
+    {
+      "skill_name": "防御",
+      "icon_id": "815904",
+      "sin_type": "怠惰",
+      "damage_type": "",
+      "base_value": 0,
+      "coin_power": 15,
+      "coin_count": 1,
+      "attack_level": 0,
+      "attack_weight": 1,
+      "is_guard": true,
+      "guard_type": "防御",
+      "coin_effects": []
+    }
+  ],
+  "is_ally": false,
+  "_structured": true,
+  "enemy_id": "主线战斗9-22|怠惰罪种 2型",
+  "defense": 58,
+  "speed": "1~2",
+  "_schema_version": 1
+}

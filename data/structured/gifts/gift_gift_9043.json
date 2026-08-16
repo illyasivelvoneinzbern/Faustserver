@@ -1,0 +1,21 @@
+{
+  "id": "gift_9043",
+  "title": "员工证",
+  "url": "https://limbuscompany.huijiwiki.com/wiki/E.G.O饰品",
+  "categories": [
+    "E.G.O饰品"
+  ],
+  "content": "激活暴怒完全共鸣或使用获得充能层数或特殊充能的技能时，下回合开始时使全体友方单位获得3层充能。(每回合最多1次)",
+  "source": "tabx",
+  "_structured": true,
+  "page_type": "ego_gift",
+  "gift_name": "员工证",
+  "rarity": 2,
+  "cost": "195",
+  "effect_types": "充能",
+  "attack_type": "暴怒",
+  "location": "镜像迷宫",
+  "stage": "base",
+  "event": "事件-员工证",
+  "_schema_version": 1
+}

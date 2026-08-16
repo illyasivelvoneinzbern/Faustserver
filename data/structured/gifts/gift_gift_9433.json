@@ -1,0 +1,21 @@
+{
+  "id": "gift_9433",
+  "title": "首席管家的秘籍",
+  "url": "https://limbuscompany.huijiwiki.com/wiki/E.G.O饰品",
+  "categories": [
+    "E.G.O饰品"
+  ],
+  "content": "波次的首个回合开始时，选择速度值最低的1名敌方单位(若是异想体，则随机1个部位)，从下回合起，5回合内对其施加5层束缚。\n拼点胜利时，若自身的速度值高于目标，则使自身恢复相当于速度差的理智值，并使拼点胜利的技能增加相当于速度差一半的攻击等级(仅适用于拼点胜利的技能。最多增加3级)。",
+  "source": "tabx",
+  "_structured": true,
+  "page_type": "ego_gift",
+  "gift_name": "首席管家的秘籍",
+  "rarity": 3,
+  "cost": "212",
+  "effect_types": "泛用",
+  "attack_type": "嫉妒",
+  "location": "镜像迷宫",
+  "stage": "base",
+  "special": "某个世界",
+  "_schema_version": 1
+}

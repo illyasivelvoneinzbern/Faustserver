@@ -1,0 +1,20 @@
+{
+  "id": "gift_9050",
+  "title": "红染棉花",
+  "url": "https://limbuscompany.huijiwiki.com/wiki/E.G.O饰品",
+  "categories": [
+    "E.G.O饰品"
+  ],
+  "content": "关卡的首个回合开始时，使全体敌方单位(若是异想体，则改为所有部位)增加1级流血强度并对其施加15层流血。\n\n回合开始时，带有流血的敌方单位在本回合减少(其流血强度/3)级攻击等级与防御等级。（流血强度积累至30级时效果最高）",
+  "source": "tabx",
+  "_structured": true,
+  "page_type": "ego_gift",
+  "gift_name": "红染棉花",
+  "rarity": 4,
+  "cost": "382",
+  "effect_types": "流血",
+  "attack_type": "色欲",
+  "location": "镜像迷宫",
+  "stage": "base",
+  "_schema_version": 1
+}

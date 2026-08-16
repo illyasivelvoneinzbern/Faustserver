@@ -1,0 +1,495 @@
+{
+  "page_type": "personality",
+  "title": "堂吉诃德LCB罪人",
+  "sinner": "堂吉诃德",
+  "sinner_id": "donquixote",
+  "personality_name": "堂吉诃德LCB罪人",
+  "release_date": "2023.02.27",
+  "acquisition": "主线及常驻提取",
+  "sin_affinities": {
+    "色欲": 3,
+    "嫉妒": 2,
+    "暴食": 1
+  },
+  "physical_resistances": {
+    "斩击": 1.0,
+    "突刺": 0.5,
+    "打击": 2.0
+  },
+  "ego_resources": {
+    "色欲": 3,
+    "嫉妒": 2,
+    "暴食": 1
+  },
+  "skills": [
+    {
+      "skill_index": 0,
+      "skill_name": "突刺",
+      "sin_type": "",
+      "damage_type": "",
+      "guard_type": "",
+      "attack_capacity": 1,
+      "coin_count": 1,
+      "stage_groups": [
+        [
+          {
+            "stage": "I",
+            "base_value": 2,
+            "coin_power": 7,
+            "effects": [
+              {
+                "timing": "拼点胜利",
+                "description": "下回合使自身获得1层 迅捷"
+              }
+            ],
+            "raw_text": "基础值： 2 变动值： +7 [拼点胜利] 下回合使自身获得1层 迅捷"
+          },
+          {
+            "stage": "II",
+            "base_value": 2,
+            "coin_power": 7,
+            "effects": [
+              {
+                "timing": "拼点胜利",
+                "description": "下回合使自身获得2层 迅捷"
+              }
+            ],
+            "raw_text": "基础值： 2 变动值： +7 [拼点胜利] 下回合使自身获得2层 迅捷"
+          },
+          {
+            "stage": "III",
+            "base_value": 3,
+            "coin_power": 7,
+            "effects": [
+              {
+                "timing": "拼点胜利",
+                "description": "下回合使自身获得2层 迅捷"
+              }
+            ],
+            "raw_text": "基础值： 3 变动值： +7 [拼点胜利] 下回合使自身获得2层 迅捷"
+          },
+          {
+            "stage": "IV",
+            "base_value": 4,
+            "coin_power": 7,
+            "effects": [
+              {
+                "timing": "拼点胜利",
+                "description": "下回合使自身获得2层 迅捷"
+              }
+            ],
+            "raw_text": "基础值： 4 变动值： +7 [拼点胜利] 下回合使自身获得2层 迅捷"
+          }
+        ]
+      ],
+      "coin_effects": [
+        {
+          "coin_index": 0,
+          "description": "技能一"
+        },
+        {
+          "coin_index": 0,
+          "description": "突刺 3"
+        },
+        {
+          "coin_index": 0,
+          "timing": "",
+          "description": "1"
+        },
+        {
+          "coin_index": 0,
+          "description": "+2"
+        },
+        {
+          "coin_index": 0,
+          "description": "1"
+        },
+        {
+          "coin_index": 0,
+          "description": "I阶 II阶 III阶 IV阶 基础值： 2 变动值： +7 [拼点胜利] 下回合使自身获得1层 迅捷 基础值： 2 变动值： +7 [拼点胜利] 下回合使自身获得2层 迅捷 基础值： 3 变动值： +7 [拼点胜利] 下回合使自身获得2层 迅捷 基础值： 4 变动值： +7 [拼点胜利] 下回合使自身获得2层 迅捷"
+        }
+      ],
+      "wikitext_key": "1技能"
+    },
+    {
+      "skill_index": 1,
+      "skill_name": "蓄力突刺",
+      "sin_type": "",
+      "damage_type": "",
+      "guard_type": "",
+      "attack_capacity": 1,
+      "coin_count": 2,
+      "stage_groups": [
+        [
+          {
+            "stage": "I",
+            "base_value": 3,
+            "coin_power": 10,
+            "effects": [
+              {
+                "timing": "拼点胜利",
+                "description": "下回合使自身获得1层 强壮"
+              }
+            ],
+            "raw_text": "基础值： 3 变动值： +10 [拼点胜利] 下回合使自身获得1层 强壮"
+          },
+          {
+            "stage": "II",
+            "base_value": 3,
+            "coin_power": 10,
+            "effects": [
+              {
+                "timing": "拼点胜利",
+                "description": "下回合使自身获得2层 强壮"
+              }
+            ],
+            "raw_text": "基础值： 3 变动值： +10 [拼点胜利] 下回合使自身获得2层 强壮"
+          },
+          {
+            "stage": "III",
+            "base_value": 4,
+            "coin_power": 10,
+            "effects": [
+              {
+                "timing": "拼点胜利",
+                "description": "下回合使自身获得2层 强壮"
+              }
+            ],
+            "raw_text": "基础值： 4 变动值： +10 [拼点胜利] 下回合使自身获得2层 强壮"
+          },
+          {
+            "stage": "IV",
+            "base_value": 4,
+            "coin_power": 12,
+            "effects": [
+              {
+                "timing": "拼点胜利",
+                "description": "下回合使自身获得2层 强壮"
+              },
+              {
+                "timing": "正面命中时",
+                "description": "使目标增加2级 流血 强度"
+              }
+            ],
+            "raw_text": "基础值： 4 变动值： +12 [拼点胜利] 下回合使自身获得2层 强壮 [正面命中时] 使目标增加2级 流血 强度"
+          }
+        ]
+      ],
+      "coin_effects": [
+        {
+          "coin_index": 0,
+          "description": "技能二"
+        },
+        {
+          "coin_index": 0,
+          "description": "蓄力突刺 2"
+        },
+        {
+          "coin_index": 0,
+          "timing": "",
+          "description": "1"
+        },
+        {
+          "coin_index": 0,
+          "description": "+2"
+        },
+        {
+          "coin_index": 0,
+          "description": "1"
+        },
+        {
+          "coin_index": 0,
+          "description": "基础值： 4 变动值： +12 [拼点胜利] 下回合使自身获得2层 强壮"
+        },
+        {
+          "coin_index": 1,
+          "timing": "正面命中时",
+          "description": "[正面命中时] 使目标增加2级 流血 强度"
+        }
+      ],
+      "wikitext_key": "2技能"
+    },
+    {
+      "skill_index": 2,
+      "skill_name": "为了正义！",
+      "sin_type": "",
+      "damage_type": "",
+      "guard_type": "",
+      "attack_capacity": 1,
+      "coin_count": 4,
+      "stage_groups": [
+        [
+          {
+            "stage": "I",
+            "base_value": 3,
+            "coin_power": 3,
+            "effects": [],
+            "raw_text": "基础值： 3 变动值： +3 若自身的 速度值 不低于10，则使本技能的硬币威力+2"
+          },
+          {
+            "stage": "II",
+            "base_value": 3,
+            "coin_power": 3,
+            "effects": [
+              {
+                "timing": "正面命中时",
+                "description": "使目标增加1级 流血 强度"
+              },
+              {
+                "timing": "正面命中时",
+                "description": "使目标增加1级 流血 强度"
+              },
+              {
+                "timing": "命中时",
+                "description": "对目标施加2层 流血"
+              }
+            ],
+            "raw_text": "基础值： 3 变动值： +3 若自身的 速度值 不低于10，则使本技能的硬币威力+2 [正面命中时] 使目标增加1级 流血 强度 [正面命中时] 使目标增加1级 流血 强度 [命中时] 对目标施加2层 流血"
+          }
+        ]
+      ],
+      "coin_effects": [
+        {
+          "coin_index": 0,
+          "description": "技能三"
+        },
+        {
+          "coin_index": 0,
+          "description": "为了正义！ 1"
+        },
+        {
+          "coin_index": 0,
+          "timing": "",
+          "description": "3"
+        },
+        {
+          "coin_index": 0,
+          "description": "+2"
+        },
+        {
+          "coin_index": 0,
+          "description": "1"
+        },
+        {
+          "coin_index": 0,
+          "description": "基础值： 3 变动值： +3 若自身的 速度值 不低于10，则使本技能的硬币威力+2"
+        },
+        {
+          "coin_index": 1,
+          "timing": "正面命中时",
+          "description": "[正面命中时] 使目标增加1级 流血 强度"
+        },
+        {
+          "coin_index": 2,
+          "timing": "正面命中时",
+          "description": "[正面命中时] 使目标增加1级 流血 强度"
+        },
+        {
+          "coin_index": 3,
+          "timing": "命中时",
+          "description": "[命中时] 对目标施加2层 流血"
+        }
+      ],
+      "wikitext_key": "3技能"
+    },
+    {
+      "skill_index": 3,
+      "skill_name": "闪避",
+      "sin_type": "",
+      "damage_type": "",
+      "guard_type": "闪避",
+      "attack_capacity": 1,
+      "coin_count": 1,
+      "stage_groups": [
+        [
+          {
+            "stage": "I",
+            "base_value": 2,
+            "coin_power": 10,
+            "effects": [],
+            "raw_text": "基础值： 2 变动值： +10"
+          },
+          {
+            "stage": "II",
+            "base_value": 2,
+            "coin_power": 10,
+            "effects": [],
+            "raw_text": "基础值： 2 变动值： +10"
+          }
+        ]
+      ],
+      "coin_effects": [
+        {
+          "coin_index": 0,
+          "description": "守备技能"
+        },
+        {
+          "coin_index": 0,
+          "description": "闪避"
+        },
+        {
+          "coin_index": 0,
+          "timing": "",
+          "description": "1"
+        },
+        {
+          "coin_index": 0,
+          "description": "-2"
+        },
+        {
+          "coin_index": 0,
+          "description": "1"
+        },
+        {
+          "coin_index": 0,
+          "description": "I阶 - III阶 IV阶 追加属性： 基础值： 2 变动值： +10 基础值： 2 变动值： +10"
+        }
+      ],
+      "wikitext_key": "守备技能4"
+    }
+  ],
+  "battle_passive": "人格被动1030101\n人格被动1030121",
+  "support_passive": "",
+  "notes": "",
+  "voice_lines": [
+    {
+      "file": "堂吉诃德LCB语音1.ogg",
+      "title": "获得时",
+      "text": "||已至吾之时刻？吾乃，堂吉诃德！"
+    },
+    {
+      "file": "堂吉诃德LCB语音2.ogg",
+      "title": "早间问候",
+      "text": "||哈欠……经理老爷可真是个勤恳的人啊。这个点是怎么让自己保持清醒的啊…？"
+    },
+    {
+      "file": "堂吉诃德LCB语音3.ogg",
+      "title": "午间问候",
+      "text": "||汝对午饭有何打算？听闻罗佳打听到了不错的食堂，吾现在十分期待。"
+    },
+    {
+      "file": "堂吉诃德LCB语音4.ogg",
+      "title": "晚间问候",
+      "text": "||今天的星星格外明亮。经理老爷也看得见星星吗？"
+    },
+    {
+      "file": "堂吉诃德LCB语音5.ogg",
+      "title": "对话 1",
+      "text": "||经理老爷，要欣赏一下吗？此皆吾之珍宝，呼呼……其中不乏吾竭尽全力才得到的限量版！"
+    },
+    {
+      "file": "堂吉诃德LCB语音6.ogg",
+      "title": "对话 2",
+      "text": "||请把目光投向那些收尾人吧，他们正为了这世间的正义而奔波！不觉得他们是如此耀眼吗？"
+    },
+    {
+      "file": "堂吉诃德LCB语音7.ogg",
+      "title": "对话 3",
+      "text": "||经理老爷最喜欢的收尾人是谁？分您一个徽章贴在衣服上如何？"
+    },
+    {
+      "file": "堂吉诃德LCB语音8.ogg",
+      "title": "闲置",
+      "text": "||经理老爷！！！！！把吾丢在这里上哪儿去啦！！！！！！！！！！！"
+    },
+    {
+      "file": "堂吉诃德LCB语音9.ogg",
+      "title": "人格出战",
+      "text": "||驰骋吧！驽骍难得！"
+    },
+    {
+      "file": "堂吉诃德LCB语音10.ogg",
+      "title": "进入战斗",
+      "text": "||轮到吾出场了吗！"
+    },
+    {
+      "file": "堂吉诃德LCB语音11.ogg",
+      "title": "战斗中选中人格",
+      "text": "||原来您一直在注视着吾！"
+    },
+    {
+      "file": "堂吉诃德LCB语音12.ogg",
+      "title": "进行攻击",
+      "text": "||出征！"
+    },
+    {
+      "file": "堂吉诃德LCB语音13.ogg",
+      "title": "敌方混乱",
+      "text": "||如我所料！"
+    },
+    {
+      "file": "堂吉诃德LCB语音14.ogg",
+      "title": "陷入混乱",
+      "text": "||啊！"
+    },
+    {
+      "file": "堂吉诃德LCB语音15.ogg",
+      "title": "击杀敌方",
+      "text": "||大捷！"
+    },
+    {
+      "file": "堂吉诃德LCB语音16.ogg",
+      "title": "友方阵亡",
+      "text": "||经理老爷，虽然会很辛苦，但还是拜托您了！"
+    },
+    {
+      "file": "堂吉诃德LCB语音17.ogg",
+      "title": "判定成功",
+      "text": "||吾岂敢自满！历史必将铭记此功！"
+    },
+    {
+      "file": "堂吉诃德LCB语音18.ogg",
+      "title": "判定失败",
+      "text": "||战胜逆境者方为英雄。来日吾等将再度出征！"
+    },
+    {
+      "file": "堂吉诃德LCB语音19.ogg",
+      "title": "战斗胜利",
+      "text": "||实然！正义永存！"
+    },
+    {
+      "file": "堂吉诃德LCB语音20.ogg",
+      "title": "EX CLEAR战斗胜利",
+      "text": "||吾果然有着成为伟大收尾人的资质！！！！哇哈哈哈哈！！！！"
+    },
+    {
+      "file": "堂吉诃德LCB语音21.ogg",
+      "title": "战斗失败",
+      "text": "||咳……你们会……付出……代价的……"
+    }
+  ],
+  "skill_voice": [
+    {
+      "file": "Battle_s2_10301_1.ogg",
+      "skill_index": 2,
+      "skill_label": "",
+      "skill_name": "蓄力突刺"
+    },
+    {
+      "file": "Battle_s3_10301_1_1.ogg",
+      "skill_index": 3,
+      "skill_label": "",
+      "skill_name": "为了正义！"
+    },
+    {
+      "file": "Battle_s3_10301_1_2.ogg",
+      "skill_index": 3,
+      "skill_label": "",
+      "skill_name": "为了正义！"
+    },
+    {
+      "file": "Battle_s3_10301_1_3.ogg",
+      "skill_index": 3,
+      "skill_label": "",
+      "skill_name": "为了正义！"
+    }
+  ],
+  "_structured": true,
+  "id": "wiki_堂吉诃德LCB罪人",
+  "url": "https://limbuscompany.huijiwiki.com/wiki/堂吉诃德LCB罪人",
+  "categories": [
+    "人格"
+  ],
+  "source": "wiki",
+  "_schema_version": 1
+}

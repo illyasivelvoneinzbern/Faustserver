@@ -1,0 +1,21 @@
+{
+  "id": "gift_9174",
+  "title": "碎裂的骨片",
+  "url": "https://limbuscompany.huijiwiki.com/wiki/E.G.O饰品",
+  "categories": [
+    "E.G.O饰品"
+  ],
+  "content": "回合开始时，若拥有增加沉沦强度，施加沉沦层数或施加特殊沉沦的攻击技能的友方单位不低于5名，则在本场战斗期间触发该效果。(不包括E.G.O技能，不包括待命人员)\n回合开始时，对带有沉沦的全体敌方单位(若是异想体，则改为所有部位)重新施加(上回合受击而消耗的沉沦层数/3)层沉沦。\n基础技能命中时，若目标的理智值低于0点(没有理智值的目标改为若其忧郁抗性不低于1.5)，则对其造成(其沉沦强度/10)点忧郁伤害(最少1点，该效果每回合最多触发10次)。",
+  "source": "tabx",
+  "_structured": true,
+  "page_type": "ego_gift",
+  "gift_name": "碎裂的骨片",
+  "rarity": 2,
+  "cost": "207",
+  "effect_types": "沉沦",
+  "attack_type": "忧郁",
+  "location": "镜像迷宫",
+  "stage": "base",
+  "event": "事件-遗骸碎片",
+  "_schema_version": 1
+}

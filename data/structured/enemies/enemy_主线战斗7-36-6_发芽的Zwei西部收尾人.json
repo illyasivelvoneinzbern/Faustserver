@@ -1,0 +1,118 @@
+{
+  "page_type": "enemy",
+  "title": "主线战斗7-36-6",
+  "enemy_name": "发芽的Zwei西部收尾人",
+  "battle_stage": "主线战斗7-36-6",
+  "body_part": "躯干",
+  "hp": 280,
+  "defense_level": 50,
+  "speed_min": 1,
+  "speed_max": 4,
+  "chaos_threshold": "112",
+  "physical_resistances": {
+    "斩击": 1.0,
+    "突刺": 1.5,
+    "打击": 0.5
+  },
+  "sin_resistances": {
+    "暴怒": 1.2,
+    "色欲": 1.5,
+    "怠惰": 0.75,
+    "暴食": 1.2,
+    "忧郁": 1.0,
+    "傲慢": 0.5,
+    "嫉妒": 1.0
+  },
+  "panic_types": [
+    "呈血",
+    "小卡蜜拉",
+    "流血"
+  ],
+  "passives": [
+    "卡蜜拉: 回合开始时，随机对1名敌方单位造成其体力上限5%的固定伤害。",
+    "一滴养分: 攻击结束后，使本体与部位恢复自身攻击技能伤害量一半的体力 - 自身体力为100%时，下回合使自身获得2层 攻击等级提升 （最多2次） 根据已恢复的体力按比例获得累加效果 - 层数不低于1层：每回合开始时，使自身获得3层 防御等级提升 - 层数不低于2层：每回合开始时，使自身获得3层 攻击等级提升 - 层数不低于3层：每回合开始时，使自身的最小与最大速度值+2 - 层数不低于5层：每回合开始时，使自身获得3层 强壮",
+    "束缚的一朵: 攻击结束后，对目标施加1层 小卡蜜拉 若目标带有 流血 ，则在攻击结束后额外施加1层 小卡蜜拉",
+    "目标保护: 回合开始时，使现存体力与上回合体力相比减少比例最高的友方单位获得2层 防御等级提升",
+    "固定恐慌: 被施加改变恐慌类型的状态时，自身的恐慌类型不会改变。效果改为对没有理智值的单位施加的效果。",
+    "恐慌恢复: 回合结束时，若陷入恐慌，则使自身的理智值恢复为0点。"
+  ],
+  "skills": [
+    {
+      "skill_name": "叽叽叽咿",
+      "icon_id": "839401",
+      "sin_type": "色欲",
+      "damage_type": "",
+      "base_value": 3,
+      "coin_power": 9,
+      "coin_count": 3,
+      "attack_level": 50,
+      "attack_weight": 1,
+      "is_guard": true,
+      "guard_type": "防御",
+      "importance": 0,
+      "coin_effects": [
+        "[使用时] 使自身获得3层 防御等级提升",
+        "[命中时] 使自身获得2层 防御等级提升",
+        "[命中时] 下回合使自身获得2层 防御等级提升"
+      ]
+    },
+    {
+      "skill_name": "叽叽咿",
+      "icon_id": "839402",
+      "sin_type": "忧郁",
+      "damage_type": "",
+      "base_value": 3,
+      "coin_power": 3,
+      "coin_count": 4,
+      "attack_level": 50,
+      "attack_weight": 1,
+      "is_guard": true,
+      "guard_type": "防御",
+      "importance": 0,
+      "coin_effects": [
+        "[使用时] 自身每带有4层 防御等级提升 ，使本技能的基础威力+1(最多+2)",
+        "[使用时] 使自身获得3层 防御等级提升",
+        "[命中时] 下回合使自身获得2层 防御等级提升"
+      ]
+    },
+    {
+      "skill_name": "叽咿咿",
+      "icon_id": "839403",
+      "sin_type": "怠惰",
+      "damage_type": "打击",
+      "base_value": 5,
+      "coin_power": 9703,
+      "coin_count": 2,
+      "attack_level": 50,
+      "attack_weight": 1,
+      "is_guard": true,
+      "guard_type": "防御",
+      "importance": 0,
+      "coin_effects": []
+    },
+    {
+      "skill_name": "叽叽",
+      "icon_id": "839404",
+      "sin_type": "常规",
+      "damage_type": "",
+      "base_value": 8,
+      "coin_power": 79,
+      "coin_count": 2,
+      "attack_level": 0,
+      "attack_weight": 1,
+      "is_guard": true,
+      "guard_type": "防御",
+      "importance": 0,
+      "coin_effects": []
+    }
+  ],
+  "is_ally": false,
+  "_structured": true,
+  "appear_stages": [
+    "主线战斗7-36-6"
+  ],
+  "enemy_id": "主线战斗7-36-6|发芽的Zwei西部收尾人|躯干",
+  "defense": 50,
+  "speed": "1~4",
+  "_schema_version": 1
+}

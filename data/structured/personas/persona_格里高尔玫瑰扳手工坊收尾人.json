@@ -1,0 +1,546 @@
+{
+  "page_type": "personality",
+  "title": "格里高尔玫瑰扳手工坊收尾人",
+  "sinner": "格里高尔",
+  "sinner_id": "gregor",
+  "personality_name": "格里高尔玫瑰扳手工坊收尾人",
+  "release_date": "2023.06.08",
+  "acquisition": "第2赛季提取",
+  "sin_affinities": {
+    "暴食": 3,
+    "嫉妒": 2,
+    "忧郁": 1
+  },
+  "physical_resistances": {
+    "斩击": 0.5,
+    "突刺": 2.0,
+    "打击": 1.0
+  },
+  "ego_resources": {
+    "暴食": 3,
+    "嫉妒": 2,
+    "忧郁": 1
+  },
+  "skills": [
+    {
+      "skill_index": 0,
+      "skill_name": "发动引擎",
+      "sin_type": "暴食",
+      "damage_type": "斩击",
+      "guard_type": "",
+      "attack_capacity": 1,
+      "coin_count": 2,
+      "stage_groups": [
+        [
+          {
+            "stage": "I",
+            "base_value": 2,
+            "coin_power": 4,
+            "effects": [
+              {
+                "timing": "命中时",
+                "description": "使目标增加2级 破裂 强度"
+              }
+            ],
+            "raw_text": "基础值： 2 变动值： +4 [命中时] 使目标增加2级 破裂 强度"
+          },
+          {
+            "stage": "II",
+            "base_value": 2,
+            "coin_power": 4,
+            "effects": [
+              {
+                "timing": "使用时",
+                "description": "使自身获得2层 充能"
+              },
+              {
+                "timing": "命中时",
+                "description": "使目标增加2级 破裂 强度"
+              }
+            ],
+            "raw_text": "基础值： 2 变动值： +4 [使用时] 使自身获得2层 充能 [命中时] 使目标增加2级 破裂 强度"
+          },
+          {
+            "stage": "III",
+            "base_value": 3,
+            "coin_power": 4,
+            "effects": [
+              {
+                "timing": "使用时",
+                "description": "使自身获得2层 充能"
+              },
+              {
+                "timing": "命中时",
+                "description": "使目标增加2级 破裂 强度"
+              }
+            ],
+            "raw_text": "基础值： 3 变动值： +4 [使用时] 使自身获得2层 充能 [命中时] 使目标增加2级 破裂 强度"
+          },
+          {
+            "stage": "IV",
+            "base_value": 3,
+            "coin_power": 4,
+            "effects": [
+              {
+                "timing": "使用时",
+                "description": "使自身获得2层 充能"
+              },
+              {
+                "timing": "命中时",
+                "description": "使目标增加2级 破裂 强度"
+              },
+              {
+                "timing": "命中时",
+                "description": "若目标的 震颤 层数不低于5层，则使目标增加3级 破裂 强度"
+              }
+            ],
+            "raw_text": "基础值： 3 变动值： +4 [使用时] 使自身获得2层 充能 [命中时] 使目标增加2级 破裂 强度 [命中时] 若目标的 震颤 层数不低于5层，则使目标增加3级 破裂 强度"
+          }
+        ]
+      ],
+      "coin_effects": [
+        {
+          "coin_index": 0,
+          "description": "技能一"
+        },
+        {
+          "coin_index": 0,
+          "description": "发动引擎 3"
+        },
+        {
+          "coin_index": 0,
+          "timing": "",
+          "description": "2"
+        },
+        {
+          "coin_index": 0,
+          "description": "+1"
+        },
+        {
+          "coin_index": 0,
+          "description": "1"
+        },
+        {
+          "coin_index": 0,
+          "description": "基础值： 2 变动值： +4"
+        },
+        {
+          "coin_index": 2,
+          "timing": "命中时",
+          "description": "[命中时] 使目标增加2级 破裂 强度"
+        },
+        {
+          "coin_index": 2,
+          "timing": "命中时",
+          "description": "[命中时] 使目标增加2级 破裂 强度"
+        },
+        {
+          "coin_index": 2,
+          "timing": "命中时",
+          "description": "[命中时] 使目标增加2级 破裂 强度"
+        },
+        {
+          "coin_index": 2,
+          "timing": "命中时",
+          "description": "[命中时] 使目标增加2级 破裂 强度 [命中时] 若目标的 震颤 层数不低于5层，则使目标增加3级 破裂 强度"
+        }
+      ],
+      "wikitext_key": "1技能"
+    },
+    {
+      "skill_index": 1,
+      "skill_name": "润滑链锯",
+      "sin_type": "",
+      "damage_type": "",
+      "guard_type": "",
+      "attack_capacity": 1,
+      "coin_count": 2,
+      "stage_groups": [
+        [
+          {
+            "stage": "I",
+            "base_value": 3,
+            "coin_power": 12,
+            "effects": [
+              {
+                "timing": "命中时",
+                "description": "对目标施加2层 震颤"
+              },
+              {
+                "timing": "命中时",
+                "description": "对目标施加1层 破裂"
+              }
+            ],
+            "raw_text": "基础值： 3 变动值： +12 [命中时] 对目标施加2层 震颤 [命中时] 对目标施加1层 破裂"
+          },
+          {
+            "stage": "II",
+            "base_value": 3,
+            "coin_power": 12,
+            "effects": [
+              {
+                "timing": "使用时",
+                "description": "使自身获得3层 充能"
+              },
+              {
+                "timing": "命中时",
+                "description": "对目标施加2层 震颤"
+              },
+              {
+                "timing": "命中时",
+                "description": "对目标施加1层 破裂"
+              }
+            ],
+            "raw_text": "基础值： 3 变动值： +12 [使用时] 使自身获得3层 充能 [命中时] 对目标施加2层 震颤 [命中时] 对目标施加1层 破裂"
+          },
+          {
+            "stage": "III",
+            "base_value": 4,
+            "coin_power": 12,
+            "effects": [
+              {
+                "timing": "使用时",
+                "description": "使自身获得3层 充能"
+              },
+              {
+                "timing": "命中时",
+                "description": "对目标施加2层 震颤"
+              },
+              {
+                "timing": "命中时",
+                "description": "对目标施加1层 破裂"
+              }
+            ],
+            "raw_text": "基础值： 4 变动值： +12 [使用时] 使自身获得3层 充能 [命中时] 对目标施加2层 震颤 [命中时] 对目标施加1层 破裂"
+          },
+          {
+            "stage": "IV",
+            "base_value": 4,
+            "coin_power": 12,
+            "effects": [
+              {
+                "timing": "使用时",
+                "description": "使自身获得3层 充能"
+              },
+              {
+                "timing": "命中时",
+                "description": "对目标施加2层 震颤"
+              },
+              {
+                "timing": "命中时",
+                "description": "对目标施加2层 破裂"
+              }
+            ],
+            "raw_text": "基础值： 4 变动值： +12 [使用时] 使自身获得3层 充能 [命中时] 对目标施加2层 震颤 [命中时] 对目标施加2层 破裂"
+          }
+        ]
+      ],
+      "coin_effects": [
+        {
+          "coin_index": 0,
+          "description": "技能二"
+        },
+        {
+          "coin_index": 0,
+          "description": "润滑链锯 2"
+        },
+        {
+          "coin_index": 0,
+          "timing": "",
+          "description": "1"
+        },
+        {
+          "coin_index": 0,
+          "description": "+1"
+        },
+        {
+          "coin_index": 0,
+          "description": "1"
+        },
+        {
+          "coin_index": 0,
+          "description": "基础值： 3 变动值： +12"
+        },
+        {
+          "coin_index": 1,
+          "timing": "命中时",
+          "description": "[命中时] 对目标施加2层 震颤 [命中时] 对目标施加1层 破裂"
+        },
+        {
+          "coin_index": 1,
+          "timing": "命中时",
+          "description": "[命中时] 对目标施加2层 震颤 [命中时] 对目标施加1层 破裂"
+        },
+        {
+          "coin_index": 1,
+          "timing": "命中时",
+          "description": "[命中时] 对目标施加2层 震颤 [命中时] 对目标施加1层 破裂"
+        },
+        {
+          "coin_index": 1,
+          "timing": "命中时",
+          "description": "[命中时] 对目标施加2层 震颤 [命中时] 对目标施加2层 破裂"
+        }
+      ],
+      "wikitext_key": "2技能"
+    },
+    {
+      "skill_index": 2,
+      "skill_name": "都切碎吧",
+      "sin_type": "忧郁",
+      "damage_type": "斩击",
+      "guard_type": "",
+      "attack_capacity": 1,
+      "coin_count": 4,
+      "stage_groups": [
+        [
+          {
+            "stage": "I",
+            "base_value": 4,
+            "coin_power": 3,
+            "effects": [
+              {
+                "timing": "命中时",
+                "description": "使目标 震颤引爆 。 震颤引爆 时使目标的 震颤 层数减少2层， 并消耗最多4层 充能 ，根据消耗的 充能 层数对目标施加相应层数的 破裂"
+              },
+              {
+                "timing": "命中时",
+                "description": "使目标增加1级 破裂 强度"
+              },
+              {
+                "timing": "命中时",
+                "description": "若目标 处于混乱 状态，则使本硬币的伤害量+10%"
+              },
+              {
+                "timing": "命中时",
+                "description": "使目标增加1级 破裂 强度"
+              },
+              {
+                "timing": "命中时",
+                "description": "若目标 处于混乱 状态，则使本硬币的伤害量+10%"
+              }
+            ],
+            "raw_text": "基础值： 4 变动值： +3 [命中时] 使目标 震颤引爆 。 震颤引爆 时使目标的 震颤 层数减少2层， 并消耗最多4层 充能 ，根据消耗的 充能 层数对目标施加相应层数的 破裂 [命中时] 使目标增加1级 破裂 强度 [命中时] 若目标 处于混乱 状态，则使本硬币的伤害量+10% [命中时] 使目标增加1级 破裂 强度 [命中时] 若目标 处于混乱 状态，则使本硬币的伤害量+10%"
+          },
+          {
+            "stage": "II",
+            "base_value": 4,
+            "coin_power": 3,
+            "effects": [
+              {
+                "timing": "命中时",
+                "description": "使目标 震颤引爆 。 震颤引爆 时使目标的 震颤 层数减少2层， 并消耗最多4层 充能 ，根据消耗的 充能 层数对目标施加相应层数的 破裂"
+              },
+              {
+                "timing": "命中时",
+                "description": "使目标增加1级 破裂 强度"
+              },
+              {
+                "timing": "命中时",
+                "description": "若目标 处于混乱 状态，则使本硬币的伤害量+10%"
+              },
+              {
+                "timing": "命中时",
+                "description": "若目标的 震颤 层数不低于5层，则使目标增加3级 破裂 强度"
+              },
+              {
+                "timing": "命中时",
+                "description": "使目标增加1级 破裂 强度"
+              },
+              {
+                "timing": "命中时",
+                "description": "若目标 处于混乱 状态，则使本硬币的伤害量+10%"
+              },
+              {
+                "timing": "命中时",
+                "description": "若目标的 震颤 层数不低于5层，则使目标增加3级 破裂 强度"
+              }
+            ],
+            "raw_text": "基础值： 4 变动值： +3 若目标的 震颤 层数不低于5层，则使本技能的硬币威力+1 [命中时] 使目标 震颤引爆 。 震颤引爆 时使目标的 震颤 层数减少2层， 并消耗最多4层 充能 ，根据消耗的 充能 层数对目标施加相应层数的 破裂 [命中时] 使目标增加1级 破裂 强度 [命中时] 若目标 处于混乱 状态，则使本硬币的伤害量+10% [命中时] 若目标的 震颤 层数不低于5层，则使目标增加3级 破裂 强度 [命中时] 使目标增加1级 破裂 强度 [命中时] 若目标 处于混乱 状态，则使本硬币的伤害量+10% [命中时] 若目标的 震颤 层数不低于5层，则使目标增加3级 破裂 强度"
+          }
+        ]
+      ],
+      "coin_effects": [
+        {
+          "coin_index": 0,
+          "description": "技能三"
+        },
+        {
+          "coin_index": 0,
+          "description": "都切碎吧 1"
+        },
+        {
+          "coin_index": 0,
+          "timing": "",
+          "description": "3"
+        },
+        {
+          "coin_index": 0,
+          "description": "+1"
+        },
+        {
+          "coin_index": 0,
+          "description": "1"
+        },
+        {
+          "coin_index": 0,
+          "description": "基础值： 4 变动值： +3"
+        },
+        {
+          "coin_index": 1,
+          "timing": "命中时",
+          "description": "[命中时] 使目标 震颤引爆 。 震颤引爆 时使目标的 震颤 层数减少2层， 并消耗最多4层 充能 ，根据消耗的 充能 层数对目标施加相应层数的 破裂"
+        },
+        {
+          "coin_index": 2,
+          "timing": "命中时",
+          "description": "[命中时] 使目标增加1级 破裂 强度 [命中时] 若目标 处于混乱 状态，则使本硬币的伤害量+10%"
+        },
+        {
+          "coin_index": 3,
+          "timing": "命中时",
+          "description": "[命中时] 使目标增加1级 破裂 强度 [命中时] 若目标 处于混乱 状态，则使本硬币的伤害量+10%"
+        },
+        {
+          "coin_index": 1,
+          "timing": "命中时",
+          "description": "[命中时] 使目标 震颤引爆 。 震颤引爆 时使目标的 震颤 层数减少2层， 并消耗最多4层 充能 ，根据消耗的 充能 层数对目标施加相应层数的 破裂"
+        },
+        {
+          "coin_index": 2,
+          "timing": "命中时",
+          "description": "[命中时] 使目标增加1级 破裂 强度 [命中时] 若目标 处于混乱 状态，则使本硬币的伤害量+10% [命中时] 若目标的 震颤 层数不低于5层，则使目标增加3级 破裂 强度"
+        },
+        {
+          "coin_index": 3,
+          "timing": "命中时",
+          "description": "[命中时] 使目标增加1级 破裂 强度 [命中时] 若目标 处于混乱 状态，则使本硬币的伤害量+10% [命中时] 若目标的 震颤 层数不低于5层，则使目标增加3级 破裂 强度"
+        }
+      ],
+      "wikitext_key": "3技能"
+    },
+    {
+      "skill_index": 3,
+      "skill_name": "防御",
+      "sin_type": "",
+      "damage_type": "",
+      "guard_type": "防御",
+      "attack_capacity": 1,
+      "coin_count": 1,
+      "stage_groups": [
+        [
+          {
+            "stage": "I",
+            "base_value": 8,
+            "coin_power": 5,
+            "effects": [],
+            "raw_text": "基础值： 8 变动值： +5"
+          },
+          {
+            "stage": "II",
+            "base_value": 8,
+            "coin_power": 8,
+            "effects": [],
+            "raw_text": "基础值： 8 变动值： +8"
+          }
+        ]
+      ],
+      "coin_effects": [
+        {
+          "coin_index": 0,
+          "description": "守备技能"
+        },
+        {
+          "coin_index": 0,
+          "description": "防御"
+        },
+        {
+          "coin_index": 0,
+          "timing": "",
+          "description": "1"
+        },
+        {
+          "coin_index": 0,
+          "description": "-1"
+        },
+        {
+          "coin_index": 0,
+          "description": "1"
+        },
+        {
+          "coin_index": 0,
+          "description": "I阶 - III阶 IV阶 追加属性： 基础值： 8 变动值： +5 基础值： 8 变动值： +8"
+        }
+      ],
+      "wikitext_key": "守备技能4"
+    }
+  ],
+  "battle_passive": "人格被动1120501\n人格被动1120521",
+  "support_passive": "",
+  "notes": "",
+  "voice_lines": [],
+  "skill_voice": [
+    {
+      "file": "Battle_s2_11205_1.ogg",
+      "skill_index": 2,
+      "skill_label": "",
+      "skill_name": "润滑链锯"
+    },
+    {
+      "file": "Battle_s2_11205_1-01.ogg",
+      "skill_index": 2,
+      "skill_label": "",
+      "skill_name": "润滑链锯"
+    },
+    {
+      "file": "Battle_s3_11205_1_1_2.ogg",
+      "skill_index": 3,
+      "skill_label": "技能三",
+      "skill_name": "都切碎吧"
+    },
+    {
+      "file": "Battle_s3_11205_1_2_3.ogg",
+      "skill_index": 3,
+      "skill_label": "",
+      "skill_name": "都切碎吧"
+    },
+    {
+      "file": "Battle_s3_11205_1_2-01.ogg",
+      "skill_index": 3,
+      "skill_label": "",
+      "skill_name": "都切碎吧"
+    },
+    {
+      "file": "Battle_s3_11205_1_3_4.ogg",
+      "skill_index": 3,
+      "skill_label": "",
+      "skill_name": "都切碎吧"
+    },
+    {
+      "file": "Battle_s3_11205_1_3-01.ogg",
+      "skill_index": 3,
+      "skill_label": "",
+      "skill_name": "都切碎吧"
+    },
+    {
+      "file": "Battle_s3_11205_1_4-01.ogg",
+      "skill_index": 3,
+      "skill_label": "",
+      "skill_name": "都切碎吧"
+    },
+    {
+      "file": "Battle_s3_11205_1_1-01.ogg",
+      "skill_index": 3,
+      "skill_label": "",
+      "skill_name": "都切碎吧"
+    }
+  ],
+  "_structured": true,
+  "id": "wiki_格里高尔玫瑰扳手工坊收尾人",
+  "url": "https://limbuscompany.huijiwiki.com/wiki/格里高尔玫瑰扳手工坊收尾人",
+  "categories": [
+    "人格"
+  ],
+  "source": "wiki",
+  "_schema_version": 1
+}

@@ -1,0 +1,108 @@
+{
+  "page_type": "enemy",
+  "title": "活动战斗7.5-16",
+  "enemy_name": "卑鄙的三斧事务所收尾人",
+  "battle_stage": "活动战斗7.5-16",
+  "body_part": "",
+  "hp": 194,
+  "defense_level": 45,
+  "speed_min": 1,
+  "speed_max": 3,
+  "chaos_threshold": "",
+  "physical_resistances": {
+    "斩击": 2.0,
+    "突刺": 0.8,
+    "打击": 1.0
+  },
+  "sin_resistances": {
+    "暴怒": 1.0,
+    "色欲": 1.0,
+    "怠惰": 1.0,
+    "暴食": 1.0,
+    "忧郁": 1.0,
+    "傲慢": 1.0,
+    "嫉妒": 1.0
+  },
+  "panic_types": [
+    "愤怒",
+    "伤害强化",
+    "易损",
+    "愤怒",
+    "伤害强化",
+    "易损"
+  ],
+  "passives": [
+    "迎合交锋：拼点胜利时，下回合使自身获得2层 迅捷 (每回合最多1次)"
+  ],
+  "skills": [
+    {
+      "skill_name": "无礼的攻击",
+      "icon_id": "9018301",
+      "sin_type": "暴怒",
+      "damage_type": "",
+      "base_value": 0,
+      "coin_power": 7,
+      "coin_count": 2,
+      "attack_level": 46,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "coin_effects": [
+        "[命中时] 对目标施加2层 流血"
+      ]
+    },
+    {
+      "skill_name": "斩断肌腱",
+      "icon_id": "9018302",
+      "sin_type": "色欲",
+      "damage_type": "",
+      "base_value": 0,
+      "coin_power": 4,
+      "coin_count": 3,
+      "attack_level": 47,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "coin_effects": [
+        "[命中时] 使目标增加2级 流血 强度",
+        "[命中时] 对目标施加2层 束缚"
+      ]
+    },
+    {
+      "skill_name": "混乱的攻击",
+      "icon_id": "9018303",
+      "sin_type": "傲慢",
+      "damage_type": "斩击",
+      "base_value": 0,
+      "coin_power": 5,
+      "coin_count": 3,
+      "attack_level": 47,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "coin_effects": [
+        "[命中时] 使目标增加2级 流血 强度"
+      ]
+    },
+    {
+      "skill_name": "防御",
+      "icon_id": "9018304",
+      "sin_type": "常规",
+      "damage_type": "",
+      "base_value": 0,
+      "coin_power": 5,
+      "coin_count": 1,
+      "attack_level": 0,
+      "attack_weight": 1,
+      "is_guard": true,
+      "guard_type": "防御",
+      "coin_effects": []
+    }
+  ],
+  "is_ally": false,
+  "_structured": true,
+  "enemy_id": "活动战斗7.5-16|卑鄙的三斧事务所收尾人",
+  "defense": 45,
+  "speed": "1~3",
+  "_schema_version": 1
+}

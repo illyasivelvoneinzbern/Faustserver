@@ -1,0 +1,90 @@
+{
+  "page_type": "enemy",
+  "title": "主线战斗5-34",
+  "enemy_name": "苍白的蓝色人鱼",
+  "battle_stage": "主线战斗5-34",
+  "body_part": "",
+  "hp": 91,
+  "defense_level": 37,
+  "speed_min": 1,
+  "speed_max": 4,
+  "chaos_threshold": "",
+  "physical_resistances": {
+    "斩击": 1.0,
+    "突刺": 1.0,
+    "打击": 1.0
+  },
+  "sin_resistances": {
+    "暴怒": 1.0,
+    "色欲": 1.0,
+    "怠惰": 1.0,
+    "暴食": 1.0,
+    "忧郁": 0.8,
+    "傲慢": 1.6,
+    "嫉妒": 2.0
+  },
+  "panic_types": [],
+  "passives": [
+    "苍白化：回合开始时，除自身以外每有1名苍白的友方单位存活，使自身的攻击等级和防御等级+2.",
+    "袭来的否定：若剩余体力低于体力上限的10%，攻击命中时，造成20点理智伤害，下回合对目标施加1层 苍白的噪音 理智值减少效率 +2 若获得该效果时理智值不高于-45点，下回合对自身施加 噪音恐慌 。 回合结束时，本效果的层数减少1层 ，随后阵亡。",
+    "蔓延的污垢：回合结束时：除自身以外每有1名苍白的友方单位存活，使全体理智值不低于20点的敌方单位失去1点理智值"
+  ],
+  "skills": [
+    {
+      "skill_name": "..-. .",
+      "icon_id": "9009001",
+      "sin_type": "忧郁",
+      "damage_type": "",
+      "base_value": 0,
+      "coin_power": 0,
+      "coin_count": 3,
+      "attack_level": 35,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "coin_effects": [
+        "[命中时] 对目标施加2层 沉沦 下{1}次被攻击时，额外受到{0}点固定理智伤害。(没有理智值的目标则受到忧郁属性伤害)"
+      ]
+    },
+    {
+      "skill_name": "..-. . --",
+      "icon_id": "9009002",
+      "sin_type": "忧郁",
+      "damage_type": "",
+      "base_value": 0,
+      "coin_power": 2,
+      "coin_count": 2,
+      "attack_level": 35,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "coin_effects": [
+        "[命中时] 对目标施加2层 沉沦 下{1}次被攻击时，额外受到{0}点固定理智伤害。(没有理智值的目标则受到忧郁属性伤害)",
+        "[正面命中时] 使目标增加2级 沉沦 下{1}次被攻击时，额外受到{0}点固定理智伤害。(没有理智值的目标则受到忧郁属性伤害) 强度"
+      ]
+    },
+    {
+      "skill_name": ".-.. -",
+      "icon_id": "9009003",
+      "sin_type": "色欲",
+      "damage_type": "",
+      "base_value": 0,
+      "coin_power": 100,
+      "coin_count": 3,
+      "attack_level": 35,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "coin_effects": [
+        "[命中时] 使自身恢复本硬币伤害量40%的体力",
+        "[命中时] 下回合使自身获得1项目标带有的状态 （仅限 强壮 本回合内攻击技能的最终威力+{0} ， 迅捷 本回合内速度值+{0} ， 伤害强化 本回合内造成的伤害+{0}0%（最多+100%） 与 守护 本回合内受到的伤害-{0}0%（最多-100%） ）"
+      ]
+    }
+  ],
+  "is_ally": false,
+  "_structured": true,
+  "enemy_id": "主线战斗5-34|苍白的蓝色人鱼",
+  "defense": 37,
+  "speed": "1~4",
+  "_schema_version": 1
+}

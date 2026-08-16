@@ -1,0 +1,96 @@
+{
+  "page_type": "enemy",
+  "title": "主线战斗5-36-2-2",
+  "enemy_name": "苍白之物-棍",
+  "battle_stage": "主线战斗5-36-2-2",
+  "body_part": "",
+  "hp": 114,
+  "defense_level": 35,
+  "speed_min": 1,
+  "speed_max": 4,
+  "chaos_threshold": "",
+  "physical_resistances": {
+    "斩击": 1.0,
+    "突刺": 2.0,
+    "打击": 0.5
+  },
+  "sin_resistances": {
+    "暴怒": 1.0,
+    "色欲": 1.0,
+    "怠惰": 1.0,
+    "暴食": 1.0,
+    "忧郁": 1.0,
+    "傲慢": 1.0,
+    "嫉妒": 1.2
+  },
+  "panic_types": [
+    "不洁",
+    "易损",
+    "不洁",
+    "易损"
+  ],
+  "passives": [
+    "苍白化：回合开始时，除自身以外每有1名苍白的友方单位存活，使自身的攻击等级和防御等级+2.",
+    "袭来的否定：若剩余体力低于体力上限的10%，攻击命中时，造成20点理智伤害，下回合对目标施加1层 苍白的噪音 理智值减少效率 +2 若获得该效果时理智值不高于-45点，下回合对自身施加 噪音恐慌 。 回合结束时，本效果的层数减少1层 ，随后阵亡。",
+    "纠缠的有机物：除自身以外每有1名友方单位存活，使自身的攻击等级+1",
+    "被破坏的无机材料：友方单位阵亡时，下回合对自身施加1层 虚弱 本回合内攻击技能的最终威力-{0}"
+  ],
+  "skills": [
+    {
+      "skill_name": "..-. .",
+      "icon_id": "9009301",
+      "sin_type": "傲慢",
+      "damage_type": "",
+      "base_value": 0,
+      "coin_power": 0,
+      "coin_count": 2,
+      "attack_level": 30,
+      "attack_weight": 1,
+      "is_guard": true,
+      "guard_type": "防御",
+      "coin_effects": [
+        "[命中时] 对目标施加2层 防御等级降低 本回合内防御等级-{0}"
+      ]
+    },
+    {
+      "skill_name": ".-.. .",
+      "icon_id": "9009302",
+      "sin_type": "傲慢",
+      "damage_type": "",
+      "base_value": 0,
+      "coin_power": 100,
+      "coin_count": 2,
+      "attack_level": 30,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "coin_effects": [
+        "[命中时] 对目标施加2层 麻痹 本回合内使{0}枚硬币的变动值固定为0。",
+        "[正面命中时] 对目标施加1层 苍白的噪音 理智值减少效率 +2 若获得该效果时理智值不高于-45点，下回合对自身施加 噪音恐慌 。 回合结束时，本效果的层数减少1层"
+      ]
+    },
+    {
+      "skill_name": ".-.. .-",
+      "icon_id": "9009303",
+      "sin_type": "傲慢",
+      "damage_type": "",
+      "base_value": 0,
+      "coin_power": 100,
+      "coin_count": 3,
+      "attack_level": 30,
+      "attack_weight": 1,
+      "is_guard": true,
+      "guard_type": "防御",
+      "coin_effects": [
+        "[命中时] 对目标施加2层 防御等级降低 本回合内防御等级-{0}",
+        "[命中时] 对目标施加1层 苍白的噪音 理智值减少效率 +2 若获得该效果时理智值不高于-45点，下回合对自身施加 噪音恐慌 。 回合结束时，本效果的层数减少1层"
+      ]
+    }
+  ],
+  "is_ally": false,
+  "_structured": true,
+  "enemy_id": "主线战斗5-36-2-2|苍白之物-棍",
+  "defense": 35,
+  "speed": "1~4",
+  "_schema_version": 1
+}

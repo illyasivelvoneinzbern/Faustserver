@@ -1,0 +1,21 @@
+{
+  "id": "gift_9785",
+  "title": "丛云",
+  "url": "https://limbuscompany.huijiwiki.com/wiki/E.G.O饰品",
+  "categories": [
+    "E.G.O饰品"
+  ],
+  "content": "回合开始时，若属于黑云会的友方单位不低于3名，则触发该效果。\n使用基础攻击技能的不可摧毁的硬币命中时造成的伤害+(40/硬币数)%(不包括E.G.O技能)，若该单位属于黑云会，则改为造成的伤害+(80/硬币数)%\n使拥有斩击基础攻击技能的属于黑云会的友方单位获得2层斩击伤害强化，回合结束时属于黑云会的友方单位每失去10%的体力，下回合使其获得1层攻击等级提升与1层防御等级提升(最多5层)\n若属于黑云会的友方单位阵亡，下回合使属于黑云会的全体友方单位获得2层伤害强化(每回合最多1次)",
+  "source": "tabx",
+  "_structured": true,
+  "page_type": "ego_gift",
+  "gift_name": "丛云",
+  "rarity": 4,
+  "cost": "400",
+  "effect_types": "斩击",
+  "attack_type": "色欲",
+  "location": "镜像迷宫",
+  "stage": "base",
+  "special": "肉斩骨断复刻",
+  "_schema_version": 1
+}

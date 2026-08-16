@@ -1,0 +1,21 @@
+{
+  "id": "gift_9828",
+  "title": "为了指挥官",
+  "url": "https://limbuscompany.huijiwiki.com/wiki/E.G.O饰品",
+  "categories": [
+    "E.G.O饰品"
+  ],
+  "content": "[第1顺位友方单位专属]\n使用消耗弹药的技能时，触发以下效果\n- 下回合使自身获得3层迅捷(每回合最多1次)\n- 命中时使目标震颤引爆，消耗其1层震颤(每回合最多2次)\n- 拼点胜利后命中时，若目标带有烧伤与震颤(包括特殊震颤与特殊烧伤)，",
+  "source": "tabx",
+  "_structured": true,
+  "page_type": "ego_gift",
+  "gift_name": "为了指挥官",
+  "rarity": 4,
+  "cost": "201",
+  "effect_types": "震颤",
+  "attack_type": "暴怒",
+  "location": "镜像迷宫",
+  "stage": "base",
+  "special": "极限模式节点-插翅虎",
+  "_schema_version": 1
+}

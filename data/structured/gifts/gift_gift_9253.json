@@ -1,0 +1,21 @@
+{
+  "id": "gift_9253",
+  "title": "旋转木马模型",
+  "url": "https://limbuscompany.huijiwiki.com/wiki/E.G.O饰品",
+  "categories": [
+    "E.G.O饰品"
+  ],
+  "content": "首个回合开始时，获得300层血宴\n令流血效果生成的血宴变为2倍\n使用消耗血宴的技能时，在该技能攻击后额外消耗相应层数的血宴\n[属于拉·曼却领的人格专属]\n属于拉·曼却领的人格参战时，根据人格触发以下效果\n- 拉·曼却领 总督 堂吉诃德：获得15层硬血（我方）\n- 拉·曼却领 公主 罗佳：获得15层绽放荆棘（我方）",
+  "source": "tabx",
+  "_structured": true,
+  "page_type": "ego_gift",
+  "gift_name": "旋转木马模型",
+  "rarity": 4,
+  "cost": "400",
+  "effect_types": "流血",
+  "attack_type": "色欲",
+  "location": "镜像迷宫",
+  "stage": "base",
+  "special": "极限模式节点-充满祝福的嘉年华",
+  "_schema_version": 1
+}

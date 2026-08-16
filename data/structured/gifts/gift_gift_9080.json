@@ -1,0 +1,21 @@
+{
+  "id": "gift_9080",
+  "title": "生存的里程标",
+  "url": "https://limbuscompany.huijiwiki.com/wiki/E.G.O饰品",
+  "categories": [
+    "E.G.O饰品"
+  ],
+  "content": "通过阶层头目时，额外获得(80+该战斗参战人格数×5)点经费(不受通过战斗时获得经费增加的效果影响)。",
+  "source": "tabx",
+  "_structured": true,
+  "page_type": "ego_gift",
+  "gift_name": "生存的里程标",
+  "rarity": 2,
+  "cost": "182",
+  "effect_types": "泛用",
+  "attack_type": "暴食",
+  "location": "镜像迷宫",
+  "stage": "base",
+  "event": "事件-生存的里程标",
+  "_schema_version": 1
+}

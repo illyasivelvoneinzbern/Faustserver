@@ -1,0 +1,301 @@
+{
+  "page_type": "enemy",
+  "title": "主线战斗7-36-10",
+  "enemy_name": "阶段2",
+  "battle_stage": "主线战斗7-36-10",
+  "body_part": "躯干",
+  "hp": 4026,
+  "defense_level": 92,
+  "speed_min": 2,
+  "speed_max": 4,
+  "chaos_threshold": "3523/1207/0",
+  "physical_resistances": {
+    "斩击": 1.0,
+    "突刺": 1.2,
+    "打击": 1.0
+  },
+  "sin_resistances": {
+    "暴怒": 1.2,
+    "色欲": 1.5,
+    "怠惰": 0.5,
+    "暴食": 1.2,
+    "忧郁": 0.75,
+    "傲慢": 1.0,
+    "嫉妒": 1.0
+  },
+  "panic_types": [
+    "作为父亲，为了家人…",
+    "饥饿与衰老",
+    "金枝的强制调律",
+    "血宴",
+    "流血",
+    "烧伤",
+    "震颤",
+    "破裂",
+    "沉沦",
+    "复还的血之冲动",
+    "复还的血之冲动II",
+    "复还的血之冲动III"
+  ],
+  "passives": [],
+  "skills": [
+    {
+      "skill_name": "烧灼的饥渴",
+      "icon_id": "841001",
+      "sin_type": "怠惰",
+      "damage_type": "",
+      "base_value": 3,
+      "coin_power": 9703,
+      "coin_count": 3,
+      "attack_level": 90,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[使用时] 目标每带有5级 流血 强度，使本技能的基础威力+1(最多+3)",
+        "[使用时] 消耗至多30层 血宴 ，每消耗10层 血宴 ，使自身获得1层 复还的血之冲动",
+        "[命中时] 使目标增加3级 流血 强度"
+      ]
+    },
+    {
+      "skill_name": "被刺穿吧",
+      "icon_id": "841002",
+      "sin_type": "暴怒",
+      "damage_type": "",
+      "base_value": 5,
+      "coin_power": 987,
+      "coin_count": 3,
+      "attack_level": 90,
+      "attack_weight": 1,
+      "is_guard": true,
+      "guard_type": "防御",
+      "importance": 0,
+      "coin_effects": [
+        "[使用时] 消耗至多40层 血宴 ，每消耗10层 血宴 ，使自身获得1层 复还的血之冲动 并恢复3点理智值",
+        "[命中时] 对目标造成其体力上限20%的色欲伤害"
+      ]
+    },
+    {
+      "skill_name": "堂吉诃德派硬血2式-桩",
+      "icon_id": "841003",
+      "sin_type": "暴食",
+      "damage_type": "",
+      "base_value": 5,
+      "coin_power": 854,
+      "coin_count": 4,
+      "attack_level": 90,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[使用时] 目标每带有5级 流血 强度，使本技能的硬币威力+1(最多+2)",
+        "[命中时] 使目标增加2级 流血 强度",
+        "[命中时] 使目标增加2级 破裂 强度",
+        "[命中时] 对目标造成(其 流血 强度× 流血 层数)点色欲伤害"
+      ]
+    },
+    {
+      "skill_name": "楔形硬血",
+      "icon_id": "841004",
+      "sin_type": "傲慢",
+      "damage_type": "",
+      "base_value": 3,
+      "coin_power": 3,
+      "coin_count": 6,
+      "attack_level": 90,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[攻击后] 消耗3层 复还的血之冲动 不可摧毁的硬币",
+        "[命中时] 使目标增加3级 流血 强度",
+        "[命中时] 对目标施加2层 流血"
+      ]
+    },
+    {
+      "skill_name": "血之欲望",
+      "icon_id": "841005",
+      "sin_type": "傲慢",
+      "damage_type": "",
+      "base_value": 2,
+      "coin_power": 3,
+      "coin_count": 9,
+      "attack_level": 90,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[使用时] 消耗至多40层 血宴 ，每消耗10层 血宴 ，使自身获得1层 复还的血之冲动 并恢复5点理智值 不可摧毁的硬币",
+        "[命中时] 对目标施加1层 流血 不可摧毁的硬币",
+        "[命中时] 使目标增加4级 流血 强度"
+      ]
+    },
+    {
+      "skill_name": "血宴时刻",
+      "icon_id": "841006",
+      "sin_type": "暴食",
+      "damage_type": "",
+      "base_value": 3,
+      "coin_power": 854,
+      "coin_count": 3,
+      "attack_level": 90,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[使用时] 消耗至多300层 血宴 ，每消耗10层 血宴 ，使自身获得1层 复还的血之冲动 并恢复3点理智值",
+        "[使用时] 若消耗了 血宴 ，则使自身恢复30点理智值 不可摧毁的硬币"
+      ]
+    },
+    {
+      "skill_name": "堂吉诃德派硬血4式-剜除",
+      "icon_id": "841007",
+      "sin_type": "暴怒",
+      "damage_type": "",
+      "base_value": 10,
+      "coin_power": 987,
+      "coin_count": 3,
+      "attack_level": 90,
+      "attack_weight": 1,
+      "is_guard": true,
+      "guard_type": "防御",
+      "importance": 0,
+      "coin_effects": [
+        "[使用时] 消耗至多100层 血宴 ，每消耗10层 血宴 ，使自身获得1层 复还的血之冲动 并恢复15点理智值",
+        "[使用时] 自身每带有30层 消耗血宴总数 ，使本技能的拼点威力+1(最多+15)",
+        "[攻击后] 本回合与下回合内，对自身施加层数相当于本技能增加的拼点威力的 攻击等级降低 与 防御等级降低 (最多15层) 不可摧毁的硬币",
+        "[命中时] 使目标增加8级 流血 强度",
+        "[命中时] 消耗2层 复还的血之冲动"
+      ]
+    },
+    {
+      "skill_name": "堂吉诃德派硬血14式斗篷",
+      "icon_id": "841008",
+      "sin_type": "忧郁",
+      "damage_type": "",
+      "base_value": 3,
+      "coin_power": 3,
+      "coin_count": 3,
+      "attack_level": 0,
+      "attack_weight": 1,
+      "is_guard": true,
+      "guard_type": "防御",
+      "importance": 0,
+      "coin_effects": []
+    },
+    {
+      "skill_name": "脆弱，脆弱不堪",
+      "icon_id": "841009",
+      "sin_type": "忧郁",
+      "damage_type": "",
+      "base_value": 16,
+      "coin_power": 3,
+      "coin_count": 3,
+      "attack_level": 90,
+      "attack_weight": 1,
+      "is_guard": true,
+      "guard_type": "反击",
+      "importance": 0,
+      "coin_effects": [
+        "[命中时] 使目标增加2级 流血 强度并对其施加2层 流血"
+      ]
+    },
+    {
+      "skill_name": "血腥旋转木马",
+      "icon_id": "841010",
+      "sin_type": "傲慢",
+      "damage_type": "",
+      "base_value": 2,
+      "coin_power": 3,
+      "coin_count": 5,
+      "attack_level": 90,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[使用时] 下回合生成凝固的梦",
+        "[命中时] 对目标施加1层 流血",
+        "[命中时] 使目标增加2级 流血 强度"
+      ]
+    },
+    {
+      "skill_name": "被贯穿吧",
+      "icon_id": "841011",
+      "sin_type": "怠惰",
+      "damage_type": "",
+      "base_value": 5,
+      "coin_power": 9703,
+      "coin_count": 3,
+      "attack_level": 90,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": []
+    },
+    {
+      "skill_name": "堂吉诃德派硬血奥义-球",
+      "icon_id": "841012",
+      "sin_type": "色欲",
+      "damage_type": "",
+      "base_value": 26,
+      "coin_power": 9,
+      "coin_count": 5,
+      "attack_level": 90,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[使用时] 使自身恢复30点理智值",
+        "[使用时] 自身每带有10层 复还的血之冲动 ，使本技能的拼点威力+1",
+        "[攻击后] 消耗所有 复还的血之冲动 ，在本回合与下回合对自身施加5层 易损 ，并在下回合对自身施加2层 束缚 不可摧毁的硬币 不可摧毁的硬币"
+      ]
+    },
+    {
+      "skill_name": "堂吉诃德派硬血奥义- La Sangre",
+      "icon_id": "841013",
+      "sin_type": "色欲",
+      "damage_type": "",
+      "base_value": 99,
+      "coin_power": 9,
+      "coin_count": 1,
+      "attack_level": 90,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": []
+    },
+    {
+      "skill_name": "闪耀的冒险记忆",
+      "icon_id": "841301",
+      "sin_type": "色欲",
+      "damage_type": "",
+      "base_value": 10,
+      "coin_power": 9,
+      "coin_count": 1,
+      "attack_level": 0,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": []
+    }
+  ],
+  "is_ally": false,
+  "_structured": true,
+  "appear_stages": [
+    "主线战斗7-36-10"
+  ],
+  "enemy_id": "主线战斗7-36-10|阶段2|躯干",
+  "defense": 92,
+  "speed": "2~4",
+  "_schema_version": 1
+}

@@ -1,0 +1,116 @@
+{
+  "page_type": "enemy",
+  "title": "困难活动战斗6.5-28",
+  "enemy_name": "渴求的血袋乘客",
+  "battle_stage": "困难活动战斗6.5-28",
+  "body_part": "躯干",
+  "hp": 150,
+  "defense_level": 53,
+  "speed_min": 1,
+  "speed_max": 3,
+  "chaos_threshold": "90/30/0",
+  "physical_resistances": {
+    "斩击": 1.0,
+    "突刺": 1.0,
+    "打击": 1.5
+  },
+  "sin_resistances": {
+    "暴怒": 1.0,
+    "色欲": 0.75,
+    "怠惰": 1.0,
+    "暴食": 1.0,
+    "忧郁": 1.0,
+    "傲慢": 1.0,
+    "嫉妒": 1.5
+  },
+  "panic_types": [],
+  "passives": [
+    "血液硬化: 受到攻击时，对自身施加1层 流血 回合结束时，消耗自身的3层 流血 并使自身获得1层 硬化血液",
+    "血之渴求: 优先指定带有 流血 的目标 回合结束时，若本回合自身未造成伤害，则下回合对自身施加2层 易损 并使自身获得2层 攻击等级提升",
+    "吸血: 自身受到的 流血 伤害-10%(向下取整) 攻击命中时，若目标带有 流血 ，则使自身恢复伤害量10%的体力",
+    "爆裂的血袋: 战斗开始时，以体力上限一半的体力开始关卡"
+  ],
+  "skills": [
+    {
+      "skill_name": "硬化手臂",
+      "icon_id": "9014501",
+      "sin_type": "怠惰",
+      "damage_type": "穿刺",
+      "base_value": 2,
+      "coin_power": 9703,
+      "coin_count": 2,
+      "attack_level": 52,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[命中时] 对目标施加2层 流血"
+      ]
+    },
+    {
+      "skill_name": "硬血强化突刺",
+      "icon_id": "9014502",
+      "sin_type": "色欲",
+      "damage_type": "穿刺",
+      "base_value": 3,
+      "coin_power": 9,
+      "coin_count": 3,
+      "attack_level": 4,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[命中时] 对目标施加1层 流血",
+        "[命中时] 对目标施加2层 流血"
+      ]
+    },
+    {
+      "skill_name": "收集血液",
+      "icon_id": "9014503",
+      "sin_type": "暴怒",
+      "damage_type": "穿刺",
+      "base_value": 3,
+      "coin_power": 987,
+      "coin_count": 2,
+      "attack_level": 55,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[命中时] 使目标增加4级 流血 强度",
+        "[命中时] 吸收目标至多10级 流血 强度并使自身恢复(吸收的 流血 强度×2)%体力(本效果不会使目标的 流血 强度降至1级以下)"
+      ]
+    },
+    {
+      "skill_name": "反击",
+      "icon_id": "9014504",
+      "sin_type": "暴怒",
+      "damage_type": "穿刺",
+      "base_value": 6,
+      "coin_power": 987,
+      "coin_count": 2,
+      "attack_level": 55,
+      "attack_weight": 1,
+      "is_guard": true,
+      "guard_type": "反击",
+      "importance": 0,
+      "coin_effects": [
+        "[使用时] 自身每带有3层 流血 ，使本技能的基础威力+1(最多+2)",
+        "[命中时] 使目标增加2级 流血 强度"
+      ]
+    }
+  ],
+  "is_ally": false,
+  "_structured": true,
+  "appear_stages": [
+    "困难活动战斗6.5-28",
+    "活动战斗6.5-28"
+  ],
+  "enemy_id": "困难活动战斗6.5-28|渴求的血袋乘客|躯干",
+  "defense": 53,
+  "speed": "1~3",
+  "_schema_version": 1
+}

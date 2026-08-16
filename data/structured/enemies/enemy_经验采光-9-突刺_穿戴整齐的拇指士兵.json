@@ -1,0 +1,113 @@
+{
+  "page_type": "enemy",
+  "title": "经验采光-9-突刺",
+  "enemy_name": "穿戴整齐的拇指士兵",
+  "battle_stage": "经验采光-9-突刺",
+  "body_part": "",
+  "hp": 183,
+  "defense_level": 58,
+  "speed_min": 2,
+  "speed_max": 5,
+  "chaos_threshold": "109",
+  "physical_resistances": {
+    "斩击": 0.5,
+    "突刺": 2.0,
+    "打击": 0.75
+  },
+  "sin_resistances": {
+    "暴怒": 1.0,
+    "色欲": 1.0,
+    "怠惰": 1.0,
+    "暴食": 1.0,
+    "忧郁": 1.0,
+    "傲慢": 1.0,
+    "嫉妒": 1.0
+  },
+  "panic_types": [],
+  "passives": [
+    "被动能力展开执行纪律-准备阶段若上回合自身触发了震颤引爆，则下回合使自身获得1层强壮与1层伤害强化执行纪律-下颌碎骨对陷入混乱的敌方单位造成的伤害+10%若上回合使敌方单位陷入混乱，则在下回合，自身的技能拼点胜利后命中时，使目标增加2级震颤强度（每回合最多2次）混乱的纪律若阵亡的友方单位不低于1名，则下回合起使自身获得1层拼点威力提升恐慌状态展开• 名称：纪律• 士气低落：若自身上回合增加的震颤强度不低于2级，则使自身获得1层怠惰伤害强化若自身上回合增加的烧伤强度不低于2级，则使自身获得1层暴怒伤害强化若自身上回合未能施加任何状态，则对自身施加2层防御等级降低• 陷入恐慌：若自身上回合增加的震颤强度不低于2级，则使自身获得2层怠惰伤害强化若自身上回合增加的烧伤强度不低于2级，则使自身获得2层暴怒伤害强化若自身上回合未能施加任何状态，则对自身施加3层防御等级降低理智值展开基础理智值增加条件• 拼点胜利后根据拼点次数按比例增加（增加量：基础值为10，从第二次拼点起，每次拼点增加20%）• 拼点胜利时，增加10基础理智值减少条件• 友方单位阵亡时，不论该友方单位等级，减少10"
+  ],
+  "skills": [
+    {
+      "skill_name": "震荡穿刺",
+      "icon_id": "9021801",
+      "sin_type": "怠惰",
+      "damage_type": "",
+      "base_value": 4,
+      "coin_power": 9703,
+      "coin_count": 3,
+      "attack_level": 58,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[使用时] 目标的 烧伤 与 震颤 强度之和每有7级，使本技能的硬币威力+1(最多+2)",
+        "[命中时] 使目标增加2级 震颤 强度",
+        "[命中时] 对目标施加3层 震颤"
+      ]
+    },
+    {
+      "skill_name": "灼热穿刺",
+      "icon_id": "9021802",
+      "sin_type": "暴怒",
+      "damage_type": "",
+      "base_value": 4,
+      "coin_power": 987,
+      "coin_count": 3,
+      "attack_level": 58,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[使用时] 目标的 烧伤 与 震颤 强度之和每有7级，使本技能的硬币威力+1(最多+2)",
+        "[命中时] 使目标增加2级 烧伤 强度",
+        "[命中时] 对目标施加3层 烧伤"
+      ]
+    },
+    {
+      "skill_name": "推进割裂",
+      "icon_id": "9021803",
+      "sin_type": "",
+      "damage_type": "",
+      "base_value": 5,
+      "coin_power": 987,
+      "coin_count": 5,
+      "attack_level": 58,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[使用时] 目标的 烧伤 与 震颤 强度之和每有7级，使本技能的硬币威力+1(最多+2)",
+        "[命中时] 使目标增加2级 震颤 强度并对其施加2层 震颤",
+        "[命中时] 使目标增加2级 烧伤 强度并对其施加2层 烧伤"
+      ]
+    },
+    {
+      "skill_name": "推进弹再次装填",
+      "icon_id": "9021804",
+      "sin_type": "暴怒",
+      "damage_type": "",
+      "base_value": 10,
+      "coin_power": 987,
+      "coin_count": 1,
+      "attack_level": 0,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": []
+    }
+  ],
+  "is_ally": false,
+  "_structured": true,
+  "appear_stages": [
+    "经验采光-9-突刺"
+  ],
+  "enemy_id": "经验采光-9-突刺|穿戴整齐的拇指士兵|",
+  "defense": 58,
+  "speed": "2~5",
+  "_schema_version": 1
+}

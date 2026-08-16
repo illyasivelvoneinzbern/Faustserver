@@ -1,0 +1,21 @@
+{
+  "id": "gift_9220",
+  "title": "被盗的收尾人杂志",
+  "url": "https://limbuscompany.huijiwiki.com/wiki/E.G.O饰品",
+  "categories": [
+    "E.G.O饰品"
+  ],
+  "content": "回合开始时，使自身获得1层打击威力提升\n若激活嫉妒完全共鸣，则战斗开始时使自身获得1层打击伤害强化\n若属于中指的友方单位不低于4名，则关卡开始时随机对1名敌方单位施加报复对象",
+  "source": "tabx",
+  "_structured": true,
+  "page_type": "ego_gift",
+  "gift_name": "被盗的收尾人杂志",
+  "rarity": 3,
+  "cost": "247",
+  "effect_types": "打击",
+  "attack_type": "嫉妒",
+  "location": "镜像迷宫",
+  "stage": "base",
+  "special": "魅惑、彷徨、猜疑",
+  "_schema_version": 1
+}

@@ -1,0 +1,150 @@
+{
+  "page_type": "enemy",
+  "title": "4-54-3-K公司某处的实验室",
+  "enemy_name": "绽放E.G.O::司田",
+  "battle_stage": "4-54-3-K公司某处的实验室",
+  "body_part": "躯干",
+  "hp": 2052,
+  "defense_level": 34,
+  "speed_min": 2,
+  "speed_max": 4,
+  "chaos_threshold": "",
+  "physical_resistances": {
+    "斩击": 1.0,
+    "突刺": 1.5,
+    "打击": 0.75
+  },
+  "sin_resistances": {
+    "暴怒": 1.0,
+    "色欲": 0.5,
+    "怠惰": 1.0,
+    "暴食": 1.5,
+    "忧郁": 0.75,
+    "傲慢": 1.5,
+    "嫉妒": 0.75
+  },
+  "panic_types": [],
+  "passives": [
+    "向着理想: 现存体力达到体力上限的85%，50%时，生成两株欲望之树且更改技能模式",
+    "背道而驰的代价: 技能丰收时间 失败时，损失5点理智值",
+    "苦笑: 陷入恐慌时，回合开始时获得2层 守护 且理智值恢复为0",
+    "体力耗尽: 使用技能请成为我的养分 3次后，下回合陷入混乱",
+    "固定恐慌: 被施加改变恐慌类型的状态时，自身的恐慌类型不会改变。效果改为对没有理智值的单位施加的效果。"
+  ],
+  "skills": [
+    {
+      "skill_name": "耕作",
+      "icon_id": "805001",
+      "sin_type": "嫉妒",
+      "damage_type": "斩击",
+      "base_value": 3,
+      "coin_power": 5793,
+      "coin_count": 3,
+      "attack_level": 34,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[正面命中时] 下回合对目标施加1层 束缚 与1层 麻痹"
+      ]
+    },
+    {
+      "skill_name": "播种",
+      "icon_id": "805002",
+      "sin_type": "暴食",
+      "damage_type": "斩击",
+      "base_value": 3,
+      "coin_power": 854,
+      "coin_count": 4,
+      "attack_level": 34,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[命中时] 下回合对目标施加1层 束缚",
+        "[命中时] 下回合对目标施加1层 易损",
+        "[命中时] 下回合对目标施加3层 种子"
+      ]
+    },
+    {
+      "skill_name": "助长",
+      "icon_id": "805003",
+      "sin_type": "暴食",
+      "damage_type": "斩击",
+      "base_value": 8,
+      "coin_power": 854,
+      "coin_count": 4,
+      "attack_level": 34,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[命中时] 对目标施加1层 种子 若目标带有 种子 ，则对其额外施加1层 种子"
+      ]
+    },
+    {
+      "skill_name": "过量成长",
+      "icon_id": "805004",
+      "sin_type": "暴食",
+      "damage_type": "穿刺",
+      "base_value": 5,
+      "coin_power": 854,
+      "coin_count": 2,
+      "attack_level": 34,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[命中时] 对目标施加3层 种子 和1层 过量恢复 并使目标恢复15点体力"
+      ]
+    },
+    {
+      "skill_name": "丰收时间",
+      "icon_id": "805005",
+      "sin_type": "傲慢",
+      "damage_type": "穿刺",
+      "base_value": 7,
+      "coin_power": 3,
+      "coin_count": 2,
+      "attack_level": 32,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[命中时] 对目标施加3层 易损 ，使目标增加10级 流血 强度 目标处于 吸收养分 状态时，使自身恢复20点体力并在下回合获得2层 强壮"
+      ]
+    },
+    {
+      "skill_name": "请成为我的养分",
+      "icon_id": "805006",
+      "sin_type": "傲慢",
+      "damage_type": "穿刺",
+      "base_value": 12,
+      "coin_power": 3,
+      "coin_count": 2,
+      "attack_level": 38,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[使用时] 使所有欲望之树恢复15点体力。若没有欲望之树则生成一株",
+        "[命中时] 使自身恢复10点体力并对目标施加3层 种子"
+      ]
+    }
+  ],
+  "is_ally": false,
+  "_structured": true,
+  "appear_stages": [
+    "4-54-3-K公司某处的实验室"
+  ],
+  "enemy_id": "4-54-3-K公司某处的实验室|绽放E.G.O::司田|躯干",
+  "defense": 34,
+  "speed": "2~4",
+  "_schema_version": 1
+}

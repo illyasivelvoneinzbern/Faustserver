@@ -1,0 +1,21 @@
+{
+  "id": "gift_2020",
+  "title": "绝望结",
+  "url": "https://limbuscompany.huijiwiki.com/wiki/E.G.O饰品",
+  "categories": [
+    "E.G.O饰品"
+  ],
+  "content": "嫉妒，暴怒与忧郁技能造成的伤害+10%\n若上述罪孽共鸣数不低于6，则使对应属性技能造成的伤害额外+10%",
+  "source": "tabx",
+  "_structured": true,
+  "page_type": "ego_gift",
+  "gift_name": "绝望结",
+  "rarity": 0,
+  "cost": "0",
+  "effect_types": "",
+  "attack_type": "暴怒",
+  "location": "第五章",
+  "stage": "base",
+  "event": "事件-确认船体底部",
+  "_schema_version": 1
+}

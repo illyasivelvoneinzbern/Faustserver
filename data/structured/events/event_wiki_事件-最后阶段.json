@@ -1,0 +1,75 @@
+{
+  "page_type": "event",
+  "title": "事件-最后阶段",
+  "event_name": "最后阶段",
+  "narration": "喜笑悲哀都是假，\n贪求思慕总因痴。\n在狭窄的走廊里，遇到了另一位候选人的势力成员。\n“虽然也可以在这里战斗，但如果两位候选人都同意的话……”\n“我们可以采用一种别开生面的对决方式。”\n“作出你们的决定吧！”\n\n战斗。\n没必要与能够轻松战胜的对手打赌。\n决定照常与对方战斗。\n触发遭遇战！\n下场战斗胜利后，将获得器物\n×5\n\n打赌。\n持有至少5枚铜钱时可选择\n“看来两位候选人都希望‘打赌’啊？”\n“非常好！那么双方请交出五枚铜钱……”\n“请候选人各派出一位势力成员出列，简述自己的‘候选人’值得成为家主的理由！”\n“驳斥对方的论点，强调自己的观点……观众们会决定胜负。”\n“那么各位候选人！请让对口才有自信的成员出列！”\n【谁的口才最好？】\n李箱\n判定值-3，\n良秀\n判定值-10，\n浮士德\n默尔索\n奥提斯\n判定值+3\n有利判定\n：\n≥16\n不利判定\n：\n≥20\n判定成功\n：\n罪人[X]以惊人的口才压制了对方。\n被驳倒的候选人的势力成员像是陷入混乱一样当场瘫坐在地。\n“恭喜！”\n罪人[X]把掉在地板上的铜钱全都捡了过来。\n获得\n×5！\n所选人格恢复\n15点理智值\n判定失败\n：\n对方以惊人的口才压制了罪人[X]。\n面对一脸困惑的罪人，对手的势力成员准备带着铜钱离开。\n该如何抉择？\n所选人格失去\n15点理智值\n！\n选项一\n选项二\n战斗。\n“实在是明智而出色的判断，执行经理！”\n“呜呜……经理老爷……怎能做出如此恶行……”\n罪人们作出了各自的回应，便向对方的候选人冲去。\n奥提斯\n恢复\n10点理智值\n触发遭遇战！\n下场战斗胜利后，将获得器物\n×5\n就此罢休。\n既然已经一决胜负，就应堂堂正正地接受结果。\n放下铜钱后，我们凄凉地离开了此处。\n失去\n×5\n\n战斗。\n“实在是明智而出色的判断，执行经理！”\n“呜呜……经理老爷……怎能做出如此恶行……”\n罪人们作出了各自的回应，便向对方的候选人冲去。\n奥提斯\n恢复\n10点理智值\n触发遭遇战！\n下场战斗胜利后，将获得器物\n×5\n\n就此罢休。\n既然已经一决胜负，就应堂堂正正地接受结果。\n放下铜钱后，我们凄凉地离开了此处。\n失去\n×5",
+  "options": [
+    {
+      "choice_text": "战斗。",
+      "check_type": "",
+      "check_sin": "",
+      "check_threshold": 0,
+      "success_outcomes": [],
+      "failure_outcomes": []
+    },
+    {
+      "choice_text": "打赌。",
+      "check_type": "有利判定",
+      "check_sin": "色欲",
+      "check_threshold": 16,
+      "success_outcomes": [
+        "获得 ×5！ 所选人格恢复 15点理智值 判定失败 ： 对方以惊人的口才压制了罪人[X]。 面对一脸困惑的罪人",
+        "失去 15点理智值 ！ 选项一 选项二 战斗。 “实在是明智而出色的判断",
+        "获得器物 ×5 就此罢休。 既然已经"
+      ],
+      "failure_outcomes": [
+        "失去 15点理智值 ！ 选项一 选项二 战斗。 “实在是明智而出色的判断",
+        "获得器物 ×5 就此罢休。 既然已经一决胜负",
+        "失去 ×5"
+      ]
+    },
+    {
+      "choice_text": "战斗。",
+      "check_type": "",
+      "check_sin": "",
+      "check_threshold": 0,
+      "success_outcomes": [],
+      "failure_outcomes": []
+    },
+    {
+      "choice_text": "就此罢休。",
+      "check_type": "",
+      "check_sin": "",
+      "check_threshold": 0,
+      "success_outcomes": [],
+      "failure_outcomes": []
+    },
+    {
+      "choice_text": "战斗。",
+      "check_type": "",
+      "check_sin": "",
+      "check_threshold": 0,
+      "success_outcomes": [],
+      "failure_outcomes": []
+    },
+    {
+      "choice_text": "就此罢休。",
+      "check_type": "",
+      "check_sin": "",
+      "check_threshold": 0,
+      "success_outcomes": [],
+      "failure_outcomes": []
+    }
+  ],
+  "ego_gifts": [],
+  "related_abnormalities": [],
+  "trigger_location": "",
+  "_structured": true,
+  "id": "wiki_事件-最后阶段",
+  "url": "https://limbuscompany.huijiwiki.com/wiki/事件-最后阶段",
+  "categories": [
+    "战斗数据"
+  ],
+  "source": "wiki",
+  "_schema_version": 1
+}

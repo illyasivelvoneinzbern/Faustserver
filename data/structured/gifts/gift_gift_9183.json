@@ -1,0 +1,21 @@
+{
+  "id": "gift_9183",
+  "title": "绝缘子",
+  "url": "https://limbuscompany.huijiwiki.com/wiki/E.G.O饰品",
+  "categories": [
+    "E.G.O饰品"
+  ],
+  "content": "回合开始时，若拥有获得充能层数或特殊充能的攻击技能的友方单位不低于5名，则在本场战斗期间触发该效果。(不包括E.G.O技能，不包括待命人员)\n消耗自身的充能层数的技能攻击后，若击杀目标，则使自身获得(该技能消耗的充能层数/3)层充能\n回合开始时，若自身的充能层数低于3层，则使自身获得3层充能。回合开始时，若自身的充能层数不低于3层，则使自身获得1层伤害强化。",
+  "source": "tabx",
+  "_structured": true,
+  "page_type": "ego_gift",
+  "gift_name": "绝缘子",
+  "rarity": 3,
+  "cost": "254",
+  "effect_types": "充能",
+  "attack_type": "色欲",
+  "location": "镜像迷宫",
+  "stage": "base",
+  "special": "困难合成",
+  "_schema_version": 1
+}

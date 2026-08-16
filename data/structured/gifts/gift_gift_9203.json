@@ -1,0 +1,20 @@
+{
+  "id": "gift_9203",
+  "title": "次元知觉变体",
+  "url": "https://limbuscompany.huijiwiki.com/wiki/E.G.O饰品",
+  "categories": [
+    "E.G.O饰品"
+  ],
+  "content": "打击1技能与2技能的攻击等级+(硬币数-1)(最多+2)\n- 拥有丢弃 效果的技能改为攻击等级+(硬币数)(最多+4)\n友方单位通过丢弃技能丢弃了自身的技能时，下回合使其获得1层伤害强化与(被丢弃技能的级别)层攻击等级提升(每回合每名友方单位最多1次，以最高级别计算，最多3层)。",
+  "source": "tabx",
+  "_structured": true,
+  "page_type": "ego_gift",
+  "gift_name": "次元知觉变体",
+  "rarity": 3,
+  "cost": "250",
+  "effect_types": "打击",
+  "attack_type": "怠惰",
+  "location": "镜像迷宫",
+  "stage": "base",
+  "_schema_version": 1
+}

@@ -1,0 +1,156 @@
+{
+  "page_type": "enemy",
+  "title": "主线战斗4-40",
+  "enemy_name": "被破解的K公司再生无人机",
+  "battle_stage": "主线战斗4-40",
+  "body_part": "",
+  "hp": 181,
+  "defense_level": 42,
+  "speed_min": 4,
+  "speed_max": 6,
+  "chaos_threshold": "50",
+  "physical_resistances": {
+    "斩击": 0.5,
+    "突刺": 1.0,
+    "打击": 2.0
+  },
+  "sin_resistances": {
+    "暴怒": 1.0,
+    "色欲": 1.0,
+    "怠惰": 1.0,
+    "暴食": 1.0,
+    "忧郁": 1.0,
+    "傲慢": 1.0,
+    "嫉妒": 1.0
+  },
+  "panic_types": [],
+  "passives": [
+    "机械精神：理智值固定为0.",
+    "注意摇晃：引爆 震颤 对自身造成的混乱阈值前移量+50%。",
+    "注意损伤： 破裂 效果对自身造成的伤害+30%（向下取整）"
+  ],
+  "skills": [
+    {
+      "skill_name": "注射HP安瓿",
+      "icon_id": "9005601",
+      "sin_type": "暴食",
+      "damage_type": "",
+      "base_value": 15,
+      "coin_power": 854,
+      "coin_count": 1,
+      "attack_level": 29,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": []
+    },
+    {
+      "skill_name": "注射防御安瓿",
+      "icon_id": "9005602",
+      "sin_type": "暴食",
+      "damage_type": "",
+      "base_value": 1,
+      "coin_power": 854,
+      "coin_count": 1,
+      "attack_level": 29,
+      "attack_weight": 1,
+      "is_guard": true,
+      "guard_type": "防御",
+      "importance": 0,
+      "coin_effects": []
+    },
+    {
+      "skill_name": "紧急发射崩解安瓿",
+      "icon_id": "9005603",
+      "sin_type": "色欲",
+      "damage_type": "",
+      "base_value": 5,
+      "coin_power": 9,
+      "coin_count": 1,
+      "attack_level": 29,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": []
+    },
+    {
+      "skill_name": "弱点 弱点暴露",
+      "icon_id": "9005704",
+      "sin_type": "色欲",
+      "damage_type": "",
+      "base_value": 3,
+      "coin_power": 9,
+      "coin_count": 4,
+      "attack_level": 29,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": []
+    },
+    {
+      "skill_name": "请继续战斗。",
+      "icon_id": "9005603",
+      "sin_type": "色欲",
+      "damage_type": "",
+      "base_value": 3,
+      "coin_power": 9,
+      "coin_count": 2,
+      "attack_level": 29,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[命中时] 下回合使目标获得2层 伤害强化"
+      ]
+    },
+    {
+      "skill_name": "请不要爱惜身体。",
+      "icon_id": "9005704",
+      "sin_type": "色欲",
+      "damage_type": "",
+      "base_value": 3,
+      "coin_power": 9,
+      "coin_count": 2,
+      "attack_level": 29,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[命中时] 下回合使目标获得2层 强壮",
+        "[命中时] 下回合对目标施加2层 易损"
+      ]
+    },
+    {
+      "skill_name": "撤退。",
+      "icon_id": "9005705",
+      "sin_type": "常规",
+      "damage_type": "",
+      "base_value": 8,
+      "coin_power": 79,
+      "coin_count": 1,
+      "attack_level": 0,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": []
+    }
+  ],
+  "is_ally": false,
+  "_structured": true,
+  "appear_stages": [
+    "主线战斗4-40",
+    "主线战斗4-41",
+    "主线战斗4-44",
+    "主线战斗4-46"
+  ],
+  "enemy_id": "主线战斗4-40|被破解的K公司再生无人机|",
+  "defense": 42,
+  "speed": "4~6",
+  "_schema_version": 1
+}

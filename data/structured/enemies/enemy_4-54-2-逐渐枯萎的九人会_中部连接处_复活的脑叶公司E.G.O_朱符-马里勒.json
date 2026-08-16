@@ -1,0 +1,158 @@
+{
+  "page_type": "enemy",
+  "title": "4-54-2-逐渐枯萎的九人会 中部连接处",
+  "enemy_name": "复活的脑叶公司E.G.O::朱符-马里勒",
+  "battle_stage": "4-54-2-逐渐枯萎的九人会 中部连接处",
+  "body_part": "",
+  "hp": 289,
+  "defense_level": 32,
+  "speed_min": 3,
+  "speed_max": 5,
+  "chaos_threshold": "10",
+  "physical_resistances": {
+    "斩击": 0.5,
+    "突刺": 1.0,
+    "打击": 2.0
+  },
+  "sin_resistances": {
+    "暴怒": 0.6,
+    "色欲": 1.0,
+    "怠惰": 1.0,
+    "暴食": 1.0,
+    "忧郁": 1.2,
+    "傲慢": 1.0,
+    "嫉妒": 1.0
+  },
+  "panic_types": [],
+  "passives": [
+    "绞缠的咒符：根据本回合内拼点次数，获得相应层数的 纠缠的咒符",
+    "捆缚的咒符：当带有10层 纠缠的咒符 时，消耗所有层数并使自身混乱阈值前移10",
+    "倍增的咒符：体力不高于30%时，施加的 复贴的咒符 层数额外+1",
+    "侵蚀的咒符：体力不高于30%时，攻击结束后若目标的 复贴的咒符 层数不低于5层，则下回合对目标施加2层 麻痹",
+    "流淌的忧郁：反面命中时，使目标增加2级 沉沦 强度",
+    "溢出的哀伤：回合结束时，自身失去5点理智值"
+  ],
+  "skills": [
+    {
+      "skill_name": "束缚诅咒",
+      "icon_id": "9100901",
+      "sin_type": "色欲",
+      "damage_type": "",
+      "base_value": 4,
+      "coin_power": 9,
+      "coin_count": 2,
+      "attack_level": 37,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[命中时] 下回合对目标施加2层 束缚"
+      ]
+    },
+    {
+      "skill_name": "打击诅咒",
+      "icon_id": "9100901",
+      "sin_type": "色欲",
+      "damage_type": "",
+      "base_value": 5,
+      "coin_power": 9,
+      "coin_count": 2,
+      "attack_level": 37,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": []
+    },
+    {
+      "skill_name": "增殖护符",
+      "icon_id": "9100903",
+      "sin_type": "忧郁",
+      "damage_type": "",
+      "base_value": 6,
+      "coin_power": 3,
+      "coin_count": 2,
+      "attack_level": 37,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": []
+    },
+    {
+      "skill_name": "麻痹诅咒",
+      "icon_id": "9100903",
+      "sin_type": "忧郁",
+      "damage_type": "",
+      "base_value": 5,
+      "coin_power": 3,
+      "coin_count": 3,
+      "attack_level": 37,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": []
+    },
+    {
+      "skill_name": "束缚咒符",
+      "icon_id": "9100905",
+      "sin_type": "色欲",
+      "damage_type": "",
+      "base_value": 5,
+      "coin_power": 9,
+      "coin_count": 2,
+      "attack_level": 37,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[命中时] 对目标施加5层 复贴的咒符"
+      ]
+    },
+    {
+      "skill_name": "泯灭咒符",
+      "icon_id": "9100906",
+      "sin_type": "嫉妒",
+      "damage_type": "",
+      "base_value": 5,
+      "coin_power": 5793,
+      "coin_count": 3,
+      "attack_level": 37,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[命中时] 对目标施加2层 复贴的咒符",
+        "[反面命中时] 若目标带有的 复贴的咒符 层数不低于9层，则对其施加5层 麻痹 对目标追加本硬币伤害量50%的固定伤害"
+      ]
+    },
+    {
+      "skill_name": "蔓延咒符",
+      "icon_id": "9100907",
+      "sin_type": "常规",
+      "damage_type": "",
+      "base_value": 6,
+      "coin_power": 79,
+      "coin_count": 1,
+      "attack_level": 0,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": []
+    }
+  ],
+  "is_ally": false,
+  "_structured": true,
+  "appear_stages": [
+    "4-54-2-逐渐枯萎的九人会 中部连接处"
+  ],
+  "enemy_id": "4-54-2-逐渐枯萎的九人会 中部连接处|复活的脑叶公司E.G.O::朱符-马里勒|",
+  "defense": 32,
+  "speed": "3~5",
+  "_schema_version": 1
+}

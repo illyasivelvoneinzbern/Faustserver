@@ -1,0 +1,176 @@
+{
+  "page_type": "enemy",
+  "title": "主线战斗5-36-1-6",
+  "enemy_name": "？？？",
+  "battle_stage": "主线战斗5-36-1-6",
+  "body_part": "躯干",
+  "hp": 885,
+  "defense_level": 39,
+  "speed_min": 1,
+  "speed_max": 2,
+  "chaos_threshold": "443/0/-443",
+  "physical_resistances": {
+    "斩击": 1.0,
+    "突刺": 1.0,
+    "打击": 2.0
+  },
+  "sin_resistances": {
+    "暴怒": 1.0,
+    "色欲": 1.0,
+    "怠惰": 1.0,
+    "暴食": 1.0,
+    "忧郁": 1.0,
+    "傲慢": 1.0,
+    "嫉妒": 1.0
+  },
+  "panic_types": [
+    "苍白恐慌",
+    "呼吸法",
+    "猎物标记"
+  ],
+  "passives": [],
+  "skills": [
+    {
+      "skill_name": "狩猎开始",
+      "icon_id": "810301",
+      "sin_type": "嫉妒",
+      "damage_type": "",
+      "base_value": 4,
+      "coin_power": 5793,
+      "coin_count": 2,
+      "attack_level": 36,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[使用时] 下回合对目标施加 猎物标记",
+        "[命中时] 使目标增加4级 流血 强度"
+      ]
+    },
+    {
+      "skill_name": "鱼叉",
+      "icon_id": "810302",
+      "sin_type": "嫉妒",
+      "damage_type": "",
+      "base_value": 4,
+      "coin_power": 5793,
+      "coin_count": 2,
+      "attack_level": 39,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[命中时] 使目标增加4级 流血 强度"
+      ]
+    },
+    {
+      "skill_name": "穿刺鱼叉",
+      "icon_id": "810303",
+      "sin_type": "嫉妒",
+      "damage_type": "",
+      "base_value": 4,
+      "coin_power": 5793,
+      "coin_count": 3,
+      "attack_level": 39,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": []
+    },
+    {
+      "skill_name": "深呼吸",
+      "icon_id": "810304",
+      "sin_type": "傲慢",
+      "damage_type": "",
+      "base_value": 4,
+      "coin_power": 3,
+      "coin_count": 2,
+      "attack_level": 36,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": []
+    },
+    {
+      "skill_name": "反击",
+      "icon_id": "810305",
+      "sin_type": "傲慢",
+      "damage_type": "",
+      "base_value": 3,
+      "coin_power": 3,
+      "coin_count": 2,
+      "attack_level": 42,
+      "attack_weight": 1,
+      "is_guard": true,
+      "guard_type": "反击",
+      "importance": 0,
+      "coin_effects": [
+        "[命中时] 对目标施加2层 流血"
+      ]
+    },
+    {
+      "skill_name": "追踪猎物",
+      "icon_id": "810306",
+      "sin_type": "嫉妒",
+      "damage_type": "",
+      "base_value": 3,
+      "coin_power": 5793,
+      "coin_count": 4,
+      "attack_level": 42,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[命中时] 使目标增加1级 流血 强度",
+        "[命中时] 使目标增加5级 流血 强度"
+      ]
+    },
+    {
+      "skill_name": "割喉",
+      "icon_id": "810307",
+      "sin_type": "暴怒",
+      "damage_type": "",
+      "base_value": 13,
+      "coin_power": 987,
+      "coin_count": 2,
+      "attack_level": 42,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[使用时] 若自身未带有 呼吸法 ，则使自身在回合结束时陷入混乱 暴击时造成的伤害+50%",
+        "[命中时] 下回合使目标陷入混乱"
+      ]
+    },
+    {
+      "skill_name": "深呼吸",
+      "icon_id": "810308",
+      "sin_type": "傲慢",
+      "damage_type": "",
+      "base_value": 8,
+      "coin_power": 3,
+      "coin_count": 1,
+      "attack_level": 0,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": []
+    }
+  ],
+  "is_ally": false,
+  "_structured": true,
+  "appear_stages": [
+    "主线战斗5-36-1-6"
+  ],
+  "enemy_id": "主线战斗5-36-1-6|？？？|躯干",
+  "defense": 39,
+  "speed": "1~2",
+  "_schema_version": 1
+}

@@ -1,0 +1,42 @@
+{
+  "page_type": "event",
+  "title": "事件-受缚之王",
+  "event_name": "受缚之王",
+  "narration": "它被绑缚在华丽的椅子上。\n似乎正严肃地看着我们。\n虽然它看起来想要说些什么，但它的嘴被绑住了。\n坐在椅子上的王扭动身子试图向我们靠近……却立刻被绑住它的东西拉了回去。\n美丽却残忍的红，无情地拉扯着它。这是……\n\n这是绷带。\n【应该让谁去呢？】\n有利判定\n：\n/\n≥15\n不利判定\n：\n≥30\n判定成功\n：\n为了治疗某人而做的绷带。\n但是这个人的绷带被解开的话，他就会流出所有的血死去。\n为了像之前一样继续塑造自己的形态，就必须被束缚起来。\n获得E.G.O饰品\n盛情款待\n！\n判定失败\n：\n一直绑着绷带的伤口，没有愈合的迹象，只会继续腐烂。\n那不是在治疗伤口，只是在隐藏丑陋。\n技能组不包含\n傲慢属性攻击技能\n的友方单位失去\n20点体力\n及\n20点理智值\n！\n\n这是枷锁。\n【应该让谁去呢？】\n有利判定\n：\n/\n≥13\n不利判定\n：\n≥26\n判定成功\n：\n为了拘束某人而制造的锁链。\n这个人以后会为了摆脱这个链条而不断挣扎。\n为了找回自己的权威。为了吐出那些没说完的话。\n编队中的所有人格提升3级\n判定失败\n：\n那东西最后扭动了一次身体，很快就再也不动了。\n不知道是不是因为将其定义为了锁链，没有人知道它是否真的是锁链。\n什么也没有发生",
+  "options": [
+    {
+      "choice_text": "这是绷带。",
+      "check_type": "有利判定",
+      "check_sin": "傲慢",
+      "check_threshold": 15,
+      "success_outcomes": [
+        "获得E.G.O饰品 盛情款待 ！ 判定失败 ： 一直绑着绷带的伤口",
+        "失去 20点体力 及 20点理智值 ！"
+      ],
+      "failure_outcomes": [
+        "失去 20点体力 及 20点理智值 ！"
+      ]
+    },
+    {
+      "choice_text": "这是枷锁。",
+      "check_type": "有利判定",
+      "check_sin": "傲慢",
+      "check_threshold": 13,
+      "success_outcomes": [],
+      "failure_outcomes": []
+    }
+  ],
+  "ego_gifts": [],
+  "related_abnormalities": [
+    "WAWLCE评级WAW-07O-01-20-12受缚之王",
+    "事件触发地点",
+    "镜像迷宫"
+  ],
+  "trigger_location": "",
+  "_structured": true,
+  "id": "wiki_事件-受缚之王",
+  "url": "https://limbuscompany.huijiwiki.com/wiki/事件-受缚之王",
+  "categories": [],
+  "source": "wiki",
+  "_schema_version": 1
+}

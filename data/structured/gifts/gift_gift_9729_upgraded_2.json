@@ -1,0 +1,21 @@
+{
+  "id": "gift_9729_upgraded_2",
+  "title": "怀表：Type E",
+  "url": "https://limbuscompany.huijiwiki.com/wiki/E.G.O饰品",
+  "categories": [
+    "E.G.O饰品"
+  ],
+  "content": "增加震颤强度，施加震颤层数或施加特殊震颤的友方单位与速度值低于自身至少2点的敌方单位拼点时，使该友方单位造成的伤害+(目标的震颤强度)%(最多+25%)，造成伤害时对目标施加2层防御等级降低(最多6层)。\n回合开始时，使速度值最高的1名敌方单位增加(12-当前速度值)级震颤强度(最少6级)并对其施加层数相当于该数值一半的震颤(向上取整，若是异想体，则改为1个部位，每个波次最多1次)。",
+  "source": "tabx",
+  "_structured": true,
+  "page_type": "ego_gift",
+  "gift_name": "怀表：Type E",
+  "rarity": 4,
+  "cost": "400",
+  "effect_types": "震颤",
+  "attack_type": "怠惰",
+  "location": "镜像迷宫",
+  "stage": "upgraded_2",
+  "special": "时间杀人时间合成",
+  "_schema_version": 1
+}

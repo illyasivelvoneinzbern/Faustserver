@@ -1,0 +1,21 @@
+{
+  "id": "gift_9124",
+  "title": "庄严",
+  "url": "https://limbuscompany.huijiwiki.com/wiki/E.G.O饰品",
+  "categories": [
+    "E.G.O饰品"
+  ],
+  "content": "[第1、第2顺位友方单位专属]\n若目标的沉沦强度与层数之和不低于10，对目标使用增加沉沦强度，施加沉沦层数或施加特殊沉沦的攻击技能造成伤害时，自身攻击结束后使目标增加2级沉沦强度并对其施加2层沉沦(每回合每名友方单位最多2次)。\n若是集中遭遇战，则改为增加4级沉沦强度并施加2层沉沦(每回合每名友方单位最多1次)。",
+  "source": "tabx",
+  "_structured": true,
+  "page_type": "ego_gift",
+  "gift_name": "庄严",
+  "rarity": 2,
+  "cost": "215",
+  "effect_types": "沉沦",
+  "attack_type": "色欲",
+  "location": "镜像迷宫",
+  "stage": "base",
+  "event": "事件-无我入定",
+  "_schema_version": 1
+}

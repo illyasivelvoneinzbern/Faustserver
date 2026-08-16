@@ -1,0 +1,78 @@
+{
+  "page_type": "enemy",
+  "title": "主线战斗6-44",
+  "enemy_name": "敏锐的死兔帮成员",
+  "battle_stage": "主线战斗6-44",
+  "body_part": "躯干",
+  "hp": 55,
+  "defense_level": 37,
+  "speed_min": 2,
+  "speed_max": 4,
+  "chaos_threshold": "",
+  "physical_resistances": {
+    "斩击": 1.0,
+    "突刺": 1.0,
+    "打击": 1.0
+  },
+  "sin_resistances": {
+    "暴怒": 1.2,
+    "色欲": 1.2,
+    "怠惰": 1.0,
+    "暴食": 1.0,
+    "忧郁": 1.5,
+    "傲慢": 1.0,
+    "嫉妒": 1.5
+  },
+  "panic_types": [
+    "分裂"
+  ],
+  "passives": [],
+  "skills": [
+    {
+      "skill_name": "让…开",
+      "icon_id": "9011901",
+      "sin_type": "暴怒",
+      "damage_type": "打击",
+      "base_value": 4,
+      "coin_power": 987,
+      "coin_count": 2,
+      "attack_level": 50,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[命中时] 对目标施加3层 破裂"
+      ]
+    },
+    {
+      "skill_name": "别…挡道",
+      "icon_id": "9011902",
+      "sin_type": "暴怒",
+      "damage_type": "突刺",
+      "base_value": 4,
+      "coin_power": 987,
+      "coin_count": 3,
+      "attack_level": 50,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[使用时] 若目标的 破裂 层数不低于3层，则使本技能基础威力+1",
+        "[命中时] 对目标施加2层 攻击等级降低",
+        "[命中时] 对目标施加3层 破裂",
+        "[命中时] 使目标增加6级 破裂 强度"
+      ]
+    }
+  ],
+  "is_ally": false,
+  "_structured": true,
+  "appear_stages": [
+    "主线战斗6-44"
+  ],
+  "enemy_id": "主线战斗6-44|敏锐的死兔帮成员|躯干",
+  "defense": 37,
+  "speed": "2~4",
+  "_schema_version": 1
+}

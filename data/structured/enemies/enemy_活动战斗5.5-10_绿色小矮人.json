@@ -1,0 +1,98 @@
+{
+  "page_type": "enemy",
+  "title": "活动战斗5.5-10",
+  "enemy_name": "绿色小矮人",
+  "battle_stage": "活动战斗5.5-10",
+  "body_part": "",
+  "hp": 100,
+  "defense_level": 40,
+  "speed_min": 1,
+  "speed_max": 4,
+  "chaos_threshold": "",
+  "physical_resistances": {
+    "斩击": 1.0,
+    "突刺": 1.5,
+    "打击": 1.0
+  },
+  "sin_resistances": {
+    "暴怒": 1.5,
+    "色欲": 1.0,
+    "怠惰": 0.75,
+    "暴食": 1.5,
+    "忧郁": 0.75,
+    "傲慢": 1.0,
+    "嫉妒": 1.0
+  },
+  "panic_types": [
+    "愤怒",
+    "伤害强化",
+    "易损",
+    "愤怒",
+    "伤害强化",
+    "易损"
+  ],
+  "passives": [
+    "新鲜的人类诺姆：每有1名敌方单位存活，使自身的正面概率增加2%。（最多95%）",
+    "是我的那份诺姆：回合结束时，若存活的友方单位少于存活的敌方单位，下回合使自身获得1层 迅捷 本回合内速度值+{0} 与1层 强壮 本回合内攻击技能的最终威力+{0} 。"
+  ],
+  "skills": [
+    {
+      "skill_name": "是人类诺姆",
+      "icon_id": "9010101",
+      "sin_type": "暴食",
+      "damage_type": "",
+      "base_value": 0,
+      "coin_power": 2,
+      "coin_count": 3,
+      "attack_level": 42,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "coin_effects": [
+        "[命中时] 使自身增加4级 呼吸法 下{1}次攻击命中时有{0}x5%的概率产生暴击。 强度",
+        "[命中时] 使自身增加3级 呼吸法 下{1}次攻击命中时有{0}x5%的概率产生暴击。 强度",
+        "[正面命中时] 使自身获得1层 呼吸法 下{1}次攻击命中时有{0}x5%的概率产生暴击。"
+      ]
+    },
+    {
+      "skill_name": "抓住他们诺姆",
+      "icon_id": "9010102",
+      "sin_type": "怠惰",
+      "damage_type": "",
+      "base_value": 0,
+      "coin_power": 7,
+      "coin_count": 2,
+      "attack_level": 42,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "coin_effects": [
+        "[命中时] 使自身增加4级 呼吸法 下{1}次攻击命中时有{0}x5%的概率产生暴击。 强度",
+        "[正面命中时] 使自身获得1层 呼吸法 下{1}次攻击命中时有{0}x5%的概率产生暴击。 使本硬币暴击时造成的伤害+40%"
+      ]
+    },
+    {
+      "skill_name": "诺姆诺姆！！",
+      "icon_id": "9010103",
+      "sin_type": "暴怒",
+      "damage_type": "",
+      "base_value": 0,
+      "coin_power": 3,
+      "coin_count": 3,
+      "attack_level": 42,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "coin_effects": [
+        "[命中时] 使自身增加3级 呼吸法 下{1}次攻击命中时有{0}x5%的概率产生暴击。 强度 使本硬币暴击时造成的伤害+30%",
+        "[命中时] 使自身获得2层 呼吸法 下{1}次攻击命中时有{0}x5%的概率产生暴击。"
+      ]
+    }
+  ],
+  "is_ally": false,
+  "_structured": true,
+  "enemy_id": "活动战斗5.5-10|绿色小矮人",
+  "defense": 40,
+  "speed": "1~4",
+  "_schema_version": 1
+}

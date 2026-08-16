@@ -1,0 +1,235 @@
+{
+  "page_type": "enemy",
+  "title": "折射轨道2号线复刻-第6站",
+  "enemy_name": "折射的电击蜈蚣",
+  "battle_stage": "折射轨道2号线复刻-第6站",
+  "body_part": "",
+  "hp": 1626,
+  "defense_level": 60,
+  "speed_min": 2,
+  "speed_max": 5,
+  "chaos_threshold": "0",
+  "physical_resistances": {
+    "斩击": 0.5,
+    "突刺": 1.5,
+    "打击": 1.0
+  },
+  "sin_resistances": {
+    "暴怒": 0.75,
+    "色欲": 1.0,
+    "怠惰": 1.5,
+    "暴食": 1.0,
+    "忧郁": 1.5,
+    "傲慢": 1.0,
+    "嫉妒": 0.5
+  },
+  "panic_types": [],
+  "passives": [
+    "鲜活的神经: 本单位垂死时，取消本回合的所有技能。 触发以上效果时，使自身获得10层 自体发电",
+    "自体发电: 首个回合开始时，使自身获得3层 自体发电 每当巡回数增加时，相应使自身额外获得1层 自体发电 (最多8层)",
+    "折射的充能: 攻击命中时，若目标带有 充能 ，则使目标失去1层 充能 并使自身获得1层 自体发电 (每回合最多3次，包括特殊充能，不包括固定强度的特殊充能)",
+    "折射的挣扎: 若与同一目标拼点不低于10次，则拼点判定时随机使自身的拼点威力增加或减少(拼点次数/10)。(向下取整)",
+    "折射的流血与震颤: 流血 和 震颤 强度最多累积到30级 流血 和 震颤 层数最多累积到5层",
+    "衰退的生命力: 使用防御技能后若消耗了全部护盾，则下回合对所有部位施加3层 攻击等级降低 与3层 易损",
+    "坚硬的甲壳: 无恐慌类型数据"
+  ],
+  "skills": [
+    {
+      "skill_name": "撕咬",
+      "icon_id": "804501",
+      "sin_type": "忧郁",
+      "damage_type": "突刺",
+      "base_value": 7,
+      "coin_power": 3,
+      "coin_count": 2,
+      "attack_level": 57,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[使用时] 若自身的 自体发电 层数不低于5层，则使本技能的基础威力+2",
+        "[命中时] 使目标增加3级 流血 强度并对其施加2层 流血"
+      ]
+    },
+    {
+      "skill_name": "尾针突刺",
+      "icon_id": "804502",
+      "sin_type": "忧郁",
+      "damage_type": "突刺",
+      "base_value": 4,
+      "coin_power": 3,
+      "coin_count": 3,
+      "attack_level": 57,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[使用时] 若自身的 自体发电 层数不低于5层，则使本技能的硬币威力+1",
+        "[命中时] 使目标增加3级 流血 强度并对其施加2层 流血",
+        "[命中时] 下回合对目标施加2层 束缚"
+      ]
+    },
+    {
+      "skill_name": "紧紧蜷缩",
+      "icon_id": "804503",
+      "sin_type": "忧郁",
+      "damage_type": "打击",
+      "base_value": 7,
+      "coin_power": 3,
+      "coin_count": 3,
+      "attack_level": 57,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[使用时] 若自身的 自体发电 层数不低于5层，则使本技能的基础威力+2",
+        "[命中时] 对目标施加2层 易损"
+      ]
+    },
+    {
+      "skill_name": "电流注入",
+      "icon_id": "804504",
+      "sin_type": "暴食",
+      "damage_type": "突刺",
+      "base_value": 4,
+      "coin_power": 854,
+      "coin_count": 3,
+      "attack_level": 57,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[使用时] 若自身的 自体发电 层数不低于5层，则使本技能的硬币威力+1 若目标带有 麻痹 ，则使本技能造成的伤害+30%",
+        "[命中时] 使目标增加6级 流血 强度",
+        "[命中时] 对目标施加3层 麻痹"
+      ]
+    },
+    {
+      "skill_name": "电力释出",
+      "icon_id": "804505",
+      "sin_type": "暴食",
+      "damage_type": "突刺",
+      "base_value": 4,
+      "coin_power": 854,
+      "coin_count": 4,
+      "attack_level": 57,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[使用时] 若自身的 自体发电 层数不低于5层，则使本技能的硬币威力+1 若目标带有 麻痹 ，则使本技能造成的伤害+30%",
+        "[命中时] 使目标增加3级 流血 强度",
+        "[命中时] 对目标施加3层 麻痹"
+      ]
+    },
+    {
+      "skill_name": "电力释放",
+      "icon_id": "804506",
+      "sin_type": "嫉妒",
+      "damage_type": "打击",
+      "base_value": 5,
+      "coin_power": 5793,
+      "coin_count": 3,
+      "attack_level": 57,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[命中时] 对目标施加2层 易损",
+        "[命中时] 对目标施加5层 麻痹"
+      ]
+    },
+    {
+      "skill_name": "超高压电力释放",
+      "icon_id": "804507",
+      "sin_type": "嫉妒",
+      "damage_type": "打击",
+      "base_value": 5,
+      "coin_power": 5793,
+      "coin_count": 5,
+      "attack_level": 57,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[使用时] 若自身的 自体发电 层数高于7层，则每有1层超过7层的 自体发电 ，使本技能造成的伤害+10%(最多+120%)",
+        "[使用时] 消耗自身所有 自体发电 ，若消耗的 自体发电 层数不低于10层，则使本技能的拼点威力+5",
+        "[命中时] 若目标带有 蓄能 ，则对其造成本硬币最终伤害量40%的固定伤害"
+      ]
+    },
+    {
+      "skill_name": "盘绕",
+      "icon_id": "804508",
+      "sin_type": "常规",
+      "damage_type": "守备",
+      "base_value": 1,
+      "coin_power": 79,
+      "coin_count": 1,
+      "attack_level": 0,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "回合开始时使头部获得相当于其现存体力的护盾",
+        "回合结束时若头部带有护盾，下回合使自身获得10层自体发电"
+      ]
+    },
+    {
+      "skill_name": "蠕动的头",
+      "icon_id": "804509",
+      "sin_type": "嫉妒",
+      "damage_type": "突刺",
+      "base_value": 6,
+      "coin_power": 5793,
+      "coin_count": 3,
+      "attack_level": 57,
+      "attack_weight": 1,
+      "is_guard": true,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[使用时] 消耗1层 自体发电",
+        "[使用时] 若目标装备了守备技能，则消耗2层 自体发电",
+        "[命中时] 使目标增加3级 流血 强度",
+        "[命中时] 对目标施加3层 麻痹"
+      ]
+    },
+    {
+      "skill_name": "蠕动的尾",
+      "icon_id": "804510",
+      "sin_type": "嫉妒",
+      "damage_type": "突刺",
+      "base_value": 8,
+      "coin_power": 5793,
+      "coin_count": 4,
+      "attack_level": 57,
+      "attack_weight": 1,
+      "is_guard": true,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[使用时] 消耗1层 自体发电",
+        "[使用时] 若目标装备了守备技能，则消耗2层 自体发电",
+        "[命中时] 使目标增加2级 流血 强度",
+        "[命中时] 对目标施加3层 麻痹"
+      ]
+    }
+  ],
+  "is_ally": false,
+  "_structured": true,
+  "appear_stages": [
+    "折射轨道2号线复刻-第6站"
+  ],
+  "enemy_id": "折射轨道2号线复刻-第6站|折射的电击蜈蚣|",
+  "defense": 60,
+  "speed": "2~5",
+  "_schema_version": 1
+}

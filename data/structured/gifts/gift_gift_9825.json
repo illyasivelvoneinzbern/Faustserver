@@ -1,0 +1,21 @@
+{
+  "id": "gift_9825",
+  "title": "切磋琢磨",
+  "url": "https://limbuscompany.huijiwiki.com/wiki/E.G.O饰品",
+  "categories": [
+    "E.G.O饰品"
+  ],
+  "content": "[第6顺位友方单位专属]\n使用增加破裂强度或施加破裂层数的攻击技能(包括E.G.O技能)拼点胜利时，使自身恢复20点体力并在下回合获得3层攻击等级提升与3层防御等级提升(每回合最多1次)\n- 若自身属于家主候选人，则下回合额外使包括自身在内的全体友方单位获得1层迅捷，1层守护与3层攻击等级提升",
+  "source": "tabx",
+  "_structured": true,
+  "page_type": "ego_gift",
+  "gift_name": "切磋琢磨",
+  "rarity": 4,
+  "cost": "399",
+  "effect_types": "破裂",
+  "attack_type": "忧郁",
+  "location": "镜像迷宫",
+  "stage": "base",
+  "special": "切磋琢春合成",
+  "_schema_version": 1
+}

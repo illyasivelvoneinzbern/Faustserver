@@ -1,0 +1,38 @@
+{
+  "page_type": "event",
+  "title": "事件-似曾相识的音响",
+  "event_name": "似曾相识的音响",
+  "narration": "一群和我们在大湖那时见到的着装相同的中指成员堵住了前方的道路，似乎在寻找着什么人。\n直接走过去可能会被抓住。\n环顾四周，发现离他们稍远的地方放着一个孤零零的音响。\n每次中指出场时，传来的音乐声的源头就是那个音响吗？\n如果把它移到其他地方并播放的话，说不定就能引开这些守着巷子的中指成员。\n\n拿走音响。\n【让哪位罪人上前？】\n中指 判定值+7\n有利判定\n：\n/\n/\n≥14\n不利判定\n：\n≥28\n判定成功\n：\n罪人[X]悄悄拿起了音响。\n将拿来的音响放在另一条小巷里播放后，吵闹的电子音乐从中传出。\n周围对那声音有所反应的中指成员们接近过来，想要找到音响。\n<刚刚的小巷子现在应该没有人了，快走吧。>\n我们暂停了音乐，悄悄地回到原本的路上。\n原本堵在路前的成员们已经离开，我们顺利通过了道路。\n获得\n！\n判定失败\n：\n罪人[X]刚一拿起音响，吵闹的电子音乐就从中传出。\n守着路的成员们向我们蜂拥而来。\n触发遭遇战！\n下场战斗胜利后，将获得\n！\n\n寻找其他道路。\n没有非得穿过他们挡住的道路的理由。\n我们小心翼翼地改变了方向，走上另一条路。\n什么都没有发生。",
+  "options": [
+    {
+      "choice_text": "拿走音响。",
+      "check_type": "有利判定",
+      "check_sin": "暴食",
+      "check_threshold": 14,
+      "success_outcomes": [
+        "获得 ！ 判定失败 ： 罪人[X]刚一拿起音响",
+        "获得 ！"
+      ],
+      "failure_outcomes": [
+        "获得 ！"
+      ]
+    },
+    {
+      "choice_text": "寻找其他道路。",
+      "check_type": "",
+      "check_sin": "",
+      "check_threshold": 0,
+      "success_outcomes": [],
+      "failure_outcomes": []
+    }
+  ],
+  "ego_gifts": [],
+  "related_abnormalities": [],
+  "trigger_location": "",
+  "_structured": true,
+  "id": "wiki_事件-似曾相识的音响",
+  "url": "https://limbuscompany.huijiwiki.com/wiki/事件-似曾相识的音响",
+  "categories": [],
+  "source": "wiki",
+  "_schema_version": 1
+}

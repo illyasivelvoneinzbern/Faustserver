@@ -1,0 +1,41 @@
+{
+  "page_type": "event",
+  "title": "事件-进入前",
+  "event_name": "进入前",
+  "narration": "我们走进了像是T公司小巷一样的心象迷宫里。\n在行色匆匆的人流间，并未褪色的自动贩卖机就在不远处。\n也许是因为街道上的颜色都被夺走了吧？\n它周围散发的光似乎更加强烈地射入了内心。\n跟着光芒走去，我们来到了自动贩卖机前。\n再次环顾四周，周围的行人们似乎并没有察觉到异样。\n自动贩卖机上排列着许多按钮。\n该如何抉择？\n\n按下最上面一排的其中一个按钮。\n随着咣当一声，我们拿起了从自动贩卖机里掉出来的E.G.O饰品。\n时间杀人时间的真相触手可及。\n虽然不知道事件会如何结束，\n但我们决定追从那耀眼的光的引导，继续前进。\n获得\n！\n\n按下中间一排的其中一个按钮。\n随着咣当一声，我们拿起了从自动贩卖机里掉出来的E.G.O饰品。\n时间杀人时间的真相触手可及。\n虽然不知道事件会如何结束，\n但我们决定追从那耀眼的光的引导，继续前进。\n获得\n！\n\n按下最下面一排的其中一个按钮。\n随着咣当一声，我们拿起了从自动贩卖机里掉出来的E.G.O饰品。\n时间杀人时间的真相触手可及。\n虽然不知道事件会如何结束，\n但我们决定追从那耀眼的光的引导，继续前进。\n获得\n！",
+  "options": [
+    {
+      "choice_text": "按下最上面一排的其中一个按钮。",
+      "check_type": "",
+      "check_sin": "",
+      "check_threshold": 0,
+      "success_outcomes": [],
+      "failure_outcomes": []
+    },
+    {
+      "choice_text": "按下中间一排的其中一个按钮。",
+      "check_type": "",
+      "check_sin": "",
+      "check_threshold": 0,
+      "success_outcomes": [],
+      "failure_outcomes": []
+    },
+    {
+      "choice_text": "按下最下面一排的其中一个按钮。",
+      "check_type": "",
+      "check_sin": "",
+      "check_threshold": 0,
+      "success_outcomes": [],
+      "failure_outcomes": []
+    }
+  ],
+  "ego_gifts": [],
+  "related_abnormalities": [],
+  "trigger_location": "",
+  "_structured": true,
+  "id": "wiki_事件-进入前",
+  "url": "https://limbuscompany.huijiwiki.com/wiki/事件-进入前",
+  "categories": [],
+  "source": "wiki",
+  "_schema_version": 1
+}

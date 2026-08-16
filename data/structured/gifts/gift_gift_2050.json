@@ -1,0 +1,21 @@
+{
+  "id": "gift_2050",
+  "title": "胜利之证",
+  "url": "https://limbuscompany.huijiwiki.com/wiki/E.G.O饰品",
+  "categories": [
+    "E.G.O饰品"
+  ],
+  "content": "通过技能伤害击杀敌方单位时，使理智值最低的1名友方单位恢复8点理智值。\n攻击结束后，若有流血，特殊流血与破裂之和不低于10点的敌方单位阵亡，则下回合使击杀该敌方单位的单位获得2层攻击等级提升(每回合最多3次)",
+  "source": "tabx",
+  "_structured": true,
+  "page_type": "ego_gift",
+  "gift_name": "胜利之证",
+  "rarity": 1,
+  "cost": "0",
+  "effect_types": "",
+  "attack_type": "暴怒",
+  "location": "第七章",
+  "stage": "base",
+  "event": "事件-拉·曼却领自由通行券",
+  "_schema_version": 1
+}

@@ -1,0 +1,38 @@
+{
+  "page_type": "event",
+  "title": "事件-生存的里程标",
+  "event_name": "生存的里程标",
+  "narration": "面前是一条绵长而宽广的路。\n你看到什么人在入口处举着路标。\n“单行道，无法掉头。”\n“走了这条路，要再回到这可要花上几个世纪。”\n如它所说，这条路似乎一直延伸下去，无穷无尽。\n\n不走大路，沿来时的路折返。\n时下的路面还很清静，但一会你就知道了。很快路上挤满了车，你会如爬行一般夹在其中。”\n“倒车也不行。在你决定回头时，后面的车早就紧跟了上来。”\n“不错的选择。”\n它微笑着。\n这告示牌依然为每一个途经这条公路的人高举。\n获得\n！\n\n不走大路，走旁边的小路。\n这可不是个好选择。\n“每个人都必须在公路上遵守同样的规矩。无论如何，这条高速公路可是为了所有人使用。”\n“我保证，交通之神绝不会放过这种低贱的捷径。”\n走在这岔道上，锐利的目光如芒在背，我只能久久忍受。\n什么都没有发生。",
+  "options": [
+    {
+      "choice_text": "不走大路，沿来时的路折返。",
+      "check_type": "",
+      "check_sin": "",
+      "check_threshold": 0,
+      "success_outcomes": [],
+      "failure_outcomes": []
+    },
+    {
+      "choice_text": "不走大路，走旁边的小路。",
+      "check_type": "",
+      "check_sin": "",
+      "check_threshold": 0,
+      "success_outcomes": [],
+      "failure_outcomes": []
+    }
+  ],
+  "ego_gifts": [],
+  "related_abnormalities": [
+    "白幕内涉及目前游戏未公开内容，仅供参考，请以后续实装内容为准。",
+    "고속도로신봉자",
+    "事件触发地点",
+    "镜像迷宫"
+  ],
+  "trigger_location": "",
+  "_structured": true,
+  "id": "wiki_事件-生存的里程标",
+  "url": "https://limbuscompany.huijiwiki.com/wiki/事件-生存的里程标",
+  "categories": [],
+  "source": "wiki",
+  "_schema_version": 1
+}

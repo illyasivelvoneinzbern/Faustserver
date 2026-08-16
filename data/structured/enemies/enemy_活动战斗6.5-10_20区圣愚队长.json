@@ -1,0 +1,158 @@
+{
+  "page_type": "enemy",
+  "title": "活动战斗6.5-10",
+  "enemy_name": "20区圣愚队长",
+  "battle_stage": "活动战斗6.5-10",
+  "body_part": "躯干",
+  "hp": 582,
+  "defense_level": 44,
+  "speed_min": 3,
+  "speed_max": 4,
+  "chaos_threshold": "436/0",
+  "physical_resistances": {
+    "斩击": 0.5,
+    "突刺": 2.0,
+    "打击": 1.0
+  },
+  "sin_resistances": {
+    "暴怒": 1.0,
+    "色欲": 1.0,
+    "怠惰": 1.0,
+    "暴食": 1.0,
+    "忧郁": 1.0,
+    "傲慢": 1.0,
+    "嫉妒": 1.0
+  },
+  "panic_types": [
+    "瓦解的同盟",
+    "易损",
+    "震颤",
+    "瓦解的同盟",
+    "易损",
+    "震颤"
+  ],
+  "passives": [],
+  "skills": [
+    {
+      "skill_name": "你有良心吗？",
+      "icon_id": "9101701",
+      "sin_type": "忧郁",
+      "damage_type": "",
+      "base_value": 0,
+      "coin_power": 3,
+      "coin_count": 3,
+      "attack_level": 48,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "coin_effects": [
+        "[命中时] 使目标增加2级 震颤 强度"
+      ]
+    },
+    {
+      "skill_name": "你没良心啊",
+      "icon_id": "9101702",
+      "sin_type": "暴食",
+      "damage_type": "",
+      "base_value": 0,
+      "coin_power": 3,
+      "coin_count": 3,
+      "attack_level": 48,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "coin_effects": [
+        "[命中时] 使目标增加3级 震颤 强度"
+      ]
+    },
+    {
+      "skill_name": "保护得了他们吗？",
+      "icon_id": "9101703",
+      "sin_type": "傲慢",
+      "damage_type": "",
+      "base_value": 0,
+      "coin_power": 3,
+      "coin_count": 3,
+      "attack_level": 48,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "coin_effects": [
+        "[命中时] 使目标增加5级 震颤 强度",
+        "[命中时] 若自身的 震颤 层数不低于10层，则使目标 震颤引爆 使目标的混乱阈值前移与 震颤 强度相同的数值 并使其 震颤 层数减少1层",
+        "[命中时] 若目标的 震颤 强度不低于15级，则使其 震颤引爆 使目标的混乱阈值前移与 震颤 强度相同的数值 并使其 震颤 层数减少1层"
+      ]
+    },
+    {
+      "skill_name": "你那武器报废了吧？",
+      "icon_id": "9101704",
+      "sin_type": "怠惰",
+      "damage_type": "",
+      "base_value": 0,
+      "coin_power": 3,
+      "coin_count": 4,
+      "attack_level": 48,
+      "attack_weight": 1,
+      "is_guard": true,
+      "guard_type": "防御",
+      "coin_effects": [
+        "[命中时] 使目标增加5级 震颤 强度",
+        "[命中时] 使目标 振幅转换 将目标的 震颤 与已转换的 震颤 转换为其他类型的 震颤 转换时，现有 震颤 的强度及层数不变 为 震颤-崩坏 目标每带有4级震颤强度，防御等级减少1级 在{1}回合内，受到造成 震颤引爆 的攻击时，混乱阈值前移{0}。 （该效果强度与层数的增减同样受普通 震颤 影响）"
+      ]
+    },
+    {
+      "skill_name": "准备好了？",
+      "icon_id": "9101705",
+      "sin_type": "傲慢",
+      "damage_type": "穿刺",
+      "base_value": 5,
+      "coin_power": 3,
+      "coin_count": 4,
+      "attack_level": 3,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "coin_effects": []
+    },
+    {
+      "skill_name": "防御",
+      "icon_id": "9101706",
+      "sin_type": "常规",
+      "damage_type": "",
+      "base_value": 0,
+      "coin_power": 10,
+      "coin_count": 1,
+      "attack_level": 0,
+      "attack_weight": 1,
+      "is_guard": true,
+      "guard_type": "防御",
+      "coin_effects": []
+    },
+    {
+      "skill_name": "为了我们的事业",
+      "icon_id": "9101707",
+      "sin_type": "暴怒",
+      "damage_type": "",
+      "base_value": 0,
+      "coin_power": 5,
+      "coin_count": 4,
+      "attack_level": 48,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "coin_effects": [
+        "[命中时] 使目标增加10级 震颤 强度",
+        "[命中时] 对目标追加自身带有的 震颤 层数10%的怠惰伤害",
+        "[命中时] 对目标施加4层 震颤",
+        "[命中时] 消耗自身的3层 震颤 ，使目标 震颤引爆 使目标的混乱阈值前移与 震颤 强度相同的数值 并使其 震颤 层数减少1层",
+        "[命中时] 消耗自身的3层 震颤 使目标 震颤引爆 使目标的混乱阈值前移与 震颤 强度相同的数值 ，并使其 震颤 层数减少1层"
+      ]
+    }
+  ],
+  "is_ally": false,
+  "_structured": true,
+  "enemy_id": "活动战斗6.5-10|20区圣愚队长",
+  "defense": 44,
+  "speed": "3~4",
+  "_schema_version": 1
+}

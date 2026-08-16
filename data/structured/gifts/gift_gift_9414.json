@@ -1,0 +1,21 @@
+{
+  "id": "gift_9414",
+  "title": "血红鬃毛",
+  "url": "https://limbuscompany.huijiwiki.com/wiki/E.G.O饰品",
+  "categories": [
+    "E.G.O饰品"
+  ],
+  "content": "适用于全体拥有暴怒或色欲攻击技能的友方单位。\n回合结束时，若本回合自身未受到敌方攻击技能的伤害，则下回合使自身获得2层迅捷与2层忍耐。\n回合结束时，若本回合自身受到过敌方攻击技能的伤害，则下回合对自身施加2层束缚并使自身的拼点威力+2。",
+  "source": "tabx",
+  "_structured": true,
+  "page_type": "ego_gift",
+  "gift_name": "血红鬃毛",
+  "rarity": 2,
+  "cost": "203",
+  "effect_types": "泛用",
+  "attack_type": "色欲",
+  "location": "镜像迷宫",
+  "stage": "base",
+  "special": "信仰与侵蚀",
+  "_schema_version": 1
+}

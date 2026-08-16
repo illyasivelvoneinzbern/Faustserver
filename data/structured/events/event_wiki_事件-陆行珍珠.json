@@ -1,0 +1,48 @@
+{
+  "page_type": "event",
+  "title": "事件-陆行珍珠",
+  "event_name": "陆行珍珠",
+  "narration": "这是一片混杂着盐味与恶臭的荒凉滩涂。\n勉强残留下的翡翠色的海水里\n好像什么都没有一样。\n我的面前有一个巨大的贝壳在移动着。\n贝壳一边移动，一边撒下散发着恶臭的绿色污物。\n这些污物是贝壳从外面摄入的，\n还是贝壳本身产生的呢？\n\n取走一些绿色物质\n【应该让谁完成？】\n有利判定\n：\n/\n≥9\n不利判定\n：\n≥18\n判定成功\n：\n在玻璃瓶中装入了绿色的物质。\n这物质不仅仅是一团污泥。\n其中游弋着众多的幼虫。\n幼虫们互相蚕食，\n恐怕那是这贝类所产下的子嗣吧。\n获得\n！\n判定失败\n：\n拿着玻璃瓶朝它靠近。\n然而，踌躇再三后，还是转身离去了。\n似乎无论如何也没法伸手\n将它的污泥装进容器里。\n不如说，感觉不应该将其装走。\n判定失败的罪人失去\n10点理智值\n！\n\n靠近蚌壳\n我拨开绿色的物质靠近蚌壳。\n脚陷进满是污物的滩涂中，\n每进一步都伴随着强烈的痛楚。\n不能再往前走了。\n虽然前面难以行走也是原因之一，\n但更多地是再往前走的话或许脚会被溶解掉。\n正当我为此事迷惑时，\n贝壳很快移动到了别的地方。\n战斗开始时，\n速度-2\n\n把绿色物质扔过去\n将绿色物质装进瓶中后。\n扔到了那只巨大蚌壳的嘴里。\n口中突然被扔进异物，似乎让它十分困惑。\n将玻璃瓶吐出后，蚌壳穿过污秽向我们走来。\n触发\n集中战斗\n！\n战斗胜利后，获得\n！\n战斗失败后，没有奖励",
+  "options": [
+    {
+      "choice_text": "取走一些绿色物质",
+      "check_type": "有利判定",
+      "check_sin": "暴食",
+      "check_threshold": 9,
+      "success_outcomes": [
+        "获得 ！ 判定失败 ： 拿着玻璃瓶朝它靠近。 然而",
+        "失去 10点理智值 ！"
+      ],
+      "failure_outcomes": []
+    },
+    {
+      "choice_text": "靠近蚌壳",
+      "check_type": "",
+      "check_sin": "",
+      "check_threshold": 0,
+      "success_outcomes": [],
+      "failure_outcomes": []
+    },
+    {
+      "choice_text": "把绿色物质扔过去",
+      "check_type": "",
+      "check_sin": "",
+      "check_threshold": 0,
+      "success_outcomes": [],
+      "failure_outcomes": []
+    }
+  ],
+  "ego_gifts": [],
+  "related_abnormalities": [
+    "WAWLCE评级WAW-05O-02-21-11陆行珍珠",
+    "事件触发地点",
+    "镜像迷宫"
+  ],
+  "trigger_location": "",
+  "_structured": true,
+  "id": "wiki_事件-陆行珍珠",
+  "url": "https://limbuscompany.huijiwiki.com/wiki/事件-陆行珍珠",
+  "categories": [],
+  "source": "wiki",
+  "_schema_version": 1
+}

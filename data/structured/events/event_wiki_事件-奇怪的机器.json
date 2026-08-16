@@ -1,0 +1,33 @@
+{
+  "page_type": "event",
+  "title": "事件-奇怪的机器",
+  "event_name": "奇怪的机器",
+  "narration": "眼前是一台奇妙的机器与一枚硬币。\n在机器上，能看到一处闪闪发光的投币口，仿佛在告诉你要把硬币投进去。\n站在机器前时，能听到不知从何处传来的机械声音。\n“试试你的运气吧 ！”\n是机器传出的声音，还是这个空间本身在对我低语？\n仿佛被附身了一般，我一拿起那枚硬币就想把它投进投币口。好不容易才恢复了些许理智，最好还是好好考虑一下该如何决定。\n\n带走硬币。\n仔细一看，这枚硬币与曾于迷宫中使用过的铜钱很相似。\n……与其将硬币投入这台机器，等待那无法预测的未知结果降临，还不如就这样稳稳地小赚一笔。\n我带着硬币，从机器前离开了。\n获得100\n经费\n\n将硬币投入投币口。\n（1%）\n硬币叮叮当当地被吸入了投币口。\n“#%^*@%@!!#@$%”\n一种难以描述的奇怪声音开始从机器内部回荡，很快机器从一处像是取物口的地方吐出了什么东西。\n还没等我们弄清楚发生了什么，机器就消失了。\n获得\n！\n（99%）\n硬币叮叮当当地被吸入了投币口。\n“#%^*@%@!!#@$%”\n之后，没有任何声音传出。\n“喂，这东西把硬币给吞了！”\n就在一名罪人上前要敲打机器的瞬间，机器就消失不知去了何处。\n获得50\n经费",
+  "options": [
+    {
+      "choice_text": "带走硬币。",
+      "check_type": "",
+      "check_sin": "",
+      "check_threshold": 0,
+      "success_outcomes": [],
+      "failure_outcomes": []
+    },
+    {
+      "choice_text": "将硬币投入投币口。",
+      "check_type": "",
+      "check_sin": "",
+      "check_threshold": 0,
+      "success_outcomes": [],
+      "failure_outcomes": []
+    }
+  ],
+  "ego_gifts": [],
+  "related_abnormalities": [],
+  "trigger_location": "",
+  "_structured": true,
+  "id": "wiki_事件-奇怪的机器",
+  "url": "https://limbuscompany.huijiwiki.com/wiki/事件-奇怪的机器",
+  "categories": [],
+  "source": "wiki",
+  "_schema_version": 1
+}

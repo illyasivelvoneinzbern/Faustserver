@@ -1,0 +1,228 @@
+{
+  "page_type": "enemy",
+  "title": "折射轨道1号线-第12站-净化",
+  "enemy_name": "欲成原初的克罗默",
+  "battle_stage": "折射轨道1号线-第12站-净化",
+  "body_part": "",
+  "hp": 714,
+  "defense_level": 62,
+  "speed_min": 2,
+  "speed_max": 5,
+  "chaos_threshold": "499 / 214",
+  "physical_resistances": {
+    "斩击": 1.0,
+    "突刺": 0.75,
+    "打击": 0.5
+  },
+  "sin_resistances": {
+    "暴怒": 1.5,
+    "色欲": 0.5,
+    "怠惰": 1.0,
+    "暴食": 1.0,
+    "忧郁": 1.0,
+    "傲慢": 1.5,
+    "嫉妒": 1.0
+  },
+  "panic_types": [],
+  "passives": [
+    "折射的挣扎: 无恐慌类型数据"
+  ],
+  "skills": [
+    {
+      "skill_name": "原生之翼",
+      "icon_id": "803001",
+      "sin_type": "色欲",
+      "damage_type": "斩击",
+      "base_value": 5,
+      "coin_power": 9,
+      "coin_count": 2,
+      "attack_level": 57,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[使用时] 若目标带有的负面状态不少于2种，则使本技能的基础威力+3",
+        "[命中时] 使目标增加6级 流血 强度"
+      ]
+    },
+    {
+      "skill_name": "原生之翼",
+      "icon_id": "803002",
+      "sin_type": "色欲",
+      "damage_type": "斩击",
+      "base_value": 5,
+      "coin_power": 9,
+      "coin_count": 3,
+      "attack_level": 57,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[使用时] 若目标带有的负面状态不少于2种，则使本技能的基础威力+3",
+        "[命中时] 使目标增加4级 流血 强度"
+      ]
+    },
+    {
+      "skill_name": "圣洁振翅",
+      "icon_id": "803003",
+      "sin_type": "色欲",
+      "damage_type": "打击",
+      "base_value": 5,
+      "coin_power": 9,
+      "coin_count": 5,
+      "attack_level": 57,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[使用时] 若目标带有负面状态，则使本技能的硬币威力+1",
+        "[命中时] 使目标增加5级 流血 强度",
+        "[命中时] 下回合对目标施加4层 麻痹",
+        "[命中时] 下回合对目标施加4层 束缚"
+      ]
+    },
+    {
+      "skill_name": "折断之翼",
+      "icon_id": "803004",
+      "sin_type": "色欲",
+      "damage_type": "打击",
+      "base_value": 17,
+      "coin_power": 9,
+      "coin_count": 4,
+      "attack_level": 57,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[使用时] 若目标带有负面状态，则使本技能的基础威力+3",
+        "[命中时] 使目标增加5级 流血 强度 不可摧毁的硬币"
+      ]
+    },
+    {
+      "skill_name": "折断之翼",
+      "icon_id": "803005",
+      "sin_type": "色欲",
+      "damage_type": "打击",
+      "base_value": 17,
+      "coin_power": 5,
+      "coin_count": 2,
+      "attack_level": 1,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 1,
+      "coin_effects": [
+        "使用时若目标带有负面状态，则使本技能的基础威力+3",
+        "1{{状态2|不可摧毁的硬币|4=特殊}}",
+        "未摧毁 - 命中时下回合对目标施加2层{{状态2|麻痹|4=负面}}",
+        "未摧毁 - 命中时下回合对目标施加2层{{状态2|束缚|4=负面}}",
+        "命中时使目标增加5级{{状态2|流血|4=负面}}强度"
+      ]
+    },
+    {
+      "skill_name": "盛怒振翅",
+      "icon_id": "803006",
+      "sin_type": "色欲",
+      "damage_type": "斩击",
+      "base_value": 12,
+      "coin_power": 9,
+      "coin_count": 5,
+      "attack_level": 57,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[使用时] 若目标带有的负面状态不少于2种，则使本技能的基础威力+3",
+        "[命中时] 对目标施加3层 流血 不可摧毁的硬币",
+        "[命中时] 对目标施加3层 流血"
+      ]
+    },
+    {
+      "skill_name": "崇高净化",
+      "icon_id": "803007",
+      "sin_type": "暴怒",
+      "damage_type": "突刺",
+      "base_value": 5,
+      "coin_power": 987,
+      "coin_count": 7,
+      "attack_level": 57,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[使用时] 若目标带有负面状态，则使本技能的硬币威力+1",
+        "[命中时] 使目标增加3级 流血 强度"
+      ]
+    },
+    {
+      "skill_name": "荣耀执握",
+      "icon_id": "803008",
+      "sin_type": "暴怒",
+      "damage_type": "突刺",
+      "base_value": 5,
+      "coin_power": 987,
+      "coin_count": 3,
+      "attack_level": 57,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[使用时] 若目标体力未满，则使本技能的基础威力+2",
+        "[使用时] 若目标现存体力低于60%，则使本技能造成的伤害+80%",
+        "[命中时] 下回合使自身获得2层 强壮"
+      ]
+    },
+    {
+      "skill_name": "给我忏悔！！",
+      "icon_id": "803009",
+      "sin_type": "暴怒",
+      "damage_type": "突刺",
+      "base_value": 13,
+      "coin_power": 987,
+      "coin_count": 3,
+      "attack_level": 57,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[使用时] 若目标体力未满，则使本技能的基础威力+2",
+        "[使用时] 若目标现存体力低于60%，则使本技能造成的伤害+80%",
+        "[命中时] 使目标增加5级 流血 强度"
+      ]
+    },
+    {
+      "skill_name": "纯粹的血肉",
+      "icon_id": "803010",
+      "sin_type": "常规",
+      "damage_type": "守备",
+      "base_value": 10,
+      "coin_power": 79,
+      "coin_count": 1,
+      "attack_level": 0,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "战斗开始使自身的所有部位获得1层守护"
+      ]
+    }
+  ],
+  "is_ally": false,
+  "_structured": true,
+  "appear_stages": [
+    "折射轨道1号线-第12站-净化"
+  ],
+  "enemy_id": "折射轨道1号线-第12站-净化|欲成原初的克罗默|",
+  "defense": 62,
+  "speed": "2~5",
+  "_schema_version": 1
+}

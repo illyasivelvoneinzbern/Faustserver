@@ -1,0 +1,172 @@
+{
+  "page_type": "enemy",
+  "title": "主线战斗5-36-3-2",
+  "enemy_name": "亚哈（第一阶段）",
+  "battle_stage": "主线战斗5-36-3-2",
+  "body_part": "躯干",
+  "hp": 610,
+  "defense_level": 37,
+  "speed_min": 2,
+  "speed_max": 3,
+  "chaos_threshold": "366/183/0",
+  "physical_resistances": {
+    "斩击": 1.0,
+    "突刺": 1.5,
+    "打击": 1.0
+  },
+  "sin_resistances": {
+    "暴怒": 1.0,
+    "色欲": 1.0,
+    "怠惰": 1.0,
+    "暴食": 1.0,
+    "忧郁": 1.0,
+    "傲慢": 1.2,
+    "嫉妒": 1.0
+  },
+  "panic_types": [
+    "不洁"
+  ],
+  "passives": [],
+  "skills": [
+    {
+      "skill_name": "听我号令",
+      "icon_id": "810501",
+      "sin_type": "傲慢",
+      "damage_type": "",
+      "base_value": 3,
+      "coin_power": 3,
+      "coin_count": 1,
+      "attack_level": 0,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": []
+    },
+    {
+      "skill_name": "到我身边！",
+      "icon_id": "810502",
+      "sin_type": "暴食",
+      "damage_type": "",
+      "base_value": 15,
+      "coin_power": 854,
+      "coin_count": 1,
+      "attack_level": 0,
+      "attack_weight": 1,
+      "is_guard": true,
+      "guard_type": "防御",
+      "importance": 0,
+      "coin_effects": []
+    },
+    {
+      "skill_name": "追踪到底！",
+      "icon_id": "810503",
+      "sin_type": "暴食",
+      "damage_type": "",
+      "base_value": 4,
+      "coin_power": 854,
+      "coin_count": 1,
+      "attack_level": 37,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": []
+    },
+    {
+      "skill_name": "老练的鱼叉手",
+      "icon_id": "810504",
+      "sin_type": "傲慢",
+      "damage_type": "",
+      "base_value": 3,
+      "coin_power": 3,
+      "coin_count": 3,
+      "attack_level": 40,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[命中时] 使目标增加2级 流血 强度"
+      ]
+    },
+    {
+      "skill_name": "鱼叉如火",
+      "icon_id": "810505",
+      "sin_type": "傲慢",
+      "damage_type": "",
+      "base_value": 3,
+      "coin_power": 3,
+      "coin_count": 4,
+      "attack_level": 40,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[命中时] 使目标增加3级 流血 强度",
+        "[命中时] 使目标增加相当于其 流血 强度的 烧伤 强度"
+      ]
+    },
+    {
+      "skill_name": "愚蠢！",
+      "icon_id": "810506",
+      "sin_type": "傲慢",
+      "damage_type": "",
+      "base_value": 3,
+      "coin_power": 3,
+      "coin_count": 1,
+      "attack_level": 0,
+      "attack_weight": 1,
+      "is_guard": true,
+      "guard_type": "闪避",
+      "importance": 0,
+      "coin_effects": []
+    },
+    {
+      "skill_name": "呼气！",
+      "icon_id": "810507",
+      "sin_type": "嫉妒",
+      "damage_type": "",
+      "base_value": 5,
+      "coin_power": 5793,
+      "coin_count": 2,
+      "attack_level": 40,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[使用时] 下回合对目标施加一层 猎物标记",
+        "[命中时] 使除自身外的2名友方单位增加4级 呼吸法 强度 无友方单位存活时，改为使自身获得2层 呼吸法"
+      ]
+    },
+    {
+      "skill_name": "死亡淬炼",
+      "icon_id": "810509",
+      "sin_type": "暴怒",
+      "damage_type": "",
+      "base_value": 6,
+      "coin_power": 987,
+      "coin_count": 2,
+      "attack_level": 45,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[使用时] 对理智值最低的1名友方单位施加1层 不可抗拒的命令",
+        "[命中时] 对目标施加2层 易损"
+      ]
+    }
+  ],
+  "is_ally": false,
+  "_structured": true,
+  "appear_stages": [
+    "主线战斗5-36-3-2"
+  ],
+  "enemy_id": "主线战斗5-36-3-2|亚哈（第一阶段）|躯干",
+  "defense": 37,
+  "speed": "2~3",
+  "_schema_version": 1
+}

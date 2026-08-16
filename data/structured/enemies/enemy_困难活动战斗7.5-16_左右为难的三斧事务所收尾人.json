@@ -1,0 +1,116 @@
+{
+  "page_type": "enemy",
+  "title": "困难活动战斗7.5-16",
+  "enemy_name": "左右为难的三斧事务所收尾人",
+  "battle_stage": "困难活动战斗7.5-16",
+  "body_part": "",
+  "hp": 220,
+  "defense_level": 55,
+  "speed_min": 1,
+  "speed_max": 3,
+  "chaos_threshold": "",
+  "physical_resistances": {
+    "斩击": 2.0,
+    "突刺": 0.8,
+    "打击": 1.0
+  },
+  "sin_resistances": {
+    "暴怒": 1.0,
+    "色欲": 1.0,
+    "怠惰": 1.0,
+    "暴食": 1.0,
+    "忧郁": 1.0,
+    "傲慢": 1.0,
+    "嫉妒": 1.0
+  },
+  "panic_types": [],
+  "passives": [
+    "抑制行动：拼点胜利时，下回合使自身获得2层 迅捷 (每回合最多1次)"
+  ],
+  "skills": [
+    {
+      "skill_name": "突然袭击",
+      "icon_id": "9019301",
+      "sin_type": "暴怒",
+      "damage_type": "斩击",
+      "base_value": 5,
+      "coin_power": 987,
+      "coin_count": 2,
+      "attack_level": 56,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[使用时] 下回合使自身获得1层 迅捷",
+        "[命中时] 使目标增加3级 流血 强度"
+      ]
+    },
+    {
+      "skill_name": "斩断肌肉",
+      "icon_id": "9019302",
+      "sin_type": "色欲",
+      "damage_type": "斩击",
+      "base_value": 5,
+      "coin_power": 9,
+      "coin_count": 3,
+      "attack_level": 57,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[使用时] 若自身的速度值高于目标，则使本技能的硬币威力+1",
+        "[使用时] 若目标的 流血 强度不低于3级，则使本技能的基础威力+1",
+        "[命中时] 对目标施加2层 流血",
+        "[命中时] 对目标施加2层 束缚"
+      ]
+    },
+    {
+      "skill_name": "是非不分的攻击",
+      "icon_id": "9019303",
+      "sin_type": "傲慢",
+      "damage_type": "斩击",
+      "base_value": 2,
+      "coin_power": 3,
+      "coin_count": 3,
+      "attack_level": 57,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[使用时] 若自身的速度值不低于7，则使本技能的硬币威力+1",
+        "[使用时] 若目标的 流血 强度不低于4级，则使本技能的硬币威力+1",
+        "[命中时] 对目标施加2层 流血"
+      ]
+    },
+    {
+      "skill_name": "防御",
+      "icon_id": "9019304",
+      "sin_type": "常规",
+      "damage_type": "防御",
+      "base_value": 10,
+      "coin_power": 79,
+      "coin_count": 1,
+      "attack_level": 0,
+      "attack_weight": 1,
+      "is_guard": true,
+      "guard_type": "防御",
+      "importance": 0,
+      "coin_effects": [
+        "使用时自身每带有1种负面状态，使自身获得3点护盾(最多10点)"
+      ]
+    }
+  ],
+  "is_ally": false,
+  "_structured": true,
+  "appear_stages": [
+    "困难活动战斗7.5-16",
+    "活动战斗7.5-16"
+  ],
+  "enemy_id": "困难活动战斗7.5-16|左右为难的三斧事务所收尾人|",
+  "defense": 55,
+  "speed": "1~3",
+  "_schema_version": 1
+}

@@ -1,0 +1,532 @@
+{
+  "page_type": "personality",
+  "title": "罗佳N公司中锤",
+  "sinner": "罗佳",
+  "sinner_id": "rodion",
+  "personality_name": "罗佳N公司中锤",
+  "release_date": "2023.03.09",
+  "acquisition": "第1赛季提取",
+  "sin_affinities": {
+    "傲慢": 3,
+    "色欲": 2,
+    "暴怒": 1
+  },
+  "physical_resistances": {
+    "斩击": 0.5,
+    "突刺": 1.0,
+    "打击": 2.0
+  },
+  "ego_resources": {
+    "傲慢": 3,
+    "色欲": 2,
+    "暴怒": 1
+  },
+  "skills": [
+    {
+      "skill_index": 0,
+      "skill_name": "虔信钉击",
+      "sin_type": "",
+      "damage_type": "",
+      "guard_type": "",
+      "attack_capacity": 1,
+      "coin_count": 3,
+      "stage_groups": [
+        [
+          {
+            "stage": "I",
+            "base_value": 2,
+            "coin_power": 4,
+            "effects": [
+              {
+                "timing": "正面命中时",
+                "description": "使目标增加1级 流血 强度"
+              },
+              {
+                "timing": "正面命中时",
+                "description": "使目标增加1级 流血 强度"
+              }
+            ],
+            "raw_text": "基础值： 2 变动值： +4 [正面命中时] 使目标增加1级 流血 强度 [正面命中时] 使目标增加1级 流血 强度"
+          },
+          {
+            "stage": "II",
+            "base_value": 2,
+            "coin_power": 4,
+            "effects": [
+              {
+                "timing": "命中时",
+                "description": "使目标增加1级 流血 强度"
+              },
+              {
+                "timing": "命中时",
+                "description": "使目标增加1级 流血 强度"
+              }
+            ],
+            "raw_text": "基础值： 2 变动值： +4 [命中时] 使目标增加1级 流血 强度 [命中时] 使目标增加1级 流血 强度"
+          },
+          {
+            "stage": "III",
+            "base_value": 3,
+            "coin_power": 4,
+            "effects": [
+              {
+                "timing": "命中时",
+                "description": "使目标增加1级 流血 强度"
+              },
+              {
+                "timing": "命中时",
+                "description": "使目标增加1级 流血 强度"
+              }
+            ],
+            "raw_text": "基础值： 3 变动值： +4 [命中时] 使目标增加1级 流血 强度 [命中时] 使目标增加1级 流血 强度"
+          },
+          {
+            "stage": "IV",
+            "base_value": 3,
+            "coin_power": 4,
+            "effects": [
+              {
+                "timing": "命中时",
+                "description": "使目标增加1级 流血 强度"
+              },
+              {
+                "timing": "命中时",
+                "description": "攻击带有 尖钉 的目标时，对目标施加1层 尖钉"
+              },
+              {
+                "timing": "命中时",
+                "description": "使目标增加1级 流血 强度"
+              },
+              {
+                "timing": "命中时",
+                "description": "攻击带有 尖钉 的目标时，对目标施加1层 尖钉"
+              }
+            ],
+            "raw_text": "基础值： 3 变动值： +4 [命中时] 使目标增加1级 流血 强度 [命中时] 攻击带有 尖钉 的目标时，对目标施加1层 尖钉 [命中时] 使目标增加1级 流血 强度 [命中时] 攻击带有 尖钉 的目标时，对目标施加1层 尖钉"
+          }
+        ]
+      ],
+      "coin_effects": [
+        {
+          "coin_index": 0,
+          "description": "技能一"
+        },
+        {
+          "coin_index": 0,
+          "description": "虔信钉击 3"
+        },
+        {
+          "coin_index": 0,
+          "timing": "",
+          "description": "2"
+        },
+        {
+          "coin_index": 0,
+          "description": "+3"
+        },
+        {
+          "coin_index": 0,
+          "description": "1"
+        },
+        {
+          "coin_index": 0,
+          "description": "基础值： 2 变动值： +4"
+        },
+        {
+          "coin_index": 1,
+          "timing": "正面命中时",
+          "description": "[正面命中时] 使目标增加1级 流血 强度"
+        },
+        {
+          "coin_index": 2,
+          "timing": "正面命中时",
+          "description": "[正面命中时] 使目标增加1级 流血 强度"
+        },
+        {
+          "coin_index": 1,
+          "timing": "命中时",
+          "description": "[命中时] 使目标增加1级 流血 强度"
+        },
+        {
+          "coin_index": 2,
+          "timing": "命中时",
+          "description": "[命中时] 使目标增加1级 流血 强度"
+        },
+        {
+          "coin_index": 1,
+          "timing": "命中时",
+          "description": "[命中时] 使目标增加1级 流血 强度"
+        },
+        {
+          "coin_index": 2,
+          "timing": "命中时",
+          "description": "[命中时] 使目标增加1级 流血 强度"
+        },
+        {
+          "coin_index": 1,
+          "timing": "命中时",
+          "description": "[命中时] 使目标增加1级 流血 强度 [命中时] 攻击带有 尖钉 的目标时，对目标施加1层 尖钉"
+        },
+        {
+          "coin_index": 2,
+          "timing": "命中时",
+          "description": "[命中时] 使目标增加1级 流血 强度 [命中时] 攻击带有 尖钉 的目标时，对目标施加1层 尖钉"
+        }
+      ],
+      "wikitext_key": "1技能"
+    },
+    {
+      "skill_index": 1,
+      "skill_name": "狂热净化",
+      "sin_type": "色欲",
+      "damage_type": "打击",
+      "guard_type": "",
+      "attack_capacity": 1,
+      "coin_count": 3,
+      "stage_groups": [
+        [
+          {
+            "stage": "I",
+            "base_value": 5,
+            "coin_power": 2,
+            "effects": [
+              {
+                "timing": "命中时",
+                "description": "下回合对目标施加1层 尖钉"
+              },
+              {
+                "timing": "命中时",
+                "description": "下回合对目标施加1层 麻痹"
+              }
+            ],
+            "raw_text": "基础值： 5 变动值： +2 [命中时] 下回合对目标施加1层 尖钉 [命中时] 下回合对目标施加1层 麻痹"
+          },
+          {
+            "stage": "II",
+            "base_value": 5,
+            "coin_power": 2,
+            "effects": [
+              {
+                "timing": "拼点胜利",
+                "description": "下回合使自身获得1层 狂信"
+              },
+              {
+                "timing": "命中时",
+                "description": "下回合对目标施加1层 尖钉"
+              },
+              {
+                "timing": "命中时",
+                "description": "下回合对目标施加1层 麻痹"
+              }
+            ],
+            "raw_text": "基础值： 5 变动值： +2 [拼点胜利] 下回合使自身获得1层 狂信 [命中时] 下回合对目标施加1层 尖钉 [命中时] 下回合对目标施加1层 麻痹"
+          },
+          {
+            "stage": "III",
+            "base_value": 6,
+            "coin_power": 2,
+            "effects": [
+              {
+                "timing": "拼点胜利",
+                "description": "下回合使自身获得1层 狂信"
+              },
+              {
+                "timing": "命中时",
+                "description": "下回合对目标施加1层 尖钉"
+              },
+              {
+                "timing": "命中时",
+                "description": "下回合对目标施加1层 麻痹"
+              }
+            ],
+            "raw_text": "基础值： 6 变动值： +2 [拼点胜利] 下回合使自身获得1层 狂信 [命中时] 下回合对目标施加1层 尖钉 [命中时] 下回合对目标施加1层 麻痹"
+          },
+          {
+            "stage": "IV",
+            "base_value": 6,
+            "coin_power": 2,
+            "effects": [
+              {
+                "timing": "拼点胜利",
+                "description": "下回合使自身获得1层 狂信"
+              },
+              {
+                "timing": "命中时",
+                "description": "下回合对目标施加1层 尖钉"
+              },
+              {
+                "timing": "命中时",
+                "description": "下回合对目标施加1层 麻痹"
+              }
+            ],
+            "raw_text": "基础值： 6 变动值： +2 [拼点胜利] 下回合使自身获得1层 狂信 [命中时] 下回合对目标施加1层 尖钉 [命中时] 下回合对目标施加1层 麻痹"
+          }
+        ]
+      ],
+      "coin_effects": [
+        {
+          "coin_index": 0,
+          "description": "技能二"
+        },
+        {
+          "coin_index": 0,
+          "description": "狂热净化 2"
+        },
+        {
+          "coin_index": 0,
+          "timing": "",
+          "description": "2"
+        },
+        {
+          "coin_index": 0,
+          "description": "+3"
+        },
+        {
+          "coin_index": 0,
+          "description": "1"
+        },
+        {
+          "coin_index": 0,
+          "description": "基础值： 5 变动值： +2"
+        },
+        {
+          "coin_index": 1,
+          "timing": "命中时",
+          "description": "[命中时] 下回合对目标施加1层 尖钉"
+        },
+        {
+          "coin_index": 2,
+          "timing": "命中时",
+          "description": "[命中时] 下回合对目标施加1层 麻痹"
+        },
+        {
+          "coin_index": 1,
+          "timing": "命中时",
+          "description": "[命中时] 下回合对目标施加1层 尖钉"
+        },
+        {
+          "coin_index": 2,
+          "timing": "命中时",
+          "description": "[命中时] 下回合对目标施加1层 麻痹"
+        },
+        {
+          "coin_index": 1,
+          "timing": "命中时",
+          "description": "[命中时] 下回合对目标施加1层 尖钉"
+        },
+        {
+          "coin_index": 2,
+          "timing": "命中时",
+          "description": "[命中时] 下回合对目标施加1层 麻痹"
+        },
+        {
+          "coin_index": 1,
+          "timing": "命中时",
+          "description": "[命中时] 下回合对目标施加1层 尖钉"
+        },
+        {
+          "coin_index": 2,
+          "timing": "命中时",
+          "description": "[命中时] 下回合对目标施加1层 麻痹"
+        }
+      ],
+      "wikitext_key": "2技能"
+    },
+    {
+      "skill_index": 2,
+      "skill_name": "钢铁裁决",
+      "sin_type": "暴怒",
+      "damage_type": "打击",
+      "guard_type": "",
+      "attack_capacity": 1,
+      "coin_count": 3,
+      "stage_groups": [
+        [
+          {
+            "stage": "I",
+            "base_value": 4,
+            "coin_power": 2,
+            "effects": [
+              {
+                "timing": "正面命中时",
+                "description": "使目标增加1级 流血 强度"
+              },
+              {
+                "timing": "正面命中时",
+                "description": "使目标增加2级 流血 强度"
+              }
+            ],
+            "raw_text": "基础值： 4 变动值： +2 若自身带有 狂信 ，则使本技能造成的伤害+15% [正面命中时] 使目标增加1级 流血 强度 [正面命中时] 使目标增加2级 流血 强度"
+          },
+          {
+            "stage": "II",
+            "base_value": 4,
+            "coin_power": 2,
+            "effects": [
+              {
+                "timing": "正面命中时",
+                "description": "使目标增加1级 流血 强度"
+              },
+              {
+                "timing": "正面命中时",
+                "description": "使目标增加2级 流血 强度"
+              }
+            ],
+            "raw_text": "基础值： 4 变动值： +2 若自身带有 狂信 ，则使本技能造成的伤害+15% 队伍中每有1名存活且隶属于N公司的友方单位，使本技能造成的伤害+5% [正面命中时] 使目标增加1级 流血 强度 [正面命中时] 使目标增加2级 流血 强度"
+          }
+        ]
+      ],
+      "coin_effects": [
+        {
+          "coin_index": 0,
+          "description": "技能三"
+        },
+        {
+          "coin_index": 0,
+          "description": "钢铁裁决 1"
+        },
+        {
+          "coin_index": 0,
+          "timing": "",
+          "description": "4"
+        },
+        {
+          "coin_index": 0,
+          "description": "+3"
+        },
+        {
+          "coin_index": 0,
+          "description": "1"
+        },
+        {
+          "coin_index": 0,
+          "description": "基础值： 4 变动值： +2 若自身带有 狂信 ，则使本技能造成的伤害+15%"
+        },
+        {
+          "coin_index": 3,
+          "timing": "正面命中时",
+          "description": "[正面命中时] 使目标增加1级 流血 强度"
+        },
+        {
+          "coin_index": 4,
+          "timing": "正面命中时",
+          "description": "[正面命中时] 使目标增加2级 流血 强度"
+        },
+        {
+          "coin_index": 3,
+          "timing": "正面命中时",
+          "description": "[正面命中时] 使目标增加1级 流血 强度"
+        },
+        {
+          "coin_index": 4,
+          "timing": "正面命中时",
+          "description": "[正面命中时] 使目标增加2级 流血 强度"
+        }
+      ],
+      "wikitext_key": "3技能"
+    },
+    {
+      "skill_index": 3,
+      "skill_name": "反击",
+      "sin_type": "",
+      "damage_type": "",
+      "guard_type": "反击",
+      "attack_capacity": 1,
+      "coin_count": 2,
+      "stage_groups": [
+        [
+          {
+            "stage": "I",
+            "base_value": 7,
+            "coin_power": 6,
+            "effects": [],
+            "raw_text": "基础值： 7 变动值： +6"
+          },
+          {
+            "stage": "II",
+            "base_value": 7,
+            "coin_power": 6,
+            "effects": [
+              {
+                "timing": "命中时",
+                "description": "对目标施加1层 尖钉"
+              }
+            ],
+            "raw_text": "基础值： 7 变动值： +6 [命中时] 对目标施加1层 尖钉"
+          }
+        ]
+      ],
+      "coin_effects": [
+        {
+          "coin_index": 0,
+          "description": "守备技能"
+        },
+        {
+          "coin_index": 0,
+          "description": "反击"
+        },
+        {
+          "coin_index": 0,
+          "timing": "",
+          "description": "1"
+        },
+        {
+          "coin_index": 0,
+          "description": "+2"
+        },
+        {
+          "coin_index": 0,
+          "description": "1"
+        },
+        {
+          "coin_index": 0,
+          "description": "基础值： 7 变动值： +6"
+        },
+        {
+          "coin_index": 1,
+          "timing": "命中时",
+          "description": "[命中时] 对目标施加1层 尖钉"
+        }
+      ],
+      "wikitext_key": "守备技能4"
+    }
+  ],
+  "battle_passive": "人格被动1090401\n人格被动1090421",
+  "support_passive": "",
+  "notes": "",
+  "voice_lines": [],
+  "skill_voice": [
+    {
+      "file": "Battle_s2_10904_1_1.ogg",
+      "skill_index": 2,
+      "skill_label": "",
+      "skill_name": "狂热净化"
+    },
+    {
+      "file": "Battle_s2_10904_1_2.ogg",
+      "skill_index": 2,
+      "skill_label": "",
+      "skill_name": "狂热净化"
+    },
+    {
+      "file": "Battle_s3_10904_1_1.ogg",
+      "skill_index": 3,
+      "skill_label": "技能三",
+      "skill_name": "钢铁裁决"
+    },
+    {
+      "file": "Battle_s3_10904_1_3.ogg",
+      "skill_index": 3,
+      "skill_label": "",
+      "skill_name": "钢铁裁决"
+    }
+  ],
+  "_structured": true,
+  "id": "wiki_罗佳N公司中锤",
+  "url": "https://limbuscompany.huijiwiki.com/wiki/罗佳N公司中锤",
+  "categories": [
+    "人格"
+  ],
+  "source": "wiki",
+  "_schema_version": 1
+}

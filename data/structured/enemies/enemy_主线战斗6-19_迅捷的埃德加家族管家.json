@@ -1,0 +1,120 @@
+{
+  "page_type": "enemy",
+  "title": "主线战斗6-19",
+  "enemy_name": "迅捷的埃德加家族管家",
+  "battle_stage": "主线战斗6-19",
+  "body_part": "",
+  "hp": 152,
+  "defense_level": 29,
+  "speed_min": 3,
+  "speed_max": 5,
+  "chaos_threshold": "",
+  "physical_resistances": {
+    "斩击": 2.0,
+    "突刺": 0.75,
+    "打击": 1.0
+  },
+  "sin_resistances": {
+    "暴怒": 1.0,
+    "色欲": 1.0,
+    "怠惰": 1.0,
+    "暴食": 1.0,
+    "忧郁": 1.0,
+    "傲慢": 1.0,
+    "嫉妒": 1.0
+  },
+  "panic_types": [
+    "整理强迫"
+  ],
+  "passives": [
+    "整顿:使用技能时，若目标现存体力不高于50%，则使自身技能威力+1",
+    "恐慌恢复：回合结束时，若陷入恐慌，则使自身理智值恢复为0点。"
+  ],
+  "skills": [
+    {
+      "skill_name": "反制攻击",
+      "icon_id": "9012101",
+      "sin_type": "傲慢",
+      "damage_type": "",
+      "base_value": 3,
+      "coin_power": 3,
+      "coin_count": 2,
+      "attack_level": 47,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[命中时] 下回合对目标施加2层 攻击等级降低",
+        "[正面命中时] 下回合对目标施加1层 攻击等级降低"
+      ]
+    },
+    {
+      "skill_name": "镇压法",
+      "icon_id": "9012102",
+      "sin_type": "嫉妒",
+      "damage_type": "",
+      "base_value": 3,
+      "coin_power": 5793,
+      "coin_count": 3,
+      "attack_level": 47,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[使用时] 若自身的速度值高于目标，则使自身恢复3点理智值",
+        "[命中时] 下回合对目标施加2层 束缚",
+        "[正面命中时] 对目标施加2层 麻痹",
+        "[命中时] 下回合对目标施加2层 攻击等级降低",
+        "[正面命中时] 下回合对目标施加2层 麻痹"
+      ]
+    },
+    {
+      "skill_name": "动作镇压",
+      "icon_id": "9012103",
+      "sin_type": "嫉妒",
+      "damage_type": "",
+      "base_value": 4,
+      "coin_power": 5793,
+      "coin_count": 4,
+      "attack_level": 47,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[使用时] 若自身的速度值高于目标，则对目标施加1层 斩击抗性弱化",
+        "[命中时] 对目标施加2层 麻痹",
+        "[命中时] 下回合对目标施加2层 攻击等级降低",
+        "[正面命中时] 下回合对目标施加2层 麻痹"
+      ]
+    },
+    {
+      "skill_name": "闪避",
+      "icon_id": "9012104",
+      "sin_type": "常规",
+      "damage_type": "",
+      "base_value": 4,
+      "coin_power": 79,
+      "coin_count": 1,
+      "attack_level": 0,
+      "attack_weight": 1,
+      "is_guard": true,
+      "guard_type": "闪避",
+      "importance": 0,
+      "coin_effects": []
+    }
+  ],
+  "is_ally": false,
+  "_structured": true,
+  "appear_stages": [
+    "主线战斗6-19",
+    "主线战斗6-21",
+    "主线战斗6-37"
+  ],
+  "enemy_id": "主线战斗6-19|迅捷的埃德加家族管家|",
+  "defense": 29,
+  "speed": "3~5",
+  "_schema_version": 1
+}

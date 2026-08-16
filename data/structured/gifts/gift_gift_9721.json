@@ -1,0 +1,22 @@
+{
+  "id": "gift_9721",
+  "title": "银色的表壳",
+  "url": "https://limbuscompany.huijiwiki.com/wiki/E.G.O饰品",
+  "categories": [
+    "E.G.O饰品"
+  ],
+  "content": "增加震颤强度，施加震颤层数或施加特殊震颤的攻击技能(不包括E.G.O技能)对敌方单位造成的伤害+10%\n若该技能本回合首次使敌方单位震颤引爆，则下回合对其施加2层震颤(每回合最多1次)",
+  "source": "tabx",
+  "_structured": true,
+  "page_type": "ego_gift",
+  "gift_name": "银色的表壳",
+  "rarity": 2,
+  "cost": "196",
+  "effect_types": "震颤",
+  "attack_type": "色欲",
+  "location": "镜像迷宫",
+  "stage": "base",
+  "special": "时间杀人时间",
+  "event": "事件-工厂的工人",
+  "_schema_version": 1
+}

@@ -1,0 +1,66 @@
+{
+  "page_type": "enemy",
+  "title": "2-19-2-1号生产线",
+  "enemy_name": "怠惰罪种",
+  "battle_stage": "2-19-2-1号生产线",
+  "body_part": "躯干",
+  "hp": 43,
+  "defense_level": 10,
+  "speed_min": 1,
+  "speed_max": 2,
+  "chaos_threshold": "12",
+  "physical_resistances": {
+    "斩击": 1.0,
+    "突刺": 1.0,
+    "打击": 2.0
+  },
+  "sin_resistances": {
+    "暴怒": 1.0,
+    "色欲": 1.0,
+    "怠惰": 0.75,
+    "暴食": 2.0,
+    "忧郁": 2.0,
+    "傲慢": 1.0,
+    "嫉妒": 0.75
+  },
+  "panic_types": [],
+  "passives": [],
+  "skills": [
+    {
+      "skill_name": "翻滚冲撞",
+      "icon_id": "800601",
+      "sin_type": "怠惰",
+      "damage_type": "",
+      "base_value": 0,
+      "coin_power": 0,
+      "coin_count": 1,
+      "attack_level": 5,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "coin_effects": []
+    },
+    {
+      "skill_name": "怠惰紧扼",
+      "icon_id": "800602",
+      "sin_type": "怠惰",
+      "damage_type": "",
+      "base_value": 0,
+      "coin_power": 1,
+      "coin_count": 2,
+      "attack_level": 5,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "coin_effects": [
+        "[正面命中时] 下回合对目标施加3层 束缚 本回合内速度值-{0}"
+      ]
+    }
+  ],
+  "is_ally": false,
+  "_structured": true,
+  "enemy_id": "2-19-2-1号生产线|怠惰罪种",
+  "defense": 10,
+  "speed": "1~2",
+  "_schema_version": 1
+}

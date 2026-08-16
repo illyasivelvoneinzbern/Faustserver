@@ -1,0 +1,74 @@
+{
+  "page_type": "enemy",
+  "title": "主线战斗9-05",
+  "enemy_name": "傲慢罪种 1型",
+  "battle_stage": "主线战斗9-05",
+  "body_part": "躯干",
+  "hp": 188,
+  "defense_level": 53,
+  "speed_min": 3,
+  "speed_max": 5,
+  "chaos_threshold": "75",
+  "physical_resistances": {
+    "斩击": 1.0,
+    "突刺": 1.0,
+    "打击": 2.0
+  },
+  "sin_resistances": {
+    "暴怒": 2.0,
+    "色欲": 0.75,
+    "怠惰": 2.0,
+    "暴食": 1.0,
+    "忧郁": 1.0,
+    "傲慢": 0.75,
+    "嫉妒": 1.0
+  },
+  "panic_types": [],
+  "passives": [],
+  "skills": [
+    {
+      "skill_name": "摧残蹂躏",
+      "icon_id": "801801",
+      "sin_type": "傲慢",
+      "damage_type": "斩击",
+      "base_value": 4,
+      "coin_power": 3,
+      "coin_count": 1,
+      "attack_level": 60,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": []
+    },
+    {
+      "skill_name": "傲慢碾碎",
+      "icon_id": "801802",
+      "sin_type": "傲慢",
+      "damage_type": "斩击",
+      "base_value": 4,
+      "coin_power": 3,
+      "coin_count": 3,
+      "attack_level": 60,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[正面命中时] 下回合对目标施加1层 易损"
+      ]
+    }
+  ],
+  "is_ally": false,
+  "_structured": true,
+  "appear_stages": [
+    "主线战斗9-05",
+    "主线战斗9-06",
+    "主线战斗9-20",
+    "主线战斗9-22"
+  ],
+  "enemy_id": "主线战斗9-05|傲慢罪种 1型|躯干",
+  "defense": 53,
+  "speed": "3~5",
+  "_schema_version": 1
+}

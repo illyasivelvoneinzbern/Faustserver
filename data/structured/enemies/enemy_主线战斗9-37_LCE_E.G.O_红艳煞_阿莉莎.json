@@ -1,0 +1,149 @@
+{
+  "page_type": "enemy",
+  "title": "主线战斗9-37",
+  "enemy_name": "LCE E.G.O::红艳煞 阿莉莎",
+  "battle_stage": "主线战斗9-37",
+  "body_part": "",
+  "hp": 423,
+  "defense_level": 50,
+  "speed_min": 3,
+  "speed_max": 5,
+  "chaos_threshold": "无",
+  "physical_resistances": {
+    "斩击": 1.0,
+    "突刺": 2.0,
+    "打击": 0.5
+  },
+  "sin_resistances": {
+    "暴怒": 0.5,
+    "色欲": 0.75,
+    "怠惰": 2.0,
+    "暴食": 1.0,
+    "忧郁": 2.0,
+    "傲慢": 1.0,
+    "嫉妒": 1.0
+  },
+  "panic_types": [],
+  "passives": [
+    "如同飞蛾扑火: 自身优先攻击体力上限最低的敌方单位 施加 烧伤 的攻击技能或 烧伤 伤害击杀敌方单位时，使自身恢复10点理智值(每回合最多1次)",
+    "耐火: 自身不会因 烧伤 伤害而陷入混乱或使体力降至1点以下，外部效果不会使自身无法行动 受到的 烧伤 伤害-50%",
+    "E.G.O感应度 增加: 关卡开始时，使自身获得 E.G.O感应度 增加 若现存体力低于70%，则令自身攻击命中时使目标与自身增加1级 烧伤 强度",
+    "E.G.O共鸣度 增加: 回合开始时，每有1名身着E.G.O装备的友方单位，使自身获得1层 攻击等级提升",
+    "最后的手段: 回合结束时，若除自身以外的全体友方单位因外部效果而无法行动，则下回合装备“红艳煞 最大感应【劣化侵蚀】” “全部……果然……”",
+    "偏离命运: 霍恩海姆阵亡时若自身阵亡，则战斗失败"
+  ],
+  "skills": [
+    {
+      "skill_name": "点火",
+      "icon_id": "40000701",
+      "sin_type": "傲慢",
+      "damage_type": "打击",
+      "base_value": 4,
+      "coin_power": 3,
+      "coin_count": 4,
+      "attack_level": 53,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[使用时] 若目标带有的负面状态不少于3种，则使本技能的基础威力+1",
+        "[使用时] 自身的 烧伤 强度与目标的 烧伤 强度之和每有6级，使本技能的硬币威力+1(最多+2)",
+        "[使用时] 对自身施加1层 烧伤",
+        "[命中时] 使目标增加4级 烧伤 强度并对其施加1层 烧伤 不可摧毁的硬币",
+        "[命中时] 使自身增加1级 烧伤 强度"
+      ]
+    },
+    {
+      "skill_name": "E.G.O红艳煞 展开",
+      "icon_id": "40000702",
+      "sin_type": "色欲",
+      "damage_type": "打击",
+      "base_value": 5,
+      "coin_power": 9,
+      "coin_count": 5,
+      "attack_level": 54,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[使用时] 若目标带有的负面状态不少于3种，则使本技能的基础威力+1",
+        "[使用时] 自身的 烧伤 强度与主要目标的 烧伤 强度之和每有6级，使本技能的硬币威力+1(最多+2)",
+        "[使用时] 对自身施加3层 烧伤",
+        "[命中时] 对目标施加3层 烧伤",
+        "[命中时] 使目标增加4级 烧伤 强度 不可摧毁的硬币",
+        "[命中时] 使自身增加1级 烧伤 强度"
+      ]
+    },
+    {
+      "skill_name": "渴火",
+      "icon_id": "40000703",
+      "sin_type": "暴怒",
+      "damage_type": "打击",
+      "base_value": 6,
+      "coin_power": 987,
+      "coin_count": 5,
+      "attack_level": 55,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[使用时] 若目标带有的负面状态不少于3种，则使本技能的基础威力+1",
+        "[使用时] 自身的 烧伤 强度与主要目标的 烧伤 强度之和每有6级，使本技能的硬币威力+1(最多+2)",
+        "[使用时] 自身的 烧伤 强度与主要目标的 烧伤 强度之和每有1级，使本技能造成的伤害+1%(最多+50%)",
+        "[使用时] 对自身施加2层 烧伤",
+        "[命中时] 对目标施加4层 烧伤",
+        "[命中时] 使目标增加5级 烧伤 强度 不可摧毁的硬币",
+        "[命中时] 使自身增加2级 烧伤 强度"
+      ]
+    },
+    {
+      "skill_name": "红艳煞 最大感应【劣化侵蚀】",
+      "icon_id": "40000705",
+      "sin_type": "暴怒",
+      "damage_type": "打击",
+      "base_value": 15,
+      "coin_power": 987,
+      "coin_count": 2,
+      "attack_level": 56,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[使用时] 自身的 烧伤 强度与全体目标的 烧伤 强度之和每有1级，使本技能造成的伤害+1%(最多+100%)",
+        "[命中时] 使目标增加10级 烧伤 强度并对其施加2层 烧伤"
+      ]
+    },
+    {
+      "skill_name": "提升红艳煞感应度",
+      "icon_id": "40000704",
+      "sin_type": "怠惰",
+      "damage_type": "守备",
+      "base_value": 6,
+      "coin_power": 9703,
+      "coin_count": 1,
+      "attack_level": 0,
+      "attack_weight": 1,
+      "is_guard": true,
+      "guard_type": "闪避",
+      "importance": 0,
+      "coin_effects": [
+        "使用时若自身的烧伤强度不低于10级，则使本技能的硬币威力+3",
+        "使用时使自身的烧伤强度减少10级",
+        "闪避成功时使自身的烧伤强度减少5级(每回合最多1次)"
+      ]
+    }
+  ],
+  "is_ally": true,
+  "_structured": true,
+  "appear_stages": [
+    "主线战斗9-37"
+  ],
+  "enemy_id": "主线战斗9-37|LCE E.G.O::红艳煞 阿莉莎|",
+  "defense": 50,
+  "speed": "3~5",
+  "_schema_version": 1
+}

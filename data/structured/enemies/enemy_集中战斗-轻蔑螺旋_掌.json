@@ -1,0 +1,38 @@
+{
+  "page_type": "enemy",
+  "title": "集中战斗-轻蔑螺旋",
+  "enemy_name": "掌",
+  "battle_stage": "集中战斗-轻蔑螺旋",
+  "body_part": "掌",
+  "hp": 74,
+  "defense_level": 45,
+  "speed_min": 2,
+  "speed_max": 4,
+  "chaos_threshold": "0.5/0",
+  "physical_resistances": {
+    "斩击": 1.0,
+    "突刺": 1.0,
+    "打击": 1.2
+  },
+  "sin_resistances": {
+    "暴怒": 1.2,
+    "色欲": 1.0,
+    "怠惰": 1.0,
+    "暴食": 1.0,
+    "忧郁": 1.0,
+    "傲慢": 1.0,
+    "嫉妒": 1.0
+  },
+  "panic_types": [],
+  "passives": [],
+  "skills": [],
+  "is_ally": false,
+  "_structured": true,
+  "appear_stages": [
+    "集中战斗-轻蔑螺旋"
+  ],
+  "enemy_id": "集中战斗-轻蔑螺旋|掌|掌",
+  "defense": 45,
+  "speed": "2~4",
+  "_schema_version": 1
+}

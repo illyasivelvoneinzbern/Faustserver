@@ -1,0 +1,110 @@
+{
+  "page_type": "enemy",
+  "title": "折射轨道1号线-终点站-无我",
+  "enemy_name": "执着的圭多",
+  "battle_stage": "折射轨道1号线-终点站-无我",
+  "body_part": "",
+  "hp": 444,
+  "defense_level": 59,
+  "speed_min": 1,
+  "speed_max": 4,
+  "chaos_threshold": "155 / 66",
+  "physical_resistances": {
+    "斩击": 0.75,
+    "突刺": 1.0,
+    "打击": 2.0
+  },
+  "sin_resistances": {
+    "暴怒": 2.0,
+    "色欲": 0.5,
+    "怠惰": 1.0,
+    "暴食": 1.0,
+    "忧郁": 1.0,
+    "傲慢": 1.0,
+    "嫉妒": 1.0
+  },
+  "panic_types": [],
+  "passives": [
+    "修复: 回合开始时，体力恢复至满值。",
+    "折射的挣扎: 无恐慌类型数据"
+  ],
+  "skills": [
+    {
+      "skill_name": "曼怛罗",
+      "icon_id": "852709",
+      "sin_type": "暴怒",
+      "damage_type": "突刺",
+      "base_value": 6,
+      "coin_power": 987,
+      "coin_count": 3,
+      "attack_level": 55,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[命中时] 移除随机属性的3个E.G.O资源"
+      ]
+    },
+    {
+      "skill_name": "穿刺钉刑",
+      "icon_id": "852801",
+      "sin_type": "傲慢",
+      "damage_type": "突刺",
+      "base_value": 6,
+      "coin_power": 3,
+      "coin_count": 2,
+      "attack_level": 55,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[命中时] 下回合对目标施加1层 伤害弱化"
+      ]
+    },
+    {
+      "skill_name": "涤净…",
+      "icon_id": "852802",
+      "sin_type": "色欲",
+      "damage_type": "打击",
+      "base_value": 5,
+      "coin_power": 9,
+      "coin_count": 2,
+      "attack_level": 55,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "2命中时下回合对目标施加1层{{状态2|束缚|4=负面}}"
+      ]
+    },
+    {
+      "skill_name": "异端抹杀",
+      "icon_id": "852803",
+      "sin_type": "暴怒",
+      "damage_type": "突刺",
+      "base_value": 4,
+      "coin_power": 987,
+      "coin_count": 2,
+      "attack_level": 55,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[命中时] 下回合对目标施加3层 麻痹"
+      ]
+    }
+  ],
+  "is_ally": false,
+  "_structured": true,
+  "appear_stages": [
+    "折射轨道1号线-终点站-无我"
+  ],
+  "enemy_id": "折射轨道1号线-终点站-无我|执着的圭多|",
+  "defense": 59,
+  "speed": "1~4",
+  "_schema_version": 1
+}

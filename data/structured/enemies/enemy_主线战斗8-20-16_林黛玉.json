@@ -1,0 +1,126 @@
+{
+  "page_type": "enemy",
+  "title": "主线战斗8-20-16",
+  "enemy_name": "林黛玉",
+  "battle_stage": "主线战斗8-20-16",
+  "body_part": "",
+  "hp": 203,
+  "defense_level": 60,
+  "speed_min": 3,
+  "speed_max": 6,
+  "chaos_threshold": "",
+  "physical_resistances": {
+    "斩击": 1.0,
+    "突刺": 0.5,
+    "打击": 2.0
+  },
+  "sin_resistances": {
+    "暴怒": 1.0,
+    "色欲": 1.0,
+    "怠惰": 1.0,
+    "暴食": 1.0,
+    "忧郁": 1.0,
+    "傲慢": 1.0,
+    "嫉妒": 1.0
+  },
+  "panic_types": [],
+  "passives": [],
+  "skills": [
+    {
+      "skill_name": "刺入破绽",
+      "icon_id": "40000201",
+      "sin_type": "忧郁",
+      "damage_type": "穿刺",
+      "base_value": 8,
+      "coin_power": 3,
+      "coin_count": 2,
+      "attack_level": 57,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[使用时] 若目标带有的负面状态不少于3种，则使本技能的基础威力+1",
+        "[使用时] 使自身获得1层 呼吸法",
+        "[命中时] 使目标增加2级 破裂 强度"
+      ]
+    },
+    {
+      "skill_name": "双刃刺冲",
+      "icon_id": "40000202",
+      "sin_type": "暴食",
+      "damage_type": "穿刺",
+      "base_value": 5,
+      "coin_power": 854,
+      "coin_count": 4,
+      "attack_level": 59,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[使用时] 若目标带有的负面状态不少于3种，则使本技能的硬币威力+1",
+        "[使用时] 使自身增加3级 呼吸法 强度",
+        "[命中时] 对目标施加2层 破裂",
+        "[命中时] 使自身获得1层 呼吸法 使本硬币暴击时造成的伤害+50%",
+        "[命中时] 使目标增加3级 破裂 强度"
+      ]
+    },
+    {
+      "skill_name": "戮力同心",
+      "icon_id": "40000203",
+      "sin_type": "傲慢",
+      "damage_type": "穿刺",
+      "base_value": 5,
+      "coin_power": 3,
+      "coin_count": 5,
+      "attack_level": 60,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[使用时] 若目标带有的负面状态不少于3种，则使本技能的硬币威力+1",
+        "[使用时] 使自身获得3层 呼吸法",
+        "[使用时] 使自身增加6级 呼吸法 强度",
+        "[命中时] 对目标施加2层 破裂",
+        "[命中时] 使自身获得1层 呼吸法"
+      ]
+    },
+    {
+      "skill_name": "防护",
+      "icon_id": "40000204",
+      "sin_type": "忧郁",
+      "damage_type": "防御",
+      "base_value": 4,
+      "coin_power": 3,
+      "coin_count": 3,
+      "attack_level": 0,
+      "attack_weight": 1,
+      "is_guard": true,
+      "guard_type": "防御",
+      "importance": 0,
+      "coin_effects": [
+        "[使用时] 使自身获得2层 守护姿态 不可摧毁的硬币"
+      ]
+    }
+  ],
+  "is_ally": true,
+  "_structured": true,
+  "appear_stages": [
+    "主线战斗8-20-16",
+    "主线战斗8-20-17",
+    "主线战斗8-20-18",
+    "主线战斗8-20-19",
+    "主线战斗8-20-20",
+    "主线战斗8-20-21",
+    "主线战斗8-20-22",
+    "主线战斗8-20-24",
+    "主线战斗8-20-25",
+    "主线战斗8-20-26"
+  ],
+  "enemy_id": "主线战斗8-20-16|林黛玉|",
+  "defense": 60,
+  "speed": "3~6",
+  "_schema_version": 1
+}

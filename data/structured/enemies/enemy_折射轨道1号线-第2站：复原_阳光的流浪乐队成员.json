@@ -1,0 +1,110 @@
+{
+  "page_type": "enemy",
+  "title": "折射轨道1号线-第2站：复原",
+  "enemy_name": "阳光的流浪乐队成员",
+  "battle_stage": "折射轨道1号线-第2站：复原",
+  "body_part": "身体",
+  "hp": 105,
+  "defense_level": 105,
+  "speed_min": 0,
+  "speed_max": 0,
+  "chaos_threshold": "2-5",
+  "physical_resistances": {
+    "斩击": 2.0,
+    "突刺": 1.0,
+    "打击": 0.75
+  },
+  "sin_resistances": {
+    "暴怒": 0.75,
+    "色欲": 1.5,
+    "怠惰": 1.0,
+    "暴食": 2.0,
+    "忧郁": 0.75,
+    "傲慢": 1.0,
+    "嫉妒": 1.0
+  },
+  "panic_types": [],
+  "passives": [
+    "无"
+  ],
+  "skills": [
+    {
+      "skill_name": "来跳舞吧~",
+      "icon_id": "9002401",
+      "sin_type": "怠惰",
+      "damage_type": "突刺",
+      "base_value": 2,
+      "coin_power": 9703,
+      "coin_count": 4,
+      "attack_level": 32,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[命中时] 使自身恢复2点理智值"
+      ]
+    },
+    {
+      "skill_name": "宁静之舞",
+      "icon_id": "9002402",
+      "sin_type": "嫉妒",
+      "damage_type": "斩击",
+      "base_value": 3,
+      "coin_power": 5793,
+      "coin_count": 1,
+      "attack_level": 32,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "使用时下回合使全体友方单位获得1层忍耐"
+      ]
+    },
+    {
+      "skill_name": "诶~呀！",
+      "icon_id": "9002405",
+      "sin_type": "常规",
+      "damage_type": "闪避",
+      "base_value": 2,
+      "coin_power": 79,
+      "coin_count": 1,
+      "attack_level": 33,
+      "attack_weight": 1,
+      "is_guard": true,
+      "guard_type": "闪避",
+      "importance": 0,
+      "coin_effects": [
+        "闪避成功时使目标失去5点理智值"
+      ]
+    },
+    {
+      "skill_name": "舞蹈决斗",
+      "icon_id": "9002403",
+      "sin_type": "忧郁",
+      "damage_type": "斩击",
+      "base_value": 2,
+      "coin_power": 3,
+      "coin_count": 2,
+      "attack_level": 32,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "拼点胜利使目标失去5点理智值",
+        "3命中时下回合对目标施加2层虚弱"
+      ]
+    }
+  ],
+  "is_ally": false,
+  "_structured": true,
+  "appear_stages": [
+    "折射轨道1号线-第2站：复原"
+  ],
+  "enemy_id": "折射轨道1号线-第2站：复原|阳光的流浪乐队成员|身体",
+  "defense": 105,
+  "speed": "0~0",
+  "_schema_version": 1
+}

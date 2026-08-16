@@ -1,0 +1,110 @@
+{
+  "page_type": "enemy",
+  "title": "活动战斗3.5-02",
+  "enemy_name": "眼前一黑的K公司安检人员",
+  "battle_stage": "活动战斗3.5-02",
+  "body_part": "",
+  "hp": 137,
+  "defense_level": 27,
+  "speed_min": 1,
+  "speed_max": 3,
+  "chaos_threshold": "",
+  "physical_resistances": {
+    "斩击": 2.0,
+    "突刺": 0.75,
+    "打击": 1.0
+  },
+  "sin_resistances": {
+    "暴怒": 1.0,
+    "色欲": 1.0,
+    "怠惰": 1.0,
+    "暴食": 1.0,
+    "忧郁": 1.0,
+    "傲慢": 1.0,
+    "嫉妒": 1.0
+  },
+  "panic_types": [
+    "无措"
+  ],
+  "passives": [
+    "HP弹：回合开始时，恢复15点体力。 若自身的体力低于50%，则额外恢复15点体力。"
+  ],
+  "skills": [
+    {
+      "skill_name": "叽叽叽叽",
+      "icon_id": "9004501",
+      "sin_type": "怠惰",
+      "damage_type": "",
+      "base_value": 3,
+      "coin_power": 6,
+      "coin_count": 2,
+      "attack_level": 20,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[正面命中时] 使目标增加5级 震颤 强度"
+      ]
+    },
+    {
+      "skill_name": "叽叽叽叽",
+      "icon_id": "9004502",
+      "sin_type": "怠惰",
+      "damage_type": "",
+      "base_value": 4,
+      "coin_power": 6,
+      "coin_count": 2,
+      "attack_level": 20,
+      "attack_weight": 1,
+      "is_guard": true,
+      "guard_type": "防御",
+      "importance": 0,
+      "coin_effects": [
+        "[命中时] 下回合对目标施加1层 束缚 与2层 防御等级降低"
+      ]
+    },
+    {
+      "skill_name": "叽伊叽叽",
+      "icon_id": "9004503",
+      "sin_type": "怠惰",
+      "damage_type": "",
+      "base_value": 6,
+      "coin_power": 8,
+      "coin_count": 2,
+      "attack_level": 20,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[使用时] 使自身获得2层 守护",
+        "[命中时] 使目标 震颤引爆"
+      ]
+    },
+    {
+      "skill_name": "防御",
+      "icon_id": "9004403",
+      "sin_type": "常规",
+      "damage_type": "",
+      "base_value": 4,
+      "coin_power": 4,
+      "coin_count": 1,
+      "attack_level": 0,
+      "attack_weight": 1,
+      "is_guard": true,
+      "guard_type": "防御",
+      "importance": 0,
+      "coin_effects": []
+    }
+  ],
+  "is_ally": false,
+  "_structured": true,
+  "appear_stages": [
+    "活动战斗3.5-02"
+  ],
+  "enemy_id": "活动战斗3.5-02|眼前一黑的K公司安检人员|",
+  "defense": 27,
+  "speed": "1~3",
+  "_schema_version": 1
+}

@@ -1,0 +1,173 @@
+{
+  "page_type": "enemy",
+  "title": "主线战斗4-47",
+  "enemy_name": "脑叶公司E.G.O::狐雨 - 冬柏",
+  "battle_stage": "主线战斗4-47",
+  "body_part": "躯干",
+  "hp": 500,
+  "defense_level": 32,
+  "speed_min": 3,
+  "speed_max": 5,
+  "chaos_threshold": "0",
+  "physical_resistances": {
+    "斩击": 1.0,
+    "突刺": 1.0,
+    "打击": 1.5
+  },
+  "sin_resistances": {
+    "暴怒": 0.5,
+    "色欲": 0.5,
+    "怠惰": 1.0,
+    "暴食": 1.0,
+    "忧郁": 2.0,
+    "傲慢": 1.5,
+    "嫉妒": 1.0
+  },
+  "panic_types": [
+    "岌岌可危的心灵",
+    "混乱不安的心灵"
+  ],
+  "passives": [
+    "脑叶公司E.G.O: 战斗开始时，拥有体力值为1200点的护盾。",
+    "岌岌可危的精神: 回合结束时，失去10点理智值。",
+    "岌岌可危的心灵: 士气低落状态时，获得2层 强壮 ，3层 束缚 。",
+    "混乱不安的心灵: 如果处于恐慌状态则陷入混乱。",
+    "决心: 从恐慌状态中恢复时，使理智值回复至最大，并获得2层 迅捷 ，2层 强壮 。",
+    "固定恐慌: 被施加改变恐慌类型的状态时，自身的恐慌类型不会改变。效果改为对没有理智值的单位施加的效果。"
+  ],
+  "skills": [
+    {
+      "skill_name": "蛰痛心灵的回忆",
+      "icon_id": "804301",
+      "sin_type": "怠惰",
+      "damage_type": "打击",
+      "base_value": 3,
+      "coin_power": 9703,
+      "coin_count": 4,
+      "attack_level": 34,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[命中时] 使目标增加2级 沉沦 强度与2级 破裂 强度"
+      ]
+    },
+    {
+      "skill_name": "荆棘蔓生的追忆",
+      "icon_id": "804302",
+      "sin_type": "暴食",
+      "damage_type": "穿刺",
+      "base_value": 5,
+      "coin_power": 854,
+      "coin_count": 3,
+      "attack_level": 34,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[命中时] 对目标施加2层 沉沦",
+        "[命中时] 对目标施加2层 破裂"
+      ]
+    },
+    {
+      "skill_name": "自我防御",
+      "icon_id": "804303",
+      "sin_type": "暴食",
+      "damage_type": "打击",
+      "base_value": 10,
+      "coin_power": 854,
+      "coin_count": 2,
+      "attack_level": 34,
+      "attack_weight": 1,
+      "is_guard": true,
+      "guard_type": "防御",
+      "importance": 0,
+      "coin_effects": [
+        "[命中时] 下回合对目标施加2层 束缚 与2层 虚弱"
+      ]
+    },
+    {
+      "skill_name": "愈加刺痛的心",
+      "icon_id": "804304",
+      "sin_type": "忧郁",
+      "damage_type": "穿刺",
+      "base_value": 13,
+      "coin_power": 3,
+      "coin_count": 3,
+      "attack_level": 38,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[命中时] 使目标增加3级 破裂 强度",
+        "[命中时] 对目标施加3层 破裂",
+        "[命中时] 使目标的混乱阈值前移本硬币伤害量的50%"
+      ]
+    },
+    {
+      "skill_name": "全部沉沦吧",
+      "icon_id": "804305",
+      "sin_type": "忧郁",
+      "damage_type": "穿刺",
+      "base_value": 26,
+      "coin_power": 3,
+      "coin_count": 2,
+      "attack_level": 38,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[使用时] 使自身失去30点理智值并增加5级 沉沦 强度。下回合使自身获得 渐被侵蚀的心灵",
+        "[命中时] 使目标失去15点理智值",
+        "[命中时] 使目标增加8级 沉沦 强度并对其施加8层 剧毒"
+      ]
+    },
+    {
+      "skill_name": "别过来",
+      "icon_id": "804306",
+      "sin_type": "常规",
+      "damage_type": "闪避",
+      "base_value": 8,
+      "coin_power": 79,
+      "coin_count": 1,
+      "attack_level": 0,
+      "attack_weight": 1,
+      "is_guard": true,
+      "guard_type": "闪避",
+      "importance": 0,
+      "coin_effects": [
+        "闪避失败时使自身失去8点理智值"
+      ]
+    },
+    {
+      "skill_name": "别碰我……！",
+      "icon_id": "804307",
+      "sin_type": "常规",
+      "damage_type": "防御",
+      "base_value": 20,
+      "coin_power": 79,
+      "coin_count": 1,
+      "attack_level": 0,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "战斗开始使自身获得荆棘"
+      ]
+    }
+  ],
+  "is_ally": false,
+  "_structured": true,
+  "appear_stages": [
+    "主线战斗4-47"
+  ],
+  "enemy_id": "主线战斗4-47|脑叶公司E.G.O::狐雨 - 冬柏|躯干",
+  "defense": 32,
+  "speed": "3~5",
+  "_schema_version": 1
+}

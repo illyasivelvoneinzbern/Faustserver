@@ -1,0 +1,21 @@
+{
+  "id": "gift_9841",
+  "title": "C型清扫人员装备套组",
+  "url": "https://limbuscompany.huijiwiki.com/wiki/E.G.O饰品",
+  "categories": [
+    "E.G.O饰品"
+  ],
+  "content": "使用获得充能层数或特殊充能的技能后，使自身获得相应层数的应急力场电池(每个友方单位最多7层)\n消耗充能层数或特殊充能的技能造成的伤害+(编队中拥有获得或消耗充能层数或特殊充能的友方单位数)%(包括编队中全体单位)\n消耗充能层数或特殊充能的1技能的拼点威力+3，造成的伤害+15% \n- 使用该技能时，使自身获得4层充能与1层充能力场(每回合每名友方单位最多1次)\n属于W公司的友方单位获得以下效果",
+  "source": "tabx",
+  "_structured": true,
+  "page_type": "ego_gift",
+  "gift_name": "C型清扫人员装备套组",
+  "rarity": 4,
+  "cost": "401",
+  "effect_types": "充能",
+  "attack_type": "嫉妒",
+  "location": "镜像迷宫",
+  "stage": "base",
+  "special": "WARP快车谋杀案复刻合成",
+  "_schema_version": 1
+}

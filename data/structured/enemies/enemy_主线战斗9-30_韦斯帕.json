@@ -1,0 +1,175 @@
+{
+  "page_type": "enemy",
+  "title": "主线战斗9-30",
+  "enemy_name": "韦斯帕",
+  "battle_stage": "主线战斗9-30",
+  "body_part": "",
+  "hp": 1632,
+  "defense_level": 87,
+  "speed_min": 5,
+  "speed_max": 8,
+  "chaos_threshold": "无",
+  "physical_resistances": {
+    "斩击": 0.5,
+    "突刺": 1.0,
+    "打击": 1.0
+  },
+  "sin_resistances": {
+    "暴怒": 1.0,
+    "色欲": 1.0,
+    "怠惰": 1.0,
+    "暴食": 1.0,
+    "忧郁": 1.0,
+    "傲慢": 1.0,
+    "嫉妒": 1.0
+  },
+  "panic_types": [],
+  "passives": [
+    "蜜黄标枪(命名者：以斯拉): 回合开始时，使自身获得 蜜黄标枪 (每场战斗最多1次) 以理智值为35点的状态开始战斗 回合结束时，若敌方单位的体力低于50%，则使自身获得 心-蜜黄标枪 “听我说呀！老末，那把标枪你耍起来很顺手吧！ 那把标枪真的超级特别吧！而且你打算成为黄色吧！ 那不就该是蜜黄标枪嘛！！！”",
+    "冈格尼尔: • 拼点胜利后根据拼点次数按比例增加 （增加量：基础值为10，从第二次拼点起，每次拼点增加20%） • 击杀敌方单位时，不论该敌方单位等级，增加10 • 友方单位击杀敌方单位时，不论该敌方单位等级，增加5"
+  ],
+  "skills": [
+    {
+      "skill_name": "牵制",
+      "icon_id": "40000603",
+      "sin_type": "怠惰",
+      "damage_type": "斩击",
+      "base_value": 20,
+      "coin_power": 9703,
+      "coin_count": 3,
+      "attack_level": 89,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[使用时] 目标的 流血 强度与 震颤 强度之和每有2级，使本技能的基础威力+1(最多+5)",
+        "[使用时] 使自身获得3层 呼吸法",
+        "[命中时] 使目标增加5级 震颤 强度"
+      ]
+    },
+    {
+      "skill_name": "二连切",
+      "icon_id": "40000602",
+      "sin_type": "怠惰",
+      "damage_type": "斩击",
+      "base_value": 21,
+      "coin_power": 9703,
+      "coin_count": 3,
+      "attack_level": 89,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[使用时] 目标的 流血 强度与 震颤 强度之和每有2级，使本技能的基础威力+1(最多+5)",
+        "[使用时] 使自身获得3层 呼吸法",
+        "[命中时] 对目标施加3层 流血",
+        "[命中时] 对目标施加3层 震颤"
+      ]
+    },
+    {
+      "skill_name": "标枪投掷",
+      "icon_id": "40000603",
+      "sin_type": "怠惰",
+      "damage_type": "突刺",
+      "base_value": 24,
+      "coin_power": 9703,
+      "coin_count": 3,
+      "attack_level": 90,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[使用时] 下回合使自身获得2层 闪蜂光剑术-环刀 不可摧毁的硬币",
+        "[命中时] 对目标施加 穿刺标枪【蜂针】",
+        "[命中时] 使目标的混乱阈值前移本硬币伤害量的80%"
+      ]
+    },
+    {
+      "skill_name": "标枪回收",
+      "icon_id": "40000605",
+      "sin_type": "怠惰",
+      "damage_type": "突刺",
+      "base_value": 26,
+      "coin_power": 9703,
+      "coin_count": 1,
+      "attack_level": 90,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "无法拼点",
+        "目标每带有1种负面状态，使本技能造成的伤害+50%(最多+200%)",
+        "命中时解除目标的穿刺标枪"
+      ]
+    },
+    {
+      "skill_name": "标枪深埋-就在那里吧。",
+      "icon_id": "40000604",
+      "sin_type": "怠惰",
+      "damage_type": "突刺",
+      "base_value": 36,
+      "coin_power": 9703,
+      "coin_count": 3,
+      "attack_level": 92,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[使用时] 下回合使自身获得5层 闪蜂光剑术-环刀 不可摧毁的硬币",
+        "[命中时] 对目标施加 穿刺标枪【胡蜂针】",
+        "[命中时] 使目标陷入混乱"
+      ]
+    },
+    {
+      "skill_name": "该反击了。",
+      "icon_id": "40000606",
+      "sin_type": "怠惰",
+      "damage_type": "可拼点反击",
+      "base_value": 20,
+      "coin_power": 9703,
+      "coin_count": 3,
+      "attack_level": 90,
+      "attack_weight": 1,
+      "is_guard": true,
+      "guard_type": "反击",
+      "importance": 0,
+      "coin_effects": [
+        "[使用时] 下回合使自身获得2层 威力提升 与2层 伤害强化",
+        "[命中时] 使目标增加5级 震颤 强度",
+        "[命中时] 对目标施加3层 震颤"
+      ]
+    },
+    {
+      "skill_name": "我来援护。",
+      "icon_id": "40000607",
+      "sin_type": "怠惰",
+      "damage_type": "可拼点守备",
+      "base_value": 22,
+      "coin_power": 9703,
+      "coin_count": 3,
+      "attack_level": 89,
+      "attack_weight": 1,
+      "is_guard": true,
+      "guard_type": "防御",
+      "importance": 0,
+      "coin_effects": [
+        "{{状态2|可拼点防御|4=特殊}}",
+        "1{{状态2|不可摧毁的硬币|4=特殊}}"
+      ]
+    }
+  ],
+  "is_ally": true,
+  "_structured": true,
+  "appear_stages": [
+    "主线战斗9-30"
+  ],
+  "enemy_id": "主线战斗9-30|韦斯帕|",
+  "defense": 87,
+  "speed": "5~8",
+  "_schema_version": 1
+}

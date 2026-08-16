@@ -1,0 +1,111 @@
+{
+  "page_type": "enemy",
+  "title": "折射轨道1号线-第4站：再会",
+  "enemy_name": "进行拷问的N公司异端审判官",
+  "battle_stage": "折射轨道1号线-第4站：再会",
+  "body_part": "身体",
+  "hp": 160,
+  "defense_level": 160,
+  "speed_min": 0,
+  "speed_max": 0,
+  "chaos_threshold": "2-4",
+  "physical_resistances": {
+    "斩击": 0.75,
+    "突刺": 1.0,
+    "打击": 2.0
+  },
+  "sin_resistances": {
+    "暴怒": 1.0,
+    "色欲": 0.75,
+    "怠惰": 2.0,
+    "暴食": 1.5,
+    "忧郁": 1.0,
+    "傲慢": 0.75,
+    "嫉妒": 1.0
+  },
+  "panic_types": [],
+  "passives": [
+    "无"
+  ],
+  "skills": [
+    {
+      "skill_name": "粗暴钉击",
+      "icon_id": "9003502",
+      "sin_type": "傲慢",
+      "damage_type": "突刺",
+      "base_value": 3,
+      "coin_power": 3,
+      "coin_count": 4,
+      "attack_level": 29,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[命中时] 下回合对目标施加1层 N公司的尖钉 并使其增加1级 流血 强度"
+      ]
+    },
+    {
+      "skill_name": "竟敢！",
+      "icon_id": "9003504",
+      "sin_type": "暴怒",
+      "damage_type": "突刺",
+      "base_value": 3,
+      "coin_power": 987,
+      "coin_count": 2,
+      "attack_level": 29,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[正面命中时] 下回合对目标施加1层 N公司的尖钉"
+      ]
+    },
+    {
+      "skill_name": "狂热的宣教",
+      "icon_id": "9003503",
+      "sin_type": "色欲",
+      "damage_type": "突刺",
+      "base_value": 4,
+      "coin_power": 9,
+      "coin_count": 2,
+      "attack_level": 29,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "拼点失败下回合对自身施加2层易损",
+        "2命中时下回合对目标施加2层易损"
+      ]
+    },
+    {
+      "skill_name": "粗暴的异端审判",
+      "icon_id": "9003701",
+      "sin_type": "暴怒",
+      "damage_type": "打击",
+      "base_value": 6,
+      "coin_power": 987,
+      "coin_count": 3,
+      "attack_level": 29,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "2正面命中时对目标施加1层N公司的尖钉",
+        "3命中时若目标的N公司的尖钉层数高于5层，则在下回合对其施加10层束缚"
+      ]
+    }
+  ],
+  "is_ally": false,
+  "_structured": true,
+  "appear_stages": [
+    "折射轨道1号线-第4站：再会"
+  ],
+  "enemy_id": "折射轨道1号线-第4站：再会|进行拷问的N公司异端审判官|身体",
+  "defense": 160,
+  "speed": "0~0",
+  "_schema_version": 1
+}

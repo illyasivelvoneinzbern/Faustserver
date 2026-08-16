@@ -1,0 +1,163 @@
+{
+  "page_type": "enemy",
+  "title": "大湖之镜-绅士精灵",
+  "enemy_name": "普通 - 绅士精灵",
+  "battle_stage": "大湖之镜-绅士精灵",
+  "body_part": "左臂",
+  "hp": 608,
+  "defense_level": 42,
+  "speed_min": 2,
+  "speed_max": 4,
+  "chaos_threshold": "",
+  "physical_resistances": {
+    "斩击": 1.0,
+    "突刺": 2.0,
+    "打击": 0.5
+  },
+  "sin_resistances": {
+    "暴怒": 1.0,
+    "色欲": 0.5,
+    "怠惰": 1.5,
+    "暴食": 0.75,
+    "忧郁": 1.0,
+    "傲慢": 2.0,
+    "嫉妒": 0.5
+  },
+  "panic_types": [],
+  "passives": [],
+  "skills": [
+    {
+      "skill_name": "想喝醉吗？",
+      "icon_id": "804801",
+      "sin_type": "暴食",
+      "damage_type": "打击",
+      "base_value": 4,
+      "coin_power": 854,
+      "coin_count": 2,
+      "attack_level": 49,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[命中时] 使目标增加5级 震颤 强度并对其施加2层 震颤"
+      ]
+    },
+    {
+      "skill_name": "只剩这些了！",
+      "icon_id": "804803",
+      "sin_type": "暴食",
+      "damage_type": "打击",
+      "base_value": 6,
+      "coin_power": 854,
+      "coin_count": 2,
+      "attack_level": 49,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "进行拼点时，使目标获得2层昂扬"
+      ]
+    },
+    {
+      "skill_name": "分着喝吧！",
+      "icon_id": "804802",
+      "sin_type": "暴食",
+      "damage_type": "打击",
+      "base_value": 6,
+      "coin_power": 854,
+      "coin_count": 2,
+      "attack_level": 49,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[使用时] 使自身恢复体力上限5%的体力",
+        "[命中时] 下回合对目标施加2层 束缚"
+      ]
+    },
+    {
+      "skill_name": "这个我吃了！",
+      "icon_id": "804804",
+      "sin_type": "色欲",
+      "damage_type": "穿刺",
+      "base_value": 8,
+      "coin_power": 9,
+      "coin_count": 2,
+      "attack_level": 49,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[命中时] 若目标带有 昂扬 ，则每层 昂扬 使本硬币造成的伤害+10%",
+        "[命中时] 若目标带有 醉意 则造成0点伤害，并使自身失去50点体力",
+        "[命中时] 消耗目标所有 昂扬 或 醉意"
+      ]
+    },
+    {
+      "skill_name": "这个我吃了！",
+      "icon_id": "804805",
+      "sin_type": "色欲",
+      "damage_type": "穿刺",
+      "base_value": 16,
+      "coin_power": 9,
+      "coin_count": 2,
+      "attack_level": 49,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[命中时] 若目标带有 昂扬 ，则每层 昂扬 使本硬币造成的伤害+100%",
+        "[命中时] 若目标带有 醉意 则造成0点伤害，并使自身失去50点体力",
+        "[命中时] 消耗目标所有 昂扬 或 醉意"
+      ]
+    },
+    {
+      "skill_name": "这次不行！",
+      "icon_id": "804806",
+      "sin_type": "嫉妒",
+      "damage_type": "打击",
+      "base_value": 7,
+      "coin_power": 5793,
+      "coin_count": 2,
+      "attack_level": 49,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[命中时] 攻击精灵酒时，下回合使自身恢复体力上限10%的体力并使自身获得2层 强壮 ，2层 迅捷 与2层 守护"
+      ]
+    },
+    {
+      "skill_name": "想要这杯精灵酒吗？",
+      "icon_id": "804807",
+      "sin_type": "常规",
+      "damage_type": "闪避",
+      "base_value": 10,
+      "coin_power": 79,
+      "coin_count": 1,
+      "attack_level": 0,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "使用时下回合使自身获得1层束缚"
+      ]
+    }
+  ],
+  "is_ally": false,
+  "_structured": true,
+  "appear_stages": [
+    "大湖之镜-绅士精灵"
+  ],
+  "enemy_id": "大湖之镜-绅士精灵|普通 - 绅士精灵|左臂",
+  "defense": 42,
+  "speed": "2~4",
+  "_schema_version": 1
+}

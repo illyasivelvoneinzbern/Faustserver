@@ -1,0 +1,21 @@
+{
+  "id": "gift_1044",
+  "title": "仪式资格",
+  "url": "https://limbuscompany.huijiwiki.com/wiki/E.G.O饰品",
+  "categories": [
+    "E.G.O饰品"
+  ],
+  "content": "全体友方单位受到的色欲伤害-20%。",
+  "source": "tabx",
+  "_structured": true,
+  "page_type": "ego_gift",
+  "gift_name": "仪式资格",
+  "rarity": 0,
+  "cost": "0",
+  "effect_types": "",
+  "attack_type": "傲慢",
+  "location": "第三章",
+  "stage": "base",
+  "event": "事件-最终仪式",
+  "_schema_version": 1
+}

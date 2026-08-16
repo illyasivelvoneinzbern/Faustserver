@@ -1,0 +1,40 @@
+{
+  "page_type": "enemy",
+  "title": "主线战斗6-48",
+  "enemy_name": "魔王希斯克利夫（第三阶段）",
+  "battle_stage": "主线战斗6-48",
+  "body_part": "躯干",
+  "hp": 2439,
+  "defense_level": 45,
+  "speed_min": 2,
+  "speed_max": 4,
+  "chaos_threshold": "1902/1098/0",
+  "physical_resistances": {
+    "斩击": 1.0,
+    "突刺": 1.0,
+    "打击": 1.0
+  },
+  "sin_resistances": {
+    "暴怒": 1.2,
+    "色欲": 1.2,
+    "怠惰": 1.0,
+    "暴食": 1.0,
+    "忧郁": 1.5,
+    "傲慢": 1.0,
+    "嫉妒": 1.5
+  },
+  "panic_types": [
+    "复仇"
+  ],
+  "passives": [],
+  "skills": [],
+  "is_ally": false,
+  "_structured": true,
+  "appear_stages": [
+    "主线战斗6-48"
+  ],
+  "enemy_id": "主线战斗6-48|魔王希斯克利夫（第三阶段）|躯干",
+  "defense": 45,
+  "speed": "2~4",
+  "_schema_version": 1
+}

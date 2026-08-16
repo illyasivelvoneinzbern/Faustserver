@@ -1,0 +1,75 @@
+{
+  "page_type": "enemy",
+  "title": "1-11-1-控制部担任 收容区（上）",
+  "enemy_name": "粗俗的残兵",
+  "battle_stage": "1-11-1-控制部担任 收容区（上）",
+  "body_part": "",
+  "hp": 28,
+  "defense_level": 1,
+  "speed_min": 3,
+  "speed_max": 5,
+  "chaos_threshold": "",
+  "physical_resistances": {
+    "斩击": 2.0,
+    "突刺": 1.0,
+    "打击": 1.0
+  },
+  "sin_resistances": {
+    "暴怒": 1.0,
+    "色欲": 1.0,
+    "怠惰": 1.0,
+    "暴食": 1.0,
+    "忧郁": 1.0,
+    "傲慢": 1.0,
+    "嫉妒": 1.0
+  },
+  "panic_types": [
+    "畏缩"
+  ],
+  "passives": [
+    "负伤的强化肉体：回合开始时，若现存体力不高于50%，则恢复1点体力。"
+  ],
+  "skills": [
+    {
+      "skill_name": "突刺",
+      "icon_id": "9000901",
+      "sin_type": "色欲",
+      "damage_type": "",
+      "base_value": 2,
+      "coin_power": 9,
+      "coin_count": 1,
+      "attack_level": 2,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": []
+    },
+    {
+      "skill_name": "连续突刺",
+      "icon_id": "9001202",
+      "sin_type": "色欲",
+      "damage_type": "",
+      "base_value": 2,
+      "coin_power": 9,
+      "coin_count": 1,
+      "attack_level": 2,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": []
+    }
+  ],
+  "is_ally": false,
+  "_structured": true,
+  "appear_stages": [
+    "1-11-1-控制部担任 收容区（上）",
+    "主线战斗1-10",
+    "经验采光-1"
+  ],
+  "enemy_id": "1-11-1-控制部担任 收容区（上）|粗俗的残兵|",
+  "defense": 1,
+  "speed": "3~5",
+  "_schema_version": 1
+}

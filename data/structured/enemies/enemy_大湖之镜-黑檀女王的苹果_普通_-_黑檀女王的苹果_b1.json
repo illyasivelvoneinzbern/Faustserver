@@ -1,0 +1,133 @@
+{
+  "page_type": "enemy",
+  "title": "大湖之镜-黑檀女王的苹果",
+  "enemy_name": "普通 - 黑檀女王的苹果",
+  "battle_stage": "大湖之镜-黑檀女王的苹果",
+  "body_part": "左侧枝干",
+  "hp": 206,
+  "defense_level": 44,
+  "speed_min": 1,
+  "speed_max": 3,
+  "chaos_threshold": "",
+  "physical_resistances": {
+    "斩击": 2.0,
+    "突刺": 0.75,
+    "打击": 1.0
+  },
+  "sin_resistances": {
+    "暴怒": 2.0,
+    "色欲": 1.0,
+    "怠惰": 1.0,
+    "暴食": 1.0,
+    "忧郁": 0.5,
+    "傲慢": 2.0,
+    "嫉妒": 0.75
+  },
+  "panic_types": [],
+  "passives": [],
+  "skills": [
+    {
+      "skill_name": "怀疑猜忌",
+      "icon_id": "8001001",
+      "sin_type": "暴食",
+      "damage_type": "",
+      "base_value": 2,
+      "coin_power": 854,
+      "coin_count": 1,
+      "attack_level": 46,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": []
+    },
+    {
+      "skill_name": "苦难蔓延",
+      "icon_id": "8001005",
+      "sin_type": "傲慢",
+      "damage_type": "",
+      "base_value": 6,
+      "coin_power": 3,
+      "coin_count": 2,
+      "attack_level": 46,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[命中时] 下回合对目标施加1层 易损"
+      ]
+    },
+    {
+      "skill_name": "褪色枝干",
+      "icon_id": "8001002",
+      "sin_type": "暴食",
+      "damage_type": "",
+      "base_value": 2,
+      "coin_power": 854,
+      "coin_count": 1,
+      "attack_level": 46,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": []
+    },
+    {
+      "skill_name": "褪色枝干",
+      "icon_id": "8001003",
+      "sin_type": "暴食",
+      "damage_type": "",
+      "base_value": 2,
+      "coin_power": 854,
+      "coin_count": 1,
+      "attack_level": 46,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": []
+    },
+    {
+      "skill_name": "根生荆棘",
+      "icon_id": "8001004",
+      "sin_type": "傲慢",
+      "damage_type": "",
+      "base_value": 4,
+      "coin_power": 3,
+      "coin_count": 2,
+      "attack_level": 46,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[正面命中时] 下回合对目标施加3层 流血"
+      ]
+    },
+    {
+      "skill_name": "徒劳之果",
+      "icon_id": "8001006",
+      "sin_type": "常规",
+      "damage_type": "",
+      "base_value": 4,
+      "coin_power": 79,
+      "coin_count": 1,
+      "attack_level": 0,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": []
+    }
+  ],
+  "is_ally": false,
+  "_structured": true,
+  "appear_stages": [
+    "大湖之镜-黑檀女王的苹果"
+  ],
+  "enemy_id": "大湖之镜-黑檀女王的苹果|普通 - 黑檀女王的苹果|左侧枝干",
+  "defense": 44,
+  "speed": "1~3",
+  "_schema_version": 1
+}

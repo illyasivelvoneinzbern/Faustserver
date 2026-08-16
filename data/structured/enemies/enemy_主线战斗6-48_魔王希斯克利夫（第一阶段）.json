@@ -1,0 +1,125 @@
+{
+  "page_type": "enemy",
+  "title": "主线战斗6-48",
+  "enemy_name": "魔王希斯克利夫（第一阶段）",
+  "battle_stage": "主线战斗6-48",
+  "body_part": "躯干",
+  "hp": 2439,
+  "defense_level": 45,
+  "speed_min": 2,
+  "speed_max": 4,
+  "chaos_threshold": "1902/1098/0",
+  "physical_resistances": {
+    "斩击": 1.0,
+    "突刺": 1.0,
+    "打击": 1.0
+  },
+  "sin_resistances": {
+    "暴怒": 1.2,
+    "色欲": 1.2,
+    "怠惰": 1.0,
+    "暴食": 1.0,
+    "忧郁": 1.5,
+    "傲慢": 1.0,
+    "嫉妒": 1.5
+  },
+  "panic_types": [
+    "复仇"
+  ],
+  "passives": [],
+  "skills": [
+    {
+      "skill_name": "巨剑砍击",
+      "icon_id": "817301",
+      "sin_type": "嫉妒",
+      "damage_type": "",
+      "base_value": 4,
+      "coin_power": 5793,
+      "coin_count": 2,
+      "attack_level": 45,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[命中时] 对目标施加3层 沉沦 并使其增加3级 沉沦 强度"
+      ]
+    },
+    {
+      "skill_name": "击倒出局",
+      "icon_id": "817302",
+      "sin_type": "暴怒",
+      "damage_type": "",
+      "base_value": 4,
+      "coin_power": 987,
+      "coin_count": 4,
+      "attack_level": 45,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[命中时] 对目标施加3层 沉沦 并使其增加3级 沉沦 强度",
+        "[命中时] 使目标增加3级 流血 强度",
+        "[命中时] 使目标增加相当于其 沉沦 强度的 流血 强度"
+      ]
+    },
+    {
+      "skill_name": "回应我的呼唤，呼啸山庄",
+      "icon_id": "817303",
+      "sin_type": "忧郁",
+      "damage_type": "",
+      "base_value": 3,
+      "coin_power": 3,
+      "coin_count": 1,
+      "attack_level": 45,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": []
+    },
+    {
+      "skill_name": "把你也装进这棺材",
+      "icon_id": "817304",
+      "sin_type": "色欲",
+      "damage_type": "",
+      "base_value": 3,
+      "coin_power": 9,
+      "coin_count": 1,
+      "attack_level": 45,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": []
+    },
+    {
+      "skill_name": "斩首希斯克利夫",
+      "icon_id": "817305",
+      "sin_type": "忧郁",
+      "damage_type": "",
+      "base_value": 8,
+      "coin_power": 3,
+      "coin_count": 2,
+      "attack_level": 45,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[命中时] 下回合对目标施加3层 麻痹",
+        "[命中时] 使目标增加8级 流血 强度"
+      ]
+    }
+  ],
+  "is_ally": false,
+  "_structured": true,
+  "appear_stages": [
+    "主线战斗6-48"
+  ],
+  "enemy_id": "主线战斗6-48|魔王希斯克利夫（第一阶段）|躯干",
+  "defense": 45,
+  "speed": "2~4",
+  "_schema_version": 1
+}

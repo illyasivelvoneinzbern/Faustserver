@@ -1,0 +1,57 @@
+{
+  "page_type": "enemy",
+  "title": "折射轨道2号线-第7站 - 异味",
+  "enemy_name": "折射的精灵酒",
+  "battle_stage": "折射轨道2号线-第7站 - 异味",
+  "body_part": "躯干",
+  "hp": 68,
+  "defense_level": 36,
+  "speed_min": 1,
+  "speed_max": 1,
+  "chaos_threshold": "-",
+  "physical_resistances": {
+    "斩击": 1.0,
+    "突刺": 1.0,
+    "打击": 2.0
+  },
+  "sin_resistances": {
+    "暴怒": 1.5,
+    "色欲": 0.75,
+    "怠惰": 1.0,
+    "暴食": 0.5,
+    "忧郁": 1.0,
+    "傲慢": 1.0,
+    "嫉妒": 1.5
+  },
+  "panic_types": [],
+  "passives": [],
+  "skills": [
+    {
+      "skill_name": "甜美的精灵酒",
+      "icon_id": "805101",
+      "sin_type": "常规",
+      "damage_type": "防御",
+      "base_value": 1,
+      "coin_power": 79,
+      "coin_count": 1,
+      "attack_level": 0,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "被人格击杀时，下回合对所有人格施加5层醉意"
+      ]
+    }
+  ],
+  "is_ally": false,
+  "_structured": true,
+  "appear_stages": [
+    "折射轨道2号线-第7站 - 异味",
+    "折射轨道2号线-第7站 - 异味-2"
+  ],
+  "enemy_id": "折射轨道2号线-第7站 - 异味|折射的精灵酒|躯干",
+  "defense": 36,
+  "speed": "1~1",
+  "_schema_version": 1
+}

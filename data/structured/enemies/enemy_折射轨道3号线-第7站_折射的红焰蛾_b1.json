@@ -1,0 +1,178 @@
+{
+  "page_type": "enemy",
+  "title": "折射轨道3号线-第7站",
+  "enemy_name": "折射的红焰蛾",
+  "battle_stage": "折射轨道3号线-第7站",
+  "body_part": "翼",
+  "hp": 307,
+  "defense_level": 45,
+  "speed_min": 1,
+  "speed_max": 2,
+  "chaos_threshold": "",
+  "physical_resistances": {
+    "斩击": 1.5,
+    "突刺": 0.5,
+    "打击": 1.0
+  },
+  "sin_resistances": {
+    "暴怒": 0.2,
+    "色欲": 0.5,
+    "怠惰": 1.5,
+    "暴食": 1.0,
+    "忧郁": 2.0,
+    "傲慢": 1.0,
+    "嫉妒": 0.75
+  },
+  "panic_types": [],
+  "passives": [],
+  "skills": [
+    {
+      "skill_name": "烈焰猛击",
+      "icon_id": "857701",
+      "sin_type": "怠惰",
+      "damage_type": "打击",
+      "base_value": 5,
+      "coin_power": 6,
+      "coin_count": 1,
+      "attack_level": 2,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "使用时使自身获得1层火种",
+        "1命中时使目标增加3级烧伤强度并对其施加2层烧伤"
+      ]
+    },
+    {
+      "skill_name": "红焰翼",
+      "icon_id": "857702",
+      "sin_type": "怠惰",
+      "damage_type": "打击",
+      "base_value": 6,
+      "coin_power": 6,
+      "coin_count": 1,
+      "attack_level": 2,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "使用时使自身获得1层火种",
+        "1命中时下回合对目标施加2层暴怒抗性弱化"
+      ]
+    },
+    {
+      "skill_name": "红艳煞",
+      "icon_id": "857705",
+      "sin_type": "暴怒",
+      "damage_type": "打击",
+      "base_value": 10,
+      "coin_power": 3,
+      "coin_count": 3,
+      "attack_level": 2,
+      "attack_weight": 5,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "使本技能的拼点威力+（红焰蛾本回合使用的暴怒技能数×2）",
+        "使用时使全体敌方单位增加（红焰蛾本回合使用的暴怒技能数×2）级烧伤强度",
+        "1命中时根据红焰蛾本回合使用的暴怒技能数，使目标增加相应的烧伤强度",
+        "正面命中时根据红焰蛾本回合使用的暴怒技能数，使速度值最低的1名敌方单位增加相应的烧伤强度并施加相应层数的烧伤",
+        "2命中时根据红焰蛾本回合使用的暴怒技能数，使目标增加相应的烧伤强度",
+        "正面命中时根据红焰蛾本回合使用的暴怒技能数，使速度值最低的1名敌方单位增加相应的烧伤强度并施加相应层数的烧伤",
+        "3命中时使目标的混乱阈值前移本硬币伤害量的10%",
+        "技能结束时若使目标陷入混乱，则使其增加10级烧伤强度"
+      ]
+    },
+    {
+      "skill_name": "闪避",
+      "icon_id": "857706",
+      "sin_type": "",
+      "damage_type": "闪避",
+      "base_value": 8,
+      "coin_power": 8,
+      "coin_count": 1,
+      "attack_level": 0,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "闪避使用时使目标增加4级烧伤强度",
+        "闪避成功时下回合使自身获得1层火种"
+      ]
+    },
+    {
+      "skill_name": "点燃火种",
+      "icon_id": "857712",
+      "sin_type": "暴怒",
+      "damage_type": "打击",
+      "base_value": 10,
+      "coin_power": 3,
+      "coin_count": 3,
+      "attack_level": 2,
+      "attack_weight": 5,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "无法拼点",
+        "无法改变拼点目标",
+        "3命中时下回合对目标施加2层闪烁的火种"
+      ]
+    },
+    {
+      "skill_name": "点火",
+      "icon_id": "857703",
+      "sin_type": "傲慢",
+      "damage_type": "穿刺",
+      "base_value": 5,
+      "coin_power": 4,
+      "coin_count": 2,
+      "attack_level": 2,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "拼点胜利根据目标带有的烧伤强度，使其增加相应的烧伤强度",
+        "使用时对目标施加2层烧伤",
+        "1命中时若目标的闪烁的火种层数不低于3层，则使其增加10级烧伤强度并对其施加2层烧伤，2层点燃",
+        "2命中时使目标增加6级烧伤强度并对其施加4层烧伤",
+        "命中时下回合对目标施加2层暴怒抗性弱化"
+      ]
+    },
+    {
+      "skill_name": "粉尘爆炸",
+      "icon_id": "857704",
+      "sin_type": "傲慢",
+      "damage_type": "穿刺",
+      "base_value": 5,
+      "coin_power": 5,
+      "coin_count": 2,
+      "attack_level": 2,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "使用时若目标的烧伤强度不低于7级，则使本技能的拼点威力+2",
+        "1命中时根据红焰蛾本回合使用的暴怒技能数，对目标施加相应层数的烧伤",
+        "正面命中时根据红焰蛾本回合使用的暴怒技能数，对速度值最低的1名敌方单位施加相应层数的烧伤",
+        "2命中时根据红焰蛾本回合使用的暴怒技能数，使目标增加相应的烧伤强度",
+        "正面命中时根据红焰蛾本回合使用的暴怒技能数，使速度值最低的1名敌方单位增加相应的烧伤强度"
+      ]
+    }
+  ],
+  "is_ally": false,
+  "_structured": true,
+  "appear_stages": [
+    "折射轨道3号线-第7站"
+  ],
+  "enemy_id": "折射轨道3号线-第7站|折射的红焰蛾|翼",
+  "defense": 45,
+  "speed": "1~2",
+  "_schema_version": 1
+}

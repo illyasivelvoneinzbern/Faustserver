@@ -1,0 +1,33 @@
+{
+  "page_type": "event",
+  "title": "事件-休息时发现的硬血武器",
+  "event_name": "休息时发现的硬血武器",
+  "narration": "在与无尽涌来的血袋的战斗中……\n<嗯……？>\n我们发现了一个不祥的物体掉落在地。\n那东西与血袋持有的武器相似，却又有哪里不同。\n“看来似乎很强？”\n“看来此物凶险。”\n“看来吾搞不清！”\n罪人们众说纷纭。\n……看来是否捡起并使用它，全凭我的选择了。\n\n捡起武器。\n应该总能派上用场的吧。\n结束休息的罪人们，再次向目的地进发。\n……只是没人注意到，捡起武器的罪人的视线已被那血痕紧紧吸引。\n获得\n！\n\n不捡起武器。\n我不愿将来路不明的物品带在身边。\n虽略有遗憾，我还是与罪人们一同向下一处目的地前进。\n什么都没有发生。",
+  "options": [
+    {
+      "choice_text": "捡起武器。",
+      "check_type": "",
+      "check_sin": "",
+      "check_threshold": 0,
+      "success_outcomes": [],
+      "failure_outcomes": []
+    },
+    {
+      "choice_text": "不捡起武器。",
+      "check_type": "",
+      "check_sin": "",
+      "check_threshold": 0,
+      "success_outcomes": [],
+      "failure_outcomes": []
+    }
+  ],
+  "ego_gifts": [],
+  "related_abnormalities": [],
+  "trigger_location": "",
+  "_structured": true,
+  "id": "wiki_事件-休息时发现的硬血武器",
+  "url": "https://limbuscompany.huijiwiki.com/wiki/事件-休息时发现的硬血武器",
+  "categories": [],
+  "source": "wiki",
+  "_schema_version": 1
+}

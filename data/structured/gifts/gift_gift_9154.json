@@ -1,0 +1,20 @@
+{
+  "id": "gift_9154",
+  "title": "强压的重担",
+  "url": "https://limbuscompany.huijiwiki.com/wiki/E.G.O饰品",
+  "categories": [
+    "E.G.O饰品"
+  ],
+  "content": "回合结束时，若没有除自身以外的友方单位存活，则下回合消耗剩余体力5%的体力并获得2层强壮(现存体力不高于25%时不生效)。\n若自身剩余体力不高于50%，则改为获得3层强壮。",
+  "source": "tabx",
+  "_structured": true,
+  "page_type": "ego_gift",
+  "gift_name": "强压的重担",
+  "rarity": 3,
+  "cost": "242",
+  "effect_types": "泛用",
+  "attack_type": "暴怒",
+  "location": "镜像迷宫",
+  "stage": "base",
+  "_schema_version": 1
+}

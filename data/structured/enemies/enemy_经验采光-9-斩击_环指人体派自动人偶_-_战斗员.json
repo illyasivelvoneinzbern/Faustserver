@@ -1,0 +1,115 @@
+{
+  "page_type": "enemy",
+  "title": "经验采光-9-斩击",
+  "enemy_name": "环指人体派自动人偶 - 战斗员",
+  "battle_stage": "经验采光-9-斩击",
+  "body_part": "",
+  "hp": 183,
+  "defense_level": 57,
+  "speed_min": 1,
+  "speed_max": 3,
+  "chaos_threshold": "91",
+  "physical_resistances": {
+    "斩击": 2.0,
+    "突刺": 0.75,
+    "打击": 0.5
+  },
+  "sin_resistances": {
+    "暴怒": 1.0,
+    "色欲": 1.0,
+    "怠惰": 1.0,
+    "暴食": 1.0,
+    "忧郁": 1.0,
+    "傲慢": 1.0,
+    "嫉妒": 1.0
+  },
+  "panic_types": [],
+  "passives": [
+    "被动能力展开环指父辈的作品若主要目标带有的负面状态不少于3种，则使自身的最终威力+1无无理智值类型数据"
+  ],
+  "skills": [
+    {
+      "skill_name": "戳刺",
+      "icon_id": "9103701",
+      "sin_type": "怠惰",
+      "damage_type": "突刺",
+      "base_value": 6,
+      "coin_power": 9703,
+      "coin_count": 2,
+      "attack_level": 58,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[命中时] 使目标增加4级 流血 强度"
+      ]
+    },
+    {
+      "skill_name": "撕裂血管",
+      "icon_id": "9103702",
+      "sin_type": "怠惰",
+      "damage_type": "突刺",
+      "base_value": 5,
+      "coin_power": 9703,
+      "coin_count": 3,
+      "attack_level": 58,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[命中时] 使目标增加3级 流血 强度"
+      ]
+    },
+    {
+      "skill_name": "作品名：伴随心动周期的骨骼解放",
+      "icon_id": "9103703",
+      "sin_type": "色欲",
+      "damage_type": "突刺",
+      "base_value": 6,
+      "coin_power": 9,
+      "coin_count": 5,
+      "attack_level": 58,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[命中时] 对目标施加3层 流血",
+        "[命中时] 使目标增加3级 震颤 强度",
+        "[命中时] 使目标增加5级 流血 强度 不可摧毁的硬币",
+        "[命中时] 使自身增加5级 流血 强度",
+        "[命中时] 使目标增加5级 流血 强度"
+      ]
+    },
+    {
+      "skill_name": "肌肉收缩",
+      "icon_id": "9103705",
+      "sin_type": "常规",
+      "damage_type": "守备",
+      "base_value": 8,
+      "coin_power": 79,
+      "coin_count": 3,
+      "attack_level": 0,
+      "attack_weight": 1,
+      "is_guard": true,
+      "guard_type": "防御",
+      "importance": 0,
+      "coin_effects": [
+        "{{状态2|可拼点防御|4=特殊}}",
+        "战斗开始下回合使自身获得1层肌纤维的机械性收缩与舒张，受到攻击时额外获得1层肌纤维的机械性收缩与舒张(每回合最多1次)",
+        "1{{状态2|不可摧毁的硬币|4=特殊}}"
+      ]
+    }
+  ],
+  "is_ally": false,
+  "_structured": true,
+  "appear_stages": [
+    "经验采光-9-斩击"
+  ],
+  "enemy_id": "经验采光-9-斩击|环指人体派自动人偶 - 战斗员|",
+  "defense": 57,
+  "speed": "1~3",
+  "_schema_version": 1
+}

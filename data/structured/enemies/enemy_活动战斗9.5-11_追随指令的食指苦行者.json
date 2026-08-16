@@ -1,0 +1,93 @@
+{
+  "page_type": "enemy",
+  "title": "活动战斗9.5-11",
+  "enemy_name": "追随指令的食指苦行者",
+  "battle_stage": "活动战斗9.5-11",
+  "body_part": "",
+  "hp": 210,
+  "defense_level": 60,
+  "speed_min": 3,
+  "speed_max": 5,
+  "chaos_threshold": "105 / 0",
+  "physical_resistances": {
+    "斩击": 0.75,
+    "突刺": 1.25,
+    "打击": 1.0
+  },
+  "sin_resistances": {
+    "暴怒": 1.0,
+    "色欲": 1.0,
+    "怠惰": 1.0,
+    "暴食": 1.0,
+    "忧郁": 1.0,
+    "傲慢": 1.0,
+    "嫉妒": 1.0
+  },
+  "panic_types": [],
+  "passives": [
+    "由纸条所传达的指令: 回合开始时： - 根据自身的 BlessingOfIndexPrescriptEnemy 层数，使自身获得 IndexPrescriptEnemy_0 / IndexPrescriptEnemy_1 / IndexPrescriptEnemy_2 / IndexPrescriptEnemy_3 - 随机对1名罪人施加 IndexPrescriptTargetToPersonality (若是集中遭遇战，则优先攻击该罪人) “诸位之中有些人可能知道，指令会以多种方式传达。而在其中，以纸条传达的指令最为常见，也有很多人偏好这种形式。”",
+    "指令之意: 若本回合自身执行了 IndexPrescript_Base ， 则回合结束时使自身恢复5点理智值并获得2层 BlessingOfIndexPrescriptEnemy (每回合最多1次) - 若自身带有 IndexPrescriptEnemy_2 或执行 IndexPrescript_Base 时目标带有 IndexPrescriptTargetToPersonality ， 则改为恢复10点理智值并获得3层 BlessingOfIndexPrescriptEnemy 若本回合自身未执行 IndexPrescript_Base ， 则回合结束时对自身施加10层 KarmaOfIndexEnemy - 若自身的 BlessingOfIndexPrescriptEnemy 低于6层，则使自身获得1层 BlessingOfIndexPrescriptEnemy - 若自身的 BlessingOfIndexPrescriptEnemy 层数为9层，则不会施加 KarmaOfIndexEnemy “那么指令的传达方式……有多少种类型呢？然后那多种形态的指令是否来源于同一处？或者不同的传达方式存在着不同的主体？” “探求这些就是我们食指研究会的义务。请问要入会吗？”",
+    "苦行之刃: • 拼点胜利后根据拼点次数按比例增加 （增加量：基础值为8，从第二次拼点起，每次拼点增加20%，最多100%） • 击杀敌方单位时，不论该敌方单位等级，增加10 • 若攻击命中了食指的指令对象，则回合结束时增加10点理智值"
+  ],
+  "skills": [
+    {
+      "skill_name": "搜捕目标",
+      "icon_id": "9103401",
+      "sin_type": "怠惰",
+      "damage_type": "",
+      "base_value": 0,
+      "coin_power": 4,
+      "coin_count": 3,
+      "attack_level": 59,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "coin_effects": [
+        "[命中时] 使目标增加1级 Sinking 强度",
+        "[命中时] 使目标增加2级 Sinking 强度"
+      ]
+    },
+    {
+      "skill_name": "指令所向",
+      "icon_id": "9103402",
+      "sin_type": "傲慢",
+      "damage_type": "",
+      "base_value": 0,
+      "coin_power": 3,
+      "coin_count": 4,
+      "attack_level": 60,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "coin_effects": [
+        "[命中时] 使自身增加1级 Breath 强度",
+        "[命中时] 使目标增加1级 Sinking 强度",
+        "[命中时] 使目标增加2级 Sinking 强度"
+      ]
+    },
+    {
+      "skill_name": "执行指令",
+      "icon_id": "9103403",
+      "sin_type": "忧郁",
+      "damage_type": "斩击",
+      "base_value": 0,
+      "coin_power": 3,
+      "coin_count": 4,
+      "attack_level": 61,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "coin_effects": [
+        "[命中时] 使自身增加1级 Breath 强度",
+        "[命中时] 使目标增加1级 Sinking 强度 自身每带有1层 BlessingOfIndexPrescriptEnemy ，使本硬币造成的伤害+5%(最多+45%)",
+        "[命中时] 使目标增加3级 Sinking 强度并对其施加2层 Sinking"
+      ]
+    }
+  ],
+  "is_ally": false,
+  "_structured": true,
+  "enemy_id": "活动战斗9.5-11|追随指令的食指苦行者",
+  "defense": 60,
+  "speed": "3~5",
+  "_schema_version": 1
+}

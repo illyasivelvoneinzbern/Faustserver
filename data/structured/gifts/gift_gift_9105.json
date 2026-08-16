@@ -1,0 +1,20 @@
+{
+  "id": "gift_9105",
+  "title": "业火残片",
+  "url": "https://limbuscompany.huijiwiki.com/wiki/E.G.O饰品",
+  "categories": [
+    "E.G.O饰品"
+  ],
+  "content": "使用增加烧伤强度，施加烧伤层数或施加特殊烧伤的E.G.O技能时触发\n最终威力增加相当于消耗的(暴怒罪孽碎片+其他罪孽碎片总和/3)的数值，造成的伤害+50%。\n若是暴怒E.G.O技能，则攻击前根据其E.G.O等级，相应额外对目标施加烧伤层数(ZAYIN施加2层，等级每提升1级，额外施加1层)并使该技能造成的伤害+(攻击容量/攻击目标数×20)%",
+  "source": "tabx",
+  "_structured": true,
+  "page_type": "ego_gift",
+  "gift_name": "业火残片",
+  "rarity": 4,
+  "cost": "400",
+  "effect_types": "烧伤",
+  "attack_type": "色欲",
+  "location": "镜像迷宫",
+  "stage": "base",
+  "_schema_version": 1
+}

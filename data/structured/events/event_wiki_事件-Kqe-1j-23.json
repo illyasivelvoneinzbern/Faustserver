@@ -1,0 +1,148 @@
+{
+  "page_type": "event",
+  "title": "事件-Kqe-1j-23",
+  "event_name": "Kqe-1j-23",
+  "narration": "虽然很黑，但这里应该是一座工厂。\n尖锐的机器轰鸣声不断回响。\n如同眼睛般的荧光色照明物注视着我。\n一个机器人缓缓走来。\n或许是因为尚未完工，\n每动一下都能看见它四处裸露的电线。\n那滴答而下的液体是防冻液，还是说是血呢？\n正当我思考时，机器人胸口处的终端发光了。\n似乎可以输入什么。\n\n输入“你好”\n机器人吃力地举起双臂。\n终端上显示出这样的话。\n<欢迎光临，亲爱的客人。本次小镇观光是否令您感到满意？\n这是赠与您的纪念品。>\n即使终端显示着笑脸，\n但从机器人的动作中，我似乎能听到求救的呐喊声。\n获得\n！\n分支1\n分支2\n输入“请为我介绍小镇”\n<无法理解您的问题。>\n机器人歪着头，在终端上显示出这句话。\n它一边反复尝试将头歪向另一侧，\n一边输出如下的话：\n<莫非客人并未参观小镇？>\n它似乎在等待答案。\n分支1-1\n分支1-2\n分支1-3\n说实话\n<那请恕我无法赠与您纪念品！>\n终端突然咯哒咯哒地向上打开，\n一个机械手臂猛地飞出，试图从我身上拿走什么。\n<请配合我回收纪念品！说谎是不好的。>\n我四处躲闪，但机械手的速度变得更快了。\n<如您拒不合作，将依据规则A62GBFE1对您进行处罚！>\n不离开这里似乎就无法停止机器人的行动，\n于是我跌跌撞撞地逃跑了。\n本场战斗中，\n速度+2\n回答“我参观过小镇了”\n<那或许是参观程序出现了问题。>\n在终端上显示出这样的话后，\n那个机器人呆立了许久。\n直到我脑中浮现出“它是坏掉了吗？”的想法时，\n终端开始闪动。\n<多次尝试呼叫管理员，无人应答。>\n<系统异常。系统异常。>\n<重启中……>\n随后，青色屏幕上接连不断输出着某些复杂的文字序列。\n获得40\n经费\n不作回答，就此离开\n什么都没有发生。\n收下纪念品后离开\n什么都没有发生。\n\n说实话\n<那请恕我无法赠与您纪念品！>\n终端突然咯哒咯哒地向上打开，\n一个机械手臂猛地飞出，试图从我身上拿走什么。\n<请配合我回收纪念品！说谎是不好的。>\n我四处躲闪，但机械手的速度变得更快了。\n<如您拒不合作，将依据规则A62GBFE1对您进行处罚！>\n不离开这里似乎就无法停止机器人的行动，\n于是我跌跌撞撞地逃跑了。\n本场战斗中，\n速度+2\n\n回答“我参观过小镇了”\n<那或许是参观程序出现了问题。>\n在终端上显示出这样的话后，\n那个机器人呆立了许久。\n直到我脑中浮现出“它是坏掉了吗？”的想法时，\n终端开始闪动。\n<多次尝试呼叫管理员，无人应答。>\n<系统异常。系统异常。>\n<重启中……>\n随后，青色屏幕上接连不断输出着某些复杂的文字序列。\n获得40\n经费\n\n不作回答，就此离开\n什么都没有发生。\n\n输入“再见”\n终端变得赤红，警报声响彻四周。\n机器人剧烈颤抖着，看起来十分痛苦。\n<再见。再见。再见再见再jian在见zai>\n当终端被那一个词语占满时，\n那个机器人在我眼前爆炸了，许多的零件和肉块从中迸裂出来。\n技能组不包含\n嫉妒属性攻击技能\n的友方单位失去\n15点体力\n及\n15点理智值\n！\n\n输入“蠢货”\n机器人剧烈颤抖起来。\n与其说是在恐惧，不如说是愤怒。\n它能理解终端上写着的文字吗？\n<检测到敌对个体，检测到敌对个体。>\n<依照规定D63ICRQ1实行驱逐程序！>\n机器人疯狂地挥舞起双臂。\n触发\n集中战斗\n！\n战斗胜利后，获得\n！\n战斗失败后，没有奖励",
+  "options": [
+    {
+      "choice_text": "输入“你好”",
+      "check_type": "",
+      "check_sin": "",
+      "check_threshold": 0,
+      "success_outcomes": [],
+      "failure_outcomes": []
+    },
+    {
+      "choice_text": "输入“请为我介绍小镇”",
+      "check_type": "",
+      "check_sin": "",
+      "check_threshold": 0,
+      "success_outcomes": [],
+      "failure_outcomes": []
+    },
+    {
+      "choice_text": "说实话",
+      "check_type": "",
+      "check_sin": "",
+      "check_threshold": 0,
+      "success_outcomes": [],
+      "failure_outcomes": []
+    },
+    {
+      "choice_text": "回答“我参观过小镇了”",
+      "check_type": "",
+      "check_sin": "",
+      "check_threshold": 0,
+      "success_outcomes": [],
+      "failure_outcomes": []
+    },
+    {
+      "choice_text": "不作回答，就此离开",
+      "check_type": "",
+      "check_sin": "",
+      "check_threshold": 0,
+      "success_outcomes": [],
+      "failure_outcomes": []
+    },
+    {
+      "choice_text": "收下纪念品后离开",
+      "check_type": "",
+      "check_sin": "",
+      "check_threshold": 0,
+      "success_outcomes": [],
+      "failure_outcomes": []
+    },
+    {
+      "choice_text": "输入“再见”",
+      "check_type": "",
+      "check_sin": "",
+      "check_threshold": 0,
+      "success_outcomes": [],
+      "failure_outcomes": []
+    },
+    {
+      "choice_text": "输入“蠢货”",
+      "check_type": "",
+      "check_sin": "",
+      "check_threshold": 0,
+      "success_outcomes": [],
+      "failure_outcomes": []
+    },
+    {
+      "choice_text": "输入“请为我介绍小镇”",
+      "check_type": "",
+      "check_sin": "",
+      "check_threshold": 0,
+      "success_outcomes": [],
+      "failure_outcomes": []
+    },
+    {
+      "choice_text": "说实话",
+      "check_type": "",
+      "check_sin": "",
+      "check_threshold": 0,
+      "success_outcomes": [],
+      "failure_outcomes": []
+    },
+    {
+      "choice_text": "回答“我参观过小镇了”",
+      "check_type": "",
+      "check_sin": "",
+      "check_threshold": 0,
+      "success_outcomes": [],
+      "failure_outcomes": []
+    },
+    {
+      "choice_text": "不作回答，就此离开",
+      "check_type": "",
+      "check_sin": "",
+      "check_threshold": 0,
+      "success_outcomes": [],
+      "failure_outcomes": []
+    },
+    {
+      "choice_text": "收下纪念品后离开",
+      "check_type": "",
+      "check_sin": "",
+      "check_threshold": 0,
+      "success_outcomes": [],
+      "failure_outcomes": []
+    },
+    {
+      "choice_text": "说实话",
+      "check_type": "",
+      "check_sin": "",
+      "check_threshold": 0,
+      "success_outcomes": [],
+      "failure_outcomes": []
+    },
+    {
+      "choice_text": "回答“我参观过小镇了”",
+      "check_type": "",
+      "check_sin": "",
+      "check_threshold": 0,
+      "success_outcomes": [],
+      "failure_outcomes": []
+    },
+    {
+      "choice_text": "不作回答，就此离开",
+      "check_type": "",
+      "check_sin": "",
+      "check_threshold": 0,
+      "success_outcomes": [],
+      "failure_outcomes": []
+    }
+  ],
+  "ego_gifts": [],
+  "related_abnormalities": [
+    "事件触发地点",
+    "镜像迷宫"
+  ],
+  "trigger_location": "",
+  "_structured": true,
+  "id": "wiki_事件-Kqe-1j-23",
+  "url": "https://limbuscompany.huijiwiki.com/wiki/事件-Kqe-1j-23",
+  "categories": [],
+  "source": "wiki",
+  "_schema_version": 1
+}

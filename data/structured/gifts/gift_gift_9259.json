@@ -1,0 +1,21 @@
+{
+  "id": "gift_9259",
+  "title": "化为作品的大师指环",
+  "url": "https://limbuscompany.huijiwiki.com/wiki/E.G.O饰品",
+  "categories": [
+    "E.G.O饰品"
+  ],
+  "content": "全体友方单位的加算硬币技能的硬币威力+(8/硬币数)，减算硬币技能的最终威力+(8/硬币数)(最少+1，包括E.G.O技能，向下取整)\n属于环指的友方单位使用基础攻击技能时，根据目标带有的负面状态数获得以下效果\n- 不少于2种：拼点威力+2\n- 不少于4种：造成的伤害+15%\n- 不少于6种：硬币效果增加的负面状态强度与施加的负面状态层数额外+1\n- 不少于7种：基础威力+2\n- 不少于8种：造成的伤害+35%",
+  "source": "tabx",
+  "_structured": true,
+  "page_type": "ego_gift",
+  "gift_name": "化为作品的大师指环",
+  "rarity": 4,
+  "cost": "400",
+  "effect_types": "流血",
+  "attack_type": "色欲",
+  "location": "镜像迷宫",
+  "stage": "base",
+  "special": "隐藏节点-蜘蛛巢的环指",
+  "_schema_version": 1
+}

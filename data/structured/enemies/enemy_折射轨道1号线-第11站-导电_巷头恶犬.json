@@ -1,0 +1,174 @@
+{
+  "page_type": "enemy",
+  "title": "折射轨道1号线-第11站-导电",
+  "enemy_name": "巷头恶犬",
+  "battle_stage": "折射轨道1号线-第11站-导电",
+  "body_part": "",
+  "hp": 542,
+  "defense_level": 57,
+  "speed_min": 2,
+  "speed_max": 5,
+  "chaos_threshold": "108",
+  "physical_resistances": {
+    "斩击": 1.0,
+    "突刺": 0.5,
+    "打击": 1.5
+  },
+  "sin_resistances": {
+    "暴怒": 1.0,
+    "色欲": 1.0,
+    "怠惰": 1.5,
+    "暴食": 0.75,
+    "忧郁": 0.75,
+    "傲慢": 2.0,
+    "嫉妒": 0.5
+  },
+  "panic_types": [],
+  "passives": [
+    "避雷针: 电线杆被攻击时，对攻击者施加2层 感电 带有超过5层 雷电 时，下回合起改为对攻击者施加3层 感电 (持续到 雷电 层数降至0为止) 受到怠惰属性的攻击时，对攻击者施加的 感电 层数减半(向上取整)",
+    "雷电: 电线杆未被破坏时，攻击结束后使自身获得1层 雷电 电线杆受到攻击时，消耗1层 雷电",
+    "破裂的碎片: 电线杆陷入混乱或被破坏时，使 雷电 层数归零，本回合巷头恶犬的攻击技能全部取消",
+    "折射的挣扎: 无恐慌类型数据"
+  ],
+  "skills": [
+    {
+      "skill_name": "撕挠",
+      "icon_id": "803201",
+      "sin_type": "色欲",
+      "damage_type": "斩击",
+      "base_value": 3,
+      "coin_power": 9,
+      "coin_count": 2,
+      "attack_level": 57,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[使用时] 自身每带有1层 雷电 ，使本技能的硬币威力+2(最多+6)",
+        "[使用时] 目标的 流血 强度与 破裂 强度之和每有5级，使本技能造成的伤害+20%(最多+80%)",
+        "[命中时] 下回合使目标增加10级 流血 强度"
+      ]
+    },
+    {
+      "skill_name": "恒定电压",
+      "icon_id": "803202",
+      "sin_type": "怠惰",
+      "damage_type": "打击",
+      "base_value": 4,
+      "coin_power": 9703,
+      "coin_count": 2,
+      "attack_level": 57,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[使用时] 自身每带有1层 雷电 ，使本技能的硬币威力+2(最多+6)",
+        "[使用时] 目标的 流血 强度与 破裂 强度之和每有5级，使本技能造成的伤害+20%(最多+80%)",
+        "[命中时] 下回合使目标增加5级 破裂 强度"
+      ]
+    },
+    {
+      "skill_name": "恒压追击",
+      "icon_id": "803203",
+      "sin_type": "怠惰",
+      "damage_type": "打击",
+      "base_value": 3,
+      "coin_power": 9703,
+      "coin_count": 3,
+      "attack_level": 57,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[使用时] 自身每带有1层 雷电 ，使本技能的硬币威力+1(最多+3)",
+        "[使用时] 目标的 流血 强度与 破裂 强度之和每有5级，使本技能造成的伤害+15%(最多+60%)",
+        "[命中时] 下回合使目标增加5级 破裂 强度",
+        "[命中时] 下回合对目标施加4层 破裂"
+      ]
+    },
+    {
+      "skill_name": "咆哮",
+      "icon_id": "803204",
+      "sin_type": "傲慢",
+      "damage_type": "突刺",
+      "base_value": 10,
+      "coin_power": 3,
+      "coin_count": 3,
+      "attack_level": 57,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[命中时] 下回合对目标施加2层 束缚",
+        "[命中时] 对目标施加4层 破绽"
+      ]
+    },
+    {
+      "skill_name": "雷霆咆哮",
+      "icon_id": "803205",
+      "sin_type": "嫉妒",
+      "damage_type": "突刺",
+      "base_value": 14,
+      "coin_power": 5793,
+      "coin_count": 3,
+      "attack_level": 57,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[命中时] 下回合使目标增加10级 破裂 强度"
+      ]
+    },
+    {
+      "skill_name": "避雷",
+      "icon_id": "803206",
+      "sin_type": "嫉妒",
+      "damage_type": "斩击",
+      "base_value": 3,
+      "coin_power": 5793,
+      "coin_count": 2,
+      "attack_level": 57,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[使用时] 自身每带有1层 雷电 ，使本技能的硬币威力+1(最多+3)",
+        "[使用时] 目标的 流血 强度与 破裂 强度之和每有5级，使本技能造成的伤害+20%(最多+80%)",
+        "[命中时] 下回合使目标增加5级 破裂 强度并对其施加2层 破裂"
+      ]
+    },
+    {
+      "skill_name": "咆哮",
+      "icon_id": "803204",
+      "sin_type": "傲慢",
+      "damage_type": "突刺",
+      "base_value": 8,
+      "coin_power": 3,
+      "coin_count": 3,
+      "attack_level": 57,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[命中时] 下回合对目标施加2层 束缚",
+        "[命中时] 对目标施加4层 破绽"
+      ]
+    }
+  ],
+  "is_ally": false,
+  "_structured": true,
+  "appear_stages": [
+    "折射轨道1号线-第11站-导电"
+  ],
+  "enemy_id": "折射轨道1号线-第11站-导电|巷头恶犬|",
+  "defense": 57,
+  "speed": "2~5",
+  "_schema_version": 1
+}

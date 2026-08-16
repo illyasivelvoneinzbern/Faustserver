@@ -1,0 +1,22 @@
+{
+  "id": "gift_9835",
+  "title": "闪耀的提灯",
+  "url": "https://limbuscompany.huijiwiki.com/wiki/E.G.O饰品",
+  "categories": [
+    "E.G.O饰品"
+  ],
+  "content": "[最先编入的友方单位专属]\n每回合首个使用的攻击技能的最终威力+3\n若该攻击技能为E.G.O技能，则改为最终威力+4，造成的伤害+25%\n战斗开始时，若自身带有神经损伤，则消耗至多4层神经损伤并使自身增加(消耗的神经损伤层数×2)级烧伤强度",
+  "source": "tabx",
+  "_structured": true,
+  "page_type": "ego_gift",
+  "gift_name": "闪耀的提灯",
+  "rarity": 4,
+  "cost": "400",
+  "effect_types": "泛用",
+  "attack_type": "暴怒",
+  "location": "善意的巡礼",
+  "stage": "base",
+  "special": "善意的巡礼",
+  "event": "事件-与海嗣激战正酣的审判官",
+  "_schema_version": 1
+}

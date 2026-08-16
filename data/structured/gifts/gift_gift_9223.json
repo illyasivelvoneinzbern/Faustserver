@@ -1,0 +1,21 @@
+{
+  "id": "gift_9223",
+  "title": "凡作",
+  "url": "https://limbuscompany.huijiwiki.com/wiki/E.G.O饰品",
+  "categories": [
+    "E.G.O饰品"
+  ],
+  "content": "使属于环指的友方单位获得灵感\n带有灵感且属于环指的友方单位的色欲或斩击技能命中敌方单位时，下回合对该敌方单位施加探究对象\n- 若敌方单位带有探究对象，则使其探究对象转化为绘画材料\n带有灵感且属于环指的友方单位击杀带有绘画材料的敌方单位时，下回合使该友方单位获得1层加算硬币强化(每回合最多1次)",
+  "source": "tabx",
+  "_structured": true,
+  "page_type": "ego_gift",
+  "gift_name": "凡作",
+  "rarity": 2,
+  "cost": "200",
+  "effect_types": "流血",
+  "attack_type": "色欲",
+  "location": "镜像迷宫",
+  "stage": "base",
+  "special": "刀与作品",
+  "_schema_version": 1
+}

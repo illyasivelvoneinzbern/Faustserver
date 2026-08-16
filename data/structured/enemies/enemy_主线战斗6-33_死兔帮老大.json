@@ -1,0 +1,133 @@
+{
+  "page_type": "enemy",
+  "title": "主线战斗6-33",
+  "enemy_name": "死兔帮老大",
+  "battle_stage": "主线战斗6-33",
+  "body_part": "躯干",
+  "hp": 929,
+  "defense_level": 47,
+  "speed_min": 2,
+  "speed_max": 5,
+  "chaos_threshold": "557/0/-93",
+  "physical_resistances": {
+    "斩击": 0.8,
+    "突刺": 0.8,
+    "打击": 0.8
+  },
+  "sin_resistances": {
+    "暴怒": 1.2,
+    "色欲": 1.2,
+    "怠惰": 0.8,
+    "暴食": 0.5,
+    "忧郁": 1.5,
+    "傲慢": 1.0,
+    "嫉妒": 1.0
+  },
+  "panic_types": [
+    "复仇"
+  ],
+  "passives": [],
+  "skills": [
+    {
+      "skill_name": "球棍痛殴",
+      "icon_id": "9101601",
+      "sin_type": "嫉妒",
+      "damage_type": "打击",
+      "base_value": 4,
+      "coin_power": 5793,
+      "coin_count": 3,
+      "attack_level": 44,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[命中时] 对目标施加3层 破裂",
+        "[命中时] 对目标施加3级 破裂 强度"
+      ]
+    },
+    {
+      "skill_name": "击倒出局",
+      "icon_id": "9101602",
+      "sin_type": "暴怒",
+      "damage_type": "打击",
+      "base_value": 4,
+      "coin_power": 987,
+      "coin_count": 4,
+      "attack_level": 46,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[命中时] 对目标施加3层 破裂",
+        "[命中时] 对目标施加3级 破裂 强度",
+        "[命中时] 对目标施加3级 流血 强度",
+        "[命中时] 根据目标带有的 破裂 强度，使其增加相应的 流血 强度。"
+      ]
+    },
+    {
+      "skill_name": "泄愤暴打",
+      "icon_id": "9101603",
+      "sin_type": "忧郁",
+      "damage_type": "打击",
+      "base_value": 5,
+      "coin_power": 3,
+      "coin_count": 4,
+      "attack_level": 49,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[正面命中时] 使本技能的下一枚硬币的威力+1",
+        "[正面命中时] 使本技能的下一枚硬币的威力+2",
+        "[命中时] 对目标施加3层 麻痹",
+        "[命中时] 对目标额外造成相当于其（ 流血 强度* 流血 层数）点突刺伤害"
+      ]
+    },
+    {
+      "skill_name": "防御",
+      "icon_id": "9101604",
+      "sin_type": "色欲",
+      "damage_type": "防御",
+      "base_value": 15,
+      "coin_power": 9,
+      "coin_count": 1,
+      "attack_level": 0,
+      "attack_weight": 1,
+      "is_guard": true,
+      "guard_type": "防御",
+      "importance": 0,
+      "coin_effects": [
+        "使用时下回合使自身获得1层强壮"
+      ]
+    },
+    {
+      "skill_name": "反击",
+      "icon_id": "9101605",
+      "sin_type": "嫉妒",
+      "damage_type": "打击",
+      "base_value": 8,
+      "coin_power": 5793,
+      "coin_count": 1,
+      "attack_level": 49,
+      "attack_weight": 1,
+      "is_guard": true,
+      "guard_type": "反击",
+      "importance": 0,
+      "coin_effects": [
+        "使用时下回合使自身获得1层强壮"
+      ]
+    }
+  ],
+  "is_ally": false,
+  "_structured": true,
+  "appear_stages": [
+    "主线战斗6-33"
+  ],
+  "enemy_id": "主线战斗6-33|死兔帮老大|躯干",
+  "defense": 47,
+  "speed": "2~5",
+  "_schema_version": 1
+}

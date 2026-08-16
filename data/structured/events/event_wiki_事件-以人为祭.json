@@ -1,0 +1,50 @@
+{
+  "page_type": "event",
+  "title": "事件-以人为祭",
+  "event_name": "以人为祭",
+  "narration": "土偶们似乎在尸体堆里翻找着什么。\n要求献上祭品的叫喊声不绝于耳。\n它们看上去仿佛马上就要袭击我们。\n正巧，你看到附近有一个奄奄一息濒临死亡的人。\n要将这个人作为祭品献上吗？\n还是说……\n\n献上祭品\n满足的土偶们将那濒死的人抬起，不知道消失到哪里去了。\n全体友方单位失去\n10点理智值\n获得E.G.O饰品\n信徒面具\n！\n\n不献上祭品\n被无动于衷的态度激怒，土偶们发起了攻击。\n遭遇\n战斗\n！\n战斗胜利后，将获得E.G.O饰品\n染血信徒面具\n！\n\n献上罪人\n“经理，你脑门上的螺丝是松掉了吗？”\n罪人们恼怒地质问道。\n全体友方单位失去\n15点理智值\n似乎罪人们不是很愿意当这个祭品。\n那么只好把这个将死之人作为祭品献上了？\n或是说……\n（选择其他的选项吧）",
+  "options": [
+    {
+      "choice_text": "献上祭品",
+      "check_type": "",
+      "check_sin": "",
+      "check_threshold": 0,
+      "success_outcomes": [],
+      "failure_outcomes": []
+    },
+    {
+      "choice_text": "不献上祭品",
+      "check_type": "",
+      "check_sin": "",
+      "check_threshold": 0,
+      "success_outcomes": [],
+      "failure_outcomes": []
+    },
+    {
+      "choice_text": "献上罪人",
+      "check_type": "",
+      "check_sin": "",
+      "check_threshold": 0,
+      "success_outcomes": [],
+      "failure_outcomes": []
+    }
+  ],
+  "ego_gifts": [
+    {
+      "name": "所有友方的防御等级+5。",
+      "effect": "所有友方的攻击等级+5，防御等级+5"
+    }
+  ],
+  "related_abnormalities": [
+    "终末日历",
+    "事件触发地点",
+    "4区 脑叶公司支部-第Ⅱ区域"
+  ],
+  "trigger_location": "",
+  "_structured": true,
+  "id": "wiki_事件-以人为祭",
+  "url": "https://limbuscompany.huijiwiki.com/wiki/事件-以人为祭",
+  "categories": [],
+  "source": "wiki",
+  "_schema_version": 1
+}

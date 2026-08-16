@@ -1,0 +1,21 @@
+{
+  "id": "gift_9056",
+  "title": "四叶草",
+  "url": "https://limbuscompany.huijiwiki.com/wiki/E.G.O饰品",
+  "categories": [
+    "E.G.O饰品"
+  ],
+  "content": "当战斗开始时带有呼吸法的友方单位使用技能对敌方单位造成暴击时，下回合开始时使该友方单位增加5级呼吸法强度并获得2层呼吸法。(每回合最多1次)\n若技能为暴食技能，则改为下回合开始时增加7级呼吸法强度并获得3层呼吸法。",
+  "source": "tabx",
+  "_structured": true,
+  "page_type": "ego_gift",
+  "gift_name": "四叶草",
+  "rarity": 3,
+  "cost": "260",
+  "effect_types": "呼吸法",
+  "attack_type": "暴食",
+  "location": "镜像迷宫",
+  "stage": "base",
+  "event": "事件-长腿精灵",
+  "_schema_version": 1
+}

@@ -1,0 +1,21 @@
+{
+  "id": "gift_2023",
+  "title": "强迫结",
+  "url": "https://limbuscompany.huijiwiki.com/wiki/E.G.O饰品",
+  "categories": [
+    "E.G.O饰品"
+  ],
+  "content": "若理智值不高于0点，则使嫉妒，暴怒和忧郁技能的最终威力+1",
+  "source": "tabx",
+  "_structured": true,
+  "page_type": "ego_gift",
+  "gift_name": "强迫结",
+  "rarity": 0,
+  "cost": "0",
+  "effect_types": "",
+  "attack_type": "嫉妒",
+  "location": "第五章",
+  "stage": "base",
+  "event": "事件-前往动脉",
+  "_schema_version": 1
+}

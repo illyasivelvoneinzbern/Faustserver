@@ -1,0 +1,128 @@
+{
+  "page_type": "enemy",
+  "title": "经验采光-8-斩击",
+  "enemy_name": "魁梧的朴刀袭击者",
+  "battle_stage": "经验采光-8-斩击",
+  "body_part": "",
+  "hp": 282,
+  "defense_level": 53,
+  "speed_min": 1,
+  "speed_max": 4,
+  "chaos_threshold": "",
+  "physical_resistances": {
+    "斩击": 2.0,
+    "突刺": 0.5,
+    "打击": 0.5
+  },
+  "sin_resistances": {
+    "暴怒": 1.0,
+    "色欲": 1.0,
+    "怠惰": 1.0,
+    "暴食": 1.0,
+    "忧郁": 1.0,
+    "傲慢": 1.0,
+    "嫉妒": 1.0
+  },
+  "panic_types": [
+    "朴刀",
+    "朴刀"
+  ],
+  "passives": [
+    "恐慌恢复：回合结束时，若陷入恐慌，则使自身理智值恢复为0点。",
+    "受击之时：战斗中受到攻击时，本回合使自身造成的伤害+10% 战斗中受到攻击时，拼点胜利时使自身造成的伤害+20%",
+    "目标-贾宝玉：优先指定鸿璐",
+    "执行任务：自身每失去1%的体力，使自身造成的伤害+0.5%(最多+50%)",
+    "逐渐明确的目标：自身体力不低于70%时，回合结束时若自身技能未命中鸿璐，则下回合对自身施加1层 虚弱 自身体力低于70%时，回合结束时若自身技能未命中鸿璐，则下回合使自身获得1层 强壮 - 下回合令自身增加的 流血 强度与施加的 流血 层数额外+1"
+  ],
+  "skills": [
+    {
+      "skill_name": "收斩",
+      "icon_id": "9020001",
+      "sin_type": "暴食",
+      "damage_type": "",
+      "base_value": 0,
+      "coin_power": 7,
+      "coin_count": 2,
+      "attack_level": 53,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "coin_effects": [
+        "[命中时] 使目标增加4级 流血 强度"
+      ]
+    },
+    {
+      "skill_name": "驱斩",
+      "icon_id": "9020002",
+      "sin_type": "怠惰",
+      "damage_type": "",
+      "base_value": 0,
+      "coin_power": 4,
+      "coin_count": 3,
+      "attack_level": 53,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "coin_effects": [
+        "[命中时] 对目标施加2层 流血"
+      ]
+    },
+    {
+      "skill_name": "浪斩",
+      "icon_id": "9020003",
+      "sin_type": "暴怒",
+      "damage_type": "",
+      "base_value": 0,
+      "coin_power": 3,
+      "coin_count": 5,
+      "attack_level": 53,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "coin_effects": [
+        "[命中时] 对目标施加2层 流血 不可摧毁的硬币 目标的 流血 强度与 流血 层数之和每有1点，使本硬币造成的伤害+1%(最多+20%)",
+        "[命中时] 使目标增加5级 流血 强度"
+      ]
+    },
+    {
+      "skill_name": "出马洗劫",
+      "icon_id": "9020004",
+      "sin_type": "傲慢",
+      "damage_type": "",
+      "base_value": 0,
+      "coin_power": 5,
+      "coin_count": 4,
+      "attack_level": 56,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "coin_effects": [
+        "[命中时] 使目标增加5级 流血 强度并对其施加3层 流血 不可摧毁的硬币 目标的 流血 强度与 流血 层数之和每有1点，使本硬币造成的伤害+2%(最多+50%)"
+      ]
+    },
+    {
+      "skill_name": "反击",
+      "icon_id": "9020005",
+      "sin_type": "色欲",
+      "damage_type": "",
+      "base_value": 0,
+      "coin_power": 3,
+      "coin_count": 3,
+      "attack_level": 53,
+      "attack_weight": 1,
+      "is_guard": true,
+      "guard_type": "反击",
+      "coin_effects": [
+        "[命中时] 使目标增加4级 流血 强度",
+        "[命中时] 下回合对目标施加2层 束缚",
+        "[命中时] 下回合对目标施加3层 攻击等级降低 与3层 防御等级降低"
+      ]
+    }
+  ],
+  "is_ally": false,
+  "_structured": true,
+  "enemy_id": "经验采光-8-斩击|魁梧的朴刀袭击者",
+  "defense": 53,
+  "speed": "1~4",
+  "_schema_version": 1
+}

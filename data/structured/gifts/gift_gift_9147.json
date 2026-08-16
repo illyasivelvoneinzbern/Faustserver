@@ -1,0 +1,20 @@
+{
+  "id": "gift_9147",
+  "title": "洞穿的记忆",
+  "url": "https://limbuscompany.huijiwiki.com/wiki/E.G.O饰品",
+  "categories": [
+    "E.G.O饰品"
+  ],
+  "content": "[第1、2顺位友方单位专属]\n突刺攻击技能的基础威力+2，加算硬币威力+1，减算硬币威力-1(包括E.G.O技能)。\n突刺攻击技能拼点胜利时，使其造成的伤害+15%。该技能命中时，若自身速度值高于主要目标，则使该技能造成的伤害+(速度差×2.5)%(最多+35%)(不包括E.G.O技能)。",
+  "source": "tabx",
+  "_structured": true,
+  "page_type": "ego_gift",
+  "gift_name": "洞穿的记忆",
+  "rarity": 4,
+  "cost": "400",
+  "effect_types": "突刺",
+  "attack_type": "暴怒",
+  "location": "镜像迷宫",
+  "stage": "base",
+  "_schema_version": 1
+}

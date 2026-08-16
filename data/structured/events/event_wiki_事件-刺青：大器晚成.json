@@ -1,0 +1,38 @@
+{
+  "page_type": "event",
+  "title": "事件-刺青：大器晚成",
+  "event_name": "刺青：大器晚成",
+  "narration": "无数的眼球望向这边。\n深隐在其中的是盘根错节的树枝，但那实际都由人类构成。\n天堂有时会埋藏自身，\n也有时会成为人们的心中的归宿。\n一旦这天堂在心中生根发芽，\n便只能透过他人之眼来慢慢欣赏。\n\n闭上双眼\n闭眼仍见天堂。\n只要天堂深嵌进心房，\n便再也不能从不愿直视之物上\n避开自己的视线。\n我仅所能见的，\n仅有其所愿我所见的。\n即便我紧闭双眼，\n视线却依旧洞开。\n再也不得闭合。\n获得\n！\n\n还以对视\n未曾眨眼，径直回应目光。\n它的眼珠纹丝未动。\n其中的人即使饱受痛苦，那些眼瞳也毫不在意。\n它并非在凝视我。\n而是应当存在于我身后的，某处的天堂。\n技能组不包含\n傲慢属性攻击技能\n的友方单位失去\n10点体力\n！\n技能组内包含\n傲慢属性攻击技能\n的友方单位恢复\n10点体力",
+  "options": [
+    {
+      "choice_text": "闭上双眼",
+      "check_type": "",
+      "check_sin": "",
+      "check_threshold": 0,
+      "success_outcomes": [],
+      "failure_outcomes": []
+    },
+    {
+      "choice_text": "还以对视",
+      "check_type": "",
+      "check_sin": "",
+      "check_threshold": 0,
+      "success_outcomes": [],
+      "failure_outcomes": []
+    }
+  ],
+  "ego_gifts": [],
+  "related_abnormalities": [
+    "白幕内涉及目前游戏未公开内容，仅供参考，请以后续实装内容为准。",
+    "박혀오는천국",
+    "事件触发地点",
+    "镜像迷宫"
+  ],
+  "trigger_location": "",
+  "_structured": true,
+  "id": "wiki_事件-刺青：大器晚成",
+  "url": "https://limbuscompany.huijiwiki.com/wiki/事件-刺青：大器晚成",
+  "categories": [],
+  "source": "wiki",
+  "_schema_version": 1
+}

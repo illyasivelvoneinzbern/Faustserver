@@ -1,0 +1,102 @@
+{
+  "page_type": "enemy",
+  "title": "困难活动战斗LC-PC-07",
+  "enemy_name": "敏捷的深海教徒",
+  "battle_stage": "困难活动战斗LC-PC-07",
+  "body_part": "本体",
+  "hp": 182,
+  "defense_level": 50,
+  "speed_min": 1,
+  "speed_max": 4,
+  "chaos_threshold": "109/0",
+  "physical_resistances": {
+    "斩击": 1.1,
+    "突刺": 1.1,
+    "打击": 1.1
+  },
+  "sin_resistances": {
+    "暴怒": 1.0,
+    "色欲": 1.0,
+    "怠惰": 1.25,
+    "暴食": 1.25,
+    "忧郁": 1.5,
+    "傲慢": 1.25,
+    "嫉妒": 1.0
+  },
+  "panic_types": [],
+  "passives": [
+    "注意力分散: 回合结束时，若自身在本回合未受到伤害，则下回合使自身获得2层 迅捷 若自身的速度值高于攻击目标，则速度值每相差1点，使自身造成的伤害+5%(最多+50%)",
+    "浸染之剑: 单方面攻击命中时，对目标施加1层 神经损伤",
+    "深海崇拜: 回合开始时，每有1名友方单位存活，使自身恢复3点理智值"
+  ],
+  "skills": [
+    {
+      "skill_name": "撕裂斩击",
+      "icon_id": "128902",
+      "sin_type": "怠惰",
+      "damage_type": "斩击",
+      "base_value": 3,
+      "coin_power": 9703,
+      "coin_count": 3,
+      "attack_level": 50,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[命中时] 对目标施加1层 沉沦",
+        "[命中时] 下回合对目标施加1层 束缚"
+      ]
+    },
+    {
+      "skill_name": "挥舞斩击",
+      "icon_id": "128903",
+      "sin_type": "傲慢",
+      "damage_type": "斩击",
+      "base_value": 2,
+      "coin_power": 3,
+      "coin_count": 4,
+      "attack_level": 50,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[使用时] 目标每带有1层 束缚 ，使本技能的硬币威力+1(最多+2)",
+        "[命中时] 对目标施加2层 沉沦",
+        "[命中时] 使目标增加3级 沉沦 强度",
+        "[命中时] 对目标施加2层 麻痹"
+      ]
+    },
+    {
+      "skill_name": "连续突刺",
+      "icon_id": "128904",
+      "sin_type": "忧郁",
+      "damage_type": "突刺",
+      "base_value": 3,
+      "coin_power": 3,
+      "coin_count": 3,
+      "attack_level": 50,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[命中时] 使目标增加3级 沉沦 强度",
+        "[命中时] 对目标造成等同于其 神经损伤 层数的忧郁伤害"
+      ]
+    }
+  ],
+  "is_ally": false,
+  "_structured": true,
+  "appear_stages": [
+    "困难活动战斗LC-PC-07",
+    "困难活动战斗LC-PC-12",
+    "活动战斗LC-PC-07",
+    "活动战斗LC-PC-12"
+  ],
+  "enemy_id": "困难活动战斗LC-PC-07|敏捷的深海教徒|本体",
+  "defense": 50,
+  "speed": "1~4",
+  "_schema_version": 1
+}

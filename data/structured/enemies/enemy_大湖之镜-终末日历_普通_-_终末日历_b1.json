@@ -1,0 +1,135 @@
+{
+  "page_type": "enemy",
+  "title": "大湖之镜-终末日历",
+  "enemy_name": "普通 - 终末日历",
+  "battle_stage": "大湖之镜-终末日历",
+  "body_part": "右臂",
+  "hp": 118,
+  "defense_level": 46,
+  "speed_min": 1,
+  "speed_max": 2,
+  "chaos_threshold": "",
+  "physical_resistances": {
+    "斩击": 2.0,
+    "突刺": 1.0,
+    "打击": 1.0
+  },
+  "sin_resistances": {
+    "暴怒": 1.5,
+    "色欲": 0.5,
+    "怠惰": 2.0,
+    "暴食": 1.0,
+    "忧郁": 1.0,
+    "傲慢": 1.0,
+    "嫉妒": 1.0
+  },
+  "panic_types": [],
+  "passives": [],
+  "skills": [
+    {
+      "skill_name": "巨力猛砸",
+      "icon_id": "800201",
+      "sin_type": "怠惰",
+      "damage_type": "打击",
+      "base_value": 2,
+      "coin_power": 9703,
+      "coin_count": 1,
+      "attack_level": 40,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": []
+    },
+    {
+      "skill_name": "大地震颤",
+      "icon_id": "800203",
+      "sin_type": "怠惰",
+      "damage_type": "斩击",
+      "base_value": 3,
+      "coin_power": 9703,
+      "coin_count": 2,
+      "attack_level": 40,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[命中时] 下回合对目标施加1层 束缚"
+      ]
+    },
+    {
+      "skill_name": "活祭仪式",
+      "icon_id": "800204",
+      "sin_type": "色欲",
+      "damage_type": "斩击",
+      "base_value": 10,
+      "coin_power": 9,
+      "coin_count": 2,
+      "attack_level": 40,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[命中时] 下回合对目标施加3层 流血"
+      ]
+    },
+    {
+      "skill_name": "坚固祭坛",
+      "icon_id": "800206",
+      "sin_type": "常规",
+      "damage_type": "防御",
+      "base_value": 4,
+      "coin_power": 79,
+      "coin_count": 1,
+      "attack_level": 0,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": []
+    },
+    {
+      "skill_name": "宇宙热寂",
+      "icon_id": "800205",
+      "sin_type": "嫉妒",
+      "damage_type": "打击",
+      "base_value": 45,
+      "coin_power": 5793,
+      "coin_count": 1,
+      "attack_level": 40,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": []
+    },
+    {
+      "skill_name": "宇宙热寂",
+      "icon_id": "800205",
+      "sin_type": "嫉妒",
+      "damage_type": "打击",
+      "base_value": 45,
+      "coin_power": 5793,
+      "coin_count": 1,
+      "attack_level": 40,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "无法拼点指定友方单位"
+      ]
+    }
+  ],
+  "is_ally": false,
+  "_structured": true,
+  "appear_stages": [
+    "大湖之镜-终末日历"
+  ],
+  "enemy_id": "大湖之镜-终末日历|普通 - 终末日历|右臂",
+  "defense": 46,
+  "speed": "1~2",
+  "_schema_version": 1
+}

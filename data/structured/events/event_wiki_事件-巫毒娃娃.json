@@ -1,0 +1,45 @@
+{
+  "page_type": "event",
+  "title": "事件-巫毒娃娃",
+  "event_name": "巫毒娃娃",
+  "narration": "“这里是独属于我的空间。”\n“所以必须要按照我的方法来玩！”\n这里似乎是不遵从规则就会发生坏事的地方。\n“来猜拳吧！”\n“我要出剪刀，你呢？”\n\n出石头\n我本以为不管怎样赢了就好。\n于是不假思索出了石头。\n它低头看了看手，莞尔一笑。\n“你输了。”\n随后，它的一只手臂变成了巨大的剪刀。\n将我那出了石头的手臂切下。\n技能组不包含\n嫉妒属性攻击技能\n的友方单位失去\n12点体力\n！\n技能组内包含\n嫉妒属性攻击技能\n的友方单位恢复\n15点体力\n\n出布\n反正也是陪它玩，\n故意输掉也不坏。\n它低头盯着张开的手掌，\n而后鼓起脸。\n“你赢了。剪刀正因布的存在才拥有了价值。”\n随后，它将被称为奖励的小小的玩偶放在我的手心上。\n“给，这是用剪刀与布做成的玩偶。”\n获得\n！\n\n出剪刀\n还是不输不赢\n保持平局更好。\n它看着和自己同样结果的手，\n露出了稍许扫兴的表情。\n“怎么是平手。你是觉得我不会出剪刀吗？”\n我不会和不相信我的人玩，\n似乎能听到它说了这样的话，\n周围已经变成完全不同的地方了。\n什么都没有发生。",
+  "options": [
+    {
+      "choice_text": "出石头",
+      "check_type": "",
+      "check_sin": "",
+      "check_threshold": 0,
+      "success_outcomes": [],
+      "failure_outcomes": []
+    },
+    {
+      "choice_text": "出布",
+      "check_type": "",
+      "check_sin": "",
+      "check_threshold": 0,
+      "success_outcomes": [],
+      "failure_outcomes": []
+    },
+    {
+      "choice_text": "出剪刀",
+      "check_type": "",
+      "check_sin": "",
+      "check_threshold": 0,
+      "success_outcomes": [],
+      "failure_outcomes": []
+    }
+  ],
+  "ego_gifts": [],
+  "related_abnormalities": [
+    "玩吗？",
+    "事件触发地点",
+    "镜像迷宫"
+  ],
+  "trigger_location": "",
+  "_structured": true,
+  "id": "wiki_事件-巫毒娃娃",
+  "url": "https://limbuscompany.huijiwiki.com/wiki/事件-巫毒娃娃",
+  "categories": [],
+  "source": "wiki",
+  "_schema_version": 1
+}

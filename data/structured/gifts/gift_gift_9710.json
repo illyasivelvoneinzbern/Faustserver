@@ -1,0 +1,21 @@
+{
+  "id": "gift_9710",
+  "title": "巨大的礼物袋",
+  "url": "https://limbuscompany.huijiwiki.com/wiki/E.G.O饰品",
+  "categories": [
+    "E.G.O饰品"
+  ],
+  "content": "回合开始时，使现存体力最低的友方单位增加2级呼吸法强度并使其获得2层呼吸法与2层守护。",
+  "source": "tabx",
+  "_structured": true,
+  "page_type": "ego_gift",
+  "gift_name": "巨大的礼物袋",
+  "rarity": 2,
+  "cost": "198",
+  "effect_types": "呼吸法",
+  "attack_type": "暴食",
+  "location": "镜像迷宫",
+  "stage": "base",
+  "special": "20区的奇迹",
+  "_schema_version": 1
+}

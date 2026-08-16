@@ -1,0 +1,27 @@
+{
+  "page_type": "event",
+  "title": "事件-操作装置",
+  "event_name": "操作装置",
+  "narration": "陈旧的墙壁挡住了去路。\n写着发放通行证的装置和表盘引人注目。\n“看样子不会轻易让我们过去。”\n“有谁对这种装置有研究吗？我对这玩意儿是一窍不通……”\n\n操作装置。\n【让哪位罪人操作表盘？】\n李箱\n浮士德\n判定值+3，\n鸿璐\n判定值+5\n有利判定\n：\n≥13\n不利判定\n：\n≥15\n判定成功\n：\n罪人[X]操作了一下表盘后，装置伴随着轰隆声开始运作。\n“已批准。即将发放通行许可证。”\n装置内出现了一张通行证。\n有了通行证……应该就能去别的地方了。\n获得\n！\n地图中追加了新的道路！\n判定失败\n：\n罪人[X]对着表盘操作了许久，但无事发生。\n看上去没法继续前进，那就只能回头了。\n什么都没有发生。",
+  "options": [
+    {
+      "choice_text": "操作装置。",
+      "check_type": "有利判定",
+      "check_sin": "暴食",
+      "check_threshold": 13,
+      "success_outcomes": [
+        "获得 ！ 地图中追加了新的道路！ 判定失败 ： 罪人[X]对着表盘操作了许久"
+      ],
+      "failure_outcomes": []
+    }
+  ],
+  "ego_gifts": [],
+  "related_abnormalities": [],
+  "trigger_location": "",
+  "_structured": true,
+  "id": "wiki_事件-操作装置",
+  "url": "https://limbuscompany.huijiwiki.com/wiki/事件-操作装置",
+  "categories": [],
+  "source": "wiki",
+  "_schema_version": 1
+}

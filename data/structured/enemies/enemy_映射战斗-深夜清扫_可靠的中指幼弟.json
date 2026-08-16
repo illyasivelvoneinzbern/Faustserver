@@ -1,0 +1,93 @@
+{
+  "page_type": "enemy",
+  "title": "映射战斗-深夜清扫",
+  "enemy_name": "可靠的中指幼弟",
+  "battle_stage": "映射战斗-深夜清扫",
+  "body_part": "",
+  "hp": 201,
+  "defense_level": 47,
+  "speed_min": 1,
+  "speed_max": 2,
+  "chaos_threshold": "90 / 0",
+  "physical_resistances": {
+    "斩击": 1.0,
+    "突刺": 1.0,
+    "打击": 1.25
+  },
+  "sin_resistances": {
+    "暴怒": 1.0,
+    "色欲": 1.0,
+    "怠惰": 0.75,
+    "暴食": 1.25,
+    "忧郁": 0.75,
+    "傲慢": 1.0,
+    "嫉妒": 1.25
+  },
+  "panic_types": [],
+  "passives": [
+    "仇怨纹身: 本场战斗中每有1名属于中指的友方单位阵亡，使自身获得1层 攻击等级提升 (最多5层)",
+    "些许仇怨: 拼点失败时，下回合对自身施加1层 减算硬币强化 (每回合最多2次)",
+    "忠义锁链: • 拼点胜利后根据拼点次数按比例增加 （增加量：基础值为10，从第二次拼点起，每次拼点增加20%） • 击杀敌方单位时，若击杀的敌方单位等级不低于自身，则增加10 • 若友方单位击杀的敌方单位等级不低于自身等级，则增加5"
+  ],
+  "skills": [
+    {
+      "skill_name": "加倍奉还",
+      "icon_id": "9009606",
+      "sin_type": "傲慢",
+      "damage_type": "打击",
+      "base_value": 8,
+      "coin_power": 3,
+      "coin_count": 1,
+      "attack_level": 46,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": []
+    },
+    {
+      "skill_name": "直击心窝",
+      "icon_id": "9009601",
+      "sin_type": "嫉妒",
+      "damage_type": "打击",
+      "base_value": 5,
+      "coin_power": 5793,
+      "coin_count": 2,
+      "attack_level": 46,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[正面命中时] 下回合对目标施加1层 麻痹"
+      ]
+    },
+    {
+      "skill_name": "粉碎颅骨",
+      "icon_id": "9009603",
+      "sin_type": "嫉妒",
+      "damage_type": "打击",
+      "base_value": 5,
+      "coin_power": 5793,
+      "coin_count": 3,
+      "attack_level": 46,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[正面命中时] 下回合对目标施加1层 虚弱",
+        "[命中时] 下回合对目标施加2层 麻痹"
+      ]
+    }
+  ],
+  "is_ally": false,
+  "_structured": true,
+  "appear_stages": [
+    "映射战斗-深夜清扫"
+  ],
+  "enemy_id": "映射战斗-深夜清扫|可靠的中指幼弟|",
+  "defense": 47,
+  "speed": "1~2",
+  "_schema_version": 1
+}

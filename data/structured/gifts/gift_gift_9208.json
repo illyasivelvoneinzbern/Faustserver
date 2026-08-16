@@ -1,0 +1,21 @@
+{
+  "id": "gift_9208",
+  "title": "纠缠的缘分",
+  "url": "https://limbuscompany.huijiwiki.com/wiki/E.G.O饰品",
+  "categories": [
+    "E.G.O饰品"
+  ],
+  "content": "战斗开始时，若完全共鸣数不低于7，则本回合使全体友方单位的最终威力+5(每场战斗最多1次)",
+  "source": "tabx",
+  "_structured": true,
+  "page_type": "ego_gift",
+  "gift_name": "纠缠的缘分",
+  "rarity": 4,
+  "cost": "396",
+  "effect_types": "泛用",
+  "attack_type": "色欲",
+  "location": "镜像迷宫",
+  "stage": "base",
+  "special": "解放的暴怒，束缚的色欲，停滞的怠惰，漫溢的暴食，沉溺的忧郁，自以为是的傲慢，凄惨的嫉妒",
+  "_schema_version": 1
+}

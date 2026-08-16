@@ -1,0 +1,153 @@
+{
+  "page_type": "enemy",
+  "title": "大湖之镜-脑叶公司E.G.O:朱符 - 马里勒",
+  "enemy_name": "脑叶公司E.G.O::朱符-马里勒",
+  "battle_stage": "大湖之镜-脑叶公司E.G.O:朱符 - 马里勒",
+  "body_part": "",
+  "hp": 243,
+  "defense_level": 39,
+  "speed_min": 3,
+  "speed_max": 5,
+  "chaos_threshold": "10",
+  "physical_resistances": {
+    "斩击": 0.5,
+    "突刺": 1.0,
+    "打击": 2.0
+  },
+  "sin_resistances": {
+    "暴怒": 0.6,
+    "色欲": 1.0,
+    "怠惰": 1.0,
+    "暴食": 1.0,
+    "忧郁": 1.2,
+    "傲慢": 1.0,
+    "嫉妒": 1.0
+  },
+  "panic_types": [
+    "愤怒",
+    "伤害强化",
+    "易损",
+    "愤怒",
+    "伤害强化",
+    "易损"
+  ],
+  "passives": [
+    "绞缠的咒符：根据本回合内拼点次数，获得相应层数的 纠缠的咒符 造成的伤害+{0}% 若本效果层数不低于9层，则在回合开始时对自身施加2层 虚弱",
+    "捆缚的咒符：当带有10层 纠缠的咒符 造成的伤害+{0}% 若本效果层数不低于9层，则在回合开始时对自身施加2层 虚弱 时，消耗所有层数并使自身混乱阈值前移10",
+    "倍增的咒符：体力不高于30%时，施加的 复贴的咒符 若层数高于9层，则在回合开始时施加5层 束缚 。 若层数高于12层，则在回合开始时施加5层 虚弱 。 层数额外+1",
+    "侵蚀的咒符：体力不高于30%时，攻击结束后若目标的 复贴的咒符 若层数高于9层，则在回合开始时施加5层 束缚 。 若层数高于12层，则在回合开始时施加5层 虚弱 。 层数不低于5层，则下回合对目标施加2层 麻痹 本回合内使{0}枚硬币的变动值固定为0。"
+  ],
+  "skills": [
+    {
+      "skill_name": "束缚诅咒",
+      "icon_id": "9100901",
+      "sin_type": "色欲",
+      "damage_type": "",
+      "base_value": 0,
+      "coin_power": 7,
+      "coin_count": 2,
+      "attack_level": 44,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "coin_effects": [
+        "[命中时] 下回合对目标施加2层 束缚"
+      ]
+    },
+    {
+      "skill_name": "打击诅咒",
+      "icon_id": "9100901",
+      "sin_type": "色欲",
+      "damage_type": "",
+      "base_value": 0,
+      "coin_power": 3,
+      "coin_count": 2,
+      "attack_level": 44,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "coin_effects": []
+    },
+    {
+      "skill_name": "增殖护符",
+      "icon_id": "9100903",
+      "sin_type": "忧郁",
+      "damage_type": "",
+      "base_value": 0,
+      "coin_power": 3,
+      "coin_count": 2,
+      "attack_level": 44,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "coin_effects": []
+    },
+    {
+      "skill_name": "麻痹诅咒",
+      "icon_id": "9100903",
+      "sin_type": "忧郁",
+      "damage_type": "",
+      "base_value": 0,
+      "coin_power": 3,
+      "coin_count": 3,
+      "attack_level": 44,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "coin_effects": []
+    },
+    {
+      "skill_name": "束缚咒符",
+      "icon_id": "9100905",
+      "sin_type": "色欲",
+      "damage_type": "",
+      "base_value": 0,
+      "coin_power": 9,
+      "coin_count": 2,
+      "attack_level": 44,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "coin_effects": [
+        "[命中时] 对目标施加5层 复贴的咒符 若层数高于9层，则在回合开始时施加5层 束缚 。 若层数高于12层，则在回合开始时施加5层 虚弱 。"
+      ]
+    },
+    {
+      "skill_name": "泯灭咒符",
+      "icon_id": "9100906",
+      "sin_type": "嫉妒",
+      "damage_type": "",
+      "base_value": 0,
+      "coin_power": 6,
+      "coin_count": 3,
+      "attack_level": 44,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "coin_effects": [
+        "[命中时] 对目标施加2层 复贴的咒符 若层数高于9层，则在回合开始时施加5层 束缚 。 若层数高于12层，则在回合开始时施加5层 虚弱 。",
+        "[反面命中时] 若目标带有的 复贴的咒符 若层数高于9层，则在回合开始时施加5层 束缚 。 若层数高于12层，则在回合开始时施加5层 虚弱 。 层数不低于9层，则对其施加5层 麻痹 对目标追加本硬币伤害量50%的固定伤害"
+      ]
+    },
+    {
+      "skill_name": "蔓延咒符",
+      "icon_id": "9100907",
+      "sin_type": "常规",
+      "damage_type": "",
+      "base_value": 0,
+      "coin_power": 8,
+      "coin_count": 1,
+      "attack_level": 0,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "coin_effects": []
+    }
+  ],
+  "is_ally": false,
+  "_structured": true,
+  "enemy_id": "大湖之镜-脑叶公司E.G.O:朱符 - 马里勒|脑叶公司E.G.O::朱符-马里勒",
+  "defense": 39,
+  "speed": "3~5",
+  "_schema_version": 1
+}

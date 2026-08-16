@@ -1,0 +1,38 @@
+{
+  "page_type": "enemy",
+  "title": "集中战斗-Kqe-1j-23",
+  "enemy_name": "市民之心",
+  "battle_stage": "集中战斗-Kqe-1j-23",
+  "body_part": "心脏",
+  "hp": 501,
+  "defense_level": 30,
+  "speed_min": 1,
+  "speed_max": 5,
+  "chaos_threshold": "0.7/0.3",
+  "physical_resistances": {
+    "斩击": 1.0,
+    "突刺": 1.5,
+    "打击": 1.0
+  },
+  "sin_resistances": {
+    "暴怒": 1.0,
+    "色欲": 1.0,
+    "怠惰": 1.0,
+    "暴食": 1.0,
+    "忧郁": 1.5,
+    "傲慢": 1.0,
+    "嫉妒": 1.0
+  },
+  "panic_types": [],
+  "passives": [],
+  "skills": [],
+  "is_ally": false,
+  "_structured": true,
+  "appear_stages": [
+    "集中战斗-Kqe-1j-23"
+  ],
+  "enemy_id": "集中战斗-Kqe-1j-23|市民之心|心脏",
+  "defense": 30,
+  "speed": "1~5",
+  "_schema_version": 1
+}

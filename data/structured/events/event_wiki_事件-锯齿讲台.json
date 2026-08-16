@@ -1,0 +1,38 @@
+{
+  "page_type": "event",
+  "title": "事件-锯齿讲台",
+  "event_name": "锯齿讲台",
+  "narration": "不远处传来枪声。\n我们循着枪声前去，那里已是腥风血雨。\n那些参战者们早已离去，这里一片寂静。\n几个齿轮现在已经失效，散落在血迹斑斑的地板上。\n在那个中央，有一把完好无损的椅子。\n椅子上仍有一个不断转动的齿轮。\n\n坐在椅子上。\n【让哪位罪人去落座？】\n有利判定\n：\n/\n≥14\n不利判定\n：\n≥28\n判定成功\n：\n在靠近椅子准备落座之时，映入眼帘的是安装在椅子上的旋转齿轮。\n在罪人[X]伸手拆下齿轮的那一瞬间，椅子便开始震动。\n短暂的震动还未结束，椅子就彻底散架了。\n获得\n！\n判定失败\n：\n在靠近椅子准备落座之时，映入眼帘的是安装在椅子上的旋转齿轮。\n罪人[X]虽然疑惑，但还是坐上了椅子……\n很快齿轮便开始搅动着罪人[X]的大脑。\n哪怕其他罪人们急忙将罪人[X]从椅子上拉了下来，但已经太迟了。\n所选人格失去\n100%的体力\n！\n获得\n！\n\n经过。\n什么都没有发生。",
+  "options": [
+    {
+      "choice_text": "坐在椅子上。",
+      "check_type": "有利判定",
+      "check_sin": "傲慢",
+      "check_threshold": 14,
+      "success_outcomes": [
+        "获得 ！ 判定失败 ： 在靠近椅子准备落座之时",
+        "失去 100%的体力 ！ 获得 ！"
+      ],
+      "failure_outcomes": [
+        "失去 100%的体力 ！ 获得 ！"
+      ]
+    },
+    {
+      "choice_text": "经过。",
+      "check_type": "",
+      "check_sin": "",
+      "check_threshold": 0,
+      "success_outcomes": [],
+      "failure_outcomes": []
+    }
+  ],
+  "ego_gifts": [],
+  "related_abnormalities": [],
+  "trigger_location": "",
+  "_structured": true,
+  "id": "wiki_事件-锯齿讲台",
+  "url": "https://limbuscompany.huijiwiki.com/wiki/事件-锯齿讲台",
+  "categories": [],
+  "source": "wiki",
+  "_schema_version": 1
+}

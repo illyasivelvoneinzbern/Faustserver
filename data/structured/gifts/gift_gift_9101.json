@@ -1,0 +1,21 @@
+{
+  "id": "gift_9101",
+  "title": "熔化的石蜡",
+  "url": "https://limbuscompany.huijiwiki.com/wiki/E.G.O饰品",
+  "categories": [
+    "E.G.O饰品"
+  ],
+  "content": "增加烧伤强度，施加烧伤层数或施加特殊烧伤的技能拼点胜利时，使目标增加（剩余硬币数/2）级烧伤强度",
+  "source": "tabx",
+  "_structured": true,
+  "page_type": "ego_gift",
+  "gift_name": "熔化的石蜡",
+  "rarity": 1,
+  "cost": "150",
+  "effect_types": "烧伤",
+  "attack_type": "色欲",
+  "location": "镜像迷宫",
+  "stage": "base",
+  "event": "事件-人皮预言者",
+  "_schema_version": 1
+}

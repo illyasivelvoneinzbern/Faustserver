@@ -1,0 +1,71 @@
+{
+  "page_type": "enemy",
+  "title": "折射轨道1号线-首站：遭遇",
+  "enemy_name": "记忆中被侵蚀的士兵",
+  "battle_stage": "折射轨道1号线-首站：遭遇",
+  "body_part": "身体",
+  "hp": 120,
+  "defense_level": 120,
+  "speed_min": 0,
+  "speed_max": 0,
+  "chaos_threshold": "2-6",
+  "physical_resistances": {
+    "斩击": 1.0,
+    "突刺": 0.75,
+    "打击": 2.0
+  },
+  "sin_resistances": {
+    "暴怒": 2.0,
+    "色欲": 1.0,
+    "怠惰": 1.5,
+    "暴食": 0.75,
+    "忧郁": 1.0,
+    "傲慢": 0.75,
+    "嫉妒": 1.0
+  },
+  "panic_types": [],
+  "passives": [],
+  "skills": [
+    {
+      "skill_name": "巨力砍伐",
+      "icon_id": "9001601",
+      "sin_type": "暴食",
+      "damage_type": "斩击",
+      "base_value": 3,
+      "coin_power": 854,
+      "coin_count": 1,
+      "attack_level": 27,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": []
+    },
+    {
+      "skill_name": "锯刃切割",
+      "icon_id": "9001602",
+      "sin_type": "暴食",
+      "damage_type": "斩击",
+      "base_value": 3,
+      "coin_power": 854,
+      "coin_count": 2,
+      "attack_level": 27,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[正面命中时] 下回合对目标施加3层 破裂"
+      ]
+    }
+  ],
+  "is_ally": false,
+  "_structured": true,
+  "appear_stages": [
+    "折射轨道1号线-首站：遭遇"
+  ],
+  "enemy_id": "折射轨道1号线-首站：遭遇|记忆中被侵蚀的士兵|身体",
+  "defense": 120,
+  "speed": "0~0",
+  "_schema_version": 1
+}

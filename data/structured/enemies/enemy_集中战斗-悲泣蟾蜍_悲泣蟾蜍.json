@@ -1,0 +1,156 @@
+{
+  "page_type": "enemy",
+  "title": "集中战斗-悲泣蟾蜍",
+  "enemy_name": "悲泣蟾蜍",
+  "battle_stage": "集中战斗-悲泣蟾蜍",
+  "body_part": "躯干",
+  "hp": 609,
+  "defense_level": 37,
+  "speed_min": 1,
+  "speed_max": 4,
+  "chaos_threshold": "",
+  "physical_resistances": {
+    "斩击": 0.75,
+    "突刺": 0.75,
+    "打击": 0.5
+  },
+  "sin_resistances": {
+    "暴怒": 0.75,
+    "色欲": 0.75,
+    "怠惰": 1.0,
+    "暴食": 1.0,
+    "忧郁": 0.75,
+    "傲慢": 1.0,
+    "嫉妒": 1.5
+  },
+  "panic_types": [],
+  "passives": [],
+  "skills": [
+    {
+      "skill_name": "呜咽拍击",
+      "icon_id": "851001",
+      "sin_type": "忧郁",
+      "damage_type": "",
+      "base_value": 3,
+      "coin_power": 4,
+      "coin_count": 2,
+      "attack_level": 44,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[正面命中时] 对目标施加5层 沉沦 下{1}次被攻击时，额外受到{0}点固定理智伤害。(没有理智值的目标则受到忧郁属性伤害) ，5级 沉沦 下{1}次被攻击时，额外受到{0}点固定理智伤害。(没有理智值的目标则受到忧郁属性伤害) 强度"
+      ]
+    },
+    {
+      "skill_name": "悲恸拍击",
+      "icon_id": "851002",
+      "sin_type": "忧郁",
+      "damage_type": "",
+      "base_value": 4,
+      "coin_power": 4,
+      "coin_count": 2,
+      "attack_level": 44,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": []
+    },
+    {
+      "skill_name": "呱呱",
+      "icon_id": "851008",
+      "sin_type": "常规",
+      "damage_type": "",
+      "base_value": 7,
+      "coin_power": 10,
+      "coin_count": 1,
+      "attack_level": 0,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": []
+    },
+    {
+      "skill_name": "融化之眼",
+      "icon_id": "851003",
+      "sin_type": "忧郁",
+      "damage_type": "",
+      "base_value": 3,
+      "coin_power": 4,
+      "coin_count": 3,
+      "attack_level": 44,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[正面命中时] 依据目标的 沉沦 下{1}次被攻击时，额外受到{0}点固定理智伤害。(没有理智值的目标则受到忧郁属性伤害) 层数造成额外伤害",
+        "[正面命中时] 依据目标沉沦层数造成额外理智值伤害"
+      ]
+    },
+    {
+      "skill_name": "眼球重摆",
+      "icon_id": "851005",
+      "sin_type": "忧郁",
+      "damage_type": "",
+      "base_value": 3,
+      "coin_power": 4,
+      "coin_count": 2,
+      "attack_level": 44,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[正面命中时] 使目标的 沉沦 下{1}次被攻击时，额外受到{0}点固定理智伤害。(没有理智值的目标则受到忧郁属性伤害) 强度与层数变为2倍"
+      ]
+    },
+    {
+      "skill_name": "融落之眼",
+      "icon_id": "851007",
+      "sin_type": "忧郁",
+      "damage_type": "",
+      "base_value": 4,
+      "coin_power": 4,
+      "coin_count": 2,
+      "attack_level": 44,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[正面命中时] 依据目标 沉沦 下{1}次被攻击时，额外受到{0}点固定理智伤害。(没有理智值的目标则受到忧郁属性伤害) 强度造成额外伤害"
+      ]
+    },
+    {
+      "skill_name": "席卷而来的忧郁",
+      "icon_id": "851004",
+      "sin_type": "忧郁",
+      "damage_type": "",
+      "base_value": 3,
+      "coin_power": 4,
+      "coin_count": 3,
+      "attack_level": 44,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[正面命中时] 依据目标的 沉沦 下{1}次被攻击时，额外受到{0}点固定理智伤害。(没有理智值的目标则受到忧郁属性伤害) 层数造成额外伤害",
+        "[正面命中时] 依据目标沉沦层数造成额外理智值伤害"
+      ]
+    }
+  ],
+  "is_ally": false,
+  "_structured": true,
+  "appear_stages": [
+    "集中战斗-悲泣蟾蜍"
+  ],
+  "enemy_id": "集中战斗-悲泣蟾蜍|悲泣蟾蜍|躯干",
+  "defense": 37,
+  "speed": "1~4",
+  "_schema_version": 1
+}

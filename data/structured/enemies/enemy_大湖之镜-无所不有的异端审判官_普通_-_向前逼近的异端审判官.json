@@ -1,0 +1,106 @@
+{
+  "page_type": "enemy",
+  "title": "大湖之镜-无所不有的异端审判官",
+  "enemy_name": "普通 - 向前逼近的异端审判官",
+  "battle_stage": "大湖之镜-无所不有的异端审判官",
+  "body_part": "右臂",
+  "hp": 222,
+  "defense_level": 47,
+  "speed_min": 1,
+  "speed_max": 4,
+  "chaos_threshold": "",
+  "physical_resistances": {
+    "斩击": 0.5,
+    "突刺": 0.75,
+    "打击": 1.0
+  },
+  "sin_resistances": {
+    "暴怒": 1.5,
+    "色欲": 0.75,
+    "怠惰": 1.0,
+    "暴食": 1.0,
+    "忧郁": 1.0,
+    "傲慢": 0.75,
+    "嫉妒": 2.0
+  },
+  "panic_types": [],
+  "passives": [],
+  "skills": [
+    {
+      "skill_name": "诡异之瞳",
+      "icon_id": "802401",
+      "sin_type": "色欲",
+      "damage_type": "",
+      "base_value": 4,
+      "coin_power": 0,
+      "coin_count": 3,
+      "attack_level": 40,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[命中时] 对目标造成5点理智伤害"
+      ]
+    },
+    {
+      "skill_name": "拙劣模仿",
+      "icon_id": "802402",
+      "sin_type": "色欲",
+      "damage_type": "",
+      "base_value": 4,
+      "coin_power": 6,
+      "coin_count": 1,
+      "attack_level": 40,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": []
+    },
+    {
+      "skill_name": "修补躯壳",
+      "icon_id": "802403",
+      "sin_type": "",
+      "damage_type": "",
+      "base_value": 3,
+      "coin_power": 10,
+      "coin_count": 2,
+      "attack_level": 40,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[命中时] 使自身恢复体力上限10%的体力并获得1层 本能 回合结束时，若本效果的层数高于4层，则进入进攻状态。"
+      ]
+    },
+    {
+      "skill_name": "粉身碎骨",
+      "icon_id": "802404",
+      "sin_type": "色欲",
+      "damage_type": "",
+      "base_value": 4,
+      "coin_power": 2,
+      "coin_count": 3,
+      "attack_level": 40,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[命中时] 使自身恢复体力上限10%的体力",
+        "[命中时] 下回合使目标增加10级 流血 下{1}次掷出硬币时受到{0}点固定伤害。 强度"
+      ]
+    }
+  ],
+  "is_ally": false,
+  "_structured": true,
+  "appear_stages": [
+    "大湖之镜-无所不有的异端审判官"
+  ],
+  "enemy_id": "大湖之镜-无所不有的异端审判官|普通 - 向前逼近的异端审判官|右臂",
+  "defense": 47,
+  "speed": "1~4",
+  "_schema_version": 1
+}

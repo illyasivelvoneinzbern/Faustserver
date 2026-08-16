@@ -1,0 +1,40 @@
+{
+  "page_type": "enemy",
+  "title": "折射轨道2号线复刻-第7站-2",
+  "enemy_name": "折射的四叶草",
+  "battle_stage": "折射轨道2号线复刻-第7站-2",
+  "body_part": "",
+  "hp": 224,
+  "defense_level": 61,
+  "speed_min": 1,
+  "speed_max": 1,
+  "chaos_threshold": "无",
+  "physical_resistances": {
+    "斩击": 2.0,
+    "突刺": 1.0,
+    "打击": 1.0
+  },
+  "sin_resistances": {
+    "暴怒": 1.0,
+    "色欲": 0.75,
+    "怠惰": 1.0,
+    "暴食": 0.75,
+    "忧郁": 1.0,
+    "傲慢": 1.5,
+    "嫉妒": 1.5
+  },
+  "panic_types": [],
+  "passives": [
+    "污染的叶子: 无恐慌类型数据"
+  ],
+  "skills": [],
+  "is_ally": false,
+  "_structured": true,
+  "appear_stages": [
+    "折射轨道2号线复刻-第7站-2"
+  ],
+  "enemy_id": "折射轨道2号线复刻-第7站-2|折射的四叶草|",
+  "defense": 61,
+  "speed": "1~1",
+  "_schema_version": 1
+}

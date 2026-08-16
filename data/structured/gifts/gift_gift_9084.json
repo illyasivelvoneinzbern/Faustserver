@@ -1,0 +1,21 @@
+{
+  "id": "gift_9084",
+  "title": "古代雕像",
+  "url": "https://limbuscompany.huijiwiki.com/wiki/E.G.O饰品",
+  "categories": [
+    "E.G.O饰品"
+  ],
+  "content": "回合开始时，使速度值最高的1名友方单位在下回合获得5层迅捷\n下回合开始时，使未受古代雕像影响的速度值最高的1名友方单位获得该效果(若没有可选择的单位，则解除该效果)\n若自身的速度值不低于10，则使自身增加(与目标的速度值之差/2)级攻击等级(最多5级，向下取整)",
+  "source": "tabx",
+  "_structured": true,
+  "page_type": "ego_gift",
+  "gift_name": "古代雕像",
+  "rarity": 4,
+  "cost": "397",
+  "effect_types": "泛用",
+  "attack_type": "暴食",
+  "location": "镜像迷宫",
+  "stage": "base",
+  "event": "事件-古代遗像",
+  "_schema_version": 1
+}

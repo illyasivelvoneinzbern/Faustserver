@@ -1,0 +1,22 @@
+{
+  "id": "gift_9779",
+  "title": "作战批准卡",
+  "url": "https://limbuscompany.huijiwiki.com/wiki/E.G.O饰品",
+  "categories": [
+    "E.G.O饰品"
+  ],
+  "content": "战斗中友方单位阵亡或撤退时，下回合开始时随机使全体友方单位获得共计3层攻击等级提升(每回合最多2次)\n- 若阵亡或撤退的友方单位数不低于3名，则改为下回合开始时随机使全体友方单位获得共计6层攻击等级提升(每回合最多2次)\n回合开始时，使理智值最低的3名友方单位分别恢复15点，10点与5点理智值(不会重复生效，按理智值由低到高顺序，不对侵蚀或陷入恐慌的单位生效)",
+  "source": "tabx",
+  "_structured": true,
+  "page_type": "ego_gift",
+  "gift_name": "作战批准卡",
+  "rarity": 3,
+  "cost": "252",
+  "effect_types": "泛用",
+  "attack_type": "嫉妒",
+  "location": "LCB定期体检、镜像迷宫",
+  "stage": "base",
+  "special": "LCB定期体检",
+  "event": "事件-仔细地观察周围",
+  "_schema_version": 1
+}

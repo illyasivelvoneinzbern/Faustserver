@@ -1,0 +1,21 @@
+{
+  "id": "gift_9008",
+  "title": "染血铁钉",
+  "url": "https://limbuscompany.huijiwiki.com/wiki/E.G.O饰品",
+  "categories": [
+    "E.G.O饰品"
+  ],
+  "content": "使用单硬币技能造成伤害时，使目标增加1级流血强度并对其施加2层防御等级降低直到下回合结束。\n若目标带有流血或特殊流血，则增加的流血强度改为3级。",
+  "source": "tabx",
+  "_structured": true,
+  "page_type": "ego_gift",
+  "gift_name": "染血铁钉",
+  "rarity": 1,
+  "cost": "147",
+  "effect_types": "流血",
+  "attack_type": "色欲",
+  "location": "镜像迷宫",
+  "stage": "base",
+  "event": "事件-痛苦泰迪",
+  "_schema_version": 1
+}

@@ -1,0 +1,128 @@
+{
+  "page_type": "enemy",
+  "title": "集中战斗-精灵提灯",
+  "enemy_name": "折射的精灵提灯",
+  "battle_stage": "集中战斗-精灵提灯",
+  "body_part": "精灵",
+  "hp": 69,
+  "defense_level": 33,
+  "speed_min": 1,
+  "speed_max": 1,
+  "chaos_threshold": "0.5/0",
+  "physical_resistances": {
+    "斩击": 2.0,
+    "突刺": 0.5,
+    "打击": 1.0
+  },
+  "sin_resistances": {
+    "暴怒": 1.0,
+    "色欲": 2.0,
+    "怠惰": 1.0,
+    "暴食": 0.75,
+    "忧郁": 0.5,
+    "傲慢": 1.5,
+    "嫉妒": 1.0
+  },
+  "panic_types": [],
+  "passives": [],
+  "skills": [
+    {
+      "skill_name": "悬挂的诱饵",
+      "icon_id": "854901",
+      "sin_type": "暴食",
+      "damage_type": "打击",
+      "base_value": 5,
+      "coin_power": 854,
+      "coin_count": 2,
+      "attack_level": 42,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[命中时] 对目标施加2层 破裂",
+        "[命中时] 使目标增加3级 流血 强度",
+        "[命中时] 本体，躯干恢复15点体力"
+      ]
+    },
+    {
+      "skill_name": "深埋的根",
+      "icon_id": "854902",
+      "sin_type": "暴食",
+      "damage_type": "打击",
+      "base_value": 5,
+      "coin_power": 854,
+      "coin_count": 2,
+      "attack_level": 42,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[命中时] 对目标施加3层 破裂",
+        "[命中时] 对目标施加3层 流血"
+      ]
+    },
+    {
+      "skill_name": "深埋的根",
+      "icon_id": "854903",
+      "sin_type": "怠惰",
+      "damage_type": "打击",
+      "base_value": 6,
+      "coin_power": 9703,
+      "coin_count": 2,
+      "attack_level": 42,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[命中时] 使目标增加5级 破裂 强度",
+        "[命中时] 使目标增加5级 流血 强度"
+      ]
+    },
+    {
+      "skill_name": "蚕食的茎",
+      "icon_id": "854904",
+      "sin_type": "暴食",
+      "damage_type": "打击",
+      "base_value": 7,
+      "coin_power": 854,
+      "coin_count": 2,
+      "attack_level": 42,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[命中时] 目标每带有1级 破裂 强度，则使本硬币造成的伤害+5%"
+      ]
+    },
+    {
+      "skill_name": "显露的深渊",
+      "icon_id": "854905",
+      "sin_type": "傲慢",
+      "damage_type": "打击",
+      "base_value": 10,
+      "coin_power": 3,
+      "coin_count": 1,
+      "attack_level": 42,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "目标的破裂强度不低于5级时，本硬币造成的伤害+100%"
+      ]
+    }
+  ],
+  "is_ally": false,
+  "_structured": true,
+  "appear_stages": [
+    "集中战斗-精灵提灯"
+  ],
+  "enemy_id": "集中战斗-精灵提灯|折射的精灵提灯|精灵",
+  "defense": 33,
+  "speed": "1~1",
+  "_schema_version": 1
+}

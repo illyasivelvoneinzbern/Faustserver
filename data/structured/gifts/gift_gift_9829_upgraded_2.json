@@ -1,0 +1,21 @@
+{
+  "id": "gift_9829_upgraded_2",
+  "title": "中指规矩",
+  "url": "https://limbuscompany.huijiwiki.com/wiki/E.G.O饰品",
+  "categories": [
+    "E.G.O饰品"
+  ],
+  "content": "使该技能的所有硬币转化为不可摧毁的硬币，该友方单位受到的伤害-50%，并在本回合与下回合获得2层打击伤害强化",
+  "source": "tabx",
+  "_structured": true,
+  "page_type": "ego_gift",
+  "gift_name": "中指规矩",
+  "rarity": 4,
+  "cost": "201",
+  "effect_types": "打击",
+  "attack_type": "嫉妒",
+  "location": "镜像迷宫",
+  "stage": "upgraded_2",
+  "special": "极限模式节点-即刻处刑时间",
+  "_schema_version": 1
+}

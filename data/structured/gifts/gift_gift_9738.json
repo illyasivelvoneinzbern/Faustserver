@@ -1,0 +1,22 @@
+{
+  "id": "gift_9738",
+  "title": "义体关节伺服电机",
+  "url": "https://limbuscompany.huijiwiki.com/wiki/E.G.O饰品",
+  "categories": [
+    "E.G.O饰品"
+  ],
+  "content": "根据友方单位本回合使用的获得充能层数或特殊充能的基础攻击技能数，下回合使其获得相应层数的迅捷与充能。(最多2次)\n属于多裂纹事务所的友方单位通过基础攻击技能获得或消耗充能层数时，使其额外获得1层充能(最多2层)",
+  "source": "tabx",
+  "_structured": true,
+  "page_type": "ego_gift",
+  "gift_name": "义体关节伺服电机",
+  "rarity": 2,
+  "cost": "207",
+  "effect_types": "充能",
+  "attack_type": "嫉妒",
+  "location": "镜像迷宫",
+  "stage": "base",
+  "special": "WARP快车谋杀案",
+  "event": "事件-义体关节伺服电机",
+  "_schema_version": 1
+}

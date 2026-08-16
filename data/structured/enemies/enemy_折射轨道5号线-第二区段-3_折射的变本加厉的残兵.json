@@ -1,0 +1,76 @@
+{
+  "page_type": "enemy",
+  "title": "折射轨道5号线-第二区段-3",
+  "enemy_name": "折射的变本加厉的残兵",
+  "battle_stage": "折射轨道5号线-第二区段-3",
+  "body_part": "躯干",
+  "hp": 139,
+  "defense_level": 50,
+  "speed_min": 1,
+  "speed_max": 1,
+  "chaos_threshold": "83",
+  "physical_resistances": {
+    "斩击": 2.0,
+    "突刺": 1.0,
+    "打击": 1.0
+  },
+  "sin_resistances": {
+    "暴怒": 1.0,
+    "色欲": 1.0,
+    "怠惰": 1.0,
+    "暴食": 1.0,
+    "忧郁": 1.0,
+    "傲慢": 1.0,
+    "嫉妒": 1.0
+  },
+  "panic_types": [],
+  "passives": [
+    "指定射杀: 被凶弹射手击杀时，下回合使凶弹射手获得1层 迅捷 ，1层 强壮 与2层 伤害强化",
+    "先手必胜: 被罪人击杀时，获得击杀自身的技能对应的3个罪孽碎片",
+    "不是我: 战斗开始时，若自身未带有 标记 ，则使自身获得300点护盾",
+    "强化肉体: 回合开始时，若现存体力不高于50%，则恢复2点体力。"
+  ],
+  "skills": [
+    {
+      "skill_name": "突刺",
+      "icon_id": "9000901",
+      "sin_type": "色欲",
+      "damage_type": "突刺",
+      "base_value": 2,
+      "coin_power": 7,
+      "coin_count": 1,
+      "attack_level": 0,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": []
+    },
+    {
+      "skill_name": "连续突刺",
+      "icon_id": "9001202",
+      "sin_type": "色欲",
+      "damage_type": "突刺",
+      "base_value": 2,
+      "coin_power": 2,
+      "coin_count": 3,
+      "attack_level": 0,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "1正面命中时对目标施加1层流血"
+      ]
+    }
+  ],
+  "is_ally": false,
+  "_structured": true,
+  "appear_stages": [
+    "折射轨道5号线-第二区段-3"
+  ],
+  "enemy_id": "折射轨道5号线-第二区段-3|折射的变本加厉的残兵|躯干",
+  "defense": 50,
+  "speed": "1~1",
+  "_schema_version": 1
+}

@@ -1,0 +1,20 @@
+{
+  "id": "gift_9029",
+  "title": "又小又可能很坏的玩偶",
+  "url": "https://limbuscompany.huijiwiki.com/wiki/E.G.O饰品",
+  "categories": [
+    "E.G.O饰品"
+  ],
+  "content": "对战斗开始时带有流血或特殊流血的敌方单位造成的伤害+10%\n受到来自战斗开始时带有流血或特殊流血的敌方单位的伤害-20%\n拥有傲慢攻击技能的友方单位改为对带有流血或特殊流血的敌方单位造成的伤害+20%\n拥有傲慢攻击技能的友方单位改为受到来自带有流血或特殊流血的敌方单位的伤害-30%。",
+  "source": "tabx",
+  "_structured": true,
+  "page_type": "ego_gift",
+  "gift_name": "又小又可能很坏的玩偶",
+  "rarity": 2,
+  "cost": "191",
+  "effect_types": "流血",
+  "attack_type": "傲慢",
+  "location": "镜像迷宫",
+  "stage": "base",
+  "_schema_version": 1
+}

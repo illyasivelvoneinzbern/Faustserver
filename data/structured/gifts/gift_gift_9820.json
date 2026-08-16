@@ -1,0 +1,22 @@
+{
+  "id": "gift_9820",
+  "title": "黑铁马胄",
+  "url": "https://limbuscompany.huijiwiki.com/wiki/E.G.O饰品",
+  "categories": [
+    "E.G.O饰品"
+  ],
+  "content": "回合开始时，使防御等级最高的1名友方单位获得(其防御等级/3)点护盾(优先使属于黑兽-午的单位获得，最多15点护盾)\n带有护盾的友方单位拼点胜利时，使敌方单位增加(自身的速度值/2)级震颤强度，并在下回合使自身获得2层迅捷与2层防御等级提升(每回合每名友方单位最多1次)",
+  "source": "tabx",
+  "_structured": true,
+  "page_type": "ego_gift",
+  "gift_name": "黑铁马胄",
+  "rarity": 2,
+  "cost": "205",
+  "effect_types": "震颤",
+  "attack_type": "暴食",
+  "location": "镜像迷宫",
+  "stage": "base",
+  "special": "切磋琢春",
+  "event": "事件-赃物：黑兽-午的装备",
+  "_schema_version": 1
+}

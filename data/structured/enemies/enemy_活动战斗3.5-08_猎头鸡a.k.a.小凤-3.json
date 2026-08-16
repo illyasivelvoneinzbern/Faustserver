@@ -1,0 +1,80 @@
+{
+  "page_type": "enemy",
+  "title": "活动战斗3.5-08",
+  "enemy_name": "猎头鸡a.k.a.小凤-3",
+  "battle_stage": "活动战斗3.5-08",
+  "body_part": "躯干",
+  "hp": 47,
+  "defense_level": 21,
+  "speed_min": 3,
+  "speed_max": 5,
+  "chaos_threshold": "28",
+  "physical_resistances": {
+    "斩击": 1.5,
+    "突刺": 1.0,
+    "打击": 0.75
+  },
+  "sin_resistances": {
+    "暴怒": 1.0,
+    "色欲": 2.0,
+    "怠惰": 0.75,
+    "暴食": 1.0,
+    "忧郁": 0.75,
+    "傲慢": 1.0,
+    "嫉妒": 1.5
+  },
+  "panic_types": [],
+  "passives": [],
+  "skills": [
+    {
+      "skill_name": "咕咕！",
+      "icon_id": "803401",
+      "sin_type": "色欲",
+      "damage_type": "",
+      "base_value": 0,
+      "coin_power": 6,
+      "coin_count": 2,
+      "attack_level": 24,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "coin_effects": [
+        "[命中时] 下回合使自身获得3层 迅捷 本回合内速度值+{0}"
+      ]
+    },
+    {
+      "skill_name": "咕咕呜！",
+      "icon_id": "803402",
+      "sin_type": "色欲",
+      "damage_type": "",
+      "base_value": 0,
+      "coin_power": 4,
+      "coin_count": 2,
+      "attack_level": 24,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "coin_effects": []
+    },
+    {
+      "skill_name": "咯！",
+      "icon_id": "803403",
+      "sin_type": "常规",
+      "damage_type": "",
+      "base_value": 0,
+      "coin_power": 8,
+      "coin_count": 1,
+      "attack_level": 0,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "coin_effects": []
+    }
+  ],
+  "is_ally": false,
+  "_structured": true,
+  "enemy_id": "活动战斗3.5-08|猎头鸡a.k.a.小凤-3",
+  "defense": 21,
+  "speed": "3~5",
+  "_schema_version": 1
+}

@@ -1,0 +1,105 @@
+{
+  "page_type": "enemy",
+  "title": "主线战斗4-20",
+  "enemy_name": "完整的破坏球无人机",
+  "battle_stage": "主线战斗4-20",
+  "body_part": "",
+  "hp": 179,
+  "defense_level": 33,
+  "speed_min": 1,
+  "speed_max": 2,
+  "chaos_threshold": "50",
+  "physical_resistances": {
+    "斩击": 0.5,
+    "突刺": 1.0,
+    "打击": 2.0
+  },
+  "sin_resistances": {
+    "暴怒": 1.0,
+    "色欲": 1.0,
+    "怠惰": 1.0,
+    "暴食": 1.0,
+    "忧郁": 1.0,
+    "傲慢": 1.0,
+    "嫉妒": 1.0
+  },
+  "panic_types": [],
+  "passives": [
+    "机械精神：理智值固定为0.",
+    "注意摇晃： 震颤引爆 对自身造成的混乱阈值前移量+50%。",
+    "注意损伤： 破裂 效果对自身造成的伤害+30%（向下取整）",
+    "破裂功能受损：陷入混乱后，此后施加的 震颤 强度， 震颤 层数减少1"
+  ],
+  "skills": [
+    {
+      "skill_name": "装填…发射",
+      "icon_id": "9005001",
+      "sin_type": "怠惰",
+      "damage_type": "",
+      "base_value": 0,
+      "coin_power": 7,
+      "coin_count": 2,
+      "attack_level": 24,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "coin_effects": [
+        "[命中时] 使目标增加5级 震颤 强度",
+        "[正面命中时] 对目标施加2层 震颤"
+      ]
+    },
+    {
+      "skill_name": "正在镇压。",
+      "icon_id": "9005002",
+      "sin_type": "怠惰",
+      "damage_type": "",
+      "base_value": 0,
+      "coin_power": 8,
+      "coin_count": 2,
+      "attack_level": 24,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "coin_effects": [
+        "[命中时] 下回合对目标施加2层 虚弱"
+      ]
+    },
+    {
+      "skill_name": "注意 注意 不稳",
+      "icon_id": "9005003",
+      "sin_type": "傲慢",
+      "damage_type": "",
+      "base_value": 0,
+      "coin_power": 2,
+      "coin_count": 3,
+      "attack_level": 24,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "coin_effects": [
+        "[命中时] 下回合对目标施加5层 攻击等级降低 本回合内攻击等级-{0}",
+        "[命中时] 使目标 震颤引爆"
+      ]
+    },
+    {
+      "skill_name": "切换防御模式",
+      "icon_id": "9005004",
+      "sin_type": "常规",
+      "damage_type": "",
+      "base_value": 0,
+      "coin_power": 4,
+      "coin_count": 1,
+      "attack_level": 0,
+      "attack_weight": 1,
+      "is_guard": true,
+      "guard_type": "防御",
+      "coin_effects": []
+    }
+  ],
+  "is_ally": false,
+  "_structured": true,
+  "enemy_id": "主线战斗4-20|完整的破坏球无人机",
+  "defense": 33,
+  "speed": "1~2",
+  "_schema_version": 1
+}

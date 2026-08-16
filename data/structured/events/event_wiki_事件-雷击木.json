@@ -1,0 +1,86 @@
+{
+  "page_type": "event",
+  "title": "事件-雷击木",
+  "event_name": "雷击木",
+  "narration": "荒野中，一棵饱含怨念的树孑然独立。\n在这交杂着令人不悦的气氛的空间中，\n连天空都似乎不得安宁。\n那根如手臂般伸出的树枝令人印象深刻。\n这棵树虽没有任何动作，但似乎在渴求着什么。\n\n为它浇水\n我往树的周围洒了一些水。\n就像是在炽热的铁板上浇水似的，\n水如沸腾蒸发般消失。\n但，没有发生什么特别的事。\n树枝看上去稍稍有了些活力？\n可是，除此之外也没什么变化了。\n分支1（重复次数×12.5%）\n分支1（1-重复次数×12.5%）\n分支2\n多浇些水\n：\n我突然察觉到，\n树貌似比之前更加有活力了。\n不知何时起也感受不到那种令人生厌的感觉。\n它一定是干渴了太久吧。\n如手臂般的树枝动起来，向我靠近。\n就像是在对我表达感谢一般，\n它让我拿走了许多的赠礼。\n获得\n！\n全体友方单位恢复\n30点体力\n及\n30点理智值\n多浇些水\n：\n我又多为它浇了些水。\n但水依旧如沸腾蒸发般消失。\n吸收的水量似乎变少了些？\n可是，除此之外也没什么变化了。\n（返回事件选项）\n折断树枝\n：\n将一直很在意的那根如同手臂般延伸而出的树枝折下。\n随后数声惊恐的悲鸣猛地传来。\n我对着折断的树枝侧耳倾听，\n发现悲鸣是从那之中传出的。\n虽然有种讨厌的感觉，但也有种如果把它扔掉，\n会发生很不好的事的预感。\n随机使一名技能组不包含\n忧郁属性攻击技能\n的友方单位失去\n10点理智值\n！\n获得\n！\n\n折断树枝\n将一直很在意的那根如同手臂般延伸而出的树枝折下。\n随后数声惊恐的悲鸣猛地传来。\n我对着折断的树枝侧耳倾听，\n发现悲鸣是从那之中传出的。\n虽然有种讨厌的感觉，但也有种如果把它扔掉，\n会发生很不好的事的预感。\n技能组不包含\n忧郁属性攻击技能\n的友方单位失去\n9点理智值\n！\n获得\n！",
+  "options": [
+    {
+      "choice_text": "为它浇水",
+      "check_type": "",
+      "check_sin": "",
+      "check_threshold": 0,
+      "success_outcomes": [],
+      "failure_outcomes": []
+    },
+    {
+      "choice_text": "多浇些水",
+      "check_type": "",
+      "check_sin": "",
+      "check_threshold": 0,
+      "success_outcomes": [],
+      "failure_outcomes": []
+    },
+    {
+      "choice_text": "多浇些水",
+      "check_type": "",
+      "check_sin": "",
+      "check_threshold": 0,
+      "success_outcomes": [],
+      "failure_outcomes": []
+    },
+    {
+      "choice_text": "折断树枝",
+      "check_type": "",
+      "check_sin": "",
+      "check_threshold": 0,
+      "success_outcomes": [],
+      "failure_outcomes": []
+    },
+    {
+      "choice_text": "折断树枝",
+      "check_type": "",
+      "check_sin": "",
+      "check_threshold": 0,
+      "success_outcomes": [],
+      "failure_outcomes": []
+    },
+    {
+      "choice_text": "多浇些水",
+      "check_type": "",
+      "check_sin": "",
+      "check_threshold": 0,
+      "success_outcomes": [],
+      "failure_outcomes": []
+    },
+    {
+      "choice_text": "多浇些水",
+      "check_type": "",
+      "check_sin": "",
+      "check_threshold": 0,
+      "success_outcomes": [],
+      "failure_outcomes": []
+    },
+    {
+      "choice_text": "折断树枝",
+      "check_type": "",
+      "check_sin": "",
+      "check_threshold": 0,
+      "success_outcomes": [],
+      "failure_outcomes": []
+    }
+  ],
+  "ego_gifts": [],
+  "related_abnormalities": [
+    "白幕内涉及目前游戏未公开内容，仅供参考，请以后续实装内容为准。",
+    "원귀목",
+    "事件触发地点",
+    "镜像迷宫"
+  ],
+  "trigger_location": "",
+  "_structured": true,
+  "id": "wiki_事件-雷击木",
+  "url": "https://limbuscompany.huijiwiki.com/wiki/事件-雷击木",
+  "categories": [],
+  "source": "wiki",
+  "_schema_version": 1
+}

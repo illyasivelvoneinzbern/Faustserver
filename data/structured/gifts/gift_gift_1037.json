@@ -1,0 +1,21 @@
+{
+  "id": "gift_1037",
+  "title": "N公司印章",
+  "url": "https://limbuscompany.huijiwiki.com/wiki/E.G.O饰品",
+  "categories": [
+    "E.G.O饰品"
+  ],
+  "content": "在特定的事件中使用。使用后消耗。",
+  "source": "tabx",
+  "_structured": true,
+  "page_type": "ego_gift",
+  "gift_name": "N公司印章",
+  "rarity": 0,
+  "cost": "0",
+  "effect_types": "",
+  "attack_type": "色欲",
+  "location": "第三章",
+  "stage": "base",
+  "event": "事件-腐尸所遗留下来的东西",
+  "_schema_version": 1
+}

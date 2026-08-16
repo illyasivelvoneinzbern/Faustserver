@@ -1,0 +1,21 @@
+{
+  "id": "gift_9058",
+  "title": "星象盘碎片",
+  "url": "https://limbuscompany.huijiwiki.com/wiki/E.G.O饰品",
+  "categories": [
+    "E.G.O饰品"
+  ],
+  "content": "回合开始时，上回合每使用一个暴食以外属性的E.G.O技能，随机获得1个E.G.O资源。\n\n若上回合使用了暴食属性E.G.O技能，则改为上一回合每使用一个暴食属性的E.G.O技能，随机获得3个E.G.O资源。",
+  "source": "tabx",
+  "_structured": true,
+  "page_type": "ego_gift",
+  "gift_name": "星象盘碎片",
+  "rarity": 3,
+  "cost": "265",
+  "effect_types": "泛用",
+  "attack_type": "暴食",
+  "location": "镜像迷宫",
+  "stage": "base",
+  "event": "事件-星象盘碎片",
+  "_schema_version": 1
+}

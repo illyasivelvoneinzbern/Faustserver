@@ -1,0 +1,35 @@
+{
+  "page_type": "event",
+  "title": "事件-时间杀人现场",
+  "event_name": "时间杀人现场",
+  "narration": "我们看到了被时间杀人魔攻击而停止的受害者。\n由于时空转移重叠现象，我们无法触碰到他。\n有办法帮助他吗？\n\n帮忙。\n（怠惰，暴食，傲慢优势判定 成功后，获得1件泛用E.G.O饰品）\n【让哪位罪人来发言？】\n有利判定\n：\n/\n/\n≥13\n不利判定\n：\n≥26\n判定成功\n：\n已经竭尽所能地施以援手，不过依然毫无意义。\n他们无法移动，也不能以物理手段加以干涉。\n在调查之中，我们在受害者脚边发现了一张可疑的收据单。\n兴许是条线索。\n获得E.G.O饰品\n预支时间收据\n！\n判定失败\n：\n已经竭尽所能地施以援手，却依然毫无意义。\n他们无法移动，也不能以物理手段加以干涉。\n什么都没有发生。\n\n无视。\n我们必须追上时间杀人魔。\n不能在这里浪费时间。\n什么都没有发生。",
+  "options": [
+    {
+      "choice_text": "帮忙。",
+      "check_type": "有利判定",
+      "check_sin": "怠惰",
+      "check_threshold": 13,
+      "success_outcomes": [
+        "获得E.G.O饰品 预支时间收据 ！ 判定失败 ： 已经竭尽所能地施以援手"
+      ],
+      "failure_outcomes": []
+    },
+    {
+      "choice_text": "无视。",
+      "check_type": "",
+      "check_sin": "",
+      "check_threshold": 0,
+      "success_outcomes": [],
+      "failure_outcomes": []
+    }
+  ],
+  "ego_gifts": [],
+  "related_abnormalities": [],
+  "trigger_location": "",
+  "_structured": true,
+  "id": "wiki_事件-时间杀人现场",
+  "url": "https://limbuscompany.huijiwiki.com/wiki/事件-时间杀人现场",
+  "categories": [],
+  "source": "wiki",
+  "_schema_version": 1
+}

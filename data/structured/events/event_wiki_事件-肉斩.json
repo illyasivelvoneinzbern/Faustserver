@@ -1,0 +1,33 @@
+{
+  "page_type": "event",
+  "title": "事件-肉斩",
+  "event_name": "肉斩",
+  "narration": "瓦檐之下。浓重的黑暗中，有人倚墙而立。\n那人默默注视着我和罪人们，随后以低沉的嗓音抛出了一个问题。\n“你们……能为了削去敌人之骨，而奉上自身之肉吗？”\n“若已做好觉悟，便取走此刀。”\n仅一眼就能看出，那柄递出的刀透着不祥之气。\n\n拿走刀。\n“肉斩骨断。李代桃僵。”\n“唯有怀着被斩的觉悟，才能斩得更深。”\n接过刀的瞬间，我便理解了那人所说的“被斩的觉悟”为何。\n获得\n！\n\n不去拿。\n“对无意去斩之人而言，刀与觉悟皆无用。”\n对方重新将刀佩于腰间，默然离去。\n什么都没有发生。",
+  "options": [
+    {
+      "choice_text": "拿走刀。",
+      "check_type": "",
+      "check_sin": "",
+      "check_threshold": 0,
+      "success_outcomes": [],
+      "failure_outcomes": []
+    },
+    {
+      "choice_text": "不去拿。",
+      "check_type": "",
+      "check_sin": "",
+      "check_threshold": 0,
+      "success_outcomes": [],
+      "failure_outcomes": []
+    }
+  ],
+  "ego_gifts": [],
+  "related_abnormalities": [],
+  "trigger_location": "",
+  "_structured": true,
+  "id": "wiki_事件-肉斩",
+  "url": "https://limbuscompany.huijiwiki.com/wiki/事件-肉斩",
+  "categories": [],
+  "source": "wiki",
+  "_schema_version": 1
+}

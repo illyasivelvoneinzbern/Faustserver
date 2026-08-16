@@ -1,0 +1,632 @@
+{
+  "page_type": "personality",
+  "title": "辛克莱准执柄者",
+  "sinner": "辛克莱",
+  "sinner_id": "sinclair",
+  "personality_name": "辛克莱准执柄者",
+  "release_date": "2023.05.04",
+  "acquisition": "第1赛季提取",
+  "sin_affinities": {
+    "忧郁": 3,
+    "色欲": 2,
+    "暴怒": 1
+  },
+  "physical_resistances": {
+    "斩击": 2.0,
+    "突刺": 1.0,
+    "打击": 0.5
+  },
+  "ego_resources": {
+    "忧郁": 3,
+    "色欲": 2,
+    "暴怒": 1
+  },
+  "skills": [
+    {
+      "skill_index": 0,
+      "skill_name": "迫不得已的审判",
+      "sin_type": "忧郁",
+      "damage_type": "打击",
+      "guard_type": "",
+      "attack_capacity": 1,
+      "coin_count": 2,
+      "stage_groups": [
+        [
+          {
+            "stage": "I",
+            "base_value": 7,
+            "coin_power": -2,
+            "effects": [
+              {
+                "timing": "使用时",
+                "description": "使自身失去7点 理智值"
+              },
+              {
+                "timing": "反面命中时",
+                "description": "使目标增加2级 烧伤 强度"
+              }
+            ],
+            "raw_text": "基础值： 7 变动值： -2 [使用时] 使自身失去7点 理智值 [反面命中时] 使目标增加2级 烧伤 强度"
+          },
+          {
+            "stage": "II",
+            "base_value": 7,
+            "coin_power": -2,
+            "effects": [
+              {
+                "timing": "使用时",
+                "description": "使自身失去7点 理智值"
+              },
+              {
+                "timing": "反面命中时",
+                "description": "下回合使自身获得1层 狂信"
+              },
+              {
+                "timing": "命中时",
+                "description": "使目标增加2级 烧伤 强度"
+              }
+            ],
+            "raw_text": "基础值： 7 变动值： -2 [使用时] 使自身失去7点 理智值 [反面命中时] 下回合使自身获得1层 狂信 [命中时] 使目标增加2级 烧伤 强度"
+          },
+          {
+            "stage": "III",
+            "base_value": 8,
+            "coin_power": -2,
+            "effects": [
+              {
+                "timing": "使用时",
+                "description": "使自身失去7点 理智值"
+              },
+              {
+                "timing": "反面命中时",
+                "description": "下回合使自身获得1层 狂信"
+              },
+              {
+                "timing": "命中时",
+                "description": "使目标增加2级 烧伤 强度"
+              }
+            ],
+            "raw_text": "基础值： 8 变动值： -2 [使用时] 使自身失去7点 理智值 [反面命中时] 下回合使自身获得1层 狂信 [命中时] 使目标增加2级 烧伤 强度"
+          },
+          {
+            "stage": "IV",
+            "base_value": 8,
+            "coin_power": -2,
+            "effects": [
+              {
+                "timing": "使用时",
+                "description": "使自身失去7点 理智值"
+              },
+              {
+                "timing": "反面命中时",
+                "description": "下回合使自身获得1层 狂信"
+              },
+              {
+                "timing": "命中时",
+                "description": "使目标增加3级 烧伤 强度"
+              }
+            ],
+            "raw_text": "基础值： 8 变动值： -2 [使用时] 使自身失去7点 理智值 [反面命中时] 下回合使自身获得1层 狂信 [命中时] 使目标增加3级 烧伤 强度"
+          }
+        ]
+      ],
+      "coin_effects": [
+        {
+          "coin_index": 0,
+          "description": "技能一"
+        },
+        {
+          "coin_index": 0,
+          "description": "迫不得已的审判 3"
+        },
+        {
+          "coin_index": 0,
+          "timing": "",
+          "description": "2"
+        },
+        {
+          "coin_index": 0,
+          "description": "+4"
+        },
+        {
+          "coin_index": 0,
+          "description": "1"
+        },
+        {
+          "coin_index": 0,
+          "description": "基础值： 7 变动值： -2 [使用时] 使自身失去7点 理智值"
+        },
+        {
+          "coin_index": 2,
+          "timing": "反面命中时",
+          "description": "[反面命中时] 使目标增加2级 烧伤 强度"
+        },
+        {
+          "coin_index": 2,
+          "timing": "反面命中时",
+          "description": "[反面命中时] 下回合使自身获得1层 狂信 [命中时] 使目标增加2级 烧伤 强度"
+        },
+        {
+          "coin_index": 2,
+          "timing": "反面命中时",
+          "description": "[反面命中时] 下回合使自身获得1层 狂信 [命中时] 使目标增加2级 烧伤 强度"
+        },
+        {
+          "coin_index": 2,
+          "timing": "反面命中时",
+          "description": "[反面命中时] 下回合使自身获得1层 狂信 [命中时] 使目标增加3级 烧伤 强度"
+        }
+      ],
+      "wikitext_key": "1技能"
+    },
+    {
+      "skill_index": 1,
+      "skill_name": "黑白不分的执行",
+      "sin_type": "色欲",
+      "damage_type": "打击",
+      "guard_type": "",
+      "attack_capacity": 1,
+      "coin_count": 4,
+      "stage_groups": [
+        [
+          {
+            "stage": "I",
+            "base_value": 12,
+            "coin_power": -3,
+            "effects": [
+              {
+                "timing": "使用时",
+                "description": "使自身失去10点 理智值 若自身带有 狂信 ，则使本技能造成的伤害+5%"
+              },
+              {
+                "timing": "反面命中时",
+                "description": "使目标增加1级 烧伤 强度"
+              },
+              {
+                "timing": "反面命中时",
+                "description": "使目标增加1级 烧伤 强度"
+              },
+              {
+                "timing": "命中时",
+                "description": "使目标增加2级 流血 强度"
+              }
+            ],
+            "raw_text": "基础值： 12 变动值： -3 [使用时] 使自身失去10点 理智值 若自身带有 狂信 ，则使本技能造成的伤害+5% [反面命中时] 使目标增加1级 烧伤 强度 [反面命中时] 使目标增加1级 烧伤 强度 [命中时] 使目标增加2级 流血 强度"
+          },
+          {
+            "stage": "II",
+            "base_value": 12,
+            "coin_power": -3,
+            "effects": [
+              {
+                "timing": "使用时",
+                "description": "使自身失去10点 理智值 若自身带有 狂信 ，则使本技能造成的伤害+10%"
+              },
+              {
+                "timing": "反面命中时",
+                "description": "使目标增加2级 烧伤 强度"
+              },
+              {
+                "timing": "命中时",
+                "description": "使目标增加1级 烧伤 强度"
+              },
+              {
+                "timing": "反面命中时",
+                "description": "使目标增加2级 烧伤 强度"
+              },
+              {
+                "timing": "命中时",
+                "description": "使目标增加1级 烧伤 强度"
+              },
+              {
+                "timing": "反面命中时",
+                "description": "对目标施加1层 烧伤"
+              },
+              {
+                "timing": "命中时",
+                "description": "使目标增加2级 流血 强度"
+              }
+            ],
+            "raw_text": "基础值： 12 变动值： -3 [使用时] 使自身失去10点 理智值 若自身带有 狂信 ，则使本技能造成的伤害+10% [反面命中时] 使目标增加2级 烧伤 强度 [命中时] 使目标增加1级 烧伤 强度 [反面命中时] 使目标增加2级 烧伤 强度 [命中时] 使目标增加1级 烧伤 强度 [反面命中时] 对目标施加1层 烧伤 [命中时] 使目标增加2级 流血 强度"
+          },
+          {
+            "stage": "III",
+            "base_value": 16,
+            "coin_power": -4,
+            "effects": [
+              {
+                "timing": "使用时",
+                "description": "使自身失去10点 理智值 若自身带有 狂信 ，则使本技能造成的伤害+10%"
+              },
+              {
+                "timing": "反面命中时",
+                "description": "使目标增加2级 烧伤 强度"
+              },
+              {
+                "timing": "命中时",
+                "description": "使目标增加1级 烧伤 强度"
+              },
+              {
+                "timing": "反面命中时",
+                "description": "使目标增加2级 烧伤 强度"
+              },
+              {
+                "timing": "命中时",
+                "description": "使目标增加1级 烧伤 强度"
+              },
+              {
+                "timing": "反面命中时",
+                "description": "对目标施加1层 烧伤"
+              },
+              {
+                "timing": "命中时",
+                "description": "使目标增加2级 流血 强度"
+              }
+            ],
+            "raw_text": "基础值： 16 变动值： -4 [使用时] 使自身失去10点 理智值 若自身带有 狂信 ，则使本技能造成的伤害+10% [反面命中时] 使目标增加2级 烧伤 强度 [命中时] 使目标增加1级 烧伤 强度 [反面命中时] 使目标增加2级 烧伤 强度 [命中时] 使目标增加1级 烧伤 强度 [反面命中时] 对目标施加1层 烧伤 [命中时] 使目标增加2级 流血 强度"
+          },
+          {
+            "stage": "IV",
+            "base_value": 16,
+            "coin_power": -4,
+            "effects": [
+              {
+                "timing": "使用时",
+                "description": "使自身失去10点 理智值 若自身带有 狂信 ，则使本技能造成的伤害+10%"
+              },
+              {
+                "timing": "反面命中时",
+                "description": "使目标增加2级 烧伤 强度"
+              },
+              {
+                "timing": "命中时",
+                "description": "使目标增加1级 烧伤 强度"
+              },
+              {
+                "timing": "反面命中时",
+                "description": "使目标增加2级 烧伤 强度"
+              },
+              {
+                "timing": "命中时",
+                "description": "使目标增加1级 烧伤 强度"
+              },
+              {
+                "timing": "反面命中时",
+                "description": "对目标施加1层 烧伤"
+              },
+              {
+                "timing": "命中时",
+                "description": "使目标增加2级 流血 强度"
+              }
+            ],
+            "raw_text": "基础值： 16 变动值： -4 [使用时] 使自身失去10点 理智值 若自身带有 狂信 ，则使本技能造成的伤害+10% [反面命中时] 使目标增加2级 烧伤 强度 [命中时] 使目标增加1级 烧伤 强度 [反面命中时] 使目标增加2级 烧伤 强度 [命中时] 使目标增加1级 烧伤 强度 [反面命中时] 对目标施加1层 烧伤 [命中时] 使目标增加2级 流血 强度"
+          }
+        ]
+      ],
+      "coin_effects": [
+        {
+          "coin_index": 0,
+          "description": "技能二"
+        },
+        {
+          "coin_index": 0,
+          "description": "黑白不分的执行 2"
+        },
+        {
+          "coin_index": 0,
+          "timing": "",
+          "description": "4"
+        },
+        {
+          "coin_index": 0,
+          "description": "+5"
+        },
+        {
+          "coin_index": 0,
+          "description": "1"
+        },
+        {
+          "coin_index": 0,
+          "description": "基础值： 12 变动值： -3 [使用时] 使自身失去10点 理智值 若自身带有 狂信 ，则使本技能造成的伤害+5%"
+        },
+        {
+          "coin_index": 2,
+          "timing": "反面命中时",
+          "description": "[反面命中时] 使目标增加1级 烧伤 强度"
+        },
+        {
+          "coin_index": 3,
+          "timing": "反面命中时",
+          "description": "[反面命中时] 使目标增加1级 烧伤 强度"
+        },
+        {
+          "coin_index": 4,
+          "timing": "命中时",
+          "description": "[命中时] 使目标增加2级 流血 强度"
+        },
+        {
+          "coin_index": 2,
+          "timing": "反面命中时",
+          "description": "[反面命中时] 使目标增加2级 烧伤 强度 [命中时] 使目标增加1级 烧伤 强度"
+        },
+        {
+          "coin_index": 3,
+          "timing": "反面命中时",
+          "description": "[反面命中时] 使目标增加2级 烧伤 强度 [命中时] 使目标增加1级 烧伤 强度"
+        },
+        {
+          "coin_index": 4,
+          "timing": "反面命中时",
+          "description": "[反面命中时] 对目标施加1层 烧伤 [命中时] 使目标增加2级 流血 强度"
+        },
+        {
+          "coin_index": 2,
+          "timing": "反面命中时",
+          "description": "[反面命中时] 使目标增加2级 烧伤 强度 [命中时] 使目标增加1级 烧伤 强度"
+        },
+        {
+          "coin_index": 3,
+          "timing": "反面命中时",
+          "description": "[反面命中时] 使目标增加2级 烧伤 强度 [命中时] 使目标增加1级 烧伤 强度"
+        },
+        {
+          "coin_index": 4,
+          "timing": "反面命中时",
+          "description": "[反面命中时] 对目标施加1层 烧伤 [命中时] 使目标增加2级 流血 强度"
+        },
+        {
+          "coin_index": 2,
+          "timing": "反面命中时",
+          "description": "[反面命中时] 使目标增加2级 烧伤 强度 [命中时] 使目标增加1级 烧伤 强度"
+        },
+        {
+          "coin_index": 3,
+          "timing": "反面命中时",
+          "description": "[反面命中时] 使目标增加2级 烧伤 强度 [命中时] 使目标增加1级 烧伤 强度"
+        },
+        {
+          "coin_index": 4,
+          "timing": "反面命中时",
+          "description": "[反面命中时] 对目标施加1层 烧伤 [命中时] 使目标增加2级 流血 强度"
+        }
+      ],
+      "wikitext_key": "2技能"
+    },
+    {
+      "skill_index": 2,
+      "skill_name": "自我毁灭的净化",
+      "sin_type": "暴怒",
+      "damage_type": "打击",
+      "guard_type": "",
+      "attack_capacity": 1,
+      "coin_count": 3,
+      "stage_groups": [
+        [
+          {
+            "stage": "I",
+            "base_value": 30,
+            "coin_power": -12,
+            "effects": [
+              {
+                "timing": "使用时",
+                "description": "使自身失去15点 理智值 - 若自身带有 狂信 ，则使本技能造成的伤害+15% - 若目标属于<机械融合生命体>，则本技能造成的伤害+10%"
+              },
+              {
+                "timing": "命中时",
+                "description": "使目标的 混乱阈值 前移本硬币伤害量的50%"
+              },
+              {
+                "timing": "命中时",
+                "description": "若目标的 流血 强度不低于5级，则使其增加5级 烧伤 强度"
+              },
+              {
+                "timing": "击杀敌方时",
+                "description": "下回合使自身获得1层 打击威力提升"
+              }
+            ],
+            "raw_text": "基础值： 30 变动值： -12 [使用时] 使自身失去15点 理智值 - 若自身带有 狂信 ，则使本技能造成的伤害+15% - 若目标属于<机械融合生命体>，则本技能造成的伤害+10% [命中时] 使目标的 混乱阈值 前移本硬币伤害量的50% [命中时] 若目标的 流血 强度不低于5级，则使其增加5级 烧伤 强度 [击杀敌方时] 下回合使自身获得1层 打击威力提升"
+          },
+          {
+            "stage": "II",
+            "base_value": 30,
+            "coin_power": -12,
+            "effects": [
+              {
+                "timing": "使用时",
+                "description": "使自身失去15点 理智值 - 若自身带有 狂信 ，则使本技能造成的伤害+15% - 若目标属于<机械融合生命体>，则本技能造成的伤害+10%"
+              },
+              {
+                "timing": "命中时",
+                "description": "使目标的 混乱阈值 前移本硬币伤害量的50%"
+              },
+              {
+                "timing": "命中时",
+                "description": "若目标的 流血 强度不低于5级，则使其增加7级 烧伤 强度"
+              },
+              {
+                "timing": "击杀敌方时",
+                "description": "下回合使自身获得1层 打击威力提升"
+              }
+            ],
+            "raw_text": "基础值： 30 变动值： -12 [使用时] 使自身失去15点 理智值 - 若自身带有 狂信 ，则使本技能造成的伤害+15% - 若目标属于<机械融合生命体>，则本技能造成的伤害+10% [命中时] 使目标的 混乱阈值 前移本硬币伤害量的50% [命中时] 若目标的 流血 强度不低于5级，则使其增加7级 烧伤 强度 [击杀敌方时] 下回合使自身获得1层 打击威力提升"
+          }
+        ]
+      ],
+      "coin_effects": [
+        {
+          "coin_index": 0,
+          "description": "技能三"
+        },
+        {
+          "coin_index": 0,
+          "description": "自我毁灭的净化 1"
+        },
+        {
+          "coin_index": 0,
+          "timing": "",
+          "description": "3"
+        },
+        {
+          "coin_index": 0,
+          "description": "+5"
+        },
+        {
+          "coin_index": 0,
+          "description": "1"
+        },
+        {
+          "coin_index": 0,
+          "description": "基础值： 30 变动值： -12 [使用时] 使自身失去15点 理智值 - 若自身带有 狂信 ，则使本技能造成的伤害+15% - 若目标属于<机械融合生命体>，则本技能造成的伤害+10%"
+        },
+        {
+          "coin_index": 2,
+          "timing": "命中时",
+          "description": "[命中时] 使目标的 混乱阈值 前移本硬币伤害量的50%"
+        },
+        {
+          "coin_index": 3,
+          "timing": "命中时",
+          "description": "[命中时] 若目标的 流血 强度不低于5级，则使其增加5级 烧伤 强度 [击杀敌方时] 下回合使自身获得1层 打击威力提升"
+        },
+        {
+          "coin_index": 2,
+          "timing": "命中时",
+          "description": "[命中时] 使目标的 混乱阈值 前移本硬币伤害量的50%"
+        },
+        {
+          "coin_index": 3,
+          "timing": "命中时",
+          "description": "[命中时] 若目标的 流血 强度不低于5级，则使其增加7级 烧伤 强度 [击杀敌方时] 下回合使自身获得1层 打击威力提升"
+        }
+      ],
+      "wikitext_key": "3技能"
+    },
+    {
+      "skill_index": 3,
+      "skill_name": "够了…",
+      "sin_type": "",
+      "damage_type": "",
+      "guard_type": "",
+      "attack_capacity": 1,
+      "coin_count": 1,
+      "stage_groups": [
+        [
+          {
+            "stage": "I",
+            "base_value": 17,
+            "coin_power": -7,
+            "effects": [
+              {
+                "timing": "战斗开始",
+                "description": "使自身恢复5~10点 理智值"
+              }
+            ],
+            "raw_text": "基础值： 17 变动值： -7 [战斗开始] 使自身恢复5~10点 理智值"
+          },
+          {
+            "stage": "II",
+            "base_value": 17,
+            "coin_power": -7,
+            "effects": [
+              {
+                "timing": "战斗开始",
+                "description": "使自身恢复5~10点 理智值"
+              }
+            ],
+            "raw_text": "基础值： 17 变动值： -7 [战斗开始] 使自身恢复5~10点 理智值"
+          }
+        ]
+      ],
+      "coin_effects": [
+        {
+          "coin_index": 0,
+          "description": "守备技能"
+        },
+        {
+          "coin_index": 0,
+          "description": "够了…"
+        },
+        {
+          "coin_index": 0,
+          "timing": "",
+          "description": "1"
+        },
+        {
+          "coin_index": 0,
+          "description": "+2"
+        },
+        {
+          "coin_index": 0,
+          "description": "1"
+        },
+        {
+          "coin_index": 0,
+          "description": "I阶 - III阶 IV阶 基础值： 17 变动值： -7 [战斗开始] 使自身恢复5~10点 理智值 基础值： 17 变动值： -7 [战斗开始] 使自身恢复5~10点 理智值"
+        }
+      ],
+      "wikitext_key": "4技能"
+    }
+  ],
+  "battle_passive": "人格被动1100501\n人格被动1100521",
+  "support_passive": "",
+  "notes": "",
+  "voice_lines": [],
+  "skill_voice": [
+    {
+      "file": "Battle_s2_11005_1_1.ogg",
+      "skill_index": 2,
+      "skill_label": "",
+      "skill_name": "黑白不分的执行"
+    },
+    {
+      "file": "Battle_s2_11005_1_2.ogg",
+      "skill_index": 2,
+      "skill_label": "",
+      "skill_name": "黑白不分的执行"
+    },
+    {
+      "file": "Battle_s2_11005_1_3.ogg",
+      "skill_index": 2,
+      "skill_label": "",
+      "skill_name": "黑白不分的执行"
+    },
+    {
+      "file": "Battle_s2_11005_1_3-01.ogg",
+      "skill_index": 2,
+      "skill_label": "",
+      "skill_name": "黑白不分的执行"
+    },
+    {
+      "file": "Battle_s2_11005_1_4.ogg",
+      "skill_index": 2,
+      "skill_label": "",
+      "skill_name": "黑白不分的执行"
+    },
+    {
+      "file": "Battle_s3_11005_1_1.ogg",
+      "skill_index": 3,
+      "skill_label": "",
+      "skill_name": "自我毁灭的净化"
+    },
+    {
+      "file": "Battle_s3_11005_1_2.ogg",
+      "skill_index": 3,
+      "skill_label": "",
+      "skill_name": "自我毁灭的净化"
+    },
+    {
+      "file": "Battle_s3_11005_1_2-03.ogg",
+      "skill_index": 3,
+      "skill_label": "",
+      "skill_name": "自我毁灭的净化"
+    }
+  ],
+  "_structured": true,
+  "id": "wiki_辛克莱准执柄者",
+  "url": "https://limbuscompany.huijiwiki.com/wiki/辛克莱准执柄者",
+  "categories": [
+    "人格"
+  ],
+  "source": "wiki",
+  "_schema_version": 1
+}

@@ -1,0 +1,165 @@
+{
+  "page_type": "enemy",
+  "title": "折射轨道3号线-第5站",
+  "enemy_name": "折射的陆行珍珠",
+  "battle_stage": "折射轨道3号线-第5站",
+  "body_part": "珍珠",
+  "hp": 822,
+  "defense_level": 38,
+  "speed_min": 1,
+  "speed_max": 3,
+  "chaos_threshold": "411/0",
+  "physical_resistances": {
+    "斩击": 1.0,
+    "突刺": 1.0,
+    "打击": 1.2
+  },
+  "sin_resistances": {
+    "暴怒": 1.0,
+    "色欲": 1.0,
+    "怠惰": 1.2,
+    "暴食": 1.2,
+    "忧郁": 1.0,
+    "傲慢": 1.0,
+    "嫉妒": 1.0
+  },
+  "panic_types": [],
+  "passives": [],
+  "skills": [
+    {
+      "skill_name": "毒性黏液",
+      "icon_id": "810101",
+      "sin_type": "暴食",
+      "damage_type": "打击",
+      "base_value": 4,
+      "coin_power": 3,
+      "coin_count": 2,
+      "attack_level": 2,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": []
+    },
+    {
+      "skill_name": "腐蚀黏液",
+      "icon_id": "810102",
+      "sin_type": "暴食",
+      "damage_type": "打击",
+      "base_value": 4,
+      "coin_power": 4,
+      "coin_count": 2,
+      "attack_level": 2,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": []
+    },
+    {
+      "skill_name": "麻痹黏液",
+      "icon_id": "810103",
+      "sin_type": "暴食",
+      "damage_type": "打击",
+      "base_value": 5,
+      "coin_power": 4,
+      "coin_count": 2,
+      "attack_level": 2,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "1命中时目标每带有1层剧毒，对其施加1层麻痹",
+        "命中时对目标施加2层幼虫"
+      ]
+    },
+    {
+      "skill_name": "捕食",
+      "icon_id": "810106",
+      "sin_type": "色欲",
+      "damage_type": "穿刺",
+      "base_value": 50,
+      "coin_power": 1,
+      "coin_count": 2,
+      "attack_level": 2,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "无法拼点无法改变拼点目标",
+        "1击杀目标时，使自身获得3层绿色黏液"
+      ]
+    },
+    {
+      "skill_name": "蚕食黏液",
+      "icon_id": "810104",
+      "sin_type": "暴食",
+      "damage_type": "穿刺",
+      "base_value": 4,
+      "coin_power": 6,
+      "coin_count": 2,
+      "attack_level": 2,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "使用时对目标施加3层幼虫",
+        "1命中时对目标施加4层剧毒",
+        "正面命中时下回合对目标施加1层麻痹",
+        "2命中时对目标施加4层剧毒",
+        "正面命中时下回合对目标施加1层麻痹"
+      ]
+    },
+    {
+      "skill_name": "沸腾的绿色黏液",
+      "icon_id": "810105",
+      "sin_type": "嫉妒",
+      "damage_type": "穿刺",
+      "base_value": 15,
+      "coin_power": 10,
+      "coin_count": 1,
+      "attack_level": 2,
+      "attack_weight": 5,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "战斗开始自身每带有1层绿色黏液，使本技能的攻击容量+1",
+        "战斗开始使自身获得10层绿色黏液",
+        "1命中时对目标施加10层剧毒",
+        "命中时使目标失去7点理智值",
+        "命中时对目标施加3层幼虫",
+        "正面命中时下回合对目标施加1层麻痹与3层防御等级降低"
+      ]
+    },
+    {
+      "skill_name": "溢出的剧毒",
+      "icon_id": "810107",
+      "sin_type": "傲慢",
+      "damage_type": "闪避",
+      "base_value": 8,
+      "coin_power": 8,
+      "coin_count": 1,
+      "attack_level": 2,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "闪避成功时对目标施加5层剧毒"
+      ]
+    }
+  ],
+  "is_ally": false,
+  "_structured": true,
+  "appear_stages": [
+    "折射轨道3号线-第5站"
+  ],
+  "enemy_id": "折射轨道3号线-第5站|折射的陆行珍珠|珍珠",
+  "defense": 38,
+  "speed": "1~3",
+  "_schema_version": 1
+}

@@ -1,0 +1,54 @@
+{
+  "page_type": "enemy",
+  "title": "集中战斗-玫瑰骑士",
+  "enemy_name": "荆棘套索",
+  "battle_stage": "集中战斗-玫瑰骑士",
+  "body_part": "躯干",
+  "hp": 22,
+  "defense_level": 37,
+  "speed_min": 4,
+  "speed_max": 7,
+  "chaos_threshold": "0.8",
+  "physical_resistances": {
+    "斩击": 2.0,
+    "突刺": 2.0,
+    "打击": 2.0
+  },
+  "sin_resistances": {
+    "暴怒": 1.0,
+    "色欲": 1.0,
+    "怠惰": 1.0,
+    "暴食": 1.0,
+    "忧郁": 1.0,
+    "傲慢": 1.0,
+    "嫉妒": 1.0
+  },
+  "panic_types": [],
+  "passives": [
+    "荆棘套索: 自身阵亡时，解除捕捉的敌方单位的 荆棘套索"
+  ],
+  "skills": [
+    {
+      "skill_name": "荆棘",
+      "icon_id": "837701",
+      "sin_type": "暴食",
+      "damage_type": "",
+      "base_value": 0,
+      "coin_power": 0,
+      "coin_count": 2,
+      "attack_level": 40,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "coin_effects": [
+        "[命中时] 使目标增加4级 破裂 强度并对其施加2层 破裂"
+      ]
+    }
+  ],
+  "is_ally": false,
+  "_structured": true,
+  "enemy_id": "集中战斗-玫瑰骑士|荆棘套索",
+  "defense": 37,
+  "speed": "4~7",
+  "_schema_version": 1
+}

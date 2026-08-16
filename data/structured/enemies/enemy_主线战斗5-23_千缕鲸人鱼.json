@@ -1,0 +1,103 @@
+{
+  "page_type": "enemy",
+  "title": "主线战斗5-23",
+  "enemy_name": "千缕鲸人鱼",
+  "battle_stage": "主线战斗5-23",
+  "body_part": "",
+  "hp": 122,
+  "defense_level": 33,
+  "speed_min": 1,
+  "speed_max": 4,
+  "chaos_threshold": "",
+  "physical_resistances": {
+    "斩击": 1.0,
+    "突刺": 1.5,
+    "打击": 1.0
+  },
+  "sin_resistances": {
+    "暴怒": 1.0,
+    "色欲": 1.0,
+    "怠惰": 1.0,
+    "暴食": 0.8,
+    "忧郁": 0.8,
+    "傲慢": 1.0,
+    "嫉妒": 1.5
+  },
+  "panic_types": [],
+  "passives": [
+    "难以言表的形状：战斗中阵亡时，使最后攻击自身的单位失去10点理智值"
+  ],
+  "skills": [
+    {
+      "skill_name": "播种恐惧",
+      "icon_id": "9008801",
+      "sin_type": "忧郁",
+      "damage_type": "",
+      "base_value": 0,
+      "coin_power": 0,
+      "coin_count": 3,
+      "attack_level": 32,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "coin_effects": [
+        "[反面命中时] 使目标失去2点理智值"
+      ]
+    },
+    {
+      "skill_name": "铭记恐惧",
+      "icon_id": "9008802",
+      "sin_type": "忧郁",
+      "damage_type": "",
+      "base_value": 0,
+      "coin_power": 0,
+      "coin_count": 2,
+      "attack_level": 32,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "coin_effects": [
+        "[命中时] 下回合对目标施加1层 束缚 本回合内速度值-{0}"
+      ]
+    },
+    {
+      "skill_name": "收获恐惧",
+      "icon_id": "9008803",
+      "sin_type": "暴食",
+      "damage_type": "",
+      "base_value": 0,
+      "coin_power": 0,
+      "coin_count": 3,
+      "attack_level": 32,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "coin_effects": [
+        "[反面命中时] 使目标失去3点理智值",
+        "[命中时] 使自身恢复本硬币伤害量30%的体力"
+      ]
+    },
+    {
+      "skill_name": "麻痹精神",
+      "icon_id": "9008804",
+      "sin_type": "忧郁",
+      "damage_type": "",
+      "base_value": 0,
+      "coin_power": 50,
+      "coin_count": 3,
+      "attack_level": 32,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "coin_effects": [
+        "[命中时] 下回合对目标施加2层 麻痹 本回合内使{0}枚硬币的变动值固定为0。"
+      ]
+    }
+  ],
+  "is_ally": false,
+  "_structured": true,
+  "enemy_id": "主线战斗5-23|千缕鲸人鱼",
+  "defense": 33,
+  "speed": "1~4",
+  "_schema_version": 1
+}

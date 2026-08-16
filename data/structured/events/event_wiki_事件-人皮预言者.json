@@ -1,0 +1,44 @@
+{
+  "page_type": "event",
+  "title": "事件-人皮预言者",
+  "event_name": "人皮预言者",
+  "narration": "蜡烛静静地燃烧着。\n四周只能听到在写着什么的声音。\n三只眼睛交互凝视着\n一本巨大的由皮肤制成的书。\n我并不清楚它是在看着什么并写下，\n还是在边思考边书写，\n但它从未停止记录。\n热切地渴望着毁灭与灭亡，\n一刻不停地书写着。\n似乎在写着像是要成为预言的文句和章节。\n\n熄灭蜡烛\n我一根接一根地吹熄周围的蜡烛。\n虽然房间在逐渐暗下来，\n那东西的记录却没有要停下来的意思。\n它手中的羽毛笔，\n是这个房间中仅存的光。\n但即便是这根笔，也被我们的气息所熄灭掉。\n突然，我们什么也看不见了。\n留下的，\n仅有它手中的羽毛笔。\n获得\n！\n战斗开始时，\n技能最终威力-1\n\n窥视书本\n!@)(!@&)&*%(%@!@#*(#)*(%&!@#$\n@$*@)$ ?\n@#$!!@#* !\n@*()!%&$(^!!!!@&(@)\n技能组不包含\n色欲属性攻击技能\n的友方单位失去\n20点理智值！\n获得60\n经费\n\n将蜡烛聚在一起\n你将散落的蜡烛聚集到了一起。\n当一阵风吹过聚集的蜡烛时，火焰陡然窜高。\n@#$!!@#*!\n就在那火柱触及书本的时候，三颗眼睛都转而瞪视着罪人们。\n触发\n集中战斗\n！\n战斗胜利后，获得\n！\n战斗失败后，没有奖励",
+  "options": [
+    {
+      "choice_text": "熄灭蜡烛",
+      "check_type": "",
+      "check_sin": "",
+      "check_threshold": 0,
+      "success_outcomes": [],
+      "failure_outcomes": []
+    },
+    {
+      "choice_text": "窥视书本",
+      "check_type": "",
+      "check_sin": "",
+      "check_threshold": 0,
+      "success_outcomes": [],
+      "failure_outcomes": []
+    },
+    {
+      "choice_text": "将蜡烛聚在一起",
+      "check_type": "",
+      "check_sin": "",
+      "check_threshold": 0,
+      "success_outcomes": [],
+      "failure_outcomes": []
+    }
+  ],
+  "ego_gifts": [],
+  "related_abnormalities": [
+    "事件触发地点",
+    "镜像迷宫"
+  ],
+  "trigger_location": "",
+  "_structured": true,
+  "id": "wiki_事件-人皮预言者",
+  "url": "https://limbuscompany.huijiwiki.com/wiki/事件-人皮预言者",
+  "categories": [],
+  "source": "wiki",
+  "_schema_version": 1
+}

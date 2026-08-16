@@ -1,0 +1,21 @@
+{
+  "id": "gift_1005",
+  "title": "黑檀胸针",
+  "url": "https://limbuscompany.huijiwiki.com/wiki/E.G.O饰品",
+  "categories": [
+    "E.G.O饰品"
+  ],
+  "content": "在战斗的前3回合对全体敌方单位施加2层束缚。",
+  "source": "tabx",
+  "_structured": true,
+  "page_type": "ego_gift",
+  "gift_name": "黑檀胸针",
+  "rarity": 0,
+  "cost": "0",
+  "effect_types": "",
+  "attack_type": "暴食",
+  "location": "第一章",
+  "stage": "base",
+  "event": "黑檀女王的苹果",
+  "_schema_version": 1
+}

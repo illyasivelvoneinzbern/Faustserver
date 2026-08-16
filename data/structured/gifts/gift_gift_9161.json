@@ -1,0 +1,21 @@
+{
+  "id": "gift_9161",
+  "title": "虔诚",
+  "url": "https://limbuscompany.huijiwiki.com/wiki/E.G.O饰品",
+  "categories": [
+    "E.G.O饰品"
+  ],
+  "content": "回合开始时，若拥有增加流血强度，施加流血层数或施加特殊流血的攻击技能的友方单位不低于5名，则在本场战斗期间触发该效果。(不包括E.G.O技能，不包括待命人员)\n速度值最高的1名友方单位增加流血强度，施加流血层数或施加特殊流血的加算硬币技能的硬币威力+1，造成的伤害+50%\n- 减算硬币技能改为基础威力+(4/硬币数)，而非硬币威力(最少1点，向下取整)\n所有增加流血强度，施加流血层数或施加特殊流血的技能的最终威力+1。",
+  "source": "tabx",
+  "_structured": true,
+  "page_type": "ego_gift",
+  "gift_name": "虔诚",
+  "rarity": 3,
+  "cost": "259",
+  "effect_types": "流血",
+  "attack_type": "色欲",
+  "location": "镜像迷宫",
+  "stage": "base",
+  "special": "合成",
+  "_schema_version": 1
+}

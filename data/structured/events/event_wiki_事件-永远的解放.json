@@ -1,0 +1,41 @@
+{
+  "page_type": "event",
+  "title": "事件-永远的解放",
+  "event_name": "永远的解放",
+  "narration": "从什么地方传来了细微的呻吟。\n“帮帮我……”\n应该去发出声音的地方看看情况吗？还是说……\n\n向发出声音的地方前进\n一位士兵被埋在爆炸的残骸下面，在痛苦中呻吟。\n“请杀了我吧……实在是太痛了。”\n无法对他视而不见，不能就这么离开。\n【谁能为他带来安息？】\n有利判定\n：\n≥5\n不利判定\n：\n≥8\n判定成功\n：\n真的……谢谢……”\n短剑只一瞬间就贯穿了军人的心脏。\n自刀尖传导而来的心跳得以停歇，军人安详地睡去了。\n获得E.G.O饰品\n破旧绷带\n！\n判定失败\n：\n“咯啊……！”\n短剑刺中了错误的方向。\n军人喉咙中喀血的声音，还有那错愕的表情，仿佛只是被无限地延长了。\n一段时间后，备受折磨的军人停止了呼吸。\n残留在他眼底的唯有后悔与憎恶。\n所选人格失去\n15点理智值\n；获得E.G.O饰品\n破旧绷带\n！\n\n无视传来的声音\n可能只是单纯听错了吧。\n把风声听成人发出的声音也是常有的事。\n我们加快脚步离开了。\n什么都没有发生。",
+  "options": [
+    {
+      "choice_text": "向发出声音的地方前进",
+      "check_type": "有利判定",
+      "check_sin": "傲慢",
+      "check_threshold": 5,
+      "success_outcomes": [
+        "获得E.G.O饰品 破旧绷带 ！ 判定失败 ： “咯啊……！” 短剑刺中了错误的方向。 军人喉咙中喀血的声音",
+        "失去 15点理智值 ；获得E.G.O饰品 破旧绷带 ！"
+      ],
+      "failure_outcomes": [
+        "失去 15点理智值 ；获得E.G.O饰品 破旧绷带 ！"
+      ]
+    },
+    {
+      "choice_text": "无视传来的声音",
+      "check_type": "",
+      "check_sin": "",
+      "check_threshold": 0,
+      "success_outcomes": [],
+      "failure_outcomes": []
+    }
+  ],
+  "ego_gifts": [],
+  "related_abnormalities": [
+    "事件触发地点",
+    "4区 脑叶公司支部-第Ⅲ区域"
+  ],
+  "trigger_location": "",
+  "_structured": true,
+  "id": "wiki_事件-永远的解放",
+  "url": "https://limbuscompany.huijiwiki.com/wiki/事件-永远的解放",
+  "categories": [],
+  "source": "wiki",
+  "_schema_version": 1
+}

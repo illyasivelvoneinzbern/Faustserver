@@ -1,0 +1,21 @@
+{
+  "id": "gift_2073",
+  "title": "破心符",
+  "url": "https://limbuscompany.huijiwiki.com/wiki/E.G.O饰品",
+  "categories": [
+    "E.G.O饰品"
+  ],
+  "content": "暴食技能对带有咒杀效果的敌方单位造成的伤害+10%。\n战斗开始时，理智值不高于-15点的友方单位使用的技能的最后一枚硬币转化为不可摧毁的硬币(每回合每名友方单位最多1次，优先适用于最左侧行动槽中的技能，不包括E.G.O技能)",
+  "source": "tabx",
+  "_structured": true,
+  "page_type": "ego_gift",
+  "gift_name": "破心符",
+  "rarity": 0,
+  "cost": "0",
+  "effect_types": "",
+  "attack_type": "暴食",
+  "location": "第八章",
+  "stage": "base",
+  "event": "事件-获得家族器物",
+  "_schema_version": 1
+}

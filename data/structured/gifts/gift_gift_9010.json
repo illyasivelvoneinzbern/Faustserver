@@ -1,0 +1,21 @@
+{
+  "id": "gift_9010",
+  "title": "鲜血装饰",
+  "url": "https://limbuscompany.huijiwiki.com/wiki/E.G.O饰品",
+  "categories": [
+    "E.G.O饰品"
+  ],
+  "content": "回合开始时，随机使1名友方单位获得2层伤害强化。\n优先选取拥有色欲攻击技能的友方单位，且该情况下使其额外获得1层伤害强化。",
+  "source": "tabx",
+  "_structured": true,
+  "page_type": "ego_gift",
+  "gift_name": "鲜血装饰",
+  "rarity": 1,
+  "cost": "163",
+  "effect_types": "泛用",
+  "attack_type": "色欲",
+  "location": "镜像迷宫",
+  "stage": "base",
+  "event": "事件-无我入定",
+  "_schema_version": 1
+}

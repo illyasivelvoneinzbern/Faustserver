@@ -1,0 +1,429 @@
+{
+  "page_type": "personality",
+  "title": "浮士德W公司2级清扫人员",
+  "sinner": "浮士德",
+  "sinner_id": "faust",
+  "personality_name": "浮士德W公司2级清扫人员",
+  "release_date": "2023.02.27",
+  "acquisition": "常驻提取",
+  "sin_affinities": {
+    "嫉妒": 3,
+    "忧郁": 2,
+    "暴怒": 1
+  },
+  "physical_resistances": {
+    "斩击": 1.0,
+    "突刺": 0.5,
+    "打击": 2.0
+  },
+  "ego_resources": {
+    "嫉妒": 3,
+    "忧郁": 2,
+    "暴怒": 1
+  },
+  "skills": [
+    {
+      "skill_index": 0,
+      "skill_name": "能源循环",
+      "sin_type": "",
+      "damage_type": "",
+      "guard_type": "",
+      "attack_capacity": 1,
+      "coin_count": 2,
+      "stage_groups": [
+        [
+          {
+            "stage": "I",
+            "base_value": 3,
+            "coin_power": 6,
+            "effects": [
+              {
+                "timing": "命中时",
+                "description": "使自身获得1层 充能"
+              }
+            ],
+            "raw_text": "基础值： 3 变动值： +6 [命中时] 使自身获得1层 充能"
+          },
+          {
+            "stage": "II",
+            "base_value": 3,
+            "coin_power": 6,
+            "effects": [
+              {
+                "timing": "命中时",
+                "description": "使自身获得2层 充能"
+              }
+            ],
+            "raw_text": "基础值： 3 变动值： +6 [命中时] 使自身获得2层 充能"
+          },
+          {
+            "stage": "III",
+            "base_value": 4,
+            "coin_power": 6,
+            "effects": [
+              {
+                "timing": "命中时",
+                "description": "使自身获得2层 充能"
+              }
+            ],
+            "raw_text": "基础值： 4 变动值： +6 [命中时] 使自身获得2层 充能"
+          },
+          {
+            "stage": "IV",
+            "base_value": 4,
+            "coin_power": 8,
+            "effects": [
+              {
+                "timing": "使用时",
+                "description": "使自身获得2层 充能"
+              },
+              {
+                "timing": "命中时",
+                "description": "使自身获得2层 充能"
+              }
+            ],
+            "raw_text": "基础值： 4 变动值： +8 [使用时] 使自身获得2层 充能 [命中时] 使自身获得2层 充能"
+          }
+        ]
+      ],
+      "coin_effects": [
+        {
+          "coin_index": 0,
+          "description": "技能一"
+        },
+        {
+          "coin_index": 0,
+          "description": "能源循环 3"
+        },
+        {
+          "coin_index": 0,
+          "timing": "",
+          "description": "1"
+        },
+        {
+          "coin_index": 0,
+          "description": "-1"
+        },
+        {
+          "coin_index": 0,
+          "description": "1"
+        },
+        {
+          "coin_index": 0,
+          "description": "基础值： 3 变动值： +6"
+        },
+        {
+          "coin_index": 1,
+          "timing": "命中时",
+          "description": "[命中时] 使自身获得1层 充能"
+        },
+        {
+          "coin_index": 1,
+          "timing": "命中时",
+          "description": "[命中时] 使自身获得2层 充能"
+        },
+        {
+          "coin_index": 1,
+          "timing": "命中时",
+          "description": "[命中时] 使自身获得2层 充能"
+        },
+        {
+          "coin_index": 1,
+          "timing": "命中时",
+          "description": "[命中时] 使自身获得2层 充能"
+        }
+      ],
+      "wikitext_key": "1技能"
+    },
+    {
+      "skill_index": 1,
+      "skill_name": "跃迁",
+      "sin_type": "忧郁",
+      "damage_type": "打击",
+      "guard_type": "",
+      "attack_capacity": 1,
+      "coin_count": 3,
+      "stage_groups": [
+        [
+          {
+            "stage": "I",
+            "base_value": 4,
+            "coin_power": 4,
+            "effects": [
+              {
+                "timing": "命中时",
+                "description": "消耗3层 充能 并在下回合对目标施加4层 束缚"
+              }
+            ],
+            "raw_text": "基础值： 4 变动值： +4 [命中时] 消耗3层 充能 并在下回合对目标施加4层 束缚"
+          },
+          {
+            "stage": "II",
+            "base_value": 4,
+            "coin_power": 4,
+            "effects": [
+              {
+                "timing": "命中时",
+                "description": "消耗3层 充能 并在下回合对目标施加4层 束缚"
+              }
+            ],
+            "raw_text": "基础值： 4 变动值： +4 [命中时] 消耗3层 充能 并在下回合对目标施加4层 束缚"
+          },
+          {
+            "stage": "III",
+            "base_value": 5,
+            "coin_power": 4,
+            "effects": [
+              {
+                "timing": "命中时",
+                "description": "消耗3层 充能 并在下回合对目标施加4层 束缚"
+              }
+            ],
+            "raw_text": "基础值： 5 变动值： +4 [命中时] 消耗3层 充能 并在下回合对目标施加4层 束缚"
+          },
+          {
+            "stage": "IV",
+            "base_value": 6,
+            "coin_power": 4,
+            "effects": [
+              {
+                "timing": "使用时",
+                "description": "使自身获得3层 充能"
+              },
+              {
+                "timing": "命中时",
+                "description": "使自身获得3层 充能"
+              },
+              {
+                "timing": "命中时",
+                "description": "消耗3层 充能 并在下回合对目标施加4层 束缚"
+              }
+            ],
+            "raw_text": "基础值： 6 变动值： +4 [使用时] 使自身获得3层 充能 [命中时] 使自身获得3层 充能 [命中时] 消耗3层 充能 并在下回合对目标施加4层 束缚"
+          }
+        ]
+      ],
+      "coin_effects": [
+        {
+          "coin_index": 0,
+          "description": "技能二"
+        },
+        {
+          "coin_index": 0,
+          "description": "跃迁 2"
+        },
+        {
+          "coin_index": 0,
+          "timing": "",
+          "description": "2"
+        },
+        {
+          "coin_index": 0,
+          "description": "-1"
+        },
+        {
+          "coin_index": 0,
+          "description": "1"
+        },
+        {
+          "coin_index": 0,
+          "description": "基础值： 4 变动值： +4"
+        },
+        {
+          "coin_index": 2,
+          "timing": "命中时",
+          "description": "[命中时] 消耗3层 充能 并在下回合对目标施加4层 束缚"
+        },
+        {
+          "coin_index": 2,
+          "timing": "命中时",
+          "description": "[命中时] 消耗3层 充能 并在下回合对目标施加4层 束缚"
+        },
+        {
+          "coin_index": 2,
+          "timing": "命中时",
+          "description": "[命中时] 消耗3层 充能 并在下回合对目标施加4层 束缚"
+        },
+        {
+          "coin_index": 1,
+          "timing": "命中时",
+          "description": "[命中时] 使自身获得3层 充能"
+        },
+        {
+          "coin_index": 2,
+          "timing": "命中时",
+          "description": "[命中时] 消耗3层 充能 并在下回合对目标施加4层 束缚"
+        }
+      ],
+      "wikitext_key": "2技能"
+    },
+    {
+      "skill_index": 2,
+      "skill_name": "过度充能",
+      "sin_type": "暴怒",
+      "damage_type": "打击",
+      "guard_type": "",
+      "attack_capacity": 1,
+      "coin_count": 2,
+      "stage_groups": [
+        [
+          {
+            "stage": "I",
+            "base_value": 6,
+            "coin_power": 2,
+            "effects": [
+              {
+                "timing": "命中时",
+                "description": "消耗5层 充能 并在下回合对目标施加2层 虚弱 与3层 麻痹"
+              }
+            ],
+            "raw_text": "基础值： 6 变动值： +2 [命中时] 消耗5层 充能 并在下回合对目标施加2层 虚弱 与3层 麻痹"
+          },
+          {
+            "stage": "II",
+            "base_value": 6,
+            "coin_power": 3,
+            "effects": [
+              {
+                "timing": "命中时",
+                "description": "消耗5层 充能 并在下回合对目标施加2层 虚弱 与3层 麻痹"
+              }
+            ],
+            "raw_text": "基础值： 6 变动值： +3 若自身的 充能 层数不低于5层，则使本 技能 的 拼点威力 +2 [命中时] 消耗5层 充能 并在下回合对目标施加2层 虚弱 与3层 麻痹"
+          }
+        ]
+      ],
+      "coin_effects": [
+        {
+          "coin_index": 0,
+          "description": "技能三"
+        },
+        {
+          "coin_index": 0,
+          "description": "过度充能 1"
+        },
+        {
+          "coin_index": 0,
+          "timing": "",
+          "description": "3"
+        },
+        {
+          "coin_index": 0,
+          "description": "-1"
+        },
+        {
+          "coin_index": 0,
+          "description": "1"
+        },
+        {
+          "coin_index": 0,
+          "description": "基础值： 6 变动值： +2"
+        },
+        {
+          "coin_index": 3,
+          "timing": "命中时",
+          "description": "[命中时] 消耗5层 充能 并在下回合对目标施加2层 虚弱 与3层 麻痹"
+        },
+        {
+          "coin_index": 3,
+          "timing": "命中时",
+          "description": "[命中时] 消耗5层 充能 并在下回合对目标施加2层 虚弱 与3层 麻痹"
+        }
+      ],
+      "wikitext_key": "3技能"
+    },
+    {
+      "skill_index": 3,
+      "skill_name": "防御",
+      "sin_type": "",
+      "damage_type": "",
+      "guard_type": "防御",
+      "attack_capacity": 1,
+      "coin_count": 1,
+      "stage_groups": [
+        [
+          {
+            "stage": "I",
+            "base_value": 10,
+            "coin_power": 2,
+            "effects": [],
+            "raw_text": "基础值： 10 变动值： +2"
+          },
+          {
+            "stage": "II",
+            "base_value": 10,
+            "coin_power": 2,
+            "effects": [],
+            "raw_text": "基础值： 10 变动值： +2"
+          }
+        ]
+      ],
+      "coin_effects": [
+        {
+          "coin_index": 0,
+          "description": "守备技能"
+        },
+        {
+          "coin_index": 0,
+          "description": "防御"
+        },
+        {
+          "coin_index": 0,
+          "timing": "",
+          "description": "1"
+        },
+        {
+          "coin_index": 0,
+          "description": "+5"
+        },
+        {
+          "coin_index": 0,
+          "description": "1"
+        },
+        {
+          "coin_index": 0,
+          "description": "I阶 - III阶 IV阶 追加属性： 基础值： 10 变动值： +2 基础值： 10 变动值： +2"
+        }
+      ],
+      "wikitext_key": "守备技能4"
+    }
+  ],
+  "battle_passive": "人格被动1020201\n人格被动1020221",
+  "support_passive": "",
+  "notes": "",
+  "voice_lines": [],
+  "skill_voice": [
+    {
+      "file": "Battle_s2_10202_1_1.ogg",
+      "skill_index": 2,
+      "skill_label": "",
+      "skill_name": "跃迁"
+    },
+    {
+      "file": "Battle_s2_10202_1_2.ogg",
+      "skill_index": 2,
+      "skill_label": "",
+      "skill_name": "跃迁"
+    },
+    {
+      "file": "Battle_s3_10202_1_1.ogg",
+      "skill_index": 3,
+      "skill_label": "",
+      "skill_name": "过度充能"
+    },
+    {
+      "file": "Battle_s3_10202_1_3.ogg",
+      "skill_index": 3,
+      "skill_label": "",
+      "skill_name": "过度充能"
+    }
+  ],
+  "_structured": true,
+  "id": "wiki_浮士德W公司2级清扫人员",
+  "url": "https://limbuscompany.huijiwiki.com/wiki/浮士德W公司2级清扫人员",
+  "categories": [
+    "人格"
+  ],
+  "source": "wiki",
+  "_schema_version": 1
+}

@@ -1,0 +1,55 @@
+{
+  "page_type": "enemy",
+  "title": "纺锤采光-嫉妒-1",
+  "enemy_name": "终末日历（第三阶段）",
+  "battle_stage": "纺锤采光-嫉妒-1",
+  "body_part": "面部",
+  "hp": 189,
+  "defense_level": 21,
+  "speed_min": 1,
+  "speed_max": 3,
+  "chaos_threshold": "",
+  "physical_resistances": {
+    "斩击": 1.0,
+    "突刺": 1.0,
+    "打击": 1.0
+  },
+  "sin_resistances": {
+    "暴怒": 0.75,
+    "色欲": 0.75,
+    "怠惰": 0.75,
+    "暴食": 0.75,
+    "忧郁": 0.75,
+    "傲慢": 0.75,
+    "嫉妒": 2.0
+  },
+  "panic_types": [],
+  "passives": [],
+  "skills": [
+    {
+      "skill_name": "坚固祭坛",
+      "icon_id": "800206",
+      "sin_type": "常规",
+      "damage_type": "防御",
+      "base_value": 4,
+      "coin_power": 79,
+      "coin_count": 1,
+      "attack_level": 0,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": []
+    }
+  ],
+  "is_ally": false,
+  "_structured": true,
+  "appear_stages": [
+    "纺锤采光-嫉妒-1",
+    "纺锤采光-嫉妒-2"
+  ],
+  "enemy_id": "纺锤采光-嫉妒-1|终末日历（第三阶段）|面部",
+  "defense": 21,
+  "speed": "1~3",
+  "_schema_version": 1
+}

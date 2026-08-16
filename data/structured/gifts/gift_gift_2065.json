@@ -1,0 +1,21 @@
+{
+  "id": "gift_2065",
+  "title": "血花丸",
+  "url": "https://limbuscompany.huijiwiki.com/wiki/E.G.O饰品",
+  "categories": [
+    "E.G.O饰品"
+  ],
+  "content": "回合开始时，使失去体力的友方单位中现存体力比例最低的1名友方单位造成的伤害+(其失去体力比例/4)%(向下取整)。",
+  "source": "tabx",
+  "_structured": true,
+  "page_type": "ego_gift",
+  "gift_name": "血花丸",
+  "rarity": 0,
+  "cost": "0",
+  "effect_types": "",
+  "attack_type": "暴怒",
+  "location": "第八章",
+  "stage": "base",
+  "event": "事件-罪人折花",
+  "_schema_version": 1
+}

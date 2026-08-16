@@ -1,0 +1,714 @@
+{
+  "page_type": "personality",
+  "title": "堂吉诃德黑兽-未",
+  "sinner": "堂吉诃德",
+  "sinner_id": "donquixote",
+  "personality_name": "堂吉诃德黑兽-未",
+  "release_date": "2025.11.20",
+  "acquisition": "第6赛季提取",
+  "sin_affinities": {
+    "色欲": 3,
+    "暴食": 2,
+    "忧郁": 1
+  },
+  "physical_resistances": {
+    "斩击": 0.5,
+    "突刺": 2.0,
+    "打击": 1.0
+  },
+  "ego_resources": {
+    "色欲": 3,
+    "暴食": 2,
+    "忧郁": 1
+  },
+  "skills": [
+    {
+      "skill_index": 0,
+      "skill_name": "突破",
+      "sin_type": "色欲",
+      "damage_type": "打击",
+      "guard_type": "",
+      "attack_capacity": 1,
+      "coin_count": 3,
+      "stage_groups": [
+        [
+          {
+            "stage": "I",
+            "base_value": 3,
+            "coin_power": 3,
+            "effects": [
+              {
+                "timing": "命中时",
+                "description": "对目标施加1层 破裂"
+              },
+              {
+                "timing": "命中时",
+                "description": "对目标施加1层 沉沦"
+              },
+              {
+                "timing": "命中时",
+                "description": "使目标增加1级 破裂 强度"
+              },
+              {
+                "timing": "命中时",
+                "description": "使目标增加1级 沉沦 强度"
+              }
+            ],
+            "raw_text": "基础值： 3 变动值： +3 [命中时] 对目标施加1层 破裂 [命中时] 对目标施加1层 沉沦 [命中时] 使目标增加1级 破裂 强度 [命中时] 使目标增加1级 沉沦 强度"
+          },
+          {
+            "stage": "II",
+            "base_value": 3,
+            "coin_power": 3,
+            "effects": [
+              {
+                "timing": "命中时",
+                "description": "对目标施加1层 破裂"
+              },
+              {
+                "timing": "命中时",
+                "description": "对目标施加1层 沉沦"
+              },
+              {
+                "timing": "命中时",
+                "description": "使目标增加1级 破裂 强度"
+              },
+              {
+                "timing": "命中时",
+                "description": "使目标增加1级 沉沦 强度"
+              }
+            ],
+            "raw_text": "基础值： 3 变动值： +3 若目标的 破裂 强度与 沉沦 强度之和不低于6级，则使本技能的硬币威力+1 [命中时] 对目标施加1层 破裂 [命中时] 对目标施加1层 沉沦 [命中时] 使目标增加1级 破裂 强度 [命中时] 使目标增加1级 沉沦 强度"
+          },
+          {
+            "stage": "III",
+            "base_value": 3,
+            "coin_power": 4,
+            "effects": [
+              {
+                "timing": "命中时",
+                "description": "对目标施加1层 破裂"
+              },
+              {
+                "timing": "命中时",
+                "description": "对目标施加1层 沉沦"
+              },
+              {
+                "timing": "命中时",
+                "description": "使目标增加1级 破裂 强度"
+              },
+              {
+                "timing": "命中时",
+                "description": "使目标增加1级 沉沦 强度"
+              }
+            ],
+            "raw_text": "基础值： 3 变动值： +4 若目标的 破裂 强度与 沉沦 强度之和不低于6级，则使本技能的硬币威力+1 [命中时] 对目标施加1层 破裂 [命中时] 对目标施加1层 沉沦 [命中时] 使目标增加1级 破裂 强度 [命中时] 使目标增加1级 沉沦 强度"
+          },
+          {
+            "stage": "IV",
+            "base_value": 3,
+            "coin_power": 4,
+            "effects": [
+              {
+                "timing": "命中时",
+                "description": "对目标施加1层 破裂"
+              },
+              {
+                "timing": "命中时",
+                "description": "对目标施加1层 沉沦"
+              },
+              {
+                "timing": "命中时",
+                "description": "使目标增加1级 破裂 强度"
+              },
+              {
+                "timing": "命中时",
+                "description": "使目标增加1级 沉沦 强度"
+              }
+            ],
+            "raw_text": "基础值： 3 变动值： +4 若目标带有 破碎痕 ，则使本技能造成的伤害+25% 目标的 破裂 强度与 沉沦 强度之和每有6级，使本技能的硬币威力+1(最多+2) [命中时] 对目标施加1层 破裂 [命中时] 对目标施加1层 沉沦 [命中时] 使目标增加1级 破裂 强度 [命中时] 使目标增加1级 沉沦 强度"
+          }
+        ]
+      ],
+      "coin_effects": [
+        {
+          "coin_index": 0,
+          "description": "技能一"
+        },
+        {
+          "coin_index": 0,
+          "description": "突破 3"
+        },
+        {
+          "coin_index": 0,
+          "timing": "",
+          "description": "2"
+        },
+        {
+          "coin_index": 0,
+          "description": "+2"
+        },
+        {
+          "coin_index": 0,
+          "description": "1"
+        },
+        {
+          "coin_index": 0,
+          "description": "基础值： 3 变动值： +3"
+        },
+        {
+          "coin_index": 1,
+          "timing": "命中时",
+          "description": "[命中时] 对目标施加1层 破裂 [命中时] 对目标施加1层 沉沦"
+        },
+        {
+          "coin_index": 2,
+          "timing": "命中时",
+          "description": "[命中时] 使目标增加1级 破裂 强度 [命中时] 使目标增加1级 沉沦 强度"
+        },
+        {
+          "coin_index": 1,
+          "timing": "命中时",
+          "description": "[命中时] 对目标施加1层 破裂 [命中时] 对目标施加1层 沉沦"
+        },
+        {
+          "coin_index": 2,
+          "timing": "命中时",
+          "description": "[命中时] 使目标增加1级 破裂 强度 [命中时] 使目标增加1级 沉沦 强度"
+        },
+        {
+          "coin_index": 1,
+          "timing": "命中时",
+          "description": "[命中时] 对目标施加1层 破裂 [命中时] 对目标施加1层 沉沦"
+        },
+        {
+          "coin_index": 2,
+          "timing": "命中时",
+          "description": "[命中时] 使目标增加1级 破裂 强度 [命中时] 使目标增加1级 沉沦 强度"
+        },
+        {
+          "coin_index": 1,
+          "timing": "命中时",
+          "description": "[命中时] 对目标施加1层 破裂 [命中时] 对目标施加1层 沉沦"
+        },
+        {
+          "coin_index": 2,
+          "timing": "命中时",
+          "description": "[命中时] 使目标增加1级 破裂 强度 [命中时] 使目标增加1级 沉沦 强度"
+        }
+      ],
+      "wikitext_key": "1技能"
+    },
+    {
+      "skill_index": 1,
+      "skill_name": "破竹之势",
+      "sin_type": "暴食",
+      "damage_type": "打击",
+      "guard_type": "",
+      "attack_capacity": 1,
+      "coin_count": 5,
+      "stage_groups": [
+        [
+          {
+            "stage": "I",
+            "base_value": 4,
+            "coin_power": 3,
+            "effects": [
+              {
+                "timing": "命中时",
+                "description": "对目标施加1层 破裂"
+              },
+              {
+                "timing": "命中时",
+                "description": "对目标施加1层 沉沦"
+              },
+              {
+                "timing": "命中时",
+                "description": "使目标增加1级 破裂 强度"
+              },
+              {
+                "timing": "命中时",
+                "description": "使目标增加1级 沉沦 强度"
+              }
+            ],
+            "raw_text": "基础值： 4 变动值： +3 [命中时] 对目标施加1层 破裂 [命中时] 对目标施加1层 沉沦 [命中时] 使目标增加1级 破裂 强度 [命中时] 使目标增加1级 沉沦 强度"
+          },
+          {
+            "stage": "II",
+            "base_value": 4,
+            "coin_power": 3,
+            "effects": [
+              {
+                "timing": "战斗开始",
+                "description": "若自身带有 生角 ，则使本技能的最后一枚硬币转化为 不可摧毁的硬币"
+              },
+              {
+                "timing": "命中时",
+                "description": "对目标施加1层 破裂"
+              },
+              {
+                "timing": "命中时",
+                "description": "对目标施加1层 沉沦"
+              },
+              {
+                "timing": "命中时",
+                "description": "使目标增加1级 破裂 强度"
+              },
+              {
+                "timing": "命中时",
+                "description": "使目标增加1级 沉沦 强度"
+              },
+              {
+                "timing": "命中时",
+                "description": "自身每带有1层 生角 ，对目标额外造成本硬币最终伤害量5%的斩击伤害(最多15%)"
+              }
+            ],
+            "raw_text": "基础值： 4 变动值： +3 若目标的 破裂 强度与 沉沦 强度之和不低于6级，则使本技能的硬币威力+1 [战斗开始] 若自身带有 生角 ，则使本技能的最后一枚硬币转化为 不可摧毁的硬币 [命中时] 对目标施加1层 破裂 [命中时] 对目标施加1层 沉沦 [命中时] 使目标增加1级 破裂 强度 [命中时] 使目标增加1级 沉沦 强度 [命中时] 自身每带有1层 生角 ，对目标额外造成本硬币最终伤害量5%的斩击伤害(最多15%)"
+          },
+          {
+            "stage": "III",
+            "base_value": 4,
+            "coin_power": 4,
+            "effects": [
+              {
+                "timing": "战斗开始",
+                "description": "若自身带有 生角 ，则使本技能的最后一枚硬币转化为 不可摧毁的硬币"
+              },
+              {
+                "timing": "命中时",
+                "description": "对目标施加1层 破裂"
+              },
+              {
+                "timing": "命中时",
+                "description": "对目标施加1层 沉沦"
+              },
+              {
+                "timing": "命中时",
+                "description": "使目标增加1级 破裂 强度"
+              },
+              {
+                "timing": "命中时",
+                "description": "使目标增加1级 沉沦 强度"
+              },
+              {
+                "timing": "命中时",
+                "description": "自身每带有1层 生角 ，对目标额外造成本硬币最终伤害量5%的斩击伤害(最多15%)"
+              }
+            ],
+            "raw_text": "基础值： 4 变动值： +4 若目标的 破裂 强度与 沉沦 强度之和不低于6级，则使本技能的硬币威力+1 [战斗开始] 若自身带有 生角 ，则使本技能的最后一枚硬币转化为 不可摧毁的硬币 [命中时] 对目标施加1层 破裂 [命中时] 对目标施加1层 沉沦 [命中时] 使目标增加1级 破裂 强度 [命中时] 使目标增加1级 沉沦 强度 [命中时] 自身每带有1层 生角 ，对目标额外造成本硬币最终伤害量5%的斩击伤害(最多15%)"
+          },
+          {
+            "stage": "IV",
+            "base_value": 4,
+            "coin_power": 4,
+            "effects": [
+              {
+                "timing": "战斗开始",
+                "description": "若自身带有 生角 ，则使本技能的最后一枚硬币转化为 不可摧毁的硬币 ，每带有1层 生角 ，使本技能的最后一枚硬币造成的伤害+5%(最多+15%)"
+              },
+              {
+                "timing": "命中时",
+                "description": "对目标施加1层 破裂"
+              },
+              {
+                "timing": "命中时",
+                "description": "对目标施加1层 沉沦"
+              },
+              {
+                "timing": "命中时",
+                "description": "使目标增加2级 破裂 强度"
+              },
+              {
+                "timing": "命中时",
+                "description": "使目标增加2级 沉沦 强度"
+              },
+              {
+                "timing": "命中时",
+                "description": "自身每带有1层 生角 ，对目标额外造成本硬币最终伤害量10%的斩击伤害(最多30%)"
+              }
+            ],
+            "raw_text": "基础值： 4 变动值： +4 目标的 破裂 强度与 沉沦 强度之和每有6级，使本技能的硬币威力+1(最多+2) [战斗开始] 若自身带有 生角 ，则使本技能的最后一枚硬币转化为 不可摧毁的硬币 ，每带有1层 生角 ，使本技能的最后一枚硬币造成的伤害+5%(最多+15%) [命中时] 对目标施加1层 破裂 [命中时] 对目标施加1层 沉沦 [命中时] 使目标增加2级 破裂 强度 [命中时] 使目标增加2级 沉沦 强度 [命中时] 自身每带有1层 生角 ，对目标额外造成本硬币最终伤害量10%的斩击伤害(最多30%)"
+          }
+        ]
+      ],
+      "coin_effects": [
+        {
+          "coin_index": 0,
+          "description": "技能二"
+        },
+        {
+          "coin_index": 0,
+          "description": "破竹之势 2"
+        },
+        {
+          "coin_index": 0,
+          "timing": "",
+          "description": "3"
+        },
+        {
+          "coin_index": 0,
+          "description": "+2"
+        },
+        {
+          "coin_index": 0,
+          "description": "1"
+        },
+        {
+          "coin_index": 0,
+          "description": "基础值： 4 变动值： +3"
+        },
+        {
+          "coin_index": 1,
+          "timing": "命中时",
+          "description": "[命中时] 对目标施加1层 破裂"
+        },
+        {
+          "coin_index": 2,
+          "timing": "命中时",
+          "description": "[命中时] 对目标施加1层 沉沦"
+        },
+        {
+          "coin_index": 3,
+          "timing": "命中时",
+          "description": "[命中时] 使目标增加1级 破裂 强度 [命中时] 使目标增加1级 沉沦 强度"
+        },
+        {
+          "coin_index": 0,
+          "timing": "",
+          "description": "不可摧毁的硬币"
+        },
+        {
+          "coin_index": 1,
+          "timing": "命中时",
+          "description": "[命中时] 对目标施加1层 破裂"
+        },
+        {
+          "coin_index": 2,
+          "timing": "命中时",
+          "description": "[命中时] 对目标施加1层 沉沦"
+        },
+        {
+          "coin_index": 3,
+          "timing": "命中时",
+          "description": "[命中时] 使目标增加1级 破裂 强度 [命中时] 使目标增加1级 沉沦 强度 [命中时] 自身每带有1层 生角 ，对目标额外造成本硬币最终伤害量5%的斩击伤害(最多15%)"
+        },
+        {
+          "coin_index": 0,
+          "timing": "",
+          "description": "不可摧毁的硬币"
+        },
+        {
+          "coin_index": 1,
+          "timing": "命中时",
+          "description": "[命中时] 对目标施加1层 破裂"
+        },
+        {
+          "coin_index": 2,
+          "timing": "命中时",
+          "description": "[命中时] 对目标施加1层 沉沦"
+        },
+        {
+          "coin_index": 3,
+          "timing": "命中时",
+          "description": "[命中时] 使目标增加1级 破裂 强度 [命中时] 使目标增加1级 沉沦 强度 [命中时] 自身每带有1层 生角 ，对目标额外造成本硬币最终伤害量5%的斩击伤害(最多15%)"
+        },
+        {
+          "coin_index": 0,
+          "timing": "",
+          "description": "不可摧毁的硬币"
+        },
+        {
+          "coin_index": 1,
+          "timing": "命中时",
+          "description": "[命中时] 对目标施加1层 破裂"
+        },
+        {
+          "coin_index": 2,
+          "timing": "命中时",
+          "description": "[命中时] 对目标施加1层 沉沦"
+        },
+        {
+          "coin_index": 3,
+          "timing": "命中时",
+          "description": "[命中时] 使目标增加2级 破裂 强度 [命中时] 使目标增加2级 沉沦 强度 [命中时] 自身每带有1层 生角 ，对目标额外造成本硬币最终伤害量10%的斩击伤害(最多30%)"
+        }
+      ],
+      "wikitext_key": "2技能"
+    },
+    {
+      "skill_index": 2,
+      "skill_name": "破碎角",
+      "sin_type": "忧郁",
+      "damage_type": "打击",
+      "guard_type": "",
+      "attack_capacity": 1,
+      "coin_count": 5,
+      "stage_groups": [
+        [
+          {
+            "stage": "I",
+            "base_value": 2,
+            "coin_power": 3,
+            "effects": [
+              {
+                "timing": "战斗开始",
+                "description": "若自身带有 生角 ，则使本技能的所有硬币转化为 不可摧毁的硬币"
+              },
+              {
+                "timing": "使用时",
+                "description": "使自身获得3层 生角"
+              },
+              {
+                "timing": "命中时",
+                "description": "对目标施加1层 破裂"
+              },
+              {
+                "timing": "命中时",
+                "description": "对目标施加1层 沉沦"
+              },
+              {
+                "timing": "命中时",
+                "description": "使目标增加2级 破裂 强度"
+              },
+              {
+                "timing": "命中时",
+                "description": "使目标增加2级 沉沦 强度 目标每带有1层改变恐慌类型的状态效果，使本硬币造成的伤害+5%(最多+15%)"
+              },
+              {
+                "timing": "命中时",
+                "description": "对目标造成本硬币最终伤害量25%的斩击伤害"
+              },
+              {
+                "timing": "命中时",
+                "description": "下回合对目标施加3层 破碎痕"
+              }
+            ],
+            "raw_text": "基础值： 2 变动值： +3 若目标的 破裂 强度与 沉沦 强度之和不低于6级，则使本技能的硬币威力+1 [战斗开始] 若自身带有 生角 ，则使本技能的所有硬币转化为 不可摧毁的硬币 [使用时] 使自身获得3层 生角 [命中时] 对目标施加1层 破裂 [命中时] 对目标施加1层 沉沦 [命中时] 使目标增加2级 破裂 强度 [命中时] 使目标增加2级 沉沦 强度 目标每带有1层改变恐慌类型的状态效果，使本硬币造成的伤害+5%(最多+15%) [命中时] 对目标造成本硬币最终伤害量25%的斩击伤害 [命中时] 下回合对目标施加3层 破碎痕"
+          },
+          {
+            "stage": "II",
+            "base_value": 4,
+            "coin_power": 3,
+            "effects": [
+              {
+                "timing": "战斗开始",
+                "description": "若自身带有 生角 ，则使本技能的所有硬币转化为 不可摧毁的硬币 ，每带有1层 生角 ，使本技能造成的伤害+10%(最多+30%)"
+              },
+              {
+                "timing": "使用时",
+                "description": "使自身获得3层 生角"
+              },
+              {
+                "timing": "命中时",
+                "description": "对目标施加2层 破裂"
+              },
+              {
+                "timing": "命中时",
+                "description": "对目标施加2层 沉沦"
+              },
+              {
+                "timing": "命中时",
+                "description": "使目标增加2级 破裂 强度"
+              },
+              {
+                "timing": "命中时",
+                "description": "使目标增加2级 沉沦 强度 目标每带有1层改变恐慌类型的状态效果，使本硬币造成的伤害+10%(最多+30%)"
+              },
+              {
+                "timing": "命中时",
+                "description": "对目标造成本硬币最终伤害量25%的斩击伤害 -若目标带有 破碎痕 ，则改为对目标造成本硬币最终伤害量50%的斩击伤害"
+              },
+              {
+                "timing": "命中时",
+                "description": "下回合对目标施加3层 破碎痕 -若目标带有改变恐慌类型的状态效果，则对目标施加3层 沉沦 (每回合最多1次)"
+              }
+            ],
+            "raw_text": "基础值： 4 变动值： +3 目标的 破裂 强度与 沉沦 强度之和每有6级，使本技能的硬币威力+1(最多+2) [战斗开始] 若自身带有 生角 ，则使本技能的所有硬币转化为 不可摧毁的硬币 ，每带有1层 生角 ，使本技能造成的伤害+10%(最多+30%) [使用时] 使自身获得3层 生角 [命中时] 对目标施加2层 破裂 [命中时] 对目标施加2层 沉沦 [命中时] 使目标增加2级 破裂 强度 [命中时] 使目标增加2级 沉沦 强度 目标每带有1层改变恐慌类型的状态效果，使本硬币造成的伤害+10%(最多+30%) [命中时] 对目标造成本硬币最终伤害量25%的斩击伤害 -若目标带有 破碎痕 ，则改为对目标造成本硬币最终伤害量50%的斩击伤害 [命中时] 下回合对目标施加3层 破碎痕 -若目标带有改变恐慌类型的状态效果，则对目标施加3层 沉沦 (每回合最多1次)"
+          }
+        ]
+      ],
+      "coin_effects": [
+        {
+          "coin_index": 0,
+          "description": "技能三"
+        },
+        {
+          "coin_index": 0,
+          "description": "破碎角 1"
+        },
+        {
+          "coin_index": 0,
+          "timing": "",
+          "description": "4"
+        },
+        {
+          "coin_index": 0,
+          "description": "+3"
+        },
+        {
+          "coin_index": 0,
+          "description": "1"
+        },
+        {
+          "coin_index": 0,
+          "timing": "",
+          "description": "不可摧毁的硬币"
+        },
+        {
+          "coin_index": 2,
+          "timing": "命中时",
+          "description": "[命中时] 对目标施加1层 破裂 [命中时] 对目标施加1层 沉沦"
+        },
+        {
+          "coin_index": 3,
+          "timing": "命中时",
+          "description": "[命中时] 使目标增加2级 破裂 强度 [命中时] 使目标增加2级 沉沦 强度"
+        },
+        {
+          "coin_index": 4,
+          "timing": "命中时",
+          "description": "目标每带有1层改变恐慌类型的状态效果，使本硬币造成的伤害+5%(最多+15%) [命中时] 对目标造成本硬币最终伤害量25%的斩击伤害 [命中时] 下回合对目标施加3层 破碎痕"
+        },
+        {
+          "coin_index": 0,
+          "timing": "",
+          "description": "不可摧毁的硬币"
+        },
+        {
+          "coin_index": 2,
+          "timing": "命中时",
+          "description": "[命中时] 对目标施加2层 破裂 [命中时] 对目标施加2层 沉沦"
+        },
+        {
+          "coin_index": 3,
+          "timing": "命中时",
+          "description": "[命中时] 使目标增加2级 破裂 强度 [命中时] 使目标增加2级 沉沦 强度"
+        },
+        {
+          "coin_index": 4,
+          "timing": "命中时",
+          "description": "目标每带有1层改变恐慌类型的状态效果，使本硬币造成的伤害+10%(最多+30%) [命中时] 对目标造成本硬币最终伤害量25%的斩击伤害 -若目标带有 破碎痕 ，则改为对目标造成本硬币最终伤害量50%的斩击伤害 [命中时] 下回合对目标施加3层 破碎痕 -若目标带有改变恐慌类型的状态效果，则对目标施加3层 沉沦 (每回合最多1次)"
+        }
+      ],
+      "wikitext_key": "3技能"
+    },
+    {
+      "skill_index": 3,
+      "skill_name": "碍事之物通通破除！",
+      "sin_type": "暴食",
+      "damage_type": "打击",
+      "guard_type": "反击",
+      "attack_capacity": 1,
+      "coin_count": 3,
+      "stage_groups": [
+        [
+          {
+            "stage": "I",
+            "base_value": 4,
+            "coin_power": 3,
+            "effects": [
+              {
+                "timing": "使用时",
+                "description": "下回合使自身获得3层 生角"
+              },
+              {
+                "timing": "命中时",
+                "description": "使目标增加1级 破裂 强度"
+              },
+              {
+                "timing": "命中时",
+                "description": "使目标增加1级 沉沦 强度"
+              }
+            ],
+            "raw_text": "基础值： 4 变动值： +3 [可拼点反击] [使用时] 下回合使自身获得3层 生角 [命中时] 使目标增加1级 破裂 强度 [命中时] 使目标增加1级 沉沦 强度"
+          },
+          {
+            "stage": "II",
+            "base_value": 5,
+            "coin_power": 4,
+            "effects": [
+              {
+                "timing": "可拼点反击",
+                "description": "目标的 破裂 强度与 沉沦 强度之和每有3级，使本技能的最终威力+1(最多+3)"
+              },
+              {
+                "timing": "使用时",
+                "description": "下回合使自身获得3层 生角"
+              },
+              {
+                "timing": "命中时",
+                "description": "使目标增加1级 破裂 强度"
+              },
+              {
+                "timing": "命中时",
+                "description": "使目标增加1级 沉沦 强度"
+              }
+            ],
+            "raw_text": "基础值： 5 变动值： +4 [可拼点反击] 目标的 破裂 强度与 沉沦 强度之和每有3级，使本技能的最终威力+1(最多+3) [使用时] 下回合使自身获得3层 生角 [命中时] 使目标增加1级 破裂 强度 [命中时] 使目标增加1级 沉沦 强度"
+          }
+        ]
+      ],
+      "coin_effects": [
+        {
+          "coin_index": 0,
+          "description": "守备技能"
+        },
+        {
+          "coin_index": 0,
+          "description": "碍事之物通通破除！"
+        },
+        {
+          "coin_index": 0,
+          "timing": "",
+          "description": "2"
+        },
+        {
+          "coin_index": 0,
+          "description": "+1"
+        },
+        {
+          "coin_index": 0,
+          "description": "1"
+        },
+        {
+          "coin_index": 0,
+          "description": "基础值： 4 变动值： +3 [可拼点反击] [使用时] 下回合使自身获得3层 生角"
+        },
+        {
+          "coin_index": 1,
+          "timing": "命中时",
+          "description": "[命中时] 使目标增加1级 破裂 强度"
+        },
+        {
+          "coin_index": 2,
+          "timing": "命中时",
+          "description": "[命中时] 使目标增加1级 沉沦 强度"
+        },
+        {
+          "coin_index": 1,
+          "timing": "命中时",
+          "description": "[命中时] 使目标增加1级 破裂 强度"
+        },
+        {
+          "coin_index": 2,
+          "timing": "命中时",
+          "description": "[命中时] 使目标增加1级 沉沦 强度"
+        }
+      ],
+      "wikitext_key": "守备技能4"
+    }
+  ],
+  "battle_passive": "人格被动1031302\n人格被动1031301\n人格被动1031321",
+  "support_passive": "",
+  "notes": "",
+  "voice_lines": [],
+  "skill_voice": [],
+  "_structured": true,
+  "id": "wiki_堂吉诃德黑兽-未",
+  "url": "https://limbuscompany.huijiwiki.com/wiki/堂吉诃德黑兽-未",
+  "categories": [
+    "人格"
+  ],
+  "source": "wiki",
+  "_schema_version": 1
+}

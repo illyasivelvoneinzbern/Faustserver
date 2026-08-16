@@ -1,0 +1,90 @@
+{
+  "page_type": "enemy",
+  "title": "折射轨道3号线-第9站",
+  "enemy_name": "折射的苍白之物-棍",
+  "battle_stage": "折射轨道3号线-第9站",
+  "body_part": "躯干",
+  "hp": 102,
+  "defense_level": 42,
+  "speed_min": 2,
+  "speed_max": 5,
+  "chaos_threshold": "87/51/0",
+  "physical_resistances": {
+    "斩击": 0.75,
+    "突刺": 1.0,
+    "打击": 1.5
+  },
+  "sin_resistances": {
+    "暴怒": 1.0,
+    "色欲": 1.5,
+    "怠惰": 1.0,
+    "暴食": 1.0,
+    "忧郁": 1.0,
+    "傲慢": 1.0,
+    "嫉妒": 1.2
+  },
+  "panic_types": [],
+  "passives": [],
+  "skills": [
+    {
+      "skill_name": "..-. .",
+      "icon_id": "9009301",
+      "sin_type": "傲慢",
+      "damage_type": "打击",
+      "base_value": 10,
+      "coin_power": 6,
+      "coin_count": 1,
+      "attack_level": 0,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "1命中时对目标施加2层防御等级降低"
+      ]
+    },
+    {
+      "skill_name": ".-.. .",
+      "icon_id": "9009302",
+      "sin_type": "傲慢",
+      "damage_type": "打击",
+      "base_value": 13,
+      "coin_power": 8,
+      "coin_count": 1,
+      "attack_level": 0,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "使用时下回合随机使1名其他苍白的友方单位获得1层伤害强化"
+      ]
+    },
+    {
+      "skill_name": ".-.. .-",
+      "icon_id": "9009303",
+      "sin_type": "傲慢",
+      "damage_type": "打击",
+      "base_value": 14,
+      "coin_power": 6,
+      "coin_count": 2,
+      "attack_level": 0,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "使用时下回合随机使1名其他苍白的友方单位获得1层伤害强化"
+      ]
+    }
+  ],
+  "is_ally": false,
+  "_structured": true,
+  "appear_stages": [
+    "折射轨道3号线-第9站"
+  ],
+  "enemy_id": "折射轨道3号线-第9站|折射的苍白之物-棍|躯干",
+  "defense": 42,
+  "speed": "2~5",
+  "_schema_version": 1
+}

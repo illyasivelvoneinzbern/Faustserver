@@ -1,0 +1,21 @@
+{
+  "id": "gift_2076",
+  "title": "褪色的海报",
+  "url": "https://limbuscompany.huijiwiki.com/wiki/E.G.O饰品",
+  "categories": [
+    "E.G.O饰品"
+  ],
+  "content": "[第1、第8顺位友方单位专属]\n攻击结束后，若目标阵亡，则使自身增加2级呼吸法强度并获得2层呼吸法。\n本场战斗期间，每有1名敌方单位在自身攻击结束后阵亡，使自身攻击等级+1(最多+3)。",
+  "source": "tabx",
+  "_structured": true,
+  "page_type": "ego_gift",
+  "gift_name": "褪色的海报",
+  "rarity": 0,
+  "cost": "0",
+  "effect_types": "",
+  "attack_type": "傲慢",
+  "location": "第八章",
+  "stage": "base",
+  "event": "主线战斗8-20-10",
+  "_schema_version": 1
+}

@@ -1,0 +1,22 @@
+{
+  "id": "gift_9229",
+  "title": "褪色的护手",
+  "url": "https://limbuscompany.huijiwiki.com/wiki/E.G.O饰品",
+  "categories": [
+    "E.G.O饰品"
+  ],
+  "content": "本E.G.O饰品在6场战斗胜利后转化\n全体友方单位的最小与最大速度值-5(该效果不会使速度值低于1)",
+  "source": "tabx",
+  "_structured": true,
+  "page_type": "ego_gift",
+  "gift_name": "褪色的护手",
+  "rarity": 1,
+  "cost": "149",
+  "effect_types": "泛用",
+  "attack_type": "怠惰",
+  "location": "镜像迷宫",
+  "stage": "base",
+  "special": "诅咒事件",
+  "event": "事件-T公司 时间预付机",
+  "_schema_version": 1
+}

@@ -1,0 +1,79 @@
+{
+  "page_type": "enemy",
+  "title": "1-11-1-控制部担任 收容区（上）",
+  "enemy_name": "变强的残兵",
+  "battle_stage": "1-11-1-控制部担任 收容区（上）",
+  "body_part": "",
+  "hp": 46,
+  "defense_level": 3,
+  "speed_min": 1,
+  "speed_max": 2,
+  "chaos_threshold": "",
+  "physical_resistances": {
+    "斩击": 2.0,
+    "突刺": 1.0,
+    "打击": 1.0
+  },
+  "sin_resistances": {
+    "暴怒": 1.0,
+    "色欲": 1.0,
+    "怠惰": 1.0,
+    "暴食": 1.0,
+    "忧郁": 1.0,
+    "傲慢": 1.0,
+    "嫉妒": 1.0
+  },
+  "panic_types": [
+    "畏缩"
+  ],
+  "passives": [
+    "强化肉体：回合开始时，若现存体力不高于50%，则恢复2点体力。"
+  ],
+  "skills": [
+    {
+      "skill_name": "挥扫",
+      "icon_id": "9000801",
+      "sin_type": "色欲",
+      "damage_type": "",
+      "base_value": 2,
+      "coin_power": 9,
+      "coin_count": 2,
+      "attack_level": 1,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[正面命中时] 下回合对目标施加1层 束缚"
+      ]
+    },
+    {
+      "skill_name": "防御",
+      "icon_id": "9000703",
+      "sin_type": "常规",
+      "damage_type": "",
+      "base_value": 5,
+      "coin_power": 79,
+      "coin_count": 1,
+      "attack_level": 0,
+      "attack_weight": 1,
+      "is_guard": true,
+      "guard_type": "防御",
+      "importance": 0,
+      "coin_effects": []
+    }
+  ],
+  "is_ally": false,
+  "_structured": true,
+  "appear_stages": [
+    "1-11-1-控制部担任 收容区（上）",
+    "1-11-2-员工休息室",
+    "1-11-3-第23-7防线 13:00（1）",
+    "主线战斗1-10",
+    "经验采光-1"
+  ],
+  "enemy_id": "1-11-1-控制部担任 收容区（上）|变强的残兵|",
+  "defense": 3,
+  "speed": "1~2",
+  "_schema_version": 1
+}

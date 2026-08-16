@@ -1,0 +1,143 @@
+{
+  "page_type": "enemy",
+  "title": "折射轨道3号线-第11站",
+  "enemy_name": "折射的绽放E.G.O::燃气捕鲸叉-2",
+  "battle_stage": "折射轨道3号线-第11站",
+  "body_part": "躯干",
+  "hp": 727,
+  "defense_level": 43,
+  "speed_min": 2,
+  "speed_max": 3,
+  "chaos_threshold": "364/0/-145",
+  "physical_resistances": {
+    "斩击": 0.5,
+    "突刺": 1.2,
+    "打击": 1.0
+  },
+  "sin_resistances": {
+    "暴怒": 1.2,
+    "色欲": 1.0,
+    "怠惰": 0.5,
+    "暴食": 1.0,
+    "忧郁": 0.5,
+    "傲慢": 1.2,
+    "嫉妒": 1.2
+  },
+  "panic_types": [],
+  "passives": [],
+  "skills": [
+    {
+      "skill_name": "放马过来！",
+      "icon_id": "810601",
+      "sin_type": "傲慢",
+      "damage_type": "穿刺",
+      "base_value": 3,
+      "coin_power": 4,
+      "coin_count": 2,
+      "attack_level": 0,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "1命中时使目标增加3级流血强度",
+        "命中时对目标施加3层流血",
+        "2命中时使目标增加3级流血强度",
+        "命中时对目标施加3层流血"
+      ]
+    },
+    {
+      "skill_name": "刺杀",
+      "icon_id": "810602",
+      "sin_type": "傲慢",
+      "damage_type": "穿刺",
+      "base_value": 5,
+      "coin_power": 4,
+      "coin_count": 2,
+      "attack_level": 0,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "1命中时对目标施加6层攻击等级降低",
+        "2命中时对目标施加3层流血"
+      ]
+    },
+    {
+      "skill_name": "掩盖恐惧",
+      "icon_id": "810607",
+      "sin_type": "怠惰",
+      "damage_type": "穿刺",
+      "base_value": 4,
+      "coin_power": 7,
+      "coin_count": 1,
+      "attack_level": 0,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "使用时对目标施加1层猎物标记",
+        "1正面命中时对目标施加1层苍白的噪音",
+        "命中时使目标增加3级流血强度并对其施加4层流血"
+      ]
+    },
+    {
+      "skill_name": "穿透软弱",
+      "icon_id": "810608",
+      "sin_type": "怠惰",
+      "damage_type": "穿刺",
+      "base_value": 5,
+      "coin_power": 5,
+      "coin_count": 1,
+      "attack_level": 0,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "使用时下回合对目标施加1层猎物标记",
+        "1正面命中时对目标施加1层苍白的噪音",
+        "命中时下回合对目标施加3层攻击等级降低"
+      ]
+    },
+    {
+      "skill_name": "叹息回响",
+      "icon_id": "810609",
+      "sin_type": "暴食",
+      "damage_type": "穿刺",
+      "base_value": 3,
+      "coin_power": 2,
+      "coin_count": 5,
+      "attack_level": 0,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "目标每带有1级流血强度，使本技能造成的伤害+5%",
+        "若目标带有猎物标记，则使本技能的硬币威力+1",
+        "拼点失败使自身失去5点理智值",
+        "1命中时使目标增加1级流血强度",
+        "命中时随机对3名敌方单位造成3点理智伤害",
+        "2命中时使目标增加1级流血强度",
+        "命中时随机对3名敌方单位造成3点理智伤害",
+        "3命中时使目标增加1级流血强度",
+        "命中时随机对3名敌方单位造成3点理智伤害",
+        "4命中时使目标增加1级流血强度",
+        "命中时随机对3名敌方单位造成3点理智伤害",
+        "5命中时使目标增加1级流血强度"
+      ]
+    }
+  ],
+  "is_ally": false,
+  "_structured": true,
+  "appear_stages": [
+    "折射轨道3号线-第11站"
+  ],
+  "enemy_id": "折射轨道3号线-第11站|折射的绽放E.G.O::燃气捕鲸叉-2|躯干",
+  "defense": 43,
+  "speed": "2~3",
+  "_schema_version": 1
+}

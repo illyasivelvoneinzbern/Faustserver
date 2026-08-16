@@ -1,0 +1,495 @@
+{
+  "page_type": "personality",
+  "title": "奥提斯脑叶公司E.G.O::魔弹",
+  "sinner": "奥提斯",
+  "sinner_id": "outis",
+  "personality_name": "奥提斯脑叶公司E.G.O::魔弹",
+  "release_date": "2024.01.11",
+  "acquisition": "瓦尔普吉斯之夜-2提取",
+  "sin_affinities": {
+    "暴怒": 3,
+    "傲慢": 3
+  },
+  "physical_resistances": {
+    "斩击": 1.0,
+    "突刺": 0.5,
+    "打击": 2.0
+  },
+  "ego_resources": {
+    "暴怒": 3,
+    "傲慢": 3
+  },
+  "skills": [
+    {
+      "skill_index": 0,
+      "skill_name": "点火",
+      "sin_type": "暴怒",
+      "damage_type": "打击",
+      "guard_type": "",
+      "attack_capacity": 1,
+      "coin_count": 3,
+      "stage_groups": [
+        [
+          {
+            "stage": "I",
+            "base_value": 2,
+            "coin_power": 4,
+            "effects": [
+              {
+                "timing": "正面命中时",
+                "description": "下回合对目标施加1层 黑焰"
+              },
+              {
+                "timing": "命中时",
+                "description": "根据目标带有的 黑焰 层数，使其增加相应的 烧伤 强度"
+              }
+            ],
+            "raw_text": "基础值： 2 变动值： +4 [正面命中时] 下回合对目标施加1层 黑焰 [命中时] 根据目标带有的 黑焰 层数，使其增加相应的 烧伤 强度"
+          },
+          {
+            "stage": "II",
+            "base_value": 2,
+            "coin_power": 4,
+            "effects": [
+              {
+                "timing": "正面命中时",
+                "description": "下回合对目标施加1层 黑焰"
+              },
+              {
+                "timing": "命中时",
+                "description": "根据目标带有的 黑焰 层数，使其增加相应的 烧伤 强度"
+              }
+            ],
+            "raw_text": "基础值： 2 变动值： +4 目标每带有3级 烧伤 强度，使本技能的硬币威力+1（最多+2） [正面命中时] 下回合对目标施加1层 黑焰 [命中时] 根据目标带有的 黑焰 层数，使其增加相应的 烧伤 强度"
+          },
+          {
+            "stage": "III",
+            "base_value": 3,
+            "coin_power": 4,
+            "effects": [
+              {
+                "timing": "正面命中时",
+                "description": "下回合对目标施加1层 黑焰"
+              },
+              {
+                "timing": "命中时",
+                "description": "根据目标带有的 黑焰 层数，使其增加相应的 烧伤 强度"
+              }
+            ],
+            "raw_text": "基础值： 3 变动值： +4 目标每带有3级 烧伤 强度，使本技能的硬币威力+1（最多+2） [正面命中时] 下回合对目标施加1层 黑焰 [命中时] 根据目标带有的 黑焰 层数，使其增加相应的 烧伤 强度"
+          },
+          {
+            "stage": "IV",
+            "base_value": 3,
+            "coin_power": 4,
+            "effects": [
+              {
+                "timing": "命中时",
+                "description": "下回合对目标施加1层 黑焰"
+              },
+              {
+                "timing": "命中时",
+                "description": "根据目标带有的 黑焰 层数，使其增加相应的 烧伤 强度"
+              }
+            ],
+            "raw_text": "基础值： 3 变动值： +4 目标每带有3级 烧伤 强度，使本技能的硬币威力+1（最多+3） [命中时] 下回合对目标施加1层 黑焰 [命中时] 根据目标带有的 黑焰 层数，使其增加相应的 烧伤 强度"
+          }
+        ]
+      ],
+      "coin_effects": [
+        {
+          "coin_index": 0,
+          "description": "技能一"
+        },
+        {
+          "coin_index": 0,
+          "description": "点火 3"
+        },
+        {
+          "coin_index": 0,
+          "timing": "",
+          "description": "2"
+        },
+        {
+          "coin_index": 0,
+          "description": "+3"
+        },
+        {
+          "coin_index": 0,
+          "description": "1"
+        },
+        {
+          "coin_index": 0,
+          "description": "基础值： 2 变动值： +4"
+        },
+        {
+          "coin_index": 1,
+          "timing": "正面命中时",
+          "description": "[正面命中时] 下回合对目标施加1层 黑焰"
+        },
+        {
+          "coin_index": 2,
+          "timing": "命中时",
+          "description": "[命中时] 根据目标带有的 黑焰 层数，使其增加相应的 烧伤 强度"
+        },
+        {
+          "coin_index": 1,
+          "timing": "正面命中时",
+          "description": "[正面命中时] 下回合对目标施加1层 黑焰"
+        },
+        {
+          "coin_index": 2,
+          "timing": "命中时",
+          "description": "[命中时] 根据目标带有的 黑焰 层数，使其增加相应的 烧伤 强度"
+        },
+        {
+          "coin_index": 1,
+          "timing": "正面命中时",
+          "description": "[正面命中时] 下回合对目标施加1层 黑焰"
+        },
+        {
+          "coin_index": 2,
+          "timing": "命中时",
+          "description": "[命中时] 根据目标带有的 黑焰 层数，使其增加相应的 烧伤 强度"
+        },
+        {
+          "coin_index": 1,
+          "timing": "命中时",
+          "description": "[命中时] 下回合对目标施加1层 黑焰"
+        },
+        {
+          "coin_index": 2,
+          "timing": "命中时",
+          "description": "[命中时] 根据目标带有的 黑焰 层数，使其增加相应的 烧伤 强度"
+        }
+      ],
+      "wikitext_key": "1技能"
+    },
+    {
+      "skill_index": 1,
+      "skill_name": "魔弹起爆",
+      "sin_type": "傲慢",
+      "damage_type": "打击",
+      "guard_type": "",
+      "attack_capacity": 1,
+      "coin_count": 3,
+      "stage_groups": [
+        [
+          {
+            "stage": "I",
+            "base_value": 4,
+            "coin_power": 5,
+            "effects": [
+              {
+                "timing": "命中时",
+                "description": "若自身的 魔弹 层数低于4层，则使自身获得1层 魔弹 ，并根据自身带有的 魔弹 层数，下回合对目标施加相应层数的 黑焰"
+              },
+              {
+                "timing": "命中时",
+                "description": "根据目标带有的 黑焰 层数，使其增加相应的 烧伤 强度"
+              }
+            ],
+            "raw_text": "基础值： 4 变动值： +5 若目标的 烧伤 强度不低于6级，则使本技能的硬币威力+1 [命中时] 若自身的 魔弹 层数低于4层，则使自身获得1层 魔弹 ，并根据自身带有的 魔弹 层数，下回合对目标施加相应层数的 黑焰 [命中时] 根据目标带有的 黑焰 层数，使其增加相应的 烧伤 强度"
+          },
+          {
+            "stage": "II",
+            "base_value": 4,
+            "coin_power": 5,
+            "effects": [
+              {
+                "timing": "命中时",
+                "description": "若自身的 魔弹 层数低于4层，则使自身获得1层 魔弹 ，并根据自身带有的 魔弹 层数，下回合对目标施加相应层数的 黑焰"
+              },
+              {
+                "timing": "命中时",
+                "description": "根据目标带有的 黑焰 层数，使其增加相应的 烧伤 强度"
+              }
+            ],
+            "raw_text": "基础值： 4 变动值： +5 目标每带有6级 烧伤 强度，使本技能的硬币威力+1（最多+2） [命中时] 若自身的 魔弹 层数低于4层，则使自身获得1层 魔弹 ，并根据自身带有的 魔弹 层数，下回合对目标施加相应层数的 黑焰 [命中时] 根据目标带有的 黑焰 层数，使其增加相应的 烧伤 强度"
+          },
+          {
+            "stage": "III",
+            "base_value": 4,
+            "coin_power": 6,
+            "effects": [
+              {
+                "timing": "命中时",
+                "description": "若自身的 魔弹 层数低于4层，则使自身获得1层 魔弹 ，并根据自身带有的 魔弹 层数，下回合对目标施加相应层数的 黑焰"
+              },
+              {
+                "timing": "命中时",
+                "description": "根据目标带有的 黑焰 层数，使其增加相应的 烧伤 强度"
+              }
+            ],
+            "raw_text": "基础值： 4 变动值： +6 目标每带有6级 烧伤 强度，使本技能的硬币威力+1（最多+2） [命中时] 若自身的 魔弹 层数低于4层，则使自身获得1层 魔弹 ，并根据自身带有的 魔弹 层数，下回合对目标施加相应层数的 黑焰 [命中时] 根据目标带有的 黑焰 层数，使其增加相应的 烧伤 强度"
+          },
+          {
+            "stage": "IV",
+            "base_value": 4,
+            "coin_power": 6,
+            "effects": [
+              {
+                "timing": "命中时",
+                "description": "若自身的 魔弹 层数低于4层，则使自身获得1层 魔弹 ，并根据自身带有的 魔弹 层数，下回合对目标施加相应层数的 黑焰"
+              },
+              {
+                "timing": "命中时",
+                "description": "根据目标带有的 黑焰 层数，使其增加相应的 烧伤 强度"
+              }
+            ],
+            "raw_text": "基础值： 4 变动值： +6 目标每带有6级 烧伤 强度，使本技能的硬币威力+1（最多+3） [命中时] 若自身的 魔弹 层数低于4层，则使自身获得1层 魔弹 ，并根据自身带有的 魔弹 层数，下回合对目标施加相应层数的 黑焰 [命中时] 根据目标带有的 黑焰 层数，使其增加相应的 烧伤 强度"
+          }
+        ]
+      ],
+      "coin_effects": [
+        {
+          "coin_index": 0,
+          "description": "技能二"
+        },
+        {
+          "coin_index": 0,
+          "description": "魔弹起爆 2"
+        },
+        {
+          "coin_index": 0,
+          "timing": "",
+          "description": "2"
+        },
+        {
+          "coin_index": 0,
+          "description": "+3"
+        },
+        {
+          "coin_index": 0,
+          "description": "1"
+        },
+        {
+          "coin_index": 0,
+          "description": "基础值： 4 变动值： +5 若目标的 烧伤 强度不低于6级，则使本技能的硬币威力+1"
+        },
+        {
+          "coin_index": 1,
+          "timing": "命中时",
+          "description": "[命中时] 若自身的 魔弹 层数低于4层，则使自身获得1层 魔弹 ，并根据自身带有的 魔弹 层数，下回合对目标施加相应层数的 黑焰"
+        },
+        {
+          "coin_index": 2,
+          "timing": "命中时",
+          "description": "[命中时] 根据目标带有的 黑焰 层数，使其增加相应的 烧伤 强度"
+        },
+        {
+          "coin_index": 1,
+          "timing": "命中时",
+          "description": "[命中时] 若自身的 魔弹 层数低于4层，则使自身获得1层 魔弹 ，并根据自身带有的 魔弹 层数，下回合对目标施加相应层数的 黑焰"
+        },
+        {
+          "coin_index": 2,
+          "timing": "命中时",
+          "description": "[命中时] 根据目标带有的 黑焰 层数，使其增加相应的 烧伤 强度"
+        },
+        {
+          "coin_index": 1,
+          "timing": "命中时",
+          "description": "[命中时] 若自身的 魔弹 层数低于4层，则使自身获得1层 魔弹 ，并根据自身带有的 魔弹 层数，下回合对目标施加相应层数的 黑焰"
+        },
+        {
+          "coin_index": 2,
+          "timing": "命中时",
+          "description": "[命中时] 根据目标带有的 黑焰 层数，使其增加相应的 烧伤 强度"
+        },
+        {
+          "coin_index": 1,
+          "timing": "命中时",
+          "description": "[命中时] 若自身的 魔弹 层数低于4层，则使自身获得1层 魔弹 ，并根据自身带有的 魔弹 层数，下回合对目标施加相应层数的 黑焰"
+        },
+        {
+          "coin_index": 2,
+          "timing": "命中时",
+          "description": "[命中时] 根据目标带有的 黑焰 层数，使其增加相应的 烧伤 强度"
+        }
+      ],
+      "wikitext_key": "2技能"
+    },
+    {
+      "skill_index": 2,
+      "skill_name": "魔弹射击",
+      "sin_type": "傲慢",
+      "damage_type": "突刺",
+      "guard_type": "",
+      "attack_capacity": 1,
+      "coin_count": 2,
+      "stage_groups": [
+        [
+          {
+            "stage": "I",
+            "base_value": 15,
+            "coin_power": 4,
+            "effects": [
+              {
+                "timing": "攻击前",
+                "description": "使自身获得1层 魔弹 -使自身失去（自身的 魔弹 层数-1）×5点 理智值 -使本技能的 攻击容量 变为与自身的 魔弹 层数相同 -若自身的 理智值 不高于10点，则本技能有50%的概率进行 无差别攻击"
+              },
+              {
+                "timing": "攻击后",
+                "description": "若自身的 魔弹 层数为7层，则将其重置为0层（视作消耗了最后的 弹药 ）"
+              },
+              {
+                "timing": "命中时",
+                "description": "根据自身带有的 魔弹 层数，下回合对目标施加相应层数的 黑焰"
+              }
+            ],
+            "raw_text": "基础值： 15 变动值： +4 目标每带有1级 烧伤 强度，使本技能造成的伤害+0.5%（最多+15%） [攻击前] 使自身获得1层 魔弹 -使自身失去（自身的 魔弹 层数-1）×5点 理智值 -使本技能的 攻击容量 变为与自身的 魔弹 层数相同 -若自身的 理智值 不高于10点，则本技能有50%的概率进行 无差别攻击 [攻击后] 若自身的 魔弹 层数为7层，则将其重置为0层（视作消耗了最后的 弹药 ） [命中时] 根据自身带有的 魔弹 层数，下回合对目标施加相应层数的 黑焰"
+          },
+          {
+            "stage": "II",
+            "base_value": 15,
+            "coin_power": 4,
+            "effects": [
+              {
+                "timing": "攻击前",
+                "description": "使自身获得1层 魔弹 -使自身失去（自身的 魔弹 层数-1）×5点 理智值 -使本技能的 攻击容量 变为与自身的 魔弹 层数相同 -若自身的 理智值 不高于10点，则本技能有50%的概率进行 无差别攻击"
+              },
+              {
+                "timing": "攻击后",
+                "description": "若自身的 魔弹 层数为7层，则将其重置为0层（视作消耗了最后的 弹药 ）"
+              },
+              {
+                "timing": "命中时",
+                "description": "根据自身带有的 魔弹 层数，下回合对目标施加相应层数的 黑焰"
+              }
+            ],
+            "raw_text": "基础值： 15 变动值： +4 目标每带有1级 烧伤 强度，使本技能造成的伤害+1%（最多+30%） [攻击前] 使自身获得1层 魔弹 -使自身失去（自身的 魔弹 层数-1）×5点 理智值 -使本技能的 攻击容量 变为与自身的 魔弹 层数相同 -若自身的 理智值 不高于10点，则本技能有50%的概率进行 无差别攻击 [攻击后] 若自身的 魔弹 层数为7层，则将其重置为0层（视作消耗了最后的 弹药 ） [命中时] 根据自身带有的 魔弹 层数，下回合对目标施加相应层数的 黑焰"
+          }
+        ]
+      ],
+      "coin_effects": [
+        {
+          "coin_index": 0,
+          "description": "技能三"
+        },
+        {
+          "coin_index": 0,
+          "description": "魔弹射击 1"
+        },
+        {
+          "coin_index": 0,
+          "timing": "",
+          "description": "1"
+        },
+        {
+          "coin_index": 0,
+          "description": "+5"
+        },
+        {
+          "coin_index": 0,
+          "description": "1"
+        },
+        {
+          "coin_index": 0,
+          "description": "[攻击后] 若自身的 魔弹 层数为7层，则将其重置为0层（视作消耗了最后的 弹药 ）"
+        },
+        {
+          "coin_index": 1,
+          "timing": "命中时",
+          "description": "[命中时] 根据自身带有的 魔弹 层数，下回合对目标施加相应层数的 黑焰"
+        },
+        {
+          "coin_index": 1,
+          "timing": "命中时",
+          "description": "[命中时] 根据自身带有的 魔弹 层数，下回合对目标施加相应层数的 黑焰"
+        }
+      ],
+      "wikitext_key": "3技能"
+    },
+    {
+      "skill_index": 3,
+      "skill_name": "魔弹的代价",
+      "sin_type": "",
+      "damage_type": "",
+      "guard_type": "",
+      "attack_capacity": 1,
+      "coin_count": 1,
+      "stage_groups": [
+        [
+          {
+            "stage": "I",
+            "base_value": 10,
+            "coin_power": 4,
+            "effects": [
+              {
+                "timing": "使用时",
+                "description": "使自身获得1层 魔弹 （每回合最多1层）"
+              },
+              {
+                "timing": "技能结束时",
+                "description": "根据自身带有的 魔弹 层数，使自身失去相应的 理智值"
+              }
+            ],
+            "raw_text": "基础值： 10 变动值： +4 [使用时] 使自身获得1层 魔弹 （每回合最多1层） [技能结束时] 根据自身带有的 魔弹 层数，使自身失去相应的 理智值"
+          },
+          {
+            "stage": "II",
+            "base_value": 10,
+            "coin_power": 4,
+            "effects": [
+              {
+                "timing": "使用时",
+                "description": "使自身获得1层 魔弹 （每回合最多1层）"
+              },
+              {
+                "timing": "使用时",
+                "description": "使本技能的最终威力+（自身的 魔弹 层数×2）"
+              },
+              {
+                "timing": "技能结束时",
+                "description": "根据自身带有的 魔弹 层数，使自身失去相应的 理智值"
+              }
+            ],
+            "raw_text": "基础值： 10 变动值： +4 [使用时] 使自身获得1层 魔弹 （每回合最多1层） [使用时] 使本技能的最终威力+（自身的 魔弹 层数×2） [技能结束时] 根据自身带有的 魔弹 层数，使自身失去相应的 理智值"
+          }
+        ]
+      ],
+      "coin_effects": [
+        {
+          "coin_index": 0,
+          "description": "守备技能"
+        },
+        {
+          "coin_index": 0,
+          "description": "魔弹的代价"
+        },
+        {
+          "coin_index": 0,
+          "timing": "",
+          "description": "1"
+        },
+        {
+          "coin_index": 0,
+          "description": "-3"
+        },
+        {
+          "coin_index": 0,
+          "description": "1"
+        },
+        {
+          "coin_index": 0,
+          "description": "I阶 - III阶 IV阶 追加属性： 基础值： 10 变动值： +4 [使用时] 使自身获得1层 魔弹 （每回合最多1层） [技能结束时] 根据自身带有的 魔弹 层数，使自身失去相应的 理智值 基础值： 10 变动值： +4 [使用时] 使自身获得1层 魔弹 （每回合最多1层） [使用时] 使本技能的最终威力+（自身的 魔弹 层数×2） [技能结束时] 根据自身带有的 魔弹 层数，使自身失去相应的 理智值"
+        }
+      ],
+      "wikitext_key": "4技能"
+    }
+  ],
+  "battle_passive": "人格被动1110701\n人格被动1110721",
+  "support_passive": "",
+  "notes": "",
+  "voice_lines": [],
+  "skill_voice": [],
+  "_structured": true,
+  "id": "wiki_奥提斯脑叶公司E.G.O::魔弹",
+  "url": "https://limbuscompany.huijiwiki.com/wiki/奥提斯脑叶公司E.G.O::魔弹",
+  "categories": [
+    "人格"
+  ],
+  "source": "wiki",
+  "_schema_version": 1
+}

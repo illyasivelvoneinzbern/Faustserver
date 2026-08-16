@@ -1,0 +1,41 @@
+{
+  "page_type": "event",
+  "title": "事件-巷头恶犬",
+  "event_name": "巷头恶犬",
+  "narration": "落下闪电的地方，传来如雷鸣般的叫声。\n那里有一只背上长着无数个电线杆，拥有许多头的狗。\n那些大小不一的电线杆都释放着紫色的闪光。\n那只狗似乎还没有察觉到我们的靠近。\n也许我们可以切断连接着的电线，把电线带走。\n\n拿走一根小电线杆。\n【哪位罪人去把电线杆带回来？】\n有利判定\n：\n/\n≥16\n不利判定\n：\n≥32\n判定成功\n：\n罪人[X]拔出了最小的那个电线杆。\n虽然听见了示以警告的隆隆吼声，但是并没有其它的反应。\n这种程度应该没事吧？\n我们放下心来，抬着电线杆逃离了落雷的地方。\n获得E.G.O饰品\n微缩电线杆\n！\n判定失败\n：\n罪人[X]拔出了最小的那个电线杆。\n随着示以警告的隆隆吼声，爬上电线杆的火花溅射出来。\n罪人[X]迅速地放下了电线杆，但已经迟了。\n被电火花烧焦的罪人[X]空手而归。\n所选人格失去\n30点体力\n！\n\n拔掉所有电线杆。\n我让罪人们拔掉每一根看得见的电线杆。\n到底拔掉了多少电线杆，或者推倒了多少呢。\n那只原本安静下来的狗从地上站起，再次发出了如雷鸣般的吼声。\n看来战斗是无法避免了。\n触发集中战斗！\n战斗胜利后，获得\n微缩电线杆\n！\n战斗失败后，没有奖励",
+  "options": [
+    {
+      "choice_text": "拿走一根小电线杆。",
+      "check_type": "有利判定",
+      "check_sin": "傲慢",
+      "check_threshold": 16,
+      "success_outcomes": [
+        "获得E.G.O饰品 微缩电线杆 ！ 判定失败 ： 罪人[X]拔出了最小的那个电线杆。 随着示以警告的隆隆吼声",
+        "失去 30点体力 ！"
+      ],
+      "failure_outcomes": [
+        "失去 30点体力 ！"
+      ]
+    },
+    {
+      "choice_text": "拔掉所有电线杆。",
+      "check_type": "",
+      "check_sin": "",
+      "check_threshold": 0,
+      "success_outcomes": [],
+      "failure_outcomes": []
+    }
+  ],
+  "ego_gifts": [],
+  "related_abnormalities": [
+    "事件触发地点",
+    "镜像迷宫"
+  ],
+  "trigger_location": "",
+  "_structured": true,
+  "id": "wiki_事件-巷头恶犬",
+  "url": "https://limbuscompany.huijiwiki.com/wiki/事件-巷头恶犬",
+  "categories": [],
+  "source": "wiki",
+  "_schema_version": 1
+}

@@ -1,0 +1,93 @@
+{
+  "page_type": "enemy",
+  "title": "折射轨道1号线-第4站：再会",
+  "enemy_name": "奉承的N公司审问官",
+  "battle_stage": "折射轨道1号线-第4站：再会",
+  "body_part": "身体",
+  "hp": 91,
+  "defense_level": 91,
+  "speed_min": 0,
+  "speed_max": 0,
+  "chaos_threshold": "3-5",
+  "physical_resistances": {
+    "斩击": 0.75,
+    "突刺": 1.0,
+    "打击": 2.0
+  },
+  "sin_resistances": {
+    "暴怒": 1.0,
+    "色欲": 0.75,
+    "怠惰": 2.0,
+    "暴食": 1.5,
+    "忧郁": 1.0,
+    "傲慢": 0.75,
+    "嫉妒": 1.0
+  },
+  "panic_types": [],
+  "passives": [
+    "无"
+  ],
+  "skills": [
+    {
+      "skill_name": "刺入",
+      "icon_id": "9003201",
+      "sin_type": "傲慢",
+      "damage_type": "穿刺",
+      "base_value": 2,
+      "coin_power": 3,
+      "coin_count": 2,
+      "attack_level": 30,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "3命中时下回合使目标增加2级流血强度"
+      ]
+    },
+    {
+      "skill_name": "钉击",
+      "icon_id": "9003202",
+      "sin_type": "傲慢",
+      "damage_type": "突刺",
+      "base_value": 4,
+      "coin_power": 3,
+      "coin_count": 3,
+      "attack_level": 32,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[命中时] 下回合对目标施加1层 N公司的尖钉"
+      ]
+    },
+    {
+      "skill_name": "异端审判",
+      "icon_id": "9003401",
+      "sin_type": "色欲",
+      "damage_type": "打击",
+      "base_value": 8,
+      "coin_power": 9,
+      "coin_count": 3,
+      "attack_level": 32,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[正面命中时] 对目标施加1层 N公司的尖钉",
+        "[命中时] 下回合使目标增加3级 流血 强度"
+      ]
+    }
+  ],
+  "is_ally": false,
+  "_structured": true,
+  "appear_stages": [
+    "折射轨道1号线-第4站：再会"
+  ],
+  "enemy_id": "折射轨道1号线-第4站：再会|奉承的N公司审问官|身体",
+  "defense": 91,
+  "speed": "0~0",
+  "_schema_version": 1
+}

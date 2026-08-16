@@ -1,0 +1,21 @@
+{
+  "id": "gift_1048",
+  "title": "钢盔",
+  "url": "https://limbuscompany.huijiwiki.com/wiki/E.G.O饰品",
+  "categories": [
+    "E.G.O饰品"
+  ],
+  "content": "全体友方单位的守备技能威力+1。",
+  "source": "tabx",
+  "_structured": true,
+  "page_type": "ego_gift",
+  "gift_name": "钢盔",
+  "rarity": 0,
+  "cost": "0",
+  "effect_types": "",
+  "attack_type": "傲慢",
+  "location": "第三章",
+  "stage": "base",
+  "event": "事件-装满箱子的房间",
+  "_schema_version": 1
+}

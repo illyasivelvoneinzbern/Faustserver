@@ -1,0 +1,21 @@
+{
+  "id": "gift_9438",
+  "title": "胜利之证",
+  "url": "https://limbuscompany.huijiwiki.com/wiki/E.G.O饰品",
+  "categories": [
+    "E.G.O饰品"
+  ],
+  "content": "击杀敌方单位时，使理智值最低的1名友方单位恢复3点理智值。\n攻击结束后，若有流血，特殊流血与破裂之和不低于10点的敌方单位阵亡，则下回合使1名友方单位获得2层攻击等级提升(优先指定击杀该敌方单位的友方单位)。",
+  "source": "tabx",
+  "_structured": true,
+  "page_type": "ego_gift",
+  "gift_name": "胜利之证",
+  "rarity": 3,
+  "cost": "248",
+  "effect_types": "流血",
+  "attack_type": "傲慢",
+  "location": "镜像迷宫",
+  "stage": "base",
+  "special": "梦之终焉，重新开园的拉·曼却领，无尽的游行",
+  "_schema_version": 1
+}

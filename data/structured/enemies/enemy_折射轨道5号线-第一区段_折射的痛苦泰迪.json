@@ -1,0 +1,199 @@
+{
+  "page_type": "enemy",
+  "title": "折射轨道5号线-第一区段",
+  "enemy_name": "折射的痛苦泰迪",
+  "battle_stage": "折射轨道5号线-第一区段",
+  "body_part": "躯干",
+  "hp": 1873,
+  "defense_level": 48,
+  "speed_min": 2,
+  "speed_max": 5,
+  "chaos_threshold": "749",
+  "physical_resistances": {
+    "斩击": 1.0,
+    "突刺": 1.25,
+    "打击": 0.8
+  },
+  "sin_resistances": {
+    "暴怒": 1.2,
+    "色欲": 1.0,
+    "怠惰": 1.0,
+    "暴食": 1.0,
+    "忧郁": 0.75,
+    "傲慢": 0.75,
+    "嫉妒": 1.5
+  },
+  "panic_types": [],
+  "passives": [
+    "折射的挣扎: 若与同一目标拼点不低于10次，则拼点判定时随机使自身的拼点威力增加或减少(拼点次数/10)。(向下取整)",
+    "曾所爱之人: 回合开始时，若全体敌方单位均带有 依恋 ，则使用强力技能",
+    "染血铁钉: 使用单硬币技能造成伤害时，使目标增加3级 流血 强度并对其施加2层 防御等级降低 直到下回合结束。 若目标带有 流血 ，则增加的 流血 强度改为5级。",
+    "为记忆: 若自身因悲伤的拥抱的回合结束效果陷入混乱，则下回合开始时使自身获得10层 模糊的记忆",
+    "给予爱: 回合结束时，若现存体力不高于30%，不会对全体敌方单位施加3层 依恋 ，而改为下回合对自身施加15层 攻击等级降低 (每场战斗最多1次)",
+    "愿不再疼痛: 目标每带有3种负面状态，使自身的基础威力-1(最多-3)"
+  ],
+  "skills": [
+    {
+      "skill_name": "表达爱意",
+      "icon_id": "837901",
+      "sin_type": "忧郁",
+      "damage_type": "打击",
+      "base_value": 4,
+      "coin_power": 4,
+      "coin_count": 1,
+      "attack_level": 1,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "优先指定负面状态数最少的目标",
+        "使用时若目标未带有负面状态，则下回合使用“粗暴示爱”",
+        "使用时若目标的负面状态数高于自身的模糊的记忆层数，则下回合使用“悲伤的拥抱”",
+        "1不可摧毁的硬币",
+        "命中时对目标施加4层依恋",
+        "拼点胜利-命中时下回合对目标施加2层易损"
+      ]
+    },
+    {
+      "skill_name": "横扫",
+      "icon_id": "837902",
+      "sin_type": "怠惰",
+      "damage_type": "斩击",
+      "base_value": 6,
+      "coin_power": 6,
+      "coin_count": 1,
+      "attack_level": 2,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "优先指定负面状态数最少的目标",
+        "拼点胜利下回合对目标施加3层依恋",
+        "拼点失败下回合对目标施加1层依恋",
+        "1命中时使目标增加3级{{状态2|流血|4=负面}}强度",
+        "命中时对目标施加2层{{状态2|尖钉|4=负面}}"
+      ]
+    },
+    {
+      "skill_name": "狂乱横扫",
+      "icon_id": "837903",
+      "sin_type": "怠惰",
+      "damage_type": "斩击",
+      "base_value": 4,
+      "coin_power": 4,
+      "coin_count": 2,
+      "attack_level": 2,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "优先指定负面状态数最少的目标",
+        "拼点胜利下回合对目标施加3层依恋",
+        "拼点失败下回合对目标施加1层依恋",
+        "1命中时对目标施加2层{{状态2|流血|4=负面}}",
+        "2命中时对目标施加3层诅咒"
+      ]
+    },
+    {
+      "skill_name": "谨慎示爱",
+      "icon_id": "837904",
+      "sin_type": "嫉妒",
+      "damage_type": "打击",
+      "base_value": 6,
+      "coin_power": 6,
+      "coin_count": 1,
+      "attack_level": 1,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "可拼点反击",
+        "使用时下回合对目标施加2层破绽",
+        "使用时下回合对目标施加1层诅咒",
+        "1不可摧毁的硬币",
+        "命中时若目标带有依恋，则消耗目标的依恋并对其施加相应层数的诅咒与{{状态2|尖钉|4=负面}}(最多消耗4层)",
+        "命中时若目标的诅咒层数不低于4层，则消耗目标的4层诅咒并对其施加1层诅咒包裹"
+      ]
+    },
+    {
+      "skill_name": "粗暴示爱",
+      "icon_id": "837905",
+      "sin_type": "暴怒",
+      "damage_type": "打击",
+      "base_value": 8,
+      "coin_power": 8,
+      "coin_count": 1,
+      "attack_level": 2,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "无法改变拼点目标",
+        "指定上回合与“表达爱意”拼点的目标",
+        "1不可摧毁的硬币",
+        "若目标未带有负面状态，则使本硬币造成的伤害+100%",
+        "命中时对目标施加3层诅咒",
+        "拼点胜利-命中时对目标施加6层{{状态2|尖钉|4=负面}}"
+      ]
+    },
+    {
+      "skill_name": "悲伤的拥抱",
+      "icon_id": "837906",
+      "sin_type": "暴食",
+      "damage_type": "穿刺",
+      "base_value": 1,
+      "coin_power": 1,
+      "coin_count": 1,
+      "attack_level": 2,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "无法改变拼点目标",
+        "指定上回合与“表达爱意”拼点的目标",
+        "对该目标造成的伤害固定为0点",
+        "战斗开始下回合对自身施加2层易损",
+        "回合结束时使自身陷入混乱",
+        "1不可摧毁的硬币",
+        "命中时使目标恢复所有理智值"
+      ]
+    },
+    {
+      "skill_name": "思念的拥抱",
+      "icon_id": "837907",
+      "sin_type": "忧郁",
+      "damage_type": "穿刺",
+      "base_value": 6,
+      "coin_power": 6,
+      "coin_count": 2,
+      "attack_level": 3,
+      "attack_weight": 6,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "拼点失败使本技能对敌方单位造成的伤害减半",
+        "1命中时对目标施加4层诅咒",
+        "2不可摧毁的硬币",
+        "命中时对目标施加4层{{状态2|尖钉|4=负面}}",
+        "命中时消耗目标所有依恋",
+        "- 若自身拼点胜利，则使目标的混乱阈值前移(消耗的依恋层数×10)"
+      ]
+    }
+  ],
+  "is_ally": false,
+  "_structured": true,
+  "appear_stages": [
+    "折射轨道5号线-第一区段"
+  ],
+  "enemy_id": "折射轨道5号线-第一区段|折射的痛苦泰迪|躯干",
+  "defense": 48,
+  "speed": "2~5",
+  "_schema_version": 1
+}

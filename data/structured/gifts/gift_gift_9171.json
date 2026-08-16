@@ -1,0 +1,21 @@
+{
+  "id": "gift_9171",
+  "title": "破灭",
+  "url": "https://limbuscompany.huijiwiki.com/wiki/E.G.O饰品",
+  "categories": [
+    "E.G.O饰品"
+  ],
+  "content": "回合开始时，若拥有增加破裂强度或施加破裂层数的攻击技能的友方单位不低于5名，则在本场战斗期间触发该效果。(不包括E.G.O技能，不包括待命人员)\n破裂效果对敌方单位带有的护盾造成的伤害+150%\n回合开始时，带有破裂的敌方单位或部位减少(3+(其破裂强度/2))级攻击等级与防御等级。(最多6级)",
+  "source": "tabx",
+  "_structured": true,
+  "page_type": "ego_gift",
+  "gift_name": "破灭",
+  "rarity": 4,
+  "cost": "406",
+  "effect_types": "破裂",
+  "attack_type": "怠惰",
+  "location": "镜像迷宫",
+  "stage": "base",
+  "special": "困难合成",
+  "_schema_version": 1
+}

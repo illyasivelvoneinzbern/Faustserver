@@ -1,0 +1,75 @@
+{
+  "page_type": "enemy",
+  "title": "主线战斗7-36-10",
+  "enemy_name": "座舱",
+  "battle_stage": "主线战斗7-36-10",
+  "body_part": "座舱",
+  "hp": 68,
+  "defense_level": 45,
+  "speed_min": 1,
+  "speed_max": 3,
+  "chaos_threshold": "",
+  "physical_resistances": {
+    "斩击": 1.0,
+    "突刺": 1.0,
+    "打击": 1.0
+  },
+  "sin_resistances": {
+    "暴怒": 1.2,
+    "色欲": 1.2,
+    "怠惰": 0.7,
+    "暴食": 1.0,
+    "忧郁": 1.0,
+    "傲慢": 1.0,
+    "嫉妒": 1.2
+  },
+  "panic_types": [],
+  "passives": [],
+  "skills": [
+    {
+      "skill_name": "让我出去！！！让我出去！！！",
+      "icon_id": "840301",
+      "sin_type": "色欲",
+      "damage_type": "防御",
+      "base_value": 3,
+      "coin_power": 9,
+      "coin_count": 1,
+      "attack_level": 45,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "下回合使用自爆技能"
+      ]
+    },
+    {
+      "skill_name": "要炸了！！！要炸了！！！",
+      "icon_id": "840302",
+      "sin_type": "暴怒",
+      "damage_type": "打击",
+      "base_value": 12,
+      "coin_power": 987,
+      "coin_count": 2,
+      "attack_level": 45,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "无法拼点",
+        "战斗开始对自身施加3层{{状态2|易损|4=负面}}",
+        "1硬币攻击结束时对目标造成10点色欲伤害，随后去除自身"
+      ]
+    }
+  ],
+  "is_ally": false,
+  "_structured": true,
+  "appear_stages": [
+    "主线战斗7-36-10"
+  ],
+  "enemy_id": "主线战斗7-36-10|座舱|座舱",
+  "defense": 45,
+  "speed": "1~3",
+  "_schema_version": 1
+}

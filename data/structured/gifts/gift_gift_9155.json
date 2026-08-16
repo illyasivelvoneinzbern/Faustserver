@@ -1,0 +1,21 @@
+{
+  "id": "gift_9155",
+  "title": "万年炖锅",
+  "url": "https://limbuscompany.huijiwiki.com/wiki/E.G.O饰品",
+  "categories": [
+    "E.G.O饰品"
+  ],
+  "content": "增加烧伤强度，施加烧伤层数或施加特殊烧伤的技能拼点威力+1",
+  "source": "tabx",
+  "_structured": true,
+  "page_type": "ego_gift",
+  "gift_name": "万年炖锅",
+  "rarity": 2,
+  "cost": "208",
+  "effect_types": "烧伤",
+  "attack_type": "色欲",
+  "location": "镜像迷宫",
+  "stage": "base",
+  "event": "事件-冠汤翼蜥",
+  "_schema_version": 1
+}

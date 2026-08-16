@@ -1,0 +1,127 @@
+{
+  "page_type": "enemy",
+  "title": "折射轨道4号线-第一区段-2",
+  "enemy_name": "折射的约瑟芬",
+  "battle_stage": "折射轨道4号线-第一区段-2",
+  "body_part": "躯干",
+  "hp": 622,
+  "defense_level": 43,
+  "speed_min": 3,
+  "speed_max": 5,
+  "chaos_threshold": "342/187/0/-62",
+  "physical_resistances": {
+    "斩击": 1.0,
+    "突刺": 0.5,
+    "打击": 1.2
+  },
+  "sin_resistances": {
+    "暴怒": 1.0,
+    "色欲": 1.0,
+    "怠惰": 1.0,
+    "暴食": 1.0,
+    "忧郁": 1.0,
+    "傲慢": 1.0,
+    "嫉妒": 1.0
+  },
+  "panic_types": [],
+  "passives": [],
+  "skills": [
+    {
+      "skill_name": "敲击",
+      "icon_id": "9101401",
+      "sin_type": "忧郁",
+      "damage_type": "斩击",
+      "base_value": 3,
+      "coin_power": 4,
+      "coin_count": 2,
+      "attack_level": 0,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "使用时若目标的{{状态2|沉沦|4=负面}}强度不低于5级，则对目标施加1层攻击等级降低"
+      ]
+    },
+    {
+      "skill_name": "打扫时间！",
+      "icon_id": "9101402",
+      "sin_type": "忧郁",
+      "damage_type": "打击",
+      "base_value": 3,
+      "coin_power": 4,
+      "coin_count": 2,
+      "attack_level": 0,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "使用时若目标的理智值不高于10点，则对目标施加2层攻击等级降低",
+        "拼点胜利对目标施加1层{{状态2|易损|4=负面}}"
+      ]
+    },
+    {
+      "skill_name": "遵夫人之命…！",
+      "icon_id": "9101403",
+      "sin_type": "色欲",
+      "damage_type": "打击",
+      "base_value": 3,
+      "coin_power": 3,
+      "coin_count": 3,
+      "attack_level": 0,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "使用时目标每带有3级{{状态2|沉沦|4=负面}}强度，则使本技能的基础威力+1（最多+3）",
+        "拼点胜利使全体友方单位恢复5点理智值"
+      ]
+    },
+    {
+      "skill_name": "一尘…不染！",
+      "icon_id": "9101404",
+      "sin_type": "傲慢",
+      "damage_type": "打击",
+      "base_value": 5,
+      "coin_power": 3,
+      "coin_count": 3,
+      "attack_level": 0,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "战斗开始使包括自身在内的全体友方单位获得3层{{状态2|攻击等级提升|4=正面}}并恢复15点理智值",
+        "战斗开始对除自身以外的全体友方单位施加1层{{状态2|易损|4=负面}}"
+      ]
+    },
+    {
+      "skill_name": "一群鼠辈！",
+      "icon_id": "9101405",
+      "sin_type": "常规",
+      "damage_type": "防御",
+      "base_value": 10,
+      "coin_power": 20,
+      "coin_count": 1,
+      "attack_level": 0,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "回合结束时若自身带有护盾，则自身的混乱阀值后移50"
+      ]
+    }
+  ],
+  "is_ally": false,
+  "_structured": true,
+  "appear_stages": [
+    "折射轨道4号线-第一区段-2"
+  ],
+  "enemy_id": "折射轨道4号线-第一区段-2|折射的约瑟芬|躯干",
+  "defense": 43,
+  "speed": "3~5",
+  "_schema_version": 1
+}

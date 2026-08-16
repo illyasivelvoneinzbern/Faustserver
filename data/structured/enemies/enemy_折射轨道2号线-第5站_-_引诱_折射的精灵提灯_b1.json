@@ -1,0 +1,38 @@
+{
+  "page_type": "enemy",
+  "title": "折射轨道2号线-第5站 - 引诱",
+  "enemy_name": "折射的精灵提灯",
+  "battle_stage": "折射轨道2号线-第5站 - 引诱",
+  "body_part": "躯干",
+  "hp": 1079,
+  "defense_level": 28,
+  "speed_min": 1,
+  "speed_max": 1,
+  "chaos_threshold": "756/345/0",
+  "physical_resistances": {
+    "斩击": 2.0,
+    "突刺": 0.5,
+    "打击": 1.0
+  },
+  "sin_resistances": {
+    "暴怒": 1.0,
+    "色欲": 1.5,
+    "怠惰": 1.0,
+    "暴食": 0.75,
+    "忧郁": 0.5,
+    "傲慢": 2.0,
+    "嫉妒": 1.0
+  },
+  "panic_types": [],
+  "passives": [],
+  "skills": [],
+  "is_ally": false,
+  "_structured": true,
+  "appear_stages": [
+    "折射轨道2号线-第5站 - 引诱"
+  ],
+  "enemy_id": "折射轨道2号线-第5站 - 引诱|折射的精灵提灯|躯干",
+  "defense": 28,
+  "speed": "1~1",
+  "_schema_version": 1
+}

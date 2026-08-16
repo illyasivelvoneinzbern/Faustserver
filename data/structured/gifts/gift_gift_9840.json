@@ -1,0 +1,22 @@
+{
+  "id": "gift_9840",
+  "title": "W公司制式帽子",
+  "url": "https://limbuscompany.huijiwiki.com/wiki/E.G.O饰品",
+  "categories": [
+    "E.G.O饰品"
+  ],
+  "content": "使用获得充能层数或特殊充能的技能后，使自身获得相应层数的应急力场电池(每个友方单位最多7层)",
+  "source": "tabx",
+  "_structured": true,
+  "page_type": "ego_gift",
+  "gift_name": "W公司制式帽子",
+  "rarity": 2,
+  "cost": "204",
+  "effect_types": "充能",
+  "attack_type": "嫉妒",
+  "location": "镜像迷宫",
+  "stage": "base",
+  "special": "WARP快车谋杀案复刻",
+  "event": "事件-一位W公司清扫人员正在与一群血袋战斗",
+  "_schema_version": 1
+}

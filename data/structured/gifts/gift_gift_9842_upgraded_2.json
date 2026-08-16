@@ -1,0 +1,22 @@
+{
+  "id": "gift_9842_upgraded_2",
+  "title": "由血而成之肉，由肉而成之血",
+  "url": "https://limbuscompany.huijiwiki.com/wiki/E.G.O饰品",
+  "categories": [
+    "E.G.O饰品"
+  ],
+  "content": "敌方单位受到的流血伤害+(编入单位数×5)%(最多+20%)",
+  "source": "tabx",
+  "_structured": true,
+  "page_type": "ego_gift",
+  "gift_name": "由血而成之肉，由肉而成之血",
+  "rarity": 3,
+  "cost": "251",
+  "effect_types": "流血",
+  "attack_type": "色欲",
+  "location": "镜像迷宫",
+  "stage": "upgraded_2",
+  "special": "WARP快车谋杀案复刻",
+  "event": "事件-在变成血袋的W公司清扫人员身上发现了一件有用的装备",
+  "_schema_version": 1
+}

@@ -1,0 +1,544 @@
+{
+  "page_type": "personality",
+  "title": "奥提斯Seven协会南部6科科长",
+  "sinner": "奥提斯",
+  "sinner_id": "outis",
+  "personality_name": "奥提斯Seven协会南部6科科长",
+  "release_date": "2023.04.06",
+  "acquisition": "常驻提取",
+  "sin_affinities": {
+    "暴食": 3,
+    "怠惰": 2,
+    "色欲": 1
+  },
+  "physical_resistances": {
+    "斩击": 2.0,
+    "突刺": 1.0,
+    "打击": 0.5
+  },
+  "ego_resources": {
+    "暴食": 3,
+    "怠惰": 2,
+    "色欲": 1
+  },
+  "skills": [
+    {
+      "skill_index": 0,
+      "skill_name": "预测分析",
+      "sin_type": "暴食",
+      "damage_type": "打击",
+      "guard_type": "",
+      "attack_capacity": 1,
+      "coin_count": 2,
+      "stage_groups": [
+        [
+          {
+            "stage": "I",
+            "base_value": 5,
+            "coin_power": 4,
+            "effects": [
+              {
+                "timing": "正面命中时",
+                "description": "下回合对目标施加1层 麻痹"
+              }
+            ],
+            "raw_text": "基础值： 5 变动值： +4 进行拼点时，使目标的拼点威力-1 [正面命中时] 下回合对目标施加1层 麻痹"
+          },
+          {
+            "stage": "II",
+            "base_value": 5,
+            "coin_power": 4,
+            "effects": [
+              {
+                "timing": "命中时",
+                "description": "下回合对目标施加1层 麻痹"
+              }
+            ],
+            "raw_text": "基础值： 5 变动值： +4 进行拼点时，使目标的拼点威力-2 [命中时] 下回合对目标施加1层 麻痹"
+          },
+          {
+            "stage": "III",
+            "base_value": 6,
+            "coin_power": 4,
+            "effects": [
+              {
+                "timing": "命中时",
+                "description": "下回合对目标施加1层 麻痹"
+              }
+            ],
+            "raw_text": "基础值： 6 变动值： +4 进行拼点时，使目标的拼点威力-2 [命中时] 下回合对目标施加1层 麻痹"
+          },
+          {
+            "stage": "IV",
+            "base_value": 6,
+            "coin_power": 4,
+            "effects": [
+              {
+                "timing": "命中时",
+                "description": "下回合对目标施加1层 麻痹"
+              },
+              {
+                "timing": "命中时",
+                "description": "使目标增加1级 破裂 强度"
+              }
+            ],
+            "raw_text": "基础值： 6 变动值： +4 进行拼点时，使目标的拼点威力-2 [命中时] 下回合对目标施加1层 麻痹 [命中时] 使目标增加1级 破裂 强度"
+          }
+        ]
+      ],
+      "coin_effects": [
+        {
+          "coin_index": 0,
+          "description": "技能一"
+        },
+        {
+          "coin_index": 0,
+          "description": "预测分析 3"
+        },
+        {
+          "coin_index": 0,
+          "timing": "",
+          "description": "1"
+        },
+        {
+          "coin_index": 0,
+          "description": "+0"
+        },
+        {
+          "coin_index": 0,
+          "description": "1"
+        },
+        {
+          "coin_index": 0,
+          "description": "基础值： 5 变动值： +4 进行拼点时，使目标的拼点威力-1"
+        },
+        {
+          "coin_index": 1,
+          "timing": "正面命中时",
+          "description": "[正面命中时] 下回合对目标施加1层 麻痹"
+        },
+        {
+          "coin_index": 1,
+          "timing": "命中时",
+          "description": "[命中时] 下回合对目标施加1层 麻痹"
+        },
+        {
+          "coin_index": 1,
+          "timing": "命中时",
+          "description": "[命中时] 下回合对目标施加1层 麻痹"
+        },
+        {
+          "coin_index": 1,
+          "timing": "命中时",
+          "description": "[命中时] 下回合对目标施加1层 麻痹 [命中时] 使目标增加1级 破裂 强度"
+        }
+      ],
+      "wikitext_key": "1技能"
+    },
+    {
+      "skill_index": 1,
+      "skill_name": "临场指挥",
+      "sin_type": "怠惰",
+      "damage_type": "斩击",
+      "guard_type": "",
+      "attack_capacity": 1,
+      "coin_count": 3,
+      "stage_groups": [
+        [
+          {
+            "stage": "I",
+            "base_value": 4,
+            "coin_power": 5,
+            "effects": [
+              {
+                "timing": "正面命中时",
+                "description": "对目标施加1层 破裂"
+              },
+              {
+                "timing": "正面命中时",
+                "description": "下回合对目标施加1层 防御等级降低"
+              },
+              {
+                "timing": "正面命中时",
+                "description": "对目标施加1层 破裂"
+              },
+              {
+                "timing": "正面命中时",
+                "description": "下回合对目标施加1层 防御等级降低"
+              }
+            ],
+            "raw_text": "基础值： 4 变动值： +5 进行拼点时，使目标的拼点威力-1 [正面命中时] 对目标施加1层 破裂 [正面命中时] 下回合对目标施加1层 防御等级降低 [正面命中时] 对目标施加1层 破裂 [正面命中时] 下回合对目标施加1层 防御等级降低"
+          },
+          {
+            "stage": "II",
+            "base_value": 4,
+            "coin_power": 5,
+            "effects": [
+              {
+                "timing": "命中时",
+                "description": "对目标施加1层 破裂"
+              },
+              {
+                "timing": "命中时",
+                "description": "下回合对目标施加2层 防御等级降低"
+              },
+              {
+                "timing": "命中时",
+                "description": "对目标施加1层 破裂"
+              },
+              {
+                "timing": "命中时",
+                "description": "下回合对目标施加2层 防御等级降低"
+              }
+            ],
+            "raw_text": "基础值： 4 变动值： +5 进行拼点时，使目标的拼点威力-2 [命中时] 对目标施加1层 破裂 [命中时] 下回合对目标施加2层 防御等级降低 [命中时] 对目标施加1层 破裂 [命中时] 下回合对目标施加2层 防御等级降低"
+          },
+          {
+            "stage": "III",
+            "base_value": 5,
+            "coin_power": 5,
+            "effects": [
+              {
+                "timing": "命中时",
+                "description": "对目标施加1层 破裂"
+              },
+              {
+                "timing": "命中时",
+                "description": "下回合对目标施加2层 防御等级降低"
+              },
+              {
+                "timing": "命中时",
+                "description": "对目标施加1层 破裂"
+              },
+              {
+                "timing": "命中时",
+                "description": "下回合对目标施加2层 防御等级降低"
+              }
+            ],
+            "raw_text": "基础值： 5 变动值： +5 进行拼点时，使目标的拼点威力-2 [命中时] 对目标施加1层 破裂 [命中时] 下回合对目标施加2层 防御等级降低 [命中时] 对目标施加1层 破裂 [命中时] 下回合对目标施加2层 防御等级降低"
+          },
+          {
+            "stage": "IV",
+            "base_value": 5,
+            "coin_power": 5,
+            "effects": [
+              {
+                "timing": "命中时",
+                "description": "对目标施加1层 破裂"
+              },
+              {
+                "timing": "命中时",
+                "description": "下回合对目标施加2层 防御等级降低"
+              },
+              {
+                "timing": "命中时",
+                "description": "对目标施加2层 破裂"
+              },
+              {
+                "timing": "命中时",
+                "description": "下回合对目标施加2层 防御等级降低"
+              }
+            ],
+            "raw_text": "基础值： 5 变动值： +5 进行拼点时，使目标的拼点威力-2 [命中时] 对目标施加1层 破裂 [命中时] 下回合对目标施加2层 防御等级降低 [命中时] 对目标施加2层 破裂 [命中时] 下回合对目标施加2层 防御等级降低"
+          }
+        ]
+      ],
+      "coin_effects": [
+        {
+          "coin_index": 0,
+          "description": "技能二"
+        },
+        {
+          "coin_index": 0,
+          "description": "临场指挥 2"
+        },
+        {
+          "coin_index": 0,
+          "timing": "",
+          "description": "2"
+        },
+        {
+          "coin_index": 0,
+          "description": "+0"
+        },
+        {
+          "coin_index": 0,
+          "description": "1"
+        },
+        {
+          "coin_index": 0,
+          "description": "基础值： 4 变动值： +5 进行拼点时，使目标的拼点威力-1"
+        },
+        {
+          "coin_index": 1,
+          "timing": "正面命中时",
+          "description": "[正面命中时] 对目标施加1层 破裂 [正面命中时] 下回合对目标施加1层 防御等级降低"
+        },
+        {
+          "coin_index": 2,
+          "timing": "正面命中时",
+          "description": "[正面命中时] 对目标施加1层 破裂 [正面命中时] 下回合对目标施加1层 防御等级降低"
+        },
+        {
+          "coin_index": 1,
+          "timing": "命中时",
+          "description": "[命中时] 对目标施加1层 破裂 [命中时] 下回合对目标施加2层 防御等级降低"
+        },
+        {
+          "coin_index": 2,
+          "timing": "命中时",
+          "description": "[命中时] 对目标施加1层 破裂 [命中时] 下回合对目标施加2层 防御等级降低"
+        },
+        {
+          "coin_index": 1,
+          "timing": "命中时",
+          "description": "[命中时] 对目标施加1层 破裂 [命中时] 下回合对目标施加2层 防御等级降低"
+        },
+        {
+          "coin_index": 2,
+          "timing": "命中时",
+          "description": "[命中时] 对目标施加1层 破裂 [命中时] 下回合对目标施加2层 防御等级降低"
+        },
+        {
+          "coin_index": 1,
+          "timing": "命中时",
+          "description": "[命中时] 对目标施加1层 破裂 [命中时] 下回合对目标施加2层 防御等级降低"
+        },
+        {
+          "coin_index": 2,
+          "timing": "命中时",
+          "description": "[命中时] 对目标施加2层 破裂 [命中时] 下回合对目标施加2层 防御等级降低"
+        }
+      ],
+      "wikitext_key": "2技能"
+    },
+    {
+      "skill_index": 2,
+      "skill_name": "要害勘破",
+      "sin_type": "色欲",
+      "damage_type": "打击",
+      "guard_type": "",
+      "attack_capacity": 1,
+      "coin_count": 3,
+      "stage_groups": [
+        [
+          {
+            "stage": "I",
+            "base_value": 6,
+            "coin_power": 2,
+            "effects": [
+              {
+                "timing": "命中时",
+                "description": "下回合对目标施加2层 攻击等级降低"
+              },
+              {
+                "timing": "命中时",
+                "description": "对目标追加本硬币伤害量15%的斩击伤害"
+              },
+              {
+                "timing": "命中时",
+                "description": "下回合对目标施加1层 弱点分析"
+              }
+            ],
+            "raw_text": "基础值： 6 变动值： +2 进行拼点时，使目标的拼点威力-2 [命中时] 下回合对目标施加2层 攻击等级降低 [命中时] 对目标追加本硬币伤害量15%的斩击伤害 [命中时] 下回合对目标施加1层 弱点分析"
+          },
+          {
+            "stage": "II",
+            "base_value": 6,
+            "coin_power": 2,
+            "effects": [
+              {
+                "timing": "命中时",
+                "description": "下回合对目标施加2层 攻击等级降低"
+              },
+              {
+                "timing": "命中时",
+                "description": "对目标追加本硬币伤害量15%的斩击伤害"
+              },
+              {
+                "timing": "命中时",
+                "description": "下回合对目标施加1层 弱点分析"
+              }
+            ],
+            "raw_text": "基础值： 6 变动值： +2 进行拼点时，使目标的拼点威力-2 若目标的 破裂 强度不低于7级，则使本技能的硬币威力+2 [命中时] 下回合对目标施加2层 攻击等级降低 [命中时] 对目标追加本硬币伤害量15%的斩击伤害 [命中时] 下回合对目标施加1层 弱点分析"
+          }
+        ]
+      ],
+      "coin_effects": [
+        {
+          "coin_index": 0,
+          "description": "技能三"
+        },
+        {
+          "coin_index": 0,
+          "description": "要害勘破 1"
+        },
+        {
+          "coin_index": 0,
+          "timing": "",
+          "description": "3"
+        },
+        {
+          "coin_index": 0,
+          "description": "+0"
+        },
+        {
+          "coin_index": 0,
+          "description": "1"
+        },
+        {
+          "coin_index": 0,
+          "description": "基础值： 6 变动值： +2 进行拼点时，使目标的拼点威力-2"
+        },
+        {
+          "coin_index": 1,
+          "timing": "命中时",
+          "description": "[命中时] 下回合对目标施加2层 攻击等级降低"
+        },
+        {
+          "coin_index": 3,
+          "timing": "命中时",
+          "description": "[命中时] 对目标追加本硬币伤害量15%的斩击伤害 [命中时] 下回合对目标施加1层 弱点分析"
+        },
+        {
+          "coin_index": 1,
+          "timing": "命中时",
+          "description": "[命中时] 下回合对目标施加2层 攻击等级降低"
+        },
+        {
+          "coin_index": 3,
+          "timing": "命中时",
+          "description": "[命中时] 对目标追加本硬币伤害量15%的斩击伤害 [命中时] 下回合对目标施加1层 弱点分析"
+        }
+      ],
+      "wikitext_key": "3技能"
+    },
+    {
+      "skill_index": 3,
+      "skill_name": "我打头阵",
+      "sin_type": "",
+      "damage_type": "",
+      "guard_type": "",
+      "attack_capacity": 1,
+      "coin_count": 1,
+      "stage_groups": [
+        [
+          {
+            "stage": "I",
+            "base_value": 13,
+            "coin_power": 4,
+            "effects": [
+              {
+                "timing": "使用时",
+                "description": "下回合使自身获得1层 迅捷 与1层 忍耐"
+              }
+            ],
+            "raw_text": "基础值： 13 变动值： +4 [使用时] 下回合使自身获得1层 迅捷 与1层 忍耐"
+          },
+          {
+            "stage": "II",
+            "base_value": 13,
+            "coin_power": 7,
+            "effects": [
+              {
+                "timing": "使用时",
+                "description": "下回合使自身获得1层 迅捷 与1层 忍耐"
+              }
+            ],
+            "raw_text": "基础值： 13 变动值： +7 [使用时] 下回合使自身获得1层 迅捷 与1层 忍耐"
+          }
+        ]
+      ],
+      "coin_effects": [
+        {
+          "coin_index": 0,
+          "description": "守备技能"
+        },
+        {
+          "coin_index": 0,
+          "description": "我打头阵"
+        },
+        {
+          "coin_index": 0,
+          "timing": "",
+          "description": "1"
+        },
+        {
+          "coin_index": 0,
+          "description": "+5"
+        },
+        {
+          "coin_index": 0,
+          "description": "1"
+        },
+        {
+          "coin_index": 0,
+          "description": "I阶 - III阶 IV阶 追加属性： 基础值： 13 变动值： +4 [使用时] 下回合使自身获得1层 迅捷 与1层 忍耐 基础值： 13 变动值： +7 [使用时] 下回合使自身获得1层 迅捷 与1层 忍耐"
+        }
+      ],
+      "wikitext_key": "4技能"
+    }
+  ],
+  "battle_passive": "人格被动1110401\n人格被动1110421",
+  "support_passive": "",
+  "notes": "",
+  "voice_lines": [],
+  "skill_voice": [
+    {
+      "file": "Battle_s2_11104_1_1.ogg",
+      "skill_index": 2,
+      "skill_label": "",
+      "skill_name": "临场指挥"
+    },
+    {
+      "file": "Battle_s2_11104_1_1-01.ogg",
+      "skill_index": 2,
+      "skill_label": "",
+      "skill_name": "临场指挥"
+    },
+    {
+      "file": "Battle_s2_11104_1_1-02.ogg",
+      "skill_index": 2,
+      "skill_label": "",
+      "skill_name": "临场指挥"
+    },
+    {
+      "file": "Battle_s2_11104_1_2.ogg",
+      "skill_index": 2,
+      "skill_label": "",
+      "skill_name": "临场指挥"
+    },
+    {
+      "file": "Battle_s2_11104_1_2-01.ogg",
+      "skill_index": 2,
+      "skill_label": "",
+      "skill_name": "临场指挥"
+    },
+    {
+      "file": "Battle_s2_11104_1_3.ogg",
+      "skill_index": 2,
+      "skill_label": "",
+      "skill_name": "临场指挥"
+    },
+    {
+      "file": "Battle_s2_11104_1_3-01.ogg",
+      "skill_index": 2,
+      "skill_label": "",
+      "skill_name": "临场指挥"
+    },
+    {
+      "file": "Battle_s3_11104_1.ogg",
+      "skill_index": 3,
+      "skill_label": "",
+      "skill_name": "要害勘破"
+    }
+  ],
+  "_structured": true,
+  "id": "wiki_奥提斯Seven协会南部6科科长",
+  "url": "https://limbuscompany.huijiwiki.com/wiki/奥提斯Seven协会南部6科科长",
+  "categories": [
+    "人格"
+  ],
+  "source": "wiki",
+  "_schema_version": 1
+}

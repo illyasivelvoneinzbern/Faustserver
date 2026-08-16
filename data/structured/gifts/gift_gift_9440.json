@@ -1,0 +1,21 @@
+{
+  "id": "gift_9440",
+  "title": "游行的面具",
+  "url": "https://limbuscompany.huijiwiki.com/wiki/E.G.O饰品",
+  "categories": [
+    "E.G.O饰品"
+  ],
+  "content": "属于血魔的全体友方单位基础技能的硬币威力+1\n遭遇战中新的敌方单位增援时，战斗开始时使其增加3级流血强度并对其施加3层流血。\n若友方单位中存在<血魔>，则新的敌方单位增援时触发全体敌方单位的流血1次，并使全体敌方单位的流血层数减少1层",
+  "source": "tabx",
+  "_structured": true,
+  "page_type": "ego_gift",
+  "gift_name": "游行的面具",
+  "rarity": 4,
+  "cost": "394",
+  "effect_types": "流血",
+  "attack_type": "嫉妒",
+  "location": "镜像迷宫",
+  "stage": "base",
+  "special": "梦之终焉，重新开园的拉·曼却领，无尽的游行",
+  "_schema_version": 1
+}

@@ -1,0 +1,21 @@
+{
+  "id": "gift_9221",
+  "title": "热丝武器",
+  "url": "https://limbuscompany.huijiwiki.com/wiki/E.G.O饰品",
+  "categories": [
+    "E.G.O饰品"
+  ],
+  "content": "嫉妒技能或反击技能命中时，对目标施加1层流血或1层烧伤(每回合最多3次)\n战斗中，敌方单位的流血层数降至1层以下时，若其烧伤层数不低于2层，则改为减少烧伤层数而非流血层数(每回合最多3次)",
+  "source": "tabx",
+  "_structured": true,
+  "page_type": "ego_gift",
+  "gift_name": "热丝武器",
+  "rarity": 3,
+  "cost": "247",
+  "effect_types": "流血",
+  "attack_type": "色欲",
+  "location": "镜像迷宫",
+  "stage": "base",
+  "special": "魅惑、彷徨、猜疑",
+  "_schema_version": 1
+}

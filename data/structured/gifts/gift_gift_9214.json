@@ -1,0 +1,21 @@
+{
+  "id": "gift_9214",
+  "title": "加热锤",
+  "url": "https://limbuscompany.huijiwiki.com/wiki/E.G.O饰品",
+  "categories": [
+    "E.G.O饰品"
+  ],
+  "content": "若敌方单位带有震颤-灼热，则触发以下效果\n- 基础技能命中时，使其增加1级烧伤强度(每个技能最多3次)\n- 基础技能命中时，若其震颤-灼热强度不低于15级，则对其施加1层烧伤(每个技能最多2次)\n- 其每带有3级烧伤，使其受到震颤引爆时造成的混乱阈值前移量+1%(最多+15%)",
+  "source": "tabx",
+  "_structured": true,
+  "page_type": "ego_gift",
+  "gift_name": "加热锤",
+  "rarity": 3,
+  "cost": "248",
+  "effect_types": "震颤",
+  "attack_type": "色欲",
+  "location": "镜像迷宫",
+  "stage": "base",
+  "special": "教材",
+  "_schema_version": 1
+}

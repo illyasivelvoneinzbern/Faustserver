@@ -1,0 +1,114 @@
+{
+  "page_type": "enemy",
+  "title": "主线战斗7-04",
+  "enemy_name": "好斗的猎牙事务所收尾人",
+  "battle_stage": "主线战斗7-04",
+  "body_part": "",
+  "hp": 162,
+  "defense_level": 45,
+  "speed_min": 2,
+  "speed_max": 5,
+  "chaos_threshold": "",
+  "physical_resistances": {
+    "斩击": 1.0,
+    "突刺": 2.0,
+    "打击": 0.75
+  },
+  "sin_resistances": {
+    "暴怒": 1.0,
+    "色欲": 1.0,
+    "怠惰": 1.0,
+    "暴食": 1.0,
+    "忧郁": 1.0,
+    "傲慢": 1.0,
+    "嫉妒": 1.0
+  },
+  "panic_types": [
+    "愤怒",
+    "伤害强化",
+    "易损",
+    "愤怒",
+    "伤害强化",
+    "易损"
+  ],
+  "passives": [
+    "血魔猎人：对<血魔>与<血袋>造成的伤害+10%",
+    "激进的狩猎技巧：攻击技能命中敌方单位时，有10%的概率对目标施加2层 破裂",
+    "对血魔专用锤：使用技能时，若目标的 破裂 强度不低于10级，则技能施加 破裂 的效果改为造成的伤害+30%"
+  ],
+  "skills": [
+    {
+      "skill_name": "巨力猛砸",
+      "icon_id": "9015601",
+      "sin_type": "嫉妒",
+      "damage_type": "",
+      "base_value": 0,
+      "coin_power": 6,
+      "coin_count": 2,
+      "attack_level": 40,
+      "attack_weight": 1,
+      "is_guard": true,
+      "guard_type": "防御",
+      "coin_effects": [
+        "[命中时] 使目标增加3级 破裂 强度",
+        "[命中时] 对目标施加1层 防御等级降低"
+      ]
+    },
+    {
+      "skill_name": "深剜伤口",
+      "icon_id": "9015602",
+      "sin_type": "暴怒",
+      "damage_type": "",
+      "base_value": 0,
+      "coin_power": 5,
+      "coin_count": 3,
+      "attack_level": 40,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "coin_effects": [
+        "[命中时] 使目标增加1级 破裂 强度",
+        "[命中时] 对目标施加1层 体力恢复降低 若目标的 破裂 强度不低于5级，则对目标施加1层 体力恢复降低"
+      ]
+    },
+    {
+      "skill_name": "过激的猛砸",
+      "icon_id": "9015603",
+      "sin_type": "暴食",
+      "damage_type": "打击",
+      "base_value": 0,
+      "coin_power": 5,
+      "coin_count": 3,
+      "attack_level": 40,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "coin_effects": [
+        "[命中时] 对目标施加1层 破裂",
+        "[命中时] 对目标施加1层 易损",
+        "[命中时] 使目标增加4级 破裂 强度",
+        "[命中时] 若目标的 破裂 强度不低于10级，则使本硬币造成的伤害+30%"
+      ]
+    },
+    {
+      "skill_name": "止血",
+      "icon_id": "9015604",
+      "sin_type": "常规",
+      "damage_type": "",
+      "base_value": 0,
+      "coin_power": 4,
+      "coin_count": 1,
+      "attack_level": 0,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "coin_effects": []
+    }
+  ],
+  "is_ally": false,
+  "_structured": true,
+  "enemy_id": "主线战斗7-04|好斗的猎牙事务所收尾人",
+  "defense": 45,
+  "speed": "2~5",
+  "_schema_version": 1
+}

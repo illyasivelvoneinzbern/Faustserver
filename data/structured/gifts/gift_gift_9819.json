@@ -1,0 +1,22 @@
+{
+  "id": "gift_9819",
+  "title": "血炎刀",
+  "url": "https://limbuscompany.huijiwiki.com/wiki/E.G.O饰品",
+  "categories": [
+    "E.G.O饰品"
+  ],
+  "content": "战斗的首个回合开始时，使拥有使自身增加烧伤强度的基础攻击技能的友方单位增加5级烧伤强度并使其恢复8点理智值\n属于黑兽-酉的友方单位恢复体力至多恢复至体力上限的49%，但受到的伤害与恢复-50%",
+  "source": "tabx",
+  "_structured": true,
+  "page_type": "ego_gift",
+  "gift_name": "血炎刀",
+  "rarity": 2,
+  "cost": "201",
+  "effect_types": "烧伤",
+  "attack_type": "暴怒",
+  "location": "镜像迷宫",
+  "stage": "base",
+  "special": "切磋琢春",
+  "event": "事件-处罚黑兽-酉。",
+  "_schema_version": 1
+}

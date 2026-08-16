@@ -1,0 +1,43 @@
+{
+  "page_type": "event",
+  "title": "事件-幻痛",
+  "event_name": "幻痛",
+  "narration": "有时，心会迷失方向。\n那样的心将会前往何处？\n如若存在收留迷失的心的地方，\n那一定是眼前这样的场景吧。\n面对着空荡荡的人形石像，\n我的心平静了下来。\n随后，它像是想要抓住什么似的伸出手。\n\n握住伸来的手\n它试图抓到伸去的手，\n但没能抓住。\n它是不应被看到存在的事物，\n宛若虚影。\n它也似乎领悟到这一事实，\n收回了伸来的手……\n就那样自行瓦解，\n化作一座小小的雕像。\n全体友方单位失去\n13点理智值\n！\n获得\n！\n\n拒绝它\n【该如何抉择？】\n有利判定\n：\n/\n/\n≥12\n不利判定\n：\n≥24\n判定成功\n：\n我扭动身体躲开了接近的手臂。\n在执着不休靠近而来的手臂之中，能看见一只尤其细小的手臂。\n向那手臂伸手，将其拉过来后，石像便彻底静止不动了。\n我的手中只剩下一尊至今从未见过的对称雕像。\n获得\n！\n判定失败\n：\n身体迅速躲过了它迫近的手臂。\n但是要避开所有执著靠近的手臂，那可不容易。\n还是有几只手撕裂了我们的身体。\n尽管逃了出来，却也遭受了许多损失。\n技能组不包含\n忧郁属性攻击技能\n的友方单位失去\n13点体力\n！",
+  "options": [
+    {
+      "choice_text": "握住伸来的手",
+      "check_type": "",
+      "check_sin": "",
+      "check_threshold": 0,
+      "success_outcomes": [],
+      "failure_outcomes": []
+    },
+    {
+      "choice_text": "拒绝它",
+      "check_type": "有利判定",
+      "check_sin": "忧郁",
+      "check_threshold": 12,
+      "success_outcomes": [
+        "获得 ！ 判定失败 ： 身体迅速躲过了它迫近的手臂。 但是要避开所有执著靠近的手臂",
+        "失去 13点体力 ！"
+      ],
+      "failure_outcomes": [
+        "失去 13点体力 ！"
+      ]
+    }
+  ],
+  "ego_gifts": [],
+  "related_abnormalities": [
+    "白幕内涉及目前游戏未公开内容，仅供参考，请以后续实装内容为准。",
+    "길잃은마음",
+    "事件触发地点",
+    "镜像迷宫"
+  ],
+  "trigger_location": "",
+  "_structured": true,
+  "id": "wiki_事件-幻痛",
+  "url": "https://limbuscompany.huijiwiki.com/wiki/事件-幻痛",
+  "categories": [],
+  "source": "wiki",
+  "_schema_version": 1
+}

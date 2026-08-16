@@ -1,0 +1,22 @@
+{
+  "id": "gift_9241",
+  "title": "尚且温热的咖啡",
+  "url": "https://limbuscompany.huijiwiki.com/wiki/E.G.O饰品",
+  "categories": [
+    "E.G.O饰品"
+  ],
+  "content": "[第1顺位友方单位专属]\n使用攻击技能的回合结束时，使自身恢复5点理智值\n- 若自身理智值为最大值且属于脑叶公司，则下回合使自身获得1层加算硬币强化",
+  "source": "tabx",
+  "_structured": true,
+  "page_type": "ego_gift",
+  "gift_name": "尚且温热的咖啡",
+  "rarity": 3,
+  "cost": "150",
+  "effect_types": "泛用",
+  "attack_type": "傲慢",
+  "location": "镜像迷宫",
+  "stage": "base",
+  "special": "琥珀色的黄昏事件",
+  "event": "事件-去往休息的选项",
+  "_schema_version": 1
+}

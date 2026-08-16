@@ -1,0 +1,22 @@
+{
+  "id": "gift_9798",
+  "title": "贪欲之棘",
+  "url": "https://limbuscompany.huijiwiki.com/wiki/E.G.O饰品",
+  "categories": [
+    "E.G.O饰品"
+  ],
+  "content": "关卡开始时，获得100层血宴\n回合开始时，对全体带有流血的敌方单位(或部位)施加2层贪食棘。\n若全体敌方单位(或所有部位)均带有流血，则对其施加4层贪食棘。",
+  "source": "tabx",
+  "_structured": true,
+  "page_type": "ego_gift",
+  "gift_name": "贪欲之棘",
+  "rarity": 4,
+  "cost": "397",
+  "effect_types": "流血",
+  "attack_type": "色欲",
+  "location": "镜像迷宫",
+  "stage": "base",
+  "special": "5号线",
+  "event": "事件-折射的四百朵玫瑰",
+  "_schema_version": 1
+}

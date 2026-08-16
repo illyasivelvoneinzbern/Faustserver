@@ -1,0 +1,87 @@
+{
+  "page_type": "enemy",
+  "title": "活动战斗3.5-06",
+  "enemy_name": "猎头鸡 a.k.a.小凤",
+  "battle_stage": "活动战斗3.5-06",
+  "body_part": "躯干",
+  "hp": 50,
+  "defense_level": 22,
+  "speed_min": 1,
+  "speed_max": 4,
+  "chaos_threshold": "30",
+  "physical_resistances": {
+    "斩击": 1.5,
+    "突刺": 1.0,
+    "打击": 0.5
+  },
+  "sin_resistances": {
+    "暴怒": 1.0,
+    "色欲": 2.0,
+    "怠惰": 0.75,
+    "暴食": 1.0,
+    "忧郁": 0.75,
+    "傲慢": 1.0,
+    "嫉妒": 1.5
+  },
+  "panic_types": [],
+  "passives": [],
+  "skills": [
+    {
+      "skill_name": "咕咕！",
+      "icon_id": "803401",
+      "sin_type": "色欲",
+      "damage_type": "",
+      "base_value": 4,
+      "coin_power": 7,
+      "coin_count": 2,
+      "attack_level": 25,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[命中时] 使目标失去5点理智值"
+      ]
+    },
+    {
+      "skill_name": "咯咯咯",
+      "icon_id": "803402",
+      "sin_type": "色欲",
+      "damage_type": "",
+      "base_value": 4,
+      "coin_power": 3,
+      "coin_count": 2,
+      "attack_level": 20,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": []
+    },
+    {
+      "skill_name": "咕咕",
+      "icon_id": "803403",
+      "sin_type": "常规",
+      "damage_type": "",
+      "base_value": 3,
+      "coin_power": 8,
+      "coin_count": 1,
+      "attack_level": 0,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": []
+    }
+  ],
+  "is_ally": false,
+  "_structured": true,
+  "appear_stages": [
+    "活动战斗3.5-06",
+    "活动战斗3.5-08"
+  ],
+  "enemy_id": "活动战斗3.5-06|猎头鸡 a.k.a.小凤|躯干",
+  "defense": 22,
+  "speed": "1~4",
+  "_schema_version": 1
+}

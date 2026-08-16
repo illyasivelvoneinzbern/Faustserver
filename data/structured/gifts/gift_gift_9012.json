@@ -1,0 +1,21 @@
+{
+  "id": "gift_9012",
+  "title": "此刻的神色",
+  "url": "https://limbuscompany.huijiwiki.com/wiki/E.G.O饰品",
+  "categories": [
+    "E.G.O饰品"
+  ],
+  "content": "怠惰技能或打击技能攻击后，若敌方单位阵亡，则在除本回合以外的下2回合内使该友方单位的打击技能威力+2",
+  "source": "tabx",
+  "_structured": true,
+  "page_type": "ego_gift",
+  "gift_name": "此刻的神色",
+  "rarity": 2,
+  "cost": "189",
+  "effect_types": "打击",
+  "attack_type": "怠惰",
+  "location": "镜像迷宫",
+  "stage": "base",
+  "event": "事件-此刻的神色",
+  "_schema_version": 1
+}

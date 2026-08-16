@@ -1,0 +1,21 @@
+{
+  "id": "gift_2072",
+  "title": "电击斧",
+  "url": "https://limbuscompany.huijiwiki.com/wiki/E.G.O饰品",
+  "categories": [
+    "E.G.O饰品"
+  ],
+  "content": "本场战斗中，每当自身累计消耗10层充能时，使自身增加1级充能强度。\n回合结束时，若自身的充能强度不低于2级，则下回合使自身获得1层拼点威力提升\n消耗不低于5层充能的技能命中时，使目标增加1级破裂强度(每个技能最多3次)",
+  "source": "tabx",
+  "_structured": true,
+  "page_type": "ego_gift",
+  "gift_name": "电击斧",
+  "rarity": 0,
+  "cost": "0",
+  "effect_types": "",
+  "attack_type": "嫉妒",
+  "location": "第八章",
+  "stage": "base",
+  "event": "事件-获得家族器物",
+  "_schema_version": 1
+}

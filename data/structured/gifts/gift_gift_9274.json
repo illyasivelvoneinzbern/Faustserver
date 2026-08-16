@@ -1,0 +1,22 @@
+{
+  "id": "gift_9274",
+  "title": "捕绳",
+  "url": "https://limbuscompany.huijiwiki.com/wiki/E.G.O饰品",
+  "categories": [
+    "E.G.O饰品"
+  ],
+  "content": "暴击命中敌方单位时，下回合对其施加1层束缚(每回合最多2次)\n技能命中带有束缚的敌方单位时，使自身增加1级呼吸法强度(每回合每名人格最多2次)\n回合开始时，对带有流血的全体敌方单位施加层数相当于其束缚层数的攻击等级降低(最多5层)\n回合开始时，若全体敌方单位(若是集中遭遇战，则改为以部位判定)均带有束缚，则使全体友方单位增加3级呼吸法强度",
+  "source": "tabx",
+  "_structured": true,
+  "page_type": "ego_gift",
+  "gift_name": "捕绳",
+  "rarity": 3,
+  "cost": "247",
+  "effect_types": "呼吸法",
+  "attack_type": "傲慢",
+  "location": "经验记忆、镜像迷宫",
+  "stage": "base",
+  "special": "经验记忆",
+  "event": "事件-经验记忆迷宫起始选项事件",
+  "_schema_version": 1
+}

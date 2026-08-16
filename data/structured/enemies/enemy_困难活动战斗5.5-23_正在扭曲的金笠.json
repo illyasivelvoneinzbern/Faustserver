@@ -1,0 +1,170 @@
+{
+  "page_type": "enemy",
+  "title": "困难活动战斗5.5-23",
+  "enemy_name": "正在扭曲的金笠",
+  "battle_stage": "困难活动战斗5.5-23",
+  "body_part": "躯干",
+  "hp": 1338,
+  "defense_level": 52,
+  "speed_min": 2,
+  "speed_max": 5,
+  "chaos_threshold": "802/267/0",
+  "physical_resistances": {
+    "斩击": 1.5,
+    "突刺": 1.0,
+    "打击": 0.75
+  },
+  "sin_resistances": {
+    "暴怒": 1.2,
+    "色欲": 0.5,
+    "怠惰": 0.75,
+    "暴食": 1.0,
+    "忧郁": 0.5,
+    "傲慢": 1.75,
+    "嫉妒": 1.0
+  },
+  "panic_types": [
+    "怨恨",
+    "凝结中的怨恨"
+  ],
+  "passives": [],
+  "skills": [
+    {
+      "skill_name": "寒芒出鞘",
+      "icon_id": "815301",
+      "sin_type": "傲慢",
+      "damage_type": "斩击",
+      "base_value": 8,
+      "coin_power": 3,
+      "coin_count": 3,
+      "attack_level": 53,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[使用时] 使自身增加2级 呼吸法 强度",
+        "[命中时] 对目标施加3层 流血"
+      ]
+    },
+    {
+      "skill_name": "切动",
+      "icon_id": "815302",
+      "sin_type": "傲慢",
+      "damage_type": "斩击",
+      "base_value": 11,
+      "coin_power": 3,
+      "coin_count": 4,
+      "attack_level": 53,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[使用时] 使自身增加2级 呼吸法 强度",
+        "[命中时] 对目标施加3层 流血",
+        "[命中时] 下回合使自身获得1层 伤害强化",
+        "[命中时] 使目标增加3级 流血 强度",
+        "[命中时] 下回合对目标施加1层 麻痹"
+      ]
+    },
+    {
+      "skill_name": "就地处斩",
+      "icon_id": "815303",
+      "sin_type": "怠惰",
+      "damage_type": "斩击",
+      "base_value": 12,
+      "coin_power": 9703,
+      "coin_count": 3,
+      "attack_level": 43,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[命中时] 使自身增加1级 呼吸法 强度并获得1层 呼吸法",
+        "[命中时] 使目标增加3级 流血 强度",
+        "[命中时] 下回合使自身获得1层 斩击伤害强化",
+        "[命中时] 下回合对目标施加2层 斩击抗性弱化"
+      ]
+    },
+    {
+      "skill_name": "弑主妖剑",
+      "icon_id": "815304",
+      "sin_type": "怠惰",
+      "damage_type": "斩击",
+      "base_value": 14,
+      "coin_power": 9703,
+      "coin_count": 7,
+      "attack_level": 53,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[命中时] 使自身增加3级 呼吸法 强度并获得1层 呼吸法",
+        "[命中时] 下回合使自身获得2层 斩击伤害强化"
+      ]
+    },
+    {
+      "skill_name": "断汝筋骨",
+      "icon_id": "815305",
+      "sin_type": "暴怒",
+      "damage_type": "斩击",
+      "base_value": 25,
+      "coin_power": 987,
+      "coin_count": 7,
+      "attack_level": 53,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[使用时] 若护盾未被全部消耗，则使本技能的拼点威力+5 不可摧毁的硬币 若本硬币被摧毁，则使本技能的最终威力-20"
+      ]
+    },
+    {
+      "skill_name": "闪避",
+      "icon_id": "815306",
+      "sin_type": "嫉妒",
+      "damage_type": "闪避",
+      "base_value": 12,
+      "coin_power": 5793,
+      "coin_count": 1,
+      "attack_level": 0,
+      "attack_weight": 1,
+      "is_guard": true,
+      "guard_type": "闪避",
+      "importance": 0,
+      "coin_effects": [
+        "闪避成功时使自身增加4级呼吸法强度"
+      ]
+    },
+    {
+      "skill_name": "舍吾皮肉",
+      "icon_id": "815307",
+      "sin_type": "色欲",
+      "damage_type": "斩击",
+      "base_value": 10,
+      "coin_power": 9,
+      "coin_count": 1,
+      "attack_level": 53,
+      "attack_weight": 1,
+      "is_guard": true,
+      "guard_type": "反击",
+      "importance": 0,
+      "coin_effects": [
+        "下回合使自身获得(激活本反击技能后所受到的伤害)层凝结中的怨恨"
+      ]
+    }
+  ],
+  "is_ally": false,
+  "_structured": true,
+  "appear_stages": [
+    "困难活动战斗5.5-23"
+  ],
+  "enemy_id": "困难活动战斗5.5-23|正在扭曲的金笠|躯干",
+  "defense": 52,
+  "speed": "2~5",
+  "_schema_version": 1
+}

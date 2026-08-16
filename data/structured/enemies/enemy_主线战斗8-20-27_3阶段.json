@@ -1,0 +1,396 @@
+{
+  "page_type": "enemy",
+  "title": "主线战斗8-20-27",
+  "enemy_name": "3阶段",
+  "battle_stage": "主线战斗8-20-27",
+  "body_part": "躯干",
+  "hp": 3403,
+  "defense_level": 90,
+  "speed_min": 3,
+  "speed_max": 5,
+  "chaos_threshold": "1020/0",
+  "physical_resistances": {
+    "斩击": 0.8,
+    "突刺": 0.8,
+    "打击": 0.8
+  },
+  "sin_resistances": {
+    "暴怒": 1.0,
+    "色欲": 1.2,
+    "怠惰": 0.75,
+    "暴食": 1.3,
+    "忧郁": 0.75,
+    "傲慢": 1.2,
+    "嫉妒": 1.0
+  },
+  "panic_types": [
+    "贾丘（士气低落）",
+    "贾丘（陷入恐慌）",
+    "一丝期待",
+    "破裂",
+    "烧伤",
+    "沉沦",
+    "震颤",
+    "流血",
+    "问答"
+  ],
+  "passives": [
+    "你的道就到此为止了吗: 鸿璐阵亡时，战斗结束",
+    "弦歌不辍: 攻击结束后，目标每带有1种咒杀，使自身恢复5点理智值 命中时，若触发了目标的咒杀，则每触发1种咒杀，使自身恢复3点理智值",
+    "绽放E.G.O::而立: 首个回合开始时，对自身施加 一丝期待",
+    "聚气: 阶段开始时，使自身的 破裂 、 烧伤 、 沉沦 、 震颤 与 流血 的强度与层数减半",
+    "我还没有听到你的答案。: 每回合开始时，使本体与部位获得900点护盾。 - 鸿璐每带有1层 问答 ，使自身获得的护盾减少300点 - 若鸿璐的 问答 层数不低于3层，则本场战斗期间自身不再获得护盾",
+    "固定恐慌: 被施加改变恐慌类型的状态时，自身的恐慌类型不会改变。效果改为对没有理智值的单位施加的效果。",
+    "贬: 若目标带有的咒杀不低于3种，则使本技能的硬币威力+1",
+    "恐慌恢复: 回合结束时，若陷入恐慌，则使自身的理智值恢复为0点。"
+  ],
+  "skills": [
+    {
+      "skill_name": "再次提问",
+      "icon_id": "113701",
+      "sin_type": "暴食",
+      "damage_type": "",
+      "base_value": 4,
+      "coin_power": 854,
+      "coin_count": 3,
+      "attack_level": 92,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[使用时] 若目标的 破裂 强度不低于5级，则使本技能的拼点威力+1",
+        "[命中时] 使目标增加2级 破裂 强度"
+      ]
+    },
+    {
+      "skill_name": "非礼勿动",
+      "icon_id": "113702",
+      "sin_type": "暴食",
+      "damage_type": "",
+      "base_value": 4,
+      "coin_power": 854,
+      "coin_count": 3,
+      "attack_level": 92,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[使用时] 若目标的 破裂 强度不低于5级，则使本技能的拼点威力+1",
+        "[命中时] 使目标增加2级 破裂 强度",
+        "[命中时] 对目标施加 咒杀【勿动】"
+      ]
+    },
+    {
+      "skill_name": "莫要插手",
+      "icon_id": "113703",
+      "sin_type": "忧郁",
+      "damage_type": "",
+      "base_value": 4,
+      "coin_power": 3,
+      "coin_count": 3,
+      "attack_level": 92,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[使用时] 若目标的 破裂 强度不低于5级，则使本技能的拼点威力+1",
+        "[命中时] 使目标增加2级 破裂 强度",
+        "[命中时] 对目标施加 咒杀【掣肘】"
+      ]
+    },
+    {
+      "skill_name": "雷霆万钧-波",
+      "icon_id": "114104",
+      "sin_type": "嫉妒",
+      "damage_type": "",
+      "base_value": 7,
+      "coin_power": 5793,
+      "coin_count": 2,
+      "attack_level": 92,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[使用时] 目标每带有2级 破裂 强度，使本技能的硬币威力+1(最多+4)",
+        "[命中时] 对目标施加3层 破裂",
+        "[命中时] 若目标带有的咒杀不低于2种，则对其施加 咒杀【衰亡】"
+      ]
+    },
+    {
+      "skill_name": "黑兽-卯 联合-乱击",
+      "icon_id": "114105",
+      "sin_type": "暴怒",
+      "damage_type": "",
+      "base_value": 3,
+      "coin_power": 987,
+      "coin_count": 9,
+      "attack_level": 92,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[使用时] 使自身恢复10点理智值",
+        "[使用时] 目标每带有5级 破裂 强度，使本技能的硬币威力+1(最多+2)",
+        "[命中时] 对目标施加3层 破裂 不可摧毁的硬币",
+        "[命中时] 使目标增加2级 破裂 强度 不可摧毁的硬币",
+        "[命中时] 对目标施加 咒杀【迅捷】"
+      ]
+    },
+    {
+      "skill_name": "子路啊",
+      "icon_id": "114106",
+      "sin_type": "暴怒",
+      "damage_type": "",
+      "base_value": 4,
+      "coin_power": 987,
+      "coin_count": 9,
+      "attack_level": 92,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[使用时] 使自身恢复10点理智值",
+        "[使用时] 目标每带有5级 破裂 强度，使本技能的硬币威力+1(最多+2)",
+        "[命中时] 对目标施加3层 破裂 不可摧毁的硬币",
+        "[命中时] 使目标增加2级 破裂 强度 不可摧毁的硬币",
+        "[命中时] 对目标施加 咒杀【破】"
+      ]
+    },
+    {
+      "skill_name": "咒杀泛滥",
+      "icon_id": "114107",
+      "sin_type": "傲慢",
+      "damage_type": "",
+      "base_value": 7,
+      "coin_power": 3,
+      "coin_count": 3,
+      "attack_level": 92,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[使用时] 目标每带有1种咒杀，使本技能的硬币威力+1(最多+3) 不可摧毁的硬币 目标的 破裂 强度， 破裂 层数与咒杀种类之和每有1点，使本硬币造成的伤害+5%(最多+200%)",
+        "[命中时] 使目标的所有咒杀降至0层"
+      ]
+    },
+    {
+      "skill_name": "回答我，贾宝玉",
+      "icon_id": "114108",
+      "sin_type": "色欲",
+      "damage_type": "打击",
+      "base_value": 3,
+      "coin_power": 9,
+      "coin_count": 9,
+      "attack_level": 92,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": []
+    },
+    {
+      "skill_name": "天罡星-格",
+      "icon_id": "114109",
+      "sin_type": "傲慢",
+      "damage_type": "打击",
+      "base_value": 5,
+      "coin_power": 3,
+      "coin_count": 9,
+      "attack_level": 92,
+      "attack_weight": 1,
+      "is_guard": true,
+      "guard_type": "防御",
+      "importance": 0,
+      "coin_effects": []
+    },
+    {
+      "skill_name": "风卷残云",
+      "icon_id": "114110",
+      "sin_type": "傲慢",
+      "damage_type": "打击",
+      "base_value": 5,
+      "coin_power": 3,
+      "coin_count": 2,
+      "attack_level": 92,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[攻击后] 结束回合",
+        "[命中时] 对目标施加2层 破裂"
+      ]
+    },
+    {
+      "skill_name": "先发制人",
+      "icon_id": "112601",
+      "sin_type": "色欲",
+      "damage_type": "",
+      "base_value": 4,
+      "coin_power": 9,
+      "coin_count": 2,
+      "attack_level": 77,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[使用时] 若目标的 破裂 强度不低于5级，则使本技能的拼点威力+1",
+        "[命中时] 使目标增加3级 破裂 强度"
+      ]
+    },
+    {
+      "skill_name": "刺杀",
+      "icon_id": "113302",
+      "sin_type": "暴食",
+      "damage_type": "",
+      "base_value": 5,
+      "coin_power": 854,
+      "coin_count": 2,
+      "attack_level": 78,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[使用时] 若目标的 破裂 强度不低于5级，则使本技能的硬币威力+1",
+        "[使用时] 使自身获得3层 脚力【卯】",
+        "[命中时] 对目标施加2层 破裂",
+        "[命中时] 若目标带有 咒杀【迅捷】 ，则下回合使自身获得1层 迅捷"
+      ]
+    },
+    {
+      "skill_name": "标刻",
+      "icon_id": "112603",
+      "sin_type": "怠惰",
+      "damage_type": "",
+      "base_value": 5,
+      "coin_power": 9703,
+      "coin_count": 3,
+      "attack_level": 79,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[使用时] 若目标的 破裂 强度不低于5级，则使本技能的硬币威力+1",
+        "[命中时] 使目标增加3级 破裂 强度",
+        "[命中时] 对目标施加 咒杀【迅捷】"
+      ]
+    },
+    {
+      "skill_name": "刻咒杀剑-瞬步",
+      "icon_id": "112604",
+      "sin_type": "傲慢",
+      "damage_type": "斩击",
+      "base_value": 5,
+      "coin_power": 3,
+      "coin_count": 7,
+      "attack_level": 80,
+      "attack_weight": 1,
+      "is_guard": true,
+      "guard_type": "防御",
+      "importance": 0,
+      "coin_effects": [
+        "[使用时] 目标每带有5级 破裂 强度，使本技能的硬币威力+1(最多+2)",
+        "[使用时] 目标每带有2层 破裂 ，使本技能的基础威力+1(最多+3)",
+        "[命中时] 对目标施加3层 破裂 不可摧毁的硬币",
+        "[命中时] 使目标增加5级 破裂 强度 不可摧毁的硬币 若目标带有 咒杀【迅捷】 ，则使本硬币造成的伤害+50%",
+        "[命中时] 使目标增加5级 破裂 强度"
+      ]
+    },
+    {
+      "skill_name": "刻咒",
+      "icon_id": "112605",
+      "sin_type": "嫉妒",
+      "damage_type": "",
+      "base_value": 5,
+      "coin_power": 5793,
+      "coin_count": 4,
+      "attack_level": 75,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[使用时] 若自身的速度值高于目标至少3点，则使本技能的拼点威力+1",
+        "[使用时] 若目标带有 咒杀【迅捷】 ，则令本技能额外施加1层 破裂",
+        "[命中时] 对目标施加2层 破裂",
+        "[命中时] 对目标施加1层 破裂"
+      ]
+    },
+    {
+      "skill_name": "禁制部分解放:<天究星刀>",
+      "icon_id": "113306",
+      "sin_type": "傲慢",
+      "damage_type": "斩击",
+      "base_value": 4,
+      "coin_power": 3,
+      "coin_count": 7,
+      "attack_level": 80,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[使用时] 目标每带有5级 破裂 强度，使本技能的硬币威力+1(最多+3)",
+        "[使用时] 目标每带有2层 破裂 ，使本技能的拼点威力+1(最多+3) 不可摧毁的硬币",
+        "[命中时] 对目标施加 咒杀【破】"
+      ]
+    },
+    {
+      "skill_name": "超速侍卫",
+      "icon_id": "113307",
+      "sin_type": "嫉妒",
+      "damage_type": "",
+      "base_value": 4,
+      "coin_power": 5793,
+      "coin_count": 3,
+      "attack_level": 0,
+      "attack_weight": 1,
+      "is_guard": true,
+      "guard_type": "防御",
+      "importance": 0,
+      "coin_effects": [
+        "[使用前] 若自身的 援护防御 层数不低于2层，则改为使用“黑兽-卯 奥义-云解显现”",
+        "[使用时] 本场战斗自身每累计失去体力上限5%的体力，使本技能的防御等级+1(最多+10)",
+        "[使用时] 直到本技能结束，自身不会陷入混乱 不可摧毁的硬币"
+      ]
+    },
+    {
+      "skill_name": "黑兽-卯 奥义-云解显现",
+      "icon_id": "113308",
+      "sin_type": "傲慢",
+      "damage_type": "",
+      "base_value": 4,
+      "coin_power": 3,
+      "coin_count": 7,
+      "attack_level": 0,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[使用时] 目标每带有5级 破裂 强度，使本技能的硬币威力+1(最多+3)",
+        "[使用时] 目标每带有2层 破裂 ，使本技能的拼点威力+1(最多+3) 不可摧毁的硬币",
+        "[命中时] 对目标施加 咒杀【破】"
+      ]
+    }
+  ],
+  "is_ally": false,
+  "_structured": true,
+  "appear_stages": [
+    "主线战斗8-20-27"
+  ],
+  "enemy_id": "主线战斗8-20-27|3阶段|躯干",
+  "defense": 90,
+  "speed": "3~5",
+  "_schema_version": 1
+}

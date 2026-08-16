@@ -1,0 +1,21 @@
+{
+  "id": "gift_2012",
+  "title": "破碎之夏的残片",
+  "url": "https://limbuscompany.huijiwiki.com/wiki/E.G.O饰品",
+  "categories": [
+    "E.G.O饰品"
+  ],
+  "content": "受到的暴食伤害-10%\n<i>\"试图了解变化莫测的天气，在我看来是毫无意义的。\"</i>",
+  "source": "tabx",
+  "_structured": true,
+  "page_type": "ego_gift",
+  "gift_name": "破碎之夏的残片",
+  "rarity": 0,
+  "cost": "0",
+  "effect_types": "",
+  "attack_type": "暴食",
+  "location": "第四章",
+  "stage": "base",
+  "event": "破碎之夏的残片",
+  "_schema_version": 1
+}

@@ -1,0 +1,188 @@
+{
+  "page_type": "enemy",
+  "title": "主线战斗6-44",
+  "enemy_name": "魔王希斯克利夫",
+  "battle_stage": "主线战斗6-44",
+  "body_part": "躯干",
+  "hp": 2439,
+  "defense_level": 45,
+  "speed_min": 2,
+  "speed_max": 4,
+  "chaos_threshold": "1811/1132/453/0",
+  "physical_resistances": {
+    "斩击": 1.0,
+    "突刺": 1.0,
+    "打击": 1.0
+  },
+  "sin_resistances": {
+    "暴怒": 1.2,
+    "色欲": 1.2,
+    "怠惰": 1.0,
+    "暴食": 1.0,
+    "忧郁": 1.5,
+    "傲慢": 1.0,
+    "嫉妒": 1.5
+  },
+  "panic_types": [
+    "复仇",
+    "深切的丧失感"
+  ],
+  "passives": [],
+  "skills": [
+    {
+      "skill_name": "破灭镜中世界的纠缠之剑",
+      "icon_id": "817201",
+      "sin_type": "嫉妒",
+      "damage_type": "打击",
+      "base_value": 4,
+      "coin_power": 5793,
+      "coin_count": 2,
+      "attack_level": 45,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[命中时] 对目标施加3层 沉沦 并使其增加3级 沉沦 强度"
+      ]
+    },
+    {
+      "skill_name": "击倒出局",
+      "icon_id": "817202",
+      "sin_type": "暴怒",
+      "damage_type": "打击",
+      "base_value": 4,
+      "coin_power": 987,
+      "coin_count": 3,
+      "attack_level": 45,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[命中时] 对目标施加3层 沉沦 并使其增加3级 沉沦 强度",
+        "[命中时] 使目标增加3级 流血 强度",
+        "[命中时] 使目标增加相当于其 沉沦 强度的 流血 强度"
+      ]
+    },
+    {
+      "skill_name": "放下恩怨",
+      "icon_id": "817203",
+      "sin_type": "忧郁",
+      "damage_type": "打击",
+      "base_value": 4,
+      "coin_power": 3,
+      "coin_count": 4,
+      "attack_level": 45,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[正面命中时] 使本技能下一枚硬币的威力+1",
+        "[正面命中时] 使本技能下一枚硬币的威力+2",
+        "[命中时] 使目标增加8级 流血 强度"
+      ]
+    },
+    {
+      "skill_name": "噩梦的复仇者归来",
+      "icon_id": "817204",
+      "sin_type": "忧郁",
+      "damage_type": "打击",
+      "base_value": 8,
+      "coin_power": 3,
+      "coin_count": 2,
+      "attack_level": 46,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[使用时] 若目标未带有 爆发的忧郁 ，则使本技能的拼点威力+10",
+        "[命中时] 下回合对目标施加3层 麻痹",
+        "[命中时] 使目标增加8级 沉沦 强度"
+      ]
+    },
+    {
+      "skill_name": "奔向死亡，杜拉汉",
+      "icon_id": "817205",
+      "sin_type": "嫉妒",
+      "damage_type": "打击",
+      "base_value": 2,
+      "coin_power": 5793,
+      "coin_count": 3,
+      "attack_level": 45,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[使用时] 若目标带有 爆发的嫉妒 ，则使本技能造成的伤害-100%",
+        "[命中时] 使目标增加5级 沉沦 强度",
+        "[命中时] 对目标施加3层 沉沦"
+      ]
+    },
+    {
+      "skill_name": "破灭的狂猎",
+      "icon_id": "817206",
+      "sin_type": "暴怒",
+      "damage_type": "打击",
+      "base_value": 2,
+      "coin_power": 987,
+      "coin_count": 1,
+      "attack_level": 45,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "无法拼点"
+      ]
+    },
+    {
+      "skill_name": "忍耐",
+      "icon_id": "817207",
+      "sin_type": "色欲",
+      "damage_type": "闪避",
+      "base_value": 3,
+      "coin_power": 9,
+      "coin_count": 1,
+      "attack_level": 0,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "使用时下回合使自身获得1层强壮（每回合最多1层）"
+      ]
+    },
+    {
+      "skill_name": "吐露哀嚎与悲伤的玻璃碎片",
+      "icon_id": "817208",
+      "sin_type": "嫉妒",
+      "damage_type": "打击",
+      "base_value": 5,
+      "coin_power": 5793,
+      "coin_count": 2,
+      "attack_level": 47,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[使用时] 下回合使自身获得1层 强壮",
+        "[命中时] 使目标增加3级 沉沦 强度",
+        "[命中时] 使目标增加3级 流血 强度"
+      ]
+    }
+  ],
+  "is_ally": false,
+  "_structured": true,
+  "appear_stages": [
+    "主线战斗6-44"
+  ],
+  "enemy_id": "主线战斗6-44|魔王希斯克利夫|躯干",
+  "defense": 45,
+  "speed": "2~4",
+  "_schema_version": 1
+}

@@ -1,0 +1,35 @@
+{
+  "page_type": "event",
+  "title": "事件-同意调查",
+  "event_name": "同意调查",
+  "narration": "在长长的走廊，黑暗处的前方，研究员们正在交谈。\n发现我们后，研究员们看起来很高兴地走了过来。\n“你们。能帮忙调查前面的区域吗？”\n“如果接受的话……我们会全力帮助的。”\n\n同意调查。\n【哪位罪人接受？】\n有利判定\n：\n/\n≥13\n不利判定\n：\n≥26\n判定成功\n：\n“你接受得相当痛快啊。这样啊……既然有这样的热情，那就把这个带走吧。”\n“一定会对今后的调查有所帮助的。”\n在接受了装备后，几位研究员上前对罪人们进行检查。\n过了一会儿，罪人们恢复到了最佳状态。\n获得\n！\n全体友方单位恢复至\n体力上限\n判定失败\n：\n“你们是不是表现得有点太不情愿了？”\n“嘛。我们会让你们处于最佳状态的，所以别太讨厌。”\n几位研究员上前对罪人们进行检查。\n过了一会儿，罪人们恢复到了最佳状态。\n全体友方单位恢复至\n体力上限\n\n拒绝。\n“好吧，你拒绝也没关系。”\n“如果你打算放弃这个绝佳的机会，我们也没有理由阻止。”\n研究员毫不犹豫地转身离开了。\n什么都没有发生。",
+  "options": [
+    {
+      "choice_text": "同意调查。",
+      "check_type": "有利判定",
+      "check_sin": "傲慢",
+      "check_threshold": 13,
+      "success_outcomes": [
+        "获得 ！ 全体友方单位恢复至 体力上限 判定失败 ： “你们是不是表现得有点太不情愿了？” “嘛。我们会让你们处于最佳状态的"
+      ],
+      "failure_outcomes": []
+    },
+    {
+      "choice_text": "拒绝。",
+      "check_type": "",
+      "check_sin": "",
+      "check_threshold": 0,
+      "success_outcomes": [],
+      "failure_outcomes": []
+    }
+  ],
+  "ego_gifts": [],
+  "related_abnormalities": [],
+  "trigger_location": "",
+  "_structured": true,
+  "id": "wiki_事件-同意调查",
+  "url": "https://limbuscompany.huijiwiki.com/wiki/事件-同意调查",
+  "categories": [],
+  "source": "wiki",
+  "_schema_version": 1
+}

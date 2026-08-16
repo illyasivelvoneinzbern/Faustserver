@@ -1,0 +1,22 @@
+{
+  "id": "gift_9271",
+  "title": "黑兽丸 - 卯",
+  "url": "https://limbuscompany.huijiwiki.com/wiki/E.G.O饰品",
+  "categories": [
+    "E.G.O饰品"
+  ],
+  "content": "属于黑兽 - 卯的人格首次登场时，1回合内使其最小速度值固定为10(若最小速度值不低于10，则不会触发该效果)\n自身带有脚力【卯】时，使自身基础技能的拼点威力+1，造成的伤害+10%",
+  "source": "tabx",
+  "_structured": true,
+  "page_type": "ego_gift",
+  "gift_name": "黑兽丸 - 卯",
+  "rarity": 2,
+  "cost": "201",
+  "effect_types": "破裂",
+  "attack_type": "暴食",
+  "location": "镜像迷宫",
+  "stage": "base",
+  "special": "深夜清扫复刻",
+  "event": "事件-黑兽选项后",
+  "_schema_version": 1
+}

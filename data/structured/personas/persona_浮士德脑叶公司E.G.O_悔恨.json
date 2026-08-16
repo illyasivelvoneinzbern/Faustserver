@@ -1,0 +1,639 @@
+{
+  "page_type": "personality",
+  "title": "浮士德脑叶公司E.G.O::悔恨",
+  "sinner": "浮士德",
+  "sinner_id": "faust",
+  "personality_name": "浮士德脑叶公司E.G.O::悔恨",
+  "release_date": "2023.10.26",
+  "acquisition": "瓦尔普吉斯之夜-1提取",
+  "sin_affinities": {
+    "怠惰": 3,
+    "傲慢": 2,
+    "暴怒": 1
+  },
+  "physical_resistances": {
+    "斩击": 0.5,
+    "突刺": 2.0,
+    "打击": 1.0
+  },
+  "ego_resources": {
+    "怠惰": 3,
+    "傲慢": 2,
+    "暴怒": 1
+  },
+  "skills": [
+    {
+      "skill_index": 0,
+      "skill_name": "紧缚的约束衣",
+      "sin_type": "怠惰",
+      "damage_type": "打击",
+      "guard_type": "",
+      "attack_capacity": 1,
+      "coin_count": 2,
+      "stage_groups": [
+        [
+          {
+            "stage": "I",
+            "base_value": 4,
+            "coin_power": 6,
+            "effects": [
+              {
+                "timing": "使用时",
+                "description": "对自身施加3层 震颤"
+              },
+              {
+                "timing": "命中时",
+                "description": "对自身施加3层 震颤"
+              },
+              {
+                "timing": "命中时",
+                "description": "对目标施加2层 震颤"
+              }
+            ],
+            "raw_text": "基础值： 4 变动值： +6 [使用时] 对自身施加3层 震颤 [命中时] 对自身施加3层 震颤 [命中时] 对目标施加2层 震颤"
+          },
+          {
+            "stage": "II",
+            "base_value": 4,
+            "coin_power": 6,
+            "effects": [
+              {
+                "timing": "使用时",
+                "description": "对自身施加3层 震颤"
+              },
+              {
+                "timing": "命中时",
+                "description": "对自身施加3层 震颤"
+              },
+              {
+                "timing": "命中时",
+                "description": "对目标施加3层 震颤"
+              }
+            ],
+            "raw_text": "基础值： 4 变动值： +6 [使用时] 对自身施加3层 震颤 [命中时] 对自身施加3层 震颤 [命中时] 对目标施加3层 震颤"
+          },
+          {
+            "stage": "III",
+            "base_value": 4,
+            "coin_power": 7,
+            "effects": [
+              {
+                "timing": "使用时",
+                "description": "对自身施加3层 震颤"
+              },
+              {
+                "timing": "命中时",
+                "description": "对自身施加3层 震颤"
+              },
+              {
+                "timing": "命中时",
+                "description": "对目标施加3层 震颤"
+              }
+            ],
+            "raw_text": "基础值： 4 变动值： +7 [使用时] 对自身施加3层 震颤 [命中时] 对自身施加3层 震颤 [命中时] 对目标施加3层 震颤"
+          },
+          {
+            "stage": "IV",
+            "base_value": 4,
+            "coin_power": 7,
+            "effects": [
+              {
+                "timing": "使用时",
+                "description": "对自身施加3层 震颤"
+              },
+              {
+                "timing": "拼点失败",
+                "description": "对自身施加3层 震颤"
+              },
+              {
+                "timing": "命中时",
+                "description": "对自身施加3层 震颤"
+              },
+              {
+                "timing": "命中时",
+                "description": "对目标施加3层 震颤"
+              }
+            ],
+            "raw_text": "基础值： 4 变动值： +7 [使用时] 对自身施加3层 震颤 [拼点失败] 对自身施加3层 震颤 [命中时] 对自身施加3层 震颤 [命中时] 对目标施加3层 震颤"
+          }
+        ]
+      ],
+      "coin_effects": [
+        {
+          "coin_index": 0,
+          "description": "技能一"
+        },
+        {
+          "coin_index": 0,
+          "description": "紧缚的约束衣 3"
+        },
+        {
+          "coin_index": 0,
+          "timing": "",
+          "description": "1"
+        },
+        {
+          "coin_index": 0,
+          "description": "+3"
+        },
+        {
+          "coin_index": 0,
+          "description": "1"
+        },
+        {
+          "coin_index": 0,
+          "description": "基础值： 4 变动值： +6 [使用时] 对自身施加3层 震颤"
+        },
+        {
+          "coin_index": 1,
+          "timing": "命中时",
+          "description": "[命中时] 对自身施加3层 震颤 [命中时] 对目标施加2层 震颤"
+        },
+        {
+          "coin_index": 1,
+          "timing": "命中时",
+          "description": "[命中时] 对自身施加3层 震颤 [命中时] 对目标施加3层 震颤"
+        },
+        {
+          "coin_index": 1,
+          "timing": "命中时",
+          "description": "[命中时] 对自身施加3层 震颤 [命中时] 对目标施加3层 震颤"
+        },
+        {
+          "coin_index": 1,
+          "timing": "命中时",
+          "description": "[命中时] 对自身施加3层 震颤 [命中时] 对目标施加3层 震颤"
+        }
+      ],
+      "wikitext_key": "1技能"
+    },
+    {
+      "skill_index": 1,
+      "skill_name": "铁块的回声",
+      "sin_type": "傲慢",
+      "damage_type": "打击",
+      "guard_type": "",
+      "attack_capacity": 1,
+      "coin_count": 4,
+      "stage_groups": [
+        [
+          {
+            "stage": "I",
+            "base_value": 3,
+            "coin_power": 4,
+            "effects": [
+              {
+                "timing": "使用时",
+                "description": "对自身施加4层 震颤"
+              },
+              {
+                "timing": "正面命中时",
+                "description": "下回合对目标施加1层 攻击等级降低"
+              },
+              {
+                "timing": "命中时",
+                "description": "使目标增加4级 震颤 强度"
+              }
+            ],
+            "raw_text": "基础值： 3 变动值： +4 [使用时] 对自身施加4层 震颤 [正面命中时] 下回合对目标施加1层 攻击等级降低 [命中时] 使目标增加4级 震颤 强度"
+          },
+          {
+            "stage": "II",
+            "base_value": 3,
+            "coin_power": 4,
+            "effects": [
+              {
+                "timing": "战斗开始",
+                "description": "消耗5层 震颤 层数并使本 技能 的 攻击容量 +1"
+              },
+              {
+                "timing": "使用时",
+                "description": "对自身施加4层 震颤"
+              },
+              {
+                "timing": "正面命中时",
+                "description": "对自身施加1层 震颤"
+              },
+              {
+                "timing": "正面命中时",
+                "description": "下回合对目标施加1层 攻击等级降低"
+              },
+              {
+                "timing": "命中时",
+                "description": "使目标增加5级 震颤 强度"
+              },
+              {
+                "timing": "正面命中时",
+                "description": "下回合对目标施加1层 加算硬币弱化"
+              }
+            ],
+            "raw_text": "基础值： 3 变动值： +4 [战斗开始] 消耗5层 震颤 层数并使本 技能 的 攻击容量 +1 [使用时] 对自身施加4层 震颤 [正面命中时] 对自身施加1层 震颤 [正面命中时] 下回合对目标施加1层 攻击等级降低 [命中时] 使目标增加5级 震颤 强度 [正面命中时] 下回合对目标施加1层 加算硬币弱化"
+          },
+          {
+            "stage": "III",
+            "base_value": 4,
+            "coin_power": 4,
+            "effects": [
+              {
+                "timing": "战斗开始",
+                "description": "消耗5层 震颤 层数并使本 技能 的 攻击容量 +1"
+              },
+              {
+                "timing": "使用时",
+                "description": "对自身施加4层 震颤"
+              },
+              {
+                "timing": "正面命中时",
+                "description": "对自身施加1层 震颤"
+              },
+              {
+                "timing": "正面命中时",
+                "description": "下回合对目标施加1层 攻击等级降低"
+              },
+              {
+                "timing": "命中时",
+                "description": "使目标增加5级 震颤 强度"
+              },
+              {
+                "timing": "正面命中时",
+                "description": "下回合对目标施加1层 加算硬币弱化"
+              }
+            ],
+            "raw_text": "基础值： 4 变动值： +4 [战斗开始] 消耗5层 震颤 层数并使本 技能 的 攻击容量 +1 [使用时] 对自身施加4层 震颤 [正面命中时] 对自身施加1层 震颤 [正面命中时] 下回合对目标施加1层 攻击等级降低 [命中时] 使目标增加5级 震颤 强度 [正面命中时] 下回合对目标施加1层 加算硬币弱化"
+          },
+          {
+            "stage": "IV",
+            "base_value": 4,
+            "coin_power": 4,
+            "effects": [
+              {
+                "timing": "战斗开始",
+                "description": "消耗5层 震颤 层数并使本 技能 的 攻击容量 +1"
+              },
+              {
+                "timing": "使用时",
+                "description": "对自身施加4层 震颤"
+              },
+              {
+                "timing": "正面命中时",
+                "description": "对自身施加1层 震颤"
+              },
+              {
+                "timing": "命中时",
+                "description": "下回合对目标施加1层 攻击等级降低"
+              },
+              {
+                "timing": "命中时",
+                "description": "使目标增加5级 震颤 强度"
+              },
+              {
+                "timing": "命中时",
+                "description": "下回合对目标施加1层 加算硬币弱化"
+              }
+            ],
+            "raw_text": "基础值： 4 变动值： +4 [战斗开始] 消耗5层 震颤 层数并使本 技能 的 攻击容量 +1 [使用时] 对自身施加4层 震颤 [正面命中时] 对自身施加1层 震颤 [命中时] 下回合对目标施加1层 攻击等级降低 [命中时] 使目标增加5级 震颤 强度 [命中时] 下回合对目标施加1层 加算硬币弱化"
+          }
+        ]
+      ],
+      "coin_effects": [
+        {
+          "coin_index": 0,
+          "description": "技能二"
+        },
+        {
+          "coin_index": 0,
+          "description": "铁块的回声 2"
+        },
+        {
+          "coin_index": 0,
+          "timing": "",
+          "description": "3"
+        },
+        {
+          "coin_index": 0,
+          "description": "+3"
+        },
+        {
+          "coin_index": 0,
+          "description": "1"
+        },
+        {
+          "coin_index": 0,
+          "description": "基础值： 3 变动值： +4 [使用时] 对自身施加4层 震颤"
+        },
+        {
+          "coin_index": 1,
+          "timing": "正面命中时",
+          "description": "[正面命中时] 下回合对目标施加1层 攻击等级降低"
+        },
+        {
+          "coin_index": 3,
+          "timing": "命中时",
+          "description": "[命中时] 使目标增加4级 震颤 强度"
+        },
+        {
+          "coin_index": 1,
+          "timing": "正面命中时",
+          "description": "[正面命中时] 对自身施加1层 震颤 [正面命中时] 下回合对目标施加1层 攻击等级降低"
+        },
+        {
+          "coin_index": 3,
+          "timing": "命中时",
+          "description": "[命中时] 使目标增加5级 震颤 强度 [正面命中时] 下回合对目标施加1层 加算硬币弱化"
+        },
+        {
+          "coin_index": 0,
+          "timing": "",
+          "description": "加算硬币弱化"
+        },
+        {
+          "coin_index": 1,
+          "timing": "正面命中时",
+          "description": "[正面命中时] 对自身施加1层 震颤 [正面命中时] 下回合对目标施加1层 攻击等级降低"
+        },
+        {
+          "coin_index": 3,
+          "timing": "命中时",
+          "description": "[命中时] 使目标增加5级 震颤 强度 [正面命中时] 下回合对目标施加1层 加算硬币弱化"
+        },
+        {
+          "coin_index": 0,
+          "timing": "",
+          "description": "加算硬币弱化"
+        },
+        {
+          "coin_index": 1,
+          "timing": "正面命中时",
+          "description": "[正面命中时] 对自身施加1层 震颤 [命中时] 下回合对目标施加1层 攻击等级降低"
+        },
+        {
+          "coin_index": 3,
+          "timing": "命中时",
+          "description": "[命中时] 使目标增加5级 震颤 强度 [命中时] 下回合对目标施加1层 加算硬币弱化"
+        },
+        {
+          "coin_index": 0,
+          "timing": "",
+          "description": "加算硬币弱化"
+        }
+      ],
+      "wikitext_key": "2技能"
+    },
+    {
+      "skill_index": 2,
+      "skill_name": "被解放的暴戾",
+      "sin_type": "暴怒",
+      "damage_type": "打击",
+      "guard_type": "",
+      "attack_capacity": 1,
+      "coin_count": 4,
+      "stage_groups": [
+        [
+          {
+            "stage": "I",
+            "base_value": 3,
+            "coin_power": 5,
+            "effects": [
+              {
+                "timing": "战斗开始",
+                "description": "消耗5层 震颤 并使本 技能 的 攻击容量 +1（最多+2）"
+              },
+              {
+                "timing": "拼点失败",
+                "description": "使自身失去20点 理智值 目标每带有1种 负面状态 ，使本 技能 造成的伤害+3%（最多+15%）"
+              },
+              {
+                "timing": "击杀敌方时",
+                "description": "对自身施加2层 震颤"
+              },
+              {
+                "timing": "命中时",
+                "description": "使目标 震颤引爆 对目标造成最终 混乱阈值 前移量20%的 暴怒伤害 （最多13点）"
+              },
+              {
+                "timing": "命中时",
+                "description": "使目标 震颤引爆 ， 对目标造成最终 混乱阈值 前移量20%的 暴怒伤害 （最多13点）"
+              },
+              {
+                "timing": "命中时",
+                "description": "使目标 震颤引爆 ，对目标造成最终 混乱阈值 前移量20%的 暴怒伤害 （最多13点） 使目标的 震颤 层数减少3层"
+              }
+            ],
+            "raw_text": "基础值： 3 变动值： +5 [战斗开始] 消耗5层 震颤 并使本 技能 的 攻击容量 +1（最多+2） [拼点失败] 使自身失去20点 理智值 目标每带有1种 负面状态 ，使本 技能 造成的伤害+3%（最多+15%） [击杀敌方时] 对自身施加2层 震颤 [命中时] 使目标 震颤引爆 对目标造成最终 混乱阈值 前移量20%的 暴怒伤害 （最多13点） [命中时] 使目标 震颤引爆 ， 对目标造成最终 混乱阈值 前移量20%的 暴怒伤害 （最多13点） [命中时] 使目标 震颤引爆 ，对目标造成最终 混乱阈值 前移量20%的 暴怒伤害 （最多13点） 使目标的 震颤 层数减少3层"
+          },
+          {
+            "stage": "II",
+            "base_value": 3,
+            "coin_power": 5,
+            "effects": [
+              {
+                "timing": "战斗开始",
+                "description": "消耗5层 震颤 并使本 技能 的 攻击容量 +1（最多+2）"
+              },
+              {
+                "timing": "拼点失败",
+                "description": "使自身失去20点 理智值 目标每带有1种 负面状态 ，使本 技能 造成的伤害+6%（最多+30%）"
+              },
+              {
+                "timing": "击杀敌方时",
+                "description": "对自身施加2层 震颤"
+              },
+              {
+                "timing": "命中时",
+                "description": "使目标 震颤引爆 对目标造成最终 混乱阈值 前移量30%的 暴怒伤害 （最多20点）"
+              },
+              {
+                "timing": "命中时",
+                "description": "使目标 震颤引爆 ， 对目标造成最终 混乱阈值 前移量30%的 暴怒伤害 （最多20点）"
+              },
+              {
+                "timing": "命中时",
+                "description": "使目标 震颤引爆 ，对目标造成最终 混乱阈值 前移量30%的 暴怒伤害 （最多20点） 使目标的 震颤 层数减少3层"
+              }
+            ],
+            "raw_text": "基础值： 3 变动值： +5 [战斗开始] 消耗5层 震颤 并使本 技能 的 攻击容量 +1（最多+2） [拼点失败] 使自身失去20点 理智值 目标每带有1种 负面状态 ，使本 技能 造成的伤害+6%（最多+30%） [击杀敌方时] 对自身施加2层 震颤 [命中时] 使目标 震颤引爆 对目标造成最终 混乱阈值 前移量30%的 暴怒伤害 （最多20点） [命中时] 使目标 震颤引爆 ， 对目标造成最终 混乱阈值 前移量30%的 暴怒伤害 （最多20点） [命中时] 使目标 震颤引爆 ，对目标造成最终 混乱阈值 前移量30%的 暴怒伤害 （最多20点） 使目标的 震颤 层数减少3层"
+          }
+        ]
+      ],
+      "coin_effects": [
+        {
+          "coin_index": 0,
+          "description": "技能三"
+        },
+        {
+          "coin_index": 0,
+          "description": "被解放的暴戾 1"
+        },
+        {
+          "coin_index": 0,
+          "timing": "",
+          "description": "3"
+        },
+        {
+          "coin_index": 0,
+          "description": "+3"
+        },
+        {
+          "coin_index": 0,
+          "description": "1"
+        },
+        {
+          "coin_index": 0,
+          "description": "基础值： 3 变动值： +5 [战斗开始] 消耗5层 震颤 并使本 技能 的 攻击容量 +1（最多+2） [拼点失败] 使自身失去20点 理智值 目标每带有1种 负面状态 ，使本 技能 造成的伤害+3%（最多+15%） [击杀敌方时] 对自身施加2层 震颤"
+        },
+        {
+          "coin_index": 1,
+          "timing": "命中时",
+          "description": "[命中时] 使目标 震颤引爆 对目标造成最终 混乱阈值 前移量20%的 暴怒伤害 （最多13点）"
+        },
+        {
+          "coin_index": 2,
+          "timing": "命中时",
+          "description": "[命中时] 使目标 震颤引爆 ， 对目标造成最终 混乱阈值 前移量20%的 暴怒伤害 （最多13点）"
+        },
+        {
+          "coin_index": 3,
+          "timing": "命中时",
+          "description": "[命中时] 使目标 震颤引爆 ，对目标造成最终 混乱阈值 前移量20%的 暴怒伤害 （最多13点） 使目标的 震颤 层数减少3层"
+        },
+        {
+          "coin_index": 1,
+          "timing": "命中时",
+          "description": "[命中时] 使目标 震颤引爆 对目标造成最终 混乱阈值 前移量30%的 暴怒伤害 （最多20点）"
+        },
+        {
+          "coin_index": 2,
+          "timing": "命中时",
+          "description": "[命中时] 使目标 震颤引爆 ， 对目标造成最终 混乱阈值 前移量30%的 暴怒伤害 （最多20点）"
+        },
+        {
+          "coin_index": 3,
+          "timing": "命中时",
+          "description": "[命中时] 使目标 震颤引爆 ，对目标造成最终 混乱阈值 前移量30%的 暴怒伤害 （最多20点） 使目标的 震颤 层数减少3层"
+        }
+      ],
+      "wikitext_key": "3技能"
+    },
+    {
+      "skill_index": 3,
+      "skill_name": "怨恨的积聚",
+      "sin_type": "忧郁",
+      "damage_type": "打击",
+      "guard_type": "",
+      "attack_capacity": 1,
+      "coin_count": 1,
+      "stage_groups": [
+        [
+          {
+            "stage": "I",
+            "base_value": 9,
+            "coin_power": 6,
+            "effects": [
+              {
+                "timing": "使用时",
+                "description": "对自身施加3层 震颤"
+              }
+            ],
+            "raw_text": "基础值： 9 变动值： +6 [使用时] 对自身施加3层 震颤"
+          },
+          {
+            "stage": "II",
+            "base_value": 9,
+            "coin_power": 6,
+            "effects": [
+              {
+                "timing": "使用时",
+                "description": "对自身施加6层 震颤"
+              }
+            ],
+            "raw_text": "基础值： 9 变动值： +6 [使用时] 对自身施加6层 震颤"
+          }
+        ]
+      ],
+      "coin_effects": [
+        {
+          "coin_index": 0,
+          "description": "守备技能"
+        },
+        {
+          "coin_index": 0,
+          "description": "怨恨的积聚"
+        },
+        {
+          "coin_index": 0,
+          "timing": "",
+          "description": "1"
+        },
+        {
+          "coin_index": 0,
+          "description": "+5"
+        },
+        {
+          "coin_index": 0,
+          "description": "1"
+        },
+        {
+          "coin_index": 0,
+          "description": "I阶 - III阶 IV阶 基础值： 9 变动值： +6 [使用时] 对自身施加3层 震颤 基础值： 9 变动值： +6 [使用时] 对自身施加6层 震颤"
+        }
+      ],
+      "wikitext_key": "4技能"
+    }
+  ],
+  "battle_passive": "人格被动1020701\n人格被动1020721",
+  "support_passive": "",
+  "notes": "",
+  "voice_lines": [],
+  "skill_voice": [
+    {
+      "file": "Battle_s2_10207_1_1-01.ogg",
+      "skill_index": 2,
+      "skill_label": "",
+      "skill_name": "铁块的回声"
+    },
+    {
+      "file": "Battle_s2_10207_1_2.ogg",
+      "skill_index": 2,
+      "skill_label": "",
+      "skill_name": "铁块的回声"
+    },
+    {
+      "file": "Battle_s2_10207_1_3-01.ogg",
+      "skill_index": 2,
+      "skill_label": "",
+      "skill_name": "铁块的回声"
+    },
+    {
+      "file": "Battle_s2_10207_1_3-02.ogg",
+      "skill_index": 2,
+      "skill_label": "",
+      "skill_name": "铁块的回声"
+    },
+    {
+      "file": "Battle_s2_10207_1_3-03.ogg",
+      "skill_index": 2,
+      "skill_label": "",
+      "skill_name": "铁块的回声"
+    },
+    {
+      "file": "Battle_s3_10207_1_1-01.ogg",
+      "skill_index": 3,
+      "skill_label": "",
+      "skill_name": "被解放的暴戾"
+    },
+    {
+      "file": "Battle_s3_10207_1_4-01.ogg",
+      "skill_index": 3,
+      "skill_label": "",
+      "skill_name": "被解放的暴戾"
+    }
+  ],
+  "_structured": true,
+  "id": "wiki_浮士德脑叶公司E.G.O::悔恨",
+  "url": "https://limbuscompany.huijiwiki.com/wiki/浮士德脑叶公司E.G.O::悔恨",
+  "categories": [
+    "人格"
+  ],
+  "source": "wiki",
+  "_schema_version": 1
+}

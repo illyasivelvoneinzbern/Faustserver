@@ -1,0 +1,21 @@
+{
+  "id": "gift_9242",
+  "title": "小凤玩偶",
+  "url": "https://limbuscompany.huijiwiki.com/wiki/E.G.O饰品",
+  "categories": [
+    "E.G.O饰品"
+  ],
+  "content": "通过阶层时使拥有的经费变为1.5倍\n- 每拥有1个饰品，使自身造成的伤害+0.5%(当前+{0}%，最多+100%)\n- 每拥有20个饰品，回合开始时使自身获得1层强壮(当前获得{1}层，最多10层)",
+  "source": "tabx",
+  "_structured": true,
+  "page_type": "ego_gift",
+  "gift_name": "小凤玩偶",
+  "rarity": 4,
+  "cost": "600",
+  "effect_types": "泛用",
+  "attack_type": "色欲",
+  "location": "镜像迷宫",
+  "stage": "base",
+  "special": "凤·皇",
+  "_schema_version": 1
+}

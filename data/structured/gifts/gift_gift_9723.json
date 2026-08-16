@@ -1,0 +1,22 @@
+{
+  "id": "gift_9723",
+  "title": "警告函",
+  "url": "https://limbuscompany.huijiwiki.com/wiki/E.G.O饰品",
+  "categories": [
+    "E.G.O饰品"
+  ],
+  "content": "回合结束时，对速度值最高的1名敌方单位在下回合施加1层束缚。(若是异想体，则改为1个部位)\n若目标带有震颤或特殊震颤，则改为施加2层束缚。\n友方单位攻击带有束缚的目标时，造成的伤害+(5+(目标的束缚层数×2.5))%(最多+15%)",
+  "source": "tabx",
+  "_structured": true,
+  "page_type": "ego_gift",
+  "gift_name": "警告函",
+  "rarity": 2,
+  "cost": "198",
+  "effect_types": "泛用",
+  "attack_type": "傲慢",
+  "location": "镜像迷宫",
+  "stage": "base",
+  "special": "时间杀人时间",
+  "event": "事件-T公司税金征收",
+  "_schema_version": 1
+}

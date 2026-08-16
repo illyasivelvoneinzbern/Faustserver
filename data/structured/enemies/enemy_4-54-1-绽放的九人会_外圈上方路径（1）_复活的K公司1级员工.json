@@ -1,0 +1,115 @@
+{
+  "page_type": "enemy",
+  "title": "4-54-1-绽放的九人会 外圈上方路径（1）",
+  "enemy_name": "复活的K公司1级员工",
+  "battle_stage": "4-54-1-绽放的九人会 外圈上方路径（1）",
+  "body_part": "",
+  "hp": 106,
+  "defense_level": 30,
+  "speed_min": 2,
+  "speed_max": 6,
+  "chaos_threshold": "",
+  "physical_resistances": {
+    "斩击": 0.75,
+    "突刺": 1.0,
+    "打击": 2.0
+  },
+  "sin_resistances": {
+    "暴怒": 1.0,
+    "色欲": 1.0,
+    "怠惰": 1.0,
+    "暴食": 1.0,
+    "忧郁": 1.0,
+    "傲慢": 1.0,
+    "嫉妒": 1.0
+  },
+  "panic_types": [
+    "抑郁"
+  ],
+  "passives": [
+    "HP弹：回合开始时，恢复15点体力。若自身现存体力不高于50%，则额外恢复15点体力。",
+    "流淌的忧郁：反面命中时，使目标增加2级 沉沦 强度。",
+    "溢出的哀伤:回合结束时，自身失去5点理智值"
+  ],
+  "skills": [
+    {
+      "skill_name": "暂停！暂停！",
+      "icon_id": "9005501",
+      "sin_type": "怠惰",
+      "damage_type": "打击",
+      "base_value": 4,
+      "coin_power": 9703,
+      "coin_count": 2,
+      "attack_level": 27,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[命中时] 使目标增加2级 震颤 强度"
+      ]
+    },
+    {
+      "skill_name": "请停下来！",
+      "icon_id": "9005502",
+      "sin_type": "怠惰",
+      "damage_type": "打击",
+      "base_value": 6,
+      "coin_power": 9703,
+      "coin_count": 2,
+      "attack_level": 27,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[命中时] 使目标增加2级 震颤 强度",
+        "[正面命中时] 使目标增加3级 震颤 强度"
+      ]
+    },
+    {
+      "skill_name": "进行拘捕！",
+      "icon_id": "9005503",
+      "sin_type": "怠惰",
+      "damage_type": "打击",
+      "base_value": 5,
+      "coin_power": 9703,
+      "coin_count": 2,
+      "attack_level": 27,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[命中时] 使目标 震颤引爆"
+      ]
+    },
+    {
+      "skill_name": "寻找掩护！",
+      "icon_id": "9005504",
+      "sin_type": "常规",
+      "damage_type": "防御",
+      "base_value": 5,
+      "coin_power": 79,
+      "coin_count": 2,
+      "attack_level": 0,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "1战斗开始使自身恢复体力上限5%的体力"
+      ]
+    }
+  ],
+  "is_ally": false,
+  "_structured": true,
+  "appear_stages": [
+    "4-54-1-绽放的九人会 外圈上方路径（1）",
+    "4-54-2-变得嘈杂的九人会 下部道路（中）"
+  ],
+  "enemy_id": "4-54-1-绽放的九人会 外圈上方路径（1）|复活的K公司1级员工|",
+  "defense": 30,
+  "speed": "2~6",
+  "_schema_version": 1
+}

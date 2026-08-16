@@ -1,0 +1,96 @@
+{
+  "page_type": "enemy",
+  "title": "折射轨道1号线-第2站-复原",
+  "enemy_name": "轻快的流浪乐队成员",
+  "battle_stage": "折射轨道1号线-第2站-复原",
+  "body_part": "",
+  "hp": 147,
+  "defense_level": 51,
+  "speed_min": 2,
+  "speed_max": 5,
+  "chaos_threshold": "102 / 58",
+  "physical_resistances": {
+    "斩击": 2.0,
+    "突刺": 1.0,
+    "打击": 0.75
+  },
+  "sin_resistances": {
+    "暴怒": 0.75,
+    "色欲": 1.5,
+    "怠惰": 1.0,
+    "暴食": 2.0,
+    "忧郁": 0.75,
+    "傲慢": 1.0,
+    "嫉妒": 1.0
+  },
+  "panic_types": [],
+  "passives": [],
+  "skills": [
+    {
+      "skill_name": "热情之舞",
+      "icon_id": "9002502",
+      "sin_type": "嫉妒",
+      "damage_type": "斩击",
+      "base_value": 3,
+      "coin_power": 4,
+      "coin_count": 2,
+      "attack_level": 2,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "使用时下回合使自身获得1层强壮",
+        "2不可摧毁的硬币"
+      ]
+    },
+    {
+      "skill_name": "舞蹈决斗",
+      "icon_id": "9002403",
+      "sin_type": "忧郁",
+      "damage_type": "斩击",
+      "base_value": 2,
+      "coin_power": 3,
+      "coin_count": 3,
+      "attack_level": 1,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "拼点胜利对目标造成5点理智伤害",
+        "3命中时下回合对目标施加2层虚弱"
+      ]
+    },
+    {
+      "skill_name": "笑里藏刀",
+      "icon_id": "9002404",
+      "sin_type": "忧郁",
+      "damage_type": "突刺",
+      "base_value": 2,
+      "coin_power": 2,
+      "coin_count": 4,
+      "attack_level": 2,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "若目标的理智值低于0点，则使本技能的最终威力+2",
+        "1命中时对目标造成5点理智伤害",
+        "2命中时对目标造成5点理智伤害",
+        "3命中时对目标造成5点理智伤害",
+        "4命中时对目标造成10点理智伤害"
+      ]
+    }
+  ],
+  "is_ally": false,
+  "_structured": true,
+  "appear_stages": [
+    "折射轨道1号线-第2站-复原"
+  ],
+  "enemy_id": "折射轨道1号线-第2站-复原|轻快的流浪乐队成员|",
+  "defense": 51,
+  "speed": "2~5",
+  "_schema_version": 1
+}

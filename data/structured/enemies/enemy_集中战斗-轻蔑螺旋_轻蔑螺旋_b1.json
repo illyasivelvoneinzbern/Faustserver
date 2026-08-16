@@ -1,0 +1,156 @@
+{
+  "page_type": "enemy",
+  "title": "集中战斗-轻蔑螺旋",
+  "enemy_name": "轻蔑螺旋",
+  "battle_stage": "集中战斗-轻蔑螺旋",
+  "body_part": "手",
+  "hp": 197,
+  "defense_level": 40,
+  "speed_min": 1,
+  "speed_max": 4,
+  "chaos_threshold": "0.45/0",
+  "physical_resistances": {
+    "斩击": 0.7,
+    "突刺": 0.7,
+    "打击": 0.7
+  },
+  "sin_resistances": {
+    "暴怒": 0.7,
+    "色欲": 0.7,
+    "怠惰": 0.7,
+    "暴食": 0.7,
+    "忧郁": 0.7,
+    "傲慢": 0.7,
+    "嫉妒": 0.7
+  },
+  "panic_types": [],
+  "passives": [],
+  "skills": [
+    {
+      "skill_name": "贯穿",
+      "icon_id": "858501",
+      "sin_type": "色欲",
+      "damage_type": "穿刺",
+      "base_value": 4,
+      "coin_power": 6,
+      "coin_count": 1,
+      "attack_level": 2,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "1命中时使目标增加4级流血强度",
+        "正面命中时对目标施加2层流血"
+      ]
+    },
+    {
+      "skill_name": "掌控",
+      "icon_id": "858503",
+      "sin_type": "怠惰",
+      "damage_type": "打击",
+      "base_value": 3,
+      "coin_power": 5,
+      "coin_count": 2,
+      "attack_level": 2,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "1命中时下回合对目标施加2层攻击等级降低",
+        "正面命中时下回合对目标施加3层防御等级降低",
+        "2命中时下回合对目标施加1层伤害弱化",
+        "正面命中时下回合使自身获得1层伤害强化"
+      ]
+    },
+    {
+      "skill_name": "紧握",
+      "icon_id": "858504",
+      "sin_type": "傲慢",
+      "damage_type": "打击",
+      "base_value": 4,
+      "coin_power": 5,
+      "coin_count": 2,
+      "attack_level": 2,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "1命中时对目标施加3层掌",
+        "命中时下回合使自身获得1层伤害强化",
+        "2命中时对目标施加3层掌",
+        "命中时下回合使自身获得1层伤害强化"
+      ]
+    },
+    {
+      "skill_name": "回避",
+      "icon_id": "858505",
+      "sin_type": "色欲",
+      "damage_type": "穿刺",
+      "base_value": 9,
+      "coin_power": 4,
+      "coin_count": 2,
+      "attack_level": 2,
+      "attack_weight": 6,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "若掌存活，则使本技能的最终威力+5",
+        "1命中时使目标增加8级流血强度并对其施加3层流血",
+        "2命中时对目标造成10点理智伤害",
+        "正面命中时使目标的混乱阈值前移20"
+      ]
+    },
+    {
+      "skill_name": "轻蔑一切",
+      "icon_id": "858506",
+      "sin_type": "色欲",
+      "damage_type": "穿刺",
+      "base_value": 9,
+      "coin_power": 4,
+      "coin_count": 2,
+      "attack_level": 2,
+      "attack_weight": 6,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "若掌存活，则使本技能的最终威力+5",
+        "回合结束时使全体敌方单位解除视线",
+        "1命中时目标增加10级流血强度并对其施加2层流血",
+        "2命中时使目标增加8级流血强度并对其施加2层流血",
+        "命中时对目标造成15点理智伤害",
+        "正面命中时使目标的混乱阈值前移30"
+      ]
+    },
+    {
+      "skill_name": "闪避",
+      "icon_id": "858507",
+      "sin_type": "",
+      "damage_type": "闪避",
+      "base_value": 4,
+      "coin_power": 10,
+      "coin_count": 1,
+      "attack_level": 0,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "闪避成功时对目标造成4点理智伤害"
+      ]
+    }
+  ],
+  "is_ally": false,
+  "_structured": true,
+  "appear_stages": [
+    "集中战斗-轻蔑螺旋"
+  ],
+  "enemy_id": "集中战斗-轻蔑螺旋|轻蔑螺旋|手",
+  "defense": 40,
+  "speed": "1~4",
+  "_schema_version": 1
+}

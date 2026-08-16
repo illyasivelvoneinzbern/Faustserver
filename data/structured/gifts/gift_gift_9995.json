@@ -1,0 +1,21 @@
+{
+  "id": "gift_9995",
+  "title": "月之残影",
+  "url": "https://limbuscompany.huijiwiki.com/wiki/E.G.O饰品",
+  "categories": [
+    "E.G.O饰品"
+  ],
+  "content": "视作5级E.G.O饰品，可在商店中进行售卖或作为合成材料使用。",
+  "source": "tabx",
+  "_structured": true,
+  "page_type": "ego_gift",
+  "gift_name": "月之残影",
+  "rarity": 5,
+  "cost": "500",
+  "effect_types": "泛用",
+  "attack_type": "色欲",
+  "location": "镜像迷宫",
+  "stage": "base",
+  "special": "重复获得同一件饰品",
+  "_schema_version": 1
+}

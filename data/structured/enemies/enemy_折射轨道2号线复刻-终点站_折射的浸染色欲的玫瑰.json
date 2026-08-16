@@ -1,0 +1,84 @@
+{
+  "page_type": "enemy",
+  "title": "折射轨道2号线复刻-终点站",
+  "enemy_name": "折射的浸染色欲的玫瑰",
+  "battle_stage": "折射轨道2号线复刻-终点站",
+  "body_part": "",
+  "hp": 121,
+  "defense_level": 58,
+  "speed_min": 1,
+  "speed_max": 3,
+  "chaos_threshold": "84 / 36",
+  "physical_resistances": {
+    "斩击": 1.0,
+    "突刺": 1.0,
+    "打击": 1.0
+  },
+  "sin_resistances": {
+    "暴怒": 0.5,
+    "色欲": 2.0,
+    "怠惰": 0.5,
+    "暴食": 0.5,
+    "忧郁": 0.5,
+    "傲慢": 0.5,
+    "嫉妒": 0.5
+  },
+  "panic_types": [
+    "绽放的罪孽",
+    "强化状态",
+    "流血"
+  ],
+  "passives": [
+    "盛放的罪孽: 绽放的罪孽 层数为4层时，本场战斗中将获得 强化状态",
+    "绽于藤蔓的玫瑰: 玫瑰告示牌本体阵亡时，自身阵亡",
+    "摇曳的色欲: 无恐慌类型数据"
+  ],
+  "skills": [
+    {
+      "skill_name": "迫近的色欲",
+      "icon_id": "856501",
+      "sin_type": "色欲",
+      "damage_type": "突刺",
+      "base_value": 3,
+      "coin_power": 9,
+      "coin_count": 4,
+      "attack_level": 60,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[使用时] 每有1朵与自身罪孽属性不同的玫瑰，使本技能的基础威力+1(最多+6)",
+        "[命中时] 使目标增加2级 流血 强度",
+        "[命中时] 使自身的混乱阈值后移本硬币伤害量的50%"
+      ]
+    },
+    {
+      "skill_name": "深埋的色欲",
+      "icon_id": "856501",
+      "sin_type": "色欲",
+      "damage_type": "突刺",
+      "base_value": 3,
+      "coin_power": 9,
+      "coin_count": 4,
+      "attack_level": 60,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[使用时] 每有1朵与自身罪孽属性不同的玫瑰，使本技能的基础威力+1(最多+6)",
+        "[命中时] 对目标施加2层 流血"
+      ]
+    }
+  ],
+  "is_ally": false,
+  "_structured": true,
+  "appear_stages": [
+    "折射轨道2号线复刻-终点站"
+  ],
+  "enemy_id": "折射轨道2号线复刻-终点站|折射的浸染色欲的玫瑰|",
+  "defense": 58,
+  "speed": "1~3",
+  "_schema_version": 1
+}

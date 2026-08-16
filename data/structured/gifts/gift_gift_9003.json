@@ -1,0 +1,21 @@
+{
+  "id": "gift_9003",
+  "title": "尘归尘",
+  "url": "https://limbuscompany.huijiwiki.com/wiki/E.G.O饰品",
+  "categories": [
+    "E.G.O饰品"
+  ],
+  "content": "战斗开始时，若全体敌方单位（或所有异想体部位）都带有烧伤，则使全体敌方单位（或所有异想体部位）增加2级烧伤强度。",
+  "source": "tabx",
+  "_structured": true,
+  "page_type": "ego_gift",
+  "gift_name": "尘归尘",
+  "rarity": 1,
+  "cost": "148",
+  "effect_types": "烧伤",
+  "attack_type": "暴怒",
+  "location": "镜像迷宫",
+  "stage": "base",
+  "event": "事件-尘归尘",
+  "_schema_version": 1
+}

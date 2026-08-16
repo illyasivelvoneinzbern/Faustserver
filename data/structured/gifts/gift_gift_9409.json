@@ -1,0 +1,21 @@
+{
+  "id": "gift_9409",
+  "title": "冰封的哀嚎",
+  "url": "https://limbuscompany.huijiwiki.com/wiki/E.G.O饰品",
+  "categories": [
+    "E.G.O饰品"
+  ],
+  "content": "回合开始时，适用于速度值最低的1名友方单位。\n该单位拼点胜利或受到敌方单位攻击时，使目标增加3级沉沦强度。",
+  "source": "tabx",
+  "_structured": true,
+  "page_type": "ego_gift",
+  "gift_name": "冰封的哀嚎",
+  "rarity": 2,
+  "cost": "220",
+  "effect_types": "沉沦",
+  "attack_type": "忧郁",
+  "location": "镜像迷宫",
+  "stage": "base",
+  "special": "无法去爱",
+  "_schema_version": 1
+}

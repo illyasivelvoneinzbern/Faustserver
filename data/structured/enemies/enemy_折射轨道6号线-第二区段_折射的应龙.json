@@ -1,0 +1,177 @@
+{
+  "page_type": "enemy",
+  "title": "折射轨道6号线-第二区段",
+  "enemy_name": "折射的应龙",
+  "battle_stage": "折射轨道6号线-第二区段",
+  "body_part": "",
+  "hp": 5040,
+  "defense_level": 65,
+  "speed_min": 1,
+  "speed_max": 1,
+  "chaos_threshold": "无",
+  "physical_resistances": {
+    "斩击": 1.0,
+    "突刺": 1.0,
+    "打击": 1.0
+  },
+  "sin_resistances": {
+    "暴怒": 1.0,
+    "色欲": 0.75,
+    "怠惰": 0.75,
+    "暴食": 1.5,
+    "忧郁": 1.5,
+    "傲慢": 1.0,
+    "嫉妒": 1.5
+  },
+  "panic_types": [],
+  "passives": [
+    "不可升入之天: 关卡开始时，头部部位获得体力上限100%的护盾 回合结束时不会失去护盾 护盾被破坏时，进入下一阶段",
+    "一楔之命: 关卡开始时，使自身获得3层 葬花针 回合结束时，下回合使自身获得1层 葬花针 每当被动效果“震怒”触发时，令自身通过本效果获得的 葬花针 额外+1层",
+    "震怒: 逆鳞部位仅受到以自身为主要目标的技能的伤害，而不会受到其他伤害 当逆鳞部位受到攻击时，下回合从行动槽中移除逆鳞部位，且每通过技能“逆鳞之祸”消耗1层 葬花针 ，使自身获得1层 攻击等级提升 并对自身施加1层 防御等级降低",
+    "龙鳞: 不受 迅捷 与 束缚 影响 受到 烧伤 、 流血 、 震颤 、 破裂 与 沉沦 的体力伤害与混乱阈值前移量-50%",
+    "折射的挣扎: 无"
+  ],
+  "skills": [
+    {
+      "skill_name": "逆鳞之祸",
+      "icon_id": "956801",
+      "sin_type": "暴怒",
+      "damage_type": "突刺",
+      "base_value": 2,
+      "coin_power": 987,
+      "coin_count": 5,
+      "attack_level": 60,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[使用时] 消耗自身所有 葬花针 并重复使用本技能的最后一枚硬币(消耗的 葬花针 层数)次(最多5次) 不可摧毁的硬币",
+        "[命中时] 对目标造成5点理智伤害",
+        "[命中时] 对目标施加2层 破裂"
+      ]
+    },
+    {
+      "skill_name": "闪雷",
+      "icon_id": "956802",
+      "sin_type": "暴食",
+      "damage_type": "突刺",
+      "base_value": 3,
+      "coin_power": 854,
+      "coin_count": 3,
+      "attack_level": 62,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[命中时] 使目标增加2级 破裂 强度"
+      ]
+    },
+    {
+      "skill_name": "龙吟",
+      "icon_id": "956803",
+      "sin_type": "暴食",
+      "damage_type": "突刺",
+      "base_value": 4,
+      "coin_power": 854,
+      "coin_count": 3,
+      "attack_level": 63,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[命中时] 使目标增加3级 破裂 强度",
+        "[命中时] 对目标施加2层 破裂",
+        "[命中时] 下回合对目标施加2层 束缚"
+      ]
+    },
+    {
+      "skill_name": "落针",
+      "icon_id": "956804",
+      "sin_type": "暴怒",
+      "damage_type": "突刺",
+      "base_value": 4,
+      "coin_power": 987,
+      "coin_count": 2,
+      "attack_level": 62,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[使用时] 自身 每带有2层 葬花针 ，使本技能的基础威力+1",
+        "[使用时] 若目标带有 束缚 或 麻痹 ，则使本技能的基础威力+2",
+        "[使用时] 下回合召唤葬花针",
+        "[命中时] 使目标增加3级 破裂 强度并对其施加2层 破裂"
+      ]
+    },
+    {
+      "skill_name": "龙卷",
+      "icon_id": "956805",
+      "sin_type": "忧郁",
+      "damage_type": "突刺",
+      "base_value": 3,
+      "coin_power": 3,
+      "coin_count": 4,
+      "attack_level": 63,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[使用时] 若主要目标带有 束缚 或 麻痹 ，则使本技能的硬币威力+1",
+        "[命中时] 对目标施加3层 破裂",
+        "[命中时] 使目标增加2级 破裂 强度"
+      ]
+    },
+    {
+      "skill_name": "积雨",
+      "icon_id": "956806",
+      "sin_type": "暴怒",
+      "damage_type": "突刺",
+      "base_value": 4,
+      "coin_power": 987,
+      "coin_count": 6,
+      "attack_level": 64,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[使用时] 自身 每带有1层 葬花针 ，使本技能的基础威力+1",
+        "[使用时] 若自身的 葬花针 层数不低于5层 ，则使本技能的硬币威力+1，攻击容量+1",
+        "[命中时] 使目标增加3级 破裂 强度 不可摧毁的硬币",
+        "[命中时] 若自身的 葬花针 层数不低于5层，则重复使用本硬币 (每个技能最多1次)"
+      ]
+    },
+    {
+      "skill_name": "落雷",
+      "icon_id": "956807",
+      "sin_type": "傲慢",
+      "damage_type": "突刺",
+      "base_value": 18,
+      "coin_power": 3,
+      "coin_count": 2,
+      "attack_level": 65,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[命中时] 使目标增加5级 破裂 强度并对其施加3层 破裂",
+        "[命中时] 以50%的概率在下回合对目标施加1层 麻痹"
+      ]
+    }
+  ],
+  "is_ally": false,
+  "_structured": true,
+  "appear_stages": [
+    "折射轨道6号线-第二区段"
+  ],
+  "enemy_id": "折射轨道6号线-第二区段|折射的应龙|",
+  "defense": 65,
+  "speed": "1~1",
+  "_schema_version": 1
+}

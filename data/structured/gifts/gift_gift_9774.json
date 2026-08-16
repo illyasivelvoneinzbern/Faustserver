@@ -1,0 +1,22 @@
+{
+  "id": "gift_9774",
+  "title": "重燃火花塞",
+  "url": "https://limbuscompany.huijiwiki.com/wiki/E.G.O饰品",
+  "categories": [
+    "E.G.O饰品"
+  ],
+  "content": "施加烧伤层数的基础攻击技能造成的伤害+20%，施加的烧伤层数额外+1层。该技能命中带有烧伤或特殊烧伤的敌方单位时，对其施加1层防御等级降低(每回合每名友方单位最多2次)\n回合开始时，使所有基础攻击技能均为增加烧伤强度，施加烧伤层数或施加特殊烧伤的技能的友方单位获得相当于其存活回合数的攻击等级提升(不包括登场回合，最多5层)",
+  "source": "tabx",
+  "_structured": true,
+  "page_type": "ego_gift",
+  "gift_name": "重燃火花塞",
+  "rarity": 3,
+  "cost": "248",
+  "effect_types": "烧伤",
+  "attack_type": "色欲",
+  "location": "LCB定期体检、镜像迷宫",
+  "stage": "base",
+  "special": "LCB定期体检",
+  "event": "事件-我们就是样本",
+  "_schema_version": 1
+}

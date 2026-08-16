@@ -1,0 +1,241 @@
+{
+  "page_type": "enemy",
+  "title": "主线战斗9-41",
+  "enemy_name": "小指 父辈 - 盐见夜",
+  "battle_stage": "主线战斗9-41",
+  "body_part": "",
+  "hp": 1918,
+  "defense_level": 77,
+  "speed_min": 2,
+  "speed_max": 5,
+  "chaos_threshold": "383",
+  "physical_resistances": {
+    "斩击": 1.2,
+    "突刺": 1.0,
+    "打击": 1.0
+  },
+  "sin_resistances": {
+    "暴怒": 1.2,
+    "色欲": 1.0,
+    "怠惰": 0.8,
+    "暴食": 0.8,
+    "忧郁": 1.2,
+    "傲慢": 0.8,
+    "嫉妒": 1.0
+  },
+  "panic_types": [
+    "四重残像纠缠",
+    "残像纠缠",
+    "背离",
+    "烧伤",
+    "流血",
+    "震颤",
+    "破裂",
+    "沉沦",
+    "呼吸法",
+    "剑痕【残像】"
+  ],
+  "passives": [
+    "重叠的残像: 关卡开始时，使自身获得 四重残像纠缠 每个阶段的首个回合开始时，使自身获得(自身的 残像纠缠 阶段×400)层 背离 (每个 残像纠缠 阶段最多1次) 在第3与第4阶段 残像纠缠 ， 若自身失去所有 背离 ，则改变自身模式并在下回合使自身陷入混乱 受到来自 烧伤 、 流血 、 震颤 、 破裂 与 沉沦 的体力伤害、理智伤害与混乱阈值前移量-30%",
+    "未来的残像: 在特定回合使用“已确定的对手”技能 仅有被指定为攻击目标的单位可与该技能拼点 若自身的“已确定的对手”技能拼点失败，则使自身受到36~60点固定伤害 战斗结束时，若本回合自身使用的 所有“已确定的对手”技能均拼点失败 ，则下回合对自身施加1层 易损",
+    "“适当应付一下吧”: 自身技能对使用守备技能的目标造成的最终伤害-50% 每4回合的回合结束时，在本场战斗中对自身施加2层 易损 并使自身获得2层 伤害强化 (每场战斗最多2次)",
+    "恐慌恢复: 回合结束时，若自身陷入恐慌，则使自身理智值恢复为30点",
+    "固定恐慌: 被施加改变恐慌类型的状态时，自身的恐慌类型不会改变。效果改为对未带有理智值的单位施加的效果。",
+    "残像回响: 自身的硬币命中时，对目标造成(该硬币最终伤害量/10)点斩击伤害(该效果最多触发(自身的 残像纠缠 阶段)次。该效果造成的伤害不会使目标陷入混乱)",
+    "从多重时间斩来的残像: • 拼点胜利后根据拼点次数按比例增加 （增加量：基础值为10，从第二次拼点起，每次拼点增加20%）"
+  ],
+  "skills": [
+    {
+      "skill_name": "二连",
+      "icon_id": "132201",
+      "sin_type": "嫉妒",
+      "damage_type": "斩击",
+      "base_value": 7,
+      "coin_power": 5793,
+      "coin_count": 3,
+      "attack_level": 74,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[使用时] 使自身获得2层 呼吸法",
+        "[命中时] 使自身增加1级 呼吸法 强度"
+      ]
+    },
+    {
+      "skill_name": "三连",
+      "icon_id": "132202",
+      "sin_type": "嫉妒",
+      "damage_type": "斩击",
+      "base_value": 7,
+      "coin_power": 5793,
+      "coin_count": 4,
+      "attack_level": 74,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[使用时] 使自身获得3层 呼吸法",
+        "[命中时] 使自身增加1级 呼吸法 强度"
+      ]
+    },
+    {
+      "skill_name": "快闪",
+      "icon_id": "132203",
+      "sin_type": "傲慢",
+      "damage_type": "斩击",
+      "base_value": 10,
+      "coin_power": 3,
+      "coin_count": 3,
+      "attack_level": 78,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[命中时] 使自身增加2级 呼吸法 强度",
+        "[命中时] 对目标施加1层 剑痕【残像】"
+      ]
+    },
+    {
+      "skill_name": "无形斩",
+      "icon_id": "132204",
+      "sin_type": "暴怒",
+      "damage_type": "斩击",
+      "base_value": 12,
+      "coin_power": 987,
+      "coin_count": 3,
+      "attack_level": 78,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[命中时] 使自身增加1级 呼吸法 强度",
+        "[命中时] 对目标施加1层 剑痕【残像】"
+      ]
+    },
+    {
+      "skill_name": "残像步",
+      "icon_id": "132206",
+      "sin_type": "怠惰",
+      "damage_type": "斩击",
+      "base_value": 4,
+      "coin_power": 9703,
+      "coin_count": 1,
+      "attack_level": 74,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "拼点失败使目标的剑痕【残像】层数减半(向下取整)"
+      ]
+    },
+    {
+      "skill_name": "观望",
+      "icon_id": "132207",
+      "sin_type": "暴食",
+      "damage_type": "斩击",
+      "base_value": 2,
+      "coin_power": 854,
+      "coin_count": 3,
+      "attack_level": 72,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "拼点失败对自身施加2层虚弱",
+        "拼点失败使目标恢复5点理智值",
+        "1{{状态2|不可摧毁的硬币|4=特殊}}"
+      ]
+    },
+    {
+      "skill_name": "绝命",
+      "icon_id": "132208",
+      "sin_type": "暴怒",
+      "damage_type": "斩击",
+      "base_value": 9,
+      "coin_power": 987,
+      "coin_count": 3,
+      "attack_level": 80,
+      "attack_weight": 1,
+      "is_guard": true,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[命中时] 目标每失去1%的体力，对其施加1层 剑痕【残像】",
+        "[命中时] 消耗目标所有 剑痕【残像】 并对其造成其体力上限(消耗的 剑痕【残像】 层数)%的体力伤害"
+      ]
+    },
+    {
+      "skill_name": "极空间斩-断缘",
+      "icon_id": "132209",
+      "sin_type": "傲慢",
+      "damage_type": "斩击",
+      "base_value": 14,
+      "coin_power": 3,
+      "coin_count": 3,
+      "attack_level": 77,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[使用时] 若自身的理智值不低于20点，则生成3层望并使本技能的最终威力+10",
+        "[攻击后] 若本技能生成了望，则使自身失去20点理智值",
+        "[命中时] 消耗目标所有 剑痕【残像】 并对各个被命中的目标造成其体力上限(消耗的 剑痕【残像】 层数)%的体力伤害"
+      ]
+    },
+    {
+      "skill_name": "已确定的对手",
+      "icon_id": "132211",
+      "sin_type": "色欲",
+      "damage_type": "斩击",
+      "base_value": 3,
+      "coin_power": 9,
+      "coin_count": 1,
+      "attack_level": 77,
+      "attack_weight": 1,
+      "is_guard": true,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "仅有带有对应鸡鸣、日入或黄昏的目标可与本技能拼点",
+        "本技能不会触发目标的守备技能",
+        "拼点失败对自身施加1层易损",
+        "拼点失败解除目标的鸡鸣、日入与黄昏",
+        "单方面攻击时使本技能的最终威力+10"
+      ]
+    },
+    {
+      "skill_name": "没能阻止未来啊-残痕斩",
+      "icon_id": "132212",
+      "sin_type": "傲慢",
+      "damage_type": "斩击",
+      "base_value": 9,
+      "coin_power": 3,
+      "coin_count": 5,
+      "attack_level": 80,
+      "attack_weight": 1,
+      "is_guard": true,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[命中时] 若目标带有 鸡鸣 、 日入 或 黄昏 ，则对其造成(本硬币最终威力×5)点傲慢伤害"
+      ]
+    }
+  ],
+  "is_ally": false,
+  "_structured": true,
+  "appear_stages": [
+    "主线战斗9-41"
+  ],
+  "enemy_id": "主线战斗9-41|小指 父辈 - 盐见夜|",
+  "defense": 77,
+  "speed": "2~5",
+  "_schema_version": 1
+}

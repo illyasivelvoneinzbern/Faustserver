@@ -1,0 +1,35 @@
+{
+  "page_type": "enemy",
+  "title": "集中战斗-绅士精灵",
+  "enemy_name": "精灵酒",
+  "battle_stage": "集中战斗-绅士精灵",
+  "body_part": "酒樽",
+  "hp": 11,
+  "defense_level": 35,
+  "speed_min": 1,
+  "speed_max": 1,
+  "chaos_threshold": "",
+  "physical_resistances": {
+    "斩击": 1.0,
+    "突刺": 1.0,
+    "打击": 1.0
+  },
+  "sin_resistances": {
+    "暴怒": 1.0,
+    "色欲": 0.5,
+    "怠惰": 2.0,
+    "暴食": 0.75,
+    "忧郁": 1.0,
+    "傲慢": 1.5,
+    "嫉妒": 0.5
+  },
+  "panic_types": [],
+  "passives": [],
+  "skills": [],
+  "is_ally": false,
+  "_structured": true,
+  "enemy_id": "集中战斗-绅士精灵|精灵酒",
+  "defense": 35,
+  "speed": "1~1",
+  "_schema_version": 1
+}

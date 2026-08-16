@@ -1,0 +1,22 @@
+{
+  "id": "gift_9759",
+  "title": "熄灭的提灯",
+  "url": "https://limbuscompany.huijiwiki.com/wiki/E.G.O饰品",
+  "categories": [
+    "E.G.O饰品"
+  ],
+  "content": "[第7顺位友方单位专属]\n技能或硬币效果对自身施加的震颤层数额外+1层\n- 若攻击目标陷入混乱、士气低落或陷入恐慌，则改为额外+2层",
+  "source": "tabx",
+  "_structured": true,
+  "page_type": "ego_gift",
+  "gift_name": "熄灭的提灯",
+  "rarity": 1,
+  "cost": "152",
+  "effect_types": "震颤",
+  "attack_type": "怠惰",
+  "location": "镜像迷宫",
+  "stage": "base",
+  "special": "20区的奇迹复刻",
+  "event": "事件-床",
+  "_schema_version": 1
+}

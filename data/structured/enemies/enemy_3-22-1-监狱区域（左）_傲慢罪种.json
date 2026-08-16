@@ -1,0 +1,66 @@
+{
+  "page_type": "enemy",
+  "title": "3-22-1-监狱区域（左）",
+  "enemy_name": "傲慢罪种",
+  "battle_stage": "3-22-1-监狱区域（左）",
+  "body_part": "躯干",
+  "hp": 49,
+  "defense_level": 20,
+  "speed_min": 3,
+  "speed_max": 5,
+  "chaos_threshold": "20",
+  "physical_resistances": {
+    "斩击": 1.0,
+    "突刺": 1.0,
+    "打击": 2.0
+  },
+  "sin_resistances": {
+    "暴怒": 2.0,
+    "色欲": 0.75,
+    "怠惰": 2.0,
+    "暴食": 1.0,
+    "忧郁": 1.0,
+    "傲慢": 0.75,
+    "嫉妒": 1.0
+  },
+  "panic_types": [],
+  "passives": [],
+  "skills": [
+    {
+      "skill_name": "摧残蹂躏",
+      "icon_id": "801801",
+      "sin_type": "傲慢",
+      "damage_type": "",
+      "base_value": 0,
+      "coin_power": 4,
+      "coin_count": 1,
+      "attack_level": 23,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "coin_effects": []
+    },
+    {
+      "skill_name": "傲慢碾碎",
+      "icon_id": "801802",
+      "sin_type": "傲慢",
+      "damage_type": "",
+      "base_value": 0,
+      "coin_power": 2,
+      "coin_count": 3,
+      "attack_level": 23,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "coin_effects": [
+        "[正面命中时] 下回合对目标施加1层 易损 本回合内受到的伤害+{0}0%（最多+100%）"
+      ]
+    }
+  ],
+  "is_ally": false,
+  "_structured": true,
+  "enemy_id": "3-22-1-监狱区域（左）|傲慢罪种",
+  "defense": 20,
+  "speed": "3~5",
+  "_schema_version": 1
+}

@@ -1,0 +1,35 @@
+{
+  "page_type": "event",
+  "title": "事件-事务所",
+  "event_name": "事务所",
+  "narration": "我们走进了一栋‌似乎荒芜已久的办公楼里。\n那里有几个正讨论着委托的收尾人。\n“明白了，那这次委托就带两支狙击枪去吧。”\n“以防万一，还是带一支突击步枪吧。”\n“那就带上吧。”\n讨论结束后，他们便收拾好行李出去了。\n\n检查桌子。\n【桌子上有剩下的行李。让哪位罪人去调查？】\n有利判定\n：\n/\n≥14\n不利判定\n：\n≥28\n判定成功\n：\n罪人[X]在桌子上发现了一个看起来是枪的物品。\n哪怕是作为备用物品也没有被带走，所以给我们用也可以吧。\n获得\n！\n判定失败\n：\n桌子上看上去没什么能用的东西。\n虽然罪人[X]找到了一些物品，但似乎对我们来说使用方法都太复杂了。\n什么都没有发生。\n\n跟着他们出去。\n什么都没有发生。",
+  "options": [
+    {
+      "choice_text": "检查桌子。",
+      "check_type": "有利判定",
+      "check_sin": "傲慢",
+      "check_threshold": 14,
+      "success_outcomes": [
+        "获得 ！ 判定失败 ： 桌子上看上去没什么能用的东西。 虽然罪人[X]找到了一些物品"
+      ],
+      "failure_outcomes": []
+    },
+    {
+      "choice_text": "跟着他们出去。",
+      "check_type": "",
+      "check_sin": "",
+      "check_threshold": 0,
+      "success_outcomes": [],
+      "failure_outcomes": []
+    }
+  ],
+  "ego_gifts": [],
+  "related_abnormalities": [],
+  "trigger_location": "",
+  "_structured": true,
+  "id": "wiki_事件-事务所",
+  "url": "https://limbuscompany.huijiwiki.com/wiki/事件-事务所",
+  "categories": [],
+  "source": "wiki",
+  "_schema_version": 1
+}

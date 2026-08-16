@@ -1,0 +1,92 @@
+{
+  "page_type": "enemy",
+  "title": "1-11-2-重要异想体管理所",
+  "enemy_name": "燃烧的终末土偶",
+  "battle_stage": "1-11-2-重要异想体管理所",
+  "body_part": "头部",
+  "hp": 40,
+  "defense_level": 3,
+  "speed_min": 1,
+  "speed_max": 4,
+  "chaos_threshold": "",
+  "physical_resistances": {
+    "斩击": 1.0,
+    "突刺": 1.0,
+    "打击": 2.0
+  },
+  "sin_resistances": {
+    "暴怒": 1.5,
+    "色欲": 0.75,
+    "怠惰": 2.0,
+    "暴食": 1.0,
+    "忧郁": 1.0,
+    "傲慢": 1.0,
+    "嫉妒": 2.0
+  },
+  "panic_types": [],
+  "passives": [],
+  "skills": [
+    {
+      "skill_name": "火焰吐息",
+      "icon_id": "800401",
+      "sin_type": "暴怒",
+      "damage_type": "打击",
+      "base_value": 3,
+      "coin_power": 987,
+      "coin_count": 2,
+      "attack_level": 9,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[命中时] 下回合使目标增加1级 烧伤 强度"
+      ]
+    },
+    {
+      "skill_name": "痛苦猛刺",
+      "icon_id": "800301",
+      "sin_type": "色欲",
+      "damage_type": "斩击",
+      "base_value": 2,
+      "coin_power": 9,
+      "coin_count": 2,
+      "attack_level": 9,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[正面命中时] 下回合对目标施加1层 流血",
+        "[正面命中时] 下回合对目标施加1层 烧伤"
+      ]
+    },
+    {
+      "skill_name": "痛苦撕挠",
+      "icon_id": "800302",
+      "sin_type": "色欲",
+      "damage_type": "斩击",
+      "base_value": 1,
+      "coin_power": 9,
+      "coin_count": 2,
+      "attack_level": 9,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "2正面命中时下回合对目标施加1层流血",
+        "正面命中时下回合对目标施加1层烧伤"
+      ]
+    }
+  ],
+  "is_ally": false,
+  "_structured": true,
+  "appear_stages": [
+    "1-11-2-重要异想体管理所"
+  ],
+  "enemy_id": "1-11-2-重要异想体管理所|燃烧的终末土偶|头部",
+  "defense": 3,
+  "speed": "1~4",
+  "_schema_version": 1
+}

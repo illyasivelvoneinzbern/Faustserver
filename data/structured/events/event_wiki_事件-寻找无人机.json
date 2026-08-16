@@ -1,0 +1,70 @@
+{
+  "page_type": "event",
+  "title": "事件-寻找无人机",
+  "event_name": "寻找无人机",
+  "narration": "一架破损的K公司无人机正向地面坠落。直到看见星星之前，我无法复活罪人……\n如果仔细搜索一下，也许还能找到能用的安瓿。\n\n翻找坠落的无人机\n善于搜索的罪人大概能帮上忙。\n【哪位罪人来做才最有效率？】\n李箱\n浮士德\n判定值+2\n有利判定\n：\n≥12\n不利判定\n：\n≥15\n判定成功\n：\n罪人X在残骸中四处搜索，导致身上受了不少伤。\n幸运的是，我们在其中发现了一个小小的安瓿。\n“明明花了那么大力气……”\n其他罪人们叹了口气，感叹着“这或许就是先苦后甜吧”。\n……我答应他们之后会拨动时针，随后一起走出房间。\n获得E.G.O饰品\n小型安瓿\n！\n所选人格失去\n10点体力\n！\n判定失败\n：\n破碎的零件碎片比想象中更为锋利。\n“……！”\n罪人X在残骸中四处搜索，导致身上受了不少伤。\n“似乎没有。”虽然持续寻找了几分钟，但貌似没有什么特别的发现。\n“……”\n罪人们的眼神让我背后感到阵阵刺痛。\n所选人格失去\n10点体力\n！\n要试着再寻找一次吗？\n分支1\n分支2\n翻找坠落的无人机\n返回上一步\n再次离开\n冒着再度受伤的风险并无意义。\n我们带着对不幸的抱怨离开了房间。\n什么都没有发生。\n\n离开\n“你在看什么。那里没什么有价值的东西。”\n……进一步的探查也许还能发现些有用的东西，但是尖锐的零件与碎片看起来会带来不必要的伤害。\n我们悄悄地离开了房间。\n什么都没有发生。",
+  "options": [
+    {
+      "choice_text": "翻找坠落的无人机",
+      "check_type": "有利判定",
+      "check_sin": "暴食",
+      "check_threshold": 12,
+      "success_outcomes": [
+        "获得E.G.O饰品 小型安瓿 ！ 所选人格失去 10点体力 ！ 判定失败 ： 破碎的零件碎片比想象中更为锋利。 “……！” 罪人X在残骸中四处搜索",
+        "失去 10点体力 ！ 要试着再寻找一次吗？ 分支1 分支2 翻找坠落的无人机 返回上"
+      ],
+      "failure_outcomes": [
+        "失去 10点体力 ！ 要试着再寻找一次吗？ 分支1 分支2 翻找坠落的无人机 返回上一步 再次离开 冒着再度受伤的风险并无意义。 我们带着对不幸的抱怨离开了房间。 什么都没有发生。"
+      ]
+    },
+    {
+      "choice_text": "翻找坠落的无人机",
+      "check_type": "",
+      "check_sin": "",
+      "check_threshold": 0,
+      "success_outcomes": [],
+      "failure_outcomes": []
+    },
+    {
+      "choice_text": "再次离开",
+      "check_type": "",
+      "check_sin": "",
+      "check_threshold": 0,
+      "success_outcomes": [],
+      "failure_outcomes": []
+    },
+    {
+      "choice_text": "离开",
+      "check_type": "",
+      "check_sin": "",
+      "check_threshold": 0,
+      "success_outcomes": [],
+      "failure_outcomes": []
+    },
+    {
+      "choice_text": "翻找坠落的无人机",
+      "check_type": "",
+      "check_sin": "",
+      "check_threshold": 0,
+      "success_outcomes": [],
+      "failure_outcomes": []
+    },
+    {
+      "choice_text": "再次离开",
+      "check_type": "",
+      "check_sin": "",
+      "check_threshold": 0,
+      "success_outcomes": [],
+      "failure_outcomes": []
+    }
+  ],
+  "ego_gifts": [],
+  "related_abnormalities": [],
+  "trigger_location": "",
+  "_structured": true,
+  "id": "wiki_事件-寻找无人机",
+  "url": "https://limbuscompany.huijiwiki.com/wiki/事件-寻找无人机",
+  "categories": [],
+  "source": "wiki",
+  "_schema_version": 1
+}

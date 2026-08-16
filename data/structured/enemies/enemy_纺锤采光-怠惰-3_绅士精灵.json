@@ -1,0 +1,159 @@
+{
+  "page_type": "enemy",
+  "title": "纺锤采光-怠惰-3",
+  "enemy_name": "绅士精灵",
+  "battle_stage": "纺锤采光-怠惰-3",
+  "body_part": "躯干",
+  "hp": 598,
+  "defense_level": 37,
+  "speed_min": 2,
+  "speed_max": 4,
+  "chaos_threshold": "209/0",
+  "physical_resistances": {
+    "斩击": 1.0,
+    "突刺": 1.0,
+    "打击": 1.0
+  },
+  "sin_resistances": {
+    "暴怒": 0.75,
+    "色欲": 0.5,
+    "怠惰": 2.0,
+    "暴食": 0.5,
+    "忧郁": 0.75,
+    "傲慢": 0.75,
+    "嫉妒": 0.75
+  },
+  "panic_types": [],
+  "passives": [],
+  "skills": [
+    {
+      "skill_name": "想喝醉吗？",
+      "icon_id": "804801",
+      "sin_type": "暴食",
+      "damage_type": "",
+      "base_value": 4,
+      "coin_power": 6,
+      "coin_count": 2,
+      "attack_level": 38,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[命中时] 使目标增加5级 震颤 在{1}回合内，受到造成 震颤引爆 的攻击时，混乱阈值前移{0}。 强度并对其施加2层 震颤 在{1}回合内，受到造成 震颤引爆 的攻击时，混乱阈值前移{0}。"
+      ]
+    },
+    {
+      "skill_name": "分着喝吧！",
+      "icon_id": "804802",
+      "sin_type": "暴食",
+      "damage_type": "",
+      "base_value": 5,
+      "coin_power": 6,
+      "coin_count": 2,
+      "attack_level": 38,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[命中时] 下回合对目标施加2层 束缚 本回合内速度值-{0}"
+      ]
+    },
+    {
+      "skill_name": "只剩这些了！",
+      "icon_id": "804803",
+      "sin_type": "暴食",
+      "damage_type": "",
+      "base_value": 4,
+      "coin_power": 3,
+      "coin_count": 2,
+      "attack_level": 38,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": []
+    },
+    {
+      "skill_name": "这个我吃了！",
+      "icon_id": "804804",
+      "sin_type": "色欲",
+      "damage_type": "",
+      "base_value": 6,
+      "coin_power": 8,
+      "coin_count": 2,
+      "attack_level": 38,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[命中时] 若目标带有 昂扬 每回合获得{0}层 伤害强化 （最多5层） 带有 醉意 时无法获得 ，则每层 昂扬 每回合获得{0}层 伤害强化 （最多5层） 带有 醉意 时无法获得 使本硬币造成的伤害+10%",
+        "[命中时] 若目标带有 醉意 拼点威力-{0}（最多5层） 则造成0点伤害，并使自身失去50点体力",
+        "[命中时] 消耗目标所有 昂扬 每回合获得{0}层 伤害强化 （最多5层） 带有 醉意 时无法获得 或 醉意 拼点威力-{0}（最多5层）"
+      ]
+    },
+    {
+      "skill_name": "这个我吃了！",
+      "icon_id": "804805",
+      "sin_type": "色欲",
+      "damage_type": "",
+      "base_value": 6,
+      "coin_power": 10,
+      "coin_count": 2,
+      "attack_level": 38,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[命中时] 若目标带有 昂扬 每回合获得{0}层 伤害强化 （最多5层） 带有 醉意 时无法获得 ，则每层 昂扬 每回合获得{0}层 伤害强化 （最多5层） 带有 醉意 时无法获得 使本硬币造成的伤害+100%",
+        "[命中时] 若目标带有 醉意 拼点威力-{0}（最多5层） 则造成0点伤害，并使自身失去50点体力",
+        "[命中时] 消耗目标所有 昂扬 每回合获得{0}层 伤害强化 （最多5层） 带有 醉意 时无法获得 或 醉意 拼点威力-{0}（最多5层）"
+      ]
+    },
+    {
+      "skill_name": "这次不行！",
+      "icon_id": "804806",
+      "sin_type": "嫉妒",
+      "damage_type": "",
+      "base_value": 5,
+      "coin_power": 7,
+      "coin_count": 2,
+      "attack_level": 38,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[命中时] 攻击精灵酒时，下回合使自身恢复体力上限10%的体力并使自身获得2层 强壮 本回合内攻击技能的最终威力+{0} ，2层 迅捷 本回合内速度值+{0} 与2层 守护 本回合内受到的伤害-{0}0%（最多-100%）"
+      ]
+    },
+    {
+      "skill_name": "想要这杯精灵酒吗？",
+      "icon_id": "804807",
+      "sin_type": "常规",
+      "damage_type": "",
+      "base_value": 5,
+      "coin_power": 8,
+      "coin_count": 1,
+      "attack_level": 0,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": []
+    }
+  ],
+  "is_ally": false,
+  "_structured": true,
+  "appear_stages": [
+    "纺锤采光-怠惰-3",
+    "纺锤采光-怠惰-4"
+  ],
+  "enemy_id": "纺锤采光-怠惰-3|绅士精灵|躯干",
+  "defense": 37,
+  "speed": "2~4",
+  "_schema_version": 1
+}

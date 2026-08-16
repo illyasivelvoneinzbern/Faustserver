@@ -1,0 +1,21 @@
+{
+  "id": "gift_1050",
+  "title": "尖钉",
+  "url": "https://limbuscompany.huijiwiki.com/wiki/E.G.O饰品",
+  "categories": [
+    "E.G.O饰品"
+  ],
+  "content": "通过技能效果增加流血强度时，有50%的概率额外增加1级流血强度。",
+  "source": "tabx",
+  "_structured": true,
+  "page_type": "ego_gift",
+  "gift_name": "尖钉",
+  "rarity": 0,
+  "cost": "0",
+  "effect_types": "",
+  "attack_type": "傲慢",
+  "location": "第三章",
+  "stage": "base",
+  "event": "事件-装满箱子的房间",
+  "_schema_version": 1
+}

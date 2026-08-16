@@ -1,0 +1,21 @@
+{
+  "id": "gift_9112",
+  "title": "剧毒外皮",
+  "url": "https://limbuscompany.huijiwiki.com/wiki/E.G.O饰品",
+  "categories": [
+    "E.G.O饰品"
+  ],
+  "content": "增加震颤强度或施加震颤层数的技能（包括对自身施加的技能）拼点胜利时，使目标增加（剩余硬币数/2）级震颤强度",
+  "source": "tabx",
+  "_structured": true,
+  "page_type": "ego_gift",
+  "gift_name": "剧毒外皮",
+  "rarity": 1,
+  "cost": "147",
+  "effect_types": "震颤",
+  "attack_type": "傲慢",
+  "location": "镜像迷宫",
+  "stage": "base",
+  "event": "事件-悲泣蟾蜍",
+  "_schema_version": 1
+}

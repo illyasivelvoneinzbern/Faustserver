@@ -1,0 +1,41 @@
+{
+  "page_type": "enemy",
+  "title": "映射战斗-经验记忆",
+  "enemy_name": "闪光现象 - 放映机",
+  "battle_stage": "映射战斗-经验记忆",
+  "body_part": "",
+  "hp": 350,
+  "defense_level": 60,
+  "speed_min": 1,
+  "speed_max": 1,
+  "chaos_threshold": "无",
+  "physical_resistances": {
+    "斩击": 1.0,
+    "突刺": 1.0,
+    "打击": 1.0
+  },
+  "sin_resistances": {
+    "暴怒": 1.5,
+    "色欲": 1.0,
+    "怠惰": 1.5,
+    "暴食": 1.0,
+    "忧郁": 1.0,
+    "傲慢": 1.0,
+    "嫉妒": 1.0
+  },
+  "panic_types": [],
+  "passives": [
+    "场所型扭曲：显影室: 无"
+  ],
+  "skills": [],
+  "is_ally": false,
+  "_structured": true,
+  "appear_stages": [
+    "映射战斗-经验记忆",
+    "活动战斗9.5-24"
+  ],
+  "enemy_id": "映射战斗-经验记忆|闪光现象 - 放映机|",
+  "defense": 60,
+  "speed": "1~1",
+  "_schema_version": 1
+}

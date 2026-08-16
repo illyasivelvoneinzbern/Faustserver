@@ -1,0 +1,70 @@
+{
+  "page_type": "event",
+  "title": "事件-夜视镜",
+  "event_name": "夜视镜",
+  "narration": "这是一间空无一物的水泥房。\n但我无法摆脱或许有什么东西在这儿的毛骨悚然感。\n其他罪人们不同意我并嗤之以鼻。\n房间里有一个开关。\n\n按下按钮。\n一按下开关，房间的灯就熄灭了。\n在什么都看不见的黑暗中，出现了一个抖动的身影。\n当它与光移动方向相反，才能在没有光时看到它。\n但这也并不意味着它能够看到光。\n它是投影到心中的。\n我意识到它不能也不应该被包含在光的光谱中。\n这存在于不同维度，因此也仅能通过不同维度去感受和观测到。\n【该如何抉择？】\n分支1\n分支2\n伸手触摸它。\n罪人伸出的手——或者也许是被伸出的——在融化的同时也没有融化。\n他们失去了曾拥有的那只手，但一只来自另一维度的手迅速取代了它。\n全体友方单位失去\n25点体力\n及\n25点理智值！\n离开房间。\n虽然我们离开时没有发生什么别的事，但我在脖子上发现了一些东西。\n夜视镜。\n如果我们走进漆黑的环境，这些应该会很有用。\n获得\n！\n\n不按按钮离开房间。\n我们决定离开房间，忽略其存在。\n“看吧，我告诉过你什么都没有！”有人责备我，而我想不出什么反驳的话，因此决定保持安静。\n什么都没有发生。",
+  "options": [
+    {
+      "choice_text": "按下按钮。",
+      "check_type": "",
+      "check_sin": "",
+      "check_threshold": 0,
+      "success_outcomes": [],
+      "failure_outcomes": []
+    },
+    {
+      "choice_text": "伸手触摸它。",
+      "check_type": "",
+      "check_sin": "",
+      "check_threshold": 0,
+      "success_outcomes": [],
+      "failure_outcomes": []
+    },
+    {
+      "choice_text": "离开房间。",
+      "check_type": "",
+      "check_sin": "",
+      "check_threshold": 0,
+      "success_outcomes": [],
+      "failure_outcomes": []
+    },
+    {
+      "choice_text": "不按按钮离开房间。",
+      "check_type": "",
+      "check_sin": "",
+      "check_threshold": 0,
+      "success_outcomes": [],
+      "failure_outcomes": []
+    },
+    {
+      "choice_text": "伸手触摸它。",
+      "check_type": "",
+      "check_sin": "",
+      "check_threshold": 0,
+      "success_outcomes": [],
+      "failure_outcomes": []
+    },
+    {
+      "choice_text": "离开房间。",
+      "check_type": "",
+      "check_sin": "",
+      "check_threshold": 0,
+      "success_outcomes": [],
+      "failure_outcomes": []
+    }
+  ],
+  "ego_gifts": [],
+  "related_abnormalities": [
+    "白幕内涉及目前游戏未公开内容，仅供参考，请以后续实装内容为准。",
+    "차원산화변이체",
+    "事件触发地点",
+    "镜像迷宫"
+  ],
+  "trigger_location": "",
+  "_structured": true,
+  "id": "wiki_事件-夜视镜",
+  "url": "https://limbuscompany.huijiwiki.com/wiki/事件-夜视镜",
+  "categories": [],
+  "source": "wiki",
+  "_schema_version": 1
+}

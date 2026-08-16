@@ -1,0 +1,180 @@
+{
+  "page_type": "enemy",
+  "title": "3-22-3-尸体堆起的山丘",
+  "enemy_name": "克罗默",
+  "battle_stage": "3-22-3-尸体堆起的山丘",
+  "body_part": "躯干",
+  "hp": 688,
+  "defense_level": 29,
+  "speed_min": 1,
+  "speed_max": 3,
+  "chaos_threshold": "275",
+  "physical_resistances": {
+    "斩击": 1.0,
+    "突刺": 1.0,
+    "打击": 0.5
+  },
+  "sin_resistances": {
+    "暴怒": 1.0,
+    "色欲": 0.5,
+    "怠惰": 1.0,
+    "暴食": 1.0,
+    "忧郁": 1.0,
+    "傲慢": 1.0,
+    "嫉妒": 1.0
+  },
+  "panic_types": [],
+  "passives": [],
+  "skills": [
+    {
+      "skill_name": "尖钉戳刺",
+      "icon_id": "802902",
+      "sin_type": "傲慢",
+      "damage_type": "斩击",
+      "base_value": 3,
+      "coin_power": 3,
+      "coin_count": 2,
+      "attack_level": 30,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "2命中时下回合使目标增加6级流血强度"
+      ]
+    },
+    {
+      "skill_name": "执握",
+      "icon_id": "802903",
+      "sin_type": "傲慢",
+      "damage_type": "穿刺",
+      "base_value": 4,
+      "coin_power": 3,
+      "coin_count": 1,
+      "attack_level": 30,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "{{Color|#93f13e|[战斗开始]}}下回合对目标施加1层执柄者的凝视"
+      ]
+    },
+    {
+      "skill_name": "狂笑",
+      "icon_id": "802904",
+      "sin_type": "傲慢",
+      "damage_type": "穿刺",
+      "base_value": 3,
+      "coin_power": 3,
+      "coin_count": 2,
+      "attack_level": 30,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[使用时] 对目标造成10点理智伤害",
+        "[命中时] 下回合使自身获得1层 强壮"
+      ]
+    },
+    {
+      "skill_name": "断罪钉刑",
+      "icon_id": "802905",
+      "sin_type": "傲慢",
+      "damage_type": "穿刺",
+      "base_value": 3,
+      "coin_power": 3,
+      "coin_count": 4,
+      "attack_level": 30,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[命中时] 下回合对目标施加1层 N公司的尖钉"
+      ]
+    },
+    {
+      "skill_name": "净化",
+      "icon_id": "802906",
+      "sin_type": "傲慢",
+      "damage_type": "穿刺",
+      "base_value": 3,
+      "coin_power": 3,
+      "coin_count": 5,
+      "attack_level": 30,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[使用时] 若目标的体力低于30%，则使本技能的威力+2",
+        "[命中时] 下回合对目标施加1层 N公司的尖钉",
+        "[命中时] 若目标的 N公司的尖钉 层数不低于5层，则使其陷入混乱并解除目标的 N公司的尖钉"
+      ]
+    },
+    {
+      "skill_name": "即刻处决！",
+      "icon_id": "802908",
+      "sin_type": "傲慢",
+      "damage_type": "打击",
+      "base_value": 12,
+      "coin_power": 3,
+      "coin_count": 2,
+      "attack_level": 30,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[命中时] 使目标陷入混乱，并在下回合对其施加10层 易损"
+      ]
+    },
+    {
+      "skill_name": "可笑至极",
+      "icon_id": "802910",
+      "sin_type": "常规",
+      "damage_type": "闪避",
+      "base_value": 3,
+      "coin_power": 79,
+      "coin_count": 1,
+      "attack_level": 0,
+      "attack_weight": 1,
+      "is_guard": true,
+      "guard_type": "闪避",
+      "importance": 0,
+      "coin_effects": [
+        "{{Color|#93f13e|[闪避成功]}}对目标造成5点理智伤害"
+      ]
+    },
+    {
+      "skill_name": "即刻处决！",
+      "icon_id": "802907",
+      "sin_type": "傲慢",
+      "damage_type": "打击",
+      "base_value": 9,
+      "coin_power": 3,
+      "coin_count": 3,
+      "attack_level": 30,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[使用时] 若目标现存体力不高于30%，则使本技能的威力+2",
+        "[命中时] 若目标的 N公司的尖钉 层数不低于5层，则使其陷入混乱",
+        "[命中时] 对目标造成( N公司的尖钉 层数x3)点伤害，随后解除目标的 N公司的尖钉"
+      ]
+    }
+  ],
+  "is_ally": false,
+  "_structured": true,
+  "appear_stages": [
+    "3-22-3-尸体堆起的山丘"
+  ],
+  "enemy_id": "3-22-3-尸体堆起的山丘|克罗默|躯干",
+  "defense": 29,
+  "speed": "1~3",
+  "_schema_version": 1
+}

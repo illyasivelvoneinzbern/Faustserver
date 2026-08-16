@@ -1,0 +1,33 @@
+{
+  "page_type": "event",
+  "title": "事件-脑叶公司 仓库",
+  "event_name": "脑叶公司 仓库",
+  "narration": "这里是脑叶公司的仓库里。\n破损的机械残骸中，混杂着像是肉块一样的东西。\n“那是……什么？仓库里为什么会有那种东西？”\n“据浮士德所说，那是一具脑叶公司的Sephirah更换时的旧机体残骸。”\n“……也就是说是尸体？”\n“有些不同。只是记忆被初始化，每次制造的都是与最初制造时相同的，同一个个体。”\n“像是被复原了。”\n“那啥，跟我们很像啊。”\n气氛似乎变得有些尴尬。\n作为执行经理，有没有什么鼓励的话能说呢？\n\n我们会顺利解决的。一如既往。\n“真是积极的态度呢~”\n“哦~但丁，在装酷吗？”\n担心是多余的，气氛很快就缓和了。\n获得\n！\n全体友方单位恢复\n10点理智值\n\n我们也有可能失败。一如既往。\n“这种时候，还说这种话吗……？”\n“真是愚蠢。这是执行经理为了缓和尴尬气氛的高级幽默啊！”\n“什么……”\n担心是多余的，气氛很快就缓和了。\n获得\n！\n获得50\n经费",
+  "options": [
+    {
+      "choice_text": "我们会顺利解决的。一如既往。",
+      "check_type": "",
+      "check_sin": "",
+      "check_threshold": 0,
+      "success_outcomes": [],
+      "failure_outcomes": []
+    },
+    {
+      "choice_text": "我们也有可能失败。一如既往。",
+      "check_type": "",
+      "check_sin": "",
+      "check_threshold": 0,
+      "success_outcomes": [],
+      "failure_outcomes": []
+    }
+  ],
+  "ego_gifts": [],
+  "related_abnormalities": [],
+  "trigger_location": "",
+  "_structured": true,
+  "id": "wiki_事件-脑叶公司_仓库",
+  "url": "https://limbuscompany.huijiwiki.com/wiki/事件-脑叶公司 仓库",
+  "categories": [],
+  "source": "wiki",
+  "_schema_version": 1
+}

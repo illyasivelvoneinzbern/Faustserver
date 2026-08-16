@@ -1,0 +1,46 @@
+{
+  "page_type": "event",
+  "title": "事件-谷底之星",
+  "event_name": "谷底之星",
+  "narration": "啊啊，何等碧蓝。\n这样纯粹的碧蓝，\n何人能够接近？\n愈是接近，身体愈被排斥。\n只是，如此碧蓝。\n想成为那碧蓝。\n无比强烈的冲动，\n似乎要撕裂身体，喷涌而出。\n\n前进\n蓝。\n碧蓝。\n我们亦是碧蓝。\n我已是碧蓝。\n深邃的浅薄的温和的同时愉悦的寒冷的\n温暖的或是柔软的凉爽的再或是炽热的\n技能组不包含\n傲慢属性攻击技能\n的友方单位失去\n20点体力\n！\n获得\n！\n\n任由自己被推开\n但，我们并不纯粹。\n如想成为碧蓝，\n必需要让自己那真正澄澈的蓝\n融入碧蓝之中。\n我们任由自身被推开。\n难以言喻的高昂兴致\n包裹着我们。\n技能组不包含\n傲慢属性攻击技能\n的友方单位失去\n20点体力\n！\n获得40\n经费\n\n急忙离开\n恢复理智后，我迅速背过身。\n不能被它吸引。\n哪怕是曾目睹过那存在的记忆，\n也不能残留在脑中。\n什么都没有发生。",
+  "options": [
+    {
+      "choice_text": "前进",
+      "check_type": "",
+      "check_sin": "",
+      "check_threshold": 0,
+      "success_outcomes": [],
+      "failure_outcomes": []
+    },
+    {
+      "choice_text": "任由自己被推开",
+      "check_type": "",
+      "check_sin": "",
+      "check_threshold": 0,
+      "success_outcomes": [],
+      "failure_outcomes": []
+    },
+    {
+      "choice_text": "急忙离开",
+      "check_type": "",
+      "check_sin": "",
+      "check_threshold": 0,
+      "success_outcomes": [],
+      "failure_outcomes": []
+    }
+  ],
+  "ego_gifts": [],
+  "related_abnormalities": [
+    "白幕内涉及目前游戏未公开内容，仅供参考，请以后续实装内容为准。",
+    "파란별",
+    "事件触发地点",
+    "镜像迷宫"
+  ],
+  "trigger_location": "",
+  "_structured": true,
+  "id": "wiki_事件-谷底之星",
+  "url": "https://limbuscompany.huijiwiki.com/wiki/事件-谷底之星",
+  "categories": [],
+  "source": "wiki",
+  "_schema_version": 1
+}

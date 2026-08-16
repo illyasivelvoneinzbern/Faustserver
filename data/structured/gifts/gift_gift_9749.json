@@ -1,0 +1,22 @@
+{
+  "id": "gift_9749",
+  "title": "荆棘头冠",
+  "url": "https://limbuscompany.huijiwiki.com/wiki/E.G.O饰品",
+  "categories": [
+    "E.G.O饰品"
+  ],
+  "content": "回合开始时，使理智值最低的1名友方单位恢复8点理智值(陷入恐慌或E.G.O侵蚀除外)\n若该友方单位理智值为最大值，则本回合内使其拼点威力+1\n本回合该友方单位的理智值恢复效率+1，理智值减少效率-1",
+  "source": "tabx",
+  "_structured": true,
+  "page_type": "ego_gift",
+  "gift_name": "荆棘头冠",
+  "rarity": 3,
+  "cost": "270",
+  "effect_types": "泛用",
+  "attack_type": "傲慢",
+  "location": "镜像迷宫",
+  "stage": "base",
+  "special": "紫罗兰的正午",
+  "event": "事件-一罪百善理智值恢复E.G.O饰品获取",
+  "_schema_version": 1
+}

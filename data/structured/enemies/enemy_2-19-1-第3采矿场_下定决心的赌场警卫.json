@@ -1,0 +1,44 @@
+{
+  "page_type": "enemy",
+  "title": "2-19-1-第3采矿场",
+  "enemy_name": "下定决心的赌场警卫",
+  "battle_stage": "2-19-1-第3采矿场",
+  "body_part": "",
+  "hp": 66,
+  "defense_level": 11,
+  "speed_min": 3,
+  "speed_max": 5,
+  "chaos_threshold": "",
+  "physical_resistances": {
+    "斩击": 2.0,
+    "突刺": 1.0,
+    "打击": 0.75
+  },
+  "sin_resistances": {
+    "暴怒": 1.0,
+    "色欲": 1.0,
+    "怠惰": 1.0,
+    "暴食": 1.0,
+    "忧郁": 1.0,
+    "傲慢": 1.0,
+    "嫉妒": 1.0
+  },
+  "panic_types": [
+    "无措"
+  ],
+  "passives": [
+    "无"
+  ],
+  "skills": [],
+  "is_ally": false,
+  "_structured": true,
+  "appear_stages": [
+    "2-19-1-第3采矿场",
+    "主线战斗2-09",
+    "经验采光-2"
+  ],
+  "enemy_id": "2-19-1-第3采矿场|下定决心的赌场警卫|",
+  "defense": 11,
+  "speed": "3~5",
+  "_schema_version": 1
+}

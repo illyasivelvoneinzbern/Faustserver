@@ -1,0 +1,184 @@
+{
+  "page_type": "enemy",
+  "title": "大湖之镜-复活的脑叶公司E.G.O:朱符 - 马里勒",
+  "enemy_name": "复活的脑叶公司E.G.O::朱符",
+  "battle_stage": "大湖之镜-复活的脑叶公司E.G.O:朱符 - 马里勒",
+  "body_part": "",
+  "hp": 133,
+  "defense_level": 38,
+  "speed_min": 3,
+  "speed_max": 5,
+  "chaos_threshold": "",
+  "physical_resistances": {
+    "斩击": 0.5,
+    "突刺": 1.0,
+    "打击": 2.0
+  },
+  "sin_resistances": {
+    "暴怒": 0.8,
+    "色欲": 1.0,
+    "怠惰": 1.0,
+    "暴食": 1.0,
+    "忧郁": 1.2,
+    "傲慢": 1.0,
+    "嫉妒": 1.0
+  },
+  "panic_types": [
+    "抑郁"
+  ],
+  "passives": [
+    "流淌的忧郁：反面命中时，使目标增加2级 沉沦 强度",
+    "溢出的哀伤：回合结束时，自身失去5点理智值"
+  ],
+  "skills": [
+    {
+      "skill_name": "伤痕诅咒",
+      "icon_id": "9005901",
+      "sin_type": "色欲",
+      "damage_type": "打击",
+      "base_value": 4,
+      "coin_power": 9,
+      "coin_count": 2,
+      "attack_level": 43,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[使用时] 使自身获得1层 纠缠的咒符",
+        "[命中时] 对目标施加3层 破裂"
+      ]
+    },
+    {
+      "skill_name": "增殖诅咒",
+      "icon_id": "9005902",
+      "sin_type": "色欲",
+      "damage_type": "打击",
+      "base_value": 5,
+      "coin_power": 9,
+      "coin_count": 3,
+      "attack_level": 43,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[使用时] 使自身获得2层 纠缠的咒符",
+        "[命中时] 对目标施加2层 破裂"
+      ]
+    },
+    {
+      "skill_name": "束缚诅咒",
+      "icon_id": "9005903",
+      "sin_type": "色欲",
+      "damage_type": "打击",
+      "base_value": 6,
+      "coin_power": 9,
+      "coin_count": 2,
+      "attack_level": 43,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "使用时使自身获得2层纠缠的咒符"
+      ]
+    },
+    {
+      "skill_name": "凸显伤口",
+      "icon_id": "9006104",
+      "sin_type": "色欲",
+      "damage_type": "打击",
+      "base_value": 3,
+      "coin_power": 9,
+      "coin_count": 4,
+      "attack_level": 43,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[命中时] 对目标施加2层 破裂",
+        "[命中时] 下回合对目标施加2层 束缚",
+        "[正面命中时] 使目标增加5级 破裂 强度"
+      ]
+    },
+    {
+      "skill_name": "伤痕诅咒",
+      "icon_id": "9005901",
+      "sin_type": "色欲",
+      "damage_type": "打击",
+      "base_value": 4,
+      "coin_power": 7,
+      "coin_count": 1,
+      "attack_level": 0,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "使用时使自身获得1层纠缠的咒符"
+      ]
+    },
+    {
+      "skill_name": "增殖诅咒",
+      "icon_id": "9005902",
+      "sin_type": "色欲",
+      "damage_type": "打击",
+      "base_value": 5,
+      "coin_power": 3,
+      "coin_count": 2,
+      "attack_level": 0,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "使用时使自身获得2层纠缠的咒符"
+      ]
+    },
+    {
+      "skill_name": "束缚诅咒",
+      "icon_id": "9005903",
+      "sin_type": "色欲",
+      "damage_type": "打击",
+      "base_value": 6,
+      "coin_power": 3,
+      "coin_count": 2,
+      "attack_level": 0,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "使用时使自身获得2层纠缠的咒符"
+      ]
+    },
+    {
+      "skill_name": "凸显伤口",
+      "icon_id": "9006104",
+      "sin_type": "色欲",
+      "damage_type": "打击",
+      "base_value": 3,
+      "coin_power": 3,
+      "coin_count": 3,
+      "attack_level": 0,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "回合结束时消耗全部纠缠的咒符"
+      ]
+    }
+  ],
+  "is_ally": false,
+  "_structured": true,
+  "appear_stages": [
+    "大湖之镜-复活的脑叶公司E.G.O:朱符 - 马里勒"
+  ],
+  "enemy_id": "大湖之镜-复活的脑叶公司E.G.O:朱符 - 马里勒|复活的脑叶公司E.G.O::朱符|",
+  "defense": 38,
+  "speed": "3~5",
+  "_schema_version": 1
+}

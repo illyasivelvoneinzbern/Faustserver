@@ -1,0 +1,152 @@
+{
+  "page_type": "enemy",
+  "title": "憎恶与绝望-困难难度",
+  "enemy_name": "魔法少女",
+  "battle_stage": "憎恶与绝望-困难难度",
+  "body_part": "",
+  "hp": 210,
+  "defense_level": 63,
+  "speed_min": 3,
+  "speed_max": 6,
+  "chaos_threshold": "",
+  "physical_resistances": {
+    "斩击": 1.0,
+    "突刺": 1.0,
+    "打击": 1.0
+  },
+  "sin_resistances": {
+    "暴怒": 1.0,
+    "色欲": 1.0,
+    "怠惰": 1.0,
+    "暴食": 1.0,
+    "忧郁": 1.0,
+    "傲慢": 1.0,
+    "嫉妒": 1.0
+  },
+  "panic_types": [],
+  "passives": [],
+  "skills": [
+    {
+      "skill_name": "要用爱！",
+      "icon_id": "40000301",
+      "sin_type": "嫉妒",
+      "damage_type": "穿刺",
+      "base_value": 3,
+      "coin_power": 5793,
+      "coin_count": 3,
+      "attack_level": 60,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[使用时] 目标的 破裂 强度与 沉沦 强度之和每有5级，使本技能的基础威力+1(最多+2)",
+        "[使用时] 使自身获得10层 爱/正义",
+        "[命中时] 使目标增加1级 破裂 强度"
+      ]
+    },
+    {
+      "skill_name": "以正义之名！",
+      "icon_id": "40000302",
+      "sin_type": "嫉妒",
+      "damage_type": "穿刺",
+      "base_value": 4,
+      "coin_power": 5793,
+      "coin_count": 2,
+      "attack_level": 60,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[使用时] 目标的 破裂 强度与 沉沦 强度之和每有7级，使本技能的硬币威力+1(最多+2)",
+        "[使用时] 使自身获得10层 爱/正义",
+        "[命中时] 对目标施加2层 破裂 强度",
+        "[命中时] 若目标的 破裂 强度与 沉沦 强度之和不低于10级，则下回合对其施加1层 束缚"
+      ]
+    },
+    {
+      "skill_name": "阿卡纳律动",
+      "icon_id": "40000303",
+      "sin_type": "嫉妒",
+      "damage_type": "打击",
+      "base_value": 4,
+      "coin_power": 5793,
+      "coin_count": 4,
+      "attack_level": 60,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[命中时] 若指定敌方单位，则使目标增加1级 破裂 强度",
+        "[命中时] 若指定友方单位，则使其恢复5点体力"
+      ]
+    },
+    {
+      "skill_name": "阿卡纳光破斩",
+      "icon_id": "40000306",
+      "sin_type": "嫉妒",
+      "damage_type": "打击",
+      "base_value": 13,
+      "coin_power": 5793,
+      "coin_count": 200,
+      "attack_level": 70,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[攻击后] 对自身施加 好像用力过猛了",
+        "[命中时] 造成(目标的 崩溃的自尊 层数×200)点固定伤害"
+      ]
+    },
+    {
+      "skill_name": "只能用那招了！",
+      "icon_id": "40000304",
+      "sin_type": "暴怒",
+      "damage_type": "防御",
+      "base_value": 15,
+      "coin_power": 987,
+      "coin_count": 1,
+      "attack_level": 0,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "战斗开始使自身获得1层{{状态2|咏唱-阿卡纳光破斩（2）|咏唱-阿卡纳光破斩|咏唱-阿卡纳光破斩}}",
+        "战斗开始使自身获得50点护盾",
+        "战斗开始下回合使自身的{{状态2|挑衅值|4=特殊}}+20"
+      ]
+    },
+    {
+      "skill_name": "咏唱-阿卡纳光破斩",
+      "icon_id": "40000305",
+      "sin_type": "暴怒",
+      "damage_type": "防御",
+      "base_value": 15,
+      "coin_power": 987,
+      "coin_count": 1,
+      "attack_level": 0,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "战斗开始使自身获得50点护盾",
+        "战斗开始下回合使自身的{{状态2|挑衅值|4=特殊}}+20"
+      ]
+    }
+  ],
+  "is_ally": true,
+  "_structured": true,
+  "appear_stages": [
+    "憎恶与绝望-困难难度",
+    "憎恶与绝望-简单难度"
+  ],
+  "enemy_id": "憎恶与绝望-困难难度|魔法少女|",
+  "defense": 63,
+  "speed": "3~6",
+  "_schema_version": 1
+}

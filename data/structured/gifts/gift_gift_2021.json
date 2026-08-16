@@ -1,0 +1,21 @@
+{
+  "id": "gift_2021",
+  "title": "人鱼油",
+  "url": "https://limbuscompany.huijiwiki.com/wiki/E.G.O饰品",
+  "categories": [
+    "E.G.O饰品"
+  ],
+  "content": "令施加震颤的技能使目标额外增加1级震颤强度",
+  "source": "tabx",
+  "_structured": true,
+  "page_type": "ego_gift",
+  "gift_name": "人鱼油",
+  "rarity": 0,
+  "cost": "0",
+  "effect_types": "",
+  "attack_type": "怠惰",
+  "location": "第五章",
+  "stage": "base",
+  "event": "事件-左转或右转",
+  "_schema_version": 1
+}

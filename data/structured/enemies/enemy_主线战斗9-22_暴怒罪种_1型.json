@@ -1,0 +1,66 @@
+{
+  "page_type": "enemy",
+  "title": "主线战斗9-22",
+  "enemy_name": "暴怒罪种 1型",
+  "battle_stage": "主线战斗9-22",
+  "body_part": "躯干",
+  "hp": 77,
+  "defense_level": 52,
+  "speed_min": 2,
+  "speed_max": 5,
+  "chaos_threshold": "46",
+  "physical_resistances": {
+    "斩击": 1.0,
+    "突刺": 1.0,
+    "打击": 2.0
+  },
+  "sin_resistances": {
+    "暴怒": 0.75,
+    "色欲": 2.0,
+    "怠惰": 0.75,
+    "暴食": 1.0,
+    "忧郁": 2.0,
+    "傲慢": 1.0,
+    "嫉妒": 1.0
+  },
+  "panic_types": [],
+  "passives": [],
+  "skills": [
+    {
+      "skill_name": "烈焰烧灼",
+      "icon_id": "800701",
+      "sin_type": "暴怒",
+      "damage_type": "",
+      "base_value": 0,
+      "coin_power": 3,
+      "coin_count": 1,
+      "attack_level": 54,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "coin_effects": []
+    },
+    {
+      "skill_name": "暴怒迸发",
+      "icon_id": "800702",
+      "sin_type": "暴怒",
+      "damage_type": "",
+      "base_value": 0,
+      "coin_power": 10,
+      "coin_count": 2,
+      "attack_level": 54,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "coin_effects": [
+        "[正面命中时] 下回合使目标增加2级 烧伤 回合结束时：受到{0}点固定伤害。持续{1}回合。 强度"
+      ]
+    }
+  ],
+  "is_ally": false,
+  "_structured": true,
+  "enemy_id": "主线战斗9-22|暴怒罪种 1型",
+  "defense": 52,
+  "speed": "2~5",
+  "_schema_version": 1
+}

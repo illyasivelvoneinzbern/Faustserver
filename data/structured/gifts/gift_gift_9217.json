@@ -1,0 +1,21 @@
+{
+  "id": "gift_9217",
+  "title": "某人的终端",
+  "url": "https://limbuscompany.huijiwiki.com/wiki/E.G.O饰品",
+  "categories": [
+    "E.G.O饰品"
+  ],
+  "content": "攻击结束时，若指令对象阵亡，则使击杀指令对象的友方单位在下回合获得1层忧郁威力提升；随机对1名存活的敌方单位施加3层沉沦(每回合最多1次)\n- 若击杀指令对象的友方单位属于食指，则改为下回合获得1层强壮，而非忧郁威力提升(每回合最多1次)",
+  "source": "tabx",
+  "_structured": true,
+  "page_type": "ego_gift",
+  "gift_name": "某人的终端",
+  "rarity": 3,
+  "cost": "252",
+  "effect_types": "沉沦",
+  "attack_type": "傲慢",
+  "location": "镜像迷宫",
+  "stage": "base",
+  "special": "无割舍者",
+  "_schema_version": 1
+}

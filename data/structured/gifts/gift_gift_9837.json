@@ -1,0 +1,21 @@
+{
+  "id": "gift_9837",
+  "title": "金属构造体",
+  "url": "https://limbuscompany.huijiwiki.com/wiki/E.G.O饰品",
+  "categories": [
+    "E.G.O饰品"
+  ],
+  "content": "回合开始时，使全体友方单位获得2层体力恢复提升\n拥有增加破裂强度或施加破裂层数的攻击技能的友方单位改为获得4层体力恢复提升\n[指令：熔毁 浮士德 E.G.O专属效果]\n该E.G.O技能效果与被动恢复的溢出体力会转化为护盾",
+  "source": "tabx",
+  "_structured": true,
+  "page_type": "ego_gift",
+  "gift_name": "金属构造体",
+  "rarity": 4,
+  "cost": "400",
+  "effect_types": "破裂",
+  "attack_type": "暴食",
+  "location": "善意的巡礼",
+  "stage": "base",
+  "special": "善意的巡礼",
+  "_schema_version": 1
+}

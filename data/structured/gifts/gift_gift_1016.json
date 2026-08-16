@@ -1,0 +1,21 @@
+{
+  "id": "gift_1016",
+  "title": "紧急手术套件",
+  "url": "https://limbuscompany.huijiwiki.com/wiki/E.G.O饰品",
+  "categories": [
+    "E.G.O饰品"
+  ],
+  "content": "友方单位在战斗中受到致命伤害时，其体力不会低于1。\n下回合开始时，使这名友方单位的体力回满，并使其获得3层手术。\n关卡结束后，该友方单位会直接阵亡。\n（一次性饰品，生效后消耗）",
+  "source": "tabx",
+  "_structured": true,
+  "page_type": "ego_gift",
+  "gift_name": "紧急手术套件",
+  "rarity": 0,
+  "cost": "0",
+  "effect_types": "",
+  "attack_type": "傲慢",
+  "location": "第二章",
+  "stage": "base",
+  "event": "你想挨打吗？很想？",
+  "_schema_version": 1
+}

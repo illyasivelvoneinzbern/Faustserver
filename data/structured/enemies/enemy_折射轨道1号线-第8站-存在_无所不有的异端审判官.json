@@ -1,0 +1,123 @@
+{
+  "page_type": "enemy",
+  "title": "折射轨道1号线-第8站-存在",
+  "enemy_name": "无所不有的异端审判官",
+  "battle_stage": "折射轨道1号线-第8站-存在",
+  "body_part": "",
+  "hp": 692,
+  "defense_level": 59,
+  "speed_min": 2,
+  "speed_max": 5,
+  "chaos_threshold": "346",
+  "physical_resistances": {
+    "斩击": 0.5,
+    "突刺": 0.75,
+    "打击": 1.0
+  },
+  "sin_resistances": {
+    "暴怒": 1.5,
+    "色欲": 0.75,
+    "怠惰": 1.0,
+    "暴食": 1.0,
+    "忧郁": 1.0,
+    "傲慢": 0.75,
+    "嫉妒": 2.0
+  },
+  "panic_types": [
+    "本能"
+  ],
+  "passives": [
+    "血脉搏动的手臂: 回合开始时：使自身按 本能 层数获得 强壮 与 守护",
+    "受损的手臂: 本单位受到1点以上的伤害时失去1层 本能 。",
+    "修复躯壳: 回合结束时，若本回合内未受到伤害，则恢复体力上限5%的体力并获得1层 本能 。",
+    "狂乱的双眼: 本单位行为取决于 本能 层数。 带有不低于4层 本能 时将进入攻击模式， 本能 层数低于4层时将进入防御模式。",
+    "折射的挣扎: 无恐慌类型数据"
+  ],
+  "skills": [
+    {
+      "skill_name": "诡异之瞳",
+      "icon_id": "802401",
+      "sin_type": "色欲",
+      "damage_type": "斩击",
+      "base_value": 4,
+      "coin_power": 9,
+      "coin_count": 3,
+      "attack_level": 54,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[使用时] 若目标的理智值低于0点，则使本技能的基础威力+2",
+        "[使用时] 使自身获得1层 本能",
+        "[命中时] 对目标造成7点理智伤害"
+      ]
+    },
+    {
+      "skill_name": "拙劣模仿",
+      "icon_id": "802402",
+      "sin_type": "色欲",
+      "damage_type": "斩击",
+      "base_value": 5,
+      "coin_power": 9,
+      "coin_count": 1,
+      "attack_level": 58,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "使用时对目标造成10点理智伤害",
+        "使用时使自身获得2层本能"
+      ]
+    },
+    {
+      "skill_name": "修补躯壳",
+      "icon_id": "802403",
+      "sin_type": "色欲",
+      "damage_type": "突刺",
+      "base_value": 6,
+      "coin_power": 9,
+      "coin_count": 3,
+      "attack_level": 54,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[使用时] 若目标的理智值低于0点，则使本技能的基础威力+2",
+        "[使用时] 使自身获得5层 本能",
+        "[命中时] 对目标造成7点理智伤害"
+      ]
+    },
+    {
+      "skill_name": "粉身碎骨",
+      "icon_id": "802404",
+      "sin_type": "色欲",
+      "damage_type": "突刺",
+      "base_value": 4,
+      "coin_power": 9,
+      "coin_count": 3,
+      "attack_level": 54,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[使用时] 若目标的理智值低于0点，则使本技能的基础威力+2",
+        "[使用时] 使自身获得1层 本能",
+        "[命中时] 对目标施加3层 流血",
+        "[命中时] 使目标增加10级 流血 强度"
+      ]
+    }
+  ],
+  "is_ally": false,
+  "_structured": true,
+  "appear_stages": [
+    "折射轨道1号线-第8站-存在"
+  ],
+  "enemy_id": "折射轨道1号线-第8站-存在|无所不有的异端审判官|",
+  "defense": 59,
+  "speed": "2~5",
+  "_schema_version": 1
+}

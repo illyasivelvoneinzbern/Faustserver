@@ -1,0 +1,601 @@
+{
+  "page_type": "personality",
+  "title": "希斯克利夫R公司第四集团军兔子队",
+  "sinner": "希斯克利夫",
+  "sinner_id": "heathcliff",
+  "personality_name": "希斯克利夫R公司第四集团军兔子队",
+  "release_date": "2023.02.27",
+  "acquisition": "常驻提取",
+  "sin_affinities": {
+    "暴怒": 3,
+    "暴食": 2,
+    "嫉妒": 1
+  },
+  "physical_resistances": {
+    "斩击": 1.0,
+    "突刺": 0.5,
+    "打击": 2.0
+  },
+  "ego_resources": {
+    "暴怒": 3,
+    "暴食": 2,
+    "嫉妒": 1
+  },
+  "skills": [
+    {
+      "skill_index": 0,
+      "skill_name": "撕咬鲜草",
+      "sin_type": "",
+      "damage_type": "",
+      "guard_type": "",
+      "attack_capacity": 1,
+      "coin_count": 4,
+      "stage_groups": [
+        [
+          {
+            "stage": "I",
+            "base_value": 3,
+            "coin_power": 2,
+            "effects": [
+              {
+                "timing": "命中时",
+                "description": "使自身获得1层 充能"
+              }
+            ],
+            "raw_text": "基础值： 3 变动值： +2 消耗1发 弹药 消耗1发 弹药 [命中时] 使自身获得1层 充能"
+          },
+          {
+            "stage": "II",
+            "base_value": 3,
+            "coin_power": 2,
+            "effects": [
+              {
+                "timing": "命中时",
+                "description": "使自身获得3层 充能"
+              }
+            ],
+            "raw_text": "基础值： 3 变动值： +2 消耗1发 弹药 消耗1发 弹药 [命中时] 使自身获得3层 充能"
+          },
+          {
+            "stage": "III",
+            "base_value": 4,
+            "coin_power": 2,
+            "effects": [
+              {
+                "timing": "命中时",
+                "description": "使自身获得3层 充能"
+              }
+            ],
+            "raw_text": "基础值： 4 变动值： +2 消耗1发 弹药 消耗1发 弹药 [命中时] 使自身获得3层 充能"
+          },
+          {
+            "stage": "IV",
+            "base_value": 4,
+            "coin_power": 2,
+            "effects": [
+              {
+                "timing": "命中时",
+                "description": "使自身获得3层 充能"
+              }
+            ],
+            "raw_text": "基础值： 4 变动值： +2 消耗1发 弹药 消耗1发 弹药 [命中时] 使自身获得3层 充能"
+          }
+        ]
+      ],
+      "coin_effects": [
+        {
+          "coin_index": 0,
+          "description": "技能一"
+        },
+        {
+          "coin_index": 0,
+          "description": "撕咬鲜草 3"
+        },
+        {
+          "coin_index": 0,
+          "timing": "",
+          "description": "3"
+        },
+        {
+          "coin_index": 0,
+          "description": "+5"
+        },
+        {
+          "coin_index": 0,
+          "description": "1"
+        },
+        {
+          "coin_index": 0,
+          "description": "基础值： 3 变动值： +2"
+        },
+        {
+          "coin_index": 1,
+          "timing": "",
+          "description": "消耗1发 弹药"
+        },
+        {
+          "coin_index": 2,
+          "timing": "",
+          "description": "消耗1发 弹药"
+        },
+        {
+          "coin_index": 3,
+          "timing": "命中时",
+          "description": "[命中时] 使自身获得1层 充能"
+        },
+        {
+          "coin_index": 1,
+          "timing": "",
+          "description": "消耗1发 弹药"
+        },
+        {
+          "coin_index": 2,
+          "timing": "",
+          "description": "消耗1发 弹药"
+        },
+        {
+          "coin_index": 3,
+          "timing": "命中时",
+          "description": "[命中时] 使自身获得3层 充能"
+        },
+        {
+          "coin_index": 1,
+          "timing": "",
+          "description": "消耗1发 弹药"
+        },
+        {
+          "coin_index": 2,
+          "timing": "",
+          "description": "消耗1发 弹药"
+        },
+        {
+          "coin_index": 3,
+          "timing": "命中时",
+          "description": "[命中时] 使自身获得3层 充能"
+        },
+        {
+          "coin_index": 1,
+          "timing": "",
+          "description": "消耗1发 弹药"
+        },
+        {
+          "coin_index": 2,
+          "timing": "",
+          "description": "消耗1发 弹药"
+        },
+        {
+          "coin_index": 3,
+          "timing": "命中时",
+          "description": "[命中时] 使自身获得3层 充能"
+        }
+      ],
+      "wikitext_key": "1技能"
+    },
+    {
+      "skill_index": 1,
+      "skill_name": "火力集中",
+      "sin_type": "",
+      "damage_type": "",
+      "guard_type": "",
+      "attack_capacity": 1,
+      "coin_count": 4,
+      "stage_groups": [
+        [
+          {
+            "stage": "I",
+            "base_value": 3,
+            "coin_power": 2,
+            "effects": [
+              {
+                "timing": "命中时",
+                "description": "使目标增加1级 流血 强度 消耗1发 弹药"
+              },
+              {
+                "timing": "命中时",
+                "description": "使目标增加1级 流血 强度 消耗1发 弹药"
+              },
+              {
+                "timing": "命中时",
+                "description": "使目标增加1级 流血 强度"
+              }
+            ],
+            "raw_text": "基础值： 3 变动值： +2 消耗1发 弹药 [命中时] 使目标增加1级 流血 强度 消耗1发 弹药 [命中时] 使目标增加1级 流血 强度 消耗1发 弹药 [命中时] 使目标增加1级 流血 强度"
+          },
+          {
+            "stage": "II",
+            "base_value": 3,
+            "coin_power": 2,
+            "effects": [
+              {
+                "timing": "命中时",
+                "description": "使目标增加1级 流血 强度 消耗1发 弹药"
+              },
+              {
+                "timing": "命中时",
+                "description": "使目标增加1级 流血 强度 消耗1发 弹药"
+              },
+              {
+                "timing": "命中时",
+                "description": "使目标增加1级 流血 强度"
+              }
+            ],
+            "raw_text": "基础值： 3 变动值： +2 若自身的 速度值 不低于6，则使本技能的硬币威力+1 消耗1发 弹药 [命中时] 使目标增加1级 流血 强度 消耗1发 弹药 [命中时] 使目标增加1级 流血 强度 消耗1发 弹药 [命中时] 使目标增加1级 流血 强度"
+          },
+          {
+            "stage": "III",
+            "base_value": 4,
+            "coin_power": 2,
+            "effects": [
+              {
+                "timing": "命中时",
+                "description": "使目标增加1级 流血 强度 消耗1发 弹药"
+              },
+              {
+                "timing": "命中时",
+                "description": "使目标增加1级 流血 强度 消耗1发 弹药"
+              },
+              {
+                "timing": "命中时",
+                "description": "使目标增加1级 流血 强度"
+              }
+            ],
+            "raw_text": "基础值： 4 变动值： +2 若自身的 速度值 不低于6，则使本技能的硬币威力+1 消耗1发 弹药 [命中时] 使目标增加1级 流血 强度 消耗1发 弹药 [命中时] 使目标增加1级 流血 强度 消耗1发 弹药 [命中时] 使目标增加1级 流血 强度"
+          },
+          {
+            "stage": "IV",
+            "base_value": 4,
+            "coin_power": 2,
+            "effects": [
+              {
+                "timing": "命中时",
+                "description": "使目标增加1级 流血 强度 消耗1发 弹药"
+              },
+              {
+                "timing": "命中时",
+                "description": "使目标增加1级 流血 强度 消耗1发 弹药"
+              },
+              {
+                "timing": "命中时",
+                "description": "使目标增加1级 流血 强度"
+              }
+            ],
+            "raw_text": "基础值： 4 变动值： +2 若自身的 速度值 不低于6，则使本技能的硬币威力+1 消耗1发 弹药 [命中时] 使目标增加1级 流血 强度 消耗1发 弹药 [命中时] 使目标增加1级 流血 强度 消耗1发 弹药 [命中时] 使目标增加1级 流血 强度"
+          }
+        ]
+      ],
+      "coin_effects": [
+        {
+          "coin_index": 0,
+          "description": "技能二"
+        },
+        {
+          "coin_index": 0,
+          "description": "火力集中 2"
+        },
+        {
+          "coin_index": 0,
+          "timing": "",
+          "description": "4"
+        },
+        {
+          "coin_index": 0,
+          "description": "+5"
+        },
+        {
+          "coin_index": 0,
+          "description": "1"
+        },
+        {
+          "coin_index": 0,
+          "description": "基础值： 3 变动值： +2"
+        },
+        {
+          "coin_index": 1,
+          "timing": "命中时",
+          "description": "消耗1发 弹药 [命中时] 使目标增加1级 流血 强度"
+        },
+        {
+          "coin_index": 2,
+          "timing": "命中时",
+          "description": "消耗1发 弹药 [命中时] 使目标增加1级 流血 强度"
+        },
+        {
+          "coin_index": 3,
+          "timing": "命中时",
+          "description": "消耗1发 弹药 [命中时] 使目标增加1级 流血 强度"
+        },
+        {
+          "coin_index": 1,
+          "timing": "命中时",
+          "description": "消耗1发 弹药 [命中时] 使目标增加1级 流血 强度"
+        },
+        {
+          "coin_index": 2,
+          "timing": "命中时",
+          "description": "消耗1发 弹药 [命中时] 使目标增加1级 流血 强度"
+        },
+        {
+          "coin_index": 3,
+          "timing": "命中时",
+          "description": "消耗1发 弹药 [命中时] 使目标增加1级 流血 强度"
+        },
+        {
+          "coin_index": 1,
+          "timing": "命中时",
+          "description": "消耗1发 弹药 [命中时] 使目标增加1级 流血 强度"
+        },
+        {
+          "coin_index": 2,
+          "timing": "命中时",
+          "description": "消耗1发 弹药 [命中时] 使目标增加1级 流血 强度"
+        },
+        {
+          "coin_index": 3,
+          "timing": "命中时",
+          "description": "消耗1发 弹药 [命中时] 使目标增加1级 流血 强度"
+        },
+        {
+          "coin_index": 1,
+          "timing": "命中时",
+          "description": "消耗1发 弹药 [命中时] 使目标增加1级 流血 强度"
+        },
+        {
+          "coin_index": 2,
+          "timing": "命中时",
+          "description": "消耗1发 弹药 [命中时] 使目标增加1级 流血 强度"
+        },
+        {
+          "coin_index": 3,
+          "timing": "命中时",
+          "description": "消耗1发 弹药 [命中时] 使目标增加1级 流血 强度"
+        }
+      ],
+      "wikitext_key": "2技能"
+    },
+    {
+      "skill_index": 2,
+      "skill_name": "快速压制",
+      "sin_type": "",
+      "damage_type": "",
+      "guard_type": "",
+      "attack_capacity": 1,
+      "coin_count": 6,
+      "stage_groups": [
+        [
+          {
+            "stage": "I",
+            "base_value": 3,
+            "coin_power": 2,
+            "effects": [
+              {
+                "timing": "命中时",
+                "description": "对目标施加2层 易损 消耗1发 弹药"
+              },
+              {
+                "timing": "命中时",
+                "description": "对目标施加2层 易损"
+              },
+              {
+                "timing": "命中时",
+                "description": "使目标增加1级 破裂 强度"
+              },
+              {
+                "timing": "命中时",
+                "description": "使目标增加2级 破裂 强度"
+              },
+              {
+                "timing": "命中时",
+                "description": "使目标增加3级 破裂 强度"
+              }
+            ],
+            "raw_text": "基础值： 3 变动值： +2 若自身的 速度值 不低于6，则使本技能的硬币威力+2 消耗1发 弹药 [命中时] 对目标施加2层 易损 消耗1发 弹药 [命中时] 对目标施加2层 易损 [命中时] 使目标增加1级 破裂 强度 [命中时] 使目标增加2级 破裂 强度 [命中时] 使目标增加3级 破裂 强度"
+          },
+          {
+            "stage": "II",
+            "base_value": 3,
+            "coin_power": 2,
+            "effects": [
+              {
+                "timing": "命中时",
+                "description": "对目标施加2层 易损 消耗1发 弹药"
+              },
+              {
+                "timing": "命中时",
+                "description": "对目标施加2层 易损"
+              },
+              {
+                "timing": "命中时",
+                "description": "使目标增加1级 破裂 强度"
+              },
+              {
+                "timing": "命中时",
+                "description": "使目标增加2级 破裂 强度"
+              },
+              {
+                "timing": "命中时",
+                "description": "使目标增加3级 破裂 强度"
+              }
+            ],
+            "raw_text": "基础值： 3 变动值： +2 若自身的 速度值 不低于6，则使本技能的硬币威力+2 消耗1发 弹药 [命中时] 对目标施加2层 易损 消耗1发 弹药 [命中时] 对目标施加2层 易损 [命中时] 使目标增加1级 破裂 强度 [命中时] 使目标增加2级 破裂 强度 [命中时] 使目标增加3级 破裂 强度"
+          }
+        ]
+      ],
+      "coin_effects": [
+        {
+          "coin_index": 0,
+          "description": "技能三"
+        },
+        {
+          "coin_index": 0,
+          "description": "快速压制 1"
+        },
+        {
+          "coin_index": 0,
+          "timing": "",
+          "description": "5"
+        },
+        {
+          "coin_index": 0,
+          "description": "+5"
+        },
+        {
+          "coin_index": 0,
+          "description": "1"
+        },
+        {
+          "coin_index": 0,
+          "description": "基础值： 3 变动值： +2 若自身的 速度值 不低于6，则使本技能的硬币威力+2"
+        },
+        {
+          "coin_index": 1,
+          "timing": "命中时",
+          "description": "消耗1发 弹药 [命中时] 对目标施加2层 易损"
+        },
+        {
+          "coin_index": 2,
+          "timing": "命中时",
+          "description": "消耗1发 弹药 [命中时] 对目标施加2层 易损"
+        },
+        {
+          "coin_index": 3,
+          "timing": "命中时",
+          "description": "[命中时] 使目标增加1级 破裂 强度"
+        },
+        {
+          "coin_index": 4,
+          "timing": "命中时",
+          "description": "[命中时] 使目标增加2级 破裂 强度"
+        },
+        {
+          "coin_index": 5,
+          "timing": "命中时",
+          "description": "[命中时] 使目标增加3级 破裂 强度"
+        },
+        {
+          "coin_index": 1,
+          "timing": "命中时",
+          "description": "消耗1发 弹药 [命中时] 对目标施加2层 易损"
+        },
+        {
+          "coin_index": 2,
+          "timing": "命中时",
+          "description": "消耗1发 弹药 [命中时] 对目标施加2层 易损"
+        },
+        {
+          "coin_index": 3,
+          "timing": "命中时",
+          "description": "[命中时] 使目标增加1级 破裂 强度"
+        },
+        {
+          "coin_index": 4,
+          "timing": "命中时",
+          "description": "[命中时] 使目标增加2级 破裂 强度"
+        },
+        {
+          "coin_index": 5,
+          "timing": "命中时",
+          "description": "[命中时] 使目标增加3级 破裂 强度"
+        }
+      ],
+      "wikitext_key": "3技能"
+    },
+    {
+      "skill_index": 3,
+      "skill_name": "闪避",
+      "sin_type": "",
+      "damage_type": "",
+      "guard_type": "闪避",
+      "attack_capacity": 1,
+      "coin_count": 1,
+      "stage_groups": [
+        [
+          {
+            "stage": "I",
+            "base_value": 4,
+            "coin_power": 10,
+            "effects": [],
+            "raw_text": "基础值： 4 变动值： +10"
+          },
+          {
+            "stage": "II",
+            "base_value": 4,
+            "coin_power": 10,
+            "effects": [
+              {
+                "timing": "使用时",
+                "description": "使自身获得1层 充能"
+              }
+            ],
+            "raw_text": "基础值： 4 变动值： +10 [使用时] 使自身获得1层 充能"
+          }
+        ]
+      ],
+      "coin_effects": [
+        {
+          "coin_index": 0,
+          "description": "守备技能"
+        },
+        {
+          "coin_index": 0,
+          "description": "闪避"
+        },
+        {
+          "coin_index": 0,
+          "timing": "",
+          "description": "1"
+        },
+        {
+          "coin_index": 0,
+          "description": "-2"
+        },
+        {
+          "coin_index": 0,
+          "description": "1"
+        },
+        {
+          "coin_index": 0,
+          "description": "I阶 - III阶 IV阶 追加属性： 基础值： 4 变动值： +10 基础值： 4 变动值： +10 [使用时] 使自身获得1层 充能"
+        }
+      ],
+      "wikitext_key": "守备技能4"
+    }
+  ],
+  "battle_passive": "人格被动1070301\n人格被动1070321",
+  "support_passive": "",
+  "notes": "",
+  "voice_lines": [],
+  "skill_voice": [
+    {
+      "file": "Battle_s2_10703_1_1.ogg",
+      "skill_index": 2,
+      "skill_label": "",
+      "skill_name": "火力集中"
+    },
+    {
+      "file": "Battle_s2_10703_1_2.ogg",
+      "skill_index": 2,
+      "skill_label": "",
+      "skill_name": "火力集中"
+    },
+    {
+      "file": "Battle_s3_10703_1_1.ogg",
+      "skill_index": 3,
+      "skill_label": "技能三",
+      "skill_name": "快速压制"
+    },
+    {
+      "file": "Battle_s3_10703_1_3.ogg",
+      "skill_index": 3,
+      "skill_label": "",
+      "skill_name": "快速压制"
+    }
+  ],
+  "_structured": true,
+  "id": "wiki_希斯克利夫R公司第四集团军兔子队",
+  "url": "https://limbuscompany.huijiwiki.com/wiki/希斯克利夫R公司第四集团军兔子队",
+  "categories": [
+    "人格"
+  ],
+  "source": "wiki",
+  "_schema_version": 1
+}

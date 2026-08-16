@@ -1,0 +1,172 @@
+{
+  "page_type": "enemy",
+  "title": "困难活动战斗LC-PC-11",
+  "enemy_name": "最后的骑士",
+  "battle_stage": "困难活动战斗LC-PC-11",
+  "body_part": "躯干",
+  "hp": 1024,
+  "defense_level": 90,
+  "speed_min": 1,
+  "speed_max": 2,
+  "chaos_threshold": "512/0",
+  "physical_resistances": {
+    "斩击": 0.5,
+    "突刺": 0.5,
+    "打击": 0.5
+  },
+  "sin_resistances": {
+    "暴怒": 0.8,
+    "色欲": 0.8,
+    "怠惰": 0.8,
+    "暴食": 0.8,
+    "忧郁": 0.8,
+    "傲慢": 0.8,
+    "嫉妒": 0.8
+  },
+  "panic_types": [
+    "蜂巢意识（士气低落）",
+    "蜂巢意识（陷入恐慌）",
+    "寒冷",
+    "苦厄灾难"
+  ],
+  "passives": [
+    "激潮的咆哮: 受到攻击时，对攻击者施加1层 寒冷 (每个技能最多1次)",
+    "苦斗: 战斗开始时，使自身获得8层 守护 - 战斗开始时若自身士气低落，则令获得的 守护 层数减半 - 战斗开始时若自身陷入混乱或陷入恐慌，则不会获得 守护",
+    "命运的宠儿: 受到使自身体力降至0点的伤害时，无视该伤害，并使自身的体力与理智值恢复至最大值，改变自身模式(每场战斗最多1次)",
+    "俯视苍生: 被动“命运的宠儿”触发后，触发以下效果 - 回合结束时，下回合对自身施加1层 束缚 - 受到攻击时，对目标施加1层 寒冷 (每个技能最多1次)",
+    "猎潮者: 攻击带有 寒冷 的敌方单位时，使自身造成的伤害+175%",
+    "大潮的愤怒: 回合开始时，每有1名敌方单位带有 寒冷 ，使自身获得1层 攻击等级提升",
+    "疾行的罗辛南特: 回合开始时，若带有 寒冷 的敌方单位不低于6名，则使自身获得2层 拼点威力提升",
+    "骑士的妄念: 关卡开始时，对自身施加 苦厄灾难",
+    "固定恐慌: 被施加改变恐慌类型的状态时，自身的恐慌类型不会改变。效果改为对没有理智值的单位施加的效果。",
+    "恐慌恢复: 回合结束时，若陷入恐慌，则使自身的理智值恢复为0点。"
+  ],
+  "skills": [
+    {
+      "skill_name": "贯穿大潮之枪",
+      "icon_id": "128801",
+      "sin_type": "忧郁",
+      "damage_type": "突刺",
+      "base_value": 3,
+      "coin_power": 3,
+      "coin_count": 2,
+      "attack_level": 90,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[使用时] 每有2名敌方单位带有 寒冷 ，使本技能的拼点威力+1(最多+2)",
+        "[使用时] 目标每带有1层 寒冷 ，使本技能的最终威力+1(最多+2)",
+        "[命中时] 对目标施加2层 沉沦"
+      ]
+    },
+    {
+      "skill_name": "粉碎大潮之枪",
+      "icon_id": "128802",
+      "sin_type": "傲慢",
+      "damage_type": "突刺",
+      "base_value": 4,
+      "coin_power": 3,
+      "coin_count": 4,
+      "attack_level": 90,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[使用时] 每有2名敌方单位带有 寒冷 ，使本技能的基础威力+1(最多+2)",
+        "[使用时] 若主要目标带有 寒冷 ，则使本技能的攻击容量+1",
+        "[使用时] 主要目标每带有1层 寒冷 ，使本技能的最终威力+1(最多+2)",
+        "[命中时] 对目标施加2层 沉沦 - 若目标带有 寒冷 ，则使其增加1级 沉沦 强度 不可摧毁的硬币"
+      ]
+    },
+    {
+      "skill_name": "猎潮",
+      "icon_id": "128803",
+      "sin_type": "忧郁",
+      "damage_type": "突刺",
+      "base_value": 5,
+      "coin_power": 3,
+      "coin_count": 5,
+      "attack_level": 90,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[使用时] 攻击带有 冻结 的目标时，使本技能的攻击容量+2",
+        "[使用时] 每有2名带有 寒冷 的敌方单位，使本技能的硬币威力+1(最多+2)",
+        "[命中时] 使目标增加3级 沉沦 强度",
+        "[正面命中时] 使自身获得3层 攻击等级提升 (每回合最多1次) 不可摧毁的硬币"
+      ]
+    },
+    {
+      "skill_name": "杀死大海，杀死大海！！",
+      "icon_id": "128804",
+      "sin_type": "傲慢",
+      "damage_type": "打击",
+      "base_value": 2,
+      "coin_power": 3,
+      "coin_count": 10,
+      "attack_level": 90,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[使用时] 每有1名敌方单位带有 寒冷 ，使本技能造成的伤害+5%(最多+30%)",
+        "[命中时] 使目标增加5级 沉沦 强度",
+        "[命中时] 对目标施加1层 沉沦",
+        "[正面命中时] 使自身获得3层 攻击等级提升 (每回合最多1次)",
+        "[命中时] 对目标额外造成((1+目标的 寒冷 层数)×10)点忧郁伤害"
+      ]
+    },
+    {
+      "skill_name": "杀死大海，杀死大海！！",
+      "icon_id": "128805",
+      "sin_type": "傲慢",
+      "damage_type": "打击",
+      "base_value": 7,
+      "coin_power": 3,
+      "coin_count": 10,
+      "attack_level": 90,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[使用时] 每有1名带有 寒冷 的敌方单位，使本技能造成的伤害+5%(最多+30%)",
+        "[使用时] 每有2名带有 寒冷 的敌方单位，使本技能的硬币威力+1(最多+3)",
+        "[正面命中时] 使自身获得3层 攻击等级提升 (每回合最多1次) 不可摧毁的硬币"
+      ]
+    },
+    {
+      "skill_name": "不屈的骑士",
+      "icon_id": "128806",
+      "sin_type": "忧郁",
+      "damage_type": "闪避",
+      "base_value": 5,
+      "coin_power": 3,
+      "coin_count": 3,
+      "attack_level": 0,
+      "attack_weight": 1,
+      "is_guard": true,
+      "guard_type": "防御",
+      "importance": 0,
+      "coin_effects": [
+        "[使用时] 下回合使自身获得2层 迅捷 (每回合最多1次)"
+      ]
+    }
+  ],
+  "is_ally": false,
+  "_structured": true,
+  "appear_stages": [
+    "困难活动战斗LC-PC-11",
+    "活动战斗LC-PC-11"
+  ],
+  "enemy_id": "困难活动战斗LC-PC-11|最后的骑士|躯干",
+  "defense": 90,
+  "speed": "1~2",
+  "_schema_version": 1
+}

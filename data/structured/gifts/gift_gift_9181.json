@@ -1,0 +1,22 @@
+{
+  "id": "gift_9181",
+  "title": "微缩电线杆",
+  "url": "https://limbuscompany.huijiwiki.com/wiki/E.G.O饰品",
+  "categories": [
+    "E.G.O饰品"
+  ],
+  "content": "消耗自身不低于7层充能的技能攻击后，若击杀目标，则使自身获得(该技能消耗的充能层数/4)层充能",
+  "source": "tabx",
+  "_structured": true,
+  "page_type": "ego_gift",
+  "gift_name": "微缩电线杆",
+  "rarity": 2,
+  "cost": "205",
+  "effect_types": "充能",
+  "attack_type": "傲慢",
+  "location": "镜像迷宫",
+  "stage": "base",
+  "special": "困难",
+  "event": "事件-巷头恶犬",
+  "_schema_version": 1
+}

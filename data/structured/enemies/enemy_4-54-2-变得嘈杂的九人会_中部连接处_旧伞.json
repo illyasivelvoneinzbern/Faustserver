@@ -1,0 +1,60 @@
+{
+  "page_type": "enemy",
+  "title": "4-54-2-变得嘈杂的九人会 中部连接处",
+  "enemy_name": "旧伞",
+  "battle_stage": "4-54-2-变得嘈杂的九人会 中部连接处",
+  "body_part": "伞",
+  "hp": 82,
+  "defense_level": 28,
+  "speed_min": 1,
+  "speed_max": 1,
+  "chaos_threshold": "41",
+  "physical_resistances": {
+    "斩击": 1.0,
+    "突刺": 1.0,
+    "打击": 1.0
+  },
+  "sin_resistances": {
+    "暴怒": 0.75,
+    "色欲": 1.0,
+    "怠惰": 2.0,
+    "暴食": 1.0,
+    "忧郁": 1.0,
+    "傲慢": 1.5,
+    "嫉妒": 0.5
+  },
+  "panic_types": [],
+  "passives": [
+    "被舍弃的旧伞: 自身被击杀时，下回合使击杀本单位的罪人获得2层 迅捷 。 对流浪狐狸的所有部位施加2层 束缚 与1层 雨伞碎片"
+  ],
+  "skills": [
+    {
+      "skill_name": "散落的悲伤",
+      "icon_id": "805201",
+      "sin_type": "忧郁",
+      "damage_type": "穿刺",
+      "base_value": 1,
+      "coin_power": 3,
+      "coin_count": 1,
+      "attack_level": 28,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "攻击后对全体敌方单位施加2层破裂与2层沉沦"
+      ]
+    }
+  ],
+  "is_ally": false,
+  "_structured": true,
+  "appear_stages": [
+    "4-54-2-变得嘈杂的九人会 中部连接处",
+    "纺锤采光-色欲-3",
+    "纺锤采光-色欲-4"
+  ],
+  "enemy_id": "4-54-2-变得嘈杂的九人会 中部连接处|旧伞|伞",
+  "defense": 28,
+  "speed": "1~1",
+  "_schema_version": 1
+}

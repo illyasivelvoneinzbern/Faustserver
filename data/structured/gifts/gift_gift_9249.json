@@ -1,0 +1,21 @@
+{
+  "id": "gift_9249",
+  "title": "小巧而精致的小提琴",
+  "url": "https://limbuscompany.huijiwiki.com/wiki/E.G.O饰品",
+  "categories": [
+    "E.G.O饰品"
+  ],
+  "content": "[第5、第6顺位友方单位专属]\n使自身恢复技能造成体力伤害量10%的体力(每个技能最多20点)\n拼点胜利时，使自身获得1层攻击等级提升与1层体力恢复提升(每回合每名友方单位最多2次)\n使用技能时，使自身获得1层攻击等级提升与1层体力恢复提升(每回合每名友方单位最多2次)\n打击技能造成的伤害+10%\n拼点胜利的技能造成的伤害+(拼点次数×6)%(最多+30%)",
+  "source": "tabx",
+  "_structured": true,
+  "page_type": "ego_gift",
+  "gift_name": "小巧而精致的小提琴",
+  "rarity": 4,
+  "cost": "402",
+  "effect_types": "泛用",
+  "attack_type": "怠惰",
+  "location": "镜像迷宫",
+  "stage": "base",
+  "special": "去·海·边，宅邸的副产物合成",
+  "_schema_version": 1
+}

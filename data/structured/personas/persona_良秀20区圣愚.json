@@ -1,0 +1,561 @@
+{
+  "page_type": "personality",
+  "title": "良秀20区圣愚",
+  "sinner": "良秀",
+  "sinner_id": "ryoshu",
+  "personality_name": "良秀20区圣愚",
+  "release_date": "2024.06.13",
+  "acquisition": "第4赛季活动赠送",
+  "sin_affinities": {
+    "色欲": 3,
+    "怠惰": 2,
+    "暴食": 1
+  },
+  "physical_resistances": {
+    "斩击": 1.0,
+    "突刺": 0.5,
+    "打击": 2.0
+  },
+  "ego_resources": {
+    "色欲": 3,
+    "怠惰": 2,
+    "暴食": 1
+  },
+  "skills": [
+    {
+      "skill_index": 0,
+      "skill_name": "你螺丝松了？",
+      "sin_type": "色欲",
+      "damage_type": "打击",
+      "guard_type": "",
+      "attack_capacity": 1,
+      "coin_count": 3,
+      "stage_groups": [
+        [
+          {
+            "stage": "I",
+            "base_value": 2,
+            "coin_power": 4,
+            "effects": [
+              {
+                "timing": "使用时",
+                "description": "对自身施加2层 震颤"
+              },
+              {
+                "timing": "命中时",
+                "description": "对自身施加((目标的 震颤 层数)/2)层 震颤 (最多2层)"
+              },
+              {
+                "timing": "命中时",
+                "description": "对目标施加1层 震颤"
+              }
+            ],
+            "raw_text": "基础值： 2 变动值： +4 [使用时] 对自身施加2层 震颤 [命中时] 对自身施加((目标的 震颤 层数)/2)层 震颤 (最多2层) [命中时] 对目标施加1层 震颤"
+          },
+          {
+            "stage": "II",
+            "base_value": 2,
+            "coin_power": 4,
+            "effects": [
+              {
+                "timing": "使用时",
+                "description": "对自身施加2层 震颤"
+              },
+              {
+                "timing": "使用时",
+                "description": "若自身的 震颤 层数不低于5层，则使本技能的拼点威力+2"
+              },
+              {
+                "timing": "命中时",
+                "description": "对自身施加((目标的 震颤 层数)/2)层 震颤 (最多3层)"
+              },
+              {
+                "timing": "命中时",
+                "description": "对目标施加1层 震颤"
+              }
+            ],
+            "raw_text": "基础值： 2 变动值： +4 [使用时] 对自身施加2层 震颤 [使用时] 若自身的 震颤 层数不低于5层，则使本技能的拼点威力+2 [命中时] 对自身施加((目标的 震颤 层数)/2)层 震颤 (最多3层) [命中时] 对目标施加1层 震颤"
+          },
+          {
+            "stage": "III",
+            "base_value": 3,
+            "coin_power": 4,
+            "effects": [
+              {
+                "timing": "使用时",
+                "description": "对自身施加2层 震颤"
+              },
+              {
+                "timing": "使用时",
+                "description": "若自身的 震颤 层数不低于5层，则使本技能的拼点威力+2"
+              },
+              {
+                "timing": "命中时",
+                "description": "对自身施加((目标的 震颤 层数)/2)层 震颤 (最多3层)"
+              },
+              {
+                "timing": "命中时",
+                "description": "对目标施加1层 震颤"
+              }
+            ],
+            "raw_text": "基础值： 3 变动值： +4 [使用时] 对自身施加2层 震颤 [使用时] 若自身的 震颤 层数不低于5层，则使本技能的拼点威力+2 [命中时] 对自身施加((目标的 震颤 层数)/2)层 震颤 (最多3层) [命中时] 对目标施加1层 震颤"
+          },
+          {
+            "stage": "IV",
+            "base_value": 3,
+            "coin_power": 4,
+            "effects": [
+              {
+                "timing": "使用时",
+                "description": "对自身施加2层 震颤"
+              },
+              {
+                "timing": "使用时",
+                "description": "若自身的 震颤 层数不低于4层，则使本技能的拼点威力+2"
+              },
+              {
+                "timing": "命中时",
+                "description": "对自身施加(目标的 震颤 层数)层 震颤 (最多4层)"
+              },
+              {
+                "timing": "命中时",
+                "description": "对目标施加2层 震颤"
+              }
+            ],
+            "raw_text": "基础值： 3 变动值： +4 [使用时] 对自身施加2层 震颤 [使用时] 若自身的 震颤 层数不低于4层，则使本技能的拼点威力+2 [命中时] 对自身施加(目标的 震颤 层数)层 震颤 (最多4层) [命中时] 对目标施加2层 震颤"
+          }
+        ]
+      ],
+      "coin_effects": [
+        {
+          "coin_index": 0,
+          "description": "技能一"
+        },
+        {
+          "coin_index": 0,
+          "description": "你螺丝松了？ 3"
+        },
+        {
+          "coin_index": 0,
+          "timing": "",
+          "description": "2"
+        },
+        {
+          "coin_index": 0,
+          "description": "+1"
+        },
+        {
+          "coin_index": 0,
+          "description": "1"
+        },
+        {
+          "coin_index": 0,
+          "description": "基础值： 2 变动值： +4 [使用时] 对自身施加2层 震颤"
+        },
+        {
+          "coin_index": 1,
+          "timing": "命中时",
+          "description": "[命中时] 对自身施加((目标的 震颤 层数)/2)层 震颤 (最多2层)"
+        },
+        {
+          "coin_index": 2,
+          "timing": "命中时",
+          "description": "[命中时] 对目标施加1层 震颤"
+        },
+        {
+          "coin_index": 1,
+          "timing": "命中时",
+          "description": "[命中时] 对自身施加((目标的 震颤 层数)/2)层 震颤 (最多3层)"
+        },
+        {
+          "coin_index": 2,
+          "timing": "命中时",
+          "description": "[命中时] 对目标施加1层 震颤"
+        },
+        {
+          "coin_index": 1,
+          "timing": "命中时",
+          "description": "[命中时] 对自身施加((目标的 震颤 层数)/2)层 震颤 (最多3层)"
+        },
+        {
+          "coin_index": 2,
+          "timing": "命中时",
+          "description": "[命中时] 对目标施加1层 震颤"
+        },
+        {
+          "coin_index": 1,
+          "timing": "命中时",
+          "description": "[命中时] 对自身施加(目标的 震颤 层数)层 震颤 (最多4层)"
+        },
+        {
+          "coin_index": 2,
+          "timing": "命中时",
+          "description": "[命中时] 对目标施加2层 震颤"
+        }
+      ],
+      "wikitext_key": "1技能"
+    },
+    {
+      "skill_index": 1,
+      "skill_name": "压力发条扳手",
+      "sin_type": "怠惰",
+      "damage_type": "突刺",
+      "guard_type": "",
+      "attack_capacity": 1,
+      "coin_count": 3,
+      "stage_groups": [
+        [
+          {
+            "stage": "I",
+            "base_value": 3,
+            "coin_power": 3,
+            "effects": [
+              {
+                "timing": "使用时",
+                "description": "对自身施加2层 震颤"
+              },
+              {
+                "timing": "正面命中时",
+                "description": "对目标施加1层 震颤"
+              },
+              {
+                "timing": "命中时",
+                "description": "消耗自身的 震颤 层数，并对目标施加相当于 震颤 消耗量的 震颤 层数(最多5层)"
+              }
+            ],
+            "raw_text": "基础值： 3 变动值： +3 [使用时] 对自身施加2层 震颤 [正面命中时] 对目标施加1层 震颤 [命中时] 消耗自身的 震颤 层数，并对目标施加相当于 震颤 消耗量的 震颤 层数(最多5层)"
+          },
+          {
+            "stage": "II",
+            "base_value": 3,
+            "coin_power": 3,
+            "effects": [
+              {
+                "timing": "使用时",
+                "description": "对自身施加2层 震颤 若自身的 震颤 层数不低于5层，则使本技能的硬币威力+1"
+              },
+              {
+                "timing": "正面命中时",
+                "description": "对目标施加1层 震颤"
+              },
+              {
+                "timing": "命中时",
+                "description": "消耗自身的 震颤 层数，并对目标施加相当于 震颤 消耗量的 震颤 层数(最多5层)"
+              }
+            ],
+            "raw_text": "基础值： 3 变动值： +3 [使用时] 对自身施加2层 震颤 若自身的 震颤 层数不低于5层，则使本技能的硬币威力+1 [正面命中时] 对目标施加1层 震颤 [命中时] 消耗自身的 震颤 层数，并对目标施加相当于 震颤 消耗量的 震颤 层数(最多5层)"
+          },
+          {
+            "stage": "III",
+            "base_value": 4,
+            "coin_power": 3,
+            "effects": [
+              {
+                "timing": "使用时",
+                "description": "对自身施加2层 震颤 若自身的 震颤 层数不低于5层，则使本技能的硬币威力+1"
+              },
+              {
+                "timing": "正面命中时",
+                "description": "对目标施加1层 震颤"
+              },
+              {
+                "timing": "命中时",
+                "description": "消耗自身的 震颤 层数，并对目标施加相当于 震颤 消耗量的 震颤 层数(最多5层)"
+              }
+            ],
+            "raw_text": "基础值： 4 变动值： +3 [使用时] 对自身施加2层 震颤 若自身的 震颤 层数不低于5层，则使本技能的硬币威力+1 [正面命中时] 对目标施加1层 震颤 [命中时] 消耗自身的 震颤 层数，并对目标施加相当于 震颤 消耗量的 震颤 层数(最多5层)"
+          },
+          {
+            "stage": "IV",
+            "base_value": 4,
+            "coin_power": 3,
+            "effects": [
+              {
+                "timing": "使用时",
+                "description": "对自身施加2层 震颤"
+              },
+              {
+                "timing": "使用时",
+                "description": "若自身的 震颤 层数不低于4层，则使本技能的拼点威力+1 若自身的 震颤 层数不低于4层，则使本技能的硬币威力+1"
+              },
+              {
+                "timing": "命中时",
+                "description": "对目标施加1层 震颤"
+              },
+              {
+                "timing": "命中时",
+                "description": "消耗自身的 震颤 层数，并对目标施加相当于 震颤 消耗量的 震颤 层数(最多5层)"
+              }
+            ],
+            "raw_text": "基础值： 4 变动值： +3 [使用时] 对自身施加2层 震颤 [使用时] 若自身的 震颤 层数不低于4层，则使本技能的拼点威力+1 若自身的 震颤 层数不低于4层，则使本技能的硬币威力+1 [命中时] 对目标施加1层 震颤 [命中时] 消耗自身的 震颤 层数，并对目标施加相当于 震颤 消耗量的 震颤 层数(最多5层)"
+          }
+        ]
+      ],
+      "coin_effects": [
+        {
+          "coin_index": 0,
+          "description": "技能二"
+        },
+        {
+          "coin_index": 0,
+          "description": "压力发条扳手 2"
+        },
+        {
+          "coin_index": 0,
+          "timing": "",
+          "description": "3"
+        },
+        {
+          "coin_index": 0,
+          "description": "+1"
+        },
+        {
+          "coin_index": 0,
+          "description": "1"
+        },
+        {
+          "coin_index": 0,
+          "description": "基础值： 3 变动值： +3 [使用时] 对自身施加2层 震颤"
+        },
+        {
+          "coin_index": 2,
+          "timing": "正面命中时",
+          "description": "[正面命中时] 对目标施加1层 震颤"
+        },
+        {
+          "coin_index": 3,
+          "timing": "命中时",
+          "description": "[命中时] 消耗自身的 震颤 层数，并对目标施加相当于 震颤 消耗量的 震颤 层数(最多5层)"
+        },
+        {
+          "coin_index": 2,
+          "timing": "正面命中时",
+          "description": "[正面命中时] 对目标施加1层 震颤"
+        },
+        {
+          "coin_index": 3,
+          "timing": "命中时",
+          "description": "[命中时] 消耗自身的 震颤 层数，并对目标施加相当于 震颤 消耗量的 震颤 层数(最多5层)"
+        },
+        {
+          "coin_index": 2,
+          "timing": "正面命中时",
+          "description": "[正面命中时] 对目标施加1层 震颤"
+        },
+        {
+          "coin_index": 3,
+          "timing": "命中时",
+          "description": "[命中时] 消耗自身的 震颤 层数，并对目标施加相当于 震颤 消耗量的 震颤 层数(最多5层)"
+        },
+        {
+          "coin_index": 2,
+          "timing": "命中时",
+          "description": "[命中时] 对目标施加1层 震颤"
+        },
+        {
+          "coin_index": 3,
+          "timing": "命中时",
+          "description": "[命中时] 消耗自身的 震颤 层数，并对目标施加相当于 震颤 消耗量的 震颤 层数(最多5层)"
+        }
+      ],
+      "wikitext_key": "2技能"
+    },
+    {
+      "skill_index": 2,
+      "skill_name": "敲敲就好",
+      "sin_type": "暴食",
+      "damage_type": "突刺",
+      "guard_type": "",
+      "attack_capacity": 1,
+      "coin_count": 4,
+      "stage_groups": [
+        [
+          {
+            "stage": "I",
+            "base_value": 4,
+            "coin_power": 3,
+            "effects": [
+              {
+                "timing": "使用时",
+                "description": "对自身施加2层 震颤 消耗自身的10层 震颤 并使本技能的硬币威力+1"
+              },
+              {
+                "timing": "命中时",
+                "description": "使目标增加2级 震颤 强度"
+              },
+              {
+                "timing": "命中时",
+                "description": "使目标增加2级 震颤 强度"
+              },
+              {
+                "timing": "命中时",
+                "description": "使目标 震颤引爆 ，并使其 震颤 层数减少2层"
+              }
+            ],
+            "raw_text": "基础值： 4 变动值： +3 [使用时] 对自身施加2层 震颤 消耗自身的10层 震颤 并使本技能的硬币威力+1 [命中时] 使目标增加2级 震颤 强度 [命中时] 使目标增加2级 震颤 强度 [命中时] 使目标 震颤引爆 ，并使其 震颤 层数减少2层"
+          },
+          {
+            "stage": "II",
+            "base_value": 4,
+            "coin_power": 3,
+            "effects": [
+              {
+                "timing": "使用时",
+                "description": "对自身施加2层 震颤 消耗自身的8层 震颤 并使本技能的硬币威力+1 若目标的 震颤 强度不低于6级，则使本技能的硬币威力+1"
+              },
+              {
+                "timing": "命中时",
+                "description": "使目标增加2级 震颤 强度"
+              },
+              {
+                "timing": "命中时",
+                "description": "使目标增加2级 震颤 强度"
+              },
+              {
+                "timing": "命中时",
+                "description": "使目标 震颤引爆 ，并使其 震颤 层数减少1层"
+              }
+            ],
+            "raw_text": "基础值： 4 变动值： +3 [使用时] 对自身施加2层 震颤 消耗自身的8层 震颤 并使本技能的硬币威力+1 若目标的 震颤 强度不低于6级，则使本技能的硬币威力+1 [命中时] 使目标增加2级 震颤 强度 [命中时] 使目标增加2级 震颤 强度 [命中时] 使目标 震颤引爆 ，并使其 震颤 层数减少1层"
+          }
+        ]
+      ],
+      "coin_effects": [
+        {
+          "coin_index": 0,
+          "description": "技能三"
+        },
+        {
+          "coin_index": 0,
+          "description": "敲敲就好 1"
+        },
+        {
+          "coin_index": 0,
+          "timing": "",
+          "description": "3"
+        },
+        {
+          "coin_index": 0,
+          "description": "+1"
+        },
+        {
+          "coin_index": 0,
+          "description": "1"
+        },
+        {
+          "coin_index": 0,
+          "description": "基础值： 4 变动值： +3 [使用时] 对自身施加2层 震颤 消耗自身的10层 震颤 并使本技能的硬币威力+1"
+        },
+        {
+          "coin_index": 1,
+          "timing": "命中时",
+          "description": "[命中时] 使目标增加2级 震颤 强度"
+        },
+        {
+          "coin_index": 2,
+          "timing": "命中时",
+          "description": "[命中时] 使目标增加2级 震颤 强度"
+        },
+        {
+          "coin_index": 3,
+          "timing": "命中时",
+          "description": "[命中时] 使目标 震颤引爆 ，并使其 震颤 层数减少2层"
+        },
+        {
+          "coin_index": 1,
+          "timing": "命中时",
+          "description": "[命中时] 使目标增加2级 震颤 强度"
+        },
+        {
+          "coin_index": 2,
+          "timing": "命中时",
+          "description": "[命中时] 使目标增加2级 震颤 强度"
+        },
+        {
+          "coin_index": 3,
+          "timing": "命中时",
+          "description": "[命中时] 使目标 震颤引爆 ，并使其 震颤 层数减少1层"
+        }
+      ],
+      "wikitext_key": "3技能"
+    },
+    {
+      "skill_index": 3,
+      "skill_name": "防御",
+      "sin_type": "",
+      "damage_type": "",
+      "guard_type": "防御",
+      "attack_capacity": 1,
+      "coin_count": 1,
+      "stage_groups": [
+        [
+          {
+            "stage": "I",
+            "base_value": 7,
+            "coin_power": 6,
+            "effects": [
+              {
+                "timing": "使用时",
+                "description": "获得(2×自身的 震颤 层数)点护盾体力(最多5点)"
+              }
+            ],
+            "raw_text": "基础值： 7 变动值： +6 [使用时] 获得(2×自身的 震颤 层数)点护盾体力(最多5点)"
+          },
+          {
+            "stage": "II",
+            "base_value": 7,
+            "coin_power": 6,
+            "effects": [
+              {
+                "timing": "使用时",
+                "description": "获得(2×自身的 震颤 层数)点护盾体力(最多10点)"
+              }
+            ],
+            "raw_text": "基础值： 7 变动值： +6 [使用时] 获得(2×自身的 震颤 层数)点护盾体力(最多10点)"
+          }
+        ]
+      ],
+      "coin_effects": [
+        {
+          "coin_index": 0,
+          "description": "守备技能"
+        },
+        {
+          "coin_index": 0,
+          "description": "防御"
+        },
+        {
+          "coin_index": 0,
+          "timing": "",
+          "description": "1"
+        },
+        {
+          "coin_index": 0,
+          "description": "+1"
+        },
+        {
+          "coin_index": 0,
+          "description": "1"
+        },
+        {
+          "coin_index": 0,
+          "description": "I阶 - III阶 IV阶 追加属性： 基础值： 7 变动值： +6 [使用时] 获得(2×自身的 震颤 层数)点护盾体力(最多5点) 基础值： 7 变动值： +6 [使用时] 获得(2×自身的 震颤 层数)点护盾体力(最多10点)"
+        }
+      ],
+      "wikitext_key": "守备技能4"
+    }
+  ],
+  "battle_passive": "人格被动1040901\n人格被动1040921",
+  "support_passive": "",
+  "notes": "",
+  "voice_lines": [],
+  "skill_voice": [],
+  "_structured": true,
+  "id": "wiki_良秀20区圣愚",
+  "url": "https://limbuscompany.huijiwiki.com/wiki/良秀20区圣愚",
+  "categories": [
+    "人格"
+  ],
+  "source": "wiki",
+  "_schema_version": 1
+}

@@ -1,0 +1,38 @@
+{
+  "page_type": "enemy",
+  "title": "折射轨道2号线-第6站 - 榨取",
+  "enemy_name": "折射的电击蜈蚣",
+  "battle_stage": "折射轨道2号线-第6站 - 榨取",
+  "body_part": "躯干",
+  "hp": 1132,
+  "defense_level": 35,
+  "speed_min": 2,
+  "speed_max": 5,
+  "chaos_threshold": "0",
+  "physical_resistances": {
+    "斩击": 0.5,
+    "突刺": 1.5,
+    "打击": 1.0
+  },
+  "sin_resistances": {
+    "暴怒": 0.75,
+    "色欲": 1.0,
+    "怠惰": 1.5,
+    "暴食": 0.5,
+    "忧郁": 1.5,
+    "傲慢": 0.5,
+    "嫉妒": 1.0
+  },
+  "panic_types": [],
+  "passives": [],
+  "skills": [],
+  "is_ally": false,
+  "_structured": true,
+  "appear_stages": [
+    "折射轨道2号线-第6站 - 榨取"
+  ],
+  "enemy_id": "折射轨道2号线-第6站 - 榨取|折射的电击蜈蚣|躯干",
+  "defense": 35,
+  "speed": "2~5",
+  "_schema_version": 1
+}

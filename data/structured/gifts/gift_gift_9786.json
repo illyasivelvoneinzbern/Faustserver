@@ -1,0 +1,22 @@
+{
+  "id": "gift_9786",
+  "title": "强化纹身-中指",
+  "url": "https://limbuscompany.huijiwiki.com/wiki/E.G.O饰品",
+  "categories": [
+    "E.G.O饰品"
+  ],
+  "content": "打击技能的拼点威力+1\n- 属于中指的友方单位改为拼点威力+1，硬币威力+1\n- 属于中指的友方单位的主要目标带有报复对象时，改为拼点威力+1，硬币威力+1，造成的伤害+10%",
+  "source": "tabx",
+  "_structured": true,
+  "page_type": "ego_gift",
+  "gift_name": "强化纹身-中指",
+  "rarity": 2,
+  "cost": "200",
+  "effect_types": "打击",
+  "attack_type": "嫉妒",
+  "location": "镜像迷宫",
+  "stage": "base",
+  "special": "深夜清扫",
+  "event": "事件-忠义锁链",
+  "_schema_version": 1
+}

@@ -1,0 +1,22 @@
+{
+  "id": "gift_9240",
+  "title": "蜂王浆香水",
+  "url": "https://limbuscompany.huijiwiki.com/wiki/E.G.O饰品",
+  "categories": [
+    "E.G.O饰品"
+  ],
+  "content": "[第6顺位友方单位专属]\n关卡开始时，使自身获得信息素\n受到带有烧伤的敌方单位的伤害-15%\n回合结束时，下回合对对自身造成的伤害最多的敌方单位(若是集中遭遇战，则改为部位)施加信息素标记\n- 若未受到来自敌方单位的伤害，则下回合随机对1名敌方单位(若是集中遭遇战，则改为部位)施加信息素标记",
+  "source": "tabx",
+  "_structured": true,
+  "page_type": "ego_gift",
+  "gift_name": "蜂王浆香水",
+  "rarity": 3,
+  "cost": "250",
+  "effect_types": "烧伤",
+  "attack_type": "暴怒",
+  "location": "镜像迷宫",
+  "stage": "base",
+  "special": "琥珀色的黄昏",
+  "event": "事件-蜂后",
+  "_schema_version": 1
+}

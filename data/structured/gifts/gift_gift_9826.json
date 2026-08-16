@@ -1,0 +1,21 @@
+{
+  "id": "gift_9826",
+  "title": "绍兴酒",
+  "url": "https://limbuscompany.huijiwiki.com/wiki/E.G.O饰品",
+  "categories": [
+    "E.G.O饰品"
+  ],
+  "content": "[第2顺位友方单位专属]\n自身每失去1%的体力，使自身基础技能造成的伤害+1%(最多+10%)",
+  "source": "tabx",
+  "_structured": true,
+  "page_type": "ego_gift",
+  "gift_name": "绍兴酒",
+  "rarity": 2,
+  "cost": "199",
+  "effect_types": "泛用",
+  "attack_type": "暴食",
+  "location": "镜像迷宫",
+  "stage": "base",
+  "special": "切磋琢春",
+  "_schema_version": 1
+}

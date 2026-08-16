@@ -1,0 +1,79 @@
+{
+  "page_type": "event",
+  "title": "事件-无我入定",
+  "event_name": "无我入定",
+  "narration": "赤红色的房间中时不时响起钟声。\n这钟声低沉，令人喘不过气。\n佛像好像在念着什么。\n我无法听清佛像低喃的内容。\n但我确信\n它说的并不是什么令人愉悦的话。\n佛像的手指上镶嵌着一轮黄铜戒指。\n\n侧耳倾听\n我闭上眼专心听取声音。\n它在说些什么？\n原来它在说的是它的想法。\n通过说出自己的想法来放空自己。\n像是为了不让自己留下半点东西一样。\n这是佛像找到的遗忘自己的方法。\n不知不觉间，我就也这样消失了。\n什么都没有发生。\n\n侧耳倾听\n我闭上眼专心听取声音。\n它究竟在说什么呢？\n原来它在说的是它的想法。\n通过说出自己的想法来放空自己。\n既然如此，我们就站到了它的身边，\n听取它说的话来充实自己。\n虽然它在遗忘自己，我们却更清晰地认识了自身。\n全体友方单位恢复\n15点体力\n及\n15点理智值\n\n摘下黄铜戒指\n【应该命谁完成？】\n有利判定\n：\n/\n≥8\n不利判定\n：\n≥16\n判定成功\n：\n你摘下了它手上的戒指。\n它仍然纹丝不动，吟诵不止。\n无论眼前发生了什么，\n它都不会移动吧。\n佛像一动不动，\n连吟咏的强弱都不曾变化……\n明白了一件事。\n雕像所吟之物即为诅咒。\n获得\n！\n技能组不包含\n色欲属性攻击技能\n的友方单位失去\n10点理智值\n！\n判定失败\n：\n你试图摘下它手上的戒指。\n那一瞬间，它的手腕像是画圈一样开始转动。\n再次把手伸向戒指，\n手腕再度转动起来，拒绝被人夺去。\n简直就像是，我没有那么做的资格。\n什么都没有发生。\n\n放上钱币\n将硬币放在宏伟的佛像前。\n随着恒久的吟诵声淡去，只留下空洞的钟声在房间的墙壁间回响。\n是因为空虚的形体与世俗的象征所接触了吗？\n在说法停止之地，被佛像迷住的人们蜂拥而至。\n触发\n集中战斗\n！\n战斗胜利后，获得\n！\n战斗失败后，没有奖励",
+  "options": [
+    {
+      "choice_text": "侧耳倾听",
+      "check_type": "",
+      "check_sin": "",
+      "check_threshold": 0,
+      "success_outcomes": [],
+      "failure_outcomes": []
+    },
+    {
+      "choice_text": "侧耳倾听",
+      "check_type": "",
+      "check_sin": "",
+      "check_threshold": 0,
+      "success_outcomes": [],
+      "failure_outcomes": []
+    },
+    {
+      "choice_text": "侧耳倾听",
+      "check_type": "",
+      "check_sin": "",
+      "check_threshold": 0,
+      "success_outcomes": [],
+      "failure_outcomes": []
+    },
+    {
+      "choice_text": "摘下黄铜戒指",
+      "check_type": "有利判定",
+      "check_sin": "色欲",
+      "check_threshold": 8,
+      "success_outcomes": [
+        "获得 ！ 技能组不包含 色欲属性攻击技能 的友方单位失去 10点理智值 ！ 判定失败 ： 你试图摘下它手上的戒指。 那一瞬间"
+      ],
+      "failure_outcomes": []
+    },
+    {
+      "choice_text": "放上钱币",
+      "check_type": "",
+      "check_sin": "",
+      "check_threshold": 0,
+      "success_outcomes": [],
+      "failure_outcomes": []
+    },
+    {
+      "choice_text": "侧耳倾听",
+      "check_type": "",
+      "check_sin": "",
+      "check_threshold": 0,
+      "success_outcomes": [],
+      "failure_outcomes": []
+    },
+    {
+      "choice_text": "侧耳倾听",
+      "check_type": "",
+      "check_sin": "",
+      "check_threshold": 0,
+      "success_outcomes": [],
+      "failure_outcomes": []
+    }
+  ],
+  "ego_gifts": [],
+  "related_abnormalities": [
+    "WAWLCE评级WAW-08M-04-04-04无我入定",
+    "事件触发地点",
+    "镜像迷宫"
+  ],
+  "trigger_location": "",
+  "_structured": true,
+  "id": "wiki_事件-无我入定",
+  "url": "https://limbuscompany.huijiwiki.com/wiki/事件-无我入定",
+  "categories": [],
+  "source": "wiki",
+  "_schema_version": 1
+}

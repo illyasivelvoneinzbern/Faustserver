@@ -1,0 +1,22 @@
+{
+  "id": "gift_9178",
+  "title": "天使所私",
+  "url": "https://limbuscompany.huijiwiki.com/wiki/E.G.O饰品",
+  "categories": [
+    "E.G.O饰品"
+  ],
+  "content": "回合结束时，呼吸法强度高于20级的友方单位消耗1级呼吸法强度并获得1层呼吸法",
+  "source": "tabx",
+  "_structured": true,
+  "page_type": "ego_gift",
+  "gift_name": "天使所私",
+  "rarity": 2,
+  "cost": "211",
+  "effect_types": "呼吸法",
+  "attack_type": "傲慢",
+  "location": "镜像迷宫",
+  "stage": "base",
+  "special": "困难",
+  "event": "事件-膏血",
+  "_schema_version": 1
+}

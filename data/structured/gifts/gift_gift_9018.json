@@ -1,0 +1,21 @@
+{
+  "id": "gift_9018",
+  "title": "玫瑰王冠",
+  "url": "https://limbuscompany.huijiwiki.com/wiki/E.G.O饰品",
+  "categories": [
+    "E.G.O饰品"
+  ],
+  "content": "回合开始时，随机使1名敌方单位（或所有异想体部位）增加4级破裂强度。\n激活暴食完全共鸣时，在战斗开始时使全体敌方单位增加2级破裂强度。",
+  "source": "tabx",
+  "_structured": true,
+  "page_type": "ego_gift",
+  "gift_name": "玫瑰王冠",
+  "rarity": 1,
+  "cost": "144",
+  "effect_types": "破裂",
+  "attack_type": "暴食",
+  "location": "镜像迷宫",
+  "stage": "base",
+  "event": "事件-玫瑰告示牌",
+  "_schema_version": 1
+}

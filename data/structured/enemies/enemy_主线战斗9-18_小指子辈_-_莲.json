@@ -1,0 +1,211 @@
+{
+  "page_type": "enemy",
+  "title": "主线战斗9-18",
+  "enemy_name": "小指子辈 - 莲",
+  "battle_stage": "主线战斗9-18",
+  "body_part": "",
+  "hp": 950,
+  "defense_level": 60,
+  "speed_min": 2,
+  "speed_max": 5,
+  "chaos_threshold": "475",
+  "physical_resistances": {
+    "斩击": 1.25,
+    "突刺": 1.0,
+    "打击": 0.5
+  },
+  "sin_resistances": {
+    "暴怒": 1.0,
+    "色欲": 1.0,
+    "怠惰": 1.0,
+    "暴食": 1.0,
+    "忧郁": 1.0,
+    "傲慢": 1.0,
+    "嫉妒": 1.0
+  },
+  "panic_types": [
+    "月下青刀",
+    "呼吸法"
+  ],
+  "passives": [
+    "为承星名之修行: 攻击技能结束时，对全体目标造成(暴击命中的斩击硬币数×10)点斩击伤害(不会因该伤害而陷入混乱)",
+    "整剑: 关卡开始时，使自身获得50层 月下青刀",
+    "静念: 若自身带有 月下青刀 ，则触发以下效果 - 自身的理智值不会降至0点以下，低于0点时，使自身理智值恢复为0点 - 受到的理智伤害转化为忧郁伤害(不包括基础理智值增减条件)",
+    "恩义: 与除良秀以外的目标进行拼点时，使自身的拼点威力-2 受到除良秀以外的目标的伤害-20%",
+    "固定恐慌: 被施加改变恐慌类型的状态时，自身的恐慌类型不会改变。效果改为对没有理智值的单位施加的效果。",
+    "恐慌恢复: 回合结束时，若陷入恐慌，则使自身的理智值恢复为0点。",
+    "精神一到: • 拼点胜利后根据拼点次数按比例增加 （增加量：基础值为10，从第二次拼点起，每次拼点增加20%）"
+  ],
+  "skills": [
+    {
+      "skill_name": "回",
+      "icon_id": "131801",
+      "sin_type": "怠惰",
+      "damage_type": "守备",
+      "base_value": 4,
+      "coin_power": 9703,
+      "coin_count": 1,
+      "attack_level": 0,
+      "attack_weight": 1,
+      "is_guard": true,
+      "guard_type": "闪避",
+      "importance": 0,
+      "coin_effects": [
+        "战斗开始使自身增加8级呼吸法强度",
+        "- 若使用本技能的行动槽为攻击技能的主要目标，则令该效果增加的呼吸法强度减少4级",
+        "闪避成功时使自身增加1级呼吸法强度"
+      ]
+    },
+    {
+      "skill_name": "守",
+      "icon_id": "131802",
+      "sin_type": "怠惰",
+      "damage_type": "守备",
+      "base_value": 4,
+      "coin_power": 9703,
+      "coin_count": 3,
+      "attack_level": 0,
+      "attack_weight": 1,
+      "is_guard": true,
+      "guard_type": "防御",
+      "importance": 0,
+      "coin_effects": [
+        "{{状态2|可拼点防御|4=特殊}}",
+        "战斗开始使自身获得4层呼吸法",
+        "- 若使用本技能的行动槽为攻击技能的主要目标，则令该效果获得的呼吸法层数减少2层",
+        "拼点胜利使自身获得1层呼吸法",
+        "1{{状态2|不可摧毁的硬币|4=特殊}}"
+      ]
+    },
+    {
+      "skill_name": "反",
+      "icon_id": "131803",
+      "sin_type": "忧郁",
+      "damage_type": "打击",
+      "base_value": 4,
+      "coin_power": 3,
+      "coin_count": 2,
+      "attack_level": 65,
+      "attack_weight": 1,
+      "is_guard": true,
+      "guard_type": "反击",
+      "importance": 0,
+      "coin_effects": [
+        "[命中时] 使自身获得2层 呼吸法"
+      ]
+    },
+    {
+      "skill_name": "无名闪",
+      "icon_id": "131804",
+      "sin_type": "傲慢",
+      "damage_type": "斩击",
+      "base_value": 7,
+      "coin_power": 3,
+      "coin_count": 2,
+      "attack_level": 66,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "1使本硬币暴击时造成的伤害+50%"
+      ]
+    },
+    {
+      "skill_name": "连锁斩",
+      "icon_id": "131805",
+      "sin_type": "傲慢",
+      "damage_type": "斩击",
+      "base_value": 6,
+      "coin_power": 3,
+      "coin_count": 2,
+      "attack_level": 66,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[命中时] 下回合对目标施加1层 斩击易损"
+      ]
+    },
+    {
+      "skill_name": "落星一杀",
+      "icon_id": "131807",
+      "sin_type": "暴怒",
+      "damage_type": "斩击",
+      "base_value": 8,
+      "coin_power": 987,
+      "coin_count": 3,
+      "attack_level": 67,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[使用时] 自身每带有10层 月下青刀 ，使本技能的硬币威力+1"
+      ]
+    },
+    {
+      "skill_name": "收势",
+      "icon_id": "131808",
+      "sin_type": "怠惰",
+      "damage_type": "守备",
+      "base_value": 5,
+      "coin_power": 9703,
+      "coin_count": 10,
+      "attack_level": 0,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "战斗开始使自身获得(自身的{{状态2|月下青刀|4=特殊}}层数×10)点护盾"
+      ]
+    },
+    {
+      "skill_name": "双击",
+      "icon_id": "131809",
+      "sin_type": "忧郁",
+      "damage_type": "斩击",
+      "base_value": 4,
+      "coin_power": 3,
+      "coin_count": 3,
+      "attack_level": 65,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[命中时] 使自身获得1层 呼吸法",
+        "[命中时] 使自身增加2级 呼吸法 强度"
+      ]
+    },
+    {
+      "skill_name": "三击",
+      "icon_id": "131810",
+      "sin_type": "忧郁",
+      "damage_type": "斩击",
+      "base_value": 4,
+      "coin_power": 3,
+      "coin_count": 4,
+      "attack_level": 65,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[命中时] 使自身获得1层 呼吸法",
+        "[命中时] 使自身增加1级 呼吸法 强度 使本硬币暴击时造成的伤害+30%"
+      ]
+    }
+  ],
+  "is_ally": false,
+  "_structured": true,
+  "appear_stages": [
+    "主线战斗9-18"
+  ],
+  "enemy_id": "主线战斗9-18|小指子辈 - 莲|",
+  "defense": 60,
+  "speed": "2~5",
+  "_schema_version": 1
+}

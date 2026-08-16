@@ -1,0 +1,22 @@
+{
+  "id": "gift_9821",
+  "title": "蒙蔽心扉的红布",
+  "url": "https://limbuscompany.huijiwiki.com/wiki/E.G.O饰品",
+  "categories": [
+    "E.G.O饰品"
+  ],
+  "content": "[第1顺位友方单位专属]\n其他友方单位单方面攻击命中敌方单位时，下回合使自身获得1层攻击等级提升(每回合每名友方单位最多1次，每回合最多6次)\n其他友方单位进行战场撤退时，下回合使自身获得1层斩击威力提升与1层斩击伤害强化(每回合最多1次)\n符合所有条件时，下回合使自身获得1层威力提升(每回合最多1次)",
+  "source": "tabx",
+  "_structured": true,
+  "page_type": "ego_gift",
+  "gift_name": "蒙蔽心扉的红布",
+  "rarity": 3,
+  "cost": "259",
+  "effect_types": "斩击",
+  "attack_type": "傲慢",
+  "location": "镜像迷宫",
+  "stage": "base",
+  "special": "切磋琢春",
+  "event": "事件-奇怪的红布",
+  "_schema_version": 1
+}

@@ -1,0 +1,21 @@
+{
+  "id": "gift_9752",
+  "title": "虚假的光相",
+  "url": "https://limbuscompany.huijiwiki.com/wiki/E.G.O饰品",
+  "categories": [
+    "E.G.O饰品"
+  ],
+  "content": "攻击命中时，使自身获得1层禅那。(每个技能最多2次)\n若本回合自身受到敌方单位的技能攻击，则令获得的禅那额外+1层。",
+  "source": "tabx",
+  "_structured": true,
+  "page_type": "ego_gift",
+  "gift_name": "虚假的光相",
+  "rarity": 4,
+  "cost": "391",
+  "effect_types": "泛用",
+  "attack_type": "傲慢",
+  "location": "镜像迷宫",
+  "stage": "base",
+  "special": "1号线",
+  "_schema_version": 1
+}

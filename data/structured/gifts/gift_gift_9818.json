@@ -1,0 +1,22 @@
+{
+  "id": "gift_9818",
+  "title": "被遗落的次元护手",
+  "url": "https://limbuscompany.huijiwiki.com/wiki/E.G.O饰品",
+  "categories": [
+    "E.G.O饰品"
+  ],
+  "content": "消耗充能层数或特殊充能的技能对敌方单位造成伤害时，本回合使其物理抗性中最低的抗性+0.1(每回合最多1次)",
+  "source": "tabx",
+  "_structured": true,
+  "page_type": "ego_gift",
+  "gift_name": "被遗落的次元护手",
+  "rarity": 3,
+  "cost": "252",
+  "effect_types": "充能",
+  "attack_type": "嫉妒",
+  "location": "镜像迷宫",
+  "stage": "base",
+  "special": "WARP快车谋杀案复刻",
+  "event": "事件-在变成血袋的W公司清扫人员身上发现了一件有用的装备",
+  "_schema_version": 1
+}

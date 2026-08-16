@@ -1,0 +1,138 @@
+{
+  "page_type": "enemy",
+  "title": "精灵盛宴-简单难度",
+  "enemy_name": "精灵女王",
+  "battle_stage": "精灵盛宴-简单难度",
+  "body_part": "左臂",
+  "hp": 293,
+  "defense_level": 45,
+  "speed_min": 1,
+  "speed_max": 4,
+  "chaos_threshold": "147",
+  "physical_resistances": {
+    "斩击": 1.2,
+    "突刺": 1.0,
+    "打击": 0.5
+  },
+  "sin_resistances": {
+    "暴怒": 1.5,
+    "色欲": 1.2,
+    "怠惰": 0.5,
+    "暴食": 1.0,
+    "忧郁": 1.0,
+    "傲慢": 0.75,
+    "嫉妒": 1.2
+  },
+  "panic_types": [],
+  "passives": [],
+  "skills": [
+    {
+      "skill_name": "女王之令",
+      "icon_id": "826301",
+      "sin_type": "暴食",
+      "damage_type": "",
+      "base_value": 10,
+      "coin_power": 854,
+      "coin_count": 1,
+      "attack_level": 0,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": []
+    },
+    {
+      "skill_name": "翅振",
+      "icon_id": "826302",
+      "sin_type": "暴食",
+      "damage_type": "",
+      "base_value": 3,
+      "coin_power": 854,
+      "coin_count": 3,
+      "attack_level": 45,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[命中时] 对目标施加2层 流血"
+      ]
+    },
+    {
+      "skill_name": "捕食",
+      "icon_id": "826303",
+      "sin_type": "色欲",
+      "damage_type": "",
+      "base_value": 6,
+      "coin_power": 9,
+      "coin_count": 2,
+      "attack_level": 45,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[命中时] 使本体恢复体力上限3％的体力"
+      ]
+    },
+    {
+      "skill_name": "饥饿之翼",
+      "icon_id": "826304",
+      "sin_type": "色欲",
+      "damage_type": "",
+      "base_value": 4,
+      "coin_power": 9,
+      "coin_count": 4,
+      "attack_level": 45,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[命中时] 使目标增加3级 流血 强度"
+      ]
+    },
+    {
+      "skill_name": "饥饿狂暴",
+      "icon_id": "826305",
+      "sin_type": "暴怒",
+      "damage_type": "",
+      "base_value": 5,
+      "coin_power": 987,
+      "coin_count": 3,
+      "attack_level": 45,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[正面命中时] 重复使用本硬币1次（每个技能最多3次）",
+        "[命中时] 使本体恢复10点体力"
+      ]
+    },
+    {
+      "skill_name": "喘息",
+      "icon_id": "826306",
+      "sin_type": "忧郁",
+      "damage_type": "",
+      "base_value": 5,
+      "coin_power": 3,
+      "coin_count": 1,
+      "attack_level": 0,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": []
+    }
+  ],
+  "is_ally": false,
+  "_structured": true,
+  "appear_stages": [
+    "精灵盛宴-简单难度"
+  ],
+  "enemy_id": "精灵盛宴-简单难度|精灵女王|左臂",
+  "defense": 45,
+  "speed": "1~4",
+  "_schema_version": 1
+}

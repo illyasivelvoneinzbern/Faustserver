@@ -1,0 +1,41 @@
+{
+  "page_type": "event",
+  "title": "事件-选择行与列",
+  "event_name": "选择行与列",
+  "narration": "随着空间的扭曲，架子出现了。\n架子上有着各种各样的东西。\n\n更仔细地观察一下，会发现那里面有什么不一样的东西。\n如果是观察力优异的罪人，或许能拿到更好的东西。\n【让谁去调查？】\n李箱\n判定值+4\n有利判定\n：\n≥7\n不利判定\n：\n≥12\n判定成功\n：\n罪人X调查了架子。\n罪人X发现了架子上的隐藏空间。似乎能从隐藏空间里一次性拿出很多东西。\n最后空间变得模糊，架子也消失了。\n隐藏空间里出现了许多东西。\n拿走的话或许会对之后的战斗有所帮助。\n既然如此，要拿什么呢？\n选项一\n选项二\n选项三\n选择第2行，第5格。\n取出了第2行，第5格的物品。\n是未知的绿色物体。\n乍一看像是一个面具。\n最终空间变得模糊，架子消失了。\n获得E.G.O饰品\n冰冷的幻想\n！\n选择第5行，第8格。\n取出了第5行，第8格的物品。\n是未知的青色物体。\n乍一看像是一把剑。\n最终空间变得模糊，架子消失了。\n获得E.G.O饰品\n尖锐的幻想\n！\n选择第6行，第1格。\n取出了第6行，第1格的物品。\n是未知的黄色物体。\n乍一看像是一朵花。\n最终空间变得模糊，架子消失了。\n获得E.G.O饰品\n芳香满溢的幻想\n！\n判定失败\n：\n罪人X调查了架子。\n也许是因为考虑太久了，空间变得模糊后架子也消失了。\n什么都没有发生。\n\n选择第2行，第5格。\n取出了第2行，第5格的物品。\n是未知的绿色物体。\n乍一看像是一个面具。\n最终空间变得模糊，架子消失了。\n获得E.G.O饰品\n冰冷的幻想\n！\n\n选择第5行，第8格。\n取出了第5行，第8格的物品。\n是未知的青色物体。\n乍一看像是一把剑。\n最终空间变得模糊，架子消失了。\n获得E.G.O饰品\n尖锐的幻想\n！\n\n选择第6行，第1格。\n取出了第6行，第1格的物品。\n是未知的黄色物体。\n乍一看像是一朵花。\n最终空间变得模糊，架子消失了。\n获得E.G.O饰品\n芳香满溢的幻想\n！",
+  "options": [
+    {
+      "choice_text": "选择第2行，第5格。",
+      "check_type": "",
+      "check_sin": "",
+      "check_threshold": 0,
+      "success_outcomes": [],
+      "failure_outcomes": []
+    },
+    {
+      "choice_text": "选择第5行，第8格。",
+      "check_type": "",
+      "check_sin": "",
+      "check_threshold": 0,
+      "success_outcomes": [],
+      "failure_outcomes": []
+    },
+    {
+      "choice_text": "选择第6行，第1格。",
+      "check_type": "",
+      "check_sin": "",
+      "check_threshold": 0,
+      "success_outcomes": [],
+      "failure_outcomes": []
+    }
+  ],
+  "ego_gifts": [],
+  "related_abnormalities": [],
+  "trigger_location": "",
+  "_structured": true,
+  "id": "wiki_事件-选择行与列",
+  "url": "https://limbuscompany.huijiwiki.com/wiki/事件-选择行与列",
+  "categories": [],
+  "source": "wiki",
+  "_schema_version": 1
+}

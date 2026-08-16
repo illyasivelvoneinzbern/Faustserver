@@ -1,0 +1,46 @@
+# ═══════════════════════════════════════════════════════════
+# 边狱巴士 RAG Agent 依赖清单（Python >= 3.11）
+# 安装：pip install -r requirements.txt
+# ═══════════════════════════════════════════════════════════
+
+# ── 核心：LangChain RAG 框架 ──
+langchain>=0.3.0
+langchain-core>=0.3.0
+langchain-community>=0.3.0
+langchain-chroma>=0.1.0
+langchain-openai>=0.3.0
+langchain-text-splitters>=0.3.0
+
+# ── 向量数据库 + 混合检索 ──
+chromadb>=0.5.0
+rank-bm25>=0.2.2          # BM25 关键词检索（混合检索必需）
+jieba>=0.42.1             # 中文分词（BM25 索引必需）
+
+# ── 爬虫 / Wiki 数据 ──
+playwright>=1.45.0        # 无头浏览器（绕过 CloudFlare，渲染 BuffPro 状态效果中文）
+beautifulsoup4>=4.12.0    # HTML 结构化提取
+lxml>=5.0
+feedparser>=6.0           # X/Twitter RSS 拉取
+mwparserfromhell>=0.6.0   # WikiText 解析
+
+# ── 消息接入 / 网络 ──
+websockets>=12.0          # NapCatQQ WebSocket 通信
+httpx>=0.27.0             # 推文媒体下载 / syndication 视频 API
+
+# ── 配置 ──
+pyyaml>=6.0
+python-dotenv>=1.0
+
+# ═══════════════════════════════════════════════════════════
+# 可选依赖（按需安装）
+# ═══════════════════════════════════════════════════════════
+
+# 1) 本地 Embedding 模型（免费、无需 API Key；国内直连 ModelScope 下载）：
+#    pip install sentence-transformers langchain-huggingface modelscope
+#    （config.yaml 中 embedding.provider 设为 "local" 时使用）
+# sentence-transformers>=3.0
+# langchain-huggingface>=0.1.0
+# modelscope>=1.20
+
+# 2) 开发 / 调试工具：
+#    pip install pytest pytest-asyncio pytest-cov

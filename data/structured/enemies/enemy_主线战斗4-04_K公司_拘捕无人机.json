@@ -1,0 +1,100 @@
+{
+  "page_type": "enemy",
+  "title": "主线战斗4-04",
+  "enemy_name": "K公司 拘捕无人机",
+  "battle_stage": "主线战斗4-04",
+  "body_part": "",
+  "hp": 83,
+  "defense_level": 26,
+  "speed_min": 1,
+  "speed_max": 3,
+  "chaos_threshold": "",
+  "physical_resistances": {
+    "斩击": 0.75,
+    "突刺": 2.0,
+    "打击": 1.0
+  },
+  "sin_resistances": {
+    "暴怒": 1.0,
+    "色欲": 1.0,
+    "怠惰": 1.0,
+    "暴食": 1.0,
+    "忧郁": 1.0,
+    "傲慢": 1.0,
+    "嫉妒": 1.0
+  },
+  "panic_types": [],
+  "passives": [
+    "机械精神：理智值固定为0。",
+    "注意损伤： 破裂 下{1}次被攻击时，额外受到{0}点固定伤害。 效果对自身造成的伤害+30%（向下取整）"
+  ],
+  "skills": [
+    {
+      "skill_name": "开始近距摄像",
+      "icon_id": "9004601",
+      "sin_type": "暴食",
+      "damage_type": "",
+      "base_value": 0,
+      "coin_power": 6,
+      "coin_count": 1,
+      "attack_level": 19,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "coin_effects": []
+    },
+    {
+      "skill_name": "撤退 撤退",
+      "icon_id": "9004602",
+      "sin_type": "常规",
+      "damage_type": "",
+      "base_value": 0,
+      "coin_power": 6,
+      "coin_count": 1,
+      "attack_level": 0,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "coin_effects": []
+    },
+    {
+      "skill_name": "闪光 闪光",
+      "icon_id": "9007103",
+      "sin_type": "怠惰",
+      "damage_type": "",
+      "base_value": 0,
+      "coin_power": 7,
+      "coin_count": 2,
+      "attack_level": 19,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "coin_effects": [
+        "[命中时] 使目标失去5点理智值",
+        "[正面命中时] 使目标失去5点理智值"
+      ]
+    },
+    {
+      "skill_name": "进行拘束",
+      "icon_id": "9007104",
+      "sin_type": "嫉妒",
+      "damage_type": "",
+      "base_value": 0,
+      "coin_power": 6,
+      "coin_count": 2,
+      "attack_level": 19,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "coin_effects": [
+        "[命中时] 下回合对目标施加2层和三层 麻痹 本回合内使{0}枚硬币的变动值固定为0。"
+      ]
+    }
+  ],
+  "is_ally": false,
+  "_structured": true,
+  "enemy_id": "主线战斗4-04|K公司 拘捕无人机",
+  "defense": 26,
+  "speed": "1~3",
+  "_schema_version": 1
+}

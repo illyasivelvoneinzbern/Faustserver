@@ -1,0 +1,161 @@
+{
+  "page_type": "enemy",
+  "title": "大湖之镜-蠢蠢欲动的异端审判官",
+  "enemy_name": "普通 - 蠢蠢欲动的异端审判官",
+  "battle_stage": "大湖之镜-蠢蠢欲动的异端审判官",
+  "body_part": "右臂",
+  "hp": 319,
+  "defense_level": 49,
+  "speed_min": 2,
+  "speed_max": 4,
+  "chaos_threshold": "",
+  "physical_resistances": {
+    "斩击": 1.0,
+    "突刺": 1.5,
+    "打击": 0.5
+  },
+  "sin_resistances": {
+    "暴怒": 1.5,
+    "色欲": 1.0,
+    "怠惰": 2.0,
+    "暴食": 0.75,
+    "忧郁": 0.75,
+    "傲慢": 1.0,
+    "嫉妒": 1.0
+  },
+  "panic_types": [],
+  "passives": [],
+  "skills": [
+    {
+      "skill_name": "盘绕双臂",
+      "icon_id": "802801",
+      "sin_type": "色欲",
+      "damage_type": "穿刺",
+      "base_value": 2,
+      "coin_power": 9,
+      "coin_count": 2,
+      "attack_level": 46,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[命中时] 下回合对目标施加3层 麻痹"
+      ]
+    },
+    {
+      "skill_name": "缠绕扭断",
+      "icon_id": "802802",
+      "sin_type": "色欲",
+      "damage_type": "打击",
+      "base_value": 4,
+      "coin_power": 9,
+      "coin_count": 2,
+      "attack_level": 46,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "拼点失败使自身失去1层本能"
+      ]
+    },
+    {
+      "skill_name": "双臂挥砸",
+      "icon_id": "802803",
+      "sin_type": "色欲",
+      "damage_type": "打击",
+      "base_value": 3,
+      "coin_power": 9,
+      "coin_count": 4,
+      "attack_level": 46,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[命中时] 下回合使目标增加2级 流血 强度并对其施加1层 麻痹",
+        "[命中时] 下回合使目标增加4级 流血 强度并对其施加2层 麻痹"
+      ]
+    },
+    {
+      "skill_name": "双臂痛殴",
+      "icon_id": "802804",
+      "sin_type": "色欲",
+      "damage_type": "打击",
+      "base_value": 3,
+      "coin_power": 9,
+      "coin_count": 2,
+      "attack_level": 46,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[命中时] 使目标的混乱阈值前移10；下回合对目标施加5层 束缚"
+      ]
+    },
+    {
+      "skill_name": "屏息凝神",
+      "icon_id": "802805",
+      "sin_type": "常规",
+      "damage_type": "防御",
+      "base_value": 6,
+      "coin_power": 79,
+      "coin_count": 1,
+      "attack_level": 0,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "战斗开始使自身获得1层本能"
+      ]
+    },
+    {
+      "skill_name": "痛苦蠕动",
+      "icon_id": "802807",
+      "sin_type": "暴食",
+      "damage_type": "打击",
+      "base_value": 7,
+      "coin_power": 854,
+      "coin_count": 4,
+      "attack_level": 46,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[使用时] 使自身失去12点体力并在下回合使自身增加5级 流血 强度",
+        "[命中时] 下回合对目标施加3层 剧毒"
+      ]
+    },
+    {
+      "skill_name": "痛苦蠕动",
+      "icon_id": "802808",
+      "sin_type": "暴食",
+      "damage_type": "打击",
+      "base_value": 11,
+      "coin_power": 854,
+      "coin_count": 3,
+      "attack_level": 46,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[使用时] 使自身失去12点体力并在下回合使自身获得3层 流血",
+        "[命中时] 下回合对目标施加6层 麻痹"
+      ]
+    }
+  ],
+  "is_ally": false,
+  "_structured": true,
+  "appear_stages": [
+    "大湖之镜-蠢蠢欲动的异端审判官"
+  ],
+  "enemy_id": "大湖之镜-蠢蠢欲动的异端审判官|普通 - 蠢蠢欲动的异端审判官|右臂",
+  "defense": 49,
+  "speed": "2~4",
+  "_schema_version": 1
+}

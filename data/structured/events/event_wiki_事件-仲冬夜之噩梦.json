@@ -1,0 +1,33 @@
+{
+  "page_type": "event",
+  "title": "事件-仲冬夜之噩梦",
+  "event_name": "仲冬夜之噩梦",
+  "narration": "在收容单元里，可以看到精灵提灯。\n一只带着蓝光的精灵，飞到了像枯树缠绕的枝条上。\n精灵栖息的枝条，像是在诱惑着我们靠近一样摇晃着……\n在与树根相接的地方，无数只鲜艳的黄色眼睛注视着我们。\n“精灵提灯是一个很美丽的异想体哦。您的观察结束了吗？”\n“我们在这里得到了很多关于精灵提灯的情报。”\n“当然，未知的事情也还有很多。”\n“说起来，您知道从精灵提灯那里能获得的E.G.O饰品的名字吗？”\n\n仲冬夜之噩梦\n“就是这个名字。看来你们对精灵提灯很了解呢。”\n“但是，这还不是全部。最近，它还给了我们这个。”\n“给你吧。作为遇见志同道合之人的纪念。”\n收到了一根似乎是从提灯那里得到的、细瘦的树枝。\n获得\n！\n\n凹陷\n“……”\n“最好再多观察一下。”\n研究员无视了我们从我们身边走过。\n什么都没有发生。",
+  "options": [
+    {
+      "choice_text": "仲冬夜之噩梦",
+      "check_type": "",
+      "check_sin": "",
+      "check_threshold": 0,
+      "success_outcomes": [],
+      "failure_outcomes": []
+    },
+    {
+      "choice_text": "凹陷",
+      "check_type": "",
+      "check_sin": "",
+      "check_threshold": 0,
+      "success_outcomes": [],
+      "failure_outcomes": []
+    }
+  ],
+  "ego_gifts": [],
+  "related_abnormalities": [],
+  "trigger_location": "",
+  "_structured": true,
+  "id": "wiki_事件-仲冬夜之噩梦",
+  "url": "https://limbuscompany.huijiwiki.com/wiki/事件-仲冬夜之噩梦",
+  "categories": [],
+  "source": "wiki",
+  "_schema_version": 1
+}

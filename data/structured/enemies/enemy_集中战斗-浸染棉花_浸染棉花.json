@@ -1,0 +1,194 @@
+{
+  "page_type": "enemy",
+  "title": "集中战斗-浸染棉花",
+  "enemy_name": "浸染棉花",
+  "battle_stage": "集中战斗-浸染棉花",
+  "body_part": "躯干",
+  "hp": 567,
+  "defense_level": 45,
+  "speed_min": 2,
+  "speed_max": 4,
+  "chaos_threshold": "0.45/0",
+  "physical_resistances": {
+    "斩击": 1.3,
+    "突刺": 1.0,
+    "打击": 0.5
+  },
+  "sin_resistances": {
+    "暴怒": 1.5,
+    "色欲": 0.2,
+    "怠惰": 1.0,
+    "暴食": 0.5,
+    "忧郁": 1.0,
+    "傲慢": 1.5,
+    "嫉妒": 1.0
+  },
+  "panic_types": [],
+  "passives": [],
+  "skills": [
+    {
+      "skill_name": "种植棉花",
+      "icon_id": "857801",
+      "sin_type": "色欲",
+      "damage_type": "穿刺",
+      "base_value": 5,
+      "coin_power": 5,
+      "coin_count": 1,
+      "attack_level": 2,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "使用时对目标施加3层棉花",
+        "1命中时使目标增加3级流血强度并对其施加1层流血"
+      ]
+    },
+    {
+      "skill_name": "种植伤口",
+      "icon_id": "857802",
+      "sin_type": "暴食",
+      "damage_type": "穿刺",
+      "base_value": 5,
+      "coin_power": 6,
+      "coin_count": 1,
+      "attack_level": 2,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "1命中时对目标施加2层流血",
+        "正面命中时使目标增加4级流血强度"
+      ]
+    },
+    {
+      "skill_name": "汲取的根",
+      "icon_id": "857803",
+      "sin_type": "暴怒",
+      "damage_type": "穿刺",
+      "base_value": 4,
+      "coin_power": 2,
+      "coin_count": 2,
+      "attack_level": 2,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "无法拼点",
+        "使本技能造成的伤害+（目标的棉花层数×10）%",
+        "1命中时使自身恢复本硬币伤害量（目标的棉花×5）% 的体力",
+        "2命中时使自身恢复本硬币伤害量（目标的棉花×5）% 的体力"
+      ]
+    },
+    {
+      "skill_name": "覆盖棉花",
+      "icon_id": "857804",
+      "sin_type": "暴怒",
+      "damage_type": "穿刺",
+      "base_value": 7,
+      "coin_power": 4,
+      "coin_count": 2,
+      "attack_level": 2,
+      "attack_weight": 5,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "指定流血强度最高的单位",
+        "使用时若主要目标为流血强度最高的目标，则使本技能的基础威力+5，施加的状态变为2倍",
+        "1命中时下回合对目标施加2层束缚与2层色欲易损",
+        "2命中时使目标增加8级流血强度并对其施加4层流血"
+      ]
+    },
+    {
+      "skill_name": "散落的棉花",
+      "icon_id": "857805",
+      "sin_type": "暴食",
+      "damage_type": "穿刺",
+      "base_value": 10,
+      "coin_power": 4,
+      "coin_count": 2,
+      "attack_level": 2,
+      "attack_weight": 5,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "使用时若主要目标为流血强度最高的单位，则使本技能的基础威力+5",
+        "技能结束时下回合解除红染棉花状态",
+        "1命中时使目标增加4级流血强度并对其施加2层流血",
+        "2命中时使目标增加4级流血强度并对其施加2层流血"
+      ]
+    },
+    {
+      "skill_name": "散乱之风",
+      "icon_id": "857806",
+      "sin_type": "",
+      "damage_type": "闪避",
+      "base_value": 4,
+      "coin_power": 8,
+      "coin_count": 1,
+      "attack_level": 0,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "闪避成功时使目标增加3级流血强度并对其施加1层流血"
+      ]
+    },
+    {
+      "skill_name": "被覆盖的棉花",
+      "icon_id": "857807",
+      "sin_type": "色欲",
+      "damage_type": "穿刺",
+      "base_value": 5,
+      "coin_power": 3,
+      "coin_count": 2,
+      "attack_level": 2,
+      "attack_weight": 3,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "无法拼点",
+        "战斗开始下回合进入红染棉花状态",
+        "2命中时对目标施加3层棉花"
+      ]
+    },
+    {
+      "skill_name": "散落的红染棉花",
+      "icon_id": "857808",
+      "sin_type": "暴食",
+      "damage_type": "穿刺",
+      "base_value": 10,
+      "coin_power": 4,
+      "coin_count": 2,
+      "attack_level": 2,
+      "attack_weight": 5,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "优先指定流血强度最高的单位",
+        "使用时若主要目标为流血强度最高的单位，则使本技能的基础威力+10",
+        "若目标的流血强度不低于10级，则使本技能造成的伤害+50%",
+        "1命中时使目标增加5级流血强度并对其施加4层流血",
+        "命中时根据目标带有的流血强度，使自身恢复相应的体力",
+        "2命中时使目标增加5级流血强度并对其施加4层流血",
+        "命中时根据目标带有的流血强度，使自身恢复相应的体力"
+      ]
+    }
+  ],
+  "is_ally": false,
+  "_structured": true,
+  "appear_stages": [
+    "集中战斗-浸染棉花"
+  ],
+  "enemy_id": "集中战斗-浸染棉花|浸染棉花|躯干",
+  "defense": 45,
+  "speed": "2~4",
+  "_schema_version": 1
+}

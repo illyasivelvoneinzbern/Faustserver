@@ -1,0 +1,21 @@
+{
+  "id": "gift_2067",
+  "title": "镜中花",
+  "url": "https://limbuscompany.huijiwiki.com/wiki/E.G.O饰品",
+  "categories": [
+    "E.G.O饰品"
+  ],
+  "content": "每回合开始时，使全体未带有破裂的敌方单位增加3级破裂强度并对其施加1层破裂(若是集中遭遇战，则改为所有部位)\n<i><span style=\"color:#a16a3b\">水流花谢两无情。</span></i>",
+  "source": "tabx",
+  "_structured": true,
+  "page_type": "ego_gift",
+  "gift_name": "镜中花",
+  "rarity": 0,
+  "cost": "0",
+  "effect_types": "",
+  "attack_type": "暴食",
+  "location": "第八章",
+  "stage": "base",
+  "event": "事件-罪人折花",
+  "_schema_version": 1
+}

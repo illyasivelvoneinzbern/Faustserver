@@ -1,0 +1,22 @@
+{
+  "id": "gift_9720",
+  "title": "陈旧的长袍",
+  "url": "https://limbuscompany.huijiwiki.com/wiki/E.G.O饰品",
+  "categories": [
+    "E.G.O饰品"
+  ],
+  "content": "回合开始时，若属于剑契组的人格的友方单位不低于3名，则触发该效果。(以参战人员为基准)\n全体友方单位造成的斩击伤害+50%。\n属于剑契组的友方单位1技能的硬币威力+1，若该技能为单硬币技能，则改为硬币威力+3。\n[剑契组头领默尔索专属] 技能“肉斩”的拼点最终威力-36，技能“骨断”造成的伤害+50%。",
+  "source": "tabx",
+  "_structured": true,
+  "page_type": "ego_gift",
+  "gift_name": "陈旧的长袍",
+  "rarity": 4,
+  "cost": "432",
+  "effect_types": "斩击",
+  "attack_type": "怠惰",
+  "location": "镜像迷宫",
+  "stage": "base",
+  "special": "肉斩骨断",
+  "event": "事件-竹笠，长袍",
+  "_schema_version": 1
+}

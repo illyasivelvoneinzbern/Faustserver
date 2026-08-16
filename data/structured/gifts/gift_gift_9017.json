@@ -1,0 +1,21 @@
+{
+  "id": "gift_9017",
+  "title": "石版字符",
+  "url": "https://limbuscompany.huijiwiki.com/wiki/E.G.O饰品",
+  "categories": [
+    "E.G.O饰品"
+  ],
+  "content": "敌方单位陷入混乱时，使现存体力最低的人格恢复该人格体力上限5%的体力。\n\n若该人格拥有暴食攻击技能，则改为恢复体力上限10%的体力。",
+  "source": "tabx",
+  "_structured": true,
+  "page_type": "ego_gift",
+  "gift_name": "石版字符",
+  "rarity": 1,
+  "cost": "165",
+  "effect_types": "泛用",
+  "attack_type": "暴食",
+  "location": "镜像迷宫",
+  "stage": "base",
+  "event": "事件-石版字符",
+  "_schema_version": 1
+}

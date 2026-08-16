@@ -1,0 +1,22 @@
+{
+  "id": "gift_9278",
+  "title": "粉碎的木制刑具",
+  "url": "https://limbuscompany.huijiwiki.com/wiki/E.G.O饰品",
+  "categories": [
+    "E.G.O饰品"
+  ],
+  "content": "使用斩击技能命中敌方单位时，下回合对其施加1层防御等级降低(每个技能最多2次)\n友方单位攻击速度值低于自身的敌方单位时，速度值每相差1点，使该友方单位基础攻击技能造成的伤害+3%(最多+12%)\n- 若敌方单位带有束缚，则使增加的伤害与其最大值变为2倍",
+  "source": "tabx",
+  "_structured": true,
+  "page_type": "ego_gift",
+  "gift_name": "粉碎的木制刑具",
+  "rarity": 2,
+  "cost": "202",
+  "effect_types": "斩击",
+  "attack_type": "嫉妒",
+  "location": "经验记忆、镜像迷宫",
+  "stage": "base",
+  "special": "经验记忆",
+  "event": "事件-金笠的过去 3",
+  "_schema_version": 1
+}

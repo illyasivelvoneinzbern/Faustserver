@@ -1,0 +1,54 @@
+{
+  "page_type": "event",
+  "title": "事件-破碎罗盘",
+  "event_name": "破碎罗盘",
+  "narration": "雪山中矗立着被冻住的标识。\n靠近一看，才发现那不是标识。\n但，它依旧起到标识的作用。\n冻僵的尸体，用各自的手指向不同的方向。\n它手指向的方向上会有什么？\n\n向裂开的手所指的北方。\n看见了化为灰烬的村庄。\n这里似乎发生过严重的爆炸，大多建筑都被破坏了。\n迎面而来的暴风雪中混杂着烧焦的气味。\n在灰与雪覆盖的惨白废墟中，一座小屋映入眼帘。\n【这里发生了什么？】\n进行调查。\n小屋中放置着一口冒着热气的锅。\n恐怕大多数人都没能发现这个小屋，而冻毙于风雪之中了吧。\n获得50点\n经费！\n越过它。\n小屋被雪崩完全掩埋了。\n此处唯一能被辨别形体的小屋，转瞬之间便消失了。\n什么也没有发生\n\n向警告的手所指的东方。\n看见了昏暗的洞窟。\n在那里面，传出了至今为止从未听过的惨叫声。\n【这里发生了什么？】\n进行调查。\n看到了找不到方向，一直旋转着的罗盘。\n拿起罗盘后，所有惨叫骤然停下了。\n全体友方单位失去\n20点理智值\n！\n获得E.G.O饰品\n破碎罗盘\n！\n走过它。\n失去方向的人们的叫喊声仍不停息。\n虽然人们会觉得它们总该识路，但在一望无际的雪原里，无法辨别出方向。\n什么也没有发生\n\n向折断的手所指的西方。\n看见了与暴风雪不相称的花田。\n也许，可以在这里稍作休息。\n【稍微休息一下吧？】\n稍事休息。\n在休息的过程中寒气缓和了些许。\n虽说稍微有些迷路，不过我们还是继续前进。\n全体友方单位恢复\n20点理智值\n越过它。\n前行路上风雪愈发凶猛。\n像刚才那样的地方，暂时是找不到了吧。\n什么也没有发生\n\n回头。\n我们忽视了所有的手所指的方向，走过它。\n什么也没有发生",
+  "options": [
+    {
+      "choice_text": "向裂开的手所指的北方。",
+      "check_type": "",
+      "check_sin": "",
+      "check_threshold": 0,
+      "success_outcomes": [],
+      "failure_outcomes": []
+    },
+    {
+      "choice_text": "向警告的手所指的东方。",
+      "check_type": "",
+      "check_sin": "",
+      "check_threshold": 0,
+      "success_outcomes": [],
+      "failure_outcomes": []
+    },
+    {
+      "choice_text": "向折断的手所指的西方。",
+      "check_type": "",
+      "check_sin": "",
+      "check_threshold": 0,
+      "success_outcomes": [],
+      "failure_outcomes": []
+    },
+    {
+      "choice_text": "回头。",
+      "check_type": "",
+      "check_sin": "",
+      "check_threshold": 0,
+      "success_outcomes": [],
+      "failure_outcomes": []
+    }
+  ],
+  "ego_gifts": [],
+  "related_abnormalities": [
+    "白幕内涉及目前游戏未公开内容，仅供参考，请以后续实装内容为准。",
+    "길잃은탐험가",
+    "事件触发地点",
+    "镜像迷宫"
+  ],
+  "trigger_location": "",
+  "_structured": true,
+  "id": "wiki_事件-破碎罗盘",
+  "url": "https://limbuscompany.huijiwiki.com/wiki/事件-破碎罗盘",
+  "categories": [],
+  "source": "wiki",
+  "_schema_version": 1
+}

@@ -1,0 +1,45 @@
+{
+  "page_type": "event",
+  "title": "事件-悲泣蟾蜍",
+  "event_name": "悲泣蟾蜍",
+  "narration": "“呱、呱、呱。”\n巨大的蟾蜍在洞穴中叫着。\n洞穴各处粘着青黑色的黏液。\n这些黏液好似忧郁的凝聚。\n不同于眼泪或哀伤的，忧郁的精华。\n蟾蜍正不断生产这种黏液。\n\n模仿叫声。\n（平均理智值低于25）\n咕呱，呱。\n蟾蜍貌似在用不同的叫声做出回应。\n就像是在回答“知道了”一样，是表达理解的声音。\n随后纯蓝的长舌头突然伸出，\n抓住了我们中的一人。\n过了一会，被抓走的人从它口中回来了。\n完全被浸透了的样子。\n不论是被水分，还是忧郁。\n理智值最低的友方单位恢复至\n理智值上限\n技能组内包含\n忧郁属性攻击技能\n的友方单位中理智值最低者的\n体力恢复至上限\n模仿叫声。\n（平均理智值高于25）\n咕呱，呱。\n蟾蜍的声音低沉，浑浊。\n像是在对我们的叫声表示不解。\n它就那样叫了好几声，\n突然高高跃起，离开了这里。\n只剩下了青黑色的黏液。\n什么都没有发生。\n\n坐下慢慢等待。\n在洞穴中，不知花了多长时间，\n我们等待着蟾蜍叫声停止，\n它眨巴着眼睛凝视我们。\n伴随着“嘶——”的声音，\n纯蓝色的长舌头\n缓慢接近过来。\n舌头上的是蟾蜍的眼球，\n似乎是想要让我们拿走。\n取走后，它用仅剩的那只眼睛\n对我们眨了两下，\n随后不知去哪里了。\n是在感谢我们愿意倾听吗？\n获得\n！\n\n捂住耳朵。\n“执行经理，您没事吧？”\n<……没事啊？>\n“还不是因为经理脑袋是钟表才没事的啊！”\n即使捂住耳朵，脑中也依然回响着蟾蜍的鸣叫声，害得罪人们十分痛苦。\n似乎是终于忍不住了，有人举起武器挥向蟾蜍。\n触发\n集中战斗\n！\n战斗胜利后，获得\n！\n战斗失败后，没有奖励",
+  "options": [
+    {
+      "choice_text": "模仿叫声。",
+      "check_type": "",
+      "check_sin": "",
+      "check_threshold": 0,
+      "success_outcomes": [],
+      "failure_outcomes": []
+    },
+    {
+      "choice_text": "坐下慢慢等待。",
+      "check_type": "",
+      "check_sin": "",
+      "check_threshold": 0,
+      "success_outcomes": [],
+      "failure_outcomes": []
+    },
+    {
+      "choice_text": "捂住耳朵。",
+      "check_type": "",
+      "check_sin": "",
+      "check_threshold": 0,
+      "success_outcomes": [],
+      "failure_outcomes": []
+    }
+  ],
+  "ego_gifts": [],
+  "related_abnormalities": [
+    "ZAYINLCE评级ZAYIN-01T-01-23-04悲泣蟾蜍",
+    "事件触发地点",
+    "镜像迷宫"
+  ],
+  "trigger_location": "",
+  "_structured": true,
+  "id": "wiki_事件-悲泣蟾蜍",
+  "url": "https://limbuscompany.huijiwiki.com/wiki/事件-悲泣蟾蜍",
+  "categories": [],
+  "source": "wiki",
+  "_schema_version": 1
+}

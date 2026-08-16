@@ -1,0 +1,627 @@
+{
+  "page_type": "enemy",
+  "title": "映射战斗-经验记忆",
+  "enemy_name": "第一阶段",
+  "battle_stage": "映射战斗-经验记忆",
+  "body_part": "",
+  "hp": 6132,
+  "defense_level": 71,
+  "speed_min": 2,
+  "speed_max": 3,
+  "chaos_threshold": "无",
+  "physical_resistances": {
+    "斩击": 1.0,
+    "突刺": 1.0,
+    "打击": 1.0
+  },
+  "sin_resistances": {
+    "暴怒": 1.25,
+    "色欲": 1.0,
+    "怠惰": 1.25,
+    "暴食": 0.75,
+    "忧郁": 0.75,
+    "傲慢": 1.0,
+    "嫉妒": 1.0
+  },
+  "panic_types": [],
+  "passives": [
+    "映射战斗: 若与同一目标拼点不低于10次，则随机使自身的拼点威力增加或减少(拼点次数/10)(向下取整) 流血 、 破裂 与 沉沦 强度最多累计到30级，层数最多累计到10层 烧伤 与 震颤 强度最多累计到50级，层数最多累计到30层",
+    "布面甲[肉]-铁壁: 受到的[ 流血 、 破裂 与 沉沦 伤害-30%(向下取整) 适用于 固定恐慌 效果，回合结束时，若自身陷入恐慌，则使自身的理智值变为45点 关卡中首次登场时，使自身获得5层 布面甲【肉】 自身的 布面甲【肉】 被解除后，下回合使自身陷入混乱 因该效果而陷入混乱的回合结束时，改变自身阶段 - 第1阶段内自身的体力不会 低于70% - 现存体力低于70%时， 立即结束 本回合并改变自身阶段 - 改变阶段的回合开始时，使自身的理智值恢复至45点 东部的骑乘甲是一种比起“穿着”更接近于“搭乘”这一概念的武具，S公司的布面甲也是骑乘甲的一种。就像R公司的动力装甲和西部骑士们的全身板甲一样，布面甲能令使用者的攻防能力得到飞跃性的提升。 但性能如此优异的骑乘甲并不容易提供，另外，每种甲胄的操作方式也有不同，还存在需要加入额外燃料的制约。 但可以确定的是，像动力装甲和全身板甲以及其他骑乘甲一样，当骑乘者习惯了布面甲所带来的攻击距离增加与输出强化的瞬间，其在战场上的杀伤力将得到飞跃性的提升。",
+    "本国剑术[肉]-大环刀: 关卡开始时，使自身获得5层 本国剑术【肉】 每3回合改变自身的本国姿态 若回合结束时自身带有护盾，则下回合使自身增加5级 呼吸法 强度并使自身获得2层 呼吸法 林庆业满足以下条件时，使用包括“本国弓-放箭”的模式 - 连续2回合自身所有拼点均失败时(不计入单方面攻击) - 陷入混乱的下回合 - 士气低落或陷入恐慌时 S公司所传承下来的本国剑也分为肉、血、骨三种。 在那之中还有为令山君那等巨大的存在伏首而传下的剑术。 为了能将此等剑术完全施展出来，需要使用与之相配的巨大环刀才行。",
+    "错位的记忆: 回合开始时，触发以下效果 - 处于 本国姿态-狩熊 状态时，若自身的 本国剑术【肉】 层数低于5层， 则对自身施加(5-自身的 本国剑术【肉】 层数)层 易损 - 处于 本国姿态-狩虎 状态时，若自身的 本国剑术【肉】 层数高于5层， 则每超过1层，对自身施加1层 易损",
+    "饱经磨炼的武艺: 拼点胜利时，使自身获得2层 呼吸法 (每回合最多2次) 若自身技能命中的目标的 流血 强度低于5级，则攻击后使该目标增加1级 流血 强度并对该目标施加2层 流血 (每个技能最多1次，每回合最多2次，优先适用于主要目标) “有些人因没有才能而努力。而另一些人虽具才能，却并不努力。” “最终，第一剑的美名将由最为天赋异禀之人所得，所有人都这么说。” “但，没关系。直到这把剑触及云端的那一日，我都将不断地磨炼自己。”",
+    "刺痛的记忆: 拼点失败时，使自身获得1层 刺痛的记忆 (每回合最多1次)",
+    "显影的记忆: • 拼点胜利后根据拼点次数按比例增加 （增加量：基础值为10，从第二次拼点起，每次拼点增加20%） • 击杀敌方单位时，不论该敌方单位等级，增加10 • 未知条件: OnEndAttackMp2"
+  ],
+  "skills": [
+    {
+      "skill_name": "斩牛",
+      "icon_id": "145001",
+      "sin_type": "怠惰",
+      "damage_type": "斩击",
+      "base_value": 7,
+      "coin_power": 9703,
+      "coin_count": 2,
+      "attack_level": 67,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[使用时] 使自身增加3级 呼吸法 强度",
+        "[使用时] 目标每带有4级 流血 强度，使本技能的最终威力+1(最多+2)",
+        "[命中时] 使目标增加3级 流血 强度"
+      ]
+    },
+    {
+      "skill_name": "斩熊",
+      "icon_id": "145002",
+      "sin_type": "色欲",
+      "damage_type": "斩击",
+      "base_value": 7,
+      "coin_power": 9,
+      "coin_count": 3,
+      "attack_level": 68,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[使用时] 使自身获得3层 呼吸法",
+        "[使用时] 目标每带有4级 流血 强度，使本技能的最终威力+1(最多+2)",
+        "[使用时] 若自身的 呼吸法 强度不低于6级，则使本技能的所有硬币转化为 不可摧毁的硬币",
+        "[命中时] 对目标施加3层 流血"
+      ]
+    },
+    {
+      "skill_name": "断熊脊",
+      "icon_id": "145003",
+      "sin_type": "忧郁",
+      "damage_type": "斩击",
+      "base_value": 11,
+      "coin_power": 3,
+      "coin_count": 3,
+      "attack_level": 68,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[使用时] 若自身的 呼吸法 强度不低于8级，则使本技能暴击时造成的伤害+40%",
+        "[使用时] 目标每带有4级 流血 强度，使本技能的最终威力+1(最多+2)",
+        "[使用时] 若自身的 本国剑术【肉】 层数不低于7层，则使本技能的所有硬币转化为 不可摧毁的硬币 ，暴击时造成的伤害+100%",
+        "[命中时] 本回合与下回合对目标施加1层 斩击抗性弱化",
+        "[命中时] 使目标增加5级 流血 强度并对其施加3层 流血"
+      ]
+    },
+    {
+      "skill_name": "本国剑式 - 肉[Sal]斩",
+      "icon_id": "145005",
+      "sin_type": "怠惰",
+      "damage_type": "斩击",
+      "base_value": 3,
+      "coin_power": 9703,
+      "coin_count": 4,
+      "attack_level": 67,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[使用时] 使自身增加3级 呼吸法 强度",
+        "[使用时] 目标每带有4级 流血 强度，使本技能的最终威力+1(最多+2)",
+        "[命中时] 使目标增加3级 流血 强度"
+      ]
+    },
+    {
+      "skill_name": "狩虎",
+      "icon_id": "145006",
+      "sin_type": "色欲",
+      "damage_type": "斩击",
+      "base_value": 4,
+      "coin_power": 9,
+      "coin_count": 5,
+      "attack_level": 68,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[使用时] 使自身获得3层 呼吸法",
+        "[使用时] 目标每带有4级 流血 强度，使本技能的最终威力+1(最多+2)",
+        "[使用时] 若自身的 呼吸法 强度不低于6级，则使本技能的所有硬币转化为 不可摧毁的硬币",
+        "[命中时] 对目标施加1层 流血",
+        "[命中时] 对目标施加2层 流血"
+      ]
+    },
+    {
+      "skill_name": "斩虎",
+      "icon_id": "145007",
+      "sin_type": "忧郁",
+      "damage_type": "斩击",
+      "base_value": 4,
+      "coin_power": 3,
+      "coin_count": 6,
+      "attack_level": 68,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[使用时] 若自身的 呼吸法 强度不低于8级，则使本技能暴击时造成的伤害+40%",
+        "[使用时] 目标每带有4级 流血 强度，使本技能的最终威力+1(最多+2)",
+        "[使用时] 若自身的 本国剑术【肉】 层数不高于3层，则使本技能的所有硬币转化为 不可摧毁的硬币 ，暴击时造成的伤害+100%",
+        "[命中时] 使目标增加2级 流血 强度并对其施加2层 流血",
+        "[命中时] 下回合对目标施加2层 束缚",
+        "[命中时] 本回合与下回合对目标施加1层 斩击抗性弱化"
+      ]
+    },
+    {
+      "skill_name": "本国剑[肉]-重整态势",
+      "icon_id": "145009",
+      "sin_type": "暴怒",
+      "damage_type": "斩击",
+      "base_value": 4,
+      "coin_power": 987,
+      "coin_count": 2,
+      "attack_level": 68,
+      "attack_weight": 1,
+      "is_guard": true,
+      "guard_type": "防御",
+      "importance": 0,
+      "coin_effects": [
+        "本技能不受本国剑术【肉】影响",
+        "若目标的技能为援护防御专用技能，则使本技能转化为不可摧毁的硬币",
+        "拼点开始使自身失去3层本国剑术【肉】",
+        "- 若目标的技能为援护防御专用技能，则该效果不会触发",
+        "攻击后单方面攻击或攻击命中使用了援护防御专用技能的目标时，使自身获得2层本国剑术【肉】"
+      ]
+    },
+    {
+      "skill_name": "本国剑[肉]-磨剑",
+      "icon_id": "145010",
+      "sin_type": "傲慢",
+      "damage_type": "斩击",
+      "base_value": 4,
+      "coin_power": 3,
+      "coin_count": 2,
+      "attack_level": 68,
+      "attack_weight": 1,
+      "is_guard": true,
+      "guard_type": "防御",
+      "importance": 0,
+      "coin_effects": [
+        "本技能不受本国剑术【肉】影响",
+        "若目标的技能为援护防御专用技能，则使本技能转化为不可摧毁的硬币",
+        "拼点开始使自身获得3层本国剑术【肉】",
+        "- 若目标的技能为援护防御专用技能，则该效果不会触发",
+        "攻击后单方面攻击或攻击命中使用了援护防御专用技能的目标时，使自身失去2层本国剑术【肉】"
+      ]
+    },
+    {
+      "skill_name": "本国弓[肉]-放箭",
+      "icon_id": "145011",
+      "sin_type": "色欲",
+      "damage_type": "突刺",
+      "base_value": 10,
+      "coin_power": 9,
+      "coin_count": 3,
+      "attack_level": 69,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[使用时] 消耗自身3级 呼吸法 强度并使本技能的最终威力+2 不可摧毁的硬币",
+        "[命中时] 使目标增加5级 流血 强度并对其施加4层 流血"
+      ]
+    },
+    {
+      "skill_name": "防御",
+      "icon_id": "145012",
+      "sin_type": "暴食",
+      "damage_type": "守备",
+      "base_value": 10,
+      "coin_power": 854,
+      "coin_count": 1,
+      "attack_level": 0,
+      "attack_weight": 1,
+      "is_guard": true,
+      "guard_type": "防御",
+      "importance": 0,
+      "coin_effects": [
+        "本技能不受本国剑术【肉】影响",
+        "战斗开始使自身增加5级呼吸法强度并使自身获得5层呼吸法",
+        "使用时下回合使自身获得2层暴击伤害强化"
+      ]
+    },
+    {
+      "skill_name": "反击",
+      "icon_id": "145013",
+      "sin_type": "暴食",
+      "damage_type": "斩击",
+      "base_value": 4,
+      "coin_power": 854,
+      "coin_count": 3,
+      "attack_level": 67,
+      "attack_weight": 1,
+      "is_guard": true,
+      "guard_type": "反击",
+      "importance": 0,
+      "coin_effects": [
+        "[命中时] 对目标施加3层 流血",
+        "[命中时] 使目标增加3级 流血 强度"
+      ]
+    },
+    {
+      "skill_name": "捆紧捕绳",
+      "icon_id": "144801",
+      "sin_type": "色欲",
+      "damage_type": "斩击",
+      "base_value": 3,
+      "coin_power": 9,
+      "coin_count": 3,
+      "attack_level": 51,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[使用时] 若自身的 呼吸法 强度与目标的 流血 强度之和不低于6级，则使本技能的基础威力+1",
+        "[使用时] 使自身获得3层 呼吸法 - 若自身的速度值高于目标，则额外获得1层 呼吸法",
+        "[命中时] 使目标增加2级 流血 强度",
+        "[命中时] 对目标施加2层 流血",
+        "[命中时] 下回合对目标施加1层 撕裂的伤口"
+      ]
+    },
+    {
+      "skill_name": "斩断肌腱",
+      "icon_id": "144802",
+      "sin_type": "色欲",
+      "damage_type": "斩击",
+      "base_value": 4,
+      "coin_power": 9,
+      "coin_count": 4,
+      "attack_level": 52,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[使用时] 自身的 呼吸法 强度与目标的 流血 强度之和每有6级，使本技能的基础威力+1(最多+2)",
+        "[使用时] 若自身的速度值高于目标，则使本技能的最后一枚硬币转化为 不可摧毁的硬币",
+        "[使用时] 使自身增加2级 呼吸法 强度并使自身获得3层 呼吸法",
+        "[使用时] 若自身的速度值高于目标，则使自身增加3级 呼吸法 强度",
+        "[命中时] 对目标施加3层 流血",
+        "[命中时] 使目标增加1级 流血 强度",
+        "[命中时] 下回合对目标施加2层 撕裂的伤口"
+      ]
+    },
+    {
+      "skill_name": "斩裂",
+      "icon_id": "144803",
+      "sin_type": "傲慢",
+      "damage_type": "斩击",
+      "base_value": 4,
+      "coin_power": 3,
+      "coin_count": 5,
+      "attack_level": 54,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[使用时] 自身的 呼吸法 强度与目标的 流血 强度之和每有6级，使本技能的硬币威力+1(最多+2)",
+        "[使用时] 若自身的速度值高于目标，则使本技能的所有硬币转化为 不可摧毁的硬币",
+        "[使用时] 使自身增加3级 呼吸法 强度",
+        "[命中时] 对目标施加2层 流血",
+        "[命中时] 下回合对目标施加2层 撕裂的伤口"
+      ]
+    },
+    {
+      "skill_name": "打上烙印",
+      "icon_id": "144804",
+      "sin_type": "暴怒",
+      "damage_type": "斩击",
+      "base_value": 4,
+      "coin_power": 987,
+      "coin_count": 4,
+      "attack_level": 52,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[使用时] 自身的 呼吸法 强度与目标的 流血 强度之和每有6级，使本技能的硬币威力+1(最多+2)",
+        "[命中时] 使目标增加2级 流血 强度"
+      ]
+    },
+    {
+      "skill_name": "截断逃路",
+      "icon_id": "144805",
+      "sin_type": "色欲",
+      "damage_type": "斩击",
+      "base_value": 5,
+      "coin_power": 9,
+      "coin_count": 2,
+      "attack_level": 52,
+      "attack_weight": 1,
+      "is_guard": true,
+      "guard_type": "反击",
+      "importance": 0,
+      "coin_effects": [
+        "[使用时] 自身的 呼吸法 强度与目标的 流血 强度之和每有6级，使本技能的基础威力+1(最多+2)",
+        "[使用时] 使自身增加3级 呼吸法 强度",
+        "[命中时] 对目标施加2层 流血",
+        "[命中时] 下回合对目标施加2层 撕裂的伤口"
+      ]
+    },
+    {
+      "skill_name": "压制",
+      "icon_id": "144901",
+      "sin_type": "色欲",
+      "damage_type": "斩击",
+      "base_value": 3,
+      "coin_power": 9,
+      "coin_count": 3,
+      "attack_level": 51,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[使用时] 若自身的 呼吸法 强度与目标的 流血 强度之和不低于6级，则使本技能的基础威力+1",
+        "[使用时] 使自身获得3层 呼吸法 - 若自身的速度值高于目标，则额外获得1层 呼吸法",
+        "[命中时] 使目标增加2级 流血 强度",
+        "[命中时] 下回合对目标施加1层 束缚"
+      ]
+    },
+    {
+      "skill_name": "扼住咽喉",
+      "icon_id": "144902",
+      "sin_type": "色欲",
+      "damage_type": "斩击",
+      "base_value": 4,
+      "coin_power": 9,
+      "coin_count": 4,
+      "attack_level": 52,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[使用时] 自身的 呼吸法 强度与目标的 流血 强度之和每有6级，使本技能的基础威力+1(最多+2)",
+        "[使用时] 若自身的速度值高于目标，则使本技能的最后一枚硬币转化为 不可摧毁的硬币",
+        "[使用时] 使自身增加2级 呼吸法 强度并使自身获得2层 呼吸法",
+        "[使用时] 若自身的速度值高于目标，则使自身增加3级 呼吸法 强度",
+        "[命中时] 使目标增加3级 流血 强度",
+        "[命中时] 使目标增加1级 流血 强度",
+        "[命中时] 下回合对目标施加2层 束缚"
+      ]
+    },
+    {
+      "skill_name": "执行推刷",
+      "icon_id": "144903",
+      "sin_type": "暴食",
+      "damage_type": "斩击",
+      "base_value": 4,
+      "coin_power": 854,
+      "coin_count": 20,
+      "attack_level": 53,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[使用时] 自身的 呼吸法 强度与目标的 流血 强度之和每有6级，使本技能的硬币威力+1(最多+2)",
+        "[使用时] 若自身的速度值高于目标，则使本技能的所有硬币转化为 不可摧毁的硬币",
+        "[使用时] 使自身增加3级 呼吸法 强度",
+        "[命中时] 使目标增加2级 流血 强度",
+        "[命中时] 有(目标的 束缚 层数×20)%的概率对目标施加 捕缚 - 若目标陷入混乱，则必定施加"
+      ]
+    },
+    {
+      "skill_name": "打上烙印",
+      "icon_id": "144904",
+      "sin_type": "暴怒",
+      "damage_type": "斩击",
+      "base_value": 4,
+      "coin_power": 987,
+      "coin_count": 4,
+      "attack_level": 52,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[使用时] 自身的 呼吸法 强度与目标的 流血 强度之和每有6级，使本技能的硬币威力+1(最多+2)",
+        "[命中时] 使目标增加2级 流血 强度"
+      ]
+    },
+    {
+      "skill_name": "截断退路",
+      "icon_id": "144905",
+      "sin_type": "色欲",
+      "damage_type": "斩击",
+      "base_value": 5,
+      "coin_power": 9,
+      "coin_count": 2,
+      "attack_level": 52,
+      "attack_weight": 1,
+      "is_guard": true,
+      "guard_type": "反击",
+      "importance": 0,
+      "coin_effects": [
+        "[使用时] 自身的 呼吸法 强度与目标的 流血 强度之和每有6级，使本技能的基础威力+1(最多+2)",
+        "[使用时] 使自身增加3级 呼吸法 强度",
+        "[命中时] 使目标增加3级 流血 强度",
+        "[命中时] 下回合对目标施加1层 束缚"
+      ]
+    },
+    {
+      "skill_name": "棱角挥击",
+      "icon_id": "145201",
+      "sin_type": "怠惰",
+      "damage_type": "打击",
+      "base_value": 3,
+      "coin_power": 9703,
+      "coin_count": 3,
+      "attack_level": 51,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[使用时] 下回合使自身获得1层 迅捷 (每回合最多1次) 若目标的 流血 强度与 震颤 强度之和不低于6级，则使本技能的基础威力+1",
+        "[命中时] 对目标施加1层 定格尖钉",
+        "[命中时] 使目标增加2级 震颤 强度"
+      ]
+    },
+    {
+      "skill_name": "沉重痛击",
+      "icon_id": "145202",
+      "sin_type": "怠惰",
+      "damage_type": "打击",
+      "base_value": 3,
+      "coin_power": 9703,
+      "coin_count": 4,
+      "attack_level": 52,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[使用时] 下回合使自身获得2层 迅捷 (每回合最多1次) 目标的 流血 强度与 震颤 强度之和每有6级，使本技能的硬币威力+1(最多+2)",
+        "[命中时] 对目标施加1层 定格尖钉",
+        "[命中时] 使目标增加1级 震颤 强度",
+        "[命中时] 使目标增加2级 震颤 强度",
+        "[命中时] 使目标 震颤引爆 ，并使其 震颤 层数减少1层"
+      ]
+    },
+    {
+      "skill_name": "定格拍摄对象",
+      "icon_id": "145203",
+      "sin_type": "傲慢",
+      "damage_type": "打击",
+      "base_value": 4,
+      "coin_power": 3,
+      "coin_count": 6,
+      "attack_level": 54,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[使用时] 若自身的速度值高于目标，则使本技能的所有硬币转化为 不可摧毁的硬币",
+        "[命中时] 对目标施加2层 定格尖钉",
+        "[命中时] 使目标增加3级 震颤 强度",
+        "[命中时] 使目标增加2级 震颤 强度",
+        "[命中时] 使目标 震颤引爆 ，并使其 震颤 层数减少1层 不可摧毁的硬币"
+      ]
+    },
+    {
+      "skill_name": "捕捉瞬间",
+      "icon_id": "145204",
+      "sin_type": "傲慢",
+      "damage_type": "打击",
+      "base_value": 3,
+      "coin_power": 3,
+      "coin_count": 3,
+      "attack_level": 53,
+      "attack_weight": 1,
+      "is_guard": true,
+      "guard_type": "反击",
+      "importance": 0,
+      "coin_effects": [
+        "[使用时] 若自身的速度值高于目标，则使本技能的所有硬币转化为 不可摧毁的硬币"
+      ]
+    },
+    {
+      "skill_name": "铁板猛击",
+      "icon_id": "145301",
+      "sin_type": "怠惰",
+      "damage_type": "打击",
+      "base_value": 3,
+      "coin_power": 9703,
+      "coin_count": 3,
+      "attack_level": 51,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[使用时] 下回合使自身获得1层 迅捷 (每回合最多1次) 若目标的 流血 强度与 震颤 强度之和不低于6级，则使本技能的基础威力+1",
+        "[命中时] 对目标施加1层 定格尖钉",
+        "[命中时] 使目标增加1级 震颤 强度",
+        "[命中时] 对目标施加3层 震颤"
+      ]
+    },
+    {
+      "skill_name": "钉头凿击",
+      "icon_id": "145302",
+      "sin_type": "怠惰",
+      "damage_type": "打击",
+      "base_value": 3,
+      "coin_power": 9703,
+      "coin_count": 4,
+      "attack_level": 52,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[使用时] 下回合使自身获得2层 迅捷 (每回合最多1次) 目标的 流血 强度与 震颤 强度之和每有6级，使本技能的硬币威力+1(最多+2)",
+        "[命中时] 对目标施加1层 定格尖钉",
+        "[命中时] 对目标施加2层 震颤",
+        "[命中时] 使目标 震颤引爆 ，并使其 震颤 层数减少1层"
+      ]
+    },
+    {
+      "skill_name": "焦点矫正",
+      "icon_id": "145303",
+      "sin_type": "傲慢",
+      "damage_type": "打击",
+      "base_value": 4,
+      "coin_power": 3,
+      "coin_count": 6,
+      "attack_level": 54,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[使用时] 若自身的速度值高于目标，则使本技能的所有硬币转化为 不可摧毁的硬币",
+        "[命中时] 对目标施加2层 定格尖钉",
+        "[命中时] 使目标增加3级 震颤 强度",
+        "[命中时] 对目标施加2层 震颤",
+        "[命中时] 使目标 震颤引爆 ，并使其 震颤 层数减少1层 不可摧毁的硬币"
+      ]
+    },
+    {
+      "skill_name": "捕捉瞬间",
+      "icon_id": "145304",
+      "sin_type": "傲慢",
+      "damage_type": "打击",
+      "base_value": 3,
+      "coin_power": 3,
+      "coin_count": 3,
+      "attack_level": 53,
+      "attack_weight": 1,
+      "is_guard": true,
+      "guard_type": "反击",
+      "importance": 0,
+      "coin_effects": [
+        "[使用时] 若自身的速度值高于目标，则使本技能的所有硬币转化为 不可摧毁的硬币"
+      ]
+    }
+  ],
+  "is_ally": false,
+  "_structured": true,
+  "appear_stages": [
+    "映射战斗-经验记忆"
+  ],
+  "enemy_id": "映射战斗-经验记忆|第一阶段|",
+  "defense": 71,
+  "speed": "2~3",
+  "_schema_version": 1
+}

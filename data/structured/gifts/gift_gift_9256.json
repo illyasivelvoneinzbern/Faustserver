@@ -1,0 +1,21 @@
+{
+  "id": "gift_9256",
+  "title": "不完善的预知眼",
+  "url": "https://limbuscompany.huijiwiki.com/wiki/E.G.O饰品",
+  "categories": [
+    "E.G.O饰品"
+  ],
+  "content": "全体友方单位的加算硬币技能的硬币威力+(8/硬币数)，减算硬币技能的最终威力+(8/硬币数)(最少+1，包括E.G.O技能，向下取整)\n[第1顺位友方单位专属]\n- 进行拼点时，每次拼点使自身获得1层瞬间的预知，使目标增加2级震颤强度与烧伤强度(每个技能最多10次)",
+  "source": "tabx",
+  "_structured": true,
+  "page_type": "ego_gift",
+  "gift_name": "不完善的预知眼",
+  "rarity": 4,
+  "cost": "400",
+  "effect_types": "震颤",
+  "attack_type": "色欲",
+  "location": "镜像迷宫",
+  "stage": "base",
+  "special": "隐藏节点-蜘蛛巢的拇指",
+  "_schema_version": 1
+}

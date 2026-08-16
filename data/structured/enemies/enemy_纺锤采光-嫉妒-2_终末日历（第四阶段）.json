@@ -1,0 +1,71 @@
+{
+  "page_type": "enemy",
+  "title": "纺锤采光-嫉妒-2",
+  "enemy_name": "终末日历（第四阶段）",
+  "battle_stage": "纺锤采光-嫉妒-2",
+  "body_part": "面部",
+  "hp": 223,
+  "defense_level": 31,
+  "speed_min": 2,
+  "speed_max": 5,
+  "chaos_threshold": "",
+  "physical_resistances": {
+    "斩击": 1.0,
+    "突刺": 1.0,
+    "打击": 1.0
+  },
+  "sin_resistances": {
+    "暴怒": 0.75,
+    "色欲": 0.75,
+    "怠惰": 0.75,
+    "暴食": 0.75,
+    "忧郁": 0.75,
+    "傲慢": 0.75,
+    "嫉妒": 2.0
+  },
+  "panic_types": [],
+  "passives": [],
+  "skills": [
+    {
+      "skill_name": "宇宙燃烧",
+      "icon_id": "800205",
+      "sin_type": "嫉妒",
+      "damage_type": "打击",
+      "base_value": 45,
+      "coin_power": 5793,
+      "coin_count": 1,
+      "attack_level": 25,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": []
+    },
+    {
+      "skill_name": "宇宙燃烧",
+      "icon_id": "800205",
+      "sin_type": "嫉妒",
+      "damage_type": "打击",
+      "base_value": 45,
+      "coin_power": 5793,
+      "coin_count": 1,
+      "attack_level": 25,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "无法拼点指定友方单位"
+      ]
+    }
+  ],
+  "is_ally": false,
+  "_structured": true,
+  "appear_stages": [
+    "纺锤采光-嫉妒-2"
+  ],
+  "enemy_id": "纺锤采光-嫉妒-2|终末日历（第四阶段）|面部",
+  "defense": 31,
+  "speed": "2~5",
+  "_schema_version": 1
+}

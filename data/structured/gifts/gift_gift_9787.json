@@ -1,0 +1,22 @@
+{
+  "id": "gift_9787",
+  "title": "异文符咒",
+  "url": "https://limbuscompany.huijiwiki.com/wiki/E.G.O饰品",
+  "categories": [
+    "E.G.O饰品"
+  ],
+  "content": "自身的攻击技能击杀带有破裂的目标(若是集中遭遇战，则改为破坏部位)时，将目标的破裂强度平均施加给全体敌方单位(若是集中遭遇战，则改为所有部位)(每名敌方单位最多2级，向下取整)\n自身的攻击技能击杀带有咒杀【迅捷】的目标(若是集中遭遇战，则改为破坏部位)时，将目标的破裂强度与层数平均施加给全体敌方单位(若是集中遭遇战，则改为所有部位)(每名敌方单位最多2点，向下取整)",
+  "source": "tabx",
+  "_structured": true,
+  "page_type": "ego_gift",
+  "gift_name": "异文符咒",
+  "rarity": 2,
+  "cost": "212",
+  "effect_types": "破裂",
+  "attack_type": "暴怒",
+  "location": "镜像迷宫",
+  "stage": "base",
+  "special": "深夜清扫",
+  "event": "事件-镌刻的异文",
+  "_schema_version": 1
+}

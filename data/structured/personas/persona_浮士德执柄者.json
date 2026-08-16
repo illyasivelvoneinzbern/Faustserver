@@ -1,0 +1,565 @@
+{
+  "page_type": "personality",
+  "title": "浮士德执柄者",
+  "sinner": "浮士德",
+  "sinner_id": "faust",
+  "personality_name": "浮士德执柄者",
+  "release_date": "2023.03.23",
+  "acquisition": "第1赛季提取",
+  "sin_affinities": {
+    "嫉妒": 3,
+    "色欲": 2,
+    "傲慢": 1
+  },
+  "physical_resistances": {
+    "斩击": 2.0,
+    "突刺": 1.0,
+    "打击": 0.5
+  },
+  "ego_resources": {
+    "嫉妒": 3,
+    "色欲": 2,
+    "傲慢": 1
+  },
+  "skills": [
+    {
+      "skill_index": 0,
+      "skill_name": "狂笑",
+      "sin_type": "",
+      "damage_type": "",
+      "guard_type": "",
+      "attack_capacity": 1,
+      "coin_count": 3,
+      "stage_groups": [
+        [
+          {
+            "stage": "I",
+            "base_value": 3,
+            "coin_power": 3,
+            "effects": [
+              {
+                "timing": "拼点胜利",
+                "description": "使目标失去3点 理智值"
+              },
+              {
+                "timing": "命中时",
+                "description": "对目标施加1层 尖钉"
+              },
+              {
+                "timing": "命中时",
+                "description": "使目标增加1级 流血 强度"
+              }
+            ],
+            "raw_text": "基础值： 3 变动值： +3 [拼点胜利] 使目标失去3点 理智值 [命中时] 对目标施加1层 尖钉 [命中时] 使目标增加1级 流血 强度"
+          },
+          {
+            "stage": "II",
+            "base_value": 3,
+            "coin_power": 3,
+            "effects": [
+              {
+                "timing": "拼点胜利",
+                "description": "使目标失去3点 理智值"
+              },
+              {
+                "timing": "命中时",
+                "description": "对目标施加1层 尖钉"
+              },
+              {
+                "timing": "命中时",
+                "description": "使目标增加2级 流血 强度"
+              }
+            ],
+            "raw_text": "基础值： 3 变动值： +3 [拼点胜利] 使目标失去3点 理智值 [命中时] 对目标施加1层 尖钉 [命中时] 使目标增加2级 流血 强度"
+          },
+          {
+            "stage": "III",
+            "base_value": 4,
+            "coin_power": 3,
+            "effects": [
+              {
+                "timing": "拼点胜利",
+                "description": "使目标失去3点 理智值"
+              },
+              {
+                "timing": "命中时",
+                "description": "对目标施加1层 尖钉"
+              },
+              {
+                "timing": "命中时",
+                "description": "使目标增加2级 流血 强度"
+              }
+            ],
+            "raw_text": "基础值： 4 变动值： +3 [拼点胜利] 使目标失去3点 理智值 [命中时] 对目标施加1层 尖钉 [命中时] 使目标增加2级 流血 强度"
+          },
+          {
+            "stage": "IV",
+            "base_value": 4,
+            "coin_power": 3,
+            "effects": [
+              {
+                "timing": "拼点胜利",
+                "description": "使目标失去3点 理智值"
+              },
+              {
+                "timing": "命中时",
+                "description": "对目标施加1层 尖钉"
+              },
+              {
+                "timing": "命中时",
+                "description": "使目标增加2级 流血 强度"
+              }
+            ],
+            "raw_text": "基础值： 4 变动值： +3 [拼点胜利] 使目标失去3点 理智值 [命中时] 对目标施加1层 尖钉 [命中时] 使目标增加2级 流血 强度"
+          }
+        ]
+      ],
+      "coin_effects": [
+        {
+          "coin_index": 0,
+          "description": "技能一"
+        },
+        {
+          "coin_index": 0,
+          "description": "狂笑 3"
+        },
+        {
+          "coin_index": 0,
+          "timing": "",
+          "description": "2"
+        },
+        {
+          "coin_index": 0,
+          "description": "+4"
+        },
+        {
+          "coin_index": 0,
+          "description": "1"
+        },
+        {
+          "coin_index": 0,
+          "description": "基础值： 3 变动值： +3 [拼点胜利] 使目标失去3点 理智值"
+        },
+        {
+          "coin_index": 1,
+          "timing": "命中时",
+          "description": "[命中时] 对目标施加1层 尖钉"
+        },
+        {
+          "coin_index": 2,
+          "timing": "命中时",
+          "description": "[命中时] 使目标增加1级 流血 强度"
+        },
+        {
+          "coin_index": 1,
+          "timing": "命中时",
+          "description": "[命中时] 对目标施加1层 尖钉"
+        },
+        {
+          "coin_index": 2,
+          "timing": "命中时",
+          "description": "[命中时] 使目标增加2级 流血 强度"
+        },
+        {
+          "coin_index": 1,
+          "timing": "命中时",
+          "description": "[命中时] 对目标施加1层 尖钉"
+        },
+        {
+          "coin_index": 2,
+          "timing": "命中时",
+          "description": "[命中时] 使目标增加2级 流血 强度"
+        },
+        {
+          "coin_index": 1,
+          "timing": "命中时",
+          "description": "[命中时] 对目标施加1层 尖钉"
+        },
+        {
+          "coin_index": 2,
+          "timing": "命中时",
+          "description": "[命中时] 使目标增加2级 流血 强度"
+        }
+      ],
+      "wikitext_key": "1技能"
+    },
+    {
+      "skill_index": 1,
+      "skill_name": "执握",
+      "sin_type": "",
+      "damage_type": "",
+      "guard_type": "",
+      "attack_capacity": 1,
+      "coin_count": 4,
+      "stage_groups": [
+        [
+          {
+            "stage": "I",
+            "base_value": 4,
+            "coin_power": 2,
+            "effects": [
+              {
+                "timing": "命中时",
+                "description": "对目标施加3层 尖钉"
+              },
+              {
+                "timing": "正面命中时",
+                "description": "下回合对目标施加 凝视"
+              }
+            ],
+            "raw_text": "基础值： 4 变动值： +2 [命中时] 对目标施加3层 尖钉 [正面命中时] 下回合对目标施加 凝视"
+          },
+          {
+            "stage": "II",
+            "base_value": 4,
+            "coin_power": 2,
+            "effects": [
+              {
+                "timing": "命中时",
+                "description": "对目标施加3层 尖钉"
+              },
+              {
+                "timing": "正面命中时",
+                "description": "下回合对目标施加1层 麻痹"
+              },
+              {
+                "timing": "命中时",
+                "description": "下回合对目标施加 凝视"
+              }
+            ],
+            "raw_text": "基础值： 4 变动值： +2 [命中时] 对目标施加3层 尖钉 [正面命中时] 下回合对目标施加1层 麻痹 [命中时] 下回合对目标施加 凝视"
+          },
+          {
+            "stage": "III",
+            "base_value": 4,
+            "coin_power": 4,
+            "effects": [
+              {
+                "timing": "命中时",
+                "description": "对目标施加3层 尖钉"
+              },
+              {
+                "timing": "正面命中时",
+                "description": "下回合对目标施加1层 麻痹"
+              },
+              {
+                "timing": "命中时",
+                "description": "下回合对目标施加 凝视"
+              }
+            ],
+            "raw_text": "基础值： 4 变动值： +4 [命中时] 对目标施加3层 尖钉 [正面命中时] 下回合对目标施加1层 麻痹 [命中时] 下回合对目标施加 凝视"
+          },
+          {
+            "stage": "IV",
+            "base_value": 4,
+            "coin_power": 4,
+            "effects": [
+              {
+                "timing": "命中时",
+                "description": "对目标施加2层 尖钉"
+              },
+              {
+                "timing": "命中时",
+                "description": "对目标施加3层 尖钉"
+              },
+              {
+                "timing": "正面命中时",
+                "description": "下回合对目标施加1层 麻痹"
+              },
+              {
+                "timing": "命中时",
+                "description": "下回合对目标施加 凝视"
+              }
+            ],
+            "raw_text": "基础值： 4 变动值： +4 [命中时] 对目标施加2层 尖钉 [命中时] 对目标施加3层 尖钉 [正面命中时] 下回合对目标施加1层 麻痹 [命中时] 下回合对目标施加 凝视"
+          }
+        ]
+      ],
+      "coin_effects": [
+        {
+          "coin_index": 0,
+          "description": "技能二"
+        },
+        {
+          "coin_index": 0,
+          "description": "执握 2"
+        },
+        {
+          "coin_index": 0,
+          "timing": "",
+          "description": "3"
+        },
+        {
+          "coin_index": 0,
+          "description": "+4"
+        },
+        {
+          "coin_index": 0,
+          "description": "1"
+        },
+        {
+          "coin_index": 0,
+          "description": "基础值： 4 变动值： +2"
+        },
+        {
+          "coin_index": 2,
+          "timing": "命中时",
+          "description": "[命中时] 对目标施加3层 尖钉"
+        },
+        {
+          "coin_index": 3,
+          "timing": "正面命中时",
+          "description": "[正面命中时] 下回合对目标施加 凝视"
+        },
+        {
+          "coin_index": 2,
+          "timing": "命中时",
+          "description": "[命中时] 对目标施加3层 尖钉"
+        },
+        {
+          "coin_index": 3,
+          "timing": "正面命中时",
+          "description": "[正面命中时] 下回合对目标施加1层 麻痹 [命中时] 下回合对目标施加 凝视"
+        },
+        {
+          "coin_index": 2,
+          "timing": "命中时",
+          "description": "[命中时] 对目标施加3层 尖钉"
+        },
+        {
+          "coin_index": 3,
+          "timing": "正面命中时",
+          "description": "[正面命中时] 下回合对目标施加1层 麻痹 [命中时] 下回合对目标施加 凝视"
+        },
+        {
+          "coin_index": 1,
+          "timing": "命中时",
+          "description": "[命中时] 对目标施加2层 尖钉"
+        },
+        {
+          "coin_index": 2,
+          "timing": "命中时",
+          "description": "[命中时] 对目标施加3层 尖钉"
+        },
+        {
+          "coin_index": 3,
+          "timing": "正面命中时",
+          "description": "[正面命中时] 下回合对目标施加1层 麻痹 [命中时] 下回合对目标施加 凝视"
+        }
+      ],
+      "wikitext_key": "2技能"
+    },
+    {
+      "skill_index": 2,
+      "skill_name": "处刑",
+      "sin_type": "傲慢",
+      "damage_type": "打击",
+      "guard_type": "",
+      "attack_capacity": 1,
+      "coin_count": 4,
+      "stage_groups": [
+        [
+          {
+            "stage": "I",
+            "base_value": 6,
+            "coin_power": 2,
+            "effects": [
+              {
+                "timing": "命中时",
+                "description": "对目标施加2层 尖钉"
+              },
+              {
+                "timing": "正面命中时",
+                "description": "对目标施加2层 尖钉 若目标的 尖钉 层数高于5层，则使本 硬币 造成的伤害+50%"
+              }
+            ],
+            "raw_text": "基础值： 6 变动值： +2 击杀 敌方时，使所有友方恢复10点 理智值 并获得1层 突刺伤害强化 与1层 打击伤害强化 [命中时] 对目标施加2层 尖钉 [正面命中时] 对目标施加2层 尖钉 若目标的 尖钉 层数高于5层，则使本 硬币 造成的伤害+50%"
+          },
+          {
+            "stage": "II",
+            "base_value": 6,
+            "coin_power": 2,
+            "effects": [
+              {
+                "timing": "命中时",
+                "description": "对目标施加2层 尖钉"
+              },
+              {
+                "timing": "正面命中时",
+                "description": "对目标施加2层 尖钉 若目标的 尖钉 层数高于5层，则使本 硬币 造成的伤害+70%"
+              }
+            ],
+            "raw_text": "基础值： 6 变动值： +2 击杀 敌方时，使所有友方恢复10点 理智值 并获得1层 突刺伤害强化 与1层 打击伤害强化 [命中时] 对目标施加2层 尖钉 [正面命中时] 对目标施加2层 尖钉 若目标的 尖钉 层数高于5层，则使本 硬币 造成的伤害+70%"
+          }
+        ]
+      ],
+      "coin_effects": [
+        {
+          "coin_index": 0,
+          "description": "技能三"
+        },
+        {
+          "coin_index": 0,
+          "description": "处刑 1"
+        },
+        {
+          "coin_index": 0,
+          "timing": "",
+          "description": "3"
+        },
+        {
+          "coin_index": 0,
+          "description": "+4"
+        },
+        {
+          "coin_index": 0,
+          "description": "1"
+        },
+        {
+          "coin_index": 0,
+          "description": "基础值： 6 变动值： +2 击杀 敌方时，使所有友方恢复10点 理智值 并获得1层 突刺伤害强化 与1层 打击伤害强化"
+        },
+        {
+          "coin_index": 1,
+          "timing": "命中时",
+          "description": "[命中时] 对目标施加2层 尖钉"
+        },
+        {
+          "coin_index": 2,
+          "timing": "正面命中时",
+          "description": "[正面命中时] 对目标施加2层 尖钉"
+        },
+        {
+          "coin_index": 3,
+          "timing": "",
+          "description": "若目标的 尖钉 层数高于5层，则使本 硬币 造成的伤害+50%"
+        },
+        {
+          "coin_index": 1,
+          "timing": "命中时",
+          "description": "[命中时] 对目标施加2层 尖钉"
+        },
+        {
+          "coin_index": 2,
+          "timing": "正面命中时",
+          "description": "[正面命中时] 对目标施加2层 尖钉"
+        },
+        {
+          "coin_index": 3,
+          "timing": "",
+          "description": "若目标的 尖钉 层数高于5层，则使本 硬币 造成的伤害+70%"
+        }
+      ],
+      "wikitext_key": "3技能"
+    },
+    {
+      "skill_index": 3,
+      "skill_name": "如此污秽",
+      "sin_type": "",
+      "damage_type": "",
+      "guard_type": "闪避",
+      "attack_capacity": 1,
+      "coin_count": 1,
+      "stage_groups": [
+        [
+          {
+            "stage": "I",
+            "base_value": 4,
+            "coin_power": 10,
+            "effects": [
+              {
+                "timing": "闪避成功时",
+                "description": "使目标失去3点 理智值"
+              }
+            ],
+            "raw_text": "基础值： 4 变动值： +10 [闪避成功时] 使目标失去3点 理智值"
+          },
+          {
+            "stage": "II",
+            "base_value": 4,
+            "coin_power": 10,
+            "effects": [
+              {
+                "timing": "闪避成功时",
+                "description": "使目标失去3点 理智值"
+              }
+            ],
+            "raw_text": "基础值： 4 变动值： +10 [闪避成功时] 使目标失去3点 理智值"
+          }
+        ]
+      ],
+      "coin_effects": [
+        {
+          "coin_index": 0,
+          "description": "守备技能"
+        },
+        {
+          "coin_index": 0,
+          "description": "如此污秽"
+        },
+        {
+          "coin_index": 0,
+          "timing": "",
+          "description": "1"
+        },
+        {
+          "coin_index": 0,
+          "description": "+0"
+        },
+        {
+          "coin_index": 0,
+          "description": "1"
+        },
+        {
+          "coin_index": 0,
+          "description": "I阶 - III阶 IV阶 追加属性： 基础值： 4 变动值： +10 [闪避成功时] 使目标失去3点 理智值 基础值： 4 变动值： +10 [闪避成功时] 使目标失去3点 理智值"
+        }
+      ],
+      "wikitext_key": "守备技能4"
+    }
+  ],
+  "battle_passive": "人格被动1020401\n人格被动1020421",
+  "support_passive": "",
+  "notes": "",
+  "voice_lines": [],
+  "skill_voice": [
+    {
+      "file": "Battle_s2_10204_1_1.ogg",
+      "skill_index": 2,
+      "skill_label": "",
+      "skill_name": "执握"
+    },
+    {
+      "file": "Battle_s2_10204_1_2.ogg",
+      "skill_index": 2,
+      "skill_label": "",
+      "skill_name": "执握"
+    },
+    {
+      "file": "Battle_s2_10204_1_3.ogg",
+      "skill_index": 2,
+      "skill_label": "",
+      "skill_name": "执握"
+    },
+    {
+      "file": "Battle_s3_10204_1_1.ogg",
+      "skill_index": 3,
+      "skill_label": "技能三",
+      "skill_name": "处刑"
+    },
+    {
+      "file": "Battle_s3_10204_1_2.ogg",
+      "skill_index": 3,
+      "skill_label": "",
+      "skill_name": "处刑"
+    }
+  ],
+  "_structured": true,
+  "id": "wiki_浮士德执柄者",
+  "url": "https://limbuscompany.huijiwiki.com/wiki/浮士德执柄者",
+  "categories": [
+    "人格"
+  ],
+  "source": "wiki",
+  "_schema_version": 1
+}

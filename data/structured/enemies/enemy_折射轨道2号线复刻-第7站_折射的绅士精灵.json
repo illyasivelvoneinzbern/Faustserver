@@ -1,0 +1,158 @@
+{
+  "page_type": "enemy",
+  "title": "折射轨道2号线复刻-第7站",
+  "enemy_name": "折射的绅士精灵",
+  "battle_stage": "折射轨道2号线复刻-第7站",
+  "body_part": "",
+  "hp": 2974,
+  "defense_level": 47,
+  "speed_min": 2,
+  "speed_max": 4,
+  "chaos_threshold": "1040 / 0",
+  "physical_resistances": {
+    "斩击": 1.0,
+    "突刺": 1.5,
+    "打击": 0.5
+  },
+  "sin_resistances": {
+    "暴怒": 1.5,
+    "色欲": 0.75,
+    "怠惰": 1.0,
+    "暴食": 0.5,
+    "忧郁": 1.0,
+    "傲慢": 1.0,
+    "嫉妒": 1.5
+  },
+  "panic_types": [],
+  "passives": [
+    "深入记忆的强化肉体: 左臂部位被破坏后，每回合对自身施加4层 虚弱",
+    "诱人的精灵酒: 回合开始时，若精灵酒在场，则对所有部位施加5层 束缚",
+    "折射的挣扎: 若与同一目标拼点不低于10次，则拼点判定时随机使自身的拼点威力增加或减少(拼点次数/10)。(向下取整)",
+    "折射的流血与震颤: 流血 和 震颤 强度最多累积到30级 流血 和 震颤 层数最多累积到5层",
+    "施加折射的破裂: 无恐慌类型数据"
+  ],
+  "skills": [
+    {
+      "skill_name": "想喝醉吗？",
+      "icon_id": "804801",
+      "sin_type": "暴食",
+      "damage_type": "打击",
+      "base_value": 10,
+      "coin_power": 854,
+      "coin_count": 2,
+      "attack_level": 56,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[命中时] 使目标增加5级 震颤 强度并对其施加2层 震颤"
+      ]
+    },
+    {
+      "skill_name": "分着喝吧！",
+      "icon_id": "804802",
+      "sin_type": "傲慢",
+      "damage_type": "打击",
+      "base_value": 10,
+      "coin_power": 3,
+      "coin_count": 2,
+      "attack_level": 56,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[命中时] 下回合对目标施加2层 束缚",
+        "[命中时] 使本体与使用本技能的部位恢复5%的体力"
+      ]
+    },
+    {
+      "skill_name": "只剩这些了！",
+      "icon_id": "804803",
+      "sin_type": "暴食",
+      "damage_type": "打击",
+      "base_value": 10,
+      "coin_power": 854,
+      "coin_count": 3,
+      "attack_level": 56,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[命中时] 使目标增加5级 震颤 强度",
+        "[命中时] 根据目标的 震颤 层数，相应使其 震颤引爆",
+        "[命中时] 消耗目标所有 震颤 层数"
+      ]
+    },
+    {
+      "skill_name": "这个我吃了！",
+      "icon_id": "804804",
+      "sin_type": "色欲",
+      "damage_type": "突刺",
+      "base_value": 22,
+      "coin_power": 9,
+      "coin_count": 3,
+      "attack_level": 56,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[使用时] 若目标未带有 醉意 ，则使本技能造成的伤害+200%",
+        "[命中时] 若目标的 醉意 层数不低于5层，则本硬币造成的伤害为0点 下回合使绅士精灵陷入混乱",
+        "[命中时] 消耗目标所有 醉意"
+      ]
+    },
+    {
+      "skill_name": "想要这杯精灵酒吗？",
+      "icon_id": "804807",
+      "sin_type": "常规",
+      "damage_type": "守备",
+      "base_value": 14,
+      "coin_power": 79,
+      "coin_count": 1,
+      "attack_level": 0,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "使用时下回合对自身施加3层束缚"
+      ]
+    },
+    {
+      "skill_name": "要来一杯吗？",
+      "icon_id": "854206",
+      "sin_type": "暴怒",
+      "damage_type": "打击",
+      "base_value": 17,
+      "coin_power": 987,
+      "coin_count": 3,
+      "attack_level": 56,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "战斗开始下回合召唤折射的精灵酒",
+        "拼点失败折射的精灵酒会以体力上限50%的体力被召唤",
+        "拼点失败使本技能造成的伤害-80%，且本技能造成的伤害不会使目标陷入混乱",
+        "1不可摧毁的硬币",
+        "未摧毁 - 命中时使目标增加5级震颤强度",
+        "未摧毁 - 命中时使目标震颤引爆"
+      ]
+    }
+  ],
+  "is_ally": false,
+  "_structured": true,
+  "appear_stages": [
+    "折射轨道2号线复刻-第7站",
+    "折射轨道2号线复刻-第7站-2"
+  ],
+  "enemy_id": "折射轨道2号线复刻-第7站|折射的绅士精灵|",
+  "defense": 47,
+  "speed": "2~4",
+  "_schema_version": 1
+}

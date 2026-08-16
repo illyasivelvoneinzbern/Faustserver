@@ -1,0 +1,142 @@
+{
+  "page_type": "enemy",
+  "title": "憎恶与绝望-简单难度",
+  "enemy_name": "遗忘骑士之剑",
+  "battle_stage": "憎恶与绝望-简单难度",
+  "body_part": "躯干",
+  "hp": 122,
+  "defense_level": 55,
+  "speed_min": 1,
+  "speed_max": 3,
+  "chaos_threshold": "",
+  "physical_resistances": {
+    "斩击": 1.0,
+    "突刺": 1.0,
+    "打击": 1.0
+  },
+  "sin_resistances": {
+    "暴怒": 1.0,
+    "色欲": 1.0,
+    "怠惰": 1.0,
+    "暴食": 1.0,
+    "忧郁": 1.0,
+    "傲慢": 1.0,
+    "嫉妒": 1.0
+  },
+  "panic_types": [],
+  "passives": [
+    "刺穿绝望之剑: 若带有 无能为力之泪 的剑体力降至0点，则使其刺入绝望骑士",
+    "遗忘骑士之剑: 自身被摧毁的 不可摧毁的硬币 命中时，不会触发目标的 沉沦 效果(也不会消耗目标的 沉沦 层数)",
+    "刺向未能守护之人的锋剑: 若有敌方单位带有 咏唱-阿卡纳光破斩 ，则优先指定该敌方单位",
+    "休憩: 未带有 无能为力之泪 时，自身的体力不会低于1点。 回合结束时，若自身未带有 无能为力之泪 且现存体力为1点，则使自身体力恢复至最大值"
+  ],
+  "skills": [
+    {
+      "skill_name": "褪色的信条",
+      "icon_id": "122401",
+      "sin_type": "忧郁",
+      "damage_type": "斩击",
+      "base_value": 3,
+      "coin_power": 3,
+      "coin_count": 3,
+      "attack_level": 56,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[使用时] 目标每带有4级 沉沦 强度，使本技能的拼点威力+1(最多+2)",
+        "[使用时] 若目标的理智值不低于10点，则使本技能的基础威力+1",
+        "[使用时] 若目标的理智值不低于20点，则使本技能的硬币威力+1",
+        "[命中时] 使目标增加2级 沉沦 强度"
+      ]
+    },
+    {
+      "skill_name": "磨灭的自尊",
+      "icon_id": "122402",
+      "sin_type": "忧郁",
+      "damage_type": "穿刺",
+      "base_value": 4,
+      "coin_power": 3,
+      "coin_count": 3,
+      "attack_level": 56,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[使用时] 目标每带有4级 沉沦 强度，使本技能的拼点威力+1(最多+2)",
+        "[使用时] 若目标的理智值不低于10点，则使本技能的基础威力+1",
+        "[使用时] 若目标的理智值不低于20点，则使本技能的硬币威力+1",
+        "[命中时] 使目标增加1级 沉沦 强度",
+        "[命中时] 对目标施加1层 沉沦"
+      ]
+    },
+    {
+      "skill_name": "无尽的绝望",
+      "icon_id": "122403",
+      "sin_type": "忧郁",
+      "damage_type": "打击",
+      "base_value": 5,
+      "coin_power": 3,
+      "coin_count": 3,
+      "attack_level": 56,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[使用时] 目标每带有4级 沉沦 强度，使本技能的拼点威力+1(最多+2)",
+        "[使用时] 若目标的理智值不低于10点，则使本技能的基础威力+1",
+        "[使用时] 若目标的理智值不低于20点，则使本技能的硬币威力+1",
+        "[命中时] 使目标增加1级 沉沦 强度",
+        "[命中时] 对目标施加1层 沉沦"
+      ]
+    },
+    {
+      "skill_name": "泪锋之剑",
+      "icon_id": "122404",
+      "sin_type": "忧郁",
+      "damage_type": "斩击",
+      "base_value": 5,
+      "coin_power": 3,
+      "coin_count": 2,
+      "attack_level": 56,
+      "attack_weight": 1,
+      "is_guard": true,
+      "guard_type": "防御",
+      "importance": 0,
+      "coin_effects": [
+        "[使用时] 目标每带有6级 沉沦 强度，使本技能的硬币威力+5(最多+10)",
+        "[使用时] 若目标带有 漆黑冰冷之泪 ，则使本技能的最终威力+1",
+        "[命中时] 若目标的 沉沦 强度不低于6级，则下回合对其施加(其 沉沦 强度/10)层 防御等级降低 (向下取整)"
+      ]
+    },
+    {
+      "skill_name": "充盈悲痛之剑",
+      "icon_id": "122405",
+      "sin_type": "忧郁",
+      "damage_type": "穿刺",
+      "base_value": 8,
+      "coin_power": 3,
+      "coin_count": 3,
+      "attack_level": 56,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[使用时] 目标每带有1层 漆黑冰冷之泪 ，使本技能的基础威力+1(最多+3) 不可摧毁的硬币"
+      ]
+    }
+  ],
+  "is_ally": false,
+  "_structured": true,
+  "appear_stages": [
+    "憎恶与绝望-简单难度"
+  ],
+  "enemy_id": "憎恶与绝望-简单难度|遗忘骑士之剑|躯干",
+  "defense": 55,
+  "speed": "1~3",
+  "_schema_version": 1
+}

@@ -1,0 +1,21 @@
+{
+  "id": "gift_9226",
+  "title": "某人的青刀",
+  "url": "https://limbuscompany.huijiwiki.com/wiki/E.G.O饰品",
+  "categories": [
+    "E.G.O饰品"
+  ],
+  "content": "战斗开始时，使带有护盾的友方单位获得1层暴击伤害强化\n友方单位的技能暴击命中时，下回合使该友方单位在当回合获得(自身的呼吸法强度/5)点护盾(最多15点)",
+  "source": "tabx",
+  "_structured": true,
+  "page_type": "ego_gift",
+  "gift_name": "某人的青刀",
+  "rarity": 2,
+  "cost": "199",
+  "effect_types": "呼吸法",
+  "attack_type": "忧郁",
+  "location": "镜像迷宫",
+  "stage": "base",
+  "special": "刀与作品",
+  "_schema_version": 1
+}

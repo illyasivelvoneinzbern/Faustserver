@@ -1,0 +1,124 @@
+{
+  "page_type": "enemy",
+  "title": "主线战斗9-37",
+  "enemy_name": "脑叶公司E.G.O::目灯 霍恩海姆",
+  "battle_stage": "主线战斗9-37",
+  "body_part": "",
+  "hp": 376,
+  "defense_level": 48,
+  "speed_min": 1,
+  "speed_max": 4,
+  "chaos_threshold": "无",
+  "physical_resistances": {
+    "斩击": 0.5,
+    "突刺": 1.0,
+    "打击": 2.0
+  },
+  "sin_resistances": {
+    "暴怒": 0.8,
+    "色欲": 0.8,
+    "怠惰": 0.7,
+    "暴食": 1.0,
+    "忧郁": 0.7,
+    "傲慢": 1.5,
+    "嫉妒": 0.4
+  },
+  "panic_types": [],
+  "passives": [
+    "眩惑的目灯: 自身优先攻击最大速度值最高的敌方单位",
+    "是说在黑森林中迷路的时候，不可盲目地追逐光芒吗。: 回合开始时，若自身未带有 目灯 ，则使自身获得1层 目灯 回合结束时，若自身的 目灯 层数为20层，则对下回合使用强力攻击的敌方单位施加 眩惑",
+    "其目一直注视着整个黑森林: 回合开始时，使除自身以外速度值最低的1名友方单位在下回合获得(自身的 束缚 层数/2)层 迅捷 (最多2层，向下取整) 若全体友方单位中自身的速度值最低，则使自身基础攻击技能造成的伤害+10% - 若自身的速度值为1，则改为造成的伤害+20%",
+    "不愧是本部的E.G.O，伴随感应度而来的侵蚀度非同小可: 关卡开始时，使自身获得 E.G.O感应度 增加",
+    "E.G.O装备精通手册: 回合开始时，每有1名身着E.G.O装备的友方单位，使自身获得1层 防御等级提升 霍恩海姆 著",
+    "偏离命运: 阿莉莎阵亡时若自身阵亡，则战斗失败"
+  ],
+  "skills": [
+    {
+      "skill_name": "速射",
+      "icon_id": "40000802",
+      "sin_type": "暴怒",
+      "damage_type": "突刺",
+      "base_value": 4,
+      "coin_power": 987,
+      "coin_count": 3,
+      "attack_level": 47,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[使用时] 使自身获得5层 目灯",
+        "[命中时] 使目标增加2级 烧伤 强度并对其施加1层 烧伤",
+        "[命中时] 使目标增加3级 沉沦 强度并对其施加1层 沉沦"
+      ]
+    },
+    {
+      "skill_name": "零距离注视",
+      "icon_id": "40000803",
+      "sin_type": "暴怒",
+      "damage_type": "突刺",
+      "base_value": 5,
+      "coin_power": 987,
+      "coin_count": 4,
+      "attack_level": 47,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[使用时] 使自身获得4层 目灯",
+        "[命中时] 使目标增加3级 烧伤 强度",
+        "[命中时] 对目标施加1层 烧伤",
+        "[命中时] 使目标增加5级 沉沦 强度并对其施加1层 沉沦"
+      ]
+    },
+    {
+      "skill_name": "给予被灯所眩惑之人以救赎",
+      "icon_id": "40000804",
+      "sin_type": "傲慢",
+      "damage_type": "突刺",
+      "base_value": 10,
+      "coin_power": 3,
+      "coin_count": 3,
+      "attack_level": 50,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[攻击后] 解除目标的 眩惑 不可摧毁的硬币",
+        "[命中时] 使目标增加8级 沉沦 强度并对其施加2层 沉沦",
+        "[命中时] 使目标增加6级 烧伤 强度并对其施加2层 烧伤"
+      ]
+    },
+    {
+      "skill_name": "如灯之目",
+      "icon_id": "40000801",
+      "sin_type": "傲慢",
+      "damage_type": "守备",
+      "base_value": 10,
+      "coin_power": 3,
+      "coin_count": 1,
+      "attack_level": 0,
+      "attack_weight": 1,
+      "is_guard": true,
+      "guard_type": "防御",
+      "importance": 0,
+      "coin_effects": [
+        "可拼点防御",
+        "若攻击者的速度值高于自身，则速度值每相差2点，使本技能的硬币威力+1(最多+2)",
+        "- 若自身的速度值为1，则改为使本技能的硬币威力+2",
+        "战斗开始使自身获得6层目灯"
+      ]
+    }
+  ],
+  "is_ally": true,
+  "_structured": true,
+  "appear_stages": [
+    "主线战斗9-37"
+  ],
+  "enemy_id": "主线战斗9-37|脑叶公司E.G.O::目灯 霍恩海姆|",
+  "defense": 48,
+  "speed": "1~4",
+  "_schema_version": 1
+}

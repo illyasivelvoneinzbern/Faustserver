@@ -1,0 +1,49 @@
+{
+  "page_type": "event",
+  "title": "事件-痛苦泰迪",
+  "event_name": "痛苦泰迪",
+  "narration": "这是一只被扎着钉子，正在忍受着痛苦的泰迪熊玩偶。\n从钉子的间隙中看到的渗出的血迹中，\n我似乎可以想象到它强忍痛苦的日子。\n似乎是眼睛的洞与干涸的血迹一同\n变得空荡荡的。\n即使这样，它也像是要完成义务般，\n像要抱住我们一样张开双臂站立着。\n\n拔出钉子。\n【应该让谁完成？】\n有利判定\n：\n/\n≥8\n不利判定\n：\n≥16\n判定成功\n：\n你拔出了刺入泰迪熊胸口的钉子。\n结块的鲜血从空洞中满溢而出。\n在那仿佛源源不绝的鲜血流尽之后，\n泰迪熊的体内只剩一片漆黑。\n那空荡荡的黑洞，正是空虚啊。\n获得\n！\n判定失败\n：\n刺进玩偶胸口的钉子比想象得还要更深，更加坚固。\n再怎么用力拔，\n钉子都像是深深扎根在那里一样，\n纹丝不动。\n玩偶仿佛对此毫无察觉，\n只是俯视着下方。\n是因为它不能感到痛苦吗。\n获得40\n经费\n\n裹上绷带。\n我从口袋里取出绷带，\n绑在它胸前的空洞上。\n鲜血逐渐渗出，染红了刚缠上的绷带。\n伤口看上去依旧很疼。\n为了使绷带暂时不会剥落，\n我又缠了几圈上去。\n全体友方单位恢复\n10点体力\n技能组内包含\n色欲属性攻击技能\n的友方单位恢复\n10点体力\n\n拥抱罪人。\n要拥抱那只钉满钉子的玩具熊，恐怕是不可能的。\n于是，我一个个拥抱罪人，观察它的反应。\n罪人们大多都尴尬地推开了我。\n那只玩具熊却羡慕地跺着脚。\n最终，它还是在渴望爱吗？\n像是渴求着拥抱一样，它向我们冲了过来。\n触发集中战斗！\n战斗胜利后，获得\n！\n战斗失败后，没有奖励",
+  "options": [
+    {
+      "choice_text": "拔出钉子。",
+      "check_type": "有利判定",
+      "check_sin": "色欲",
+      "check_threshold": 8,
+      "success_outcomes": [
+        "获得 ！ 判定失败 ： 刺进玩偶胸口的钉子比想象得还要更深",
+        "获得40 经费"
+      ],
+      "failure_outcomes": [
+        "获得40 经费"
+      ]
+    },
+    {
+      "choice_text": "裹上绷带。",
+      "check_type": "",
+      "check_sin": "",
+      "check_threshold": 0,
+      "success_outcomes": [],
+      "failure_outcomes": []
+    },
+    {
+      "choice_text": "拥抱罪人。",
+      "check_type": "",
+      "check_sin": "",
+      "check_threshold": 0,
+      "success_outcomes": [],
+      "failure_outcomes": []
+    }
+  ],
+  "ego_gifts": [],
+  "related_abnormalities": [
+    "事件触发地点",
+    "镜像迷宫"
+  ],
+  "trigger_location": "",
+  "_structured": true,
+  "id": "wiki_事件-痛苦泰迪",
+  "url": "https://limbuscompany.huijiwiki.com/wiki/事件-痛苦泰迪",
+  "categories": [],
+  "source": "wiki",
+  "_schema_version": 1
+}

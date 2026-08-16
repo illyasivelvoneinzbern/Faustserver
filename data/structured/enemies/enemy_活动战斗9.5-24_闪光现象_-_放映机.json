@@ -1,0 +1,38 @@
+{
+  "page_type": "enemy",
+  "title": "活动战斗9.5-24",
+  "enemy_name": "闪光现象 - 放映机",
+  "battle_stage": "活动战斗9.5-24",
+  "body_part": "",
+  "hp": 450,
+  "defense_level": 60,
+  "speed_min": 1,
+  "speed_max": 1,
+  "chaos_threshold": "无",
+  "physical_resistances": {
+    "斩击": 1.0,
+    "突刺": 1.0,
+    "打击": 1.0
+  },
+  "sin_resistances": {
+    "暴怒": 1.25,
+    "色欲": 1.0,
+    "怠惰": 1.0,
+    "暴食": 1.0,
+    "忧郁": 1.0,
+    "傲慢": 1.25,
+    "嫉妒": 1.0
+  },
+  "panic_types": [],
+  "passives": [
+    "从记忆到记录: 从S公司回到N公司后，战斗开始时使全体罪人恢复15点理智值",
+    "场所型扭曲：显影室: 无"
+  ],
+  "skills": [],
+  "is_ally": false,
+  "_structured": true,
+  "enemy_id": "活动战斗9.5-24|闪光现象 - 放映机",
+  "defense": 60,
+  "speed": "1~1",
+  "_schema_version": 1
+}

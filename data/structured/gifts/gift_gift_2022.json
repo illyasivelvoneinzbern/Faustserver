@@ -1,0 +1,21 @@
+{
+  "id": "gift_2022",
+  "title": "十字结",
+  "url": "https://limbuscompany.huijiwiki.com/wiki/E.G.O饰品",
+  "categories": [
+    "E.G.O饰品"
+  ],
+  "content": "回合结束时，若本回合失去不低于体力上限15%的体力，则在下回合获得2层强壮",
+  "source": "tabx",
+  "_structured": true,
+  "page_type": "ego_gift",
+  "gift_name": "十字结",
+  "rarity": 0,
+  "cost": "0",
+  "effect_types": "",
+  "attack_type": "傲慢",
+  "location": "第五章",
+  "stage": "base",
+  "event": "事件-左转或右转",
+  "_schema_version": 1
+}

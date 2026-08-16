@@ -1,0 +1,21 @@
+{
+  "id": "gift_9827_upgraded_2",
+  "title": "家人的怨恨",
+  "url": "https://limbuscompany.huijiwiki.com/wiki/E.G.O饰品",
+  "categories": [
+    "E.G.O饰品"
+  ],
+  "content": "下回合开始时使全体友方单位获得1层攻击等级提升(最多5层)\n属于拉·曼却领的友方单位每带有30层消耗血宴总数，下回合开始时使其获得1层攻击等级提升(最多3层)",
+  "source": "tabx",
+  "_structured": true,
+  "page_type": "ego_gift",
+  "gift_name": "家人的怨恨",
+  "rarity": 4,
+  "cost": "201",
+  "effect_types": "流血",
+  "attack_type": "色欲",
+  "location": "镜像迷宫",
+  "stage": "upgraded_2",
+  "special": "极限模式节点-拉·曼却领之主",
+  "_schema_version": 1
+}

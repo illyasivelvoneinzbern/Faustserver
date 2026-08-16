@@ -1,0 +1,288 @@
+{
+  "page_type": "enemy",
+  "title": "主线战斗9-48",
+  "enemy_name": "小指 父辈 - ???",
+  "battle_stage": "主线战斗9-48",
+  "body_part": "",
+  "hp": 1918,
+  "defense_level": 77,
+  "speed_min": 2,
+  "speed_max": 5,
+  "chaos_threshold": "无",
+  "physical_resistances": {
+    "斩击": 1.2,
+    "突刺": 1.0,
+    "打击": 1.0
+  },
+  "sin_resistances": {
+    "暴怒": 1.2,
+    "色欲": 1.0,
+    "怠惰": 0.8,
+    "暴食": 0.8,
+    "忧郁": 1.2,
+    "傲慢": 0.8,
+    "嫉妒": 1.0
+  },
+  "panic_types": [
+    "天杀星伤",
+    "暴走-残像纠缠",
+    "顺行-怜悯",
+    "逆行-憎恶",
+    "呼吸法",
+    "剑痕【残像】"
+  ],
+  "passives": [
+    "天杀星伤: 关卡开始时，对自身施加 天杀星伤 并使自身获得4层 暴走-残像纠缠",
+    "最后一战: 本场战斗中，受到使自身体力降至0点的伤害时，无视该伤害并触发以下效果(每场战斗最多1次) - 使自身体力恢复至上限，解除自身所有可解除的负面状态 - 本场战斗期间对自身施加1层 易损 ，自身的 暴走-残像纠缠 层数固定为1层 - 每回合结束时，使自身受到(当前回合数×10)点固定伤害 - 结束本回合，并强化自身模式 “你已然忘记，而我记住了一切。”",
+    "自夜明直至黄昏: 回合开始时，若自身理智值不低于0点，则使自身获得1层 顺行-怜悯 每高于2点，使自身获得1层 顺行-怜悯 回合开始时，若自身理智值低于0点，则使自身获得1层 逆行-憎恶 每低于2点，使自身获得1层 逆行-憎恶 过去、现在与未来重叠为一体，时间的区分失去了意义。无论是童年，还是所度过的岁月的某个时点，所有的时间都被召集到同一个场所。",
+    "时空残像分裂: 回合结束时，自身的理智值与回合开始时每相差5点，使自身获得1层 暴走-残像纠缠 (每回合最多5层) 每当自身累计受到100点伤害，使自身的 暴走-残像纠缠 层数减少1层(包括护盾受到的伤害) “当包裹着我的残像一层层剥落之时，失落感与释然感同时到来。”",
+    "未来的残像: 在特定回合使用技能“已确定的对手” 仅有被指定为攻击目标的单位可与该技能拼点 若自身的技能“已确定的对手”拼点失败，则使自身受到36~60点固定伤害 战斗结束时，若本回合自身使用的 所有技能“已确定的对手”均拼点失败 ，则下回合对自身施加1层 易损",
+    "恐慌恢复: 回合结束时，若自身陷入恐慌，则使自身理智值恢复为30点",
+    "固定恐慌: 被施加改变恐慌类型的状态时，自身的恐慌类型不会改变。效果改为对未带有理智值的单位施加的效果。",
+    "从多重时间斩来的残像: • 拼点胜利后根据拼点次数按比例增加 （增加量：基础值为10，从第二次拼点起，每次拼点增加20%）"
+  ],
+  "skills": [
+    {
+      "skill_name": "二连",
+      "icon_id": "132201",
+      "sin_type": "嫉妒",
+      "damage_type": "",
+      "base_value": 7,
+      "coin_power": 5793,
+      "coin_count": 3,
+      "attack_level": 74,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[使用时] 使自身获得2层 呼吸法",
+        "[命中时] 使自身增加1级 呼吸法 强度"
+      ]
+    },
+    {
+      "skill_name": "非望",
+      "icon_id": "132202",
+      "sin_type": "嫉妒",
+      "damage_type": "",
+      "base_value": 7,
+      "coin_power": 5793,
+      "coin_count": 4,
+      "attack_level": 74,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[使用时] 使自身获得3层 呼吸法",
+        "[命中时] 使自身增加1级 呼吸法 强度"
+      ]
+    },
+    {
+      "skill_name": "快闪",
+      "icon_id": "132203",
+      "sin_type": "傲慢",
+      "damage_type": "",
+      "base_value": 10,
+      "coin_power": 3,
+      "coin_count": 3,
+      "attack_level": 78,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[命中时] 使自身增加2级 呼吸法 强度",
+        "[命中时] 对目标施加1层 剑痕【残像】"
+      ]
+    },
+    {
+      "skill_name": "无形斩",
+      "icon_id": "132204",
+      "sin_type": "暴怒",
+      "damage_type": "",
+      "base_value": 12,
+      "coin_power": 987,
+      "coin_count": 3,
+      "attack_level": 78,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[命中时] 使自身增加1级 呼吸法 强度",
+        "[命中时] 对目标施加1层 剑痕【残像】"
+      ]
+    },
+    {
+      "skill_name": "残像步",
+      "icon_id": "132206",
+      "sin_type": "怠惰",
+      "damage_type": "",
+      "base_value": 4,
+      "coin_power": 9703,
+      "coin_count": 1,
+      "attack_level": 74,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": []
+    },
+    {
+      "skill_name": "绝命",
+      "icon_id": "132208",
+      "sin_type": "暴怒",
+      "damage_type": "斩击",
+      "base_value": 9,
+      "coin_power": 987,
+      "coin_count": 3,
+      "attack_level": 80,
+      "attack_weight": 1,
+      "is_guard": true,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[命中时] 目标每失去1%的体力，对其施加1层 剑痕【残像】",
+        "[命中时] 消耗目标所有 剑痕【残像】 并对其造成其体力上限(消耗的 剑痕【残像】 层数)%的体力伤害"
+      ]
+    },
+    {
+      "skill_name": "极空间斩-断缘",
+      "icon_id": "132209",
+      "sin_type": "傲慢",
+      "damage_type": "斩击",
+      "base_value": 14,
+      "coin_power": 3,
+      "coin_count": 3,
+      "attack_level": 77,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[使用时] 若自身的理智值不低于20点，则生成3层望并使本技能的最终威力+10",
+        "[攻击后] 若本技能生成了望，则使自身失去20点理智值",
+        "[命中时] 消耗目标所有 剑痕【残像】 并对各个被命中的目标造成其体力上限(消耗的 剑痕【残像】 层数)%的体力伤害"
+      ]
+    },
+    {
+      "skill_name": "已确定的对手",
+      "icon_id": "132211",
+      "sin_type": "色欲",
+      "damage_type": "",
+      "base_value": 3,
+      "coin_power": 9,
+      "coin_count": 1,
+      "attack_level": 77,
+      "attack_weight": 1,
+      "is_guard": true,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": []
+    },
+    {
+      "skill_name": "非望",
+      "icon_id": "132202",
+      "sin_type": "嫉妒",
+      "damage_type": "",
+      "base_value": 8,
+      "coin_power": 5793,
+      "coin_count": 3,
+      "attack_level": 75,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": []
+    },
+    {
+      "skill_name": "必然杀",
+      "icon_id": "132208",
+      "sin_type": "暴怒",
+      "damage_type": "",
+      "base_value": 14,
+      "coin_power": 987,
+      "coin_count": 1,
+      "attack_level": 79,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": []
+    },
+    {
+      "skill_name": "怨望",
+      "icon_id": "132201",
+      "sin_type": "嫉妒",
+      "damage_type": "",
+      "base_value": 10,
+      "coin_power": 5793,
+      "coin_count": 1,
+      "attack_level": 77,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": []
+    },
+    {
+      "skill_name": "非望",
+      "icon_id": "132202",
+      "sin_type": "嫉妒",
+      "damage_type": "",
+      "base_value": 10,
+      "coin_power": 5793,
+      "coin_count": 1,
+      "attack_level": 77,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": []
+    },
+    {
+      "skill_name": "落望",
+      "icon_id": "132207",
+      "sin_type": "暴食",
+      "damage_type": "",
+      "base_value": 3,
+      "coin_power": 854,
+      "coin_count": 2,
+      "attack_level": 77,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[命中时] 对自身施加1层 易损"
+      ]
+    },
+    {
+      "skill_name": "我憎恶你，但…",
+      "icon_id": "132207",
+      "sin_type": "暴食",
+      "damage_type": "斩击",
+      "base_value": 11,
+      "coin_power": 854,
+      "coin_count": 2,
+      "attack_level": 77,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[命中时] 对自身施加1层 易损"
+      ]
+    }
+  ],
+  "is_ally": false,
+  "_structured": true,
+  "appear_stages": [
+    "主线战斗9-48"
+  ],
+  "enemy_id": "主线战斗9-48|小指 父辈 - ???|",
+  "defense": 77,
+  "speed": "2~5",
+  "_schema_version": 1
+}

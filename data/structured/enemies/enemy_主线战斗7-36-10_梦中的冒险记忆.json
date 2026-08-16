@@ -1,0 +1,57 @@
+{
+  "page_type": "enemy",
+  "title": "主线战斗7-36-10",
+  "enemy_name": "梦中的冒险记忆",
+  "battle_stage": "主线战斗7-36-10",
+  "body_part": "过去的冒险记忆",
+  "hp": 345,
+  "defense_level": 50,
+  "speed_min": 2,
+  "speed_max": 5,
+  "chaos_threshold": "/0",
+  "physical_resistances": {
+    "斩击": 1.0,
+    "突刺": 1.0,
+    "打击": 1.2
+  },
+  "sin_resistances": {
+    "暴怒": 1.0,
+    "色欲": 1.2,
+    "怠惰": 1.0,
+    "暴食": 1.2,
+    "忧郁": 1.0,
+    "傲慢": 1.0,
+    "嫉妒": 1.2
+  },
+  "panic_types": [],
+  "passives": [],
+  "skills": [
+    {
+      "skill_name": "闪耀的冒险记忆",
+      "icon_id": "841301",
+      "sin_type": "色欲",
+      "damage_type": "守备",
+      "base_value": 10,
+      "coin_power": 9,
+      "coin_count": 1,
+      "attack_level": 0,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "战斗开始随机使1名罪人获得1层拼点威力提升 与1层伤害强化",
+        "战斗开始对堂吉诃德与凝结的梦施加1层易损"
+      ]
+    }
+  ],
+  "is_ally": false,
+  "_structured": true,
+  "appear_stages": [
+    "主线战斗7-36-10"
+  ],
+  "enemy_id": "主线战斗7-36-10|梦中的冒险记忆|过去的冒险记忆",
+  "defense": 50,
+  "speed": "2~5",
+  "_schema_version": 1
+}

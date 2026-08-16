@@ -1,0 +1,21 @@
+{
+  "id": "gift_9802",
+  "title": "电击斧",
+  "url": "https://limbuscompany.huijiwiki.com/wiki/E.G.O饰品",
+  "categories": [
+    "E.G.O饰品"
+  ],
+  "content": "消耗充能层数的技能攻击命中时，使目标增加1级破裂强度(每个技能最多3次)\n根据编入的拥有施加破裂或获得充能的攻击技能的友方单位数，相应强化本饰品效果(不包括E.G.O技能，包括待命人员)。\n- 不低于6名\n对敌方单位造成破裂伤害时，使自身获得1层充能(每个技能最多3次)\n- 不低于8名\n消耗充能层数的技能攻击命中时，对目标施加1层破裂(每个技能最多3次)",
+  "source": "tabx",
+  "_structured": true,
+  "page_type": "ego_gift",
+  "gift_name": "电击斧",
+  "rarity": 2,
+  "cost": "202",
+  "effect_types": "充能",
+  "attack_type": "嫉妒",
+  "location": "镜像迷宫",
+  "stage": "base",
+  "special": "四大家族与欲念",
+  "_schema_version": 1
+}

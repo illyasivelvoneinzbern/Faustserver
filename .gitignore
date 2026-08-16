@@ -1,0 +1,40 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+*.egg
+
+# 虚拟环境
+venv/
+.venv/
+env/
+
+# 环境变量（含 API Key，切勿提交）
+.env
+
+# 日志
+logs/
+*.log
+
+# 数据目录（向量数据库等大文件）
+data/vector_db/
+data/raw/
+data/processed/
+data/x_feed_state.json
+
+# 用户自定义人格文件（仅保留示例）
+personas/*.yaml
+!personas/.gitkeep
+
+# 敏感词列表
+data/sensitive_words.txt
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+Thumbs.db
+.DS_Store

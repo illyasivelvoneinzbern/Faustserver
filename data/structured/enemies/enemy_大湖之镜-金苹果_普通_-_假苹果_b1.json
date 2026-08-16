@@ -1,0 +1,74 @@
+{
+  "page_type": "enemy",
+  "title": "大湖之镜-金苹果",
+  "enemy_name": "普通 - 假苹果",
+  "battle_stage": "大湖之镜-金苹果",
+  "body_part": "躯干",
+  "hp": 490,
+  "defense_level": 43,
+  "speed_min": 1,
+  "speed_max": 3,
+  "chaos_threshold": "",
+  "physical_resistances": {
+    "斩击": 2.0,
+    "突刺": 1.0,
+    "打击": 1.5
+  },
+  "sin_resistances": {
+    "暴怒": 1.5,
+    "色欲": 0.5,
+    "怠惰": 2.0,
+    "暴食": 1.0,
+    "忧郁": 0.75,
+    "傲慢": 1.0,
+    "嫉妒": 1.0
+  },
+  "panic_types": [],
+  "passives": [],
+  "skills": [
+    {
+      "skill_name": "榨取养分",
+      "icon_id": "800901",
+      "sin_type": "色欲",
+      "damage_type": "打击",
+      "base_value": 5,
+      "coin_power": 9,
+      "coin_count": 2,
+      "attack_level": 47,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "2命中时使自身的本体恢复3点体力"
+      ]
+    },
+    {
+      "skill_name": "腐烂果肉",
+      "icon_id": "800902",
+      "sin_type": "色欲",
+      "damage_type": "斩击",
+      "base_value": 8,
+      "coin_power": 9,
+      "coin_count": 2,
+      "attack_level": 47,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[命中时] 下回合对目标施加3层 流血",
+        "[命中时] 下回合对目标施加2层 易损"
+      ]
+    }
+  ],
+  "is_ally": false,
+  "_structured": true,
+  "appear_stages": [
+    "大湖之镜-金苹果"
+  ],
+  "enemy_id": "大湖之镜-金苹果|普通 - 假苹果|躯干",
+  "defense": 43,
+  "speed": "1~3",
+  "_schema_version": 1
+}

@@ -1,0 +1,21 @@
+{
+  "id": "gift_2056",
+  "title": "荒唐的梦",
+  "url": "https://limbuscompany.huijiwiki.com/wiki/E.G.O饰品",
+  "categories": [
+    "E.G.O饰品"
+  ],
+  "content": "攻击命中带有流血或特殊流血的目标时，使自身恢复2~5点体力\n消耗血宴的技能硬币威力+1",
+  "source": "tabx",
+  "_structured": true,
+  "page_type": "ego_gift",
+  "gift_name": "荒唐的梦",
+  "rarity": 1,
+  "cost": "0",
+  "effect_types": "",
+  "attack_type": "怠惰",
+  "location": "第七章",
+  "stage": "base",
+  "event": "主线战斗7-36-8",
+  "_schema_version": 1
+}

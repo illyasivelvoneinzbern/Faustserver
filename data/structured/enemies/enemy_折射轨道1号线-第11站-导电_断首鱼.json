@@ -1,0 +1,132 @@
+{
+  "page_type": "enemy",
+  "title": "折射轨道1号线-第11站-导电",
+  "enemy_name": "断首鱼",
+  "battle_stage": "折射轨道1号线-第11站-导电",
+  "body_part": "",
+  "hp": 450,
+  "defense_level": 54,
+  "speed_min": 3,
+  "speed_max": 5,
+  "chaos_threshold": "315 / 202",
+  "physical_resistances": {
+    "斩击": 1.0,
+    "突刺": 1.5,
+    "打击": 0.5
+  },
+  "sin_resistances": {
+    "暴怒": 0.75,
+    "色欲": 1.5,
+    "怠惰": 1.0,
+    "暴食": 1.0,
+    "忧郁": 0.75,
+    "傲慢": 1.0,
+    "嫉妒": 1.0
+  },
+  "panic_types": [],
+  "passives": [
+    "折射的挣扎: 若与同一目标拼点不低于10次，则拼点判定时随机使自身的拼点威力增加或减少(拼点次数/10)。(向下取整)",
+    "血囊: 若自身带有 血囊 ，则使躯干的暴怒抗性-50%，忧郁抗性+50%",
+    "液囊: 无恐慌类型数据"
+  ],
+  "skills": [
+    {
+      "skill_name": "拍击",
+      "icon_id": "803101",
+      "sin_type": "忧郁",
+      "damage_type": "打击",
+      "base_value": 5,
+      "coin_power": 3,
+      "coin_count": 2,
+      "attack_level": 55,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[命中时] 下回合对目标施加1层 虚弱"
+      ]
+    },
+    {
+      "skill_name": "强力拍击",
+      "icon_id": "803102",
+      "sin_type": "傲慢",
+      "damage_type": "打击",
+      "base_value": 6,
+      "coin_power": 3,
+      "coin_count": 2,
+      "attack_level": 55,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[命中时] 下回合对目标施加3层 虚弱"
+      ]
+    },
+    {
+      "skill_name": "尾鳍抽打",
+      "icon_id": "803103",
+      "sin_type": "忧郁",
+      "damage_type": "斩击",
+      "base_value": 3,
+      "coin_power": 3,
+      "coin_count": 3,
+      "attack_level": 55,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[命中时] 下回合对目标施加1层 易损",
+        "[命中时] 下回合对目标施加3层 易损"
+      ]
+    },
+    {
+      "skill_name": "挤压液囊",
+      "icon_id": "803104",
+      "sin_type": "嫉妒",
+      "damage_type": "打击",
+      "base_value": 6,
+      "coin_power": 5793,
+      "coin_count": 2,
+      "attack_level": 55,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[命中时] 下回合对目标施加3层 束缚"
+      ]
+    },
+    {
+      "skill_name": "血液轰击",
+      "icon_id": "803105",
+      "sin_type": "暴怒",
+      "damage_type": "突刺",
+      "base_value": 20,
+      "coin_power": 987,
+      "coin_count": 3,
+      "attack_level": 60,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "拼点失败使本技能造成的伤害-50%，且本技能造成的伤害不会使目标陷入混乱",
+        "1{{状态2|不可摧毁的硬币|4=特殊}}",
+        "若目标带有负面状态，则使本技能造成的伤害+50%",
+        "未摧毁 - 命中时使目标增加20级{{状态2|流血|4=负面}}强度"
+      ]
+    }
+  ],
+  "is_ally": false,
+  "_structured": true,
+  "appear_stages": [
+    "折射轨道1号线-第11站-导电"
+  ],
+  "enemy_id": "折射轨道1号线-第11站-导电|断首鱼|",
+  "defense": 54,
+  "speed": "3~5",
+  "_schema_version": 1
+}

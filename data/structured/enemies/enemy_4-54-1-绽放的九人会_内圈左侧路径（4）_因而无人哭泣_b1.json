@@ -1,0 +1,134 @@
+{
+  "page_type": "enemy",
+  "title": "4-54-1-绽放的九人会 内圈左侧路径（4）",
+  "enemy_name": "因而无人哭泣",
+  "battle_stage": "4-54-1-绽放的九人会 内圈左侧路径（4）",
+  "body_part": "右臂",
+  "hp": 326,
+  "defense_level": 35,
+  "speed_min": 1,
+  "speed_max": 4,
+  "chaos_threshold": "228/97.8",
+  "physical_resistances": {
+    "斩击": 1.0,
+    "突刺": 2.0,
+    "打击": 0.75
+  },
+  "sin_resistances": {
+    "暴怒": 2.0,
+    "色欲": 0.5,
+    "怠惰": 1.0,
+    "暴食": 1.0,
+    "忧郁": 1.0,
+    "傲慢": 1.5,
+    "嫉妒": 0.5
+  },
+  "panic_types": [],
+  "passives": [
+    "蔓延的火种: 回合结束时，若自身带有 烧伤 ，则下回合根据自身带有的 烧伤 强度，对带有 纠缠的咒符 的全体目标施加相应的 烧伤 强度。",
+    "损坏的手段: 手臂部位被破坏时，手臂所造成的伤害-20%"
+  ],
+  "skills": [
+    {
+      "skill_name": "缠绕符咒",
+      "icon_id": "804701",
+      "sin_type": "色欲",
+      "damage_type": "打击",
+      "base_value": 4,
+      "coin_power": 9,
+      "coin_count": 2,
+      "attack_level": 28,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[使用时] 对目标施加2层 纠缠的咒符",
+        "[命中时] 下回合使目标增加2层 破裂 强度。对目标施加2层 破裂"
+      ]
+    },
+    {
+      "skill_name": "积累诅咒",
+      "icon_id": "804702",
+      "sin_type": "色欲",
+      "damage_type": "打击",
+      "base_value": 3,
+      "coin_power": 9,
+      "coin_count": 4,
+      "attack_level": 28,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[使用时] 对目标施加1层 纠缠的咒符",
+        "[命中时] 根据目标拥有的 纠缠的咒符 层数，施加相应层数的 纠缠的咒符",
+        "[正面命中时] 下回合使目标增加5级 破裂 强度",
+        "[正面命中时] 下回合使目标增加2级 破裂 强度并对其施加2层 破裂"
+      ]
+    },
+    {
+      "skill_name": "因而无人哭泣",
+      "icon_id": "804703",
+      "sin_type": "忧郁",
+      "damage_type": "打击",
+      "base_value": 3,
+      "coin_power": 3,
+      "coin_count": 2,
+      "attack_level": 28,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "使用时消耗所有复贴的咒符"
+      ]
+    },
+    {
+      "skill_name": "转移符咒",
+      "icon_id": "804704",
+      "sin_type": "常规",
+      "damage_type": "防御",
+      "base_value": 10,
+      "coin_power": 79,
+      "coin_count": 1,
+      "attack_level": 0,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "使用时消耗目标所有纠缠的咒符",
+        "根据消耗的层数，获得相应层数的复贴的咒符"
+      ]
+    },
+    {
+      "skill_name": "复制诅咒",
+      "icon_id": "804705",
+      "sin_type": "色欲",
+      "damage_type": "打击",
+      "base_value": 5,
+      "coin_power": 9,
+      "coin_count": 1,
+      "attack_level": 28,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "使用时根据目标所拥有纠缠的咒符的层数，施加相应层数的纠缠的咒符"
+      ]
+    }
+  ],
+  "is_ally": false,
+  "_structured": true,
+  "appear_stages": [
+    "4-54-1-绽放的九人会 内圈左侧路径（4）",
+    "纺锤采光-暴怒-3",
+    "纺锤采光-暴怒-4"
+  ],
+  "enemy_id": "4-54-1-绽放的九人会 内圈左侧路径（4）|因而无人哭泣|右臂",
+  "defense": 35,
+  "speed": "1~4",
+  "_schema_version": 1
+}

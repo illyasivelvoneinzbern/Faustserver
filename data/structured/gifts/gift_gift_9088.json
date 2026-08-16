@@ -1,0 +1,21 @@
+{
+  "id": "gift_9088",
+  "title": "镇魂",
+  "url": "https://limbuscompany.huijiwiki.com/wiki/E.G.O饰品",
+  "categories": [
+    "E.G.O饰品"
+  ],
+  "content": "回合开始时，若拥有增加烧伤强度，施加烧伤层数或施加特殊烧伤的攻击技能的人格不低于5名，则在本场战斗期间触发该效果。(不包括E.G.O技能，不包括待命人员)\n回合开始时，对全体敌方单位(或异想体的所有部位)施加6层烧伤并随机使全体敌方单位增加共计15级烧伤强度。(每个波次最多1次)",
+  "source": "tabx",
+  "_structured": true,
+  "page_type": "ego_gift",
+  "gift_name": "镇魂",
+  "rarity": 4,
+  "cost": "421",
+  "effect_types": "烧伤",
+  "attack_type": "傲慢",
+  "location": "镜像迷宫",
+  "stage": "base",
+  "special": "合成",
+  "_schema_version": 1
+}

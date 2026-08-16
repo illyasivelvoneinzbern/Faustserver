@@ -1,0 +1,215 @@
+{
+  "page_type": "enemy",
+  "title": "折射轨道2号线复刻-第3站",
+  "enemy_name": "折射的流浪狐狸",
+  "battle_stage": "折射轨道2号线复刻-第3站",
+  "body_part": "",
+  "hp": 2062,
+  "defense_level": 48,
+  "speed_min": 2,
+  "speed_max": 5,
+  "chaos_threshold": "0",
+  "physical_resistances": {
+    "斩击": 1.0,
+    "突刺": 1.5,
+    "打击": 0.5
+  },
+  "sin_resistances": {
+    "暴怒": 0.5,
+    "色欲": 1.0,
+    "怠惰": 1.0,
+    "暴食": 1.5,
+    "忧郁": 1.5,
+    "傲慢": 1.0,
+    "嫉妒": 0.75
+  },
+  "panic_types": [],
+  "passives": [
+    "最后的挣扎: 剩余15%体力时，触发以下效果， - 每回合对自身施加10层 束缚 与1层 虚弱 - 新召唤的旧伞体力增加30% - 每回合使用技能“寻找某物的哭声”或“哀求的哭声”",
+    "虚荣的心: 首个回合开始时，使自身获得2层 保护伞 。(最多6层) 获得 保护伞 时，额外获得层数相当于巡回数的 保护伞 根据带有的 保护伞 层数，获得相应层数的 守护 技能“等待”位于行动槽时，根据 保护伞 层数，召唤相应数量的旧伞",
+    "折射的挣扎: 若与同一目标拼点不低于10次，则拼点判定时随机使自身的拼点威力增加或减少(拼点次数/10)。(向下取整)",
+    "损坏的伞: 躯干部位被破坏后，每回合对躯干部位施加1层 伤害弱化",
+    "折射的破裂与沉沦: 破裂 与 沉沦 的强度最多累积到30级 破裂 与 沉沦 的层数最多累积到5层",
+    "施加折射的流血: 自身被增加 流血 强度或施加 流血 层数时，额外使自身增加1级 流血 强度并对自身施加1层 流血 (不适用于巡回效果)",
+    "磨损殆尽的伞: 无恐慌类型数据"
+  ],
+  "skills": [
+    {
+      "skill_name": "沉闷的呻吟",
+      "icon_id": "804601",
+      "sin_type": "怠惰",
+      "damage_type": "突刺",
+      "base_value": 5,
+      "coin_power": 9703,
+      "coin_count": 3,
+      "attack_level": 60,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[使用时] 目标的 破裂 强度与 沉沦 强度之和每有3级，使本技能的最终威力+1(最多+2)"
+      ]
+    },
+    {
+      "skill_name": "席卷而来的沉沦",
+      "icon_id": "804602",
+      "sin_type": "怠惰",
+      "damage_type": "斩击",
+      "base_value": 5,
+      "coin_power": 9703,
+      "coin_count": 3,
+      "attack_level": 60,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[使用时] 目标的 破裂 强度与 沉沦 强度之和每有3级，使本技能的最终威力+1(最多+2)",
+        "[命中时] 对目标施加2层 沉沦",
+        "[命中时] 使目标增加3级 沉沦 强度"
+      ]
+    },
+    {
+      "skill_name": "哀伤的反冲",
+      "icon_id": "804603",
+      "sin_type": "暴食",
+      "damage_type": "斩击",
+      "base_value": 6,
+      "coin_power": 854,
+      "coin_count": 3,
+      "attack_level": 60,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[使用时] 目标的 破裂 强度与 沉沦 强度之和每有3级，使本技能的最终威力+1(最多+2)",
+        "[命中时] 对目标施加3层 破裂",
+        "[命中时] 使目标增加2级 破裂 强度"
+      ]
+    },
+    {
+      "skill_name": "哀伤的洪流",
+      "icon_id": "804604",
+      "sin_type": "暴食",
+      "damage_type": "斩击",
+      "base_value": 4,
+      "coin_power": 854,
+      "coin_count": 3,
+      "attack_level": 60,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[使用时] 目标的 破裂 强度与 沉沦 强度之和每有3级，使本技能的最终威力+1(最多+2)",
+        "[命中时] 对目标施加2层 破裂",
+        "[命中时] 使目标增加3级 破裂 强度",
+        "[正面命中时] 使目标增加2级 破裂 强度"
+      ]
+    },
+    {
+      "skill_name": "寻找某物的哭声",
+      "icon_id": "804605",
+      "sin_type": "忧郁",
+      "damage_type": "突刺",
+      "base_value": 16,
+      "coin_power": 3,
+      "coin_count": 3,
+      "attack_level": 60,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[使用时] 每有1把旧伞存活，使本技能的拼点威力+2",
+        "[命中时] 使目标增加5级 沉沦 强度"
+      ]
+    },
+    {
+      "skill_name": "等待",
+      "icon_id": "804606",
+      "sin_type": "常规",
+      "damage_type": "守备",
+      "base_value": 15,
+      "coin_power": 79,
+      "coin_count": 1,
+      "attack_level": 0,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "战斗开始使全体敌方单位失去20点理智值"
+      ]
+    },
+    {
+      "skill_name": "剧烈反应",
+      "icon_id": "853907",
+      "sin_type": "忧郁",
+      "damage_type": "斩击",
+      "base_value": 5,
+      "coin_power": 3,
+      "coin_count": 1,
+      "attack_level": 60,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "战斗开始使自身获得荆棘"
+      ]
+    },
+    {
+      "skill_name": "剧烈反应",
+      "icon_id": "853907",
+      "sin_type": "忧郁",
+      "damage_type": "斩击",
+      "base_value": 5,
+      "coin_power": 3,
+      "coin_count": 1,
+      "attack_level": 60,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "战斗开始使自身获得荆棘"
+      ]
+    },
+    {
+      "skill_name": "哀求的哭声",
+      "icon_id": "804605",
+      "sin_type": "忧郁",
+      "damage_type": "突刺",
+      "base_value": 16,
+      "coin_power": 3,
+      "coin_count": 3,
+      "attack_level": 60,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "拼点时，每有1把旧伞存活，使本技能的拼点威力+2",
+        "每把旧伞使本技能造成的伤害+25%",
+        "拼点失败",
+        "- 使本技能的最终威力-10，造成的伤害-80%",
+        "- 使本技能造成的伤害不会使目标陷入混乱",
+        "- 使本技能不会触发目标的破裂与沉沦",
+        "1不可摧毁的硬币",
+        "未摧毁 - 命中时使目标增加3级沉沦强度"
+      ]
+    }
+  ],
+  "is_ally": false,
+  "_structured": true,
+  "appear_stages": [
+    "折射轨道2号线复刻-第3站"
+  ],
+  "enemy_id": "折射轨道2号线复刻-第3站|折射的流浪狐狸|",
+  "defense": 48,
+  "speed": "2~5",
+  "_schema_version": 1
+}

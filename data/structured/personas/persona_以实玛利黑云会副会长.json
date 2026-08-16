@@ -1,0 +1,569 @@
+{
+  "page_type": "personality",
+  "title": "以实玛利黑云会副会长",
+  "sinner": "以实玛利",
+  "sinner_id": "ishmael",
+  "personality_name": "以实玛利黑云会副会长",
+  "release_date": "2025.02.06",
+  "acquisition": "第5赛季活动提取",
+  "sin_affinities": {
+    "嫉妒": 3,
+    "傲慢": 2,
+    "色欲": 1
+  },
+  "physical_resistances": {
+    "斩击": 0.5,
+    "突刺": 1.0,
+    "打击": 2.0
+  },
+  "ego_resources": {
+    "嫉妒": 3,
+    "傲慢": 2,
+    "色欲": 1
+  },
+  "skills": [
+    {
+      "skill_index": 0,
+      "skill_name": "善后",
+      "sin_type": "",
+      "damage_type": "",
+      "guard_type": "",
+      "attack_capacity": 1,
+      "coin_count": 3,
+      "stage_groups": [
+        [
+          {
+            "stage": "I",
+            "base_value": 3,
+            "coin_power": 3,
+            "effects": [
+              {
+                "timing": "命中时",
+                "description": "使目标增加1级 流血 强度"
+              },
+              {
+                "timing": "命中时",
+                "description": "使目标增加2级 流血 强度"
+              },
+              {
+                "timing": "命中时",
+                "description": "对目标施加1层 攻击等级降低"
+              }
+            ],
+            "raw_text": "基础值： 3 变动值： +3 [命中时] 使目标增加1级 流血 强度 [命中时] 使目标增加2级 流血 强度 [命中时] 对目标施加1层 攻击等级降低"
+          },
+          {
+            "stage": "II",
+            "base_value": 3,
+            "coin_power": 3,
+            "effects": [
+              {
+                "timing": "命中时",
+                "description": "使目标增加1级 流血 强度"
+              },
+              {
+                "timing": "命中时",
+                "description": "使目标增加2级 流血 强度"
+              },
+              {
+                "timing": "命中时",
+                "description": "对目标施加1层 攻击等级降低"
+              }
+            ],
+            "raw_text": "基础值： 3 变动值： +3 若目标的 流血 强度不低于6级，则使本技能的硬币威力+1 [命中时] 使目标增加1级 流血 强度 [命中时] 使目标增加2级 流血 强度 [命中时] 对目标施加1层 攻击等级降低"
+          },
+          {
+            "stage": "III",
+            "base_value": 3,
+            "coin_power": 4,
+            "effects": [
+              {
+                "timing": "命中时",
+                "description": "使目标增加1级 流血 强度"
+              },
+              {
+                "timing": "命中时",
+                "description": "使目标增加2级 流血 强度"
+              },
+              {
+                "timing": "命中时",
+                "description": "对目标施加1层 攻击等级降低"
+              }
+            ],
+            "raw_text": "基础值： 3 变动值： +4 若目标的 流血 强度不低于6级，则使本技能的硬币威力+1 [命中时] 使目标增加1级 流血 强度 [命中时] 使目标增加2级 流血 强度 [命中时] 对目标施加1层 攻击等级降低"
+          },
+          {
+            "stage": "IV",
+            "base_value": 3,
+            "coin_power": 4,
+            "effects": [
+              {
+                "timing": "命中时",
+                "description": "使目标增加1级 流血 强度"
+              },
+              {
+                "timing": "命中时",
+                "description": "使目标增加2级 流血 强度"
+              },
+              {
+                "timing": "命中时",
+                "description": "对目标施加1层 攻击等级降低"
+              }
+            ],
+            "raw_text": "基础值： 3 变动值： +4 目标每带有6级 流血 强度，使本技能的硬币威力+1（最多+2） 目标每带有1种 负面状态 ，使本技能造成的伤害+10%（最多30%） [命中时] 使目标增加1级 流血 强度 [命中时] 使目标增加2级 流血 强度 [命中时] 对目标施加1层 攻击等级降低"
+          }
+        ]
+      ],
+      "coin_effects": [
+        {
+          "coin_index": 0,
+          "description": "技能一"
+        },
+        {
+          "coin_index": 0,
+          "description": "善后 3"
+        },
+        {
+          "coin_index": 0,
+          "timing": "",
+          "description": "2"
+        },
+        {
+          "coin_index": 0,
+          "description": "+2"
+        },
+        {
+          "coin_index": 0,
+          "description": "1"
+        },
+        {
+          "coin_index": 0,
+          "description": "基础值： 3 变动值： +3"
+        },
+        {
+          "coin_index": 1,
+          "timing": "命中时",
+          "description": "[命中时] 使目标增加1级 流血 强度"
+        },
+        {
+          "coin_index": 2,
+          "timing": "命中时",
+          "description": "[命中时] 使目标增加2级 流血 强度 [命中时] 对目标施加1层 攻击等级降低"
+        },
+        {
+          "coin_index": 1,
+          "timing": "命中时",
+          "description": "[命中时] 使目标增加1级 流血 强度"
+        },
+        {
+          "coin_index": 2,
+          "timing": "命中时",
+          "description": "[命中时] 使目标增加2级 流血 强度 [命中时] 对目标施加1层 攻击等级降低"
+        },
+        {
+          "coin_index": 1,
+          "timing": "命中时",
+          "description": "[命中时] 使目标增加1级 流血 强度"
+        },
+        {
+          "coin_index": 2,
+          "timing": "命中时",
+          "description": "[命中时] 使目标增加2级 流血 强度 [命中时] 对目标施加1层 攻击等级降低"
+        },
+        {
+          "coin_index": 1,
+          "timing": "命中时",
+          "description": "[命中时] 使目标增加1级 流血 强度"
+        },
+        {
+          "coin_index": 2,
+          "timing": "命中时",
+          "description": "[命中时] 使目标增加2级 流血 强度 [命中时] 对目标施加1层 攻击等级降低"
+        }
+      ],
+      "wikitext_key": "1技能"
+    },
+    {
+      "skill_index": 1,
+      "skill_name": "锋锐剑刃",
+      "sin_type": "傲慢",
+      "damage_type": "斩击",
+      "guard_type": "",
+      "attack_capacity": 1,
+      "coin_count": 3,
+      "stage_groups": [
+        [
+          {
+            "stage": "I",
+            "base_value": 3,
+            "coin_power": 6,
+            "effects": [
+              {
+                "timing": "战斗开始",
+                "description": "使除自身以外速度值最高且属于黑云会的2名友方单位获得1层 伤害强化 （每回合最多1次） 若包括自身在内属于黑云会的友方单位不低于6名，则改为使5名友方单位获得2层 伤害强化"
+              },
+              {
+                "timing": "命中时",
+                "description": "使目标增加2级 流血 强度"
+              },
+              {
+                "timing": "命中时",
+                "description": "对目标施加2层 流血"
+              }
+            ],
+            "raw_text": "基础值： 3 变动值： +6 [战斗开始] 使除自身以外速度值最高且属于黑云会的2名友方单位获得1层 伤害强化 （每回合最多1次） 若包括自身在内属于黑云会的友方单位不低于6名，则改为使5名友方单位获得2层 伤害强化 [命中时] 使目标增加2级 流血 强度 [命中时] 对目标施加2层 流血"
+          },
+          {
+            "stage": "II",
+            "base_value": 3,
+            "coin_power": 6,
+            "effects": [
+              {
+                "timing": "战斗开始",
+                "description": "使除自身以外速度值最高且属于黑云会的2名友方单位获得2层 伤害强化 （每回合最多1次） -若包括自身在内属于黑云会的友方单位不低于6名，则改为使5名友方单位获得3层 伤害强化"
+              },
+              {
+                "timing": "命中时",
+                "description": "使目标增加2级 流血 强度"
+              },
+              {
+                "timing": "正面命中时",
+                "description": "对目标施加1层 斩击易损 （每回合最多1次）"
+              },
+              {
+                "timing": "命中时",
+                "description": "对目标施加2层 流血"
+              },
+              {
+                "timing": "命中时",
+                "description": "下回合使自身获得1层 斩击威力提升 （每回合最多1次）"
+              }
+            ],
+            "raw_text": "基础值： 3 变动值： +6 若目标的 流血 强度不低于6级，则使本技能的硬币威力+1 [战斗开始] 使除自身以外速度值最高且属于黑云会的2名友方单位获得2层 伤害强化 （每回合最多1次） -若包括自身在内属于黑云会的友方单位不低于6名，则改为使5名友方单位获得3层 伤害强化 [命中时] 使目标增加2级 流血 强度 [正面命中时] 对目标施加1层 斩击易损 （每回合最多1次） [命中时] 对目标施加2层 流血 [命中时] 下回合使自身获得1层 斩击威力提升 （每回合最多1次）"
+          },
+          {
+            "stage": "III",
+            "base_value": 4,
+            "coin_power": 6,
+            "effects": [
+              {
+                "timing": "战斗开始",
+                "description": "使除自身以外速度值最高且属于黑云会的2名友方单位获得2层 伤害强化 （每回合最多1次） -若包括自身在内属于黑云会的友方单位不低于6名，则改为使5名友方单位获得3层 伤害强化"
+              },
+              {
+                "timing": "命中时",
+                "description": "使目标增加2级 流血 强度"
+              },
+              {
+                "timing": "正面命中时",
+                "description": "对目标施加1层 斩击易损 （每回合最多1次）"
+              },
+              {
+                "timing": "命中时",
+                "description": "对目标施加2层 流血"
+              },
+              {
+                "timing": "命中时",
+                "description": "下回合使自身获得1层 斩击威力提升 （每回合最多1次）"
+              }
+            ],
+            "raw_text": "基础值： 4 变动值： +6 若目标的 流血 强度不低于6级，则使本技能的硬币威力+1 [战斗开始] 使除自身以外速度值最高且属于黑云会的2名友方单位获得2层 伤害强化 （每回合最多1次） -若包括自身在内属于黑云会的友方单位不低于6名，则改为使5名友方单位获得3层 伤害强化 [命中时] 使目标增加2级 流血 强度 [正面命中时] 对目标施加1层 斩击易损 （每回合最多1次） [命中时] 对目标施加2层 流血 [命中时] 下回合使自身获得1层 斩击威力提升 （每回合最多1次）"
+          },
+          {
+            "stage": "IV",
+            "base_value": 4,
+            "coin_power": 6,
+            "effects": [
+              {
+                "timing": "战斗开始",
+                "description": "使除自身以外速度值最高且属于黑云会的2名友方单位获得2层 伤害强化 （每回合最多1次） -若包括自身在内属于黑云会的友方单位不低于6名，则改为使5名友方单位获得4层 伤害强化 目标每带有1种 负面状态 ，使本技能造成的伤害+10%（最多50%）"
+              },
+              {
+                "timing": "命中时",
+                "description": "使目标增加2级 流血 强度"
+              },
+              {
+                "timing": "正面命中时",
+                "description": "对目标施加1层 斩击易损 （每回合最多1次） -若包括自身在内属于黑云会的友方单位不低于6名，则改为对目标施加2层 易损"
+              },
+              {
+                "timing": "命中时",
+                "description": "对目标施加2层 流血"
+              },
+              {
+                "timing": "命中时",
+                "description": "下回合使自身获得1层 斩击威力提升 （每回合最多1次）"
+              }
+            ],
+            "raw_text": "基础值： 4 变动值： +6 目标每带有6级 流血 强度，使本技能的硬币威力+1（最多+2） [战斗开始] 使除自身以外速度值最高且属于黑云会的2名友方单位获得2层 伤害强化 （每回合最多1次） -若包括自身在内属于黑云会的友方单位不低于6名，则改为使5名友方单位获得4层 伤害强化 目标每带有1种 负面状态 ，使本技能造成的伤害+10%（最多50%） [命中时] 使目标增加2级 流血 强度 [正面命中时] 对目标施加1层 斩击易损 （每回合最多1次） -若包括自身在内属于黑云会的友方单位不低于6名，则改为对目标施加2层 易损 [命中时] 对目标施加2层 流血 [命中时] 下回合使自身获得1层 斩击威力提升 （每回合最多1次）"
+          }
+        ]
+      ],
+      "coin_effects": [
+        {
+          "coin_index": 0,
+          "description": "技能二"
+        },
+        {
+          "coin_index": 0,
+          "description": "锋锐剑刃 2"
+        },
+        {
+          "coin_index": 0,
+          "timing": "",
+          "description": "2"
+        },
+        {
+          "coin_index": 0,
+          "description": "+3"
+        },
+        {
+          "coin_index": 0,
+          "description": "1"
+        },
+        {
+          "coin_index": 0,
+          "description": "基础值： 3 变动值： +6 [战斗开始] 使除自身以外速度值最高且属于黑云会的2名友方单位获得1层 伤害强化 （每回合最多1次） 若包括自身在内属于黑云会的友方单位不低于6名，则改为使5名友方单位获得2层 伤害强化"
+        },
+        {
+          "coin_index": 1,
+          "timing": "命中时",
+          "description": "[命中时] 使目标增加2级 流血 强度"
+        },
+        {
+          "coin_index": 2,
+          "timing": "命中时",
+          "description": "[命中时] 对目标施加2层 流血"
+        },
+        {
+          "coin_index": 1,
+          "timing": "命中时",
+          "description": "[命中时] 使目标增加2级 流血 强度 [正面命中时] 对目标施加1层 斩击易损 （每回合最多1次）"
+        },
+        {
+          "coin_index": 2,
+          "timing": "命中时",
+          "description": "[命中时] 对目标施加2层 流血 [命中时] 下回合使自身获得1层 斩击威力提升 （每回合最多1次）"
+        },
+        {
+          "coin_index": 1,
+          "timing": "命中时",
+          "description": "[命中时] 使目标增加2级 流血 强度 [正面命中时] 对目标施加1层 斩击易损 （每回合最多1次）"
+        },
+        {
+          "coin_index": 2,
+          "timing": "命中时",
+          "description": "[命中时] 对目标施加2层 流血 [命中时] 下回合使自身获得1层 斩击威力提升 （每回合最多1次）"
+        },
+        {
+          "coin_index": 1,
+          "timing": "命中时",
+          "description": "[命中时] 使目标增加2级 流血 强度 [正面命中时] 对目标施加1层 斩击易损 （每回合最多1次） -若包括自身在内属于黑云会的友方单位不低于6名，则改为对目标施加2层 易损"
+        },
+        {
+          "coin_index": 2,
+          "timing": "命中时",
+          "description": "[命中时] 对目标施加2层 流血 [命中时] 下回合使自身获得1层 斩击威力提升 （每回合最多1次）"
+        }
+      ],
+      "wikitext_key": "2技能"
+    },
+    {
+      "skill_index": 2,
+      "skill_name": "墨染",
+      "sin_type": "色欲",
+      "damage_type": "斩击",
+      "guard_type": "",
+      "attack_capacity": 1,
+      "coin_count": 4,
+      "stage_groups": [
+        [
+          {
+            "stage": "I",
+            "base_value": 4,
+            "coin_power": 4,
+            "effects": [
+              {
+                "timing": "命中时",
+                "description": "对目标施加2层 流血"
+              },
+              {
+                "timing": "命中时",
+                "description": "使目标增加3级 流血 强度"
+              },
+              {
+                "timing": "命中时",
+                "description": "触发目标的 流血 3次并使其 流血 层数减少3层"
+              }
+            ],
+            "raw_text": "基础值： 4 变动值： +4 若目标的 流血 强度不低于6级，则使本技能的硬币威力+1 [命中时] 对目标施加2层 流血 [命中时] 使目标增加3级 流血 强度 [命中时] 触发目标的 流血 3次并使其 流血 层数减少3层"
+          },
+          {
+            "stage": "II",
+            "base_value": 5,
+            "coin_power": 4,
+            "effects": [
+              {
+                "timing": "击杀敌方时",
+                "description": "下回合使自身获得2层 斩击威力提升 （每回合最多1次）"
+              },
+              {
+                "timing": "命中时",
+                "description": "对目标施加2层 流血"
+              },
+              {
+                "timing": "命中时",
+                "description": "使目标增加3级 流血 强度 目标每带有1种 负面状态 ，使本硬币造成的伤害+10%（最多100%）"
+              },
+              {
+                "timing": "命中时",
+                "description": "触发目标的 流血 3次并使其 流血 层数减少3层"
+              }
+            ],
+            "raw_text": "基础值： 5 变动值： +4 目标每带有6级 流血 强度，使本技能的硬币威力+1（最多+2） [击杀敌方时] 下回合使自身获得2层 斩击威力提升 （每回合最多1次） [命中时] 对目标施加2层 流血 [命中时] 使目标增加3级 流血 强度 目标每带有1种 负面状态 ，使本硬币造成的伤害+10%（最多100%） [命中时] 触发目标的 流血 3次并使其 流血 层数减少3层"
+          }
+        ]
+      ],
+      "coin_effects": [
+        {
+          "coin_index": 0,
+          "description": "技能三"
+        },
+        {
+          "coin_index": 0,
+          "description": "墨染 1"
+        },
+        {
+          "coin_index": 0,
+          "timing": "",
+          "description": "3"
+        },
+        {
+          "coin_index": 0,
+          "description": "+5"
+        },
+        {
+          "coin_index": 0,
+          "description": "1"
+        },
+        {
+          "coin_index": 0,
+          "description": "基础值： 4 变动值： +4 若目标的 流血 强度不低于6级，则使本技能的硬币威力+1"
+        },
+        {
+          "coin_index": 1,
+          "timing": "命中时",
+          "description": "[命中时] 对目标施加2层 流血"
+        },
+        {
+          "coin_index": 2,
+          "timing": "命中时",
+          "description": "[命中时] 使目标增加3级 流血 强度"
+        },
+        {
+          "coin_index": 3,
+          "timing": "命中时",
+          "description": "[命中时] 触发目标的 流血 3次并使其 流血 层数减少3层"
+        },
+        {
+          "coin_index": 1,
+          "timing": "命中时",
+          "description": "[命中时] 对目标施加2层 流血"
+        },
+        {
+          "coin_index": 2,
+          "timing": "命中时",
+          "description": "[命中时] 使目标增加3级 流血 强度"
+        },
+        {
+          "coin_index": 3,
+          "timing": "命中时",
+          "description": "目标每带有1种 负面状态 ，使本硬币造成的伤害+10%（最多100%） [命中时] 触发目标的 流血 3次并使其 流血 层数减少3层"
+        }
+      ],
+      "wikitext_key": "3技能"
+    },
+    {
+      "skill_index": 3,
+      "skill_name": "纷乱剑击",
+      "sin_type": "",
+      "damage_type": "",
+      "guard_type": "",
+      "attack_capacity": 1,
+      "coin_count": 1,
+      "stage_groups": [
+        [
+          {
+            "stage": "I",
+            "base_value": 4,
+            "coin_power": 10,
+            "effects": [
+              {
+                "timing": "战斗开始",
+                "description": "使自身获得1层 守护 （每回合最多1次）"
+              }
+            ],
+            "raw_text": "基础值： 4 变动值： +10 [战斗开始] 使自身获得1层 守护 （每回合最多1次）"
+          },
+          {
+            "stage": "II",
+            "base_value": 4,
+            "coin_power": 10,
+            "effects": [
+              {
+                "timing": "战斗开始",
+                "description": "使自身获得1层 守护 （每回合最多1次）"
+              },
+              {
+                "timing": "战斗开始",
+                "description": "使包括自身在内（2+最大共鸣数）名速度值最高且属于黑云会的友方单位获得2层 忍耐 （每回合最多1次）"
+              }
+            ],
+            "raw_text": "基础值： 4 变动值： +10 [战斗开始] 使自身获得1层 守护 （每回合最多1次） [战斗开始] 使包括自身在内（2+最大共鸣数）名速度值最高且属于黑云会的友方单位获得2层 忍耐 （每回合最多1次）"
+          }
+        ]
+      ],
+      "coin_effects": [
+        {
+          "coin_index": 0,
+          "description": "守备技能"
+        },
+        {
+          "coin_index": 0,
+          "description": "纷乱剑击"
+        },
+        {
+          "coin_index": 0,
+          "timing": "",
+          "description": "1"
+        },
+        {
+          "coin_index": 0,
+          "description": "+1"
+        },
+        {
+          "coin_index": 0,
+          "description": "1"
+        },
+        {
+          "coin_index": 0,
+          "description": "I阶 - III阶 IV阶 追加属性： 基础值： 4 变动值： +10 [战斗开始] 使自身获得1层 守护 （每回合最多1次） 基础值： 4 变动值： +10 [战斗开始] 使自身获得1层 守护 （每回合最多1次） [战斗开始] 使包括自身在内（2+最大共鸣数）名速度值最高且属于黑云会的友方单位获得2层 忍耐 （每回合最多1次）"
+        }
+      ],
+      "wikitext_key": "4技能"
+    }
+  ],
+  "battle_passive": "人格被动1081102\n人格被动1081101\n人格被动1081121",
+  "support_passive": "",
+  "notes": "",
+  "voice_lines": [],
+  "skill_voice": [],
+  "_structured": true,
+  "id": "wiki_以实玛利黑云会副会长",
+  "url": "https://limbuscompany.huijiwiki.com/wiki/以实玛利黑云会副会长",
+  "categories": [
+    "人格"
+  ],
+  "source": "wiki",
+  "_schema_version": 1
+}

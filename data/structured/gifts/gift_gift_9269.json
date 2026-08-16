@@ -1,0 +1,22 @@
+{
+  "id": "gift_9269",
+  "title": "登场专用音响",
+  "url": "https://limbuscompany.huijiwiki.com/wiki/E.G.O饰品",
+  "categories": [
+    "E.G.O饰品"
+  ],
+  "content": "打击技能命中时，使该友方单位恢复造成伤害量5%的体力\n反击技能命中时，使自身恢复5点理智值(每回合每名人格最多2次)",
+  "source": "tabx",
+  "_structured": true,
+  "page_type": "ego_gift",
+  "gift_name": "登场专用音响",
+  "rarity": 2,
+  "cost": "204",
+  "effect_types": "打击",
+  "attack_type": "嫉妒",
+  "location": "镜像迷宫",
+  "stage": "base",
+  "special": "深夜清扫复刻",
+  "event": "事件-似曾相识的音响",
+  "_schema_version": 1
+}

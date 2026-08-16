@@ -1,0 +1,182 @@
+{
+  "page_type": "enemy",
+  "title": "主线战斗5-36-3-1",
+  "enemy_name": "噬梦的浊流",
+  "battle_stage": "主线战斗5-36-3-1",
+  "body_part": "荧光灯",
+  "hp": 330,
+  "defense_level": 45,
+  "speed_min": 2,
+  "speed_max": 4,
+  "chaos_threshold": "0/-115",
+  "physical_resistances": {
+    "斩击": 1.0,
+    "突刺": 1.5,
+    "打击": 0.5
+  },
+  "sin_resistances": {
+    "暴怒": 0.75,
+    "色欲": 0.5,
+    "怠惰": 1.0,
+    "暴食": 1.0,
+    "忧郁": 0.5,
+    "傲慢": 1.5,
+    "嫉妒": 1.5
+  },
+  "panic_types": [],
+  "passives": [],
+  "skills": [
+    {
+      "skill_name": "头槌",
+      "icon_id": "810201",
+      "sin_type": "怠惰",
+      "damage_type": "打击",
+      "base_value": 5,
+      "coin_power": 9703,
+      "coin_count": 2,
+      "attack_level": 43,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[命中时] 使目标增加4级 沉沦 强度"
+      ]
+    },
+    {
+      "skill_name": "冲撞",
+      "icon_id": "810202",
+      "sin_type": "怠惰",
+      "damage_type": "打击",
+      "base_value": 5,
+      "coin_power": 9703,
+      "coin_count": 3,
+      "attack_level": 43,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[命中时] 对目标施加3层 沉沦"
+      ]
+    },
+    {
+      "skill_name": "压制",
+      "icon_id": "810203",
+      "sin_type": "怠惰",
+      "damage_type": "打击",
+      "base_value": 5,
+      "coin_power": 9703,
+      "coin_count": 3,
+      "attack_level": 43,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[命中时] 使目标增加4级 沉沦 强度 若目标带有 荧光灯碎片 ，则对目标施加2层 沉沦"
+      ]
+    },
+    {
+      "skill_name": "袭来的浊流",
+      "icon_id": "810205",
+      "sin_type": "忧郁",
+      "damage_type": "穿刺",
+      "base_value": 4,
+      "coin_power": 3,
+      "coin_count": 3,
+      "attack_level": 43,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[命中时] 使目标增加3级 沉沦 强度并对其施加2层 沉沦",
+        "[正面命中时] 下回合使目标 理智值减少效率 -2"
+      ]
+    },
+    {
+      "skill_name": "盲目",
+      "icon_id": "810204",
+      "sin_type": "傲慢",
+      "damage_type": "打击",
+      "base_value": 15,
+      "coin_power": 3,
+      "coin_count": 5,
+      "attack_level": 43,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[命中时] 对目标施加3层 沉沦",
+        "[正面命中时] 使目标增加4级 沉沦 强度",
+        "[命中时] 使目标增加4级 沉沦 强度",
+        "[命中时] 使目标 沉沦泛滥"
+      ]
+    },
+    {
+      "skill_name": "彷徨盲目",
+      "icon_id": "810206",
+      "sin_type": "傲慢",
+      "damage_type": "打击",
+      "base_value": 15,
+      "coin_power": 3,
+      "coin_count": 2,
+      "attack_level": 43,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[攻击后] 使荧光灯部位失去体力上限34%的体力",
+        "[命中时] 击杀目标"
+      ]
+    },
+    {
+      "skill_name": "横扫",
+      "icon_id": "810207",
+      "sin_type": "傲慢",
+      "damage_type": "穿刺",
+      "base_value": 4,
+      "coin_power": 3,
+      "coin_count": 3,
+      "attack_level": 43,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[命中时] 使目标增加4级 沉沦 强度 若目标带有 荧光灯碎片 ，则对目标施加2层 沉沦"
+      ]
+    },
+    {
+      "skill_name": "挣扎",
+      "icon_id": "810208",
+      "sin_type": "忧郁",
+      "damage_type": "穿刺",
+      "base_value": 10,
+      "coin_power": 3,
+      "coin_count": 2,
+      "attack_level": 43,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[命中时] 使目标增加4级 沉沦 强度"
+      ]
+    }
+  ],
+  "is_ally": false,
+  "_structured": true,
+  "appear_stages": [
+    "主线战斗5-36-3-1",
+    "大湖之镜-噬梦的浊流",
+    "集中战斗-噬梦的浊流"
+  ],
+  "enemy_id": "主线战斗5-36-3-1|噬梦的浊流|荧光灯",
+  "defense": 45,
+  "speed": "2~4",
+  "_schema_version": 1
+}

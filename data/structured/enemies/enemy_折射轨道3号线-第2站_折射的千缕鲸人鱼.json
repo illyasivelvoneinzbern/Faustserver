@@ -1,0 +1,108 @@
+{
+  "page_type": "enemy",
+  "title": "折射轨道3号线-第2站",
+  "enemy_name": "折射的千缕鲸人鱼",
+  "battle_stage": "折射轨道3号线-第2站",
+  "body_part": "躯干",
+  "hp": 124,
+  "defense_level": 45,
+  "speed_min": 1,
+  "speed_max": 2,
+  "chaos_threshold": "99/56/0",
+  "physical_resistances": {
+    "斩击": 1.2,
+    "突刺": 1.5,
+    "打击": 0.5
+  },
+  "sin_resistances": {
+    "暴怒": 1.0,
+    "色欲": 1.0,
+    "怠惰": 1.5,
+    "暴食": 1.0,
+    "忧郁": 0.75,
+    "傲慢": 1.0,
+    "嫉妒": 1.0
+  },
+  "panic_types": [],
+  "passives": [],
+  "skills": [
+    {
+      "skill_name": "播种恐惧",
+      "icon_id": "9008801",
+      "sin_type": "忧郁",
+      "damage_type": "打击",
+      "base_value": 8,
+      "coin_power": 3,
+      "coin_count": 2,
+      "attack_level": 0,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "1反面命中时使目标失去2点理智值",
+        "2反面命中时使目标失去2点理智值"
+      ]
+    },
+    {
+      "skill_name": "铭记恐惧",
+      "icon_id": "9008802",
+      "sin_type": "忧郁",
+      "damage_type": "穿刺",
+      "base_value": 10,
+      "coin_power": 6,
+      "coin_count": 1,
+      "attack_level": 0,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "拼点胜利使目标失去5点理智值，并使自身恢复10点体力"
+      ]
+    },
+    {
+      "skill_name": "收获恐惧",
+      "icon_id": "9008803",
+      "sin_type": "暴食",
+      "damage_type": "打击",
+      "base_value": 12,
+      "coin_power": 4,
+      "coin_count": 2,
+      "attack_level": 0,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "若目标的理智值不高于20点，则使本技能体力恢复量+20%"
+      ]
+    },
+    {
+      "skill_name": "麻痹精神",
+      "icon_id": "9008804",
+      "sin_type": "忧郁",
+      "damage_type": "打击",
+      "base_value": 14,
+      "coin_power": 6,
+      "coin_count": 2,
+      "attack_level": 0,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "若目标的理智值不高于-15点，则使本技能造成的伤害+50%"
+      ]
+    }
+  ],
+  "is_ally": false,
+  "_structured": true,
+  "appear_stages": [
+    "折射轨道3号线-第2站"
+  ],
+  "enemy_id": "折射轨道3号线-第2站|折射的千缕鲸人鱼|躯干",
+  "defense": 45,
+  "speed": "1~2",
+  "_schema_version": 1
+}

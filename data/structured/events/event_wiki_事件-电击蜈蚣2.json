@@ -1,0 +1,35 @@
+{
+  "page_type": "event",
+  "title": "事件-电击蜈蚣2",
+  "event_name": "电击蜈蚣2",
+  "narration": "透过收容单元的玻璃，可以看到电击蜈蚣。\n“啊，我们正好在进行关于电击蜈蚣在即将被镇压前出现的不死现象的实验。”\n“我们研究团队目前进行的主要课题，就是寻找能够提取高效的充电设备的源头。”\n“你们应该很清楚吧？从这异想体中提取的E.G.O饰品的名称。”\n……叫什么来着？\n\n解除限制的除颤仪\n“成功了！不仅短暂的过度充能得以安全地保存下来，而且输出几乎没有任何损耗！真是不可思议……”\n那名研究员开心地喋喋不休着，随即从背后的柜子里取出了某样东西。\n“正好这次我们用新的方式改变了提取参数，结果提取出了一种特殊形态的E.G.O饰品。”\n“要不要试试看？如果可以的话，也请反馈下使用体验……”\n获得\n！\n\n非标准负载电池\n“……”\n“还以为您使用得相当频繁，应该会记得呢。”\n“您最好还是再多观察下比较好。”\n研究员失望地叹了口气，离开了我们。\n什么都没有发生。",
+  "options": [
+    {
+      "choice_text": "解除限制的除颤仪",
+      "check_type": "",
+      "check_sin": "",
+      "check_threshold": 0,
+      "success_outcomes": [],
+      "failure_outcomes": []
+    },
+    {
+      "choice_text": "非标准负载电池",
+      "check_type": "",
+      "check_sin": "",
+      "check_threshold": 0,
+      "success_outcomes": [],
+      "failure_outcomes": []
+    }
+  ],
+  "ego_gifts": [],
+  "related_abnormalities": [
+    "电击蜈蚣"
+  ],
+  "trigger_location": "",
+  "_structured": true,
+  "id": "wiki_事件-电击蜈蚣2",
+  "url": "https://limbuscompany.huijiwiki.com/wiki/事件-电击蜈蚣2",
+  "categories": [],
+  "source": "wiki",
+  "_schema_version": 1
+}

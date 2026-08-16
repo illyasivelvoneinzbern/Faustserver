@@ -1,0 +1,22 @@
+{
+  "id": "gift_9168",
+  "title": "终末的碎片",
+  "url": "https://limbuscompany.huijiwiki.com/wiki/E.G.O饰品",
+  "categories": [
+    "E.G.O饰品"
+  ],
+  "content": "若目标的破裂强度低于15级，则增加破裂强度时额外增加1级破裂强度",
+  "source": "tabx",
+  "_structured": true,
+  "page_type": "ego_gift",
+  "gift_name": "终末的碎片",
+  "rarity": 2,
+  "cost": "200",
+  "effect_types": "破裂",
+  "attack_type": "暴食",
+  "location": "镜像迷宫",
+  "stage": "base",
+  "special": "困难",
+  "event": "事件-终末日历",
+  "_schema_version": 1
+}

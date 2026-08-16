@@ -1,0 +1,21 @@
+{
+  "id": "gift_1015",
+  "title": "生锈发条",
+  "url": "https://limbuscompany.huijiwiki.com/wiki/E.G.O饰品",
+  "categories": [
+    "E.G.O饰品"
+  ],
+  "content": "（这个饰品暂未出现在游戏内）回合开始时，使现存体力最低的1名友方单位获得1层守护。",
+  "source": "tabx",
+  "_structured": true,
+  "page_type": "ego_gift",
+  "gift_name": "生锈发条",
+  "rarity": 0,
+  "cost": "0",
+  "effect_types": "",
+  "attack_type": "傲慢",
+  "location": "第二章",
+  "stage": "base",
+  "event": "事件-你感到幸福吗？",
+  "_schema_version": 1
+}

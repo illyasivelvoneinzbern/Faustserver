@@ -1,0 +1,110 @@
+{
+  "page_type": "event",
+  "title": "事件-E型次元短剑",
+  "event_name": "E型次元短剑",
+  "narration": "可以透过客车的窗户看到变成血袋的W公司清扫人员们。\n他们在火车内不停地徘徊，就像在巡逻一样。\n可能是经过了一场激烈的战斗，地上散落着一些装备，上面粘满了血管和血肉。\n看起来好像还没有注意到这边。\n如果悄悄地过去的话，说不定就能顺利出去……\n周围的装备中可能有一些有用的东西。\n\n安静地通过。\n我们趁着血袋们不注意的时候离开了。\n虽然散落在地板上的装备有些浪费，但在这种情况下没必要勉强接近。\n什么都没有发生。\n\n趁着经过时顺走能用的装备。\n【要拜托哪位罪人呢？】（W公司 判定值+7）\n有利判定\n：\n/\n≥15\n不利判定\n：\n≥30\n判定成功\n：\n清扫职员们的脚下散落着可以使用的装备。\n如果那些是W公司技术产品的话……接下来就很可能派上用场了。\n罪人X小心翼翼地爬到了散落着装备的地方。\n那些血袋似乎还没注意到X。\n分支一\n走在前列的罪人左顾右盼后看向我。\n能看到被清扫人员踩过的2件装备。\n不论拿走哪一件，这节车厢所有的血袋都会察觉到罪人的位置。\n全都要有些太贪婪了。\n还是决定要拿哪一件吧。\n选项一\n选项二\n看上去很强的武器\n不管拿没拿到武器，我们都直接逃向下一节车厢。\n获得\nE型次元短剑\n看上去有用的装备。\n不管拿没拿到装备，我们都直接逃向下一节车厢。\n获得\n便携式力场电池\n！\n判定失败\n：\n清扫职员们的脚下散落着可以使用的装备。\n如果那些是W公司的产品的话……接下来就很可能派上用场了。\n罪人X小心翼翼地爬到了散落着装备的地方。\n哗啦。\n罪人X的衣服钩住了什么东西，布料的声音在车厢内回荡。\n就在这时，一个血袋注意到了X，随即挥起了手中的武器。\n所选人格失去\n20点体力\n！\n\n走在前列的罪人左顾右盼后看向我。\n能看到被清扫人员踩过的2件装备。\n不论拿走哪一件，这节车厢所有的血袋都会察觉到罪人的位置。\n全都要有些太贪婪了。\n还是决定要拿哪一件吧。\n选项一\n选项二\n看上去很强的武器\n不管拿没拿到武器，我们都直接逃向下一节车厢。\n获得\nE型次元短剑\n看上去有用的装备。\n不管拿没拿到装备，我们都直接逃向下一节车厢。\n获得\n便携式力场电池\n！\n\n看上去很强的武器\n不管拿没拿到武器，我们都直接逃向下一节车厢。\n获得\nE型次元短剑\n\n看上去有用的装备。\n不管拿没拿到装备，我们都直接逃向下一节车厢。\n获得\n便携式力场电池\n！\n\n先下手为强。\n看样子很难在不被发觉的情况下通过。\n即使如此，想要拿走装备也要面对血袋们的严密警戒。\n不如在被发现之前先下手为强。\n小心翼翼地接近后，罪人们偷袭了清扫人员。\n触发集中遭遇战！\n战斗胜利后，将获得\nE型次元短剑\n便携式力场电池\n！",
+  "options": [
+    {
+      "choice_text": "安静地通过。",
+      "check_type": "",
+      "check_sin": "",
+      "check_threshold": 0,
+      "success_outcomes": [],
+      "failure_outcomes": []
+    },
+    {
+      "choice_text": "趁着经过时顺走能用的装备。",
+      "check_type": "有利判定",
+      "check_sin": "嫉妒",
+      "check_threshold": 15,
+      "success_outcomes": [
+        "获得 E型次元短剑 看上去有用的装备。 不管拿没拿到装备",
+        "获得 便携式力场电池 ！ 判定失败 ： 清扫职员们的脚下散落着可以使用的装备。"
+      ],
+      "failure_outcomes": [
+        "失去 20点体力 ！"
+      ]
+    },
+    {
+      "choice_text": "看上去很强的武器",
+      "check_type": "",
+      "check_sin": "",
+      "check_threshold": 0,
+      "success_outcomes": [],
+      "failure_outcomes": []
+    },
+    {
+      "choice_text": "看上去很强的武器",
+      "check_type": "",
+      "check_sin": "",
+      "check_threshold": 0,
+      "success_outcomes": [],
+      "failure_outcomes": []
+    },
+    {
+      "choice_text": "看上去有用的装备。",
+      "check_type": "",
+      "check_sin": "",
+      "check_threshold": 0,
+      "success_outcomes": [],
+      "failure_outcomes": []
+    },
+    {
+      "choice_text": "先下手为强。",
+      "check_type": "",
+      "check_sin": "",
+      "check_threshold": 0,
+      "success_outcomes": [],
+      "failure_outcomes": []
+    },
+    {
+      "choice_text": "看上去很强的武器",
+      "check_type": "",
+      "check_sin": "",
+      "check_threshold": 0,
+      "success_outcomes": [],
+      "failure_outcomes": []
+    },
+    {
+      "choice_text": "看上去很强的武器",
+      "check_type": "",
+      "check_sin": "",
+      "check_threshold": 0,
+      "success_outcomes": [],
+      "failure_outcomes": []
+    },
+    {
+      "choice_text": "看上去有用的装备。",
+      "check_type": "",
+      "check_sin": "",
+      "check_threshold": 0,
+      "success_outcomes": [],
+      "failure_outcomes": []
+    },
+    {
+      "choice_text": "看上去很强的武器",
+      "check_type": "",
+      "check_sin": "",
+      "check_threshold": 0,
+      "success_outcomes": [],
+      "failure_outcomes": []
+    },
+    {
+      "choice_text": "看上去有用的装备。",
+      "check_type": "",
+      "check_sin": "",
+      "check_threshold": 0,
+      "success_outcomes": [],
+      "failure_outcomes": []
+    }
+  ],
+  "ego_gifts": [],
+  "related_abnormalities": [],
+  "trigger_location": "",
+  "_structured": true,
+  "id": "wiki_事件-E型次元短剑",
+  "url": "https://limbuscompany.huijiwiki.com/wiki/事件-E型次元短剑",
+  "categories": [],
+  "source": "wiki",
+  "_schema_version": 1
+}

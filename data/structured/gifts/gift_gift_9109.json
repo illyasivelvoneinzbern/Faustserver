@@ -1,0 +1,21 @@
+{
+  "id": "gift_9109",
+  "title": "安息之地",
+  "url": "https://limbuscompany.huijiwiki.com/wiki/E.G.O饰品",
+  "categories": [
+    "E.G.O饰品"
+  ],
+  "content": "增加流血强度，施加流血层数或施加特殊流血的技能拼点胜利时生效\n对目标施加（剩余硬币数/2）层流血并在下回合获得相应层数的攻击等级提升\n硬币数不高于2个的技能改为以（剩余硬币数+3）计算",
+  "source": "tabx",
+  "_structured": true,
+  "page_type": "ego_gift",
+  "gift_name": "安息之地",
+  "rarity": 3,
+  "cost": "255",
+  "effect_types": "流血",
+  "attack_type": "嫉妒",
+  "location": "镜像迷宫",
+  "stage": "base",
+  "event": "事件-玫瑰告示牌",
+  "_schema_version": 1
+}

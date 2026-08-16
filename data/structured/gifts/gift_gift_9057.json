@@ -1,0 +1,21 @@
+{
+  "id": "gift_9057",
+  "title": "夜视镜",
+  "url": "https://limbuscompany.huijiwiki.com/wiki/E.G.O饰品",
+  "categories": [
+    "E.G.O饰品"
+  ],
+  "content": "回合开始时，若有人格的充能层数不低于15层，则发动效果。（包括特殊充能）\n\n战斗开始时，该人格消耗3层充能并在本回合内增加5级攻击等级。",
+  "source": "tabx",
+  "_structured": true,
+  "page_type": "ego_gift",
+  "gift_name": "夜视镜",
+  "rarity": 2,
+  "cost": "184",
+  "effect_types": "充能",
+  "attack_type": "暴食",
+  "location": "镜像迷宫",
+  "stage": "base",
+  "event": "事件-夜视镜",
+  "_schema_version": 1
+}

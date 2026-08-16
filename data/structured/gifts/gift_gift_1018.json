@@ -1,0 +1,21 @@
+{
+  "id": "gift_1018",
+  "title": "蠢蠢欲动的缎带",
+  "url": "https://limbuscompany.huijiwiki.com/wiki/E.G.O饰品",
+  "categories": [
+    "E.G.O饰品"
+  ],
+  "content": "使用色欲技能拼点胜利后，下回合开始时对目标施加1层束缚和1层易损。",
+  "source": "tabx",
+  "_structured": true,
+  "page_type": "ego_gift",
+  "gift_name": "蠢蠢欲动的缎带",
+  "rarity": 0,
+  "cost": "0",
+  "effect_types": "",
+  "attack_type": "色欲",
+  "location": "第二章",
+  "stage": "base",
+  "event": "2-19-2-前进基地",
+  "_schema_version": 1
+}

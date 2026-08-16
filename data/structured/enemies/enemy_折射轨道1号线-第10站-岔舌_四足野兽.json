@@ -1,0 +1,138 @@
+{
+  "page_type": "enemy",
+  "title": "折射轨道1号线-第10站-岔舌",
+  "enemy_name": "四足野兽",
+  "battle_stage": "折射轨道1号线-第10站-岔舌",
+  "body_part": "",
+  "hp": 692,
+  "defense_level": 59,
+  "speed_min": 1,
+  "speed_max": 2,
+  "chaos_threshold": "173",
+  "physical_resistances": {
+    "斩击": 2.0,
+    "突刺": 0.75,
+    "打击": 1.0
+  },
+  "sin_resistances": {
+    "暴怒": 2.0,
+    "色欲": 1.0,
+    "怠惰": 0.75,
+    "暴食": 0.75,
+    "忧郁": 1.5,
+    "傲慢": 1.0,
+    "嫉妒": 1.0
+  },
+  "panic_types": [
+    "本能",
+    "狂暴"
+  ],
+  "passives": [
+    "膨胀的攻击性: 受到攻击时，使自身获得1层 本能 回合结束时，若自身 本能 不低于4层，则进入 狂暴 状态。",
+    "狂暴: 进入 狂暴 状态时，使自身获得3层 强壮 与 易损 ，采用新的技能组，但不会因受到攻击而获得 本能",
+    "荡漾的暴怒: 若体力低于50%，则每回合都进入 狂暴 状态。",
+    "折射的挣扎: 无恐慌类型数据"
+  ],
+  "skills": [
+    {
+      "skill_name": "粗暴撕挠",
+      "icon_id": "802501",
+      "sin_type": "色欲",
+      "damage_type": "斩击",
+      "base_value": 3,
+      "coin_power": 9,
+      "coin_count": 4,
+      "attack_level": 57,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[使用时] 若目标的 流血 强度不低于3级，则使本技能的硬币威力+1",
+        "[命中时] 使目标增加2级 流血 强度"
+      ]
+    },
+    {
+      "skill_name": "狂暴冲撞",
+      "icon_id": "802502",
+      "sin_type": "色欲",
+      "damage_type": "突刺",
+      "base_value": 4,
+      "coin_power": 9,
+      "coin_count": 3,
+      "attack_level": 57,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[使用时] 若目标的 流血 强度不低于3级，则使本技能的硬币威力+1",
+        "[命中时] 使目标增加4级 流血 强度"
+      ]
+    },
+    {
+      "skill_name": "野蛮撕裂",
+      "icon_id": "802503",
+      "sin_type": "色欲",
+      "damage_type": "突刺",
+      "base_value": 4,
+      "coin_power": 9,
+      "coin_count": 9,
+      "attack_level": 57,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[使用时] 若目标的 流血 强度不低于3级，则使本技能的硬币威力+1",
+        "[命中时] 使目标增加3级 流血 强度 不可摧毁的硬币",
+        "[命中时] 下回合对目标施加2层 易损"
+      ]
+    },
+    {
+      "skill_name": "暴怒追击",
+      "icon_id": "802504",
+      "sin_type": "色欲",
+      "damage_type": "斩击",
+      "base_value": 16,
+      "coin_power": 9,
+      "coin_count": 2,
+      "attack_level": 57,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[使用时] 目标每带有3级 流血 强度，使本技能的基础威力+2(最多+4)",
+        "[命中时] 对目标施加6层 流血",
+        "[命中时] 使目标增加3级 破裂 强度并对其施加3层 破裂"
+      ]
+    },
+    {
+      "skill_name": "高度警惕",
+      "icon_id": "802505",
+      "sin_type": "常规",
+      "damage_type": "守备",
+      "base_value": 6,
+      "coin_power": 79,
+      "coin_count": 1,
+      "attack_level": 0,
+      "attack_weight": 1,
+      "is_guard": true,
+      "guard_type": "闪避",
+      "importance": 0,
+      "coin_effects": [
+        "闪避成功时使自身获得1层本能"
+      ]
+    }
+  ],
+  "is_ally": false,
+  "_structured": true,
+  "appear_stages": [
+    "折射轨道1号线-第10站-岔舌"
+  ],
+  "enemy_id": "折射轨道1号线-第10站-岔舌|四足野兽|",
+  "defense": 59,
+  "speed": "1~2",
+  "_schema_version": 1
+}

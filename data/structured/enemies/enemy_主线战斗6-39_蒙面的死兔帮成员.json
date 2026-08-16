@@ -1,0 +1,110 @@
+{
+  "page_type": "enemy",
+  "title": "主线战斗6-39",
+  "enemy_name": "蒙面的死兔帮成员",
+  "battle_stage": "主线战斗6-39",
+  "body_part": "躯干",
+  "hp": 186,
+  "defense_level": 36,
+  "speed_min": 2,
+  "speed_max": 4,
+  "chaos_threshold": "",
+  "physical_resistances": {
+    "斩击": 1.0,
+    "突刺": 1.0,
+    "打击": 1.0
+  },
+  "sin_resistances": {
+    "暴怒": 1.0,
+    "色欲": 1.2,
+    "怠惰": 0.8,
+    "暴食": 0.5,
+    "忧郁": 2.0,
+    "傲慢": 1.0,
+    "嫉妒": 1.5
+  },
+  "panic_types": [
+    "分裂",
+    "攻击等级提升",
+    "分裂",
+    "攻击等级提升"
+  ],
+  "passives": [],
+  "skills": [
+    {
+      "skill_name": "让…开",
+      "icon_id": "9011901",
+      "sin_type": "暴怒",
+      "damage_type": "",
+      "base_value": 0,
+      "coin_power": 6,
+      "coin_count": 2,
+      "attack_level": 49,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "coin_effects": [
+        "[命中时] 对目标施加3层 破裂"
+      ]
+    },
+    {
+      "skill_name": "别…挡道",
+      "icon_id": "9011902",
+      "sin_type": "暴怒",
+      "damage_type": "",
+      "base_value": 0,
+      "coin_power": 3,
+      "coin_count": 3,
+      "attack_level": 49,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "coin_effects": [
+        "[命中时] 对目标施加2层 攻击等级降低 本回合内攻击等级-{0}",
+        "[命中时] 对目标施加3层 破裂",
+        "[命中时] 使目标增加6级 破裂 强度"
+      ]
+    },
+    {
+      "skill_name": "突…破",
+      "icon_id": "9011903",
+      "sin_type": "嫉妒",
+      "damage_type": "",
+      "base_value": 0,
+      "coin_power": 4,
+      "coin_count": 3,
+      "attack_level": 49,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "coin_effects": [
+        "[命中时] 对目标施加4层 破裂 下{1}次被攻击时，额外受到{0}点固定伤害。",
+        "[命中时] 使目标增加8级 流血 下{1}次掷出硬币时受到{0}点固定伤害。 强度",
+        "[命中时] 对目标施加3层 攻击等级降低 本回合内攻击等级-{0}",
+        "[命中时] 下回合对目标施加1层 麻痹 本回合内使{0}枚硬币的变动值固定为0。"
+      ]
+    },
+    {
+      "skill_name": "…击",
+      "icon_id": "9011804",
+      "sin_type": "忧郁",
+      "damage_type": "",
+      "base_value": 0,
+      "coin_power": 4,
+      "coin_count": 2,
+      "attack_level": 49,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "coin_effects": [
+        "[命中时] 使目标增加2级 流血 下{1}次掷出硬币时受到{0}点固定伤害。 强度"
+      ]
+    }
+  ],
+  "is_ally": false,
+  "_structured": true,
+  "enemy_id": "主线战斗6-39|蒙面的死兔帮成员",
+  "defense": 36,
+  "speed": "2~4",
+  "_schema_version": 1
+}

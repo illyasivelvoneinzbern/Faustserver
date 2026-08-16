@@ -1,0 +1,21 @@
+{
+  "id": "gift_2010",
+  "title": "碎片的记忆",
+  "url": "https://limbuscompany.huijiwiki.com/wiki/E.G.O饰品",
+  "categories": [
+    "E.G.O饰品"
+  ],
+  "content": "傲慢，嫉妒技能进行拼点时，拼点威力+1",
+  "source": "tabx",
+  "_structured": true,
+  "page_type": "ego_gift",
+  "gift_name": "碎片的记忆",
+  "rarity": 0,
+  "cost": "0",
+  "effect_types": "",
+  "attack_type": "傲慢",
+  "location": "第四章",
+  "stage": "base",
+  "event": "事件-尝试着交流",
+  "_schema_version": 1
+}

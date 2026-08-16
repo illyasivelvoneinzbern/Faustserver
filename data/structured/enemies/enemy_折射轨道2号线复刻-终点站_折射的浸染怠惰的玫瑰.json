@@ -1,0 +1,103 @@
+{
+  "page_type": "enemy",
+  "title": "折射轨道2号线复刻-终点站",
+  "enemy_name": "折射的浸染怠惰的玫瑰",
+  "battle_stage": "折射轨道2号线复刻-终点站",
+  "body_part": "",
+  "hp": 121,
+  "defense_level": 64,
+  "speed_min": 1,
+  "speed_max": 3,
+  "chaos_threshold": "60",
+  "physical_resistances": {
+    "斩击": 1.0,
+    "突刺": 1.0,
+    "打击": 1.0
+  },
+  "sin_resistances": {
+    "暴怒": 0.5,
+    "色欲": 0.5,
+    "怠惰": 2.0,
+    "暴食": 0.5,
+    "忧郁": 0.5,
+    "傲慢": 0.5,
+    "嫉妒": 0.5
+  },
+  "panic_types": [
+    "绽放的罪孽",
+    "强化状态",
+    "震颤"
+  ],
+  "passives": [
+    "盛放的罪孽: 绽放的罪孽 层数为4层时，本场战斗中将获得 强化状态",
+    "绽于藤蔓的玫瑰: 玫瑰告示牌本体阵亡时，自身阵亡",
+    "粉碎的怠惰: 若自身带有 强化状态 ，则令自身技能效果增加的 震颤 强度额外+1级 阵亡时若自身带有 强化状态 ，则对全体友方单位施加4层 震颤",
+    "无力: 无恐慌类型数据"
+  ],
+  "skills": [
+    {
+      "skill_name": "凝结的怠惰",
+      "icon_id": "856601",
+      "sin_type": "怠惰",
+      "damage_type": "打击",
+      "base_value": 4,
+      "coin_power": 9703,
+      "coin_count": 2,
+      "attack_level": 57,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[使用时] 每有1朵与自身罪孽属性不同的玫瑰，使本技能的基础威力+1(最多+6)",
+        "[命中时] 使目标增加8级 震颤 强度"
+      ]
+    },
+    {
+      "skill_name": "顽固的怠惰",
+      "icon_id": "856601",
+      "sin_type": "怠惰",
+      "damage_type": "打击",
+      "base_value": 6,
+      "coin_power": 9703,
+      "coin_count": 2,
+      "attack_level": 57,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[使用时] 每有1朵与自身罪孽属性不同的玫瑰，使本技能的基础威力+1(最多+6)",
+        "[命中时] 使目标增加8级 震颤 强度",
+        "[正面命中时] 使目标 震颤引爆"
+      ]
+    },
+    {
+      "skill_name": "困倦的怠惰",
+      "icon_id": "856603",
+      "sin_type": "怠惰",
+      "damage_type": "守备",
+      "base_value": 15,
+      "coin_power": 9703,
+      "coin_count": 1,
+      "attack_level": 0,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "若自身带有护盾时受到攻击，则使自身与目标震颤引爆",
+        "使用时每有1朵与自身罪孽属性不同的玫瑰，使本技能的基础威力+1(最多+6)"
+      ]
+    }
+  ],
+  "is_ally": false,
+  "_structured": true,
+  "appear_stages": [
+    "折射轨道2号线复刻-终点站"
+  ],
+  "enemy_id": "折射轨道2号线复刻-终点站|折射的浸染怠惰的玫瑰|",
+  "defense": 64,
+  "speed": "1~3",
+  "_schema_version": 1
+}

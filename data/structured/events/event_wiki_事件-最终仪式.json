@@ -1,0 +1,45 @@
+{
+  "page_type": "event",
+  "title": "事件-最终仪式",
+  "event_name": "最终仪式",
+  "narration": "形体扭曲的N公司审判官镇守在大门前。\n尽管我们试图攻击，但他们似乎没有任何敌意。\n“唯有。特殊……之人。才可。进入此处。”\n“意图……通过。你们。需要。证明自己身怀。资格。”\n我并不是很清楚“证明自己”意味着什么。\n应该怎么做？\n\n展示通过仪式的信物\n（持有全部的E.G.O饰品：[纯粹之证]，[泪水之证]，[赎罪之证]\n[1]\n）\n我想起了一路上收集而来的物品。\n如果我们为获得它们而做的事情就是“测试”，那么这些物品一定代表着“资格”的证明。\n“……你可以，通过。”\n审判官打开了大门，他的说话声如同嚎叫。\n“拿着这个，继续前进。”\n拿着给我们的东西，我们跨过门槛。\n获得E.G.O饰品\n记号\n！\n获得E.G.O饰品\n仪式资格\n！\n\n说服\n除了对话以外，实在想不到什么特别的办法了。\n【最擅长话术的罪人是谁？】\n良秀\n判定值+4\n有利判定\n：\n≥12\n不利判定\n：\n≥16\n判定成功\n：\n罪人X向审判官走去。\n“……你，说话。有、道理。”\n稍微谈了一会后，审判官同意为我们开门。\n所选人格恢复\n20点理智值\n判定失败\n：\n罪人X向审判官走去。\n“……”\n审判官没有回应。\n“……不允许。”\n他只是偶尔回复表示拒绝。\n最后，罪人X无功而返。\n……只能强行突破了吗。\n所选人格失去\n10点理智值\n遭遇\n困难战斗\n！\n\n武力解决\n看起来动用武力才是最直截了当的解决方案。\n“……异，端。”\n下颚开合所传出来的话语一定是纯粹的敌意。\n“请让我来协助您……经理。”\n辛克莱紧握武器，决心在他的眼中悄然燃烧。\n辛克莱\n恢复\n10点理智值\n获得E.G.O饰品\n记号\n！\n遭遇\n困难战斗-最终仪式\n！",
+  "options": [
+    {
+      "choice_text": "展示通过仪式的信物",
+      "check_type": "",
+      "check_sin": "",
+      "check_threshold": 0,
+      "success_outcomes": [],
+      "failure_outcomes": []
+    },
+    {
+      "choice_text": "说服",
+      "check_type": "有利判定",
+      "check_sin": "色欲",
+      "check_threshold": 12,
+      "success_outcomes": [
+        "失去 10点理智值 遭遇 困难战斗 ！"
+      ],
+      "failure_outcomes": [
+        "失去 10点理智值 遭遇 困难战斗 ！"
+      ]
+    },
+    {
+      "choice_text": "武力解决",
+      "check_type": "",
+      "check_sin": "",
+      "check_threshold": 0,
+      "success_outcomes": [],
+      "failure_outcomes": []
+    }
+  ],
+  "ego_gifts": [],
+  "related_abnormalities": [],
+  "trigger_location": "",
+  "_structured": true,
+  "id": "wiki_事件-最终仪式",
+  "url": "https://limbuscompany.huijiwiki.com/wiki/事件-最终仪式",
+  "categories": [],
+  "source": "wiki",
+  "_schema_version": 1
+}

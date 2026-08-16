@@ -1,0 +1,22 @@
+{
+  "id": "gift_9727",
+  "title": "预支时间收据",
+  "url": "https://limbuscompany.huijiwiki.com/wiki/E.G.O饰品",
+  "categories": [
+    "E.G.O饰品"
+  ],
+  "content": "对速度值高于自身2点及以上的敌方单位造成的伤害+(5+速度差×2.5)%(最多+15%)\n回合结束时，若本回合通过攻击技能(不包括E.G.O技能)对速度值高于自身2点及以上的敌方单位造成了伤害，则下回合对该敌方单位施加2层束缚与1层威力降低(每回合最多1次)",
+  "source": "tabx",
+  "_structured": true,
+  "page_type": "ego_gift",
+  "gift_name": "预支时间收据",
+  "rarity": 3,
+  "cost": "250",
+  "effect_types": "泛用",
+  "attack_type": "暴怒",
+  "location": "镜像迷宫",
+  "stage": "base",
+  "special": "时间杀人时间",
+  "event": "事件-时间杀人现场",
+  "_schema_version": 1
+}

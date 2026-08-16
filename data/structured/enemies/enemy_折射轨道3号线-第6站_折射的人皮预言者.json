@@ -1,0 +1,179 @@
+{
+  "page_type": "enemy",
+  "title": "折射轨道3号线-第6站",
+  "enemy_name": "折射的人皮预言者",
+  "battle_stage": "折射轨道3号线-第6站",
+  "body_part": "躯干",
+  "hp": 1596,
+  "defense_level": 49,
+  "speed_min": 2,
+  "speed_max": 4,
+  "chaos_threshold": "798/0",
+  "physical_resistances": {
+    "斩击": 1.5,
+    "突刺": 0.5,
+    "打击": 1.0
+  },
+  "sin_resistances": {
+    "暴怒": 0.75,
+    "色欲": 0.5,
+    "怠惰": 1.0,
+    "暴食": 1.5,
+    "忧郁": 2.0,
+    "傲慢": 1.25,
+    "嫉妒": 1.0
+  },
+  "panic_types": [],
+  "passives": [],
+  "skills": [
+    {
+      "skill_name": "裂开吧",
+      "icon_id": "810001",
+      "sin_type": "色欲",
+      "damage_type": "打击",
+      "base_value": 4,
+      "coin_power": 3,
+      "coin_count": 2,
+      "attack_level": 2,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "1命中时根据点燃的蜡烛数，对目标造成相应的理智伤害",
+        "2命中时根据点燃的蜡烛数，对目标造成相应的理智伤害"
+      ]
+    },
+    {
+      "skill_name": "渴求着…",
+      "icon_id": "810002",
+      "sin_type": "暴怒",
+      "damage_type": "打击",
+      "base_value": 5,
+      "coin_power": 3,
+      "coin_count": 2,
+      "attack_level": 2,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "1命中时下回合对目标施加1层暴怒易损",
+        "若目标带有烧伤，则使其增加4级烧伤强度",
+        "2命中时下回合对目标施加1层暴怒易损",
+        "若目标带有烧伤，则使其增加4级烧伤强度"
+      ]
+    },
+    {
+      "skill_name": "9章2节",
+      "icon_id": "810003",
+      "sin_type": "暴怒",
+      "damage_type": "打击",
+      "base_value": 20,
+      "coin_power": 4,
+      "coin_count": 2,
+      "attack_level": 2,
+      "attack_weight": 7,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "下回合熄灭所有蜡烛",
+        "攻击命中带有标识的目标时，使其体力上限额外减少5%",
+        "拼点失败使目标增加10级烧伤强度，下回合对其施加标识",
+        "回合结束时使所有蜡烛恢复全部体力",
+        "1命中时使目标的体力上限减少10%",
+        "命中时使目标增加5级烧伤强度并对其施加2层烧伤",
+        "2命中时使目标的体力上限减少10%",
+        "命中时使目标增加5级烧伤强度并对其施加2层烧伤"
+      ]
+    },
+    {
+      "skill_name": "6章5节",
+      "icon_id": "810004",
+      "sin_type": "暴怒",
+      "damage_type": "穿刺",
+      "base_value": 20,
+      "coin_power": 4,
+      "coin_count": 2,
+      "attack_level": 2,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "无法拼点",
+        "无法改变拼点目标",
+        "代替目标承受伤害，下回合使自身陷入混乱",
+        "随机对未带有标识的1名敌方单位施加标识",
+        "1命中时使自身的体力上限减少5%",
+        "命中时使自身增加10级烧伤强度",
+        "2命中时使自身的体力上限减少5%",
+        "命中时使自身增加10级烧伤强度"
+      ]
+    },
+    {
+      "skill_name": "揭示一切",
+      "icon_id": "810005",
+      "sin_type": "色欲",
+      "damage_type": "穿刺",
+      "base_value": 3,
+      "coin_power": 3,
+      "coin_count": 1,
+      "attack_level": 2,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "无法拼点",
+        "1命中时对目标施加1层暴怒易损"
+      ]
+    },
+    {
+      "skill_name": "燃烧一切",
+      "icon_id": "810006",
+      "sin_type": "色欲",
+      "damage_type": "穿刺",
+      "base_value": 3,
+      "coin_power": 3,
+      "coin_count": 1,
+      "attack_level": 2,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "无法拼点",
+        "1命中时若目标带有烧伤，则使其增加3级烧伤强度"
+      ]
+    },
+    {
+      "skill_name": "不可轻视预言",
+      "icon_id": "810007",
+      "sin_type": "暴怒",
+      "damage_type": "穿刺",
+      "base_value": 5,
+      "coin_power": 5,
+      "coin_count": 1,
+      "attack_level": 2,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "1命中时使目标增加5级烧伤强度并对其施加2层烧伤",
+        "命中时使自身恢复20点体力"
+      ]
+    }
+  ],
+  "is_ally": false,
+  "_structured": true,
+  "appear_stages": [
+    "折射轨道3号线-第6站"
+  ],
+  "enemy_id": "折射轨道3号线-第6站|折射的人皮预言者|躯干",
+  "defense": 49,
+  "speed": "2~4",
+  "_schema_version": 1
+}

@@ -1,0 +1,20 @@
+{
+  "id": "gift_9186",
+  "title": "新品小册",
+  "url": "https://limbuscompany.huijiwiki.com/wiki/E.G.O饰品",
+  "categories": [
+    "E.G.O饰品"
+  ],
+  "content": "在商店进行刷新时，有20%概率返还消耗的经费。",
+  "source": "tabx",
+  "_structured": true,
+  "page_type": "ego_gift",
+  "gift_name": "新品小册",
+  "rarity": 2,
+  "cost": "200",
+  "effect_types": "泛用",
+  "attack_type": "色欲",
+  "location": "镜像迷宫",
+  "stage": "base",
+  "_schema_version": 1
+}

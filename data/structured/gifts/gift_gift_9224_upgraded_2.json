@@ -1,0 +1,21 @@
+{
+  "id": "gift_9224_upgraded_2",
+  "title": "杰作",
+  "url": "https://limbuscompany.huijiwiki.com/wiki/E.G.O饰品",
+  "categories": [
+    "E.G.O饰品"
+  ],
+  "content": "加算硬币攻击技能命中流血强度不低于15级的敌方单位时，使自身恢复3点理智值(每回合每名人格最多1次)\n- 若自身或该敌方单位带有的负面状态不少于3种，则改为恢复6点理智值",
+  "source": "tabx",
+  "_structured": true,
+  "page_type": "ego_gift",
+  "gift_name": "杰作",
+  "rarity": 4,
+  "cost": "404",
+  "effect_types": "流血",
+  "attack_type": "色欲",
+  "location": "镜像迷宫",
+  "stage": "upgraded_2",
+  "special": "刀与作品合成",
+  "_schema_version": 1
+}

@@ -1,0 +1,467 @@
+{
+  "page_type": "personality",
+  "title": "鸿璐K公司3级摘除人员",
+  "sinner": "鸿璐",
+  "sinner_id": "honglu",
+  "personality_name": "鸿璐K公司3级摘除人员",
+  "release_date": "2023.06.29",
+  "acquisition": "第2赛季提取",
+  "sin_affinities": {
+    "傲慢": 3,
+    "暴食": 2,
+    "怠惰": 1
+  },
+  "physical_resistances": {
+    "斩击": 2.0,
+    "突刺": 0.5,
+    "打击": 1.0
+  },
+  "ego_resources": {
+    "傲慢": 3,
+    "暴食": 2,
+    "怠惰": 1
+  },
+  "skills": [
+    {
+      "skill_index": 0,
+      "skill_name": "阻截入侵者",
+      "sin_type": "傲慢",
+      "damage_type": "斩击",
+      "guard_type": "",
+      "attack_capacity": 1,
+      "coin_count": 1,
+      "stage_groups": [
+        [
+          {
+            "stage": "I",
+            "base_value": 4,
+            "coin_power": 6,
+            "effects": [],
+            "raw_text": "基础值： 4 变动值： +6 若目标的 破裂 强度不低于5级，使本技能的硬币威力+1"
+          },
+          {
+            "stage": "II",
+            "base_value": 4,
+            "coin_power": 6,
+            "effects": [],
+            "raw_text": "基础值： 4 变动值： +6 若目标的 破裂 强度不低于5级，使本技能的硬币威力+2"
+          },
+          {
+            "stage": "III",
+            "base_value": 5,
+            "coin_power": 6,
+            "effects": [],
+            "raw_text": "基础值： 5 变动值： +6 若目标的 破裂 强度不低于5级，使本技能的硬币威力+2"
+          },
+          {
+            "stage": "IV",
+            "base_value": 5,
+            "coin_power": 6,
+            "effects": [
+              {
+                "timing": "使用时",
+                "description": "下回合使本技能对应行动槽的 挑衅值 +5"
+              }
+            ],
+            "raw_text": "基础值： 5 变动值： +6 若目标的 破裂 强度不低于5级，使本技能的硬币威力+3 [使用时] 下回合使本技能对应行动槽的 挑衅值 +5"
+          }
+        ]
+      ],
+      "coin_effects": [
+        {
+          "coin_index": 0,
+          "description": "技能一"
+        },
+        {
+          "coin_index": 0,
+          "description": "阻截入侵者 3"
+        },
+        {
+          "coin_index": 0,
+          "timing": "",
+          "description": "1"
+        },
+        {
+          "coin_index": 0,
+          "description": "+0"
+        },
+        {
+          "coin_index": 0,
+          "description": "1"
+        },
+        {
+          "coin_index": 0,
+          "description": "I阶 II阶 III阶 IV阶 基础值： 4 变动值： +6 若目标的 破裂 强度不低于5级，使本技能的硬币威力+1 基础值： 4 变动值： +6 若目标的 破裂 强度不低于5级，使本技能的硬币威力+2 基础值： 5 变动值： +6 若目标的 破裂 强度不低于5级，使本技能的硬币威力+2 基础值： 5 变动值： +6 若目标的 破裂 强度不低于5级，使本技能的硬币威力+3 [使用时] 下回合使本技能对应行动槽的 挑衅值 +5"
+        }
+      ],
+      "wikitext_key": "1技能"
+    },
+    {
+      "skill_index": 1,
+      "skill_name": "崩解刀刃",
+      "sin_type": "暴食",
+      "damage_type": "打击",
+      "guard_type": "",
+      "attack_capacity": 1,
+      "coin_count": 3,
+      "stage_groups": [
+        [
+          {
+            "stage": "I",
+            "base_value": 4,
+            "coin_power": 5,
+            "effects": [
+              {
+                "timing": "命中时",
+                "description": "使目标增加2级 破裂 强度 若目标的 破裂 强度不低于10级，则使自身恢复本硬币伤害量20%的 体力"
+              },
+              {
+                "timing": "命中时",
+                "description": "使目标增加2级 破裂 强度 若目标的 破裂 强度不低于10级，则使自身恢复本硬币伤害量20%的 体力"
+              }
+            ],
+            "raw_text": "基础值： 4 变动值： +5 [命中时] 使目标增加2级 破裂 强度 若目标的 破裂 强度不低于10级，则使自身恢复本硬币伤害量20%的 体力 [命中时] 使目标增加2级 破裂 强度 若目标的 破裂 强度不低于10级，则使自身恢复本硬币伤害量20%的 体力"
+          },
+          {
+            "stage": "II",
+            "base_value": 4,
+            "coin_power": 5,
+            "effects": [
+              {
+                "timing": "命中时",
+                "description": "使目标增加2级 破裂 强度 若目标的 破裂 强度不低于10级，则使自身恢复本硬币伤害量50%的 体力"
+              },
+              {
+                "timing": "命中时",
+                "description": "使目标增加2级 破裂 强度 若目标的 破裂 强度不低于10级，则使自身恢复本硬币伤害量50%的 体力"
+              }
+            ],
+            "raw_text": "基础值： 4 变动值： +5 [命中时] 使目标增加2级 破裂 强度 若目标的 破裂 强度不低于10级，则使自身恢复本硬币伤害量50%的 体力 [命中时] 使目标增加2级 破裂 强度 若目标的 破裂 强度不低于10级，则使自身恢复本硬币伤害量50%的 体力"
+          },
+          {
+            "stage": "III",
+            "base_value": 5,
+            "coin_power": 5,
+            "effects": [
+              {
+                "timing": "命中时",
+                "description": "使目标增加2级 破裂 强度 若目标的 破裂 强度不低于10级，则使自身恢复本硬币伤害量50%的 体力"
+              },
+              {
+                "timing": "命中时",
+                "description": "使目标增加2级 破裂 强度 若目标的 破裂 强度不低于10级，则使自身恢复本硬币伤害量50%的 体力"
+              }
+            ],
+            "raw_text": "基础值： 5 变动值： +5 [命中时] 使目标增加2级 破裂 强度 若目标的 破裂 强度不低于10级，则使自身恢复本硬币伤害量50%的 体力 [命中时] 使目标增加2级 破裂 强度 若目标的 破裂 强度不低于10级，则使自身恢复本硬币伤害量50%的 体力"
+          },
+          {
+            "stage": "IV",
+            "base_value": 6,
+            "coin_power": 5,
+            "effects": [
+              {
+                "timing": "使用时",
+                "description": "下回合使本技能对应行动槽的 挑衅值 +5"
+              },
+              {
+                "timing": "命中时",
+                "description": "使目标增加2级 破裂 强度 若目标的 破裂 强度不低于10级，则使自身恢复本硬币伤害量50%的 体力"
+              },
+              {
+                "timing": "命中时",
+                "description": "使目标增加2级 破裂 强度 若目标的 破裂 强度不低于10级，则使自身恢复本硬币伤害量50%的 体力"
+              }
+            ],
+            "raw_text": "基础值： 6 变动值： +5 [使用时] 下回合使本技能对应行动槽的 挑衅值 +5 [命中时] 使目标增加2级 破裂 强度 若目标的 破裂 强度不低于10级，则使自身恢复本硬币伤害量50%的 体力 [命中时] 使目标增加2级 破裂 强度 若目标的 破裂 强度不低于10级，则使自身恢复本硬币伤害量50%的 体力"
+          }
+        ]
+      ],
+      "coin_effects": [
+        {
+          "coin_index": 0,
+          "description": "技能二"
+        },
+        {
+          "coin_index": 0,
+          "description": "崩解刀刃 2"
+        },
+        {
+          "coin_index": 0,
+          "timing": "",
+          "description": "2"
+        },
+        {
+          "coin_index": 0,
+          "description": "+0"
+        },
+        {
+          "coin_index": 0,
+          "description": "1"
+        },
+        {
+          "coin_index": 0,
+          "description": "基础值： 4 变动值： +5"
+        },
+        {
+          "coin_index": 1,
+          "timing": "命中时",
+          "description": "[命中时] 使目标增加2级 破裂 强度 若目标的 破裂 强度不低于10级，则使自身恢复本硬币伤害量20%的 体力"
+        },
+        {
+          "coin_index": 2,
+          "timing": "命中时",
+          "description": "[命中时] 使目标增加2级 破裂 强度 若目标的 破裂 强度不低于10级，则使自身恢复本硬币伤害量20%的 体力"
+        },
+        {
+          "coin_index": 1,
+          "timing": "命中时",
+          "description": "[命中时] 使目标增加2级 破裂 强度 若目标的 破裂 强度不低于10级，则使自身恢复本硬币伤害量50%的 体力"
+        },
+        {
+          "coin_index": 2,
+          "timing": "命中时",
+          "description": "[命中时] 使目标增加2级 破裂 强度 若目标的 破裂 强度不低于10级，则使自身恢复本硬币伤害量50%的 体力"
+        },
+        {
+          "coin_index": 1,
+          "timing": "命中时",
+          "description": "[命中时] 使目标增加2级 破裂 强度 若目标的 破裂 强度不低于10级，则使自身恢复本硬币伤害量50%的 体力"
+        },
+        {
+          "coin_index": 2,
+          "timing": "命中时",
+          "description": "[命中时] 使目标增加2级 破裂 强度 若目标的 破裂 强度不低于10级，则使自身恢复本硬币伤害量50%的 体力"
+        },
+        {
+          "coin_index": 1,
+          "timing": "命中时",
+          "description": "[命中时] 使目标增加2级 破裂 强度 若目标的 破裂 强度不低于10级，则使自身恢复本硬币伤害量50%的 体力"
+        },
+        {
+          "coin_index": 2,
+          "timing": "命中时",
+          "description": "[命中时] 使目标增加2级 破裂 强度 若目标的 破裂 强度不低于10级，则使自身恢复本硬币伤害量50%的 体力"
+        }
+      ],
+      "wikitext_key": "2技能"
+    },
+    {
+      "skill_index": 2,
+      "skill_name": "摘除目标",
+      "sin_type": "怠惰",
+      "damage_type": "斩击",
+      "guard_type": "",
+      "attack_capacity": 1,
+      "coin_count": 3,
+      "stage_groups": [
+        [
+          {
+            "stage": "I",
+            "base_value": 8,
+            "coin_power": 4,
+            "effects": [
+              {
+                "timing": "命中时",
+                "description": "使目标增加4级 破裂 强度"
+              },
+              {
+                "timing": "命中时",
+                "description": "根据自身带有的 K公司的安瓿 层数，对目标施加相应层数的 破裂 。本硬币造成的伤害增加( K公司的安瓿 ×5%)"
+              }
+            ],
+            "raw_text": "基础值： 8 变动值： +4 若现存 体力 不低于80%时，则使本技能的硬币威力+1 [命中时] 使目标增加4级 破裂 强度 [命中时] 根据自身带有的 K公司的安瓿 层数，对目标施加相应层数的 破裂 。本硬币造成的伤害增加( K公司的安瓿 ×5%)"
+          },
+          {
+            "stage": "II",
+            "base_value": 8,
+            "coin_power": 4,
+            "effects": [
+              {
+                "timing": "命中时",
+                "description": "使目标增加4级 破裂 强度"
+              },
+              {
+                "timing": "命中时",
+                "description": "根据自身带有的 K公司的安瓿 层数，对目标施加相应层数的 破裂 。本硬币造成的伤害增加( K公司的安瓿 ×5%)"
+              }
+            ],
+            "raw_text": "基础值： 8 变动值： +4 若现存 体力 不低于80%时，则使本技能的硬币威力+2 [命中时] 使目标增加4级 破裂 强度 [命中时] 根据自身带有的 K公司的安瓿 层数，对目标施加相应层数的 破裂 。本硬币造成的伤害增加( K公司的安瓿 ×5%)"
+          }
+        ]
+      ],
+      "coin_effects": [
+        {
+          "coin_index": 0,
+          "description": "技能三"
+        },
+        {
+          "coin_index": 0,
+          "description": "摘除目标 1"
+        },
+        {
+          "coin_index": 0,
+          "timing": "",
+          "description": "2"
+        },
+        {
+          "coin_index": 0,
+          "description": "+0"
+        },
+        {
+          "coin_index": 0,
+          "description": "1"
+        },
+        {
+          "coin_index": 0,
+          "description": "基础值： 8 变动值： +4 若现存 体力 不低于80%时，则使本技能的硬币威力+1"
+        },
+        {
+          "coin_index": 1,
+          "timing": "命中时",
+          "description": "[命中时] 使目标增加4级 破裂 强度"
+        },
+        {
+          "coin_index": 2,
+          "timing": "命中时",
+          "description": "[命中时] 根据自身带有的 K公司的安瓿 层数，对目标施加相应层数的 破裂 。本硬币造成的伤害增加( K公司的安瓿 ×5%)"
+        },
+        {
+          "coin_index": 1,
+          "timing": "命中时",
+          "description": "[命中时] 使目标增加4级 破裂 强度"
+        },
+        {
+          "coin_index": 2,
+          "timing": "命中时",
+          "description": "[命中时] 根据自身带有的 K公司的安瓿 层数，对目标施加相应层数的 破裂 。本硬币造成的伤害增加( K公司的安瓿 ×5%)"
+        }
+      ],
+      "wikitext_key": "3技能"
+    },
+    {
+      "skill_index": 3,
+      "skill_name": "注射安瓿",
+      "sin_type": "",
+      "damage_type": "",
+      "guard_type": "",
+      "attack_capacity": 1,
+      "coin_count": 1,
+      "stage_groups": [
+        [
+          {
+            "stage": "I",
+            "base_value": 12,
+            "coin_power": 5,
+            "effects": [
+              {
+                "timing": "使用时",
+                "description": "下回合使自身获得1层 K公司的安瓿"
+              }
+            ],
+            "raw_text": "基础值： 12 变动值： +5 [使用时] 下回合使自身获得1层 K公司的安瓿"
+          },
+          {
+            "stage": "II",
+            "base_value": 15,
+            "coin_power": 5,
+            "effects": [
+              {
+                "timing": "使用时",
+                "description": "下回合使自身获得1层 K公司的安瓿"
+              },
+              {
+                "timing": "使用时",
+                "description": "下回合使本技能对应行动槽的 挑衅值 +5"
+              }
+            ],
+            "raw_text": "基础值： 15 变动值： +5 [使用时] 下回合使自身获得1层 K公司的安瓿 [使用时] 下回合使本技能对应行动槽的 挑衅值 +5"
+          }
+        ]
+      ],
+      "coin_effects": [
+        {
+          "coin_index": 0,
+          "description": "守备技能"
+        },
+        {
+          "coin_index": 0,
+          "description": "注射安瓿"
+        },
+        {
+          "coin_index": 0,
+          "timing": "",
+          "description": "1"
+        },
+        {
+          "coin_index": 0,
+          "description": "+5"
+        },
+        {
+          "coin_index": 0,
+          "description": "1"
+        },
+        {
+          "coin_index": 0,
+          "description": "I阶 - III阶 IV阶 追加属性： 基础值： 12 变动值： +5 [使用时] 下回合使自身获得1层 K公司的安瓿 基础值： 15 变动值： +5 [使用时] 下回合使自身获得1层 K公司的安瓿 [使用时] 下回合使本技能对应行动槽的 挑衅值 +5"
+        }
+      ],
+      "wikitext_key": "4技能"
+    }
+  ],
+  "battle_passive": "人格被动1060501\n人格被动1060521",
+  "support_passive": "",
+  "notes": "",
+  "voice_lines": [],
+  "skill_voice": [
+    {
+      "file": "Battle_s2_10605_1_1.ogg",
+      "skill_index": 2,
+      "skill_label": "",
+      "skill_name": "崩解刀刃"
+    },
+    {
+      "file": "Battle_s2_10605_1_2.ogg",
+      "skill_index": 2,
+      "skill_label": "",
+      "skill_name": "崩解刀刃"
+    },
+    {
+      "file": "Battle_s3_10605_1_1.ogg",
+      "skill_index": 3,
+      "skill_label": "",
+      "skill_name": "摘除目标"
+    },
+    {
+      "file": "Battle_s3_10605_1_1-02.ogg",
+      "skill_index": 3,
+      "skill_label": "",
+      "skill_name": "摘除目标"
+    },
+    {
+      "file": "Battle_s3_10605_1_2.ogg",
+      "skill_index": 3,
+      "skill_label": "",
+      "skill_name": "摘除目标"
+    },
+    {
+      "file": "Battle_s3_10605_1_2-01.ogg",
+      "skill_index": 3,
+      "skill_label": "",
+      "skill_name": "摘除目标"
+    },
+    {
+      "file": "Battle_s3_10605_1_2-02.ogg",
+      "skill_index": 3,
+      "skill_label": "",
+      "skill_name": "摘除目标"
+    }
+  ],
+  "_structured": true,
+  "id": "wiki_鸿璐K公司3级摘除人员",
+  "url": "https://limbuscompany.huijiwiki.com/wiki/鸿璐K公司3级摘除人员",
+  "categories": [
+    "人格"
+  ],
+  "source": "wiki",
+  "_schema_version": 1
+}

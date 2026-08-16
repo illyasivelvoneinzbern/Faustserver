@@ -1,0 +1,505 @@
+{
+  "page_type": "personality",
+  "title": "以实玛利LCB罪人",
+  "sinner": "以实玛利",
+  "sinner_id": "ishmael",
+  "personality_name": "以实玛利LCB罪人",
+  "release_date": "2023.02.27",
+  "acquisition": "主线及常驻提取",
+  "sin_affinities": {
+    "暴怒": 3,
+    "暴食": 2,
+    "忧郁": 1
+  },
+  "physical_resistances": {
+    "斩击": 2.0,
+    "突刺": 1.0,
+    "打击": 0.5
+  },
+  "ego_resources": {
+    "暴怒": 3,
+    "暴食": 2,
+    "忧郁": 1
+  },
+  "skills": [
+    {
+      "skill_index": 0,
+      "skill_name": "猛击",
+      "sin_type": "暴怒",
+      "damage_type": "打击",
+      "guard_type": "",
+      "attack_capacity": 1,
+      "coin_count": 2,
+      "stage_groups": [
+        [
+          {
+            "stage": "I",
+            "base_value": 2,
+            "coin_power": 7,
+            "effects": [
+              {
+                "timing": "正面命中时",
+                "description": "对目标施加1层 震颤"
+              }
+            ],
+            "raw_text": "基础值： 2 变动值： +7 [正面命中时] 对目标施加1层 震颤"
+          },
+          {
+            "stage": "II",
+            "base_value": 2,
+            "coin_power": 7,
+            "effects": [
+              {
+                "timing": "命中时",
+                "description": "对目标施加1层 震颤"
+              }
+            ],
+            "raw_text": "基础值： 2 变动值： +7 [命中时] 对目标施加1层 震颤"
+          },
+          {
+            "stage": "III",
+            "base_value": 3,
+            "coin_power": 7,
+            "effects": [
+              {
+                "timing": "命中时",
+                "description": "对目标施加1层 震颤"
+              }
+            ],
+            "raw_text": "基础值： 3 变动值： +7 [命中时] 对目标施加1层 震颤"
+          },
+          {
+            "stage": "IV",
+            "base_value": 4,
+            "coin_power": 7,
+            "effects": [
+              {
+                "timing": "命中时",
+                "description": "对目标施加1层 震颤"
+              }
+            ],
+            "raw_text": "基础值： 4 变动值： +7 [命中时] 对目标施加1层 震颤"
+          }
+        ]
+      ],
+      "coin_effects": [
+        {
+          "coin_index": 0,
+          "description": "技能一"
+        },
+        {
+          "coin_index": 0,
+          "description": "猛击 3"
+        },
+        {
+          "coin_index": 0,
+          "timing": "",
+          "description": "1"
+        },
+        {
+          "coin_index": 0,
+          "description": "-1"
+        },
+        {
+          "coin_index": 0,
+          "description": "1"
+        },
+        {
+          "coin_index": 0,
+          "description": "基础值： 2 变动值： +7"
+        },
+        {
+          "coin_index": 1,
+          "timing": "正面命中时",
+          "description": "[正面命中时] 对目标施加1层 震颤"
+        },
+        {
+          "coin_index": 1,
+          "timing": "命中时",
+          "description": "[命中时] 对目标施加1层 震颤"
+        },
+        {
+          "coin_index": 1,
+          "timing": "命中时",
+          "description": "[命中时] 对目标施加1层 震颤"
+        },
+        {
+          "coin_index": 1,
+          "timing": "命中时",
+          "description": "[命中时] 对目标施加1层 震颤"
+        }
+      ],
+      "wikitext_key": "1技能"
+    },
+    {
+      "skill_index": 1,
+      "skill_name": "滑铲",
+      "sin_type": "暴食",
+      "damage_type": "打击",
+      "guard_type": "",
+      "attack_capacity": 1,
+      "coin_count": 2,
+      "stage_groups": [
+        [
+          {
+            "stage": "I",
+            "base_value": 4,
+            "coin_power": 8,
+            "effects": [
+              {
+                "timing": "拼点胜利",
+                "description": "对目标施加1层 破绽"
+              }
+            ],
+            "raw_text": "基础值： 4 变动值： +8 [拼点胜利] 对目标施加1层 破绽"
+          },
+          {
+            "stage": "II",
+            "base_value": 4,
+            "coin_power": 8,
+            "effects": [
+              {
+                "timing": "拼点胜利",
+                "description": "对目标施加3层 破绽"
+              }
+            ],
+            "raw_text": "基础值： 4 变动值： +8 [拼点胜利] 对目标施加3层 破绽"
+          },
+          {
+            "stage": "III",
+            "base_value": 5,
+            "coin_power": 8,
+            "effects": [
+              {
+                "timing": "拼点胜利",
+                "description": "对目标施加3层 破绽"
+              }
+            ],
+            "raw_text": "基础值： 5 变动值： +8 [拼点胜利] 对目标施加3层 破绽"
+          },
+          {
+            "stage": "IV",
+            "base_value": 6,
+            "coin_power": 9,
+            "effects": [
+              {
+                "timing": "拼点胜利",
+                "description": "对目标施加3层 破绽"
+              },
+              {
+                "timing": "命中时",
+                "description": "对目标施加3级 震颤 强度"
+              }
+            ],
+            "raw_text": "基础值： 6 变动值： +9 [拼点胜利] 对目标施加3层 破绽 [命中时] 对目标施加3级 震颤 强度"
+          }
+        ]
+      ],
+      "coin_effects": [
+        {
+          "coin_index": 0,
+          "description": "技能二"
+        },
+        {
+          "coin_index": 0,
+          "description": "滑铲 2"
+        },
+        {
+          "coin_index": 0,
+          "timing": "",
+          "description": "1"
+        },
+        {
+          "coin_index": 0,
+          "description": "-1"
+        },
+        {
+          "coin_index": 0,
+          "description": "1"
+        },
+        {
+          "coin_index": 0,
+          "description": "基础值： 6 变动值： +9 [拼点胜利] 对目标施加3层 破绽"
+        },
+        {
+          "coin_index": 1,
+          "timing": "命中时",
+          "description": "[命中时] 对目标施加3级 震颤 强度"
+        }
+      ],
+      "wikitext_key": "2技能"
+    },
+    {
+      "skill_index": 2,
+      "skill_name": "抵御",
+      "sin_type": "忧郁",
+      "damage_type": "打击",
+      "guard_type": "",
+      "attack_capacity": 1,
+      "coin_count": 2,
+      "stage_groups": [
+        [
+          {
+            "stage": "I",
+            "base_value": 7,
+            "coin_power": 12,
+            "effects": [
+              {
+                "timing": "命中时",
+                "description": "使目标 震颤引爆 ；对目标施加1层 打击易损"
+              }
+            ],
+            "raw_text": "基础值： 7 变动值： +12 [命中时] 使目标 震颤引爆 ；对目标施加1层 打击易损"
+          },
+          {
+            "stage": "II",
+            "base_value": 8,
+            "coin_power": 12,
+            "effects": [
+              {
+                "timing": "命中时",
+                "description": "使目标 震颤引爆 ；对目标施加1层 打击易损"
+              }
+            ],
+            "raw_text": "基础值： 8 变动值： +12 [命中时] 使目标 震颤引爆 ；对目标施加1层 打击易损"
+          }
+        ]
+      ],
+      "coin_effects": [
+        {
+          "coin_index": 0,
+          "description": "技能三"
+        },
+        {
+          "coin_index": 0,
+          "description": "抵御 1"
+        },
+        {
+          "coin_index": 0,
+          "timing": "",
+          "description": "1"
+        },
+        {
+          "coin_index": 0,
+          "description": "-1"
+        },
+        {
+          "coin_index": 0,
+          "description": "1"
+        },
+        {
+          "coin_index": 0,
+          "description": "基础值： 7 变动值： +12"
+        },
+        {
+          "coin_index": 1,
+          "timing": "命中时",
+          "description": "[命中时] 使目标 震颤引爆 ；对目标施加1层 打击易损"
+        },
+        {
+          "coin_index": 1,
+          "timing": "命中时",
+          "description": "[命中时] 使目标 震颤引爆 ；对目标施加1层 打击易损"
+        }
+      ],
+      "wikitext_key": "3技能"
+    },
+    {
+      "skill_index": 3,
+      "skill_name": "防御",
+      "sin_type": "",
+      "damage_type": "",
+      "guard_type": "防御",
+      "attack_capacity": 1,
+      "coin_count": 1,
+      "stage_groups": [
+        [
+          {
+            "stage": "I",
+            "base_value": 7,
+            "coin_power": 3,
+            "effects": [],
+            "raw_text": "基础值： 7 变动值： +3"
+          },
+          {
+            "stage": "II",
+            "base_value": 7,
+            "coin_power": 3,
+            "effects": [],
+            "raw_text": "基础值： 7 变动值： +3"
+          }
+        ]
+      ],
+      "coin_effects": [
+        {
+          "coin_index": 0,
+          "description": "守备技能"
+        },
+        {
+          "coin_index": 0,
+          "description": "防御"
+        },
+        {
+          "coin_index": 0,
+          "timing": "",
+          "description": "1"
+        },
+        {
+          "coin_index": 0,
+          "description": "+0"
+        },
+        {
+          "coin_index": 0,
+          "description": "1"
+        },
+        {
+          "coin_index": 0,
+          "description": "I阶 - III阶 IV阶 追加属性： 基础值： 7 变动值： +3 基础值： 7 变动值： +3"
+        }
+      ],
+      "wikitext_key": "守备技能4"
+    }
+  ],
+  "battle_passive": "人格被动1080101\n人格被动1080121",
+  "support_passive": "",
+  "notes": "",
+  "voice_lines": [
+    {
+      "file": "以实玛利LCB语音1.ogg",
+      "title": "获得时",
+      "text": "||叫我以实玛利吧。"
+    },
+    {
+      "file": "以实玛利LCB语音2.ogg",
+      "title": "早间问候",
+      "text": "||是啊，新的一天开始了。扬帆起航吧。"
+    },
+    {
+      "file": "以实玛利LCB语音3.ogg",
+      "title": "午间问候",
+      "text": "|||今天已经过半了。您有在好好利用时间吗？"
+    },
+    {
+      "file": "以实玛利LCB语音4.ogg",
+      "title": "晚间问候",
+      "text": "||今天就这样结束吧。让我们完成余下的工作后好好休息一会。"
+    },
+    {
+      "file": "以实玛利LCB语音5.ogg",
+      "title": "对话 1",
+      "text": "||我还是很庆幸有您在我们这边。多一个思想正常的人总归是件好事。"
+    },
+    {
+      "file": "以实玛利LCB语音6.ogg",
+      "title": "对话 2",
+      "text": "||我可以轻松完成大部分的命令。但前提是要有合理且高效的判断。"
+    },
+    {
+      "file": "以实玛利LCB语音7.ogg",
+      "title": "对话 3",
+      "text": "||恰当地利用水平千差万别的罪人们，也是您的职责。"
+    },
+    {
+      "file": "以实玛利LCB语音8.ogg",
+      "title": "对话 4",
+      "text": "||先讲清楚，我跟您说过的那些话只是为了确保任务成功而已。并不是说对您有什么不满。"
+    },
+    {
+      "file": "以实玛利LCB语音9.ogg",
+      "title": "对话 5",
+      "text": "||在我曾经所处的地方，是一个任何微小失误都会危及所有人性命的空间。我之所以偶尔会变得如此敏感，都是因为那些过往的经验所致。啊……我并不是在请求您的理解。"
+    },
+    {
+      "file": "以实玛利LCB语音10.ogg",
+      "title": "闲置",
+      "text": "||经理？唉……那我也走了。"
+    },
+    {
+      "file": "以实玛利LCB语音11.ogg",
+      "title": "人格出战",
+      "text": "||好的，没问题。"
+    },
+    {
+      "file": "以实玛利LCB语音12.ogg",
+      "title": "进入战斗",
+      "text": "||我会听从您的命令。只要命令合理有效。"
+    },
+    {
+      "file": "以实玛利LCB语音13.ogg",
+      "title": "战斗中选中人格",
+      "text": "||我现在很忙，所以请长话短说。"
+    },
+    {
+      "file": "以实玛利LCB语音14.ogg",
+      "title": "进行攻击",
+      "text": "||计划可行，我们上。"
+    },
+    {
+      "file": "以实玛利LCB语音15.ogg",
+      "title": "敌方混乱",
+      "text": "||敌舰已经搁浅。"
+    },
+    {
+      "file": "以实玛利LCB语音16.ogg",
+      "title": "陷入混乱",
+      "text": "||呃……！"
+    },
+    {
+      "file": "以实玛利LCB语音17.ogg",
+      "title": "击杀敌方",
+      "text": "||沉没吧。"
+    },
+    {
+      "file": "以实玛利LCB语音18.ogg",
+      "title": "友方阵亡",
+      "text": "||您该受苦了，经理。"
+    },
+    {
+      "file": "以实玛利LCB语音19.ogg",
+      "title": "判定成功",
+      "text": "||尽管如此……我还是设法做到了。"
+    },
+    {
+      "file": "以实玛利LCB语音20.ogg",
+      "title": "判定失败",
+      "text": "||所以说您应该派别人来的。请不要怪我。"
+    },
+    {
+      "file": "以实玛利LCB语音21.ogg",
+      "title": "战斗胜利",
+      "text": "||我一般不对这种事情大惊小怪。"
+    },
+    {
+      "file": "以实玛利LCB语音22.ogg",
+      "title": "EX CLEAR战斗胜利",
+      "text": "||呃……老实说，我们这次做的还算不错。对吧？"
+    },
+    {
+      "file": "以实玛利LCB语音23.ogg",
+      "title": "战斗失败",
+      "text": "||……刚才那个无视我的话直接冲上去的是谁？"
+    }
+  ],
+  "skill_voice": [
+    {
+      "file": "Battle_s2_10801_1.ogg",
+      "skill_index": 2,
+      "skill_label": "技能二",
+      "skill_name": "滑铲"
+    },
+    {
+      "file": "Battle_s3_10801_1.ogg",
+      "skill_index": 3,
+      "skill_label": "技能三",
+      "skill_name": "抵御"
+    }
+  ],
+  "_structured": true,
+  "id": "wiki_以实玛利LCB罪人",
+  "url": "https://limbuscompany.huijiwiki.com/wiki/以实玛利LCB罪人",
+  "categories": [
+    "人格"
+  ],
+  "source": "wiki",
+  "_schema_version": 1
+}

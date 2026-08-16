@@ -1,0 +1,143 @@
+{
+  "page_type": "enemy",
+  "title": "主线战斗2-18",
+  "enemy_name": "艾达",
+  "battle_stage": "主线战斗2-18",
+  "body_part": "",
+  "hp": 267,
+  "defense_level": 11,
+  "speed_min": 3,
+  "speed_max": 6,
+  "chaos_threshold": "",
+  "physical_resistances": {
+    "斩击": 2.0,
+    "突刺": 1.0,
+    "打击": 0.5
+  },
+  "sin_resistances": {
+    "暴怒": 1.0,
+    "色欲": 1.0,
+    "怠惰": 1.0,
+    "暴食": 1.0,
+    "忧郁": 1.0,
+    "傲慢": 1.0,
+    "嫉妒": 1.0
+  },
+  "panic_types": [
+    "畏缩"
+  ],
+  "passives": [
+    "派对时间：回合开始时，全体友方单位恢复10点理智值。 若自身理智值不低于20点，则获得1层 强壮 和1层 忍耐",
+    "派对结束：本角色阵亡时，全体友方单位失去45点理智值"
+  ],
+  "skills": [
+    {
+      "skill_name": "激昂舞步",
+      "icon_id": "9100401",
+      "sin_type": "怠惰",
+      "damage_type": "",
+      "base_value": 2,
+      "coin_power": 9703,
+      "coin_count": 5,
+      "attack_level": 16,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[使用时] 使自身恢复5点理智值",
+        "[命中时] 下回合使自身增加1级 呼吸法 强度"
+      ]
+    },
+    {
+      "skill_name": "不过如此？",
+      "icon_id": "9100402",
+      "sin_type": "忧郁",
+      "damage_type": "",
+      "base_value": 4,
+      "coin_power": 3,
+      "coin_count": 2,
+      "attack_level": 16,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[命中时] 下回合对目标施加3层 虚弱 和3层 麻痹"
+      ]
+    },
+    {
+      "skill_name": "精彩绝伦！",
+      "icon_id": "9100406",
+      "sin_type": "常规",
+      "damage_type": "",
+      "base_value": 2,
+      "coin_power": 79,
+      "coin_count": 1,
+      "attack_level": 11,
+      "attack_weight": 1,
+      "is_guard": true,
+      "guard_type": "闪避",
+      "importance": 0,
+      "coin_effects": []
+    },
+    {
+      "skill_name": "再利落点！",
+      "icon_id": "9100403",
+      "sin_type": "嫉妒",
+      "damage_type": "",
+      "base_value": 3,
+      "coin_power": 5793,
+      "coin_count": 2,
+      "attack_level": 16,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": []
+    },
+    {
+      "skill_name": "再迅速点~",
+      "icon_id": "9100404",
+      "sin_type": "嫉妒",
+      "damage_type": "",
+      "base_value": 4,
+      "coin_power": 5793,
+      "coin_count": 2,
+      "attack_level": 16,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": []
+    },
+    {
+      "skill_name": "皮纳塔派对~！",
+      "icon_id": "9100405",
+      "sin_type": "忧郁",
+      "damage_type": "",
+      "base_value": 3,
+      "coin_power": 3,
+      "coin_count": 2,
+      "attack_level": 16,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[使用时] 若目标的理智值不高于0，则根据其理智值按比例增加自身的暴击率",
+        "[正面命中时] 使自身的混乱阈值后移本硬币伤害量的50%"
+      ]
+    }
+  ],
+  "is_ally": false,
+  "_structured": true,
+  "appear_stages": [
+    "主线战斗2-18",
+    "大湖之镜-艾达"
+  ],
+  "enemy_id": "主线战斗2-18|艾达|",
+  "defense": 11,
+  "speed": "3~6",
+  "_schema_version": 1
+}

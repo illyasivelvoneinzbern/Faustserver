@@ -1,0 +1,73 @@
+{
+  "page_type": "enemy",
+  "title": "1-11-3-第23-7防线 13:00（1）",
+  "enemy_name": "记忆中歪曲的残兵",
+  "battle_stage": "1-11-3-第23-7防线 13:00（1）",
+  "body_part": "",
+  "hp": 60,
+  "defense_level": 7,
+  "speed_min": 1,
+  "speed_max": 2,
+  "chaos_threshold": "",
+  "physical_resistances": {
+    "斩击": 1.0,
+    "突刺": 0.75,
+    "打击": 2.0
+  },
+  "sin_resistances": {
+    "暴怒": 1.0,
+    "色欲": 1.0,
+    "怠惰": 1.0,
+    "暴食": 1.0,
+    "忧郁": 1.0,
+    "傲慢": 1.0,
+    "嫉妒": 1.0
+  },
+  "panic_types": [
+    "畏缩",
+    "虚弱",
+    "畏缩",
+    "虚弱"
+  ],
+  "passives": [
+    "被侵蚀的强化肉体：回合开始时，若自身的体力不高于50%，则回复4点体力。"
+  ],
+  "skills": [
+    {
+      "skill_name": "清扫战场",
+      "icon_id": "9001401",
+      "sin_type": "暴食",
+      "damage_type": "",
+      "base_value": 0,
+      "coin_power": 4,
+      "coin_count": 2,
+      "attack_level": 1,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "coin_effects": [
+        "[正面命中时] 下回合对目标施加3层 束缚 本回合内速度值-{0}"
+      ]
+    },
+    {
+      "skill_name": "连续招架",
+      "icon_id": "9001402",
+      "sin_type": "常规",
+      "damage_type": "",
+      "base_value": 0,
+      "coin_power": 3,
+      "coin_count": 1,
+      "attack_level": 0,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "coin_effects": []
+    }
+  ],
+  "is_ally": false,
+  "_structured": true,
+  "enemy_id": "1-11-3-第23-7防线 13:00（1）|记忆中歪曲的残兵",
+  "defense": 7,
+  "speed": "1~2",
+  "_schema_version": 1
+}

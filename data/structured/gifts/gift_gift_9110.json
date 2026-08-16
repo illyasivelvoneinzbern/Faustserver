@@ -1,0 +1,20 @@
+{
+  "id": "gift_9110",
+  "title": "魅惑残片",
+  "url": "https://limbuscompany.huijiwiki.com/wiki/E.G.O饰品",
+  "categories": [
+    "E.G.O饰品"
+  ],
+  "content": "使用增加流血强度，施加流血层数或施加特殊流血的E.G.O技能时触发\n最终威力增加相当于消耗的(色欲罪孽碎片+其他罪孽碎片总和/3)的数值，造成的伤害+50%。\n若是色欲E.G.O技能，则攻击前根据其E.G.O等级，相应额外对目标施加流血层数(ZAYIN施加2层，等级每提升1级，额外施加1层)并对目标造成相当于其流血强度点色欲伤害",
+  "source": "tabx",
+  "_structured": true,
+  "page_type": "ego_gift",
+  "gift_name": "魅惑残片",
+  "rarity": 4,
+  "cost": "400",
+  "effect_types": "流血",
+  "attack_type": "傲慢",
+  "location": "镜像迷宫",
+  "stage": "base",
+  "_schema_version": 1
+}

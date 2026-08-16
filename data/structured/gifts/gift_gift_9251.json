@@ -1,0 +1,21 @@
+{
+  "id": "gift_9251",
+  "title": "燃烧的命运",
+  "url": "https://limbuscompany.huijiwiki.com/wiki/E.G.O饰品",
+  "categories": [
+    "E.G.O饰品"
+  ],
+  "content": "最大烧伤强度+30 \n与带有烧伤的目标拼点胜利时，触发其烧伤1次，并使其烧伤层数减少1层(每名人格最多1次) \n对带有烧伤的敌方单位使用技能时，使该技能增加(主要目标的烧伤强度/10)级攻击等级(最多8级)",
+  "source": "tabx",
+  "_structured": true,
+  "page_type": "ego_gift",
+  "gift_name": "燃烧的命运",
+  "rarity": 4,
+  "cost": "400",
+  "effect_types": "烧伤",
+  "attack_type": "暴怒",
+  "location": "镜像迷宫",
+  "stage": "base",
+  "special": "极限模式节点-身负重担的人们",
+  "_schema_version": 1
+}

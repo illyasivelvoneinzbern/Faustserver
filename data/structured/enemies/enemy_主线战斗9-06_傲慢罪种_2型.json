@@ -1,0 +1,100 @@
+{
+  "page_type": "enemy",
+  "title": "主线战斗9-06",
+  "enemy_name": "傲慢罪种 2型",
+  "battle_stage": "主线战斗9-06",
+  "body_part": "躯干",
+  "hp": 302,
+  "defense_level": 57,
+  "speed_min": 1,
+  "speed_max": 3,
+  "chaos_threshold": "120",
+  "physical_resistances": {
+    "斩击": 1.0,
+    "突刺": 1.0,
+    "打击": 1.75
+  },
+  "sin_resistances": {
+    "暴怒": 1.75,
+    "色欲": 0.75,
+    "怠惰": 1.75,
+    "暴食": 1.0,
+    "忧郁": 1.0,
+    "傲慢": 0.75,
+    "嫉妒": 1.0
+  },
+  "panic_types": [],
+  "passives": [
+    "罪孽抗性: 除非自身陷入混乱或部位被破坏，否则自身受到的暴击时造成的伤害减半。"
+  ],
+  "skills": [
+    {
+      "skill_name": "摧残蹂躏",
+      "icon_id": "837401",
+      "sin_type": "傲慢",
+      "damage_type": "",
+      "base_value": 0,
+      "coin_power": 4,
+      "coin_count": 3,
+      "attack_level": 55,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "coin_effects": [
+        "[命中时] 使自身增加3级 呼吸法 强度"
+      ]
+    },
+    {
+      "skill_name": "碾碎",
+      "icon_id": "837402",
+      "sin_type": "傲慢",
+      "damage_type": "",
+      "base_value": 0,
+      "coin_power": 3,
+      "coin_count": 3,
+      "attack_level": 55,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "coin_effects": []
+    },
+    {
+      "skill_name": "傲慢碾碎",
+      "icon_id": "837403",
+      "sin_type": "傲慢",
+      "damage_type": "斩击",
+      "base_value": 0,
+      "coin_power": 12,
+      "coin_count": 2,
+      "attack_level": 55,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "coin_effects": [
+        "[命中时] 自身增加4级 呼吸法 强度并使自身获得3层 呼吸法"
+      ]
+    },
+    {
+      "skill_name": "反击",
+      "icon_id": "837404",
+      "sin_type": "傲慢",
+      "damage_type": "",
+      "base_value": 0,
+      "coin_power": 7,
+      "coin_count": 2,
+      "attack_level": 55,
+      "attack_weight": 1,
+      "is_guard": true,
+      "guard_type": "反击",
+      "coin_effects": [
+        "[命中时] 下回合使自身获得2层 呼吸法"
+      ]
+    }
+  ],
+  "is_ally": false,
+  "_structured": true,
+  "enemy_id": "主线战斗9-06|傲慢罪种 2型",
+  "defense": 57,
+  "speed": "1~3",
+  "_schema_version": 1
+}

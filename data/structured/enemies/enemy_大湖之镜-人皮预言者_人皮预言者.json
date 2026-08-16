@@ -1,0 +1,161 @@
+{
+  "page_type": "enemy",
+  "title": "大湖之镜-人皮预言者",
+  "enemy_name": "人皮预言者",
+  "battle_stage": "大湖之镜-人皮预言者",
+  "body_part": "躯干",
+  "hp": 1057,
+  "defense_level": 52,
+  "speed_min": 2,
+  "speed_max": 4,
+  "chaos_threshold": "",
+  "physical_resistances": {
+    "斩击": 1.2,
+    "突刺": 1.0,
+    "打击": 0.5
+  },
+  "sin_resistances": {
+    "暴怒": 1.0,
+    "色欲": 0.5,
+    "怠惰": 1.5,
+    "暴食": 0.75,
+    "忧郁": 2.0,
+    "傲慢": 1.25,
+    "嫉妒": 1.0
+  },
+  "panic_types": [],
+  "passives": [],
+  "skills": [
+    {
+      "skill_name": "裂开吧",
+      "icon_id": "810001",
+      "sin_type": "色欲",
+      "damage_type": "打击",
+      "base_value": 4,
+      "coin_power": 9,
+      "coin_count": 3,
+      "attack_level": 43,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[命中时] 根据点燃的蜡烛数，对目标造成相应的理智伤害"
+      ]
+    },
+    {
+      "skill_name": "渴求着…",
+      "icon_id": "810002",
+      "sin_type": "暴怒",
+      "damage_type": "打击",
+      "base_value": 5,
+      "coin_power": 987,
+      "coin_count": 3,
+      "attack_level": 43,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[命中时] 下回合对目标施加1层 暴怒易损 若目标带有 烧伤 ，则使其增加4级 烧伤 强度"
+      ]
+    },
+    {
+      "skill_name": "9章2节",
+      "icon_id": "810003",
+      "sin_type": "暴怒",
+      "damage_type": "打击",
+      "base_value": 20,
+      "coin_power": 987,
+      "coin_count": 3,
+      "attack_level": 43,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[命中时] 使目标的体力上限减少10%",
+        "[命中时] 使目标增加5级 烧伤 强度并对其施加2层 烧伤"
+      ]
+    },
+    {
+      "skill_name": "6章5节",
+      "icon_id": "810004",
+      "sin_type": "暴怒",
+      "damage_type": "穿刺",
+      "base_value": 20,
+      "coin_power": 987,
+      "coin_count": 3,
+      "attack_level": 43,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[命中时] 使自身的体力上限减少10%",
+        "[命中时] 使自身增加10级 烧伤 强度"
+      ]
+    },
+    {
+      "skill_name": "揭示一切",
+      "icon_id": "810005",
+      "sin_type": "色欲",
+      "damage_type": "穿刺",
+      "base_value": 3,
+      "coin_power": 9,
+      "coin_count": 2,
+      "attack_level": 43,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[命中时] 对目标施加1层 暴怒易损"
+      ]
+    },
+    {
+      "skill_name": "燃烧一切",
+      "icon_id": "810006",
+      "sin_type": "色欲",
+      "damage_type": "穿刺",
+      "base_value": 3,
+      "coin_power": 9,
+      "coin_count": 2,
+      "attack_level": 43,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[命中时] 若目标带有 烧伤 ，则使其增加3级 烧伤 强度"
+      ]
+    },
+    {
+      "skill_name": "不可轻视预言",
+      "icon_id": "810007",
+      "sin_type": "暴怒",
+      "damage_type": "穿刺",
+      "base_value": 5,
+      "coin_power": 987,
+      "coin_count": 2,
+      "attack_level": 43,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[命中时] 使目标增加5级 烧伤 强度并对其施加2层 烧伤"
+      ]
+    }
+  ],
+  "is_ally": false,
+  "_structured": true,
+  "appear_stages": [
+    "大湖之镜-人皮预言者",
+    "集中战斗-人皮预言者"
+  ],
+  "enemy_id": "大湖之镜-人皮预言者|人皮预言者|躯干",
+  "defense": 52,
+  "speed": "2~4",
+  "_schema_version": 1
+}

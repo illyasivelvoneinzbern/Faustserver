@@ -1,0 +1,136 @@
+{
+  "page_type": "enemy",
+  "title": "主线战斗6-41",
+  "enemy_name": "狂猎 林顿",
+  "battle_stage": "主线战斗6-41",
+  "body_part": "躯干",
+  "hp": 434,
+  "defense_level": 41,
+  "speed_min": 2,
+  "speed_max": 5,
+  "chaos_threshold": "",
+  "physical_resistances": {
+    "斩击": 1.0,
+    "突刺": 1.0,
+    "打击": 1.0
+  },
+  "sin_resistances": {
+    "暴怒": 1.0,
+    "色欲": 1.2,
+    "怠惰": 0.8,
+    "暴食": 0.5,
+    "忧郁": 1.5,
+    "傲慢": 1.0,
+    "嫉妒": 1.5
+  },
+  "panic_types": [
+    "憎恶",
+    "憎恶（陷入恐慌）"
+  ],
+  "passives": [],
+  "skills": [
+    {
+      "skill_name": "前…",
+      "icon_id": "9013801",
+      "sin_type": "忧郁",
+      "damage_type": "斩击",
+      "base_value": 3,
+      "coin_power": 3,
+      "coin_count": 2,
+      "attack_level": 46,
+      "attack_weight": 1,
+      "is_guard": true,
+      "guard_type": "防御",
+      "importance": 0,
+      "coin_effects": [
+        "[命中时] 下回合对目标施加2层 防御等级降低"
+      ]
+    },
+    {
+      "skill_name": "…刺",
+      "icon_id": "9013802",
+      "sin_type": "忧郁",
+      "damage_type": "斩击",
+      "base_value": 4,
+      "coin_power": 3,
+      "coin_count": 2,
+      "attack_level": 46,
+      "attack_weight": 1,
+      "is_guard": true,
+      "guard_type": "防御",
+      "importance": 0,
+      "coin_effects": [
+        "[使用时] 若目标带有不低于2种负面状态，则使本技能的基础威力+1",
+        "[命中时] 下回合对目标施加3层 防御等级降低"
+      ]
+    },
+    {
+      "skill_name": "双…刺",
+      "icon_id": "9013803",
+      "sin_type": "暴怒",
+      "damage_type": "斩击",
+      "base_value": 3,
+      "coin_power": 987,
+      "coin_count": 3,
+      "attack_level": 46,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[使用时] 若目标带有不低于4种负面状态，则使本技能的硬币威力+1",
+        "[命中时] 下回合对目标施加1层 束缚",
+        "[命中时] 下回合对目标施加1层 突刺易损",
+        "[命中时] 下回合对目标施加2层 束缚"
+      ]
+    },
+    {
+      "skill_name": "正…刺",
+      "icon_id": "9013804",
+      "sin_type": "嫉妒",
+      "damage_type": "穿刺",
+      "base_value": 4,
+      "coin_power": 5793,
+      "coin_count": 3,
+      "attack_level": 47,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[使用时] 若目标带有不低于5种负面状态，则使本技能的基础威力+2",
+        "[使用时] 若目标带有不低于5种负面状态，则使本技能造成的伤害+30%",
+        "[命中时] 对目标施加2层 易损",
+        "[命中时] 下回合对目标施加2层 易损",
+        "[命中时] 目标带有不低于5种负面状态，则重复使用本硬币（最多2次）",
+        "[命中时] 随机解除目标带有的1种可解除的负面状态"
+      ]
+    },
+    {
+      "skill_name": "…",
+      "icon_id": "9013805",
+      "sin_type": "常规",
+      "damage_type": "闪避",
+      "base_value": 4,
+      "coin_power": 79,
+      "coin_count": 1,
+      "attack_level": 0,
+      "attack_weight": 1,
+      "is_guard": true,
+      "guard_type": "闪避",
+      "importance": 0,
+      "coin_effects": [
+        "闪避成功时使自身恢复5点理智值（最多2次）"
+      ]
+    }
+  ],
+  "is_ally": false,
+  "_structured": true,
+  "appear_stages": [
+    "主线战斗6-41"
+  ],
+  "enemy_id": "主线战斗6-41|狂猎 林顿|躯干",
+  "defense": 41,
+  "speed": "2~5",
+  "_schema_version": 1
+}

@@ -1,0 +1,262 @@
+{
+  "page_type": "enemy",
+  "title": "主线战斗9-10",
+  "enemy_name": "黑檀女王的苹果",
+  "battle_stage": "主线战斗9-10",
+  "body_part": "",
+  "hp": 89,
+  "defense_level": 53,
+  "speed_min": 1,
+  "speed_max": 2,
+  "chaos_threshold": "0",
+  "physical_resistances": {
+    "斩击": 1.0,
+    "突刺": 1.0,
+    "打击": 2.0
+  },
+  "sin_resistances": {
+    "暴怒": 2.0,
+    "色欲": 1.0,
+    "怠惰": 1.0,
+    "暴食": 1.0,
+    "忧郁": 0.5,
+    "傲慢": 2.0,
+    "嫉妒": 0.75
+  },
+  "panic_types": [],
+  "passives": [
+    "寻找着某物的手臂-抑制力部分解除: 其他手臂部位被破坏时，使剩余的手臂部位的所有技能转化为 不可摧毁的硬币 ，攻击容量+1 - 使用适用该效果的技能时，使自身获得1层 急速生长",
+    "黑檀女王-抑制力部分解除: 若自身拥有根部，则果实部位受到攻击后，使自身获得1层 竟敢…！ 若自身的 竟敢…！ 层数为4层，则使用施加负面状态的强力技能 若自身未拥有根部，则不会获得或消耗 竟敢…！ 此后，果实部位被破坏时，解除自身的 竟敢…！",
+    "苹果的黄金期: 果实被破坏后，使所有部位获得2层 易损 。被破坏的果实会在一回合后再生。",
+    "缠绕的根: 若根部未被破坏，则回合开始时对全体敌方单位施加2层 束缚",
+    "唯一的根: 无恐慌类型数据"
+  ],
+  "skills": [
+    {
+      "skill_name": "虚无之果",
+      "icon_id": "130701",
+      "sin_type": "暴食",
+      "damage_type": "突刺",
+      "base_value": 15,
+      "coin_power": 854,
+      "coin_count": 2,
+      "attack_level": 58,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[命中时] 使目标增加4级 流血 强度"
+      ]
+    },
+    {
+      "skill_name": "把白雪带来。",
+      "icon_id": "130702",
+      "sin_type": "嫉妒",
+      "damage_type": "突刺",
+      "base_value": 5,
+      "coin_power": 5793,
+      "coin_count": 2,
+      "attack_level": 60,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[使用时] 若目标的 流血 强度与 破裂 强度之和不低于5级，则使本技能的基础威力+5",
+        "[使用时] 若自身带有 竟敢…！ ，则使本技能的攻击容量+2",
+        "[命中时] 对目标造成10点理智伤害"
+      ]
+    },
+    {
+      "skill_name": "竟敢如此放肆！",
+      "icon_id": "130703",
+      "sin_type": "嫉妒",
+      "damage_type": "突刺",
+      "base_value": 6,
+      "coin_power": 5793,
+      "coin_count": 5,
+      "attack_level": 60,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[使用时] 目标的 流血 强度与 破裂 强度之和每有4级，使本技能的硬币威力+2(最多+4)",
+        "[使用时] 若自身带有 竟敢…！ ，则使本技能的攻击容量+2",
+        "[命中时] 对目标造成5点理智伤害 不可摧毁的硬币",
+        "[命中时] 对目标造成5点理智伤害"
+      ]
+    },
+    {
+      "skill_name": "再一点点就好…",
+      "icon_id": "130704",
+      "sin_type": "常规",
+      "damage_type": "守备",
+      "base_value": 10,
+      "coin_power": 79,
+      "coin_count": 1,
+      "attack_level": 0,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": []
+    },
+    {
+      "skill_name": "猜疑",
+      "icon_id": "8001001",
+      "sin_type": "暴食",
+      "damage_type": "突刺",
+      "base_value": 5,
+      "coin_power": 854,
+      "coin_count": 3,
+      "attack_level": 61,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[使用时] 目标的 流血 强度与 破裂 强度之和每有3级，使本技能的硬币威力+2(最多+4)",
+        "[命中时] 对目标施加3层 流血",
+        "[命中时] 对目标施加3层 破裂",
+        "[命中时] 使目标增加3级 流血 强度",
+        "[命中时] 使目标增加3级 破裂 强度"
+      ]
+    },
+    {
+      "skill_name": "褪色之枝",
+      "icon_id": "8001002",
+      "sin_type": "暴食",
+      "damage_type": "突刺",
+      "base_value": 4,
+      "coin_power": 854,
+      "coin_count": 2,
+      "attack_level": 60,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[使用时] 目标的 流血 强度与 破裂 强度之和每有4级，使本技能的最终威力+3(最多+6)",
+        "[命中时] 使目标增加3级 流血 强度",
+        "[命中时] 使目标增加3级 破裂 强度"
+      ]
+    },
+    {
+      "skill_name": "荆棘之枝",
+      "icon_id": "8001003",
+      "sin_type": "暴食",
+      "damage_type": "突刺",
+      "base_value": 4,
+      "coin_power": 854,
+      "coin_count": 2,
+      "attack_level": 60,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[使用时] 目标的 流血 强度与 破裂 强度之和每有4级，使本技能的最终威力+3(最多+6)",
+        "[命中时] 对目标施加3层 流血",
+        "[命中时] 对目标施加3层 破裂"
+      ]
+    },
+    {
+      "skill_name": "同享痛楚",
+      "icon_id": "8001005",
+      "sin_type": "暴食",
+      "damage_type": "突刺",
+      "base_value": 5,
+      "coin_power": 854,
+      "coin_count": 3,
+      "attack_level": 61,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[使用时] 目标的 流血 强度与 破裂 强度之和每有4级，使本技能的最终威力+3(最多+6) 不可摧毁的硬币"
+      ]
+    },
+    {
+      "skill_name": "根生荆棘",
+      "icon_id": "8001004",
+      "sin_type": "暴食",
+      "damage_type": "突刺",
+      "base_value": 6,
+      "coin_power": 854,
+      "coin_count": 3,
+      "attack_level": 60,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[命中时] 下回合对目标施加5层 流血"
+      ]
+    },
+    {
+      "skill_name": "嫉妒之根",
+      "icon_id": "130711",
+      "sin_type": "嫉妒",
+      "damage_type": "突刺",
+      "base_value": 10,
+      "coin_power": 5793,
+      "coin_count": 3,
+      "attack_level": 60,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[使用时] 消耗自身所有 竟敢…！ 并重复使用本技能的硬币(消耗的 竟敢…！ 层数)次(最多4次)",
+        "[命中时] 使目标增加3级 流血 强度并对其施加2层 流血",
+        "[命中时] 使目标增加3级 破裂 强度并对其施加2层 破裂"
+      ]
+    },
+    {
+      "skill_name": "深埋之根",
+      "icon_id": "130712",
+      "sin_type": "色欲",
+      "damage_type": "突刺",
+      "base_value": 4,
+      "coin_power": 9,
+      "coin_count": 2,
+      "attack_level": 58,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[使用时] 目标的 流血 强度与 破裂 强度之和每有4级，使本技能的拼点威力+1(最多+2)",
+        "[命中时] 使目标增加4级 流血 强度"
+      ]
+    },
+    {
+      "skill_name": "虚无之果",
+      "icon_id": "130713",
+      "sin_type": "常规",
+      "damage_type": "守备",
+      "base_value": 15,
+      "coin_power": 79,
+      "coin_count": 1,
+      "attack_level": 0,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": []
+    }
+  ],
+  "is_ally": false,
+  "_structured": true,
+  "appear_stages": [
+    "主线战斗9-10",
+    "纺锤采光-傲慢-5"
+  ],
+  "enemy_id": "主线战斗9-10|黑檀女王的苹果|",
+  "defense": 53,
+  "speed": "1~2",
+  "_schema_version": 1
+}

@@ -1,0 +1,157 @@
+{
+  "page_type": "enemy",
+  "title": "折射轨道2号线复刻-第2站",
+  "enemy_name": "折射的蒸汽运输机",
+  "battle_stage": "折射轨道2号线复刻-第2站",
+  "body_part": "",
+  "hp": 1834,
+  "defense_level": 61,
+  "speed_min": 2,
+  "speed_max": 4,
+  "chaos_threshold": "1375 / 0",
+  "physical_resistances": {
+    "斩击": 0.5,
+    "突刺": 1.0,
+    "打击": 1.5
+  },
+  "sin_resistances": {
+    "暴怒": 1.0,
+    "色欲": 1.0,
+    "怠惰": 2.0,
+    "暴食": 1.0,
+    "忧郁": 0.5,
+    "傲慢": 0.75,
+    "嫉妒": 1.5
+  },
+  "panic_types": [],
+  "passives": [
+    "回现的过去: 若自身的 累积的过去 层数不低于50层，且本体体力不高于80%，则在回合结束时消耗50层 累积的过去 ，并使本体恢复200点体力。",
+    "重叠的过去: 每回合，自身每带有80层 累积的过去 ，使自身获得1层 强壮 。 若自身的 累积的过去 层数不低于80层，则额外获得1个行动槽。",
+    "节拍器: 累积的过去 层数为奇数时，对自身施加3层 易损 并使自身获得3层 伤害强化 层数为偶数时，使自身获得3层 守护 并对自身施加3层 伤害弱化",
+    "折射的挣扎: 若与同一目标拼点不低于10次，则拼点判定时随机使自身的拼点威力增加或减少(拼点次数/10)。(向下取整)",
+    "消逝的过去: 躯干部位被破坏后，消耗所有 累积的过去 躯干部位被破坏后，使躯干部位在本场战斗中获得以下效果 - 本回合起使所有罪孽抗性变为0.5 - 下回合起使所有物理抗性变为0.5",
+    "被破坏的排气口: 蒸汽枪部位被破坏时，消耗所有部位的 呼吸法 强度 蒸汽枪部位被破坏后，使自身增加 呼吸法 强度时，对自身施加1层 易损 蒸汽枪部位被破坏后，自身使用攻击技能时，使自身失去1级 呼吸法 强度",
+    "折射的烧伤与流血: 烧伤 和 流血 强度最多累积到30级 烧伤 和 流血 层数最多累积到5层",
+    "施加折射的沉沦: 自身被增加 沉沦 强度或施加 沉沦 层数时，额外使自身增加1级 沉沦 强度并对自身施加1层 沉沦 (不适用于巡回效果)",
+    "蒸汽泄漏: 无恐慌类型数据"
+  ],
+  "skills": [
+    {
+      "skill_name": "6463",
+      "icon_id": "855501",
+      "sin_type": "傲慢",
+      "damage_type": "打击",
+      "base_value": 6,
+      "coin_power": 3,
+      "coin_count": 3,
+      "attack_level": 58,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[使用时] 若自身的 累积的过去 层数为奇数，则使本技能造成的伤害+30%"
+      ]
+    },
+    {
+      "skill_name": "6753",
+      "icon_id": "855502",
+      "sin_type": "傲慢",
+      "damage_type": "打击",
+      "base_value": 7,
+      "coin_power": 3,
+      "coin_count": 2,
+      "attack_level": 58,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[使用时] 若自身的 累积的过去 层数为偶数，则使自身获得3层 守护 (每回合最多1次)",
+        "[命中时] 下回合对目标施加3层 麻痹"
+      ]
+    },
+    {
+      "skill_name": "853",
+      "icon_id": "855503",
+      "sin_type": "怠惰",
+      "damage_type": "打击",
+      "base_value": 5,
+      "coin_power": 9703,
+      "coin_count": 3,
+      "attack_level": 58,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[使用时] 自身每带有5级 呼吸法 强度，使本技能的拼点威力+1(最多+3)",
+        "[命中时] 下回合对目标施加3层 麻痹",
+        "[命中时] 使目标的混乱阈值前移本硬币伤害量的50%",
+        "[命中时] 自身每带有1层 累积的过去 ，使本硬币造成的伤害+1%(最多+50%)"
+      ]
+    },
+    {
+      "skill_name": "5384",
+      "icon_id": "855504",
+      "sin_type": "怠惰",
+      "damage_type": "打击",
+      "base_value": 5,
+      "coin_power": 9703,
+      "coin_count": 5,
+      "attack_level": 58,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[使用时] 使所有部位增加3级 呼吸法 强度并使所有部位获得3层 呼吸法",
+        "[命中时] 使所有部位增加4级 呼吸法 强度"
+      ]
+    },
+    {
+      "skill_name": "6475384",
+      "icon_id": "855505",
+      "sin_type": "暴怒",
+      "damage_type": "突刺",
+      "base_value": 10,
+      "coin_power": 987,
+      "coin_count": 3,
+      "attack_level": 56,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[命中时] 使所有部位增加8级 呼吸法 强度并使所有部位获得4层 呼吸法"
+      ]
+    },
+    {
+      "skill_name": "974569A",
+      "icon_id": "855506",
+      "sin_type": "嫉妒",
+      "damage_type": "打击",
+      "base_value": 10,
+      "coin_power": 5793,
+      "coin_count": 2,
+      "attack_level": 56,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "若自身的呼吸法强度不低于10级，则使本技能威力+2",
+        "1自身每带有1层累积的过去，使本硬币造成的伤害+1%(最多+200%)"
+      ]
+    }
+  ],
+  "is_ally": false,
+  "_structured": true,
+  "appear_stages": [
+    "折射轨道2号线复刻-第2站"
+  ],
+  "enemy_id": "折射轨道2号线复刻-第2站|折射的蒸汽运输机|",
+  "defense": 61,
+  "speed": "2~4",
+  "_schema_version": 1
+}

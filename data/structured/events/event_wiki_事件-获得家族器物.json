@@ -1,0 +1,49 @@
+{
+  "page_type": "event",
+  "title": "事件-获得家族器物",
+  "event_name": "获得家族器物",
+  "narration": "“无论你是通过何种方式抵达此地……恭喜你！”\n“作为抵达这间隐藏房间的奖励……你可以从中带走一件有助于家主评审的器物。”\n“不过要注意……如果你持有的铜钱不足，将无法选择某些器物！”\n“这些都是各个家族提供的珍贵器物，请慎重抉择。”\n要选哪一件器物呢？\n\n史家的器物\n我打开了最左边的箱子。\n里面放着史家的人使用的斧头。\n是一把能够通过充能释放强力冲击波的斧头……似乎是这样的。\n罪人们应该能用得上。\n收好器物后，我们离开了房间。\n获得\n！\n持有\n时额外获得器物\n\n王家的器物\n持有至少10枚铜钱时可选择\n我打开了从左数第二个箱子。\n里面放着王家的人使用的符咒。\n这些符咒有着各种各样的功效……应当能派上用场。\n罪人们应该能用得上。\n收好器物后，我们离开了房间。\n获得\n！\n持有\n时额外获得器物\n\n薛家的器物\n持有至少20枚铜钱时可选择\n我打开了从右数第二个箱子。\n里面放着薛家的浪人们所使用的剑。\n虽然是把巨大的剑……但我确实见过它被轻巧地挥舞的样子。\n罪人们应该能用得上。\n收好器物后，我们离开了房间。\n获得\n！\n持有\n时额外获得器物\n\n贾家的器物\n持有至少25枚铜钱时可选择\n我打开了最右边的箱子。\n里面放着贾家所制成的，色泽上佳的丸。\n作为H公司的奇点之一，其药效肯定非同寻常。\n罪人们应该能用得上。\n收好器物后，我们离开了房间。\n获得\n！\n持有\n时额外获得器物",
+  "options": [
+    {
+      "choice_text": "史家的器物",
+      "check_type": "",
+      "check_sin": "",
+      "check_threshold": 0,
+      "success_outcomes": [],
+      "failure_outcomes": []
+    },
+    {
+      "choice_text": "王家的器物",
+      "check_type": "",
+      "check_sin": "",
+      "check_threshold": 0,
+      "success_outcomes": [],
+      "failure_outcomes": []
+    },
+    {
+      "choice_text": "薛家的器物",
+      "check_type": "",
+      "check_sin": "",
+      "check_threshold": 0,
+      "success_outcomes": [],
+      "failure_outcomes": []
+    },
+    {
+      "choice_text": "贾家的器物",
+      "check_type": "",
+      "check_sin": "",
+      "check_threshold": 0,
+      "success_outcomes": [],
+      "failure_outcomes": []
+    }
+  ],
+  "ego_gifts": [],
+  "related_abnormalities": [],
+  "trigger_location": "",
+  "_structured": true,
+  "id": "wiki_事件-获得家族器物",
+  "url": "https://limbuscompany.huijiwiki.com/wiki/事件-获得家族器物",
+  "categories": [],
+  "source": "wiki",
+  "_schema_version": 1
+}

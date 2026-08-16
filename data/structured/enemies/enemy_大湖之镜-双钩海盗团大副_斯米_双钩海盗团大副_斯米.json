@@ -1,0 +1,260 @@
+{
+  "page_type": "enemy",
+  "title": "大湖之镜-双钩海盗团大副 斯米",
+  "enemy_name": "双钩海盗团大副 斯米",
+  "battle_stage": "大湖之镜-双钩海盗团大副 斯米",
+  "body_part": "",
+  "hp": 193,
+  "defense_level": 41,
+  "speed_min": 3,
+  "speed_max": 5,
+  "chaos_threshold": "",
+  "physical_resistances": {
+    "斩击": 0.5,
+    "突刺": 2.0,
+    "打击": 1.0
+  },
+  "sin_resistances": {
+    "暴怒": 1.0,
+    "色欲": 1.0,
+    "怠惰": 1.0,
+    "暴食": 1.0,
+    "忧郁": 1.0,
+    "傲慢": 1.0,
+    "嫉妒": 1.0
+  },
+  "panic_types": [],
+  "passives": [
+    "轻松喘息：若自身带有 呼吸法 ，则拼点胜利后使自身增加5级 呼吸法 强度。",
+    "硬币的两面：每回合第1枚硬币正面命中时，下回合使自身获得2层 伤害强化 与1层 强壮 。 第1枚硬币反面命中时，下回合使自身获得2层 伤害弱化 与1层 虚弱 。",
+    "停下......别过来！：拼点失败时，使自身增加4级 呼吸法 强度并获得3层 呼吸法 。",
+    "好耶！：暴击时，下回合使自身获得1层 加算硬币强化 。 使自身恢复15点理智值。 使除自身以外的全体友方单位恢复10点理智值。 （每回合最多1次）",
+    "你在搞什么？：战斗中被击退后，使全体友方单位失去30点理智值。",
+    "那儿不痛吗？：攻击命中时，若目标带有 流血 ，则根据目标带有的 流血 强度，使自身恢复相应的理智值"
+  ],
+  "skills": [
+    {
+      "skill_name": "往那看",
+      "icon_id": "9101201",
+      "sin_type": "色欲",
+      "damage_type": "斩击",
+      "base_value": 5,
+      "coin_power": 9,
+      "coin_count": 2,
+      "attack_level": 47,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[命中时] 使目标增加3级 流血 强度"
+      ]
+    },
+    {
+      "skill_name": "小的们，来活了",
+      "icon_id": "9101202",
+      "sin_type": "色欲",
+      "damage_type": "斩击",
+      "base_value": 4,
+      "coin_power": 9,
+      "coin_count": 3,
+      "attack_level": 47,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[命中时] 对目标施加2层 流血",
+        "[正面命中时] 使目标增加2级 流血 强度",
+        "[命中时] 对目标施加1层 流血",
+        "[正面命中时] 使目标增加4级 流血 强度"
+      ]
+    },
+    {
+      "skill_name": "战斗指挥",
+      "icon_id": "9101203",
+      "sin_type": "怠惰",
+      "damage_type": "斩击",
+      "base_value": 4,
+      "coin_power": 9703,
+      "coin_count": 2,
+      "attack_level": 47,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "使用时使自身增加5级呼吸法强度"
+      ]
+    },
+    {
+      "skill_name": "发现漏洞！开火！",
+      "icon_id": "9101204",
+      "sin_type": "暴怒",
+      "damage_type": "斩击",
+      "base_value": 5,
+      "coin_power": 987,
+      "coin_count": 3,
+      "attack_level": 47,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[命中时] 使目标增加4级 流血 强度",
+        "[正面命中时] 使目标增加4级 流血 强度",
+        "[命中时] 对目标施加3层 流血 根据目标带有的 流血 强度，对其额外造成造成相应的伤害 消耗1发 弹药"
+      ]
+    },
+    {
+      "skill_name": "闪避",
+      "icon_id": "9101205",
+      "sin_type": "常规",
+      "damage_type": "防御",
+      "base_value": 8,
+      "coin_power": 79,
+      "coin_count": 1,
+      "attack_level": 0,
+      "attack_weight": 1,
+      "is_guard": true,
+      "guard_type": "闪避",
+      "importance": 0,
+      "coin_effects": [
+        "闪避成功时下回合使自身增加5级呼吸法强度。",
+        "闪避成功时下回合使全体友方单位增加2级呼吸法强度。"
+      ]
+    },
+    {
+      "skill_name": "劫掠",
+      "icon_id": "9101206",
+      "sin_type": "傲慢",
+      "damage_type": "斩击",
+      "base_value": 7,
+      "coin_power": 3,
+      "coin_count": 1,
+      "attack_level": 47,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "拼点胜利复制并使用目标级别为3的技能的硬币威力与硬币数"
+      ]
+    },
+    {
+      "skill_name": "往那看",
+      "icon_id": "9101201",
+      "sin_type": "色欲",
+      "damage_type": "斩击",
+      "base_value": 5,
+      "coin_power": 7,
+      "coin_count": 1,
+      "attack_level": 0,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "1命中时使目标增加3级流血强度"
+      ]
+    },
+    {
+      "skill_name": "小的们，来活了",
+      "icon_id": "9101202",
+      "sin_type": "色欲",
+      "damage_type": "斩击",
+      "base_value": 4,
+      "coin_power": 4,
+      "coin_count": 2,
+      "attack_level": 0,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "1命中时对目标施加2层{{状态2|流血|4=负面}}",
+        "正面命中时使目标增加2级{{状态2|流血|4=负面}}强度",
+        "2命中时对目标施加1层{{状态2|流血|4=负面}}",
+        "正面命中时使目标增加4级{{状态2|流血|4=负面}}强度"
+      ]
+    },
+    {
+      "skill_name": "战斗指挥",
+      "icon_id": "9101203",
+      "sin_type": "怠惰",
+      "damage_type": "斩击",
+      "base_value": 4,
+      "coin_power": 5,
+      "coin_count": 2,
+      "attack_level": 0,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "使用时使自身增加5级呼吸法强度"
+      ]
+    },
+    {
+      "skill_name": "发现漏洞！开火！",
+      "icon_id": "9101204",
+      "sin_type": "暴怒",
+      "damage_type": "斩击",
+      "base_value": 5,
+      "coin_power": 7,
+      "coin_count": 2,
+      "attack_level": 0,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "若目标的流血强度不低于5级，则使本技能的拼点威力+2"
+      ]
+    },
+    {
+      "skill_name": "闪避",
+      "icon_id": "9101205",
+      "sin_type": "",
+      "damage_type": "防御",
+      "base_value": 8,
+      "coin_power": 5,
+      "coin_count": 1,
+      "attack_level": 0,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "闪避成功时下回合使自身增加5级呼吸法强度。",
+        "闪避成功时下回合使全体友方单位增加2级呼吸法强度。"
+      ]
+    },
+    {
+      "skill_name": "劫掠",
+      "icon_id": "9101206",
+      "sin_type": "傲慢",
+      "damage_type": "斩击",
+      "base_value": 7,
+      "coin_power": 8,
+      "coin_count": 1,
+      "attack_level": 0,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "拼点胜利复制并使用目标级别为3的技能的硬币威力与硬币数"
+      ]
+    }
+  ],
+  "is_ally": false,
+  "_structured": true,
+  "appear_stages": [
+    "大湖之镜-双钩海盗团大副 斯米"
+  ],
+  "enemy_id": "大湖之镜-双钩海盗团大副 斯米|双钩海盗团大副 斯米|",
+  "defense": 41,
+  "speed": "3~5",
+  "_schema_version": 1
+}

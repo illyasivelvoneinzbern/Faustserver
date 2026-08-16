@@ -1,0 +1,35 @@
+{
+  "page_type": "event",
+  "title": "事件-木人桩挑战",
+  "event_name": "木人桩挑战",
+  "narration": "冤冤相报实非轻，\n分离合聚皆前定。\n欲知命短问前生，\n老来富贵也真侥幸。\n看破的，遁入空门。\n痴迷的，枉送了性命。\n好一似食尽鸟投林，\n落了片白茫茫大地真干净！\n“看到有候选人因丢了铜钱而遗憾？”\n“观众们说想给他们一个机会！”\n“那么……是不是得给诸位送来一些能从中获得铜钱的木人呢？”\n\n接受战斗的挑战。\n为了弥补损失，在此接受挑战才是正确的。\n与罪人们达成了共识，决定击败所有的木人。\n触发遭遇战！\n下场战斗胜利后，将获得器物\n×2\n\n不接受战斗的挑战。\n当下，比起铜钱，休整更重要。\n什么都没有发生。",
+  "options": [
+    {
+      "choice_text": "接受战斗的挑战。",
+      "check_type": "",
+      "check_sin": "",
+      "check_threshold": 0,
+      "success_outcomes": [],
+      "failure_outcomes": []
+    },
+    {
+      "choice_text": "不接受战斗的挑战。",
+      "check_type": "",
+      "check_sin": "",
+      "check_threshold": 0,
+      "success_outcomes": [],
+      "failure_outcomes": []
+    }
+  ],
+  "ego_gifts": [],
+  "related_abnormalities": [],
+  "trigger_location": "",
+  "_structured": true,
+  "id": "wiki_事件-木人桩挑战",
+  "url": "https://limbuscompany.huijiwiki.com/wiki/事件-木人桩挑战",
+  "categories": [
+    "战斗数据"
+  ],
+  "source": "wiki",
+  "_schema_version": 1
+}

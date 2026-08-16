@@ -1,0 +1,21 @@
+{
+  "id": "gift_9801",
+  "title": "强韧丸",
+  "url": "https://limbuscompany.huijiwiki.com/wiki/E.G.O饰品",
+  "categories": [
+    "E.G.O饰品"
+  ],
+  "content": "回合开始时，使体力上限最高的1名友方单位获得(本场战斗其受到来自敌方单位技能攻击的伤害次数)层防御等级提升(最多6层)。",
+  "source": "tabx",
+  "_structured": true,
+  "page_type": "ego_gift",
+  "gift_name": "强韧丸",
+  "rarity": 2,
+  "cost": "201",
+  "effect_types": "泛用",
+  "attack_type": "怠惰",
+  "location": "镜像迷宫",
+  "stage": "base",
+  "special": "四大家族与欲念",
+  "_schema_version": 1
+}

@@ -1,0 +1,78 @@
+{
+  "page_type": "enemy",
+  "title": "困难活动战斗LC-PC-04",
+  "enemy_name": "壳海狂奔者",
+  "battle_stage": "困难活动战斗LC-PC-04",
+  "body_part": "",
+  "hp": 78,
+  "defense_level": 46,
+  "speed_min": 3,
+  "speed_max": 5,
+  "chaos_threshold": "",
+  "physical_resistances": {
+    "斩击": 1.5,
+    "突刺": 1.5,
+    "打击": 1.5
+  },
+  "sin_resistances": {
+    "暴怒": 1.0,
+    "色欲": 1.0,
+    "怠惰": 1.25,
+    "暴食": 1.25,
+    "忧郁": 1.5,
+    "傲慢": 1.25,
+    "嫉妒": 1.0
+  },
+  "panic_types": [],
+  "passives": [
+    "深海的恐怖：攻击命中未带有 沉沦 的目标时，令自身增加的 沉沦 强度额外+1级"
+  ],
+  "skills": [
+    {
+      "skill_name": "撕咬",
+      "icon_id": "9102701",
+      "sin_type": "傲慢",
+      "damage_type": "斩击",
+      "base_value": 2,
+      "coin_power": 3,
+      "coin_count": 3,
+      "attack_level": 49,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[命中时] 使目标增加1级 沉沦 强度"
+      ]
+    },
+    {
+      "skill_name": "强袭",
+      "icon_id": "9102701",
+      "sin_type": "傲慢",
+      "damage_type": "斩击",
+      "base_value": 2,
+      "coin_power": 3,
+      "coin_count": 2,
+      "attack_level": 49,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[命中时] 使目标增加2级 沉沦 强度并对其施加2层 沉沦"
+      ]
+    }
+  ],
+  "is_ally": false,
+  "_structured": true,
+  "appear_stages": [
+    "困难活动战斗LC-PC-04",
+    "困难活动战斗LC-PC-05",
+    "活动战斗LC-PC-04",
+    "活动战斗LC-PC-05"
+  ],
+  "enemy_id": "困难活动战斗LC-PC-04|壳海狂奔者|",
+  "defense": 46,
+  "speed": "3~5",
+  "_schema_version": 1
+}

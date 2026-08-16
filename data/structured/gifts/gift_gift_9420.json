@@ -1,0 +1,21 @@
+{
+  "id": "gift_9420",
+  "title": "万花筒",
+  "url": "https://limbuscompany.huijiwiki.com/wiki/E.G.O饰品",
+  "categories": [
+    "E.G.O饰品"
+  ],
+  "content": "回合开始时，若有与自身属于同一阵营的友方单位，则获得层数相当于除自身以外属于同一阵营的友方单位数的攻击等级提升（最多4层）\n属于技术解放联盟的友方单位拼点威力+1",
+  "source": "tabx",
+  "_structured": true,
+  "page_type": "ego_gift",
+  "gift_name": "万花筒",
+  "rarity": 3,
+  "cost": "261",
+  "effect_types": "泛用",
+  "attack_type": "暴怒",
+  "location": "镜像迷宫",
+  "stage": "base",
+  "special": "落花",
+  "_schema_version": 1
+}

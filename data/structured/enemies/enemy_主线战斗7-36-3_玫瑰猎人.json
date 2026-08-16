@@ -1,0 +1,176 @@
+{
+  "page_type": "enemy",
+  "title": "主线战斗7-36-3",
+  "enemy_name": "玫瑰猎人",
+  "battle_stage": "主线战斗7-36-3",
+  "body_part": "躯干",
+  "hp": 2525,
+  "defense_level": 51,
+  "speed_min": 1,
+  "speed_max": 3,
+  "chaos_threshold": "1136/631",
+  "physical_resistances": {
+    "斩击": 1.5,
+    "突刺": 0.8,
+    "打击": 1.0
+  },
+  "sin_resistances": {
+    "暴怒": 1.5,
+    "色欲": 1.25,
+    "怠惰": 0.75,
+    "暴食": 1.0,
+    "忧郁": 0.5,
+    "傲慢": 1.25,
+    "嫉妒": 1.0
+  },
+  "panic_types": [],
+  "passives": [
+    "藤蔓缠绕的马: 根据生成的荆棘套索相应增加速度值",
+    "纠缠的棘蔓: 体力不高于体力上限的40%时，改变自身模式 每回合使全体敌方单位增加与其速度值相等的 破裂 强度 改为施加2层 荆棘套索 每经过一回合，使自身获得2层 攻击等级提升 并对自身施加2层 防御等级降低 (最多12层)",
+    "荆棘之鞭: 攻击前，若目标带有 破裂 ，则有20%的概率对目标施加1层 破裂 对目标施加 荆棘套索 时，生成荆棘套索。"
+  ],
+  "skills": [
+    {
+      "skill_name": "荆棘之鞭",
+      "icon_id": "837601",
+      "sin_type": "色欲",
+      "damage_type": "斩击",
+      "base_value": 4,
+      "coin_power": 9,
+      "coin_count": 2,
+      "attack_level": 50,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[使用时] 若目标的 破裂 强度不低于6级，则使本技能的拼点威力+1",
+        "[命中时] 使目标增加4级 破裂 强度"
+      ]
+    },
+    {
+      "skill_name": "挥鞭",
+      "icon_id": "837602",
+      "sin_type": "色欲",
+      "damage_type": "斩击",
+      "base_value": 5,
+      "coin_power": 9,
+      "coin_count": 3,
+      "attack_level": 50,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[使用时] 若目标的 破裂 强度不低于6级，则使本技能的硬币威力+1",
+        "[命中时] 若目标的 破裂 层数低于5层，则对其施加2层 破裂 - 若目标的 破裂 层数不低于5层，则改为使其增加2级 破裂 强度"
+      ]
+    },
+    {
+      "skill_name": "紧缚的荆棘之冠",
+      "icon_id": "837603",
+      "sin_type": "暴怒",
+      "damage_type": "穿刺",
+      "base_value": 5,
+      "coin_power": 987,
+      "coin_count": 2,
+      "attack_level": 51,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[使用时] 若目标的理智值不高于0点，则使本技能的拼点威力+3",
+        "[使用时] 目标每带有4级 破裂 强度，使本技能的硬币威力+1(最多+3)",
+        "[命中时] 对目标造成10点理智伤害 - 若目标的理智值不高于0点，则改为造成20点理智伤害"
+      ]
+    },
+    {
+      "skill_name": "收鞭",
+      "icon_id": "837604",
+      "sin_type": "暴怒",
+      "damage_type": "穿刺",
+      "base_value": 4,
+      "coin_power": 987,
+      "coin_count": 6,
+      "attack_level": 52,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[命中时] 若目标带有 荆棘套索 ，则使其增加2级 破裂 强度 - 若目标的 破裂 强度不低于10级，则改为对其施加2层 破裂",
+        "[命中时] 若目标带有 荆棘套索 ，则使其增加2级 破裂 强度 - 若目标的 破裂 强度不低于10级，则改为对其施加2层 破裂 不可摧毁的硬币",
+        "[命中时] 若目标带有 荆棘套索 ，则使本技能造成的伤害+50%"
+      ]
+    },
+    {
+      "skill_name": "荆棘套索",
+      "icon_id": "837605",
+      "sin_type": "暴食",
+      "damage_type": "穿刺",
+      "base_value": 4,
+      "coin_power": 854,
+      "coin_count": 2,
+      "attack_level": 54,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "使用时若自身的速度值高于目标，则使本技能的拼点威力+5",
+        "使用时目标每带有4级{{状态2|破裂|4=负面}}强度，使本技能的硬币威力+1(最多+2)",
+        "使用时根据带有{{状态2|荆棘套索|4=负面}}的目标数，使本技能的基础威力相应增加",
+        "4不可摧毁的硬币",
+        "命中时使目标增加4级{{状态2|破裂|4=负面}}强度并对其施加2层{{状态2|破裂|4=负面}}",
+        "命中时若目标陷入混乱或带有{{状态2|荆棘套索|4=负面}}，则使本硬币造成的伤害+30%",
+        "击杀敌方时使全体敌方单位增加(目标的{{状态2|破裂|4=负面}}层数×2)级{{状态2|破裂|4=负面}}强度(最多10级)"
+      ]
+    },
+    {
+      "skill_name": "鞭打",
+      "icon_id": "837606",
+      "sin_type": "怠惰",
+      "damage_type": "防御",
+      "base_value": 10,
+      "coin_power": 9703,
+      "coin_count": 1,
+      "attack_level": 0,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "战斗开始使自身获得现存体力(带有{{状态2|荆棘套索|4=负面}}的敌方单位数)%的护盾"
+      ]
+    },
+    {
+      "skill_name": "捉捕套索",
+      "icon_id": "837607",
+      "sin_type": "暴食",
+      "damage_type": "穿刺",
+      "base_value": 5,
+      "coin_power": 854,
+      "coin_count": 3,
+      "attack_level": 51,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[命中时] 对目标施加2层 破裂"
+      ]
+    }
+  ],
+  "is_ally": false,
+  "_structured": true,
+  "appear_stages": [
+    "主线战斗7-36-3",
+    "折射轨道5号线-第一区段-2",
+    "集中战斗-玫瑰骑士"
+  ],
+  "enemy_id": "主线战斗7-36-3|玫瑰猎人|躯干",
+  "defense": 51,
+  "speed": "1~3",
+  "_schema_version": 1
+}

@@ -1,0 +1,127 @@
+{
+  "page_type": "enemy",
+  "title": "折射轨道5号线-第三区段",
+  "enemy_name": "折射的绝望的血袋",
+  "battle_stage": "折射轨道5号线-第三区段",
+  "body_part": "躯干",
+  "hp": 115,
+  "defense_level": 48,
+  "speed_min": 1,
+  "speed_max": 2,
+  "chaos_threshold": "80/40/0",
+  "physical_resistances": {
+    "斩击": 1.0,
+    "突刺": 1.5,
+    "打击": 0.75
+  },
+  "sin_resistances": {
+    "暴怒": 1.25,
+    "色欲": 1.2,
+    "怠惰": 0.75,
+    "暴食": 1.0,
+    "忧郁": 1.25,
+    "傲慢": 1.0,
+    "嫉妒": 1.0
+  },
+  "panic_types": [
+    "渴血"
+  ],
+  "passives": [
+    "血之渴求: 优先指定带有 流血 的目标。 回合结束时，若本回合自身未造成伤害，则下回合对自身施加2层 易损 并使自身获得2层 攻击等级提升 。",
+    "折射的挣扎: 若与同一目标拼点不低于10次，则拼点判定时随机使自身的拼点威力增加或减少(拼点次数/10)。(向下取整)",
+    "生疏的吸血: 攻击命中时，若目标带有 流血 ，则使自身恢复伤害量5~10%的体力",
+    "血液硬化: 攻击后，若目标的 流血 强度不低于8级，则使自身获得1层 硬化血液",
+    "对血魔专用锤: 使用技能时，若目标的 破裂 强度不低于10级，则技能施加 破裂 的效果改为造成的伤害+30%"
+  ],
+  "skills": [
+    {
+      "skill_name": "硬血猛砸",
+      "icon_id": "9015801",
+      "sin_type": "嫉妒",
+      "damage_type": "打击",
+      "base_value": 4,
+      "coin_power": 5793,
+      "coin_count": 3,
+      "attack_level": 50,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[使用时] 若自身带有 硬化血液 且本技能的硬币带有施加 破裂 的效果，则额外对目标施加1层 流血",
+        "[命中时] 使目标增加3级 破裂 强度",
+        "[命中时] 使目标增加1级 流血 强度"
+      ]
+    },
+    {
+      "skill_name": "失去目的的暴怒",
+      "icon_id": "9015802",
+      "sin_type": "暴怒",
+      "damage_type": "打击",
+      "base_value": 5,
+      "coin_power": 987,
+      "coin_count": 4,
+      "attack_level": 50,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[使用时] 若目标的 流血 强度不低于5级，则使本技能的硬币威力+1",
+        "[使用时] 若自身的 硬化血液 层数不低于3层且本技能的硬币带有施加 破裂 的效果，则额外使目标增加2级 流血 强度",
+        "[命中时] 使目标增加1级 破裂 强度",
+        "[命中时] 使目标增加2级 流血 强度",
+        "[命中时] 若目标带有 流血 ，则使自身获得1层 硬化血液"
+      ]
+    },
+    {
+      "skill_name": "无节制下砍",
+      "icon_id": "9015803",
+      "sin_type": "色欲",
+      "damage_type": "打击",
+      "base_value": 4,
+      "coin_power": 9,
+      "coin_count": 5,
+      "attack_level": 50,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[使用时] 若目标的 流血 强度不低于5级，则使本技能的硬币威力+1",
+        "[命中时] 对目标施加2层 破裂",
+        "[命中时] 对目标施加1层 易损",
+        "[命中时] 使目标增加3级 破裂 强度",
+        "[命中时] 使目标增加1级 流血 强度",
+        "[命中时] 使目标增加2级 流血 强度",
+        "[命中时] 若目标的 流血 强度不低于10级，则使本硬币造成的伤害+20%"
+      ]
+    },
+    {
+      "skill_name": "防御",
+      "icon_id": "9015804",
+      "sin_type": "色欲",
+      "damage_type": "防御",
+      "base_value": 6,
+      "coin_power": 9,
+      "coin_count": 1,
+      "attack_level": 0,
+      "attack_weight": 1,
+      "is_guard": true,
+      "guard_type": "防御",
+      "importance": 0,
+      "coin_effects": [
+        "使用时若目标带有{{状态2|流血|4=负面}}，则使自身获得1层硬化血液"
+      ]
+    }
+  ],
+  "is_ally": false,
+  "_structured": true,
+  "appear_stages": [
+    "折射轨道5号线-第三区段"
+  ],
+  "enemy_id": "折射轨道5号线-第三区段|折射的绝望的血袋|躯干",
+  "defense": 48,
+  "speed": "1~2",
+  "_schema_version": 1
+}

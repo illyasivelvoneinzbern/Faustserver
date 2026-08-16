@@ -1,0 +1,38 @@
+{
+  "page_type": "event",
+  "title": "事件-输血袋",
+  "event_name": "输血袋",
+  "narration": "它将血分给需要的人。\n但是，能分出的也只有它自己的血。\n即便是不需要血的人\n它也会用剪刀放干对方的血，再注入自己的血液。\n正因如此，它的面前只有需要血的人。\n\n接受血液。\n它取下悬挂着的血袋递给我们。\n见我们接过血袋，\n它又迅速地挂起一个空血袋。\n那个血袋以异常的速度被充满了。\n仿佛结束了自己的使命，\n它像是什么也没发生过一般离开了我们。\n获得\n！\n\n捐献血液。\n突然，\n我仿佛感到了它一直在分出自己血液的无奈。\n我们决定将自己的血液分给它。\n“咯咯咯……”\n当我们告诉它我们要给它血时，\n它不悦地哭了起来。\n随后它朝着伸手的人举起剪刀，\n剪断了向它伸出的手。\n“咯咯咯……”\n它将身上连接着的许多管子中的一根\n插进了手的断面。\n断面上很快长出了新的手来，\n只剩下流出的鲜血留在地面上。\n全体友方单位恢复\n12点体力\n技能组内包含\n暴怒属性攻击技能\n的友方单位恢复\n15点体力",
+  "options": [
+    {
+      "choice_text": "接受血液。",
+      "check_type": "",
+      "check_sin": "",
+      "check_threshold": 0,
+      "success_outcomes": [],
+      "failure_outcomes": []
+    },
+    {
+      "choice_text": "捐献血液。",
+      "check_type": "",
+      "check_sin": "",
+      "check_threshold": 0,
+      "success_outcomes": [],
+      "failure_outcomes": []
+    }
+  ],
+  "ego_gifts": [],
+  "related_abnormalities": [
+    "白幕内涉及目前游戏未公开内容，仅供参考，请以后续实装内容为准。",
+    "님프",
+    "事件触发地点",
+    "镜像迷宫"
+  ],
+  "trigger_location": "",
+  "_structured": true,
+  "id": "wiki_事件-输血袋",
+  "url": "https://limbuscompany.huijiwiki.com/wiki/事件-输血袋",
+  "categories": [],
+  "source": "wiki",
+  "_schema_version": 1
+}

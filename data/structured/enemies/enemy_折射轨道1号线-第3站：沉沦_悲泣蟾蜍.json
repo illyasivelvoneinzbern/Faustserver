@@ -1,0 +1,164 @@
+{
+  "page_type": "enemy",
+  "title": "折射轨道1号线-第3站：沉沦",
+  "enemy_name": "悲泣蟾蜍",
+  "battle_stage": "折射轨道1号线-第3站：沉沦",
+  "body_part": "躯干",
+  "hp": 832,
+  "defense_level": 41,
+  "speed_min": 1,
+  "speed_max": 4,
+  "chaos_threshold": "",
+  "physical_resistances": {
+    "斩击": 0.75,
+    "突刺": 0.75,
+    "打击": 0.5
+  },
+  "sin_resistances": {
+    "暴怒": 0.75,
+    "色欲": 0.75,
+    "怠惰": 1.0,
+    "暴食": 1.0,
+    "忧郁": 0.75,
+    "傲慢": 1.0,
+    "嫉妒": 1.5
+  },
+  "panic_types": [],
+  "passives": [],
+  "skills": [
+    {
+      "skill_name": "呜咽拍击",
+      "icon_id": "851001",
+      "sin_type": "忧郁",
+      "damage_type": "打击",
+      "base_value": 3,
+      "coin_power": 6,
+      "coin_count": 1,
+      "attack_level": 1,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "使用时使目标失去15点理智值",
+        "1正面命中时使目标增加5级沉沦强度并对其施加5层沉沦"
+      ]
+    },
+    {
+      "skill_name": "悲恸拍击",
+      "icon_id": "851002",
+      "sin_type": "忧郁",
+      "damage_type": "打击",
+      "base_value": 4,
+      "coin_power": 7,
+      "coin_count": 1,
+      "attack_level": 1,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "拼点开始使目标恢复5点理智值",
+        "1{{Color|#93f13e|[常驻]}}造成显示伤害一半的理智伤害",
+        "{{Color|#93f13e|[常驻]}}不造成体力伤害"
+      ]
+    },
+    {
+      "skill_name": "呱呱",
+      "icon_id": "851008",
+      "sin_type": "",
+      "damage_type": "防御",
+      "base_value": 7,
+      "coin_power": 5,
+      "coin_count": 1,
+      "attack_level": 0,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "战斗开始使自身获得2层守护"
+      ]
+    },
+    {
+      "skill_name": "融化之眼",
+      "icon_id": "851003",
+      "sin_type": "忧郁",
+      "damage_type": "打击",
+      "base_value": 3,
+      "coin_power": 4,
+      "coin_count": 2,
+      "attack_level": 1,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "使用时使目标失去5点理智值",
+        "若目标的理智值不高于0点，则使本技能造成的伤害+10%"
+      ]
+    },
+    {
+      "skill_name": "眼球重摆",
+      "icon_id": "851005",
+      "sin_type": "忧郁",
+      "damage_type": "打击",
+      "base_value": 3,
+      "coin_power": 7,
+      "coin_count": 1,
+      "attack_level": 1,
+      "attack_weight": 3,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "拼点失败摧毁自身的所有技能"
+      ]
+    },
+    {
+      "skill_name": "融落之眼",
+      "icon_id": "851007",
+      "sin_type": "忧郁",
+      "damage_type": "打击",
+      "base_value": 4,
+      "coin_power": 7,
+      "coin_count": 1,
+      "attack_level": 1,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "{{Color|#26cfff|[使用时]}}使目标失去5点理智值",
+        "若目标的理智值不高于0点，则使本技能造成的伤害+10%"
+      ]
+    },
+    {
+      "skill_name": "席卷而来的忧郁",
+      "icon_id": "851004",
+      "sin_type": "忧郁",
+      "damage_type": "打击",
+      "base_value": 3,
+      "coin_power": 3,
+      "coin_count": 3,
+      "attack_level": 0,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "{{Color|#26cfff|[使用时]}}使目标失去5点理智值，"
+      ]
+    }
+  ],
+  "is_ally": false,
+  "_structured": true,
+  "appear_stages": [
+    "折射轨道1号线-第3站：沉沦",
+    "集中战斗-悲泣蟾蜍"
+  ],
+  "enemy_id": "折射轨道1号线-第3站：沉沦|悲泣蟾蜍|躯干",
+  "defense": 41,
+  "speed": "1~4",
+  "_schema_version": 1
+}

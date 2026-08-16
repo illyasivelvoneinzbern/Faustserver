@@ -1,0 +1,120 @@
+{
+  "page_type": "enemy",
+  "title": "困难活动战斗5.5-16",
+  "enemy_name": "昏昏欲睡的黑云会成员",
+  "battle_stage": "困难活动战斗5.5-16",
+  "body_part": "",
+  "hp": 136,
+  "defense_level": 50,
+  "speed_min": 2,
+  "speed_max": 4,
+  "chaos_threshold": "",
+  "physical_resistances": {
+    "斩击": 1.5,
+    "突刺": 0.75,
+    "打击": 1.0
+  },
+  "sin_resistances": {
+    "暴怒": 1.0,
+    "色欲": 1.0,
+    "怠惰": 1.0,
+    "暴食": 1.0,
+    "忧郁": 1.0,
+    "傲慢": 1.0,
+    "嫉妒": 1.0
+  },
+  "panic_types": [],
+  "passives": [
+    "锐利一击：命中时，使目标增加1级 流血 强度（每回合最多3次）",
+    "剜出：攻击技能对目标施加 流血 时，令其增加的 流血 强度额外+1级"
+  ],
+  "skills": [
+    {
+      "skill_name": "透斩",
+      "icon_id": "9011301",
+      "sin_type": "色欲",
+      "damage_type": "",
+      "base_value": 4,
+      "coin_power": 9,
+      "coin_count": 4,
+      "attack_level": 55,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[命中时] 使目标增加2级 流血 强度"
+      ]
+    },
+    {
+      "skill_name": "锐利一击",
+      "icon_id": "9011302",
+      "sin_type": "色欲",
+      "damage_type": "",
+      "base_value": 4,
+      "coin_power": 9,
+      "coin_count": 2,
+      "attack_level": 55,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[命中时] 对目标施加3层 流血",
+        "[命中时] 下回合对目标施加1层 麻痹"
+      ]
+    },
+    {
+      "skill_name": "发劲",
+      "icon_id": "9011303",
+      "sin_type": "暴怒",
+      "damage_type": "",
+      "base_value": 3,
+      "coin_power": 987,
+      "coin_count": 3,
+      "attack_level": 55,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[命中时] 对目标施加2层 流血"
+      ]
+    },
+    {
+      "skill_name": "防御",
+      "icon_id": "9011204",
+      "sin_type": "常规",
+      "damage_type": "",
+      "base_value": 5,
+      "coin_power": 79,
+      "coin_count": 1,
+      "attack_level": 0,
+      "attack_weight": 1,
+      "is_guard": true,
+      "guard_type": "防御",
+      "importance": 0,
+      "coin_effects": []
+    }
+  ],
+  "is_ally": false,
+  "_structured": true,
+  "appear_stages": [
+    "困难活动战斗5.5-16",
+    "困难活动战斗5.5-17",
+    "困难活动战斗5.5-18",
+    "困难活动战斗5.5-19",
+    "困难活动战斗5.5-20",
+    "困难活动战斗5.5-22",
+    "活动战斗5.5-16",
+    "活动战斗5.5-17",
+    "活动战斗5.5-18",
+    "活动战斗5.5-19",
+    "活动战斗5.5-20",
+    "活动战斗5.5-22"
+  ],
+  "enemy_id": "困难活动战斗5.5-16|昏昏欲睡的黑云会成员|",
+  "defense": 50,
+  "speed": "2~4",
+  "_schema_version": 1
+}

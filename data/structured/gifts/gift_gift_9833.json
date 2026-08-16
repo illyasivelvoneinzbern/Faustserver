@@ -1,0 +1,22 @@
+{
+  "id": "gift_9833",
+  "title": "银色的钥匙串",
+  "url": "https://limbuscompany.huijiwiki.com/wiki/E.G.O饰品",
+  "categories": [
+    "E.G.O饰品"
+  ],
+  "content": "头目遭遇战中，回合开始时获得持有量最少的3种E.G.O资源各1个\n回合结束时，若本回合使用了E.G.O技能，则获得3个持有量最少的E.G.O资源(每回合最多1次)",
+  "source": "tabx",
+  "_structured": true,
+  "page_type": "ego_gift",
+  "gift_name": "银色的钥匙串",
+  "rarity": 4,
+  "cost": "400",
+  "effect_types": "泛用",
+  "attack_type": "怠惰",
+  "location": "善意的巡礼",
+  "stage": "base",
+  "special": "善意的巡礼",
+  "event": "事件-灯塔守卫者与大静谧的故事",
+  "_schema_version": 1
+}

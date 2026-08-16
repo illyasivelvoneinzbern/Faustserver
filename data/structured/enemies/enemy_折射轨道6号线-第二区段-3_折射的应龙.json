@@ -1,0 +1,221 @@
+{
+  "page_type": "enemy",
+  "title": "折射轨道6号线-第二区段-3",
+  "enemy_name": "折射的应龙",
+  "battle_stage": "折射轨道6号线-第二区段-3",
+  "body_part": "",
+  "hp": 3046,
+  "defense_level": 70,
+  "speed_min": 1,
+  "speed_max": 1,
+  "chaos_threshold": "2132 / 913 / 0",
+  "physical_resistances": {
+    "斩击": 0.8,
+    "突刺": 0.8,
+    "打击": 0.8
+  },
+  "sin_resistances": {
+    "暴怒": 1.0,
+    "色欲": 0.75,
+    "怠惰": 0.75,
+    "暴食": 1.25,
+    "忧郁": 1.25,
+    "傲慢": 1.0,
+    "嫉妒": 1.25
+  },
+  "panic_types": [],
+  "passives": [
+    "污秽之躯: 所有部位变为可破坏和不可截除状态 被破坏的部位3回合后以体力上限30%的体力再生",
+    "一楔之命: 葬花楔部位未被破坏时，自身不会阵亡",
+    "梅花盛开: 关卡开始时，使自身获得3层 葬花针 回合结束时，下回合使自身获得1层 葬花针 每当被动效果“震怒”触发时，令自身通过本效果获得的 葬花针 额外+1层 - 逆鳞被破坏时，重置额外获得的 葬花针 层数",
+    "震怒: 逆鳞部位仅受到以自身为主要目标的技能的伤害，而不会受到其他伤害 当逆鳞部位受到攻击时，下回合从行动槽中移除逆鳞部位，且每通过技能“逆鳞之祸”消耗1层 葬花针 ，使自身获得1层 攻击等级提升 并对自身施加1层 防御等级降低",
+    "龙鳞: 不受 迅捷 与 束缚 影响 受到 烧伤 、 流血 、 震颤 、 破裂 与 沉沦 的体力伤害与混乱阈值前移量-50%",
+    "损坏的鳞: 逆鳞部位被破坏时，被动效果“震怒”不会触发 逆鳞部位被破坏时，使所有部位获得3层 攻击等级提升 并对所有部位施加6层 防御等级降低",
+    "受损的头: 头部部位被破坏时，每回合对所有部位施加2层 易损",
+    "折射的挣扎: 无"
+  ],
+  "skills": [
+    {
+      "skill_name": "龙之楔",
+      "icon_id": "956901",
+      "sin_type": "暴食",
+      "damage_type": "守备",
+      "base_value": 10,
+      "coin_power": 854,
+      "coin_count": 3,
+      "attack_level": 0,
+      "attack_weight": 1,
+      "is_guard": true,
+      "guard_type": "防御",
+      "importance": 0,
+      "coin_effects": [
+        "可拼点防御",
+        "战斗开始下回合使自身获得1层葬花楔（敌方）",
+        "拼点失败取消战斗开始时效果。下回合使自身获得3层忍耐",
+        "1不可摧毁的硬币"
+      ]
+    },
+    {
+      "skill_name": "逆鳞之祸",
+      "icon_id": "956902",
+      "sin_type": "暴怒",
+      "damage_type": "突刺",
+      "base_value": 5,
+      "coin_power": 987,
+      "coin_count": 5,
+      "attack_level": 63,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[使用时] 消耗自身所有 葬花针 并重复使用本技能的最后一枚硬币(消耗的 葬花针 层数)次(最多5次)",
+        "[命中时] 对目标造成5点理智伤害",
+        "[命中时] 对目标施加2层 破裂"
+      ]
+    },
+    {
+      "skill_name": "闪雷",
+      "icon_id": "956903",
+      "sin_type": "暴食",
+      "damage_type": "突刺",
+      "base_value": 4,
+      "coin_power": 854,
+      "coin_count": 5,
+      "attack_level": 63,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[使用时] 若主要目标的理智值低于35点，则使本技能的基础威力+1",
+        "[命中时] 使目标增加2级 破裂 强度"
+      ]
+    },
+    {
+      "skill_name": "龙吟",
+      "icon_id": "956904",
+      "sin_type": "暴食",
+      "damage_type": "突刺",
+      "base_value": 5,
+      "coin_power": 854,
+      "coin_count": 5,
+      "attack_level": 63,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[使用时] 若主要目标的理智值低于35点，则使本技能的硬币威力+1",
+        "[命中时] 对目标施加2层 破裂"
+      ]
+    },
+    {
+      "skill_name": "落针",
+      "icon_id": "956905",
+      "sin_type": "暴怒",
+      "damage_type": "突刺",
+      "base_value": 6,
+      "coin_power": 987,
+      "coin_count": 3,
+      "attack_level": 63,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[使用时] 自身 每带有2层 葬花针 ，使本技能的基础威力+1",
+        "[使用时] 若目标带有 束缚 或 麻痹 ，则使本技能的基础威力+2",
+        "[使用时] 若自身的 葬花针 层数不低于5层 ，则使本技能的硬币威力+1",
+        "[使用时] 下回合召唤葬花针",
+        "[命中时] 对目标造成5点理智伤害",
+        "[命中时] 使目标增加3级 破裂 强度并对其施加2层 破裂"
+      ]
+    },
+    {
+      "skill_name": "龙卷",
+      "icon_id": "956906",
+      "sin_type": "忧郁",
+      "damage_type": "突刺",
+      "base_value": 5,
+      "coin_power": 3,
+      "coin_count": 4,
+      "attack_level": 64,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[使用时] 若主要目标带有 束缚 或 麻痹 ，则使本技能的硬币威力+1",
+        "[命中时] 对目标施加2层 破裂",
+        "[命中时] 对目标施加1层 龙血",
+        "[命中时] 使目标增加2级 破裂 强度"
+      ]
+    },
+    {
+      "skill_name": "积雨",
+      "icon_id": "956907",
+      "sin_type": "暴怒",
+      "damage_type": "突刺",
+      "base_value": 5,
+      "coin_power": 987,
+      "coin_count": 6,
+      "attack_level": 65,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[使用时] 自身 每带有1层 葬花针 ，使本技能的基础威力+1",
+        "[使用时] 若自身的 葬花针 层数不低于5层 ，则使本技能的硬币威力+1，攻击容量+1",
+        "[命中时] 对目标造成5点理智伤害 不可摧毁的硬币",
+        "[命中时] 若自身的 葬花针 层数不低于5层，则重复使用本硬币 (每个技能最多1次)"
+      ]
+    },
+    {
+      "skill_name": "落雷",
+      "icon_id": "956908",
+      "sin_type": "傲慢",
+      "damage_type": "突刺",
+      "base_value": 18,
+      "coin_power": 3,
+      "coin_count": 2,
+      "attack_level": 63,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[命中时] 使目标增加5级 破裂 强度并对其施加3层 破裂",
+        "[命中时] 以50%的概率在下回合对目标施加1层 麻痹"
+      ]
+    },
+    {
+      "skill_name": "龙泪成涛",
+      "icon_id": "956909",
+      "sin_type": "暴食",
+      "damage_type": "突刺",
+      "base_value": 10,
+      "coin_power": 854,
+      "coin_count": 11,
+      "attack_level": 65,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[使用时] 直到本技能结束，自身不会因受到伤害而陷入混乱",
+        "[使用时] 自身 每带有1层 葬花楔 ，使本技能的硬币威力+1，攻击容量+1 - 若自身的 葬花楔 层数为最大值，则额外使本技能造成的伤害+100%"
+      ]
+    }
+  ],
+  "is_ally": false,
+  "_structured": true,
+  "appear_stages": [
+    "折射轨道6号线-第二区段-3"
+  ],
+  "enemy_id": "折射轨道6号线-第二区段-3|折射的应龙|",
+  "defense": 70,
+  "speed": "1~1",
+  "_schema_version": 1
+}

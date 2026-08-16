@@ -1,0 +1,20 @@
+{
+  "id": "gift_9799",
+  "title": "某种哲学",
+  "url": "https://limbuscompany.huijiwiki.com/wiki/E.G.O饰品",
+  "categories": [
+    "E.G.O饰品"
+  ],
+  "content": "饰品合成概率固定为100%",
+  "source": "tabx",
+  "_structured": true,
+  "page_type": "ego_gift",
+  "gift_name": "某种哲学",
+  "rarity": 6,
+  "cost": "999",
+  "effect_types": "泛用",
+  "attack_type": "怠惰",
+  "location": "镜像迷宫",
+  "stage": "base",
+  "_schema_version": 1
+}

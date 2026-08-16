@@ -1,0 +1,21 @@
+{
+  "id": "gift_2028",
+  "title": "锈蚀的刀柄",
+  "url": "https://limbuscompany.huijiwiki.com/wiki/E.G.O饰品",
+  "categories": [
+    "E.G.O饰品"
+  ],
+  "content": "回合开始时，使全体友方单位获得1层斩击威力提升。\n属于剑契组或黑云会的友方单位改为获得2层斩击威力提升。",
+  "source": "tabx",
+  "_structured": true,
+  "page_type": "ego_gift",
+  "gift_name": "锈蚀的刀柄",
+  "rarity": 3,
+  "cost": "235",
+  "effect_types": "暂无分类",
+  "attack_type": "嫉妒",
+  "location": "肉斩骨断",
+  "stage": "base",
+  "event": "事件-生锈的刀柄",
+  "_schema_version": 1
+}

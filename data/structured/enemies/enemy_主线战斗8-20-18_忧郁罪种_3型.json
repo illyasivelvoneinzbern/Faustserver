@@ -1,0 +1,116 @@
+{
+  "page_type": "enemy",
+  "title": "主线战斗8-20-18",
+  "enemy_name": "忧郁罪种 3型",
+  "battle_stage": "主线战斗8-20-18",
+  "body_part": "躯干",
+  "hp": 563,
+  "defense_level": 50,
+  "speed_min": 2,
+  "speed_max": 5,
+  "chaos_threshold": "112",
+  "physical_resistances": {
+    "斩击": 0.5,
+    "突刺": 0.5,
+    "打击": 0.5
+  },
+  "sin_resistances": {
+    "暴怒": 0.5,
+    "色欲": 0.8,
+    "怠惰": 0.8,
+    "暴食": 1.5,
+    "忧郁": 0.5,
+    "傲慢": 1.0,
+    "嫉妒": 1.75
+  },
+  "panic_types": [],
+  "passives": [
+    "罪孽抵抗: 除非自身陷入混乱或部位被破坏，否则自身受到的 沉沦 伤害-80%。",
+    "传染的忧郁: 回合开始时，使除理智值最高的1名敌方单位以外的全体敌方单位增加5级 沉沦 强度 攻击后若敌方单位阵亡，则使全体敌方单位失去10点理智值，使其增加3级 沉沦 强度并对其施加2层 沉沦"
+  ],
+  "skills": [
+    {
+      "skill_name": "蚕食冲撞",
+      "icon_id": "108101",
+      "sin_type": "忧郁",
+      "damage_type": "穿刺",
+      "base_value": 5,
+      "coin_power": 3,
+      "coin_count": 3,
+      "attack_level": 50,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[使用时] 若目标的 沉沦 强度不低于5级，则使本技能的基础威力+1 不可摧毁的硬币",
+        "[命中时] 使目标增加2级 沉沦 强度并对其施加2层 沉沦"
+      ]
+    },
+    {
+      "skill_name": "激流",
+      "icon_id": "108102",
+      "sin_type": "忧郁",
+      "damage_type": "穿刺",
+      "base_value": 4,
+      "coin_power": 3,
+      "coin_count": 2,
+      "attack_level": 50,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[使用时] 若目标带有 沉沦 ，则使本技能的基础威力+2",
+        "[命中时] 使目标增加8级 沉沦 强度",
+        "[命中时] 随机使2名目标增加4级 沉沦 强度并对其施加2层 沉沦"
+      ]
+    },
+    {
+      "skill_name": "漫溢的忧郁",
+      "icon_id": "108103",
+      "sin_type": "忧郁",
+      "damage_type": "穿刺",
+      "base_value": 6,
+      "coin_power": 3,
+      "coin_count": 4,
+      "attack_level": 50,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[使用时] 目标每带有3级 沉沦 强度，则使本技能的硬币威力+1（最高+3）",
+        "[命中时] 使目标增加5级 沉沦 强度并对其施加4层 沉沦",
+        "[命中时] 目标每带有3级 沉沦 强度，使本技能下一枚硬币的威力+1(最多+3) 不可摧毁的硬币"
+      ]
+    },
+    {
+      "skill_name": "闪避",
+      "icon_id": "108104",
+      "sin_type": "忧郁",
+      "damage_type": "闪避",
+      "base_value": 3,
+      "coin_power": 3,
+      "coin_count": 1,
+      "attack_level": 0,
+      "attack_weight": 1,
+      "is_guard": true,
+      "guard_type": "闪避",
+      "importance": 0,
+      "coin_effects": [
+        "闪避成功时使目标失去5点理智值"
+      ]
+    }
+  ],
+  "is_ally": false,
+  "_structured": true,
+  "appear_stages": [
+    "主线战斗8-20-18",
+    "折射轨道5号线-第一区段-3"
+  ],
+  "enemy_id": "主线战斗8-20-18|忧郁罪种 3型|躯干",
+  "defense": 50,
+  "speed": "2~5",
+  "_schema_version": 1
+}

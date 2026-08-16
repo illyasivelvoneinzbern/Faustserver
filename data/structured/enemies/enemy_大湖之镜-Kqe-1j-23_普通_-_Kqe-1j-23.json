@@ -1,0 +1,192 @@
+{
+  "page_type": "enemy",
+  "title": "大湖之镜-Kqe-1j-23",
+  "enemy_name": "普通 - Kqe-1j-23",
+  "battle_stage": "大湖之镜-Kqe-1j-23",
+  "body_part": "躯干",
+  "hp": 889,
+  "defense_level": 46,
+  "speed_min": 1,
+  "speed_max": 5,
+  "chaos_threshold": "",
+  "physical_resistances": {
+    "斩击": 1.0,
+    "突刺": 1.5,
+    "打击": 0.75
+  },
+  "sin_resistances": {
+    "暴怒": 0.75,
+    "色欲": 1.5,
+    "怠惰": 1.0,
+    "暴食": 1.0,
+    "忧郁": 1.5,
+    "傲慢": 1.0,
+    "嫉妒": 0.5
+  },
+  "panic_types": [],
+  "passives": [],
+  "skills": [
+    {
+      "skill_name": "准备小镇参观流程",
+      "icon_id": "851901",
+      "sin_type": "忧郁",
+      "damage_type": "打击",
+      "base_value": 5,
+      "coin_power": 3,
+      "coin_count": 1,
+      "attack_level": 45,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "{{Color|#26cfff|[使用时]}}使自身获得4层充能"
+      ]
+    },
+    {
+      "skill_name": "欢迎参观小镇",
+      "icon_id": "851902",
+      "sin_type": "忧郁",
+      "damage_type": "打击",
+      "base_value": 6,
+      "coin_power": 3,
+      "coin_count": 3,
+      "attack_level": 45,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "2{{Color|#c7ff94|[正面命中时]}}下回合对目标施加1层加算硬币弱化"
+      ]
+    },
+    {
+      "skill_name": "请您配合!",
+      "icon_id": "851903",
+      "sin_type": "嫉妒",
+      "damage_type": "打击",
+      "base_value": 8,
+      "coin_power": 5793,
+      "coin_count": 2,
+      "attack_level": 45,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[命中时] 下回合对目标施加3层 麻痹"
+      ]
+    },
+    {
+      "skill_name": "处理小镇移居申请",
+      "icon_id": "851904",
+      "sin_type": "嫉妒",
+      "damage_type": "打击",
+      "base_value": 16,
+      "coin_power": 5793,
+      "coin_count": 2,
+      "attack_level": 45,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[使用时] 消耗所有 充能",
+        "[命中时] 对目标施加 禁锢"
+      ]
+    },
+    {
+      "skill_name": "请多多关照，亲爱的邻居",
+      "icon_id": "851905",
+      "sin_type": "嫉妒",
+      "damage_type": "打击",
+      "base_value": 20,
+      "coin_power": 5793,
+      "coin_count": 2,
+      "attack_level": 45,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[命中时] 使目标增加10级 烧伤 强度"
+      ]
+    },
+    {
+      "skill_name": "检测到系统错误",
+      "icon_id": "851906",
+      "sin_type": "嫉妒",
+      "damage_type": "打击",
+      "base_value": 4,
+      "coin_power": 5793,
+      "coin_count": 3,
+      "attack_level": 45,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[命中时] 消耗2层 充能 并使目标增加5级 烧伤 强度"
+      ]
+    },
+    {
+      "skill_name": "正在进行计算处理",
+      "icon_id": "851907",
+      "sin_type": "常规",
+      "damage_type": "防御",
+      "base_value": 10,
+      "coin_power": 79,
+      "coin_count": 1,
+      "attack_level": 0,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "使用时使自身获得5层守护"
+      ]
+    },
+    {
+      "skill_name": "正在重新启动……",
+      "icon_id": "851907",
+      "sin_type": "常规",
+      "damage_type": "防御",
+      "base_value": 4,
+      "coin_power": 79,
+      "coin_count": 1,
+      "attack_level": 0,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": []
+    },
+    {
+      "skill_name": "处理小镇新移居申请",
+      "icon_id": "851904",
+      "sin_type": "嫉妒",
+      "damage_type": "打击",
+      "base_value": 7,
+      "coin_power": 5793,
+      "coin_count": 2,
+      "attack_level": 45,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[使用时] 消耗所有 充能",
+        "[命中时] 对目标施加 禁锢"
+      ]
+    }
+  ],
+  "is_ally": false,
+  "_structured": true,
+  "appear_stages": [
+    "大湖之镜-Kqe-1j-23"
+  ],
+  "enemy_id": "大湖之镜-Kqe-1j-23|普通 - Kqe-1j-23|躯干",
+  "defense": 46,
+  "speed": "1~5",
+  "_schema_version": 1
+}

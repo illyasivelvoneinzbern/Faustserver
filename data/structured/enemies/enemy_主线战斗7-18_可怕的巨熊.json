@@ -1,0 +1,132 @@
+{
+  "page_type": "enemy",
+  "title": "主线战斗7-18",
+  "enemy_name": "可怕的巨熊",
+  "battle_stage": "主线战斗7-18",
+  "body_part": "",
+  "hp": 636,
+  "defense_level": 51,
+  "speed_min": 1,
+  "speed_max": 2,
+  "chaos_threshold": "",
+  "physical_resistances": {
+    "斩击": 1.5,
+    "突刺": 1.5,
+    "打击": 1.0
+  },
+  "sin_resistances": {
+    "暴怒": 1.0,
+    "色欲": 1.0,
+    "怠惰": 1.0,
+    "暴食": 1.0,
+    "忧郁": 1.0,
+    "傲慢": 1.0,
+    "嫉妒": 1.0
+  },
+  "panic_types": [],
+  "passives": [
+    "不会无聊的战斗：造成的伤害+15%",
+    "连人都吃的熊：对现存体力不高于50%的目标造成的伤害+25%",
+    "可怕：进行拼点时，可能使目标减少1点理智值"
+  ],
+  "skills": [
+    {
+      "skill_name": "“嘎嗷嗷”",
+      "icon_id": "9016101",
+      "sin_type": "暴怒",
+      "damage_type": "打击",
+      "base_value": 4,
+      "coin_power": 987,
+      "coin_count": 2,
+      "attack_level": 46,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[命中时] 使目标增加2级 破裂 强度"
+      ]
+    },
+    {
+      "skill_name": "“嘎呜呜”",
+      "icon_id": "9016102",
+      "sin_type": "暴食",
+      "damage_type": "斩击",
+      "base_value": 4,
+      "coin_power": 854,
+      "coin_count": 3,
+      "attack_level": 46,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[命中时] 使目标增加1级 破裂 强度",
+        "[命中时] 使目标增加2级 流血 强度"
+      ]
+    },
+    {
+      "skill_name": "不是，所以…“嘎嗷嗷”",
+      "icon_id": "9016103",
+      "sin_type": "怠惰",
+      "damage_type": "斩击",
+      "base_value": 4,
+      "coin_power": 9703,
+      "coin_count": 4,
+      "attack_level": 46,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[使用时] 若目标的 流血 强度不低于5级，则使本技能的硬币威力+1",
+        "[命中时] 对目标施加1层 易损",
+        "[命中时] 使目标增加2级 破裂 强度",
+        "[命中时] 使目标增加2级 流血 强度"
+      ]
+    },
+    {
+      "skill_name": "…",
+      "icon_id": "9016104",
+      "sin_type": "怠惰",
+      "damage_type": "防御",
+      "base_value": 10,
+      "coin_power": 9703,
+      "coin_count": 1,
+      "attack_level": 0,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "使用时使自身获得1层守护"
+      ]
+    },
+    {
+      "skill_name": "喂，我还得继续下去吗？",
+      "icon_id": "9016105",
+      "sin_type": "怠惰",
+      "damage_type": "防御",
+      "base_value": 8,
+      "coin_power": 9703,
+      "coin_count": 1,
+      "attack_level": 0,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "使用时下回合使自身获得1层强壮"
+      ]
+    }
+  ],
+  "is_ally": false,
+  "_structured": true,
+  "appear_stages": [
+    "主线战斗7-18"
+  ],
+  "enemy_id": "主线战斗7-18|可怕的巨熊|",
+  "defense": 51,
+  "speed": "1~2",
+  "_schema_version": 1
+}

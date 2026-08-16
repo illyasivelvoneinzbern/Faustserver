@@ -1,0 +1,21 @@
+{
+  "id": "gift_1013",
+  "title": "玩具螺丝",
+  "url": "https://limbuscompany.huijiwiki.com/wiki/E.G.O饰品",
+  "categories": [
+    "E.G.O饰品"
+  ],
+  "content": "全体友方单位的体力上限+10%。",
+  "source": "tabx",
+  "_structured": true,
+  "page_type": "ego_gift",
+  "gift_name": "玩具螺丝",
+  "rarity": 0,
+  "cost": "0",
+  "effect_types": "",
+  "attack_type": "傲慢",
+  "location": "第二章",
+  "stage": "base",
+  "event": "事件-可疑的闪光自动贩卖机",
+  "_schema_version": 1
+}

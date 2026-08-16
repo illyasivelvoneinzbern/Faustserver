@@ -1,0 +1,116 @@
+{
+  "page_type": "enemy",
+  "title": "活动战斗7.5-25",
+  "enemy_name": "都市清道夫 A",
+  "battle_stage": "活动战斗7.5-25",
+  "body_part": "",
+  "hp": 90,
+  "defense_level": 50,
+  "speed_min": 2,
+  "speed_max": 6,
+  "chaos_threshold": "",
+  "physical_resistances": {
+    "斩击": 1.0,
+    "突刺": 1.5,
+    "打击": 1.0
+  },
+  "sin_resistances": {
+    "暴怒": 1.0,
+    "色欲": 1.0,
+    "怠惰": 1.0,
+    "暴食": 1.25,
+    "忧郁": 1.0,
+    "傲慢": 1.0,
+    "嫉妒": 1.0
+  },
+  "panic_types": [
+    "后巷深宵",
+    "强壮",
+    "体力恢复提升",
+    "易损",
+    "后巷深宵",
+    "强壮",
+    "体力恢复提升",
+    "易损"
+  ],
+  "passives": [
+    "液态躯体：受到的伤害-10%",
+    "清理尸体：回合结束时，若本回合有单位阵亡，则使自身恢复体力上限5%的体力 击杀敌方单位时，使自身恢复体力上限2~5%的体力",
+    "为了家人：回合结束时，使自身恢复相当于存活的清道夫点理智值",
+    "后巷深宵：若在第2波次后登场，则登场时带有30点理智值"
+  ],
+  "skills": [
+    {
+      "skill_name": "抽取燃料",
+      "icon_id": "9018701",
+      "sin_type": "暴怒",
+      "damage_type": "",
+      "base_value": 0,
+      "coin_power": 4,
+      "coin_count": 3,
+      "attack_level": 50,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "coin_effects": [
+        "[命中时] 使目标增加2级 流血 强度",
+        "[命中时] 对目标施加2层 流血",
+        "[命中时] 恢复2点体力"
+      ]
+    },
+    {
+      "skill_name": "清扫后巷",
+      "icon_id": "9018702",
+      "sin_type": "暴怒",
+      "damage_type": "",
+      "base_value": 0,
+      "coin_power": 4,
+      "coin_count": 3,
+      "attack_level": 50,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "coin_effects": [
+        "[命中时] 对目标施加2层 麻痹",
+        "[命中时] 使目标增加2级 流血 强度"
+      ]
+    },
+    {
+      "skill_name": "垃圾处理",
+      "icon_id": "9018703",
+      "sin_type": "傲慢",
+      "damage_type": "穿刺",
+      "base_value": 4,
+      "coin_power": 5,
+      "coin_count": 2,
+      "attack_level": 3,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "coin_effects": []
+    },
+    {
+      "skill_name": "333..1973",
+      "icon_id": "9018704",
+      "sin_type": "色欲",
+      "damage_type": "斩击",
+      "base_value": 0,
+      "coin_power": 4,
+      "coin_count": 5,
+      "attack_level": 50,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "coin_effects": [
+        "[命中时] 使自身混乱阈值后移5 不可摧毁的硬币 - 此类硬币不会因为拼点失败而被摧毁 - 若攻击技能带有此类硬币，则受到攻击后以此类硬币进行攻击 - 拼点失败时，使此类硬币的硬币威力固定为1",
+        "[命中时] 对目标施加3层 流血"
+      ]
+    }
+  ],
+  "is_ally": false,
+  "_structured": true,
+  "enemy_id": "活动战斗7.5-25|都市清道夫 A",
+  "defense": 50,
+  "speed": "2~6",
+  "_schema_version": 1
+}

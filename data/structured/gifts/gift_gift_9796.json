@@ -1,0 +1,22 @@
+{
+  "id": "gift_9796",
+  "title": "憋闷的吐息",
+  "url": "https://limbuscompany.huijiwiki.com/wiki/E.G.O饰品",
+  "categories": [
+    "E.G.O饰品"
+  ],
+  "content": "若第5顺位友方单位的呼吸法强度与呼吸法层数之和不低于50级，则其技能拼点胜利或单方面攻击时，该技能中的所有硬币必定朝向正面(若是减算硬币，则改为反面)，并使该技能暴击时造成的伤害+80%(每场战斗最多1次，不包括E.G.O技能)\n若编入的拥有增加呼吸法强度或获得呼吸法层数的攻击技能的友方单位不低于5名，则使第5顺位友方单位暴击时造成的伤害+60%(每额外编入1名符合以上条件的友方单位，使暴击时造成的伤害额外+20%，包括待命人员)",
+  "source": "tabx",
+  "_structured": true,
+  "page_type": "ego_gift",
+  "gift_name": "憋闷的吐息",
+  "rarity": 4,
+  "cost": "400",
+  "effect_types": "呼吸法",
+  "attack_type": "嫉妒",
+  "location": "镜像迷宫",
+  "stage": "base",
+  "special": "5号线",
+  "event": "事件-折射的往昔的睡袋",
+  "_schema_version": 1
+}

@@ -1,0 +1,21 @@
+{
+  "id": "gift_9212",
+  "title": "万恶之终结",
+  "url": "https://limbuscompany.huijiwiki.com/wiki/E.G.O饰品",
+  "categories": [
+    "E.G.O饰品"
+  ],
+  "content": "若属于裴廓德号的友方单位不低于3名，则触发该效果(包括待命人员)\n攻击技能命中带有流血或特殊流血的敌方单位时，使自身增加3级呼吸法强度或获得2层呼吸法(每回合每名友方单位最多3次)\n技能命中并触发暴击时，以80%的概率在下回合使自身获得1层突刺威力提升(每回合每名友方单位最多2次，包括E.G.O技能与反击技能)\n- 若该友方单位属于裴廓德号，则下回合使其额外获得1层加算硬币强化(每回合每名友方单位最多1次)",
+  "source": "tabx",
+  "_structured": true,
+  "page_type": "ego_gift",
+  "gift_name": "万恶之终结",
+  "rarity": 4,
+  "cost": "399",
+  "effect_types": "呼吸法",
+  "attack_type": "傲慢",
+  "location": "镜像迷宫",
+  "stage": "base",
+  "special": "伏行深渊合成",
+  "_schema_version": 1
+}

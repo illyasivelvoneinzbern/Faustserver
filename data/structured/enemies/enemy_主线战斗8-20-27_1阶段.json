@@ -1,0 +1,191 @@
+{
+  "page_type": "enemy",
+  "title": "主线战斗8-20-27",
+  "enemy_name": "1阶段",
+  "battle_stage": "主线战斗8-20-27",
+  "body_part": "躯干",
+  "hp": 267,
+  "defense_level": 60,
+  "speed_min": 2,
+  "speed_max": 5,
+  "chaos_threshold": "200/133/66",
+  "physical_resistances": {
+    "斩击": 0.5,
+    "突刺": 1.0,
+    "打击": 1.0
+  },
+  "sin_resistances": {
+    "暴怒": 1.0,
+    "色欲": 1.0,
+    "怠惰": 1.0,
+    "暴食": 1.0,
+    "忧郁": 1.0,
+    "傲慢": 1.0,
+    "嫉妒": 1.0
+  },
+  "panic_types": [
+    "暗算"
+  ],
+  "passives": [
+    "贾丘的试炼: 首个回合开始时，使自身获得 抑制杀气 鸿璐阵亡时，战斗结束",
+    "脚力[卯]: 攻击命中带有 咒杀【迅捷】 的敌方单位时，对其施加1层 破裂 (每回合最多3次)",
+    "气势[卯]: 攻击速度值低于自身的目标时，使其增加的 破裂 强度或对其施加的 破裂 层数额外+1",
+    "压制[卯]: 若自身的速度值高于目标至少3点，则使自身的硬币威力+1",
+    "奇袭失败: 回合结束时，若本回合自身拼点失败，则下回合对自身施加2层 束缚"
+  ],
+  "skills": [
+    {
+      "skill_name": "先发制人",
+      "icon_id": "9018501",
+      "sin_type": "色欲",
+      "damage_type": "",
+      "base_value": 4,
+      "coin_power": 9,
+      "coin_count": 2,
+      "attack_level": 62,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[使用时] 若目标的 破裂 强度不低于3级，则使本技能的拼点威力+1",
+        "[命中时] 对目标施加2层 破裂"
+      ]
+    },
+    {
+      "skill_name": "抑制",
+      "icon_id": "9018502",
+      "sin_type": "暴怒",
+      "damage_type": "",
+      "base_value": 4,
+      "coin_power": 987,
+      "coin_count": 4,
+      "attack_level": 63,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[使用时] 若目标的 破裂 强度不低于4级，则使本技能的基础威力+1",
+        "[命中时] 使目标增加2级 破裂 强度 不可摧毁的硬币",
+        "[命中时] 使目标增加2级 破裂 强度"
+      ]
+    },
+    {
+      "skill_name": "迅击",
+      "icon_id": "9018503",
+      "sin_type": "暴食",
+      "damage_type": "",
+      "base_value": 4,
+      "coin_power": 854,
+      "coin_count": 5,
+      "attack_level": 64,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[使用时] 若目标的 破裂 强度不低于4级，则使本技能的硬币威力+1",
+        "[命中时] 对目标施加1层 破裂",
+        "[命中时] 使目标增加2级 破裂 强度",
+        "[命中时] 对目标施加 咒杀【迅捷】 不可摧毁的硬币 若目标带有 咒杀【迅捷】 ，则使本硬币造成的伤害+50%"
+      ]
+    },
+    {
+      "skill_name": "准备动作",
+      "icon_id": "9018504",
+      "sin_type": "傲慢",
+      "damage_type": "",
+      "base_value": 4,
+      "coin_power": 3,
+      "coin_count": 1,
+      "attack_level": 0,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": []
+    },
+    {
+      "skill_name": "追击",
+      "icon_id": "9018601",
+      "sin_type": "色欲",
+      "damage_type": "",
+      "base_value": 4,
+      "coin_power": 9,
+      "coin_count": 2,
+      "attack_level": 62,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[使用时] 若目标的 破裂 强度不低于3级，则使本技能的拼点威力+1",
+        "[命中时] 使目标增加2级 破裂 强度"
+      ]
+    },
+    {
+      "skill_name": "压制",
+      "icon_id": "9018602",
+      "sin_type": "暴怒",
+      "damage_type": "",
+      "base_value": 4,
+      "coin_power": 987,
+      "coin_count": 4,
+      "attack_level": 63,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[使用时] 若目标的 破裂 强度不低于4级，则使本技能的基础威力+1",
+        "[命中时] 对目标施加2层 破裂 不可摧毁的硬币",
+        "[命中时] 使目标增加2级 破裂 强度"
+      ]
+    },
+    {
+      "skill_name": "暗袭",
+      "icon_id": "9018603",
+      "sin_type": "暴食",
+      "damage_type": "",
+      "base_value": 4,
+      "coin_power": 854,
+      "coin_count": 5,
+      "attack_level": 64,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[使用时] 若目标的 破裂 强度不低于4级，则使本技能的硬币威力+1",
+        "[命中时] 对目标施加2层 破裂",
+        "[命中时] 使目标增加1级 破裂 强度",
+        "[命中时] 对目标施加 咒杀【迅捷】 不可摧毁的硬币 若目标带有 咒杀【迅捷】 ，则使本硬币造成的伤害+50%"
+      ]
+    },
+    {
+      "skill_name": "准备动作",
+      "icon_id": "9018604",
+      "sin_type": "傲慢",
+      "damage_type": "",
+      "base_value": 4,
+      "coin_power": 3,
+      "coin_count": 1,
+      "attack_level": 0,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": []
+    }
+  ],
+  "is_ally": false,
+  "_structured": true,
+  "appear_stages": [
+    "主线战斗8-20-27"
+  ],
+  "enemy_id": "主线战斗8-20-27|1阶段|躯干",
+  "defense": 60,
+  "speed": "2~5",
+  "_schema_version": 1
+}

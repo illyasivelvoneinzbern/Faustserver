@@ -1,0 +1,21 @@
+{
+  "id": "gift_9252_upgraded_2",
+  "title": "钉与锤",
+  "url": "https://limbuscompany.huijiwiki.com/wiki/E.G.O饰品",
+  "categories": [
+    "E.G.O饰品"
+  ],
+  "content": "关卡开始时，对全体敌方单位施加2层尖钉（我方）\n属于N公司狂信徒的人格的基础技能与带有尖钉（我方）的目标进行拼点时，使该目标增加3级流血强度(每个技能最多1次)\n属于N公司狂信徒的人格的基础技能对带有尖钉（我方）的目标造成的伤害+100%",
+  "source": "tabx",
+  "_structured": true,
+  "page_type": "ego_gift",
+  "gift_name": "钉与锤",
+  "rarity": 4,
+  "cost": "400",
+  "effect_types": "流血",
+  "attack_type": "色欲",
+  "location": "镜像迷宫",
+  "stage": "upgraded_2",
+  "special": "极限模式节点-1号线 : 疯狂",
+  "_schema_version": 1
+}

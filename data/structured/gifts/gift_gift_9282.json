@@ -1,0 +1,21 @@
+{
+  "id": "gift_9282",
+  "title": "翼形蜡烛",
+  "url": "https://limbuscompany.huijiwiki.com/wiki/E.G.O饰品",
+  "categories": [
+    "E.G.O饰品"
+  ],
+  "content": "回合开始时，若属于黎明事务所的人格不低于3名，则触发该效果(以编队人员为基准)\n首个回合开始时，使全体友方单位获得2层迎接黎明\n战斗开始时，使黎明事务所 收尾人 辛克莱恢复10点理智值，该人格通过被动“不稳定的自我外壳”进入不稳定E.G.O::蜡翼状态的理智值条件改为不低于25点\n\n[属于黎明事务所的人格专属]\n基础技能攻击命中时，使目标增加2级烧伤强度与2级震颤强度(每个技能最多1次)",
+  "source": "tabx",
+  "_structured": true,
+  "page_type": "ego_gift",
+  "gift_name": "翼形蜡烛",
+  "rarity": 3,
+  "cost": "250",
+  "effect_types": "烧伤",
+  "attack_type": "暴怒",
+  "location": "镜像迷宫",
+  "stage": "base",
+  "special": "解放的暴怒，盛火时节",
+  "_schema_version": 1
+}

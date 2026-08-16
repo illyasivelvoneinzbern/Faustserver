@@ -1,0 +1,22 @@
+{
+  "id": "gift_9260",
+  "title": "作品：跃动",
+  "url": "https://limbuscompany.huijiwiki.com/wiki/E.G.O饰品",
+  "categories": [
+    "E.G.O饰品"
+  ],
+  "content": "若自身在一回合内通过基础技能消耗了不低于10层充能，则下回合使自身基础技能造成的伤害+20%(不包括固定强度的特殊充能)\n- 若消耗的充能为特殊充能，则下回合令自身增加的流血强度与施加的流血层数额外+1",
+  "source": "tabx",
+  "_structured": true,
+  "page_type": "ego_gift",
+  "gift_name": "作品：跃动",
+  "rarity": 3,
+  "cost": "246",
+  "effect_types": "充能",
+  "attack_type": "嫉妒",
+  "location": "镜像迷宫",
+  "stage": "base",
+  "special": "绞丝结线",
+  "event": "事件-回收环指作品的LCE组员们",
+  "_schema_version": 1
+}

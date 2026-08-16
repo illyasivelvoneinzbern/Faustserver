@@ -1,0 +1,108 @@
+{
+  "page_type": "enemy",
+  "title": "活动战斗6.5-10",
+  "enemy_name": "敏捷的圣愚活动成员",
+  "battle_stage": "活动战斗6.5-10",
+  "body_part": "躯干",
+  "hp": 141,
+  "defense_level": 44,
+  "speed_min": 2,
+  "speed_max": 3,
+  "chaos_threshold": "91/56/0",
+  "physical_resistances": {
+    "斩击": 0.5,
+    "突刺": 2.0,
+    "打击": 1.0
+  },
+  "sin_resistances": {
+    "暴怒": 1.0,
+    "色欲": 1.0,
+    "怠惰": 1.0,
+    "暴食": 1.0,
+    "忧郁": 1.0,
+    "傲慢": 1.0,
+    "嫉妒": 1.0
+  },
+  "panic_types": [
+    "瓦解的同盟",
+    "易损",
+    "震颤",
+    "瓦解的同盟",
+    "易损",
+    "震颤"
+  ],
+  "passives": [],
+  "skills": [
+    {
+      "skill_name": "让开让开",
+      "icon_id": "9014101",
+      "sin_type": "怠惰",
+      "damage_type": "",
+      "base_value": 0,
+      "coin_power": 5,
+      "coin_count": 2,
+      "attack_level": 44,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "coin_effects": [
+        "[命中时] 根据目标的 震颤 强度，对自身施加相应的 震颤 强度",
+        "[命中时] 使目标增加6级 震颤 强度",
+        "[正面命中时] 对自身施加2层 震颤"
+      ]
+    },
+    {
+      "skill_name": "可别小瞧我",
+      "icon_id": "9014102",
+      "sin_type": "暴怒",
+      "damage_type": "",
+      "base_value": 0,
+      "coin_power": 1,
+      "coin_count": 5,
+      "attack_level": 44,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "coin_effects": [
+        "[命中时] 使目标增加3级 震颤 强度"
+      ]
+    },
+    {
+      "skill_name": "下贱的表链子！",
+      "icon_id": "9014103",
+      "sin_type": "怠惰",
+      "damage_type": "",
+      "base_value": 0,
+      "coin_power": 5,
+      "coin_count": 3,
+      "attack_level": 41,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "coin_effects": [
+        "[命中时] 根据自身的 震颤 强度，使目标增加相应的 震颤 强度",
+        "[命中时] 使目标 震颤引爆 使目标的混乱阈值前移与 震颤 强度相同的数值 ，并使其 震颤 层数减少1层"
+      ]
+    },
+    {
+      "skill_name": "防御",
+      "icon_id": "9014104",
+      "sin_type": "常规",
+      "damage_type": "",
+      "base_value": 0,
+      "coin_power": 10,
+      "coin_count": 1,
+      "attack_level": 0,
+      "attack_weight": 1,
+      "is_guard": true,
+      "guard_type": "防御",
+      "coin_effects": []
+    }
+  ],
+  "is_ally": false,
+  "_structured": true,
+  "enemy_id": "活动战斗6.5-10|敏捷的圣愚活动成员",
+  "defense": 44,
+  "speed": "2~3",
+  "_schema_version": 1
+}

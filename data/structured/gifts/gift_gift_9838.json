@@ -1,0 +1,21 @@
+{
+  "id": "gift_9838",
+  "title": "宿月酒盏",
+  "url": "https://limbuscompany.huijiwiki.com/wiki/E.G.O饰品",
+  "categories": [
+    "E.G.O饰品"
+  ],
+  "content": "回合开始时，使全体友方单位恢复5点理智值。若理智值为最大值，则改为增加相当于溢出恢复量的呼吸法强度(最多5级)\n使用使自身或其他单位增加呼吸法强度或获得呼吸法层数的攻击技能时，使自身获得2层呼吸法(每回合每个友方单位最多1次)\n[宁作吾 鸿璐 E.G.O专属效果]\n- 觉醒：使用该E.G.O技能时改为恢复理智值，而非消耗理智值\n- 侵蚀：使用该E.G.O技能时消耗的理智值-50%",
+  "source": "tabx",
+  "_structured": true,
+  "page_type": "ego_gift",
+  "gift_name": "宿月酒盏",
+  "rarity": 4,
+  "cost": "400",
+  "effect_types": "呼吸法",
+  "attack_type": "傲慢",
+  "location": "善意的巡礼",
+  "stage": "base",
+  "special": "善意的巡礼",
+  "_schema_version": 1
+}

@@ -1,0 +1,98 @@
+{
+  "page_type": "enemy",
+  "title": "纺锤采光-傲慢-2",
+  "enemy_name": "嘎吱嘎吱？来吧！",
+  "battle_stage": "纺锤采光-傲慢-2",
+  "body_part": "躯干",
+  "hp": 144,
+  "defense_level": 25,
+  "speed_min": 2,
+  "speed_max": 5,
+  "chaos_threshold": "57",
+  "physical_resistances": {
+    "斩击": 1.0,
+    "突刺": 1.0,
+    "打击": 1.0
+  },
+  "sin_resistances": {
+    "暴怒": 0.75,
+    "色欲": 0.75,
+    "怠惰": 0.75,
+    "暴食": 0.75,
+    "忧郁": 0.75,
+    "傲慢": 2.0,
+    "嫉妒": 0.75
+  },
+  "panic_types": [],
+  "passives": [],
+  "skills": [
+    {
+      "skill_name": "赚钱时间！",
+      "icon_id": "801501",
+      "sin_type": "色欲",
+      "damage_type": "",
+      "base_value": 0,
+      "coin_power": 0,
+      "coin_count": 1,
+      "attack_level": 32,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "coin_effects": []
+    },
+    {
+      "skill_name": "赚钱啦！",
+      "icon_id": "801502",
+      "sin_type": "色欲",
+      "damage_type": "打击",
+      "base_value": 0,
+      "coin_power": 0,
+      "coin_count": 2,
+      "attack_level": 32,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "coin_effects": [
+        "[命中时] 下回合自身获得2层 迅捷 本回合内速度值+{0}"
+      ]
+    },
+    {
+      "skill_name": "太开心啦！",
+      "icon_id": "801503",
+      "sin_type": "色欲",
+      "damage_type": "",
+      "base_value": 0,
+      "coin_power": 0,
+      "coin_count": 3,
+      "attack_level": 32,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "coin_effects": [
+        "[正面命中时] 对自身造成3点伤害"
+      ]
+    },
+    {
+      "skill_name": "闪✧金旋转！",
+      "icon_id": "801504",
+      "sin_type": "色欲",
+      "damage_type": "打击",
+      "base_value": 0,
+      "coin_power": 2,
+      "coin_count": 2,
+      "attack_level": 32,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "coin_effects": [
+        "[命中时] 下回合对目标施加3层 欲望 回合结束时，若本效果的层数不低于5层，则受到30点理智伤害，并施加2层 易损 与10层 束缚 ，随后解除本效果。"
+      ]
+    }
+  ],
+  "is_ally": false,
+  "_structured": true,
+  "enemy_id": "纺锤采光-傲慢-2|嘎吱嘎吱？来吧！",
+  "defense": 25,
+  "speed": "2~5",
+  "_schema_version": 1
+}

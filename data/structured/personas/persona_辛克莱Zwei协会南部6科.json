@@ -1,0 +1,469 @@
+{
+  "page_type": "personality",
+  "title": "辛克莱Zwei协会南部6科",
+  "sinner": "辛克莱",
+  "sinner_id": "sinclair",
+  "personality_name": "辛克莱Zwei协会南部6科",
+  "release_date": "2023.02.27",
+  "acquisition": "常驻提取",
+  "sin_affinities": {
+    "忧郁": 3,
+    "暴怒": 2,
+    "怠惰": 1
+  },
+  "physical_resistances": {
+    "斩击": 2.0,
+    "突刺": 1.0,
+    "打击": 0.5
+  },
+  "ego_resources": {
+    "忧郁": 3,
+    "暴怒": 2,
+    "怠惰": 1
+  },
+  "skills": [
+    {
+      "skill_index": 0,
+      "skill_name": "打击",
+      "sin_type": "忧郁",
+      "damage_type": "打击",
+      "guard_type": "",
+      "attack_capacity": 1,
+      "coin_count": 2,
+      "stage_groups": [
+        [
+          {
+            "stage": "I",
+            "base_value": 3,
+            "coin_power": 6,
+            "effects": [
+              {
+                "timing": "正面命中时",
+                "description": "使目标增加2级 震颤 强度"
+              }
+            ],
+            "raw_text": "基础值： 3 变动值： +6 [正面命中时] 使目标增加2级 震颤 强度"
+          },
+          {
+            "stage": "II",
+            "base_value": 3,
+            "coin_power": 6,
+            "effects": [
+              {
+                "timing": "命中时",
+                "description": "使目标增加2级 震颤 强度"
+              }
+            ],
+            "raw_text": "基础值： 3 变动值： +6 [命中时] 使目标增加2级 震颤 强度"
+          },
+          {
+            "stage": "III",
+            "base_value": 4,
+            "coin_power": 6,
+            "effects": [
+              {
+                "timing": "命中时",
+                "description": "使目标增加2级 震颤 强度"
+              }
+            ],
+            "raw_text": "基础值： 4 变动值： +6 [命中时] 使目标增加2级 震颤 强度"
+          },
+          {
+            "stage": "IV",
+            "base_value": 4,
+            "coin_power": 6,
+            "effects": [
+              {
+                "timing": "拼点失败",
+                "description": "使自身获得2层 守护"
+              },
+              {
+                "timing": "命中时",
+                "description": "使目标增加2级 震颤 强度"
+              }
+            ],
+            "raw_text": "基础值： 4 变动值： +6 [拼点失败] 使自身获得2层 守护 [命中时] 使目标增加2级 震颤 强度"
+          }
+        ]
+      ],
+      "coin_effects": [
+        {
+          "coin_index": 0,
+          "description": "技能一"
+        },
+        {
+          "coin_index": 0,
+          "description": "打击 3"
+        },
+        {
+          "coin_index": 0,
+          "timing": "",
+          "description": "1"
+        },
+        {
+          "coin_index": 0,
+          "description": "-2"
+        },
+        {
+          "coin_index": 0,
+          "description": "1"
+        },
+        {
+          "coin_index": 0,
+          "description": "基础值： 3 变动值： +6"
+        },
+        {
+          "coin_index": 1,
+          "timing": "正面命中时",
+          "description": "[正面命中时] 使目标增加2级 震颤 强度"
+        },
+        {
+          "coin_index": 1,
+          "timing": "命中时",
+          "description": "[命中时] 使目标增加2级 震颤 强度"
+        },
+        {
+          "coin_index": 1,
+          "timing": "命中时",
+          "description": "[命中时] 使目标增加2级 震颤 强度"
+        },
+        {
+          "coin_index": 1,
+          "timing": "命中时",
+          "description": "[命中时] 使目标增加2级 震颤 强度"
+        }
+      ],
+      "wikitext_key": "1技能"
+    },
+    {
+      "skill_index": 1,
+      "skill_name": "镇压",
+      "sin_type": "暴怒",
+      "damage_type": "打击",
+      "guard_type": "",
+      "attack_capacity": 1,
+      "coin_count": 2,
+      "stage_groups": [
+        [
+          {
+            "stage": "I",
+            "base_value": 5,
+            "coin_power": 1,
+            "effects": [
+              {
+                "timing": "正面命中时",
+                "description": "使目标增加3级 震颤 强度"
+              },
+              {
+                "timing": "命中时",
+                "description": "下回合对目标施加1层 伤害弱化"
+              }
+            ],
+            "raw_text": "基础值： 5 变动值： +1 [正面命中时] 使目标增加3级 震颤 强度 [命中时] 下回合对目标施加1层 伤害弱化"
+          },
+          {
+            "stage": "II",
+            "base_value": 5,
+            "coin_power": 1,
+            "effects": [
+              {
+                "timing": "命中时",
+                "description": "使目标增加6级 震颤 强度"
+              },
+              {
+                "timing": "命中时",
+                "description": "下回合对目标施加2层 伤害弱化"
+              }
+            ],
+            "raw_text": "基础值： 5 变动值： +1 [命中时] 使目标增加6级 震颤 强度 [命中时] 下回合对目标施加2层 伤害弱化"
+          },
+          {
+            "stage": "III",
+            "base_value": 6,
+            "coin_power": 1,
+            "effects": [
+              {
+                "timing": "命中时",
+                "description": "使目标增加6级 震颤 强度"
+              },
+              {
+                "timing": "命中时",
+                "description": "下回合对目标施加2层 伤害弱化"
+              }
+            ],
+            "raw_text": "基础值： 6 变动值： +1 [命中时] 使目标增加6级 震颤 强度 [命中时] 下回合对目标施加2层 伤害弱化"
+          },
+          {
+            "stage": "IV",
+            "base_value": 6,
+            "coin_power": 2,
+            "effects": [
+              {
+                "timing": "使用时",
+                "description": "下回合使本技能对应行动槽的 挑衅值 +4"
+              },
+              {
+                "timing": "拼点失败",
+                "description": "使目标增加6级 震颤 强度"
+              },
+              {
+                "timing": "命中时",
+                "description": "使目标增加6级 震颤 强度"
+              },
+              {
+                "timing": "命中时",
+                "description": "下回合对目标施加2层 伤害弱化"
+              }
+            ],
+            "raw_text": "基础值： 6 变动值： +2 [使用时] 下回合使本技能对应行动槽的 挑衅值 +4 [拼点失败] 使目标增加6级 震颤 强度 [命中时] 使目标增加6级 震颤 强度 [命中时] 下回合对目标施加2层 伤害弱化"
+          }
+        ]
+      ],
+      "coin_effects": [
+        {
+          "coin_index": 0,
+          "description": "技能二"
+        },
+        {
+          "coin_index": 0,
+          "description": "镇压 2"
+        },
+        {
+          "coin_index": 0,
+          "timing": "",
+          "description": "2"
+        },
+        {
+          "coin_index": 0,
+          "description": "-2"
+        },
+        {
+          "coin_index": 0,
+          "description": "1"
+        },
+        {
+          "coin_index": 0,
+          "description": "基础值： 5 变动值： +1"
+        },
+        {
+          "coin_index": 2,
+          "timing": "正面命中时",
+          "description": "[正面命中时] 使目标增加3级 震颤 强度 [命中时] 下回合对目标施加1层 伤害弱化"
+        },
+        {
+          "coin_index": 2,
+          "timing": "命中时",
+          "description": "[命中时] 使目标增加6级 震颤 强度 [命中时] 下回合对目标施加2层 伤害弱化"
+        },
+        {
+          "coin_index": 2,
+          "timing": "命中时",
+          "description": "[命中时] 使目标增加6级 震颤 强度 [命中时] 下回合对目标施加2层 伤害弱化"
+        },
+        {
+          "coin_index": 2,
+          "timing": "命中时",
+          "description": "[命中时] 使目标增加6级 震颤 强度 [命中时] 下回合对目标施加2层 伤害弱化"
+        }
+      ],
+      "wikitext_key": "2技能"
+    },
+    {
+      "skill_index": 2,
+      "skill_name": "猛击",
+      "sin_type": "怠惰",
+      "damage_type": "打击",
+      "guard_type": "",
+      "attack_capacity": 1,
+      "coin_count": 2,
+      "stage_groups": [
+        [
+          {
+            "stage": "I",
+            "base_value": 7,
+            "coin_power": 13,
+            "effects": [
+              {
+                "timing": "使用时",
+                "description": "下回合使 体力 最低的友方单位获得1层 守护"
+              },
+              {
+                "timing": "命中时",
+                "description": "使目标 震颤引爆"
+              },
+              {
+                "timing": "命中时",
+                "description": "对目标施加2层 打击易损"
+              }
+            ],
+            "raw_text": "基础值： 7 变动值： +13 [使用时] 下回合使 体力 最低的友方单位获得1层 守护 [命中时] 使目标 震颤引爆 [命中时] 对目标施加2层 打击易损"
+          },
+          {
+            "stage": "II",
+            "base_value": 7,
+            "coin_power": 13,
+            "effects": [
+              {
+                "timing": "使用时",
+                "description": "下回合使 体力 最低的友方单位获得1层 守护"
+              },
+              {
+                "timing": "使用时",
+                "description": "下回合使本技能对应行动槽的 挑衅值 +10"
+              },
+              {
+                "timing": "命中时",
+                "description": "使目标 震颤引爆"
+              },
+              {
+                "timing": "命中时",
+                "description": "震颤引爆 时，若目标的 震颤 强度不低于5级，则下回合使自身获得2层 守护"
+              },
+              {
+                "timing": "命中时",
+                "description": "对目标施加2层 打击易损"
+              }
+            ],
+            "raw_text": "基础值： 7 变动值： +13 [使用时] 下回合使 体力 最低的友方单位获得1层 守护 [使用时] 下回合使本技能对应行动槽的 挑衅值 +10 [命中时] 使目标 震颤引爆 [命中时] 震颤引爆 时，若目标的 震颤 强度不低于5级，则下回合使自身获得2层 守护 [命中时] 对目标施加2层 打击易损"
+          }
+        ]
+      ],
+      "coin_effects": [
+        {
+          "coin_index": 0,
+          "description": "技能三"
+        },
+        {
+          "coin_index": 0,
+          "description": "猛击 1"
+        },
+        {
+          "coin_index": 0,
+          "timing": "",
+          "description": "1"
+        },
+        {
+          "coin_index": 0,
+          "description": "-2"
+        },
+        {
+          "coin_index": 0,
+          "description": "1"
+        },
+        {
+          "coin_index": 0,
+          "description": "基础值： 7 变动值： +13 [使用时] 下回合使 体力 最低的友方单位获得1层 守护"
+        },
+        {
+          "coin_index": 1,
+          "timing": "命中时",
+          "description": "[命中时] 使目标 震颤引爆 [命中时] 对目标施加2层 打击易损"
+        },
+        {
+          "coin_index": 1,
+          "timing": "命中时",
+          "description": "[命中时] 使目标 震颤引爆 [命中时] 震颤引爆 时，若目标的 震颤 强度不低于5级，则下回合使自身获得2层 守护 [命中时] 对目标施加2层 打击易损"
+        }
+      ],
+      "wikitext_key": "3技能"
+    },
+    {
+      "skill_index": 3,
+      "skill_name": "防御",
+      "sin_type": "",
+      "damage_type": "",
+      "guard_type": "防御",
+      "attack_capacity": 1,
+      "coin_count": 1,
+      "stage_groups": [
+        [
+          {
+            "stage": "I",
+            "base_value": 10,
+            "coin_power": 3,
+            "effects": [],
+            "raw_text": "基础值： 10 变动值： +3"
+          },
+          {
+            "stage": "II",
+            "base_value": 12,
+            "coin_power": 6,
+            "effects": [
+              {
+                "timing": "使用时",
+                "description": "下回合使本技能对应行动槽的 挑衅值 +4"
+              }
+            ],
+            "raw_text": "基础值： 12 变动值： +6 [使用时] 下回合使本技能对应行动槽的 挑衅值 +4"
+          }
+        ]
+      ],
+      "coin_effects": [
+        {
+          "coin_index": 0,
+          "description": "守备技能"
+        },
+        {
+          "coin_index": 0,
+          "description": "防御"
+        },
+        {
+          "coin_index": 0,
+          "timing": "",
+          "description": "1"
+        },
+        {
+          "coin_index": 0,
+          "description": "+5"
+        },
+        {
+          "coin_index": 0,
+          "description": "1"
+        },
+        {
+          "coin_index": 0,
+          "description": "I阶 - III阶 IV阶 追加属性： 基础值： 10 变动值： +3 基础值： 12 变动值： +6 [使用时] 下回合使本技能对应行动槽的 挑衅值 +4"
+        }
+      ],
+      "wikitext_key": "守备技能4"
+    }
+  ],
+  "battle_passive": "人格被动1100301\n人格被动1100321",
+  "support_passive": "",
+  "notes": "",
+  "voice_lines": [],
+  "skill_voice": [
+    {
+      "file": "Battle_s2_11003_1_1.ogg",
+      "skill_index": 2,
+      "skill_label": "",
+      "skill_name": "镇压"
+    },
+    {
+      "file": "Battle_s2_11003_1_2.ogg",
+      "skill_index": 2,
+      "skill_label": "",
+      "skill_name": "镇压"
+    },
+    {
+      "file": "Battle_s3_11003_1_1.ogg",
+      "skill_index": 3,
+      "skill_label": "技能三",
+      "skill_name": "猛击"
+    },
+    {
+      "file": "Battle_s3_11003_1_2.ogg",
+      "skill_index": 3,
+      "skill_label": "",
+      "skill_name": "猛击"
+    }
+  ],
+  "_structured": true,
+  "id": "wiki_辛克莱Zwei协会南部6科",
+  "url": "https://limbuscompany.huijiwiki.com/wiki/辛克莱Zwei协会南部6科",
+  "categories": [
+    "人格"
+  ],
+  "source": "wiki",
+  "_schema_version": 1
+}

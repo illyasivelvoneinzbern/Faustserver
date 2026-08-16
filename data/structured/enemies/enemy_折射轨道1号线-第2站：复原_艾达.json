@@ -1,0 +1,142 @@
+{
+  "page_type": "enemy",
+  "title": "折射轨道1号线-第2站：复原",
+  "enemy_name": "艾达",
+  "battle_stage": "折射轨道1号线-第2站：复原",
+  "body_part": "身体",
+  "hp": 246,
+  "defense_level": 246,
+  "speed_min": 0,
+  "speed_max": 0,
+  "chaos_threshold": "2-6",
+  "physical_resistances": {
+    "斩击": 2.0,
+    "突刺": 1.0,
+    "打击": 0.5
+  },
+  "sin_resistances": {
+    "暴怒": 0.5,
+    "色欲": 1.5,
+    "怠惰": 1.0,
+    "暴食": 2.0,
+    "忧郁": 0.5,
+    "傲慢": 1.0,
+    "嫉妒": 1.0
+  },
+  "panic_types": [],
+  "passives": [],
+  "skills": [
+    {
+      "skill_name": "笑里藏刀",
+      "icon_id": "9002404",
+      "sin_type": "忧郁",
+      "damage_type": "突刺",
+      "base_value": 2,
+      "coin_power": 3,
+      "coin_count": 1,
+      "attack_level": 32,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "若目标的理智值低于0，则使本技能的威力+1"
+      ]
+    },
+    {
+      "skill_name": "不过如此？",
+      "icon_id": "9100402",
+      "sin_type": "忧郁",
+      "damage_type": "打击",
+      "base_value": 4,
+      "coin_power": 3,
+      "coin_count": 2,
+      "attack_level": 33,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[命中时] 下回合对目标施加3层 虚弱 和3层 麻痹"
+      ]
+    },
+    {
+      "skill_name": "精彩绝伦!",
+      "icon_id": "9100406",
+      "sin_type": "常规",
+      "damage_type": "闪避",
+      "base_value": 2,
+      "coin_power": 79,
+      "coin_count": 1,
+      "attack_level": 0,
+      "attack_weight": 1,
+      "is_guard": true,
+      "guard_type": "闪避",
+      "importance": 0,
+      "coin_effects": [
+        "{{Color|#93f13e|[闪避成功时]}}使自身的混乱阈值后移5；对目标造成5点理智伤害"
+      ]
+    },
+    {
+      "skill_name": "再利落点！",
+      "icon_id": "9100403",
+      "sin_type": "嫉妒",
+      "damage_type": "打击",
+      "base_value": 3,
+      "coin_power": 5793,
+      "coin_count": 2,
+      "attack_level": 33,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "2{{Color|#93f13e|[命中时]}}下回合使自身获得2层强壮"
+      ]
+    },
+    {
+      "skill_name": "再迅速点~",
+      "icon_id": "9100404",
+      "sin_type": "嫉妒",
+      "damage_type": "打击",
+      "base_value": 4,
+      "coin_power": 5793,
+      "coin_count": 2,
+      "attack_level": 33,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "2{{Color|#93f13e|[命中时]}}下回合使自身获得2层忍耐"
+      ]
+    },
+    {
+      "skill_name": "皮纳塔派对~！",
+      "icon_id": "9100405",
+      "sin_type": "忧郁",
+      "damage_type": "打击",
+      "base_value": 3,
+      "coin_power": 3,
+      "coin_count": 2,
+      "attack_level": 33,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[使用时] 若目标的理智值低于0，则根据其理智值按比例增加自身的暴击率",
+        "[正面命中时] 使自身的混乱阈值后移本硬币伤害量的50%"
+      ]
+    }
+  ],
+  "is_ally": false,
+  "_structured": true,
+  "appear_stages": [
+    "折射轨道1号线-第2站：复原"
+  ],
+  "enemy_id": "折射轨道1号线-第2站：复原|艾达|身体",
+  "defense": 246,
+  "speed": "0~0",
+  "_schema_version": 1
+}

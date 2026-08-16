@@ -1,0 +1,502 @@
+{
+  "page_type": "enemy",
+  "title": "主线战斗8-33",
+  "enemy_name": "2阶段",
+  "battle_stage": "主线战斗8-33",
+  "body_part": "轿子",
+  "hp": 474,
+  "defense_level": 52,
+  "speed_min": 3,
+  "speed_max": 6,
+  "chaos_threshold": "142/0",
+  "physical_resistances": {
+    "斩击": 1.2,
+    "突刺": 1.2,
+    "打击": 1.2
+  },
+  "sin_resistances": {
+    "暴怒": 1.0,
+    "色欲": 1.2,
+    "怠惰": 0.75,
+    "暴食": 1.25,
+    "忧郁": 0.75,
+    "傲慢": 1.0,
+    "嫉妒": 1.25
+  },
+  "panic_types": [
+    "悠久传承的鸿园意志（士气低落）",
+    "悠久传承的鸿园意志（陷入恐慌）",
+    "怪力乱神",
+    "忍耐",
+    "积累的顺从",
+    "破裂"
+  ],
+  "passives": [
+    "固定恐慌: 被施加改变恐慌类型的状态时，自身的恐慌类型不会改变。效果改为对没有理智值的单位施加的效果。",
+    "请注视吾吧…！: 鸿璐阵亡时战斗失败。回合开始时，若有自身召唤的单位在场，则使自身恢复10点理智值",
+    "金枝同化-扭曲: 第2阶段开始时，使自身获得 怪力乱神",
+    "每一位家主皆献身于仙皇虫大人，继承着大人的意志: 回合结束时，若自身陷入恐慌，则下回合解除自身的恐慌并使自身的理智值恢复为0点 解除恐慌时 - 下回合使自身获得2层 强壮 ，2层 忍耐 与1层 迅捷 - 若有自身召唤的单位在场，则使自身恢复15点理智值 - 若鸿璐带有 积累的顺从 ，则使自身恢复15点理智值",
+    "金玉其外 败絮其中: 若自身的 破裂 强度不低于10级，则使自身受到的伤害+10% 若自身带有的负面状态数不低于5种，则使自身受到的伤害+10%",
+    "若无仙皇虫寄宿，怎会有心系鸿园之家主: 体力为0点时，下回合使躯干部位陷入混乱 之后本部位进入已截除状态，并对躯干部位施加2层 易损"
+  ],
+  "skills": [
+    {
+      "skill_name": "宝玉摇篮",
+      "icon_id": "115201",
+      "sin_type": "忧郁",
+      "damage_type": "",
+      "base_value": 5,
+      "coin_power": 3,
+      "coin_count": 3,
+      "attack_level": 55,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[攻击后] 若目标为鸿璐，则使其陷入混乱，下回合使其变为 宝玉摇篮 。随后结束本回合 不可摧毁的硬币"
+      ]
+    },
+    {
+      "skill_name": "怪力乱神-寅巳酉",
+      "icon_id": "115202",
+      "sin_type": "嫉妒",
+      "damage_type": "",
+      "base_value": 4,
+      "coin_power": 5793,
+      "coin_count": 3,
+      "attack_level": 55,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[使用时] 目标的 流血 与 破裂 强度之和每有5级，使本技能的硬币威力+1(最多+2)",
+        "[命中时] 使目标增加2级 流血 强度与2级 破裂 强度"
+      ]
+    },
+    {
+      "skill_name": "尔等尚不知那眼瞳之力与奇特之处吧",
+      "icon_id": "115203",
+      "sin_type": "暴怒",
+      "damage_type": "",
+      "base_value": 3,
+      "coin_power": 987,
+      "coin_count": 5,
+      "attack_level": 55,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[使用时] 若宝玉在场，则使本技能中的所有硬币转化为 不可摧毁的硬币",
+        "[使用时] 目标的 流血 与 破裂 强度之和每有5级，使本技能的硬币威力+1(最多+2)",
+        "[命中时] 对目标施加3层 流血 与3层 破裂",
+        "[命中时] 使目标增加1级 流血 强度与1级 破裂 强度"
+      ]
+    },
+    {
+      "skill_name": "仙人啊，请注视吾吧…！",
+      "icon_id": "115204",
+      "sin_type": "怠惰",
+      "damage_type": "",
+      "base_value": 6,
+      "coin_power": 9703,
+      "coin_count": 2,
+      "attack_level": 55,
+      "attack_weight": 1,
+      "is_guard": true,
+      "guard_type": "防御",
+      "importance": 0,
+      "coin_effects": [
+        "[命中时] 下回合对目标施加2层 束缚 与2层 易损",
+        "[命中时] 对目标施加2层 流血 与2层 破裂"
+      ]
+    },
+    {
+      "skill_name": "汝可知没有长辈照料的家主会如何!",
+      "icon_id": "115205",
+      "sin_type": "暴食",
+      "damage_type": "",
+      "base_value": 3,
+      "coin_power": 854,
+      "coin_count": 7,
+      "attack_level": 55,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[使用时] 使自身恢复25点理智值",
+        "[命中时] 对目标施加3层 剧毒 不可摧毁的硬币",
+        "[命中时] 使目标增加3级 流血 强度并对其施加2层 流血 不可摧毁的硬币",
+        "[命中时] 使目标增加3级 破裂 强度并对其施加2层 破裂"
+      ]
+    },
+    {
+      "skill_name": "徒劳无益的挣扎...！",
+      "icon_id": "115206",
+      "sin_type": "傲慢",
+      "damage_type": "",
+      "base_value": 3,
+      "coin_power": 3,
+      "coin_count": 3,
+      "attack_level": 0,
+      "attack_weight": 1,
+      "is_guard": true,
+      "guard_type": "防御",
+      "importance": 0,
+      "coin_effects": []
+    },
+    {
+      "skill_name": "汝依旧无能为力",
+      "icon_id": "115207",
+      "sin_type": "忧郁",
+      "damage_type": "",
+      "base_value": 6,
+      "coin_power": 3,
+      "coin_count": 3,
+      "attack_level": 57,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[使用时] 使自身获得 挣扎",
+        "[使用时] 使自身恢复8点理智值",
+        "[使用时] 若主要目标现存体力低于50%，或主要目标的 破裂 与 流血 强度之和不低于10级，则使本技能中的所有硬币转化为 不可摧毁的硬币",
+        "[命中时] 使目标增加4级 流血 强度与4级 破裂 强度",
+        "[命中时] 对目标施加2层 破裂",
+        "[命中时] 对目标造成10点理智伤害并使其混乱阈值前移本硬币伤害量的50%",
+        "[命中时] 下回合对目标施加2层 束缚",
+        "[命中时] 使自身恢复8点理智值"
+      ]
+    },
+    {
+      "skill_name": "没有仙人庇护的徒有虚名之家主，只会如虫豸般惨死！！！",
+      "icon_id": "115208",
+      "sin_type": "色欲",
+      "damage_type": "",
+      "base_value": 4,
+      "coin_power": 9,
+      "coin_count": 4,
+      "attack_level": 55,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[使用时] 若本体体力不高于30%，则使本技能的硬币威力+3，造成的伤害+30%",
+        "[使用时] 若本体体力低于50%，则使本技能中的所有硬币转变为 不可摧毁的硬币",
+        "[命中时] 对目标施加3层 流血",
+        "[命中时] 对目标施加3层 破裂",
+        "[命中时] 使自身恢复5点理智值",
+        "[命中时] 使目标增加3级 流血 强度",
+        "[命中时] 使目标增加3级 破裂 强度"
+      ]
+    },
+    {
+      "skill_name": "恭敬参拜",
+      "icon_id": "115209",
+      "sin_type": "怠惰",
+      "damage_type": "",
+      "base_value": 5,
+      "coin_power": 9703,
+      "coin_count": 3,
+      "attack_level": 55,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[使用时] 下回合使躯干部位获得2层 强壮 ，2层 忍耐 与2层 伤害强化",
+        "[使用时] 使自身恢复30点理智值"
+      ]
+    },
+    {
+      "skill_name": "仙皇虫大人，请待在吾身边",
+      "icon_id": "115210",
+      "sin_type": "怠惰",
+      "damage_type": "",
+      "base_value": 4,
+      "coin_power": 9703,
+      "coin_count": 3,
+      "attack_level": 55,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[使用时] 下回合使躯干部位获得1层 强壮 ，1层 忍耐 与2层 伤害强化",
+        "[使用时] 使自身恢复15点理智值 不可摧毁的硬币",
+        "[命中时] 使目标增加3级 沉沦 强度并对其施加2层 沉沦"
+      ]
+    },
+    {
+      "skill_name": "仙人啊…！",
+      "icon_id": "115211",
+      "sin_type": "傲慢",
+      "damage_type": "",
+      "base_value": 5,
+      "coin_power": 3,
+      "coin_count": 3,
+      "attack_level": 55,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[攻击后] 结束本回合 不可摧毁的硬币"
+      ]
+    },
+    {
+      "skill_name": "化作史弥胤之助力吧！",
+      "icon_id": "115212",
+      "sin_type": "嫉妒",
+      "damage_type": "",
+      "base_value": 4,
+      "coin_power": 5793,
+      "coin_count": 3,
+      "attack_level": 55,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[命中时] 使未带有 不完善的不死 的友方单位中现存体力最低的1名友方单位恢复其体力上限15%的体力",
+        "[命中时] 使目标增加3级 破裂 强度",
+        "[命中时] 使目标增加3级 流血 强度"
+      ]
+    },
+    {
+      "skill_name": "极仙榨滴供养",
+      "icon_id": "115213",
+      "sin_type": "暴食",
+      "damage_type": "",
+      "base_value": 12,
+      "coin_power": 854,
+      "coin_count": 3,
+      "attack_level": 55,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[使用时] 每有1名友方单位带有 至高无上的不死 ，使本技能的硬币威力+2，造成的伤害+20%",
+        "[使用时] 若没有友方单位带有 至高无上的不死 ，则使全体目标获得200点护盾",
+        "[攻击后] 结束本回合 不可摧毁的硬币",
+        "[命中时] 若目标为友方单位，则吸收其剩余体力与其带有的 不完善的不死 ，下回合对自身施加吸收的 不完善的不死 层数。移除被吸收的友方单位"
+      ]
+    },
+    {
+      "skill_name": "徒劳无益的挣扎...！",
+      "icon_id": "115214",
+      "sin_type": "傲慢",
+      "damage_type": "",
+      "base_value": 3,
+      "coin_power": 3,
+      "coin_count": 3,
+      "attack_level": 0,
+      "attack_weight": 1,
+      "is_guard": true,
+      "guard_type": "防御",
+      "importance": 0,
+      "coin_effects": [
+        "[使用时] 目标的 流血 与 破裂 强度之和每有5级，使本技能的硬币威力+1(最多+3)"
+      ]
+    },
+    {
+      "skill_name": "在此向您请安",
+      "icon_id": "115301",
+      "sin_type": "忧郁",
+      "damage_type": "",
+      "base_value": 4,
+      "coin_power": 3,
+      "coin_count": 3,
+      "attack_level": 55,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": []
+    },
+    {
+      "skill_name": "我会安分守己",
+      "icon_id": "115302",
+      "sin_type": "怠惰",
+      "damage_type": "",
+      "base_value": 6,
+      "coin_power": 9703,
+      "coin_count": 3,
+      "attack_level": 0,
+      "attack_weight": 1,
+      "is_guard": true,
+      "guard_type": "防御",
+      "importance": 0,
+      "coin_effects": []
+    },
+    {
+      "skill_name": "奉上欢愉",
+      "icon_id": "115303",
+      "sin_type": "暴怒",
+      "damage_type": "",
+      "base_value": 20,
+      "coin_power": 987,
+      "coin_count": 3,
+      "attack_level": 55,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[攻击后] 自身阵亡，使贾母的理智值恢复至45点，下回合使贾母获得2层 强壮 与5层 伤害强化 不可摧毁的硬币",
+        "[命中时] 对目标造成15点理智伤害",
+        "[命中时] 使目标的混乱阈值前移本硬币伤害量的50%"
+      ]
+    },
+    {
+      "skill_name": "赐吾欢愉",
+      "icon_id": "115402",
+      "sin_type": "忧郁",
+      "damage_type": "",
+      "base_value": 5,
+      "coin_power": 3,
+      "coin_count": 2,
+      "attack_level": 55,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[使用时] 使贾母恢复10点理智值",
+        "[命中时] 使目标增加3级 沉沦 强度"
+      ]
+    },
+    {
+      "skill_name": "吾需要更多生命...",
+      "icon_id": "115405",
+      "sin_type": "色欲",
+      "damage_type": "",
+      "base_value": 5,
+      "coin_power": 9,
+      "coin_count": 1,
+      "attack_level": 0,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": []
+    },
+    {
+      "skill_name": "予吾生命",
+      "icon_id": "115401",
+      "sin_type": "暴食",
+      "damage_type": "",
+      "base_value": 4,
+      "coin_power": 854,
+      "coin_count": 3,
+      "attack_level": 55,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[命中时] 使自身恢复体力上限20%的体力",
+        "[命中时] 使目标增加2级 破裂 强度"
+      ]
+    },
+    {
+      "skill_name": "仙人的睿智劝诫",
+      "icon_id": "115403",
+      "sin_type": "暴怒",
+      "damage_type": "",
+      "base_value": 5,
+      "coin_power": 987,
+      "coin_count": 3,
+      "attack_level": 55,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[使用时] 下回合使贾母获得1层 强壮 与1层 伤害强化",
+        "[命中时] 使目标增加2级 破裂 强度"
+      ]
+    },
+    {
+      "skill_name": "吾需要更多生命...",
+      "icon_id": "115405",
+      "sin_type": "色欲",
+      "damage_type": "",
+      "base_value": 5,
+      "coin_power": 9,
+      "coin_count": 1,
+      "attack_level": 0,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": []
+    },
+    {
+      "skill_name": "予吾生命",
+      "icon_id": "115401",
+      "sin_type": "暴食",
+      "damage_type": "",
+      "base_value": 4,
+      "coin_power": 854,
+      "coin_count": 3,
+      "attack_level": 55,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[命中时] 使自身恢复体力上限20%的体力",
+        "[命中时] 使目标增加2级 破裂 强度"
+      ]
+    },
+    {
+      "skill_name": "仙人的衷心劝诫",
+      "icon_id": "115404",
+      "sin_type": "傲慢",
+      "damage_type": "",
+      "base_value": 7,
+      "coin_power": 3,
+      "coin_count": 2,
+      "attack_level": 55,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[使用时] 下回合使贾母获得1层 忍耐 与1层 守护",
+        "[命中时] 对目标施加3层 破裂"
+      ]
+    },
+    {
+      "skill_name": "吾需要更多生命...",
+      "icon_id": "115405",
+      "sin_type": "色欲",
+      "damage_type": "",
+      "base_value": 5,
+      "coin_power": 9,
+      "coin_count": 1,
+      "attack_level": 0,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": []
+    }
+  ],
+  "is_ally": false,
+  "_structured": true,
+  "appear_stages": [
+    "主线战斗8-33"
+  ],
+  "enemy_id": "主线战斗8-33|2阶段|轿子",
+  "defense": 52,
+  "speed": "3~6",
+  "_schema_version": 1
+}

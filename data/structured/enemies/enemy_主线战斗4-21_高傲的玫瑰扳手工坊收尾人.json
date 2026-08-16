@@ -1,0 +1,115 @@
+{
+  "page_type": "enemy",
+  "title": "主线战斗4-21",
+  "enemy_name": "高傲的玫瑰扳手工坊收尾人",
+  "battle_stage": "主线战斗4-21",
+  "body_part": "",
+  "hp": 111,
+  "defense_level": 32,
+  "speed_min": 4,
+  "speed_max": 6,
+  "chaos_threshold": "",
+  "physical_resistances": {
+    "斩击": 0.75,
+    "突刺": 2.0,
+    "打击": 1.0
+  },
+  "sin_resistances": {
+    "暴怒": 1.0,
+    "色欲": 1.0,
+    "怠惰": 1.0,
+    "暴食": 1.0,
+    "忧郁": 1.0,
+    "傲慢": 1.0,
+    "嫉妒": 1.0
+  },
+  "panic_types": [
+    "畏缩"
+  ],
+  "passives": [
+    "无"
+  ],
+  "skills": [
+    {
+      "skill_name": "尝尝这招！",
+      "icon_id": "9005201",
+      "sin_type": "怠惰",
+      "damage_type": "",
+      "base_value": 4,
+      "coin_power": 9703,
+      "coin_count": 2,
+      "attack_level": 28,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[命中时] 使目标增加2级 震颤 强度"
+      ]
+    },
+    {
+      "skill_name": "震颤增幅",
+      "icon_id": "9005202",
+      "sin_type": "怠惰",
+      "damage_type": "",
+      "base_value": 5,
+      "coin_power": 9703,
+      "coin_count": 2,
+      "attack_level": 28,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[命中时] 根据目标的 震颤 强度，相应增加 震颤 强度"
+      ]
+    },
+    {
+      "skill_name": "结束了！",
+      "icon_id": "9005203",
+      "sin_type": "傲慢",
+      "damage_type": "",
+      "base_value": 3,
+      "coin_power": 3,
+      "coin_count": 4,
+      "attack_level": 28,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[正面命中时] 使目标增加2级 震颤 强度",
+        "[命中时] 使目标 震颤引爆"
+      ]
+    },
+    {
+      "skill_name": "发动引擎",
+      "icon_id": "9005304",
+      "sin_type": "常规",
+      "damage_type": "",
+      "base_value": 4,
+      "coin_power": 79,
+      "coin_count": 1,
+      "attack_level": 0,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": []
+    }
+  ],
+  "is_ally": false,
+  "_structured": true,
+  "appear_stages": [
+    "主线战斗4-21",
+    "主线战斗4-22",
+    "主线战斗4-23",
+    "主线战斗4-24",
+    "主线战斗4-25",
+    "大湖之镜-玫瑰扳手工坊代表 尼柯"
+  ],
+  "enemy_id": "主线战斗4-21|高傲的玫瑰扳手工坊收尾人|",
+  "defense": 32,
+  "speed": "4~6",
+  "_schema_version": 1
+}

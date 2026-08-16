@@ -1,0 +1,21 @@
+{
+  "id": "gift_1033",
+  "title": "破旧仓库的钥匙",
+  "url": "https://limbuscompany.huijiwiki.com/wiki/E.G.O饰品",
+  "categories": [
+    "E.G.O饰品"
+  ],
+  "content": "在特定的事件中使用。使用后消耗。",
+  "source": "tabx",
+  "_structured": true,
+  "page_type": "ego_gift",
+  "gift_name": "破旧仓库的钥匙",
+  "rarity": 0,
+  "cost": "0",
+  "effect_types": "",
+  "attack_type": "傲慢",
+  "location": "第三章",
+  "stage": "base",
+  "event": "事件-装满箱子的房间",
+  "_schema_version": 1
+}

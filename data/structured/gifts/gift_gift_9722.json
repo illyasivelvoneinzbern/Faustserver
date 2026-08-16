@@ -1,0 +1,22 @@
+{
+  "id": "gift_9722",
+  "title": "褪色的表壳",
+  "url": "https://limbuscompany.huijiwiki.com/wiki/E.G.O饰品",
+  "categories": [
+    "E.G.O饰品"
+  ],
+  "content": "与速度值高于自身的敌方单位拼点时，使自身的拼点威力+1。\n对速度值高于自身的敌方单位造成伤害时，下回合使该敌方单位增加3级震颤强度并对其施加2层震颤。(每回合最多1次)",
+  "source": "tabx",
+  "_structured": true,
+  "page_type": "ego_gift",
+  "gift_name": "褪色的表壳",
+  "rarity": 2,
+  "cost": "205",
+  "effect_types": "震颤",
+  "attack_type": "忧郁",
+  "location": "镜像迷宫",
+  "stage": "base",
+  "special": "时间杀人时间",
+  "event": "事件-工厂的工人",
+  "_schema_version": 1
+}

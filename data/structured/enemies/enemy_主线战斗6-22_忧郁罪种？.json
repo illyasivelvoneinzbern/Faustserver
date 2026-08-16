@@ -1,0 +1,111 @@
+{
+  "page_type": "enemy",
+  "title": "主线战斗6-22",
+  "enemy_name": "忧郁罪种？",
+  "battle_stage": "主线战斗6-22",
+  "body_part": "躯干",
+  "hp": 161,
+  "defense_level": 36,
+  "speed_min": 2,
+  "speed_max": 4,
+  "chaos_threshold": "97",
+  "physical_resistances": {
+    "斩击": 1.0,
+    "突刺": 1.75,
+    "打击": 1.0
+  },
+  "sin_resistances": {
+    "暴怒": 0.5,
+    "色欲": 1.0,
+    "怠惰": 1.0,
+    "暴食": 1.75,
+    "忧郁": 0.5,
+    "傲慢": 1.0,
+    "嫉妒": 1.75
+  },
+  "panic_types": [],
+  "passives": [],
+  "skills": [
+    {
+      "skill_name": "跃入",
+      "icon_id": "815201",
+      "sin_type": "忧郁",
+      "damage_type": "打击",
+      "base_value": 4,
+      "coin_power": 3,
+      "coin_count": 3,
+      "attack_level": 33,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[命中时] 使目标增加2级 沉沦 强度并对其施加2层 沉沦"
+      ]
+    },
+    {
+      "skill_name": "迸射",
+      "icon_id": "815202",
+      "sin_type": "忧郁",
+      "damage_type": "斩击",
+      "base_value": 4,
+      "coin_power": 3,
+      "coin_count": 2,
+      "attack_level": 33,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[命中时] 使目标增加3级 沉沦 强度并对其施加3层 沉沦"
+      ]
+    },
+    {
+      "skill_name": "水炸弹",
+      "icon_id": "815203",
+      "sin_type": "忧郁",
+      "damage_type": "打击",
+      "base_value": 6,
+      "coin_power": 3,
+      "coin_count": 2,
+      "attack_level": 33,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[使用时] 若目标的 沉沦 强度不低于5级，则使本技能的硬币威力+1",
+        "[命中时] 使目标增加8级 沉沦 强度",
+        "[正面命中时] 下回合对目标施加12层 忧郁易损"
+      ]
+    },
+    {
+      "skill_name": "闪避",
+      "icon_id": "815204",
+      "sin_type": "忧郁",
+      "damage_type": "闪避",
+      "base_value": 4,
+      "coin_power": 3,
+      "coin_count": 1,
+      "attack_level": 0,
+      "attack_weight": 1,
+      "is_guard": true,
+      "guard_type": "闪避",
+      "importance": 0,
+      "coin_effects": [
+        "闪避成功时使目标增加2级沉沦强度"
+      ]
+    }
+  ],
+  "is_ally": false,
+  "_structured": true,
+  "appear_stages": [
+    "主线战斗6-22",
+    "主线战斗6-26",
+    "活动战斗5.5-21"
+  ],
+  "enemy_id": "主线战斗6-22|忧郁罪种？|躯干",
+  "defense": 36,
+  "speed": "2~4",
+  "_schema_version": 1
+}

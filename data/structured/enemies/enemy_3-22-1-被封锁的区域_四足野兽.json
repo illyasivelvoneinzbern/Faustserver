@@ -1,0 +1,127 @@
+{
+  "page_type": "enemy",
+  "title": "3-22-1-被封锁的区域",
+  "enemy_name": "四足野兽",
+  "battle_stage": "3-22-1-被封锁的区域",
+  "body_part": "躯干",
+  "hp": 361,
+  "defense_level": 25,
+  "speed_min": 2,
+  "speed_max": 5,
+  "chaos_threshold": "90",
+  "physical_resistances": {
+    "斩击": 2.0,
+    "突刺": 0.75,
+    "打击": 1.0
+  },
+  "sin_resistances": {
+    "暴怒": 2.0,
+    "色欲": 1.0,
+    "怠惰": 0.75,
+    "暴食": 0.75,
+    "忧郁": 1.5,
+    "傲慢": 1.0,
+    "嫉妒": 1.0
+  },
+  "panic_types": [],
+  "passives": [],
+  "skills": [
+    {
+      "skill_name": "暴力撕扯",
+      "icon_id": "802501",
+      "sin_type": "色欲",
+      "damage_type": "斩击",
+      "base_value": 3,
+      "coin_power": 9,
+      "coin_count": 4,
+      "attack_level": 27,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[正面命中时] 下回合使目标增加1级 流血 强度"
+      ]
+    },
+    {
+      "skill_name": "狂暴冲撞",
+      "icon_id": "802502",
+      "sin_type": "色欲",
+      "damage_type": "穿刺",
+      "base_value": 2,
+      "coin_power": 9,
+      "coin_count": 3,
+      "attack_level": 27,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[命中时] 下回合使目标增加4级 流血 强度"
+      ]
+    },
+    {
+      "skill_name": "野蛮撕裂",
+      "icon_id": "802503",
+      "sin_type": "色欲",
+      "damage_type": "穿刺",
+      "base_value": 3,
+      "coin_power": 9,
+      "coin_count": 5,
+      "attack_level": 27,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[命中时] 下回合使目标增加4级 流血 强度",
+        "[命中时] 下回合对目标施加1层 易损"
+      ]
+    },
+    {
+      "skill_name": "暴怒追击",
+      "icon_id": "802504",
+      "sin_type": "色欲",
+      "damage_type": "斩击",
+      "base_value": 13,
+      "coin_power": 9,
+      "coin_count": 2,
+      "attack_level": 27,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[命中时] 下回合对目标施加6层 流血",
+        "[命中时] 下回合对目标施加6层 破裂"
+      ]
+    },
+    {
+      "skill_name": "高度警惕",
+      "icon_id": "802505",
+      "sin_type": "常规",
+      "damage_type": "闪避",
+      "base_value": 2,
+      "coin_power": 79,
+      "coin_count": 1,
+      "attack_level": 0,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": []
+    }
+  ],
+  "is_ally": false,
+  "_structured": true,
+  "appear_stages": [
+    "3-22-1-被封锁的区域",
+    "3-22-3-仪式广场（5）",
+    "折射轨道1号线-第10站：岔舌",
+    "最终仪式-困难战斗"
+  ],
+  "enemy_id": "3-22-1-被封锁的区域|四足野兽|躯干",
+  "defense": 25,
+  "speed": "2~5",
+  "_schema_version": 1
+}

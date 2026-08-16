@@ -1,0 +1,21 @@
+{
+  "id": "gift_9104",
+  "title": "火光花",
+  "url": "https://limbuscompany.huijiwiki.com/wiki/E.G.O饰品",
+  "categories": [
+    "E.G.O饰品"
+  ],
+  "content": "若暴怒共鸣数不低于3，则使增加烧伤强度，施加烧伤层数或施加特殊烧伤的技能的拼点威力+1\n- 若暴怒完全共鸣数不低于3或暴怒共鸣数不低于6，则改为拼点威力+2\n[第1、第2顺位人格专属]\n友方单位攻击敌方单位时，若目标现存体力不高于(目标的烧伤强度)%(若是异想体，则改为本体体力)，则使该友方单位增加烧伤强度，施加烧伤层数或施加特殊烧伤的攻击技能造成的伤害+50%。",
+  "source": "tabx",
+  "_structured": true,
+  "page_type": "ego_gift",
+  "gift_name": "火光花",
+  "rarity": 3,
+  "cost": "246",
+  "effect_types": "烧伤",
+  "attack_type": "傲慢",
+  "location": "镜像迷宫",
+  "stage": "base",
+  "event": "事件-红焰蛾",
+  "_schema_version": 1
+}

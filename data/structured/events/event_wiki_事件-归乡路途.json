@@ -1,0 +1,70 @@
+{
+  "page_type": "event",
+  "title": "事件-归乡路途",
+  "event_name": "归乡路途",
+  "narration": "这间房间的天花板很高。然而，它也很狭窄，所以从外观来看它只是一处狭小的空间。\n在房间内，看起来像是一位老人的东西坐在椅子上，一动不动地盯着墙上的一幅画。\n在它身后，一股黑暗，厚重且黏稠的烟雾蔓延出来。\n也许这就是孤独在被可视化后所展现的样子。\n“像你们这样的年轻人来这间屋子做什么？”\n它在对我们说话时依然目不转睛地盯着那幅画。它意识到这点有多久了？\n“你们想听听我的故事吗？”\n\n告诉它你们很乐意听些故事。\n“我的故事太长了，像你这样的年轻人在听完一个故事后可能就已经变得跟我一样老了。”\n“这个漫长的故事……它最终只是以我如何想回家，但却没能到达的结局告终。”\n它说着并长叹了口气，就像它希望能够放下这种渴望一般。\n“把这幅画从墙上取下来带走吧。那样会更好一些。”\n【该如何抉择？】\n分支1\n分支2\n带走这幅画。\n：\n当我们把画从墙上取下来时，一股寒意仿佛压在我们的背上。\n我们转过身来，发现那涌出的黏稠烟雾比之前要多得多。\n“那是我唯一的家了……”\n它极想要保持沉默，喃喃自语几乎像是在哀号。\n当我们试图把这幅画放回去时……\n“不！不要那么做……把它拿走吧。我已经下定决心了。”\n它喊道。\n“在我夺走你的家之前，带着它离开。快。”\n……我们听从它的恳求，匆匆离开了那个地方。\n获得\n！\n留下这幅画。\n：\n“呜呜，你为什么要将其留下？不过我很感激，所以请把这个带走吧。但这样很痛苦啊……”\n它看这幅画并不是纯粹为了欣赏。\n那超越了凝视，成为一种迷恋，或是说一种依恋的状态。\n我们决定不带走这幅画。\n“为什么……为什么要留下它……”\n尽管它的声音颤抖着，但其中略有如释重负的感觉。\n“是啊……这是我再也回不去的家。仅是看着我就会觉得很难过……但如果我看不到它，我的心该要如何平静下来。”\n“虽然你选择留下这幅画让我很痛苦……但我必须感谢你。以此作为替代来助力你的旅程吧。”\n它递给我们一样闪闪发光的东西，随后便又继续盯着那幅画。\n获得50\n经费\n全体友方单位失去\n15点理智值\n！\n\n不听故事离开。\n“……”\n我们没有答复，并试着走出房间关上了门。\n在那一瞬间，可以看到落寞孤独的烟雾从狭窄的缝隙中涌出并迸发开来。\n我迅速的关上了门……但还是没能阻止有一团烟雾从中泄露而出。\n全体友方单位失去\n30点理智值\n！",
+  "options": [
+    {
+      "choice_text": "告诉它你们很乐意听些故事。",
+      "check_type": "",
+      "check_sin": "",
+      "check_threshold": 0,
+      "success_outcomes": [],
+      "failure_outcomes": []
+    },
+    {
+      "choice_text": "带走这幅画。",
+      "check_type": "",
+      "check_sin": "",
+      "check_threshold": 0,
+      "success_outcomes": [],
+      "failure_outcomes": []
+    },
+    {
+      "choice_text": "留下这幅画。",
+      "check_type": "",
+      "check_sin": "",
+      "check_threshold": 0,
+      "success_outcomes": [],
+      "failure_outcomes": []
+    },
+    {
+      "choice_text": "不听故事离开。",
+      "check_type": "",
+      "check_sin": "",
+      "check_threshold": 0,
+      "success_outcomes": [],
+      "failure_outcomes": []
+    },
+    {
+      "choice_text": "带走这幅画。",
+      "check_type": "",
+      "check_sin": "",
+      "check_threshold": 0,
+      "success_outcomes": [],
+      "failure_outcomes": []
+    },
+    {
+      "choice_text": "留下这幅画。",
+      "check_type": "",
+      "check_sin": "",
+      "check_threshold": 0,
+      "success_outcomes": [],
+      "failure_outcomes": []
+    }
+  ],
+  "ego_gifts": [],
+  "related_abnormalities": [
+    "白幕内涉及目前游戏未公开内容，仅供参考，请以后续实装内容为准。",
+    "연기노인",
+    "事件触发地点",
+    "镜像迷宫"
+  ],
+  "trigger_location": "",
+  "_structured": true,
+  "id": "wiki_事件-归乡路途",
+  "url": "https://limbuscompany.huijiwiki.com/wiki/事件-归乡路途",
+  "categories": [],
+  "source": "wiki",
+  "_schema_version": 1
+}

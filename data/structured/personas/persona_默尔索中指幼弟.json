@@ -1,0 +1,584 @@
+{
+  "page_type": "personality",
+  "title": "默尔索中指幼弟",
+  "sinner": "默尔索",
+  "sinner_id": "meursault",
+  "personality_name": "默尔索中指幼弟",
+  "release_date": "2023.11.23",
+  "acquisition": "第3赛季提取",
+  "sin_affinities": {
+    "怠惰": 3,
+    "嫉妒": 2,
+    "暴怒": 1
+  },
+  "physical_resistances": {
+    "斩击": 2.0,
+    "突刺": 1.0,
+    "打击": 0.5
+  },
+  "ego_resources": {
+    "怠惰": 3,
+    "嫉妒": 2,
+    "暴怒": 1
+  },
+  "skills": [
+    {
+      "skill_index": 0,
+      "skill_name": "铭记",
+      "sin_type": "怠惰",
+      "damage_type": "打击",
+      "guard_type": "",
+      "attack_capacity": 1,
+      "coin_count": 3,
+      "stage_groups": [
+        [
+          {
+            "stage": "I",
+            "base_value": 2,
+            "coin_power": 4,
+            "effects": [
+              {
+                "timing": "正面命中时",
+                "description": "使目标增加1级 流血 强度"
+              },
+              {
+                "timing": "正面命中时",
+                "description": "使目标增加1级 流血 强度"
+              }
+            ],
+            "raw_text": "基础值： 2 变动值： +4 [正面命中时] 使目标增加1级 流血 强度 [正面命中时] 使目标增加1级 流血 强度"
+          },
+          {
+            "stage": "II",
+            "base_value": 2,
+            "coin_power": 4,
+            "effects": [
+              {
+                "timing": "拼点失败",
+                "description": "下回合使自身获得1层 嫉妒伤害强化"
+              },
+              {
+                "timing": "命中时",
+                "description": "使目标增加1级 流血 强度"
+              },
+              {
+                "timing": "命中时",
+                "description": "使目标增加1级 流血 强度"
+              }
+            ],
+            "raw_text": "基础值： 2 变动值： +4 [拼点失败] 下回合使自身获得1层 嫉妒伤害强化 [命中时] 使目标增加1级 流血 强度 [命中时] 使目标增加1级 流血 强度"
+          },
+          {
+            "stage": "III",
+            "base_value": 3,
+            "coin_power": 4,
+            "effects": [
+              {
+                "timing": "拼点失败",
+                "description": "下回合使自身获得1层 嫉妒伤害强化"
+              },
+              {
+                "timing": "命中时",
+                "description": "使目标增加1级 流血 强度"
+              },
+              {
+                "timing": "命中时",
+                "description": "使目标增加1级 流血 强度"
+              }
+            ],
+            "raw_text": "基础值： 3 变动值： +4 [拼点失败] 下回合使自身获得1层 嫉妒伤害强化 [命中时] 使目标增加1级 流血 强度 [命中时] 使目标增加1级 流血 强度"
+          },
+          {
+            "stage": "IV",
+            "base_value": 3,
+            "coin_power": 4,
+            "effects": [
+              {
+                "timing": "拼点失败",
+                "description": "下回合使自身获得1层 嫉妒伤害强化"
+              },
+              {
+                "timing": "命中时",
+                "description": "使目标增加1级 流血 强度"
+              },
+              {
+                "timing": "命中时",
+                "description": "使目标增加1级 流血 强度"
+              }
+            ],
+            "raw_text": "基础值： 3 变动值： +4 [拼点失败] 下回合使自身获得1层 嫉妒伤害强化 [命中时] 使目标增加1级 流血 强度 [命中时] 使目标增加1级 流血 强度"
+          }
+        ]
+      ],
+      "coin_effects": [
+        {
+          "coin_index": 0,
+          "description": "技能一"
+        },
+        {
+          "coin_index": 0,
+          "description": "铭记 3"
+        },
+        {
+          "coin_index": 0,
+          "timing": "",
+          "description": "2"
+        },
+        {
+          "coin_index": 0,
+          "description": "+1"
+        },
+        {
+          "coin_index": 0,
+          "description": "1"
+        },
+        {
+          "coin_index": 0,
+          "description": "基础值： 2 变动值： +4"
+        },
+        {
+          "coin_index": 1,
+          "timing": "正面命中时",
+          "description": "[正面命中时] 使目标增加1级 流血 强度"
+        },
+        {
+          "coin_index": 2,
+          "timing": "正面命中时",
+          "description": "[正面命中时] 使目标增加1级 流血 强度"
+        },
+        {
+          "coin_index": 1,
+          "timing": "命中时",
+          "description": "[命中时] 使目标增加1级 流血 强度"
+        },
+        {
+          "coin_index": 2,
+          "timing": "命中时",
+          "description": "[命中时] 使目标增加1级 流血 强度"
+        },
+        {
+          "coin_index": 1,
+          "timing": "命中时",
+          "description": "[命中时] 使目标增加1级 流血 强度"
+        },
+        {
+          "coin_index": 2,
+          "timing": "命中时",
+          "description": "[命中时] 使目标增加1级 流血 强度"
+        },
+        {
+          "coin_index": 1,
+          "timing": "命中时",
+          "description": "[命中时] 使目标增加1级 流血 强度"
+        },
+        {
+          "coin_index": 2,
+          "timing": "命中时",
+          "description": "[命中时] 使目标增加1级 流血 强度"
+        }
+      ],
+      "wikitext_key": "1技能"
+    },
+    {
+      "skill_index": 1,
+      "skill_name": "忠义锁链",
+      "sin_type": "",
+      "damage_type": "",
+      "guard_type": "",
+      "attack_capacity": 1,
+      "coin_count": 3,
+      "stage_groups": [
+        [
+          {
+            "stage": "I",
+            "base_value": 3,
+            "coin_power": 5,
+            "effects": [
+              {
+                "timing": "战斗开始",
+                "description": "使 仪表盘 上位于自身两侧的友方单位获得1层 嫉妒威力提升"
+              },
+              {
+                "timing": "正面命中时",
+                "description": "使目标增加1级 流血 强度"
+              },
+              {
+                "timing": "正面命中时",
+                "description": "使目标增加1级 流血 强度"
+              }
+            ],
+            "raw_text": "基础值： 3 变动值： +5 [战斗开始] 使 仪表盘 上位于自身两侧的友方单位获得1层 嫉妒威力提升 [正面命中时] 使目标增加1级 流血 强度 [正面命中时] 使目标增加1级 流血 强度"
+          },
+          {
+            "stage": "II",
+            "base_value": 3,
+            "coin_power": 5,
+            "effects": [
+              {
+                "timing": "战斗开始",
+                "description": "使 仪表盘 上位于自身两侧的友方单位获得1层 嫉妒威力提升"
+              },
+              {
+                "timing": "命中时",
+                "description": "使目标增加1级 流血 强度"
+              },
+              {
+                "timing": "命中时",
+                "description": "使目标增加1级 流血 强度"
+              }
+            ],
+            "raw_text": "基础值： 3 变动值： +5 [战斗开始] 使 仪表盘 上位于自身两侧的友方单位获得1层 嫉妒威力提升 [命中时] 使目标增加1级 流血 强度 [命中时] 使目标增加1级 流血 强度"
+          },
+          {
+            "stage": "III",
+            "base_value": 4,
+            "coin_power": 5,
+            "effects": [
+              {
+                "timing": "战斗开始",
+                "description": "使 仪表盘 上位于自身两侧的友方单位获得1层 嫉妒威力提升"
+              },
+              {
+                "timing": "命中时",
+                "description": "使目标增加1级 流血 强度"
+              },
+              {
+                "timing": "命中时",
+                "description": "使目标增加1级 流血 强度"
+              }
+            ],
+            "raw_text": "基础值： 4 变动值： +5 [战斗开始] 使 仪表盘 上位于自身两侧的友方单位获得1层 嫉妒威力提升 [命中时] 使目标增加1级 流血 强度 [命中时] 使目标增加1级 流血 强度"
+          },
+          {
+            "stage": "IV",
+            "base_value": 4,
+            "coin_power": 5,
+            "effects": [
+              {
+                "timing": "战斗开始",
+                "description": "使 仪表盘 上位于自身两侧的友方单位获得1层 嫉妒威力提升 若受影响的行动槽中的技能为嫉妒属性，则使对应单位获得1层 嫉妒伤害强化"
+              },
+              {
+                "timing": "命中时",
+                "description": "使目标增加1级 流血 强度"
+              },
+              {
+                "timing": "命中时",
+                "description": "使目标增加1级 流血 强度"
+              }
+            ],
+            "raw_text": "基础值： 4 变动值： +5 [战斗开始] 使 仪表盘 上位于自身两侧的友方单位获得1层 嫉妒威力提升 若受影响的行动槽中的技能为嫉妒属性，则使对应单位获得1层 嫉妒伤害强化 [命中时] 使目标增加1级 流血 强度 [命中时] 使目标增加1级 流血 强度"
+          }
+        ]
+      ],
+      "coin_effects": [
+        {
+          "coin_index": 0,
+          "description": "技能二"
+        },
+        {
+          "coin_index": 0,
+          "description": "忠义锁链 2"
+        },
+        {
+          "coin_index": 0,
+          "timing": "",
+          "description": "2"
+        },
+        {
+          "coin_index": 0,
+          "description": "+1"
+        },
+        {
+          "coin_index": 0,
+          "description": "1"
+        },
+        {
+          "coin_index": 0,
+          "description": "基础值： 3 变动值： +5 [战斗开始] 使 仪表盘 上位于自身两侧的友方单位获得1层 嫉妒威力提升"
+        },
+        {
+          "coin_index": 1,
+          "timing": "正面命中时",
+          "description": "[正面命中时] 使目标增加1级 流血 强度"
+        },
+        {
+          "coin_index": 2,
+          "timing": "正面命中时",
+          "description": "[正面命中时] 使目标增加1级 流血 强度"
+        },
+        {
+          "coin_index": 1,
+          "timing": "命中时",
+          "description": "[命中时] 使目标增加1级 流血 强度"
+        },
+        {
+          "coin_index": 2,
+          "timing": "命中时",
+          "description": "[命中时] 使目标增加1级 流血 强度"
+        },
+        {
+          "coin_index": 1,
+          "timing": "命中时",
+          "description": "[命中时] 使目标增加1级 流血 强度"
+        },
+        {
+          "coin_index": 2,
+          "timing": "命中时",
+          "description": "[命中时] 使目标增加1级 流血 强度"
+        },
+        {
+          "coin_index": 1,
+          "timing": "命中时",
+          "description": "[命中时] 使目标增加1级 流血 强度"
+        },
+        {
+          "coin_index": 2,
+          "timing": "命中时",
+          "description": "[命中时] 使目标增加1级 流血 强度"
+        }
+      ],
+      "wikitext_key": "2技能"
+    },
+    {
+      "skill_index": 2,
+      "skill_name": "铭刻",
+      "sin_type": "暴怒",
+      "damage_type": "打击",
+      "guard_type": "",
+      "attack_capacity": 1,
+      "coin_count": 4,
+      "stage_groups": [
+        [
+          {
+            "stage": "I",
+            "base_value": 4,
+            "coin_power": 3,
+            "effects": [
+              {
+                "timing": "命中时",
+                "description": "若目标带有 报复对象 ，则下回合对目标施加1层 加算硬币弱化"
+              },
+              {
+                "timing": "命中时",
+                "description": "若目标带有 报复对象 ，则下回合对目标施加1层 嫉妒易损"
+              }
+            ],
+            "raw_text": "基础值： 4 变动值： +3 若 嫉妒共鸣数 不低于4，则使本技能的硬币威力+1 [命中时] 若目标带有 报复对象 ，则下回合对目标施加1层 加算硬币弱化 [命中时] 若目标带有 报复对象 ，则下回合对目标施加1层 嫉妒易损"
+          },
+          {
+            "stage": "II",
+            "base_value": 4,
+            "coin_power": 3,
+            "effects": [
+              {
+                "timing": "命中时",
+                "description": "若目标带有 报复对象 ，则下回合对目标施加1层 加算硬币弱化"
+              },
+              {
+                "timing": "命中时",
+                "description": "若目标带有 报复对象 ，则下回合对目标施加2层 嫉妒易损"
+              }
+            ],
+            "raw_text": "基础值： 4 变动值： +3 若 嫉妒共鸣数 不低于4，则使本技能的硬币威力+1 若 嫉妒完全共鸣数 不低于6，则使本技能的硬币威力+1 [命中时] 若目标带有 报复对象 ，则下回合对目标施加1层 加算硬币弱化 [命中时] 若目标带有 报复对象 ，则下回合对目标施加2层 嫉妒易损"
+          }
+        ]
+      ],
+      "coin_effects": [
+        {
+          "coin_index": 0,
+          "description": "技能三"
+        },
+        {
+          "coin_index": 0,
+          "description": "铭刻 1"
+        },
+        {
+          "coin_index": 0,
+          "timing": "",
+          "description": "3"
+        },
+        {
+          "coin_index": 0,
+          "description": "+3"
+        },
+        {
+          "coin_index": 0,
+          "description": "1"
+        },
+        {
+          "coin_index": 0,
+          "description": "基础值： 4 变动值： +3 若 嫉妒共鸣数 不低于4，则使本技能的硬币威力+1"
+        },
+        {
+          "coin_index": 1,
+          "timing": "命中时",
+          "description": "[命中时] 若目标带有 报复对象 ，则下回合对目标施加1层 加算硬币弱化"
+        },
+        {
+          "coin_index": 0,
+          "timing": "",
+          "description": "加算硬币弱化"
+        },
+        {
+          "coin_index": 3,
+          "timing": "命中时",
+          "description": "[命中时] 若目标带有 报复对象 ，则下回合对目标施加1层 嫉妒易损"
+        },
+        {
+          "coin_index": 1,
+          "timing": "命中时",
+          "description": "[命中时] 若目标带有 报复对象 ，则下回合对目标施加1层 加算硬币弱化"
+        },
+        {
+          "coin_index": 0,
+          "timing": "",
+          "description": "加算硬币弱化"
+        },
+        {
+          "coin_index": 3,
+          "timing": "命中时",
+          "description": "[命中时] 若目标带有 报复对象 ，则下回合对目标施加2层 嫉妒易损"
+        }
+      ],
+      "wikitext_key": "3技能"
+    },
+    {
+      "skill_index": 3,
+      "skill_name": "加倍奉还",
+      "sin_type": "",
+      "damage_type": "",
+      "guard_type": "",
+      "attack_capacity": 1,
+      "coin_count": 3,
+      "stage_groups": [
+        [
+          {
+            "stage": "I",
+            "base_value": 4,
+            "coin_power": 4,
+            "effects": [
+              {
+                "timing": "正面命中时",
+                "description": "使目标增加1级 流血 强度"
+              },
+              {
+                "timing": "正面命中时",
+                "description": "使目标增加1级 流血 强度"
+              }
+            ],
+            "raw_text": "基础值： 4 变动值： +4 [正面命中时] 使目标增加1级 流血 强度 [正面命中时] 使目标增加1级 流血 强度"
+          },
+          {
+            "stage": "II",
+            "base_value": 4,
+            "coin_power": 4,
+            "effects": [
+              {
+                "timing": "命中时",
+                "description": "使目标增加1级 流血 强度"
+              },
+              {
+                "timing": "命中时",
+                "description": "使目标增加1级 流血 强度"
+              }
+            ],
+            "raw_text": "基础值： 4 变动值： +4 若 嫉妒共鸣数 不低于4，则使本技能的硬币威力+1 [命中时] 使目标增加1级 流血 强度 [命中时] 使目标增加1级 流血 强度"
+          }
+        ]
+      ],
+      "coin_effects": [
+        {
+          "coin_index": 0,
+          "description": "守备技能"
+        },
+        {
+          "coin_index": 0,
+          "description": "加倍奉还"
+        },
+        {
+          "coin_index": 0,
+          "timing": "",
+          "description": "2"
+        },
+        {
+          "coin_index": 0,
+          "description": "+3"
+        },
+        {
+          "coin_index": 0,
+          "description": "1"
+        },
+        {
+          "coin_index": 0,
+          "description": "基础值： 4 变动值： +4"
+        },
+        {
+          "coin_index": 1,
+          "timing": "正面命中时",
+          "description": "[正面命中时] 使目标增加1级 流血 强度"
+        },
+        {
+          "coin_index": 2,
+          "timing": "正面命中时",
+          "description": "[正面命中时] 使目标增加1级 流血 强度"
+        },
+        {
+          "coin_index": 1,
+          "timing": "命中时",
+          "description": "[命中时] 使目标增加1级 流血 强度"
+        },
+        {
+          "coin_index": 2,
+          "timing": "命中时",
+          "description": "[命中时] 使目标增加1级 流血 强度"
+        }
+      ],
+      "wikitext_key": "4技能"
+    }
+  ],
+  "battle_passive": "人格被动1050701\n人格被动1050721",
+  "support_passive": "",
+  "notes": "",
+  "voice_lines": [],
+  "skill_voice": [
+    {
+      "file": "Battle_s2_10507_1-05.ogg",
+      "skill_index": 2,
+      "skill_label": "",
+      "skill_name": "忠义锁链"
+    },
+    {
+      "file": "Battle_s2_10507_1-11.ogg",
+      "skill_index": 2,
+      "skill_label": "",
+      "skill_name": "忠义锁链"
+    },
+    {
+      "file": "Battle_s3_10507_1.ogg",
+      "skill_index": 3,
+      "skill_label": "",
+      "skill_name": "铭刻"
+    },
+    {
+      "file": "Battle_s3_10507_1-01.ogg",
+      "skill_index": 3,
+      "skill_label": "",
+      "skill_name": "铭刻"
+    },
+    {
+      "file": "Battle_s3_10507_1-16.ogg",
+      "skill_index": 3,
+      "skill_label": "",
+      "skill_name": "铭刻"
+    }
+  ],
+  "_structured": true,
+  "id": "wiki_默尔索中指幼弟",
+  "url": "https://limbuscompany.huijiwiki.com/wiki/默尔索中指幼弟",
+  "categories": [
+    "人格"
+  ],
+  "source": "wiki",
+  "_schema_version": 1
+}

@@ -1,0 +1,21 @@
+{
+  "id": "gift_9230",
+  "title": "黄金时间",
+  "url": "https://limbuscompany.huijiwiki.com/wiki/E.G.O饰品",
+  "categories": [
+    "E.G.O饰品"
+  ],
+  "content": "全体友方单位的最小与最大速度值+3\n若目标的速度值低于自身至少4点，则使自身技能的最终威力+2\n攻击命中敌方单位时，下回合对其施加1层束缚 (每回合最多4次)",
+  "source": "tabx",
+  "_structured": true,
+  "page_type": "ego_gift",
+  "gift_name": "黄金时间",
+  "rarity": 3,
+  "cost": "250",
+  "effect_types": "泛用",
+  "attack_type": "怠惰",
+  "location": "镜像迷宫",
+  "stage": "base",
+  "special": "诅咒事件",
+  "_schema_version": 1
+}

@@ -1,0 +1,21 @@
+{
+  "id": "gift_9432",
+  "title": "宅邸模型八音盒",
+  "url": "https://limbuscompany.huijiwiki.com/wiki/E.G.O饰品",
+  "categories": [
+    "E.G.O饰品"
+  ],
+  "content": "回合结束时，若自身陷入混乱，则解除自身的混乱，下回合开始时使全体敌方单位增加4级沉沦强度并对其施加4层沉沦(每场战斗最多1次；不包括强制混乱；若是集中遭遇战，则改为所有部位)\n击杀敌方单位时，对沉沦层数最低的1名敌方单位施加2层沉沦(每回合最多3次；若是集中遭遇战，则改为1个部位)",
+  "source": "tabx",
+  "_structured": true,
+  "page_type": "ego_gift",
+  "gift_name": "宅邸模型八音盒",
+  "rarity": 3,
+  "cost": "249",
+  "effect_types": "沉沦",
+  "attack_type": "色欲",
+  "location": "镜像迷宫",
+  "stage": "base",
+  "special": "宅邸的副产物",
+  "_schema_version": 1
+}

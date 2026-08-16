@@ -1,0 +1,21 @@
+{
+  "id": "gift_9169",
+  "title": "荆棘捕绳",
+  "url": "https://limbuscompany.huijiwiki.com/wiki/E.G.O饰品",
+  "categories": [
+    "E.G.O饰品"
+  ],
+  "content": "回合开始时，若拥有增加破裂强度或施加破裂层数的攻击技能的友方单位不低于5名，则在本场战斗期间触发该效果。(不包括E.G.O技能，不包括待命人员)\n战斗中敌方单位的破裂层数降至1层以下时，改为消耗20级破裂强度，而非破裂层数。(破裂强度低于20级时不会触发)\n战斗中命中敌方单位时，若其破裂层数为1层，则对其施加的破裂层数额外+1层(每场战斗最多2次)。",
+  "source": "tabx",
+  "_structured": true,
+  "page_type": "ego_gift",
+  "gift_name": "荆棘捕绳",
+  "rarity": 2,
+  "cost": "212",
+  "effect_types": "破裂",
+  "attack_type": "暴怒",
+  "location": "镜像迷宫",
+  "stage": "base",
+  "event": "事件-玫瑰猎人",
+  "_schema_version": 1
+}

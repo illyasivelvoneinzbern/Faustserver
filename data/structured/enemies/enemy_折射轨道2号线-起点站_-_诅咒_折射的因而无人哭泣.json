@@ -1,0 +1,38 @@
+{
+  "page_type": "enemy",
+  "title": "折射轨道2号线-起点站 - 诅咒",
+  "enemy_name": "折射的因而无人哭泣",
+  "battle_stage": "折射轨道2号线-起点站 - 诅咒",
+  "body_part": "躯干",
+  "hp": 1202,
+  "defense_level": 33,
+  "speed_min": 1,
+  "speed_max": 4,
+  "chaos_threshold": "721/0",
+  "physical_resistances": {
+    "斩击": 0.5,
+    "突刺": 1.0,
+    "打击": 1.5
+  },
+  "sin_resistances": {
+    "暴怒": 1.5,
+    "色欲": 1.0,
+    "怠惰": 0.5,
+    "暴食": 1.0,
+    "忧郁": 1.5,
+    "傲慢": 1.0,
+    "嫉妒": 0.75
+  },
+  "panic_types": [],
+  "passives": [],
+  "skills": [],
+  "is_ally": false,
+  "_structured": true,
+  "appear_stages": [
+    "折射轨道2号线-起点站 - 诅咒"
+  ],
+  "enemy_id": "折射轨道2号线-起点站 - 诅咒|折射的因而无人哭泣|躯干",
+  "defense": 33,
+  "speed": "1~4",
+  "_schema_version": 1
+}

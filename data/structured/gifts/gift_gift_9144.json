@@ -1,0 +1,20 @@
+{
+  "id": "gift_9144",
+  "title": "曾经的祝福",
+  "url": "https://limbuscompany.huijiwiki.com/wiki/E.G.O饰品",
+  "categories": [
+    "E.G.O饰品"
+  ],
+  "content": "[第6顺位友方单位专属]\n使用突刺技能命中敌方单位时，下回合使自身获得1层迅捷与1层突刺伤害强化(每回合最多1次)。\n该技能击杀敌方单位时，下回合使自身额外获得1层迅捷(每回合最多1次)。",
+  "source": "tabx",
+  "_structured": true,
+  "page_type": "ego_gift",
+  "gift_name": "曾经的祝福",
+  "rarity": 2,
+  "cost": "213",
+  "effect_types": "突刺",
+  "attack_type": "嫉妒",
+  "location": "镜像迷宫",
+  "stage": "base",
+  "_schema_version": 1
+}

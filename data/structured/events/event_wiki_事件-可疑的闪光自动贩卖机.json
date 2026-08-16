@@ -1,0 +1,62 @@
+{
+  "page_type": "event",
+  "title": "事件-可疑的闪光自动贩卖机",
+  "event_name": "可疑的闪光自动贩卖机",
+  "narration": "在工厂的正中央，你找到了一个有着巨大按钮的自动贩卖机。\n多彩又可爱的按钮……\n你有种非按不可的感觉。\n你要按下哪个按钮呢？\n\n按下红色的拳头形按钮\n“恭喜！恭喜！”\n有什么东西骨碌碌地滚进了取货口里。\n看起来像是一个玩具拳头。\n获得E.G.O饰品\n玩具拳头\n！\n\n按下黄色的脚形按钮\n“恭喜！恭喜！”\n有什么东西骨碌碌地滚进了取货口里。\n看起来像是一只玩具脚。\n获得E.G.O饰品\n玩具腿\n！\n\n按下绿色的心形按钮\n“恭喜！恭喜！”\n有什么东西骨碌碌地滚进了取货口里。\n看起来像是一个玩具螺丝。\n获得E.G.O饰品\n玩具螺丝\n！\n\n一次按下所有按钮\n“发生错误！发生错误！”\n自动贩卖机开始吱嘎作响。\n“嘿，这玩意出了什么毛病?”\n“哎，所以说不要太贪得无厌……”\n罪人的话还没来得及说完，机器就爆炸了，吐出了无数玩具零件。\n全体友方单位失去\n25点体力\n及\n25点理智值\n！\n获得E.G.O饰品\n玩具拳头\n！\n获得E.G.O饰品\n玩具腿\n！\n获得E.G.O饰品\n玩具螺丝\n！\n\n不按任何按钮\n对如此奇怪的东西应当无视。\n随意触碰未知事物肯定是个馊主意。\n我们没有采取任何行动就离开了自动贩卖机。\n什么都没有发生。",
+  "options": [
+    {
+      "choice_text": "按下红色的拳头形按钮",
+      "check_type": "",
+      "check_sin": "",
+      "check_threshold": 0,
+      "success_outcomes": [],
+      "failure_outcomes": []
+    },
+    {
+      "choice_text": "按下黄色的脚形按钮",
+      "check_type": "",
+      "check_sin": "",
+      "check_threshold": 0,
+      "success_outcomes": [],
+      "failure_outcomes": []
+    },
+    {
+      "choice_text": "按下绿色的心形按钮",
+      "check_type": "",
+      "check_sin": "",
+      "check_threshold": 0,
+      "success_outcomes": [],
+      "failure_outcomes": []
+    },
+    {
+      "choice_text": "一次按下所有按钮",
+      "check_type": "",
+      "check_sin": "",
+      "check_threshold": 0,
+      "success_outcomes": [],
+      "failure_outcomes": []
+    },
+    {
+      "choice_text": "不按任何按钮",
+      "check_type": "",
+      "check_sin": "",
+      "check_threshold": 0,
+      "success_outcomes": [],
+      "failure_outcomes": []
+    }
+  ],
+  "ego_gifts": [
+    {
+      "name": "所有友方造成的伤害+10%。",
+      "effect": "所有友方的速度值+1。"
+    }
+  ],
+  "related_abnormalities": [],
+  "trigger_location": "",
+  "_structured": true,
+  "id": "wiki_事件-可疑的闪光自动贩卖机",
+  "url": "https://limbuscompany.huijiwiki.com/wiki/事件-可疑的闪光自动贩卖机",
+  "categories": [],
+  "source": "wiki",
+  "_schema_version": 1
+}

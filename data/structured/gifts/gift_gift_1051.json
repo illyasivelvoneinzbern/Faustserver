@@ -1,0 +1,21 @@
+{
+  "id": "gift_1051",
+  "title": "钉与锤之书",
+  "url": "https://limbuscompany.huijiwiki.com/wiki/E.G.O饰品",
+  "categories": [
+    "E.G.O饰品"
+  ],
+  "content": "使用傲慢技能时，失去5点理智值，并使该技能造成的伤害+5%",
+  "source": "tabx",
+  "_structured": true,
+  "page_type": "ego_gift",
+  "gift_name": "钉与锤之书",
+  "rarity": 0,
+  "cost": "0",
+  "effect_types": "",
+  "attack_type": "色欲",
+  "location": "第三章",
+  "stage": "base",
+  "event": "事件-狂信之物",
+  "_schema_version": 1
+}

@@ -1,0 +1,20 @@
+{
+  "id": "gift_9191",
+  "title": "声望卡",
+  "url": "https://limbuscompany.huijiwiki.com/wiki/E.G.O饰品",
+  "categories": [
+    "E.G.O饰品"
+  ],
+  "content": "商店购买E.G.O饰品所需经费减少30%",
+  "source": "tabx",
+  "_structured": true,
+  "page_type": "ego_gift",
+  "gift_name": "声望卡",
+  "rarity": 3,
+  "cost": "250",
+  "effect_types": "泛用",
+  "attack_type": "嫉妒",
+  "location": "镜像迷宫",
+  "stage": "base",
+  "_schema_version": 1
+}

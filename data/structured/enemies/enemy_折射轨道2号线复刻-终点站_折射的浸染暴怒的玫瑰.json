@@ -1,0 +1,85 @@
+{
+  "page_type": "enemy",
+  "title": "折射轨道2号线复刻-终点站",
+  "enemy_name": "折射的浸染暴怒的玫瑰",
+  "battle_stage": "折射轨道2号线复刻-终点站",
+  "body_part": "",
+  "hp": 121,
+  "defense_level": 58,
+  "speed_min": 1,
+  "speed_max": 3,
+  "chaos_threshold": "72 / 48",
+  "physical_resistances": {
+    "斩击": 1.0,
+    "突刺": 1.0,
+    "打击": 1.0
+  },
+  "sin_resistances": {
+    "暴怒": 2.0,
+    "色欲": 0.5,
+    "怠惰": 0.5,
+    "暴食": 0.5,
+    "忧郁": 0.5,
+    "傲慢": 0.5,
+    "嫉妒": 0.5
+  },
+  "panic_types": [
+    "绽放的罪孽",
+    "强化状态",
+    "烧伤"
+  ],
+  "passives": [
+    "盛放的罪孽: 绽放的罪孽 层数为4层时，本场战斗中将获得 强化状态",
+    "绽于藤蔓的玫瑰: 玫瑰告示牌本体阵亡时，自身阵亡",
+    "余火: 阵亡时，对目标造成相当于自身受到伤害量的伤害，并使目标增加5级 烧伤 强度",
+    "喷涌的暴怒: 若自身带有 强化状态 ，则令自身技能效果增加的 烧伤 强度额外+1级 阵亡时若自身带有 强化状态 ，则对全体友方单位施加4层 烧伤",
+    "憎恶: 无恐慌类型数据"
+  ],
+  "skills": [
+    {
+      "skill_name": "燃烧的暴怒",
+      "icon_id": "856401",
+      "sin_type": "暴怒",
+      "damage_type": "斩击",
+      "base_value": 3,
+      "coin_power": 987,
+      "coin_count": 4,
+      "attack_level": 62,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[使用时] 每有1朵与自身罪孽属性不同的玫瑰，使本技能的基础威力+1(最多+6)",
+        "[命中时] 使目标增加2级 烧伤 强度"
+      ]
+    },
+    {
+      "skill_name": "飞散的暴怒",
+      "icon_id": "856401",
+      "sin_type": "暴怒",
+      "damage_type": "斩击",
+      "base_value": 5,
+      "coin_power": 987,
+      "coin_count": 3,
+      "attack_level": 62,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[使用时] 每有1朵与自身罪孽属性不同的玫瑰，使本技能的基础威力+1(最多+6)",
+        "[命中时] 对目标施加2层 烧伤"
+      ]
+    }
+  ],
+  "is_ally": false,
+  "_structured": true,
+  "appear_stages": [
+    "折射轨道2号线复刻-终点站"
+  ],
+  "enemy_id": "折射轨道2号线复刻-终点站|折射的浸染暴怒的玫瑰|",
+  "defense": 58,
+  "speed": "1~3",
+  "_schema_version": 1
+}

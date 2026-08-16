@@ -1,0 +1,20 @@
+{
+  "id": "gift_9087",
+  "title": "炽热的智慧",
+  "url": "https://limbuscompany.huijiwiki.com/wiki/E.G.O饰品",
+  "categories": [
+    "E.G.O饰品"
+  ],
+  "content": "通过烧伤效果击杀敌方单位后，下回合开始时使拥有增加烧伤强度的技能的2名友方单位获得1层伤害强化。",
+  "source": "tabx",
+  "_structured": true,
+  "page_type": "ego_gift",
+  "gift_name": "炽热的智慧",
+  "rarity": 1,
+  "cost": "141",
+  "effect_types": "烧伤",
+  "attack_type": "怠惰",
+  "location": "镜像迷宫",
+  "stage": "base",
+  "_schema_version": 1
+}

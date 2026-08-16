@@ -1,0 +1,150 @@
+{
+  "page_type": "enemy",
+  "title": "纺锤采光-色欲-5",
+  "enemy_name": "精灵提灯",
+  "battle_stage": "纺锤采光-色欲-5",
+  "body_part": "",
+  "hp": 136,
+  "defense_level": 53,
+  "speed_min": 1,
+  "speed_max": 1,
+  "chaos_threshold": "68 / 0",
+  "physical_resistances": {
+    "斩击": 1.0,
+    "突刺": 1.0,
+    "打击": 1.0
+  },
+  "sin_resistances": {
+    "暴怒": 0.5,
+    "色欲": 2.0,
+    "怠惰": 0.5,
+    "暴食": 0.75,
+    "忧郁": 0.75,
+    "傲慢": 0.75,
+    "嫉妒": 0.75
+  },
+  "panic_types": [],
+  "passives": [
+    "显露的深渊: 精灵部位被破坏后，露出躯干 躯干再次隐藏时，解除自身的所有增益与减益效果",
+    "损毁的根系: 若躯干部位被破坏，精灵再生时会以60%的体力上限再生。 若躯干部位被破坏，本体通过技能效果恢复的体力+20",
+    "魅惑: 对速度值最低的敌方单位施加。 根据巡回数相应增加 魅惑 人数。 精灵部位再生时增加 魅惑 人数。",
+    "领先的诱饵: 精灵部位受到攻击也不会消耗本体的体力。 根据已 魅惑 人数相应增加攻击的行动槽。",
+    "进化的诱饵: 精灵部位再生时，体力上限+20%。",
+    "精灵粉末: 精灵阵亡时，下回合使所有人格增加5级 呼吸法 强度并获得2层 呼吸法"
+  ],
+  "skills": [
+    {
+      "skill_name": "悬挂的诱饵",
+      "icon_id": "854901",
+      "sin_type": "暴食",
+      "damage_type": "打击",
+      "base_value": 5,
+      "coin_power": 854,
+      "coin_count": 2,
+      "attack_level": 62,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[命中时] 对目标施加2层 破裂",
+        "[命中时] 使目标增加3级 流血 强度",
+        "[命中时] 使本体与躯干部位恢复15点体力"
+      ]
+    },
+    {
+      "skill_name": "深埋之根",
+      "icon_id": "854902",
+      "sin_type": "暴食",
+      "damage_type": "打击",
+      "base_value": 5,
+      "coin_power": 854,
+      "coin_count": 2,
+      "attack_level": 62,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[命中时] 对目标施加3层 破裂",
+        "[命中时] 对目标施加3层 流血"
+      ]
+    },
+    {
+      "skill_name": "蔓延之根",
+      "icon_id": "854903",
+      "sin_type": "怠惰",
+      "damage_type": "打击",
+      "base_value": 6,
+      "coin_power": 9703,
+      "coin_count": 2,
+      "attack_level": 62,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[命中时] 使目标增加5级 破裂 强度",
+        "[命中时] 使目标增加5级 流血 强度"
+      ]
+    },
+    {
+      "skill_name": "蚕食的茎",
+      "icon_id": "854904",
+      "sin_type": "暴食",
+      "damage_type": "打击",
+      "base_value": 7,
+      "coin_power": 854,
+      "coin_count": 2,
+      "attack_level": 62,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[命中时] 目标每带有1级 破裂 强度，则使本硬币造成的伤害+5%"
+      ]
+    },
+    {
+      "skill_name": "显露的深渊",
+      "icon_id": "854905",
+      "sin_type": "傲慢",
+      "damage_type": "打击",
+      "base_value": 10,
+      "coin_power": 3,
+      "coin_count": 1,
+      "attack_level": 62,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "若目标的{{状态2|破裂|4=负面}}强度不低于5级，则使本技能造成的伤害+100%"
+      ]
+    },
+    {
+      "skill_name": "被魅惑的自我",
+      "icon_id": "854906",
+      "sin_type": "常规",
+      "damage_type": "打击",
+      "base_value": 6,
+      "coin_power": 6,
+      "coin_count": 1,
+      "attack_level": 3,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": []
+    }
+  ],
+  "is_ally": false,
+  "_structured": true,
+  "appear_stages": [
+    "纺锤采光-色欲-5"
+  ],
+  "enemy_id": "纺锤采光-色欲-5|精灵提灯|",
+  "defense": 53,
+  "speed": "1~1",
+  "_schema_version": 1
+}

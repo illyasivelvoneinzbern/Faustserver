@@ -1,0 +1,107 @@
+{
+  "page_type": "enemy",
+  "title": "主线战斗4-25",
+  "enemy_name": "颤抖的玫瑰扳手工坊收尾人",
+  "battle_stage": "主线战斗4-25",
+  "body_part": "",
+  "hp": 120,
+  "defense_level": 30,
+  "speed_min": 1,
+  "speed_max": 4,
+  "chaos_threshold": "",
+  "physical_resistances": {
+    "斩击": 0.75,
+    "突刺": 2.0,
+    "打击": 1.0
+  },
+  "sin_resistances": {
+    "暴怒": 1.0,
+    "色欲": 1.0,
+    "怠惰": 1.0,
+    "暴食": 1.0,
+    "忧郁": 1.0,
+    "傲慢": 1.0,
+    "嫉妒": 1.0
+  },
+  "panic_types": [
+    "畏缩",
+    "虚弱",
+    "畏缩",
+    "虚弱"
+  ],
+  "passives": [
+    "无"
+  ],
+  "skills": [
+    {
+      "skill_name": "摩擦加速",
+      "icon_id": "9005301",
+      "sin_type": "暴食",
+      "damage_type": "",
+      "base_value": 0,
+      "coin_power": 3,
+      "coin_count": 4,
+      "attack_level": 33,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "coin_effects": [
+        "[命中时] 使目标增加1级 震颤 在{1}回合内，受到造成 震颤引爆 的攻击时，混乱阈值前移{0}。 强度",
+        "[正面命中时] 使目标增加1级 破裂 下{1}次被攻击时，额外受到{0}点固定伤害。 强度",
+        "[正面命中时] 使目标增加2级 破裂 下{1}次被攻击时，额外受到{0}点固定伤害。 强度",
+        "[正面命中时] 使目标增加3级 破裂 下{1}次被攻击时，额外受到{0}点固定伤害。 强度"
+      ]
+    },
+    {
+      "skill_name": "碾碎你！",
+      "icon_id": "9005302",
+      "sin_type": "暴食",
+      "damage_type": "",
+      "base_value": 0,
+      "coin_power": 8,
+      "coin_count": 2,
+      "attack_level": 33,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "coin_effects": [
+        "[命中时] 使目标增加2级 震颤 在{1}回合内，受到造成 震颤引爆 的攻击时，混乱阈值前移{0}。 强度",
+        "[正面命中时] 使目标增加3级 破裂 下{1}次被攻击时，额外受到{0}点固定伤害。 强度"
+      ]
+    },
+    {
+      "skill_name": "震颤震动",
+      "icon_id": "9005303",
+      "sin_type": "怠惰",
+      "damage_type": "",
+      "base_value": 0,
+      "coin_power": 1,
+      "coin_count": 3,
+      "attack_level": 33,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "coin_effects": []
+    },
+    {
+      "skill_name": "发动引擎",
+      "icon_id": "9005304",
+      "sin_type": "常规",
+      "damage_type": "",
+      "base_value": 0,
+      "coin_power": 4,
+      "coin_count": 1,
+      "attack_level": 0,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "coin_effects": []
+    }
+  ],
+  "is_ally": false,
+  "_structured": true,
+  "enemy_id": "主线战斗4-25|颤抖的玫瑰扳手工坊收尾人",
+  "defense": 30,
+  "speed": "1~4",
+  "_schema_version": 1
+}

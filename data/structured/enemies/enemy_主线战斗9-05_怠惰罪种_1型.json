@@ -1,0 +1,75 @@
+{
+  "page_type": "enemy",
+  "title": "主线战斗9-05",
+  "enemy_name": "怠惰罪种 1型",
+  "battle_stage": "主线战斗9-05",
+  "body_part": "躯干",
+  "hp": 76,
+  "defense_level": 52,
+  "speed_min": 1,
+  "speed_max": 2,
+  "chaos_threshold": "22",
+  "physical_resistances": {
+    "斩击": 1.0,
+    "突刺": 1.0,
+    "打击": 2.0
+  },
+  "sin_resistances": {
+    "暴怒": 1.0,
+    "色欲": 1.0,
+    "怠惰": 0.75,
+    "暴食": 2.0,
+    "忧郁": 2.0,
+    "傲慢": 1.0,
+    "嫉妒": 0.75
+  },
+  "panic_types": [],
+  "passives": [],
+  "skills": [
+    {
+      "skill_name": "翻滚冲撞",
+      "icon_id": "800601",
+      "sin_type": "怠惰",
+      "damage_type": "打击",
+      "base_value": 4,
+      "coin_power": 9703,
+      "coin_count": 1,
+      "attack_level": 47,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": []
+    },
+    {
+      "skill_name": "怠惰紧扼",
+      "icon_id": "800602",
+      "sin_type": "怠惰",
+      "damage_type": "打击",
+      "base_value": 5,
+      "coin_power": 9703,
+      "coin_count": 2,
+      "attack_level": 47,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[正面命中时] 下回合对目标施加3层 束缚"
+      ]
+    }
+  ],
+  "is_ally": false,
+  "_structured": true,
+  "appear_stages": [
+    "主线战斗9-05",
+    "主线战斗9-06",
+    "主线战斗9-20",
+    "主线战斗9-22",
+    "困难活动战斗7.5-07"
+  ],
+  "enemy_id": "主线战斗9-05|怠惰罪种 1型|躯干",
+  "defense": 52,
+  "speed": "1~2",
+  "_schema_version": 1
+}

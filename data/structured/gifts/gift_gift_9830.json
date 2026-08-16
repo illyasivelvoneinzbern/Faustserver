@@ -1,0 +1,21 @@
+{
+  "id": "gift_9830",
+  "title": "可米的小小礼物",
+  "url": "https://limbuscompany.huijiwiki.com/wiki/E.G.O饰品",
+  "categories": [
+    "E.G.O饰品"
+  ],
+  "content": "使关卡的首个回合开始时与解除待命的全体友方单位获得3层备用糖果\n若友方单位上回合未消耗备用糖果，则回合开始时使其获得1层饥饿（饰品）",
+  "source": "tabx",
+  "_structured": true,
+  "page_type": "ego_gift",
+  "gift_name": "可米的小小礼物",
+  "rarity": 4,
+  "cost": "201",
+  "effect_types": "泛用",
+  "attack_type": "暴食",
+  "location": "镜像迷宫",
+  "stage": "base",
+  "special": "极限模式节点-仲春夜之梦2",
+  "_schema_version": 1
+}

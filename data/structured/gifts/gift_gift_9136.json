@@ -1,0 +1,20 @@
+{
+  "id": "gift_9136",
+  "title": "摩擦残片",
+  "url": "https://limbuscompany.huijiwiki.com/wiki/E.G.O饰品",
+  "categories": [
+    "E.G.O饰品"
+  ],
+  "content": "使用获得或消耗充能层数或特殊充能的E.G.O技能时触发\n最终威力增加相当于消耗的(嫉妒罪孽碎片+其他罪孽碎片总和/3)的数值，造成的伤害+50%。\n若是嫉妒E.G.O技能，则攻击前根据其E.G.O等级，相应额外获得充能层数(ZAYIN获得2层，等级每提升1级，额外获得1层)并使该技能造成的伤害+(自身的充能层数与特殊充能之和×5)%(最多+200%)",
+  "source": "tabx",
+  "_structured": true,
+  "page_type": "ego_gift",
+  "gift_name": "摩擦残片",
+  "rarity": 4,
+  "cost": "400",
+  "effect_types": "充能",
+  "attack_type": "忧郁",
+  "location": "镜像迷宫",
+  "stage": "base",
+  "_schema_version": 1
+}

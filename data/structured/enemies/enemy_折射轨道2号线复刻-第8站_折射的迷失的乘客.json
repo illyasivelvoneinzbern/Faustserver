@@ -1,0 +1,178 @@
+{
+  "page_type": "enemy",
+  "title": "折射轨道2号线复刻-第8站",
+  "enemy_name": "折射的迷失的乘客",
+  "battle_stage": "折射轨道2号线复刻-第8站",
+  "body_part": "",
+  "hp": 1656,
+  "defense_level": 48,
+  "speed_min": 3,
+  "speed_max": 5,
+  "chaos_threshold": "745 / 0",
+  "physical_resistances": {
+    "斩击": 1.0,
+    "突刺": 0.75,
+    "打击": 1.0
+  },
+  "sin_resistances": {
+    "暴怒": 1.0,
+    "色欲": 1.5,
+    "怠惰": 1.0,
+    "暴食": 2.0,
+    "忧郁": 1.0,
+    "傲慢": 0.75,
+    "嫉妒": 0.5
+  },
+  "panic_types": [],
+  "passives": [
+    "次元逃逸: 从第2回合起，每一定回合，随机召唤4个次元并躲进次元 - 自身所有部位陷入混乱时，下回合触发该效果 - 躲进次元时，自身不会陷入混乱",
+    "脱离受困次元: 所有次元被破坏时，下回合会主动撕开次元并出场。 随后失去5层 充能 并使所有部位的混乱阈值前移30。",
+    "试图强行突破次元-抑制力部分解除: 本体体力不高于60%时，结束本回合并改变自身模式 - 禁用被动“次元逃逸” - 禁用被动“脱离受困次元” - 若双臂未被破坏，则每一定回合使用强力技能",
+    "折射的挣扎: 若与同一目标拼点不低于10次，则拼点判定时随机使自身的拼点威力增加或减少(拼点次数/10)。(向下取整)",
+    "修复次元折射刃: 刀刃部位被破坏时，使自身失去5层 充能 下回合结束时消耗2层 充能 并使被破坏的刀刃部位恢复 若刀刃部位被破坏，则每回合开始对自身施加2层 攻击等级降低",
+    "折射的烧伤与破裂: 烧伤 和 破裂 强度最多累积到30级 烧伤 和 破裂 层数最多累积到5层",
+    "施加折射的震颤: 无恐慌类型数据"
+  ],
+  "skills": [
+    {
+      "skill_name": "次元斩",
+      "icon_id": "855001",
+      "sin_type": "暴食",
+      "damage_type": "斩击",
+      "base_value": 8,
+      "coin_power": 854,
+      "coin_count": 2,
+      "attack_level": 63,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[使用时] 使自身获得3层 充能",
+        "[命中时] 使目标增加3级 破裂 强度"
+      ]
+    },
+    {
+      "skill_name": "连续次元斩",
+      "icon_id": "855002",
+      "sin_type": "嫉妒",
+      "damage_type": "斩击",
+      "base_value": 8,
+      "coin_power": 5793,
+      "coin_count": 3,
+      "attack_level": 63,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[使用时] 使自身获得3层 充能",
+        "[命中时] 对目标施加3层 次元裂痕"
+      ]
+    },
+    {
+      "skill_name": "喷吐副产物",
+      "icon_id": "855003",
+      "sin_type": "暴食",
+      "damage_type": "突刺",
+      "base_value": 10,
+      "coin_power": 854,
+      "coin_count": 2,
+      "attack_level": 63,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[使用时] 使自身获得4层 充能",
+        "[命中时] 使目标增加5级 破裂 强度"
+      ]
+    },
+    {
+      "skill_name": "空间撕裂",
+      "icon_id": "855004",
+      "sin_type": "嫉妒",
+      "damage_type": "斩击",
+      "base_value": 15,
+      "coin_power": 5793,
+      "coin_count": 5,
+      "attack_level": 63,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[正面命中时] 使自身获得2层 充能"
+      ]
+    },
+    {
+      "skill_name": "预备反击",
+      "icon_id": "855005",
+      "sin_type": "暴食",
+      "damage_type": "斩击",
+      "base_value": 5,
+      "coin_power": 854,
+      "coin_count": 3,
+      "attack_level": 63,
+      "attack_weight": 1,
+      "is_guard": true,
+      "guard_type": "反击",
+      "importance": 0,
+      "coin_effects": [
+        "[使用时] 使自身获得1层 充能",
+        "[命中时] 对目标施加2层 破裂",
+        "[命中时] 使目标增加2级 破裂 强度"
+      ]
+    },
+    {
+      "skill_name": "呕吐副产物",
+      "icon_id": "855006",
+      "sin_type": "嫉妒",
+      "damage_type": "突刺",
+      "base_value": 6,
+      "coin_power": 5793,
+      "coin_count": 3,
+      "attack_level": 63,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[使用时] 若主要目标带有 次元裂痕 ，则使本技能造成的伤害+10%"
+      ]
+    },
+    {
+      "skill_name": "高速空间撕裂",
+      "icon_id": "855007",
+      "sin_type": "嫉妒",
+      "damage_type": "突刺",
+      "base_value": 10,
+      "coin_power": 5793,
+      "coin_count": 3,
+      "attack_level": 63,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "可无视速度值与本技能拼点，直到使用本技能时，自身不会陷入混乱",
+        "拼点失败",
+        "- 对自身施加2层虚弱与1层麻痹",
+        "- 使本技能造成的伤害-90%，且本技能造成的伤害不会使目标陷入混乱",
+        "根据自身带有的层数最高的次元效果，相应使本技能的拼点威力增加",
+        "自身每带有1种次元效果，使本技能造成的伤害+10%",
+        "1不可摧毁的硬币",
+        "未摧毁 - 命中时使目标增加3级破裂强度"
+      ]
+    }
+  ],
+  "is_ally": false,
+  "_structured": true,
+  "appear_stages": [
+    "折射轨道2号线复刻-第8站"
+  ],
+  "enemy_id": "折射轨道2号线复刻-第8站|折射的迷失的乘客|",
+  "defense": 48,
+  "speed": "3~5",
+  "_schema_version": 1
+}

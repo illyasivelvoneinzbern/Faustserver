@@ -1,0 +1,168 @@
+{
+  "page_type": "enemy",
+  "title": "主线战斗5-36-3-2",
+  "enemy_name": "斯达巴克",
+  "battle_stage": "主线战斗5-36-3-2",
+  "body_part": "躯干",
+  "hp": 460,
+  "defense_level": 35,
+  "speed_min": 3,
+  "speed_max": 5,
+  "chaos_threshold": "427/244/122/0",
+  "physical_resistances": {
+    "斩击": 1.0,
+    "突刺": 1.5,
+    "打击": 1.0
+  },
+  "sin_resistances": {
+    "暴怒": 1.0,
+    "色欲": 1.0,
+    "怠惰": 1.0,
+    "暴食": 1.25,
+    "忧郁": 1.0,
+    "傲慢": 1.0,
+    "嫉妒": 1.0
+  },
+  "panic_types": [
+    "苍白恐慌"
+  ],
+  "passives": [],
+  "skills": [
+    {
+      "skill_name": "穿刺",
+      "icon_id": "810401",
+      "sin_type": "暴食",
+      "damage_type": "",
+      "base_value": 3,
+      "coin_power": 854,
+      "coin_count": 4,
+      "attack_level": 38,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[使用时] 使自身获得3层 呼吸法",
+        "[命中时] 对目标施加1层 流血"
+      ]
+    },
+    {
+      "skill_name": "利刃穿身",
+      "icon_id": "810402",
+      "sin_type": "暴食",
+      "damage_type": "",
+      "base_value": 5,
+      "coin_power": 854,
+      "coin_count": 3,
+      "attack_level": 38,
+      "attack_weight": 1,
+      "is_guard": true,
+      "guard_type": "防御",
+      "importance": 0,
+      "coin_effects": [
+        "[使用时] 使自身获得5级 呼吸法 强度",
+        "[命中时] 下回合对目标施加1层 易损",
+        "[命中时] 下回合对目标施加2层 防御等级降低",
+        "[正面命中时] 重复使用本硬币（最多3次）"
+      ]
+    },
+    {
+      "skill_name": "听从命令…",
+      "icon_id": "810403",
+      "sin_type": "怠惰",
+      "damage_type": "",
+      "base_value": 5,
+      "coin_power": 9703,
+      "coin_count": 2,
+      "attack_level": 40,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[命中时] 使目标增加1层 流血"
+      ]
+    },
+    {
+      "skill_name": "突击",
+      "icon_id": "810404",
+      "sin_type": "暴怒",
+      "damage_type": "",
+      "base_value": 5,
+      "coin_power": 987,
+      "coin_count": 2,
+      "attack_level": 43,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[命中时] 使目标增加3层 流血"
+      ]
+    },
+    {
+      "skill_name": "恐惧的叹息",
+      "icon_id": "810405",
+      "sin_type": "怠惰",
+      "damage_type": "",
+      "base_value": 12,
+      "coin_power": 9703,
+      "coin_count": 4,
+      "attack_level": 41,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[使用时] 使自身获得6层 呼吸法",
+        "[命中时] 使目标增加1层 流血"
+      ]
+    },
+    {
+      "skill_name": "决心鱼叉",
+      "icon_id": "810406",
+      "sin_type": "色欲",
+      "damage_type": "",
+      "base_value": 16,
+      "coin_power": 9,
+      "coin_count": 3,
+      "attack_level": 43,
+      "attack_weight": 1,
+      "is_guard": true,
+      "guard_type": "防御",
+      "importance": 0,
+      "coin_effects": [
+        "[命中时] 对目标施加 捕获",
+        "[命中时] 下回合对目标施加5层 防御等级降低",
+        "[命中时] 对目标施加1层 易损",
+        "[反面命中时] 重复使用本硬币（最多3次）"
+      ]
+    },
+    {
+      "skill_name": "为了离开",
+      "icon_id": "810407",
+      "sin_type": "怠惰",
+      "damage_type": "",
+      "base_value": 20,
+      "coin_power": 9703,
+      "coin_count": 2,
+      "attack_level": 45,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[命中时] 对目标施加3层 流血"
+      ]
+    }
+  ],
+  "is_ally": false,
+  "_structured": true,
+  "appear_stages": [
+    "主线战斗5-36-3-2"
+  ],
+  "enemy_id": "主线战斗5-36-3-2|斯达巴克|躯干",
+  "defense": 35,
+  "speed": "3~5",
+  "_schema_version": 1
+}

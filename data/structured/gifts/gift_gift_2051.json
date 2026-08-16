@@ -1,0 +1,21 @@
+{
+  "id": "gift_2051",
+  "title": "告解之鞭",
+  "url": "https://limbuscompany.huijiwiki.com/wiki/E.G.O饰品",
+  "categories": [
+    "E.G.O饰品"
+  ],
+  "content": "现存体力比例最高的1名友方单位使用攻击技能时，使其增加10级流血强度并使其获得3层攻击等级提升与3层防御等级提升(每回合最多1次)",
+  "source": "tabx",
+  "_structured": true,
+  "page_type": "ego_gift",
+  "gift_name": "告解之鞭",
+  "rarity": 1,
+  "cost": "0",
+  "effect_types": "",
+  "attack_type": "傲慢",
+  "location": "第七章",
+  "stage": "base",
+  "event": "事件-拉·曼却领自由通行券",
+  "_schema_version": 1
+}

@@ -1,0 +1,20 @@
+{
+  "id": "gift_9070",
+  "title": "明镜止水",
+  "url": "https://limbuscompany.huijiwiki.com/wiki/E.G.O饰品",
+  "categories": [
+    "E.G.O饰品"
+  ],
+  "content": "友方单位的暴击倍率从1.2倍增加至1.7倍\n若因暴击消耗了呼吸法层数，则下回合使该单位获得10层攻击等级提升。（每回合每名友方单位最多生效1次）",
+  "source": "tabx",
+  "_structured": true,
+  "page_type": "ego_gift",
+  "gift_name": "明镜止水",
+  "rarity": 4,
+  "cost": "390",
+  "effect_types": "呼吸法",
+  "attack_type": "嫉妒",
+  "location": "镜像迷宫",
+  "stage": "base",
+  "_schema_version": 1
+}

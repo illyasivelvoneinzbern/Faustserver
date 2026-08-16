@@ -1,0 +1,20 @@
+{
+  "id": "gift_9197",
+  "title": "高弹性钢鞋",
+  "url": "https://limbuscompany.huijiwiki.com/wiki/E.G.O饰品",
+  "categories": [
+    "E.G.O饰品"
+  ],
+  "content": "[第3顺位友方单位专属]\n突刺技能的攻击等级+(该友方单位拥有的突刺基本攻击技能数)(同技能不重复计数，最多+3)。\n带有的迅捷层数不低于3层时，攻击敌方单位时造成的突刺伤害+(10+自身的迅捷层数×3)%(最多25%)。",
+  "source": "tabx",
+  "_structured": true,
+  "page_type": "ego_gift",
+  "gift_name": "高弹性钢鞋",
+  "rarity": 1,
+  "cost": "148",
+  "effect_types": "突刺",
+  "attack_type": "怠惰",
+  "location": "镜像迷宫",
+  "stage": "base",
+  "_schema_version": 1
+}

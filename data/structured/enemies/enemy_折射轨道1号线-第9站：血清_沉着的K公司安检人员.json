@@ -1,0 +1,108 @@
+{
+  "page_type": "enemy",
+  "title": "折射轨道1号线-第9站：血清",
+  "enemy_name": "沉着的K公司安检人员",
+  "battle_stage": "折射轨道1号线-第9站：血清",
+  "body_part": "身体",
+  "hp": 140,
+  "defense_level": 140,
+  "speed_min": 0,
+  "speed_max": 0,
+  "chaos_threshold": "2-2",
+  "physical_resistances": {
+    "斩击": 1.0,
+    "突刺": 0.75,
+    "打击": 2.0
+  },
+  "sin_resistances": {
+    "暴怒": 2.0,
+    "色欲": 1.0,
+    "怠惰": 1.5,
+    "暴食": 1.0,
+    "忧郁": 1.0,
+    "傲慢": 2.0,
+    "嫉妒": 1.0
+  },
+  "panic_types": [],
+  "passives": [],
+  "skills": [
+    {
+      "skill_name": "突袭",
+      "icon_id": "9002801",
+      "sin_type": "怠惰",
+      "damage_type": "打击",
+      "base_value": 3,
+      "coin_power": 9703,
+      "coin_count": 4,
+      "attack_level": 29,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[命中时] 下回合使目标增加1级 震颤 强度"
+      ]
+    },
+    {
+      "skill_name": "镇压",
+      "icon_id": "9002901",
+      "sin_type": "怠惰",
+      "damage_type": "打击",
+      "base_value": 5,
+      "coin_power": 9703,
+      "coin_count": 2,
+      "attack_level": 30,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[命中时] 下回合对目标施加1层 震颤"
+      ]
+    },
+    {
+      "skill_name": "激活HP弹",
+      "icon_id": "9002804",
+      "sin_type": "常规",
+      "damage_type": "防御",
+      "base_value": 10,
+      "coin_power": 79,
+      "coin_count": 1,
+      "attack_level": 0,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "使用时使自身恢复10点体力"
+      ]
+    },
+    {
+      "skill_name": "压制目标",
+      "icon_id": "9002803",
+      "sin_type": "怠惰",
+      "damage_type": "打击",
+      "base_value": 5,
+      "coin_power": 9703,
+      "coin_count": 3,
+      "attack_level": 29,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[正面命中时] 下回合使目标增加3级 震颤 强度",
+        "[命中时] 引爆目标的 震颤"
+      ]
+    }
+  ],
+  "is_ally": false,
+  "_structured": true,
+  "appear_stages": [
+    "折射轨道1号线-第9站：血清"
+  ],
+  "enemy_id": "折射轨道1号线-第9站：血清|沉着的K公司安检人员|身体",
+  "defense": 140,
+  "speed": "0~0",
+  "_schema_version": 1
+}

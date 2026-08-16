@@ -1,0 +1,137 @@
+{
+  "page_type": "enemy",
+  "title": "1-11-1-情报部 连接通道",
+  "enemy_name": "黑檀女王的苹果",
+  "battle_stage": "1-11-1-情报部 连接通道",
+  "body_part": "果实",
+  "hp": 21,
+  "defense_level": 5,
+  "speed_min": 1,
+  "speed_max": 2,
+  "chaos_threshold": "",
+  "physical_resistances": {
+    "斩击": 1.0,
+    "突刺": 1.0,
+    "打击": 2.0
+  },
+  "sin_resistances": {
+    "暴怒": 2.0,
+    "色欲": 1.0,
+    "怠惰": 1.0,
+    "暴食": 1.0,
+    "忧郁": 0.5,
+    "傲慢": 1.0,
+    "嫉妒": 0.75
+  },
+  "panic_types": [],
+  "passives": [
+    "苹果的黄金期: 果实被破坏后，对所有部位施加2层 易损 。 被破坏的果实会在一回合后再生。",
+    "缠绕的根: 回合开始时，对所有敌方单位施加1层 束缚 ，直到根部被破坏为止。",
+    "唯一的根: 每有一个未被破坏的手臂部位，根部便获得2层 强壮 。"
+  ],
+  "skills": [
+    {
+      "skill_name": "怀疑猜忌",
+      "icon_id": "8001001",
+      "sin_type": "暴食",
+      "damage_type": "",
+      "base_value": 2,
+      "coin_power": 854,
+      "coin_count": 1,
+      "attack_level": 7,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": []
+    },
+    {
+      "skill_name": "苦痛蔓延",
+      "icon_id": "8001005",
+      "sin_type": "傲慢",
+      "damage_type": "",
+      "base_value": 6,
+      "coin_power": 3,
+      "coin_count": 2,
+      "attack_level": 7,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[正面命中时] 下回合对目标施加1层 易损"
+      ]
+    },
+    {
+      "skill_name": "褪色枝干",
+      "icon_id": "8001002",
+      "sin_type": "暴食",
+      "damage_type": "",
+      "base_value": 2,
+      "coin_power": 854,
+      "coin_count": 1,
+      "attack_level": 7,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": []
+    },
+    {
+      "skill_name": "褪色枝干",
+      "icon_id": "8001003",
+      "sin_type": "暴食",
+      "damage_type": "",
+      "base_value": 2,
+      "coin_power": 854,
+      "coin_count": 1,
+      "attack_level": 7,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": []
+    },
+    {
+      "skill_name": "根生荆棘",
+      "icon_id": "8001004",
+      "sin_type": "傲慢",
+      "damage_type": "",
+      "base_value": 4,
+      "coin_power": 3,
+      "coin_count": 2,
+      "attack_level": 7,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[正面命中时] 下回合对目标施加3层 流血"
+      ]
+    },
+    {
+      "skill_name": "徒劳之果",
+      "icon_id": "8001006",
+      "sin_type": "常规",
+      "damage_type": "",
+      "base_value": 4,
+      "coin_power": 79,
+      "coin_count": 1,
+      "attack_level": 0,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": []
+    }
+  ],
+  "is_ally": false,
+  "_structured": true,
+  "appear_stages": [
+    "1-11-1-情报部 连接通道"
+  ],
+  "enemy_id": "1-11-1-情报部 连接通道|黑檀女王的苹果|果实",
+  "defense": 5,
+  "speed": "1~2",
+  "_schema_version": 1
+}

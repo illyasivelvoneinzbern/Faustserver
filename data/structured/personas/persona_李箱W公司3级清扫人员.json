@@ -1,0 +1,617 @@
+{
+  "page_type": "personality",
+  "title": "李箱W公司3级清扫人员",
+  "sinner": "李箱",
+  "sinner_id": "yisang",
+  "personality_name": "李箱W公司3级清扫人员",
+  "release_date": "2023.11.09",
+  "acquisition": "常驻提取",
+  "sin_affinities": {
+    "怠惰": 3,
+    "暴食": 2,
+    "忧郁": 1
+  },
+  "physical_resistances": {
+    "斩击": 1.0,
+    "突刺": 0.5,
+    "打击": 2.0
+  },
+  "ego_resources": {
+    "怠惰": 3,
+    "暴食": 2,
+    "忧郁": 1
+  },
+  "skills": [
+    {
+      "skill_index": 0,
+      "skill_name": "撕裂次元",
+      "sin_type": "怠惰",
+      "damage_type": "斩击",
+      "guard_type": "",
+      "attack_capacity": 1,
+      "coin_count": 2,
+      "stage_groups": [
+        [
+          {
+            "stage": "I",
+            "base_value": 4,
+            "coin_power": 6,
+            "effects": [
+              {
+                "timing": "使用时",
+                "description": "使自身获得2层 充能"
+              },
+              {
+                "timing": "命中时",
+                "description": "使自身获得2层 充能"
+              }
+            ],
+            "raw_text": "基础值： 4 变动值： +6 [使用时] 使自身获得2层 充能 [命中时] 使自身获得2层 充能"
+          },
+          {
+            "stage": "II",
+            "base_value": 4,
+            "coin_power": 6,
+            "effects": [
+              {
+                "timing": "使用时",
+                "description": "使自身获得2层 充能"
+              },
+              {
+                "timing": "命中时",
+                "description": "使自身获得2层 充能"
+              },
+              {
+                "timing": "正面命中时",
+                "description": "使目标增加2级 破裂 强度"
+              }
+            ],
+            "raw_text": "基础值： 4 变动值： +6 [使用时] 使自身获得2层 充能 [命中时] 使自身获得2层 充能 [正面命中时] 使目标增加2级 破裂 强度"
+          },
+          {
+            "stage": "III",
+            "base_value": 5,
+            "coin_power": 6,
+            "effects": [
+              {
+                "timing": "使用时",
+                "description": "使自身获得2层 充能"
+              },
+              {
+                "timing": "命中时",
+                "description": "使自身获得2层 充能"
+              },
+              {
+                "timing": "正面命中时",
+                "description": "使目标增加2级 破裂 强度"
+              }
+            ],
+            "raw_text": "基础值： 5 变动值： +6 [使用时] 使自身获得2层 充能 [命中时] 使自身获得2层 充能 [正面命中时] 使目标增加2级 破裂 强度"
+          },
+          {
+            "stage": "IV",
+            "base_value": 5,
+            "coin_power": 6,
+            "effects": [
+              {
+                "timing": "使用时",
+                "description": "使自身获得2层 充能 若自身的 充能 层数不低于10层，则使本 技能 的 硬币威力 +2"
+              },
+              {
+                "timing": "命中时",
+                "description": "使自身获得2层 充能"
+              },
+              {
+                "timing": "命中时",
+                "description": "使目标增加2级 破裂 强度"
+              }
+            ],
+            "raw_text": "基础值： 5 变动值： +6 [使用时] 使自身获得2层 充能 若自身的 充能 层数不低于10层，则使本 技能 的 硬币威力 +2 [命中时] 使自身获得2层 充能 [命中时] 使目标增加2级 破裂 强度"
+          }
+        ]
+      ],
+      "coin_effects": [
+        {
+          "coin_index": 0,
+          "description": "技能一"
+        },
+        {
+          "coin_index": 0,
+          "description": "撕裂次元 3"
+        },
+        {
+          "coin_index": 0,
+          "timing": "",
+          "description": "1"
+        },
+        {
+          "coin_index": 0,
+          "description": "+3"
+        },
+        {
+          "coin_index": 0,
+          "description": "1"
+        },
+        {
+          "coin_index": 0,
+          "description": "基础值： 4 变动值： +6 [使用时] 使自身获得2层 充能"
+        },
+        {
+          "coin_index": 1,
+          "timing": "命中时",
+          "description": "[命中时] 使自身获得2层 充能"
+        },
+        {
+          "coin_index": 1,
+          "timing": "命中时",
+          "description": "[命中时] 使自身获得2层 充能 [正面命中时] 使目标增加2级 破裂 强度"
+        },
+        {
+          "coin_index": 1,
+          "timing": "命中时",
+          "description": "[命中时] 使自身获得2层 充能 [正面命中时] 使目标增加2级 破裂 强度"
+        },
+        {
+          "coin_index": 1,
+          "timing": "命中时",
+          "description": "[命中时] 使自身获得2层 充能 [命中时] 使目标增加2级 破裂 强度"
+        }
+      ],
+      "wikitext_key": "1技能"
+    },
+    {
+      "skill_index": 1,
+      "skill_name": "能源循环",
+      "sin_type": "",
+      "damage_type": "",
+      "guard_type": "",
+      "attack_capacity": 1,
+      "coin_count": 3,
+      "stage_groups": [
+        [
+          {
+            "stage": "I",
+            "base_value": 4,
+            "coin_power": 5,
+            "effects": [
+              {
+                "timing": "使用时",
+                "description": "使自身获得5层 充能"
+              },
+              {
+                "timing": "正面命中时",
+                "description": "下回合对目标施加1层 束缚"
+              },
+              {
+                "timing": "命中时",
+                "description": "使目标增加3级 破裂 强度"
+              }
+            ],
+            "raw_text": "基础值： 4 变动值： +5 [使用时] 使自身获得5层 充能 [正面命中时] 下回合对目标施加1层 束缚 [命中时] 使目标增加3级 破裂 强度"
+          },
+          {
+            "stage": "II",
+            "base_value": 4,
+            "coin_power": 5,
+            "effects": [
+              {
+                "timing": "使用时",
+                "description": "使自身获得6层 充能 若自身的 充能 层数不低于10层，则使 技能 的 硬币威力 +1"
+              },
+              {
+                "timing": "命中时",
+                "description": "下回合对目标施加1层 束缚"
+              },
+              {
+                "timing": "命中时",
+                "description": "使目标增加3级 破裂 强度"
+              },
+              {
+                "timing": "命中时",
+                "description": "若自身的 充能 层数不低于10层，则使目标增加3级 破裂 强度"
+              }
+            ],
+            "raw_text": "基础值： 4 变动值： +5 [使用时] 使自身获得6层 充能 若自身的 充能 层数不低于10层，则使 技能 的 硬币威力 +1 [命中时] 下回合对目标施加1层 束缚 [命中时] 使目标增加3级 破裂 强度 [命中时] 若自身的 充能 层数不低于10层，则使目标增加3级 破裂 强度"
+          },
+          {
+            "stage": "III",
+            "base_value": 5,
+            "coin_power": 5,
+            "effects": [
+              {
+                "timing": "使用时",
+                "description": "使自身获得6层 充能 若自身的 充能 层数不低于10层，则使本 技能 的 硬币威力 +1"
+              },
+              {
+                "timing": "命中时",
+                "description": "下回合对目标施加1层 束缚"
+              },
+              {
+                "timing": "命中时",
+                "description": "使目标增加3级 破裂 强度"
+              },
+              {
+                "timing": "命中时",
+                "description": "若自身的 充能 层数不低于10层，则使目标增加3级 破裂 强度"
+              }
+            ],
+            "raw_text": "基础值： 5 变动值： +5 [使用时] 使自身获得6层 充能 若自身的 充能 层数不低于10层，则使本 技能 的 硬币威力 +1 [命中时] 下回合对目标施加1层 束缚 [命中时] 使目标增加3级 破裂 强度 [命中时] 若自身的 充能 层数不低于10层，则使目标增加3级 破裂 强度"
+          },
+          {
+            "stage": "IV",
+            "base_value": 5,
+            "coin_power": 5,
+            "effects": [
+              {
+                "timing": "使用时",
+                "description": "使自身获得7层 充能 若自身的 充能 层数不低于10层，则使本 技能 的 硬币威力 +1"
+              },
+              {
+                "timing": "命中时",
+                "description": "下回合对目标施加1层 束缚"
+              },
+              {
+                "timing": "命中时",
+                "description": "使目标增加3级 破裂 强度"
+              },
+              {
+                "timing": "命中时",
+                "description": "若自身的 充能 层数不低于10层，则使目标增加3级 破裂 强度并对目标施加2层 破裂"
+              }
+            ],
+            "raw_text": "基础值： 5 变动值： +5 [使用时] 使自身获得7层 充能 若自身的 充能 层数不低于10层，则使本 技能 的 硬币威力 +1 [命中时] 下回合对目标施加1层 束缚 [命中时] 使目标增加3级 破裂 强度 [命中时] 若自身的 充能 层数不低于10层，则使目标增加3级 破裂 强度并对目标施加2层 破裂"
+          }
+        ]
+      ],
+      "coin_effects": [
+        {
+          "coin_index": 0,
+          "description": "技能二"
+        },
+        {
+          "coin_index": 0,
+          "description": "能源循环 2"
+        },
+        {
+          "coin_index": 0,
+          "timing": "",
+          "description": "2"
+        },
+        {
+          "coin_index": 0,
+          "description": "+3"
+        },
+        {
+          "coin_index": 0,
+          "description": "1"
+        },
+        {
+          "coin_index": 0,
+          "description": "基础值： 4 变动值： +5 [使用时] 使自身获得5层 充能"
+        },
+        {
+          "coin_index": 1,
+          "timing": "正面命中时",
+          "description": "[正面命中时] 下回合对目标施加1层 束缚"
+        },
+        {
+          "coin_index": 2,
+          "timing": "命中时",
+          "description": "[命中时] 使目标增加3级 破裂 强度"
+        },
+        {
+          "coin_index": 1,
+          "timing": "命中时",
+          "description": "[命中时] 下回合对目标施加1层 束缚"
+        },
+        {
+          "coin_index": 2,
+          "timing": "命中时",
+          "description": "[命中时] 使目标增加3级 破裂 强度 [命中时] 若自身的 充能 层数不低于10层，则使目标增加3级 破裂 强度"
+        },
+        {
+          "coin_index": 1,
+          "timing": "命中时",
+          "description": "[命中时] 下回合对目标施加1层 束缚"
+        },
+        {
+          "coin_index": 2,
+          "timing": "命中时",
+          "description": "[命中时] 使目标增加3级 破裂 强度 [命中时] 若自身的 充能 层数不低于10层，则使目标增加3级 破裂 强度"
+        },
+        {
+          "coin_index": 1,
+          "timing": "命中时",
+          "description": "[命中时] 下回合对目标施加1层 束缚"
+        },
+        {
+          "coin_index": 2,
+          "timing": "命中时",
+          "description": "[命中时] 使目标增加3级 破裂 强度 [命中时] 若自身的 充能 层数不低于10层，则使目标增加3级 破裂 强度并对目标施加2层 破裂"
+        }
+      ],
+      "wikitext_key": "2技能"
+    },
+    {
+      "skill_index": 2,
+      "skill_name": "次元裂隙",
+      "sin_type": "",
+      "damage_type": "",
+      "guard_type": "",
+      "attack_capacity": 1,
+      "coin_count": 4,
+      "stage_groups": [
+        [
+          {
+            "stage": "I",
+            "base_value": 5,
+            "coin_power": 4,
+            "effects": [
+              {
+                "timing": "使用时",
+                "description": "若自身的 充能 层数低于15层，则消耗10层 充能 并使本 技能 的 硬币威力 +1"
+              },
+              {
+                "timing": "使用时",
+                "description": "消耗15层 充能 并使本 技能 的 硬币威力 +2"
+              },
+              {
+                "timing": "正面命中时",
+                "description": "使目标增加1级 破裂 强度"
+              },
+              {
+                "timing": "正面命中时",
+                "description": "使目标增加1级 破裂 强度"
+              },
+              {
+                "timing": "命中时",
+                "description": "使用本 技能 时每消耗5层 充能 ，使目标增加2级 破裂 强度（最多6级）"
+              },
+              {
+                "timing": "命中时",
+                "description": "若使用本 技能 时消耗了15层 充能 ，则对目标施加2层 次元裂痕"
+              },
+              {
+                "timing": "击杀敌方时",
+                "description": "使自身获得3层 充能力场"
+              }
+            ],
+            "raw_text": "基础值： 5 变动值： +4 [使用时] 若自身的 充能 层数低于15层，则消耗10层 充能 并使本 技能 的 硬币威力 +1 [使用时] 消耗15层 充能 并使本 技能 的 硬币威力 +2 [正面命中时] 使目标增加1级 破裂 强度 [正面命中时] 使目标增加1级 破裂 强度 [命中时] 使用本 技能 时每消耗5层 充能 ，使目标增加2级 破裂 强度（最多6级） [命中时] 若使用本 技能 时消耗了15层 充能 ，则对目标施加2层 次元裂痕 [击杀敌方时] 使自身获得3层 充能力场"
+          },
+          {
+            "stage": "II",
+            "base_value": 5,
+            "coin_power": 4,
+            "effects": [
+              {
+                "timing": "使用时",
+                "description": "若自身的 充能 层数低于15层，则消耗10层 充能 并使本 技能 的 硬币威力 +1"
+              },
+              {
+                "timing": "使用时",
+                "description": "消耗15层 充能 并使本 技能 的 硬币威力 +2"
+              },
+              {
+                "timing": "攻击前",
+                "description": "若使用本 技能 时消耗了15层 充能 ，则对目标施加3层 破裂"
+              },
+              {
+                "timing": "正面命中时",
+                "description": "使目标增加1级 破裂 强度"
+              },
+              {
+                "timing": "正面命中时",
+                "description": "使目标增加1级 破裂 强度"
+              },
+              {
+                "timing": "命中时",
+                "description": "使用本 技能 时每消耗5层 充能 ，使目标增加3级 破裂 强度（最多9级）"
+              },
+              {
+                "timing": "命中时",
+                "description": "若使用本 技能 时消耗了15层 充能 ，则对目标施加2层 次元裂痕"
+              },
+              {
+                "timing": "击杀敌方时",
+                "description": "使自身获得5层 充能力场"
+              }
+            ],
+            "raw_text": "基础值： 5 变动值： +4 [使用时] 若自身的 充能 层数低于15层，则消耗10层 充能 并使本 技能 的 硬币威力 +1 [使用时] 消耗15层 充能 并使本 技能 的 硬币威力 +2 [攻击前] 若使用本 技能 时消耗了15层 充能 ，则对目标施加3层 破裂 [正面命中时] 使目标增加1级 破裂 强度 [正面命中时] 使目标增加1级 破裂 强度 [命中时] 使用本 技能 时每消耗5层 充能 ，使目标增加3级 破裂 强度（最多9级） [命中时] 若使用本 技能 时消耗了15层 充能 ，则对目标施加2层 次元裂痕 [击杀敌方时] 使自身获得5层 充能力场"
+          }
+        ]
+      ],
+      "coin_effects": [
+        {
+          "coin_index": 0,
+          "description": "技能三"
+        },
+        {
+          "coin_index": 0,
+          "description": "次元裂隙 1"
+        },
+        {
+          "coin_index": 0,
+          "timing": "",
+          "description": "3"
+        },
+        {
+          "coin_index": 0,
+          "description": "+5"
+        },
+        {
+          "coin_index": 0,
+          "description": "1"
+        },
+        {
+          "coin_index": 0,
+          "description": "基础值： 5 变动值： +4 [使用时] 若自身的 充能 层数低于15层，则消耗10层 充能 并使本 技能 的 硬币威力 +1 [使用时] 消耗15层 充能 并使本 技能 的 硬币威力 +2"
+        },
+        {
+          "coin_index": 1,
+          "timing": "正面命中时",
+          "description": "[正面命中时] 使目标增加1级 破裂 强度"
+        },
+        {
+          "coin_index": 2,
+          "timing": "正面命中时",
+          "description": "[正面命中时] 使目标增加1级 破裂 强度"
+        },
+        {
+          "coin_index": 3,
+          "timing": "命中时",
+          "description": "[命中时] 使用本 技能 时每消耗5层 充能 ，使目标增加2级 破裂 强度（最多6级） [命中时] 若使用本 技能 时消耗了15层 充能 ，则对目标施加2层 次元裂痕 [击杀敌方时] 使自身获得3层 充能力场"
+        },
+        {
+          "coin_index": 1,
+          "timing": "正面命中时",
+          "description": "[正面命中时] 使目标增加1级 破裂 强度"
+        },
+        {
+          "coin_index": 2,
+          "timing": "正面命中时",
+          "description": "[正面命中时] 使目标增加1级 破裂 强度"
+        },
+        {
+          "coin_index": 3,
+          "timing": "命中时",
+          "description": "[命中时] 使用本 技能 时每消耗5层 充能 ，使目标增加3级 破裂 强度（最多9级） [命中时] 若使用本 技能 时消耗了15层 充能 ，则对目标施加2层 次元裂痕 [击杀敌方时] 使自身获得5层 充能力场"
+        }
+      ],
+      "wikitext_key": "3技能"
+    },
+    {
+      "skill_index": 3,
+      "skill_name": "空洞次元",
+      "sin_type": "",
+      "damage_type": "",
+      "guard_type": "闪避",
+      "attack_capacity": 1,
+      "coin_count": 1,
+      "stage_groups": [
+        [
+          {
+            "stage": "I",
+            "base_value": 4,
+            "coin_power": 10,
+            "effects": [],
+            "raw_text": "基础值： 4 变动值： +10 自身每带有5层 充能 ，使本 技能 的 基础威力 +1（最多+2）"
+          },
+          {
+            "stage": "II",
+            "base_value": 4,
+            "coin_power": 10,
+            "effects": [
+              {
+                "timing": "闪避成功时",
+                "description": "下回合首次通过 技能 使目标增加的 破裂 强度额外+1级（每回合最多额外+3级）"
+              }
+            ],
+            "raw_text": "基础值： 4 变动值： +10 自身每带有5层 充能 ，使本 技能 的 基础威力 +1（最多+2） [闪避成功时] 下回合首次通过 技能 使目标增加的 破裂 强度额外+1级（每回合最多额外+3级）"
+          }
+        ]
+      ],
+      "coin_effects": [
+        {
+          "coin_index": 0,
+          "description": "守备技能"
+        },
+        {
+          "coin_index": 0,
+          "description": "空洞次元"
+        },
+        {
+          "coin_index": 0,
+          "timing": "",
+          "description": "1"
+        },
+        {
+          "coin_index": 0,
+          "description": "+0"
+        },
+        {
+          "coin_index": 0,
+          "description": "1"
+        },
+        {
+          "coin_index": 0,
+          "description": "I阶 - III阶 IV阶 追加属性： 基础值： 4 变动值： +10 自身每带有5层 充能 ，使本 技能 的 基础威力 +1（最多+2） 基础值： 4 变动值： +10 自身每带有5层 充能 ，使本 技能 的 基础威力 +1（最多+2） [闪避成功时] 下回合首次通过 技能 使目标增加的 破裂 强度额外+1级（每回合最多额外+3级）"
+        }
+      ],
+      "wikitext_key": "守备技能4"
+    }
+  ],
+  "battle_passive": "人格被动1010601\n人格被动1010621",
+  "support_passive": "",
+  "notes": "",
+  "voice_lines": [],
+  "skill_voice": [
+    {
+      "file": "Battle_s2_10106_1_1.ogg",
+      "skill_index": 2,
+      "skill_label": "",
+      "skill_name": "能源循环"
+    },
+    {
+      "file": "Battle_s2_10106_1_1-01.ogg",
+      "skill_index": 2,
+      "skill_label": "",
+      "skill_name": "能源循环"
+    },
+    {
+      "file": "Battle_s2_10106_1_1-02.ogg",
+      "skill_index": 2,
+      "skill_label": "",
+      "skill_name": "能源循环"
+    },
+    {
+      "file": "Battle_s2_10106_1_1-03.ogg",
+      "skill_index": 2,
+      "skill_label": "",
+      "skill_name": "能源循环"
+    },
+    {
+      "file": "Battle_s2_10106_1_2.ogg",
+      "skill_index": 2,
+      "skill_label": "",
+      "skill_name": "能源循环"
+    },
+    {
+      "file": "Battle_s2_10106_1_2-01.ogg",
+      "skill_index": 2,
+      "skill_label": "",
+      "skill_name": "能源循环"
+    },
+    {
+      "file": "Battle_s2_10106_1_2-02.ogg",
+      "skill_index": 2,
+      "skill_label": "",
+      "skill_name": "能源循环"
+    },
+    {
+      "file": "Battle_s2_10106_1_2-03.ogg",
+      "skill_index": 2,
+      "skill_label": "",
+      "skill_name": "能源循环"
+    },
+    {
+      "file": "Battle_s3_10106_1_1.ogg",
+      "skill_index": 3,
+      "skill_label": "",
+      "skill_name": "次元裂隙"
+    },
+    {
+      "file": "Battle_s3_10106_1_3.ogg",
+      "skill_index": 3,
+      "skill_label": "",
+      "skill_name": "次元裂隙"
+    }
+  ],
+  "_structured": true,
+  "id": "wiki_李箱W公司3级清扫人员",
+  "url": "https://limbuscompany.huijiwiki.com/wiki/李箱W公司3级清扫人员",
+  "categories": [
+    "人格"
+  ],
+  "source": "wiki",
+  "_schema_version": 1
+}

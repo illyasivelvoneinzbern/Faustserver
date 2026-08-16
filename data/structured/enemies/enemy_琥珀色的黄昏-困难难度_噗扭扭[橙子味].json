@@ -1,0 +1,138 @@
+{
+  "page_type": "enemy",
+  "title": "琥珀色的黄昏-困难难度",
+  "enemy_name": "噗扭扭[橙子味]",
+  "battle_stage": "琥珀色的黄昏-困难难度",
+  "body_part": "躯干",
+  "hp": 126,
+  "defense_level": 47,
+  "speed_min": 2,
+  "speed_max": 4,
+  "chaos_threshold": "25/75",
+  "physical_resistances": {
+    "斩击": 1.0,
+    "突刺": 1.5,
+    "打击": 0.75
+  },
+  "sin_resistances": {
+    "暴怒": 2.0,
+    "色欲": 1.2,
+    "怠惰": 1.0,
+    "暴食": 0.8,
+    "忧郁": 2.0,
+    "傲慢": 0.8,
+    "嫉妒": 1.0
+  },
+  "panic_types": [],
+  "passives": [
+    "彷徨的考验: 登场时，使自身获得1~3层 群体移动准备 回合开始时，若自身的 群体移动准备 层数为0层，则使用技能“群体移动” (若自身陷入混乱，则触发该效果时解除自身的混乱) 若“吱扭扭”在场，则本被动不会触发 “考验和异想体完全不同。所谓考验，是从这家公司深处流动的人类的梦境中随机抽出的，严重心理创伤的具象化。”",
+    "直击味蕾: 以目标抗性为脆弱或致命(抗性大于1)的攻击命中时，下回合对其施加1层 束缚 (每个技能最多1次) “这么好喝的饮料，为什么名字要叫做噗扭扭？”",
+    "味道的秘密: 使击杀自身的目标获得1层 橙子味的噗扭扭"
+  ],
+  "skills": [
+    {
+      "skill_name": "飞扑",
+      "icon_id": "136601",
+      "sin_type": "色欲",
+      "damage_type": "突刺",
+      "base_value": 4,
+      "coin_power": 9,
+      "coin_count": 2,
+      "attack_level": 45,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[使用时] 若目标的 流血 强度不低于4级，则使本技能的基础威力+1",
+        "[命中时] 使目标增加3级 流血 强度"
+      ]
+    },
+    {
+      "skill_name": "啃食",
+      "icon_id": "136602",
+      "sin_type": "色欲",
+      "damage_type": "突刺",
+      "base_value": 4,
+      "coin_power": 9,
+      "coin_count": 3,
+      "attack_level": 45,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[使用时] 若目标的 流血 强度不低于4级，则使本技能的基础威力+1",
+        "[命中时] 若目标带有 流血 ，则下回合对其施加2层 突刺抗性弱化",
+        "[命中时] 对目标施加3层 流血"
+      ]
+    },
+    {
+      "skill_name": "橙子味气泡补充",
+      "icon_id": "136603",
+      "sin_type": "色欲",
+      "damage_type": "突刺",
+      "base_value": 4,
+      "coin_power": 9,
+      "coin_count": 4,
+      "attack_level": 45,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[使用时] 若目标的 流血 强度不低于4级，则使本技能的硬币威力+1",
+        "[命中时] 使目标增加2级 流血 强度",
+        "[命中时] 对目标施加2层 流血"
+      ]
+    },
+    {
+      "skill_name": "添加气泡风味",
+      "icon_id": "136604",
+      "sin_type": "色欲",
+      "damage_type": "突刺",
+      "base_value": 5,
+      "coin_power": 9,
+      "coin_count": 6,
+      "attack_level": 45,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[使用时] 目标每带有4级 流血 强度，使本技能的硬币威力+1(最多+2)",
+        "[命中时] 若目标带有 流血 ，则下回合对其施加2层 突刺抗性弱化 不可摧毁的硬币",
+        "[命中时] 使目标增加3级 流血 强度 不可摧毁的硬币",
+        "[命中时] 对目标施加2层 流血"
+      ]
+    },
+    {
+      "skill_name": "群体移动",
+      "icon_id": "136605",
+      "sin_type": "色欲",
+      "damage_type": "",
+      "base_value": 2,
+      "coin_power": 9,
+      "coin_count": 1,
+      "attack_level": 0,
+      "attack_weight": 1,
+      "is_guard": true,
+      "guard_type": "闪避",
+      "importance": 0,
+      "coin_effects": [
+        "闪避成功时下回合对目标施加2层束缚",
+        "回合结束时解除自身的群体移动准备并使自身群体迁移"
+      ]
+    }
+  ],
+  "is_ally": false,
+  "_structured": true,
+  "appear_stages": [
+    "琥珀色的黄昏-困难难度",
+    "琥珀色的黄昏-简单难度"
+  ],
+  "enemy_id": "琥珀色的黄昏-困难难度|噗扭扭[橙子味]|躯干",
+  "defense": 47,
+  "speed": "2~4",
+  "_schema_version": 1
+}

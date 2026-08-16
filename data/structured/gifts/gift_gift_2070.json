@@ -1,0 +1,21 @@
+{
+  "id": "gift_2070",
+  "title": "水中月",
+  "url": "https://limbuscompany.huijiwiki.com/wiki/E.G.O饰品",
+  "categories": [
+    "E.G.O饰品"
+  ],
+  "content": "攻击命中破裂强度不低于5级的敌方单位时，使自身增加1级呼吸法强度并获得1层呼吸法(每个技能最多3次)\n<i><span style=\"color:#a16a3b\">水流花谢两无情。</span></i>",
+  "source": "tabx",
+  "_structured": true,
+  "page_type": "ego_gift",
+  "gift_name": "水中月",
+  "rarity": 0,
+  "cost": "0",
+  "effect_types": "",
+  "attack_type": "暴食",
+  "location": "第八章",
+  "stage": "base",
+  "event": "事件-获得家族器物",
+  "_schema_version": 1
+}

@@ -1,0 +1,33 @@
+{
+  "page_type": "event",
+  "title": "事件-去往休息的选项",
+  "event_name": "去往休息的选项",
+  "narration": "休息室里，穿着E.G.O装备的员工们正围坐在一起轻声交谈。\n他们手里都拿着装有咖啡的白色马克杯。\n“嗯？是没见过的面孔，你们是哪个部门的？”\n\n说我们是从上层下来的，并展示E.G.O饰品。\n（持有不少于5件“紫罗兰的正午”、“憎恶与绝望”的主题卡包专属E.G.O饰品时可选择）\n看到各种饰品的员工们一齐开始用怜悯的目光看向罪人们。\n“竟然还好好活着啊。”\n“上层怎么样？听说那里的工作量很大？”\n在员工们接连表示慰问时，其中一名员工暂时离开了一会儿，然后递过来一个装有咖啡的马克杯。\n“振作点，今天也好好加油吧。”\n获得\n！\n\n说我们是从惩戒部来的。\n“……啊，这样吗？”\n休息室内弥漫着寒冷彻骨的寂静。\n令人尴尬的寂静持续了数分钟后，杯中的咖啡彻底冷掉了。\n什么都没有发生。",
+  "options": [
+    {
+      "choice_text": "说我们是从上层下来的，并展示E.G.O饰品。",
+      "check_type": "",
+      "check_sin": "",
+      "check_threshold": 0,
+      "success_outcomes": [],
+      "failure_outcomes": []
+    },
+    {
+      "choice_text": "说我们是从惩戒部来的。",
+      "check_type": "",
+      "check_sin": "",
+      "check_threshold": 0,
+      "success_outcomes": [],
+      "failure_outcomes": []
+    }
+  ],
+  "ego_gifts": [],
+  "related_abnormalities": [],
+  "trigger_location": "",
+  "_structured": true,
+  "id": "wiki_事件-去往休息的选项",
+  "url": "https://limbuscompany.huijiwiki.com/wiki/事件-去往休息的选项",
+  "categories": [],
+  "source": "wiki",
+  "_schema_version": 1
+}

@@ -1,0 +1,21 @@
+{
+  "id": "gift_2075",
+  "title": "金刚丸",
+  "url": "https://limbuscompany.huijiwiki.com/wiki/E.G.O饰品",
+  "categories": [
+    "E.G.O饰品"
+  ],
+  "content": "友方单位在战斗中受到伤害时，下回合使其技能的最终威力+1，造成的伤害+10%(自身造成的伤害也会触发)\n友方单位受到使其体力降至1点的伤害时，使其恢复体力上限50%的体力，本场战斗期间在回合开始时使其获得2层强壮(每场战斗最多1次)",
+  "source": "tabx",
+  "_structured": true,
+  "page_type": "ego_gift",
+  "gift_name": "金刚丸",
+  "rarity": 0,
+  "cost": "0",
+  "effect_types": "",
+  "attack_type": "傲慢",
+  "location": "第八章",
+  "stage": "base",
+  "event": "事件-获得家族器物",
+  "_schema_version": 1
+}

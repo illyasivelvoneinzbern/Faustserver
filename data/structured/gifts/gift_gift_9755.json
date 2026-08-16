@@ -1,0 +1,21 @@
+{
+  "id": "gift_9755",
+  "title": "轻蔑的视线的轻蔑",
+  "url": "https://limbuscompany.huijiwiki.com/wiki/E.G.O饰品",
+  "categories": [
+    "E.G.O饰品"
+  ],
+  "content": "[第6顺位友方单位专属]\n战斗开始时，每有1个指定自身为目标的敌方单位的攻击技能，使自身造成的伤害+10%(最多+20%)\n战斗开始时，若自身被2个及以上技能指定为目标，则对指定自身的全体敌方单位造成(指定自身的技能数)点固定体力与理智伤害。(最多3点，不会对友方单位造成伤害)",
+  "source": "tabx",
+  "_structured": true,
+  "page_type": "ego_gift",
+  "gift_name": "轻蔑的视线的轻蔑",
+  "rarity": 2,
+  "cost": "208",
+  "effect_types": "泛用",
+  "attack_type": "暴怒",
+  "location": "镜像迷宫",
+  "stage": "base",
+  "special": "3号线",
+  "_schema_version": 1
+}

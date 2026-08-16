@@ -1,0 +1,145 @@
+{
+  "page_type": "enemy",
+  "title": "折射轨道4号线-第二区段-2",
+  "enemy_name": "折射的黑云会 副会长 俊",
+  "battle_stage": "折射轨道4号线-第二区段-2",
+  "body_part": "躯干",
+  "hp": 649,
+  "defense_level": 53,
+  "speed_min": 2,
+  "speed_max": 5,
+  "chaos_threshold": "195/0",
+  "physical_resistances": {
+    "斩击": 1.2,
+    "突刺": 0.5,
+    "打击": 1.0
+  },
+  "sin_resistances": {
+    "暴怒": 1.0,
+    "色欲": 1.0,
+    "怠惰": 1.0,
+    "暴食": 1.0,
+    "忧郁": 1.0,
+    "傲慢": 1.0,
+    "嫉妒": 1.0
+  },
+  "panic_types": [],
+  "passives": [],
+  "skills": [
+    {
+      "skill_name": "墨云",
+      "icon_id": "9101301",
+      "sin_type": "色欲",
+      "damage_type": "斩击",
+      "base_value": 3,
+      "coin_power": 3,
+      "coin_count": 2,
+      "attack_level": 0,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "使用时若目标的{{状态2|流血|4=负面}}强度不低于5级，则使本技能造成的伤害+10%"
+      ]
+    },
+    {
+      "skill_name": "血振纳刀",
+      "icon_id": "9101302",
+      "sin_type": "色欲",
+      "damage_type": "斩击",
+      "base_value": 3,
+      "coin_power": 4,
+      "coin_count": 2,
+      "attack_level": 0,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "若目标的{{状态2|流血|4=负面}}强度不低于5级，则使本技能的硬币威力+1"
+      ]
+    },
+    {
+      "skill_name": "云斩",
+      "icon_id": "9101303",
+      "sin_type": "暴怒",
+      "damage_type": "斩击",
+      "base_value": 4,
+      "coin_power": 3,
+      "coin_count": 3,
+      "attack_level": 0,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "若目标的{{状态2|流血|4=负面}}强度不低于5级，则使本技能的硬币威力+1"
+      ]
+    },
+    {
+      "skill_name": "锋芒毕现",
+      "icon_id": "9101304",
+      "sin_type": "暴怒",
+      "damage_type": "斩击",
+      "base_value": 4,
+      "coin_power": 4,
+      "coin_count": 2,
+      "attack_level": 0,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "战斗开始使包括自身在内的全体友方单位获得2层斩击伤害强化",
+        "战斗开始使自身获得2层斩击威力提升"
+      ]
+    },
+    {
+      "skill_name": "斩破长空",
+      "icon_id": "9101305",
+      "sin_type": "傲慢",
+      "damage_type": "斩击",
+      "base_value": 10,
+      "coin_power": 4,
+      "coin_count": 3,
+      "attack_level": 0,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "战斗开始若目标的{{状态2|流血|4=负面}}强度不低于10级，则使本技能的攻击容量+1",
+        "战斗开始若本回合自身使用的攻击技能不低于5个，则使本技能的最终威力+5",
+        "拼点胜利使全体友方单位恢复10点理智值",
+        "若目标的{{状态2|流血|4=负面}}强度不低于7级，则使本技能造成的伤害+30%"
+      ]
+    },
+    {
+      "skill_name": "后巷规矩",
+      "icon_id": "9101306",
+      "sin_type": "嫉妒",
+      "damage_type": "斩击",
+      "base_value": 4,
+      "coin_power": 2,
+      "coin_count": 1,
+      "attack_level": 0,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "使用时除自身以外每有1名友方单位存活，使本技能额外增加1枚硬币（最多3次）"
+      ]
+    }
+  ],
+  "is_ally": false,
+  "_structured": true,
+  "appear_stages": [
+    "折射轨道4号线-第二区段-2"
+  ],
+  "enemy_id": "折射轨道4号线-第二区段-2|折射的黑云会 副会长 俊|躯干",
+  "defense": 53,
+  "speed": "2~5",
+  "_schema_version": 1
+}

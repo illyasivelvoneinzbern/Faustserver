@@ -1,0 +1,73 @@
+{
+  "page_type": "enemy",
+  "title": "经验采光-1",
+  "enemy_name": "锋利的残兵",
+  "battle_stage": "经验采光-1",
+  "body_part": "",
+  "hp": 38,
+  "defense_level": 6,
+  "speed_min": 2,
+  "speed_max": 6,
+  "chaos_threshold": "",
+  "physical_resistances": {
+    "斩击": 2.0,
+    "突刺": 0.75,
+    "打击": 0.75
+  },
+  "sin_resistances": {
+    "暴怒": 1.0,
+    "色欲": 1.0,
+    "怠惰": 1.0,
+    "暴食": 1.0,
+    "忧郁": 1.0,
+    "傲慢": 1.0,
+    "嫉妒": 1.0
+  },
+  "panic_types": [
+    "畏缩",
+    "虚弱",
+    "畏缩",
+    "虚弱"
+  ],
+  "passives": [
+    "负伤的强化肉体：回合开始时，若自身的体力低于50%，则回复1点体力。"
+  ],
+  "skills": [
+    {
+      "skill_name": "挥砍",
+      "icon_id": "9001001",
+      "sin_type": "色欲",
+      "damage_type": "",
+      "base_value": 0,
+      "coin_power": 2,
+      "coin_count": 1,
+      "attack_level": 3,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "coin_effects": []
+    },
+    {
+      "skill_name": "割裂",
+      "icon_id": "9001002",
+      "sin_type": "色欲",
+      "damage_type": "",
+      "base_value": 0,
+      "coin_power": 8,
+      "coin_count": 2,
+      "attack_level": 3,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "coin_effects": [
+        "[正面命中时] 下回合对目标施加3层 破裂 下{1}次被攻击时，额外受到{0}点固定伤害。"
+      ]
+    }
+  ],
+  "is_ally": false,
+  "_structured": true,
+  "enemy_id": "经验采光-1|锋利的残兵",
+  "defense": 6,
+  "speed": "2~6",
+  "_schema_version": 1
+}

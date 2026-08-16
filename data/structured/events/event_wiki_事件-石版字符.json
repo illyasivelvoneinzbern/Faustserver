@@ -1,0 +1,38 @@
+{
+  "page_type": "event",
+  "title": "事件-石版字符",
+  "event_name": "石版字符",
+  "narration": "它记录着对错，\n记录着那位大人降下的对错。\n仅仅记录，不加判断。\n判断不应是辅佐的工作。\n辅佐沉默着，递给我们绿宝石色的石板。\n\n阅读石板上的文字\n【应该让谁阅读？】\n有利判定\n：\n/\n≥12\n不利判定\n：\n≥24\n判定成功\n：\n这是一块罗列着难解字符的石板。\n虽然无法完全理解，\n但还是有几个单词被收入眼底。\n审判……定罪……惩戒……\n这些相连的词语，若是试图理解，\n似乎会为自己招来死亡。\n从石板上移开视线，\n正好看见那位辅佐在飞升前，微微颔首。\n判定成功的罪人失去\n5点理智值\n！\n获得\n！\n判定失败\n：\n这是一块罗列着难解字符的石板。\n看上去似乎可以理解，\n如果能再多理解一点就好了。\n再多一点……再多理解一点就好了……\n回过神来的那一刻，那存在已然消失不见。\n徒留自己握在手中的石板。\n判定失败的罪人失去\n25点理智值\n！\n获得\n！\n\n抹去石板上的文字\n我拿出尖锐的东西，刻划着石板上的文字，\n而它只是，无声地站着。\n看起来它接纳了这一判断。\n不知何时，石板伴随着哗啦哗啦的声音折断，\n化为尘土般的东西。\n什么都没有发生。",
+  "options": [
+    {
+      "choice_text": "阅读石板上的文字",
+      "check_type": "有利判定",
+      "check_sin": "暴食",
+      "check_threshold": 12,
+      "success_outcomes": [],
+      "failure_outcomes": []
+    },
+    {
+      "choice_text": "抹去石板上的文字",
+      "check_type": "",
+      "check_sin": "",
+      "check_threshold": 0,
+      "success_outcomes": [],
+      "failure_outcomes": []
+    }
+  ],
+  "ego_gifts": [],
+  "related_abnormalities": [
+    "白幕内涉及目前游戏未公开内容，仅供参考，请以后续实装内容为准。",
+    "하늘서기관의보좌",
+    "事件触发地点",
+    "镜像迷宫"
+  ],
+  "trigger_location": "",
+  "_structured": true,
+  "id": "wiki_事件-石版字符",
+  "url": "https://limbuscompany.huijiwiki.com/wiki/事件-石版字符",
+  "categories": [],
+  "source": "wiki",
+  "_schema_version": 1
+}

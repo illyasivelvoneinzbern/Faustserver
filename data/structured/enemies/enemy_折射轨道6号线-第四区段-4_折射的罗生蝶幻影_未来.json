@@ -1,0 +1,64 @@
+{
+  "page_type": "enemy",
+  "title": "折射轨道6号线-第四区段-4",
+  "enemy_name": "折射的罗生蝶幻影::未来",
+  "battle_stage": "折射轨道6号线-第四区段-4",
+  "body_part": "",
+  "hp": 1,
+  "defense_level": 60,
+  "speed_min": 1,
+  "speed_max": 1,
+  "chaos_threshold": "无",
+  "physical_resistances": {
+    "斩击": 1.0,
+    "突刺": 1.0,
+    "打击": 1.0
+  },
+  "sin_resistances": {
+    "暴怒": 1.0,
+    "色欲": 1.0,
+    "怠惰": 1.0,
+    "暴食": 1.0,
+    "忧郁": 1.0,
+    "傲慢": 1.0,
+    "嫉妒": 1.0
+  },
+  "panic_types": [
+    "锈蚀的鳞粉"
+  ],
+  "passives": [
+    "羽化-来生: 自身的速度值固定为1点，体力不会低于1点 登场后的首个回合开始时，使自身获得333点护盾 技能“羽化”攻击后，结束本关卡 - 若自身的护盾被破坏，则改为下回合开始时触发 特殊事件 ，随后结束本关卡",
+    "永劫的侵蚀: 无恐慌类型数据"
+  ],
+  "skills": [
+    {
+      "skill_name": "羽化",
+      "icon_id": "956601",
+      "sin_type": "色欲",
+      "damage_type": "突刺",
+      "base_value": 8,
+      "coin_power": 8,
+      "coin_count": 1,
+      "attack_level": 3,
+      "attack_weight": 7,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "无法拼点无法改变目标",
+        "攻击后结束本关卡",
+        "- 若自身的护盾被破坏，则改为下回合开始时触发特殊事件，随后结束本关卡",
+        "1不可摧毁的硬币"
+      ]
+    }
+  ],
+  "is_ally": false,
+  "_structured": true,
+  "appear_stages": [
+    "折射轨道6号线-第四区段-4"
+  ],
+  "enemy_id": "折射轨道6号线-第四区段-4|折射的罗生蝶幻影::未来|",
+  "defense": 60,
+  "speed": "1~1",
+  "_schema_version": 1
+}

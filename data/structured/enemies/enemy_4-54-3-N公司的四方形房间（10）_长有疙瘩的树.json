@@ -1,0 +1,40 @@
+{
+  "page_type": "enemy",
+  "title": "4-54-3-N公司的四方形房间（10）",
+  "enemy_name": "长有疙瘩的树",
+  "battle_stage": "4-54-3-N公司的四方形房间（10）",
+  "body_part": "疙瘩",
+  "hp": 35,
+  "defense_level": 30,
+  "speed_min": 1,
+  "speed_max": 3,
+  "chaos_threshold": "",
+  "physical_resistances": {
+    "斩击": 1.0,
+    "突刺": 1.0,
+    "打击": 1.5
+  },
+  "sin_resistances": {
+    "暴怒": 2.0,
+    "色欲": 0.5,
+    "怠惰": 1.5,
+    "暴食": 1.0,
+    "忧郁": 1.5,
+    "傲慢": 1.0,
+    "嫉妒": 1.0
+  },
+  "panic_types": [],
+  "passives": [
+    "成熟的果实: 使击杀该单位的目标恢复其体力上限5%的体力，下回合使该目标获得1层 迅捷 与1层 强壮"
+  ],
+  "skills": [],
+  "is_ally": false,
+  "_structured": true,
+  "appear_stages": [
+    "4-54-3-N公司的四方形房间（10）"
+  ],
+  "enemy_id": "4-54-3-N公司的四方形房间（10）|长有疙瘩的树|疙瘩",
+  "defense": 30,
+  "speed": "1~3",
+  "_schema_version": 1
+}

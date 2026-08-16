@@ -1,0 +1,21 @@
+{
+  "id": "gift_9180",
+  "title": "桶装烈酒",
+  "url": "https://limbuscompany.huijiwiki.com/wiki/E.G.O饰品",
+  "categories": [
+    "E.G.O饰品"
+  ],
+  "content": "回合开始时，若拥有增加呼吸法强度或获得呼吸法层数的攻击技能的友方单位不低于5名，则在本场战斗期间触发该效果。(不包括E.G.O技能，不包括待命人员)\n回合结束时，呼吸法强度高于20级的友方单位消耗1级呼吸法强度并获得1层呼吸法\n回合结束时，使呼吸法强度最高的1名友方单位与呼吸法层数最高的1名友方单位获得2层迅捷与1层攻击等级提升(可能重复使1名友方单位获得)",
+  "source": "tabx",
+  "_structured": true,
+  "page_type": "ego_gift",
+  "gift_name": "桶装烈酒",
+  "rarity": 4,
+  "cost": "402",
+  "effect_types": "呼吸法",
+  "attack_type": "傲慢",
+  "location": "镜像迷宫",
+  "stage": "base",
+  "special": "困难合成",
+  "_schema_version": 1
+}

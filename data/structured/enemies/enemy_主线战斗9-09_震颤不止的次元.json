@@ -1,0 +1,92 @@
+{
+  "page_type": "enemy",
+  "title": "主线战斗9-09",
+  "enemy_name": "震颤不止的次元",
+  "battle_stage": "主线战斗9-09",
+  "body_part": "",
+  "hp": 81,
+  "defense_level": 57,
+  "speed_min": 1,
+  "speed_max": 1,
+  "chaos_threshold": "无",
+  "physical_resistances": {
+    "斩击": 1.0,
+    "突刺": 1.0,
+    "打击": 1.0
+  },
+  "sin_resistances": {
+    "暴怒": 1.0,
+    "色欲": 1.0,
+    "怠惰": 1.5,
+    "暴食": 1.0,
+    "忧郁": 1.0,
+    "傲慢": 1.0,
+    "嫉妒": 1.0
+  },
+  "panic_types": [],
+  "passives": [
+    "震颤不止的次元: 无恐慌类型数据"
+  ],
+  "skills": [
+    {
+      "skill_name": "把握时机",
+      "icon_id": "855008",
+      "sin_type": "嫉妒",
+      "damage_type": "斩击",
+      "base_value": 5,
+      "coin_power": 5793,
+      "coin_count": 2,
+      "attack_level": 60,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[使用时] 若目标带有 次元裂痕 ，则使本技能造成的伤害+20%",
+        "[命中时] 对目标施加3层 次元裂痕"
+      ]
+    },
+    {
+      "skill_name": "攻击破绽",
+      "icon_id": "855009",
+      "sin_type": "嫉妒",
+      "damage_type": "斩击",
+      "base_value": 5,
+      "coin_power": 5793,
+      "coin_count": 2,
+      "attack_level": 60,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[使用时] 若目标带有 次元裂痕 ，则使本技能造成的伤害+10%",
+        "[命中时] 对目标施加3层 次元裂痕"
+      ]
+    },
+    {
+      "skill_name": "次元移动",
+      "icon_id": "856001",
+      "sin_type": "怠惰",
+      "damage_type": "守备",
+      "base_value": 1,
+      "coin_power": 9703,
+      "coin_count": 1,
+      "attack_level": 0,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": []
+    }
+  ],
+  "is_ally": false,
+  "_structured": true,
+  "appear_stages": [
+    "主线战斗9-09"
+  ],
+  "enemy_id": "主线战斗9-09|震颤不止的次元|",
+  "defense": 57,
+  "speed": "1~1",
+  "_schema_version": 1
+}

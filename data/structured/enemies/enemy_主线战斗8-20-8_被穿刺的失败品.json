@@ -1,0 +1,113 @@
+{
+  "page_type": "enemy",
+  "title": "主线战斗8-20-8",
+  "enemy_name": "被穿刺的失败品",
+  "battle_stage": "主线战斗8-20-8",
+  "body_part": "",
+  "hp": 196,
+  "defense_level": 54,
+  "speed_min": 1,
+  "speed_max": 3,
+  "chaos_threshold": "",
+  "physical_resistances": {
+    "斩击": 1.0,
+    "突刺": 1.0,
+    "打击": 1.0
+  },
+  "sin_resistances": {
+    "暴怒": 1.0,
+    "色欲": 0.75,
+    "怠惰": 0.75,
+    "暴食": 1.5,
+    "忧郁": 2.0,
+    "傲慢": 1.25,
+    "嫉妒": 1.0
+  },
+  "panic_types": [
+    "古木化（士气低落）",
+    "伤害强化",
+    "易损",
+    "破裂易损",
+    "古木化（陷入恐慌）",
+    "伤害强化",
+    "易损",
+    "破裂易损"
+  ],
+  "passives": [
+    "实验目标-成长：回合开始时，使自身获得(本场战斗期间自身受到敌方单位技能攻击次数/2)层 防御等级提升 (最多10层) 自身首次陷入混乱时移除该效果，并在下回合开始时对自身施加10层 防御等级降低"
+  ],
+  "skills": [
+    {
+      "skill_name": "碰撞",
+      "icon_id": "9020501",
+      "sin_type": "忧郁",
+      "damage_type": "",
+      "base_value": 0,
+      "coin_power": 2,
+      "coin_count": 3,
+      "attack_level": 51,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "coin_effects": [
+        "[命中时] 使目标增加2级 破裂 强度"
+      ]
+    },
+    {
+      "skill_name": "引发骚乱",
+      "icon_id": "9020502",
+      "sin_type": "色欲",
+      "damage_type": "",
+      "base_value": 0,
+      "coin_power": 4,
+      "coin_count": 3,
+      "attack_level": 51,
+      "attack_weight": 1,
+      "is_guard": true,
+      "guard_type": "防御",
+      "coin_effects": [
+        "[命中时] 对目标施加3层 破裂",
+        "[命中时] 使目标增加2级 破裂 强度",
+        "[正面命中时] 下回合使自身获得2层 防御等级提升"
+      ]
+    },
+    {
+      "skill_name": "挣扎突刺",
+      "icon_id": "9020503",
+      "sin_type": "暴食",
+      "damage_type": "",
+      "base_value": 0,
+      "coin_power": 4,
+      "coin_count": 5,
+      "attack_level": 53,
+      "attack_weight": 1,
+      "is_guard": true,
+      "guard_type": "防御",
+      "coin_effects": [
+        "[命中时] 使目标增加1级 破裂 强度",
+        "[命中时] 使目标增加1级 破裂 强度并对其施加3层 破裂",
+        "[命中时] 使自身恢复体力上限的(自身的 防御等级提升 层数)%的体力(最多10%)"
+      ]
+    },
+    {
+      "skill_name": "蜷缩",
+      "icon_id": "9020504",
+      "sin_type": "怠惰",
+      "damage_type": "",
+      "base_value": 0,
+      "coin_power": 8,
+      "coin_count": 1,
+      "attack_level": 0,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "coin_effects": []
+    }
+  ],
+  "is_ally": false,
+  "_structured": true,
+  "enemy_id": "主线战斗8-20-8|被穿刺的失败品",
+  "defense": 54,
+  "speed": "1~3",
+  "_schema_version": 1
+}

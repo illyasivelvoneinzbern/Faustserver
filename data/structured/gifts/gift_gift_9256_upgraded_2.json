@@ -1,0 +1,21 @@
+{
+  "id": "gift_9256_upgraded_2",
+  "title": "不完善的预知眼",
+  "url": "https://limbuscompany.huijiwiki.com/wiki/E.G.O饰品",
+  "categories": [
+    "E.G.O饰品"
+  ],
+  "content": "- 拼点胜利时，使主要目标振幅转换为震颤-灼热，使其震颤引爆并使其震颤层数减少1层\n- 技能命中时，若目标陷入混乱，则使自身造成的伤害+30%\n- 暴击命中时，使目标震颤引爆并使其震颤层数减少1层(每个技能最多2次)",
+  "source": "tabx",
+  "_structured": true,
+  "page_type": "ego_gift",
+  "gift_name": "不完善的预知眼",
+  "rarity": 4,
+  "cost": "400",
+  "effect_types": "震颤",
+  "attack_type": "色欲",
+  "location": "镜像迷宫",
+  "stage": "upgraded_2",
+  "special": "隐藏节点-蜘蛛巢的拇指",
+  "_schema_version": 1
+}

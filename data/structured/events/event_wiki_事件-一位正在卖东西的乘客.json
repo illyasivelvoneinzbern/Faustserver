@@ -1,0 +1,33 @@
+{
+  "page_type": "event",
+  "title": "事件-一位正在卖东西的乘客",
+  "event_name": "一位正在卖东西的乘客",
+  "narration": "一处挤满了乘客的空间。\n其中，有一位乘客显得格外冷静。\n“请靠近一点看看吧……”\n他手中握着一枚可疑的药丸。\n他说，自己还能保持冷静，全都是托了这药丸的福。\n“要不要试一试……？”\n\n购买药丸。\n（\n经费<100时无法选择）\n买下后，我将药丸分给罪人们。\n“哦哦……比想象中还要好呢……”\n效果立竿见影。全员的伤势，不论肉体或是精神，都被治愈了。\n“请下次再来……”\n我们回应了乘客的低头致意，随即前往下一处地点。\n全体友方单位恢复\n20%的体力\n全体友方单位恢复\n20点理智值\n失去100\n经费\n\n只是看看，然后离开。\n没必要把钱花在可疑的东西上。\n我们前往了下一个场所。\n什么都没有发生。",
+  "options": [
+    {
+      "choice_text": "购买药丸。",
+      "check_type": "",
+      "check_sin": "",
+      "check_threshold": 0,
+      "success_outcomes": [],
+      "failure_outcomes": []
+    },
+    {
+      "choice_text": "只是看看，然后离开。",
+      "check_type": "",
+      "check_sin": "",
+      "check_threshold": 0,
+      "success_outcomes": [],
+      "failure_outcomes": []
+    }
+  ],
+  "ego_gifts": [],
+  "related_abnormalities": [],
+  "trigger_location": "",
+  "_structured": true,
+  "id": "wiki_事件-一位正在卖东西的乘客",
+  "url": "https://limbuscompany.huijiwiki.com/wiki/事件-一位正在卖东西的乘客",
+  "categories": [],
+  "source": "wiki",
+  "_schema_version": 1
+}

@@ -1,0 +1,41 @@
+{
+  "page_type": "event",
+  "title": "事件-炸鸡对决",
+  "event_name": "炸鸡对决",
+  "narration": "几个人挡住了前进的路线。\n他们坐在桌前，互相大声争吵着。\n“看这多肉的一块！丰富的汁水正在顺着那些甘美肉质的纤维流淌……这就是鸡肉存在的意义！”\n“大错特错。这一块有着纯净的口味，没有一点油脂会玷污你的舌尖。这才是真正的好货。”\n两个人同时转身看向了过来。\n“嘿，那边的！告诉我们哪个更好！\n\n鸡肉就是鸡肉喽。\n“千真……万确。”\n“无可辩驳的论断。”\n他们放下双手，冷静下来。\n“我们怎么会为这么奇怪的事情争吵。”\n“他们说得对……鸡肉不管怎样都是唯一的真相。”\n在激动地握手言和过后，他们将自己的炸鸡桶递过来。\n“像你这样明智的美食家应当同时享有这两块炸鸡。请带上吧，我们坚持如此要求。”\n获得E.G.O饰品\n火热多汁鸡翅根\n！\n获得E.G.O饰品\n干巴柴涩鸡胸肉\n！\n\n绝对是鸡腿，满满的汁液。\n“你看吧！鸡腿就是更好！”\n“你真是吃不懂什么叫美食。”\n举着鸡胸肉的人无奈的长叹一声。\n“喂，这个给你！你应该有属于自己的鸡腿！”\n看起来十分满足，举着鸡腿的人又从桶里掏出了一条腿递给你。\n“我可指着你给鸡腿撑腰呢！”\n不是很清楚被指望了什么，你拿着鸡腿离开了桌边。\n获得E.G.O饰品\n火热多汁鸡翅根\n！\n\n鸡胸，肯定的，纯净无瑕。\n“不应该啊！你看不上这满溢的汁水……？”\n“那是脂肪，不是什么汁水。鸡胸既健康又清淡，不仅管饱吃起来还很方便——这才是理智之选。”\n那个举着鸡胸的人如是强调道。\n“这是你的奖励，一块属于你的鸡胸。”\n他从桶中取出了一块不小的鸡胸肉。\n“祝你收获满满，保持健康。”\n不是很清楚要收获什么，你拿着鸡胸离开了桌边。\n获得E.G.O饰品\n干巴柴涩鸡胸肉\n！",
+  "options": [
+    {
+      "choice_text": "鸡肉就是鸡肉喽。",
+      "check_type": "",
+      "check_sin": "",
+      "check_threshold": 0,
+      "success_outcomes": [],
+      "failure_outcomes": []
+    },
+    {
+      "choice_text": "绝对是鸡腿，满满的汁液。",
+      "check_type": "",
+      "check_sin": "",
+      "check_threshold": 0,
+      "success_outcomes": [],
+      "failure_outcomes": []
+    },
+    {
+      "choice_text": "鸡胸，肯定的，纯净无瑕。",
+      "check_type": "",
+      "check_sin": "",
+      "check_threshold": 0,
+      "success_outcomes": [],
+      "failure_outcomes": []
+    }
+  ],
+  "ego_gifts": [],
+  "related_abnormalities": [],
+  "trigger_location": "",
+  "_structured": true,
+  "id": "wiki_事件-炸鸡对决",
+  "url": "https://limbuscompany.huijiwiki.com/wiki/事件-炸鸡对决",
+  "categories": [],
+  "source": "wiki",
+  "_schema_version": 1
+}

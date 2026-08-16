@@ -1,0 +1,21 @@
+{
+  "id": "gift_9118",
+  "title": "骨桩",
+  "url": "https://limbuscompany.huijiwiki.com/wiki/E.G.O饰品",
+  "categories": [
+    "E.G.O饰品"
+  ],
+  "content": "破裂效果对敌方单位带有的护盾造成的伤害+100%",
+  "source": "tabx",
+  "_structured": true,
+  "page_type": "ego_gift",
+  "gift_name": "骨桩",
+  "rarity": 1,
+  "cost": "152",
+  "effect_types": "破裂",
+  "attack_type": "嫉妒",
+  "location": "镜像迷宫",
+  "stage": "base",
+  "event": "事件-头骨收藏",
+  "_schema_version": 1
+}

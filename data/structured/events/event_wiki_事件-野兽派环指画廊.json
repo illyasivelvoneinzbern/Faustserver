@@ -1,0 +1,38 @@
+{
+  "page_type": "event",
+  "title": "事件-野兽派环指画廊",
+  "event_name": "野兽派环指画廊",
+  "narration": "似乎从某处传来了平静的音乐声。\n顺着声音走去，出现了一个陈列着各种作品的空间。\n看起来像是环指的画廊……查看周围时，发现有只摆着展台而没有作品的地方。\n展台是仅凭单手便可搬起的大小，拿走也不坏。\n要不要拿走展台呢？\n\n拿走。\n【让哪位罪人上前？】\n环指 判定值+4\n有利判定\n：\n≥16\n不利判定\n：\n≥32\n判定成功\n：\n罪人[X]取走了展台。\n仿佛什么都没发生过，画廊里依旧只回荡着平静的音乐声。\n获得\n！\n判定失败\n：\n“那边的！你们在还没开馆的画廊里做什么？！”\n一道洪亮的声音撕裂了平静的音乐声，在整间画廊中回荡。\n……看来只能迎战了。\n触发遭遇战！\n下场战斗胜利后，将获得\n！\n\n不去拿。\n想不到有什么特别能用得上的地方，没必要平白增加负担。\n我们决定离开展台。\n什么都没有发生。",
+  "options": [
+    {
+      "choice_text": "拿走。",
+      "check_type": "有利判定",
+      "check_sin": "色欲",
+      "check_threshold": 16,
+      "success_outcomes": [
+        "获得 ！ 判定失败 ： “那边的！你们在还没开馆的画廊里做什么？！” 一道洪亮的声音撕裂了平静的音乐声",
+        "获得 ！"
+      ],
+      "failure_outcomes": [
+        "获得 ！"
+      ]
+    },
+    {
+      "choice_text": "不去拿。",
+      "check_type": "",
+      "check_sin": "",
+      "check_threshold": 0,
+      "success_outcomes": [],
+      "failure_outcomes": []
+    }
+  ],
+  "ego_gifts": [],
+  "related_abnormalities": [],
+  "trigger_location": "",
+  "_structured": true,
+  "id": "wiki_事件-野兽派环指画廊",
+  "url": "https://limbuscompany.huijiwiki.com/wiki/事件-野兽派环指画廊",
+  "categories": [],
+  "source": "wiki",
+  "_schema_version": 1
+}

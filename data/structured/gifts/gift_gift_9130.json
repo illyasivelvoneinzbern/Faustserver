@@ -1,0 +1,20 @@
+{
+  "id": "gift_9130",
+  "title": "留恋",
+  "url": "https://limbuscompany.huijiwiki.com/wiki/E.G.O饰品",
+  "categories": [
+    "E.G.O饰品"
+  ],
+  "content": "[第1、第2顺位友方单位专属]\n回合开始时，使呼吸法强度与呼吸法层数之和不低于10的友方单位拼点威力+1并获得1层伤害强化。\n若总和不低于20，则改为拼点威力+1并获得3层伤害强化。\n若总和不低于40，则改为拼点威力+2并获得3层伤害强化。",
+  "source": "tabx",
+  "_structured": true,
+  "page_type": "ego_gift",
+  "gift_name": "留恋",
+  "rarity": 3,
+  "cost": "243",
+  "effect_types": "呼吸法",
+  "attack_type": "傲慢",
+  "location": "镜像迷宫",
+  "stage": "base",
+  "_schema_version": 1
+}

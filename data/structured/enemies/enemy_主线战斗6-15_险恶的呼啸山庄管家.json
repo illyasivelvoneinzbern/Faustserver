@@ -1,0 +1,107 @@
+{
+  "page_type": "enemy",
+  "title": "主线战斗6-15",
+  "enemy_name": "险恶的呼啸山庄管家",
+  "battle_stage": "主线战斗6-15",
+  "body_part": "",
+  "hp": 189,
+  "defense_level": 37,
+  "speed_min": 1,
+  "speed_max": 4,
+  "chaos_threshold": "",
+  "physical_resistances": {
+    "斩击": 1.0,
+    "突刺": 0.75,
+    "打击": 2.0
+  },
+  "sin_resistances": {
+    "暴怒": 1.0,
+    "色欲": 1.0,
+    "怠惰": 1.0,
+    "暴食": 1.0,
+    "忧郁": 1.0,
+    "傲慢": 1.0,
+    "嫉妒": 1.0
+  },
+  "panic_types": [
+    "山庄的回响",
+    "山庄的回响",
+    "伤害强化"
+  ],
+  "passives": [],
+  "skills": [
+    {
+      "skill_name": "开始打扫",
+      "icon_id": "9012601",
+      "sin_type": "忧郁",
+      "damage_type": "",
+      "base_value": 0,
+      "coin_power": 4,
+      "coin_count": 3,
+      "attack_level": 46,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "coin_effects": [
+        "[命中时] 使目标增加4级 沉沦 强度",
+        "[正面命中时] 下回合对目标施加1层 束缚"
+      ]
+    },
+    {
+      "skill_name": "迎接不速之客",
+      "icon_id": "9012602",
+      "sin_type": "忧郁",
+      "damage_type": "",
+      "base_value": 0,
+      "coin_power": 5,
+      "coin_count": 4,
+      "attack_level": 46,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "coin_effects": [
+        "[命中时] 使目标增加8级 沉沦 下{1}次被攻击时，额外受到{0}点固定理智伤害。(没有理智值的目标则受到忧郁属性伤害) 强度",
+        "[命中时] 对目标施加3层 沉沦 下{1}次被攻击时，额外受到{0}点固定理智伤害。(没有理智值的目标则受到忧郁属性伤害)"
+      ]
+    },
+    {
+      "skill_name": "待客之道2式 禁锢",
+      "icon_id": "9012603",
+      "sin_type": "傲慢",
+      "damage_type": "",
+      "base_value": 0,
+      "coin_power": 3,
+      "coin_count": 4,
+      "attack_level": 46,
+      "attack_weight": 1,
+      "is_guard": true,
+      "guard_type": "防御",
+      "coin_effects": [
+        "[命中时] 下回合对目标施加1层 束缚 本回合内速度值-{0}",
+        "[命中时] 对目标施加2层 防御等级降低 本回合内防御等级-{0}",
+        "[命中时] 若目标的 沉沦 下{1}次被攻击时，额外受到{0}点固定理智伤害。(没有理智值的目标则受到忧郁属性伤害) 强度不低于8级，则重复使用本硬币（最多1次）",
+        "[正面命中时] 对目标施加4层 防御等级降低 本回合内防御等级-{0} 与1层 易损 本回合内受到的伤害+{0}0%（最多+100%）"
+      ]
+    },
+    {
+      "skill_name": "防御",
+      "icon_id": "9012604",
+      "sin_type": "常规",
+      "damage_type": "",
+      "base_value": 0,
+      "coin_power": 5,
+      "coin_count": 1,
+      "attack_level": 0,
+      "attack_weight": 1,
+      "is_guard": true,
+      "guard_type": "防御",
+      "coin_effects": []
+    }
+  ],
+  "is_ally": false,
+  "_structured": true,
+  "enemy_id": "主线战斗6-15|险恶的呼啸山庄管家",
+  "defense": 37,
+  "speed": "1~4",
+  "_schema_version": 1
+}

@@ -1,0 +1,22 @@
+{
+  "id": "gift_9763",
+  "title": "包装缎带",
+  "url": "https://limbuscompany.huijiwiki.com/wiki/E.G.O饰品",
+  "categories": [
+    "E.G.O饰品"
+  ],
+  "content": "回合开始时，使全体友方单位获得1层某1种随机效果，该效果可能为“暴怒~嫉妒伤害强化”\n回合开始时，对全体敌方单位施加1层某1种随机效果，该效果可能为“暴怒~嫉妒易损”",
+  "source": "tabx",
+  "_structured": true,
+  "page_type": "ego_gift",
+  "gift_name": "包装缎带",
+  "rarity": 3,
+  "cost": "249",
+  "effect_types": "泛用",
+  "attack_type": "暴怒",
+  "location": "镜像迷宫",
+  "stage": "base",
+  "special": "20区的奇迹复刻",
+  "event": "事件-诺姆",
+  "_schema_version": 1
+}

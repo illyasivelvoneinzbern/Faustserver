@@ -1,0 +1,38 @@
+{
+  "page_type": "enemy",
+  "title": "集中战斗-迷失的乘客",
+  "enemy_name": "迷失的乘客",
+  "battle_stage": "集中战斗-迷失的乘客",
+  "body_part": "右刃",
+  "hp": 99,
+  "defense_level": 28,
+  "speed_min": 3,
+  "speed_max": 5,
+  "chaos_threshold": "0.45/0",
+  "physical_resistances": {
+    "斩击": 1.0,
+    "突刺": 0.75,
+    "打击": 1.0
+  },
+  "sin_resistances": {
+    "暴怒": 1.0,
+    "色欲": 1.5,
+    "怠惰": 1.0,
+    "暴食": 2.0,
+    "忧郁": 1.0,
+    "傲慢": 0.75,
+    "嫉妒": 0.5
+  },
+  "panic_types": [],
+  "passives": [],
+  "skills": [],
+  "is_ally": false,
+  "_structured": true,
+  "appear_stages": [
+    "集中战斗-迷失的乘客"
+  ],
+  "enemy_id": "集中战斗-迷失的乘客|迷失的乘客|右刃",
+  "defense": 28,
+  "speed": "3~5",
+  "_schema_version": 1
+}

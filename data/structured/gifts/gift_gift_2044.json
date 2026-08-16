@@ -1,0 +1,21 @@
+{
+  "id": "gift_2044",
+  "title": "怀表：Type E",
+  "url": "https://limbuscompany.huijiwiki.com/wiki/E.G.O饰品",
+  "categories": [
+    "E.G.O饰品"
+  ],
+  "content": "回合开始时，若拥有增加震颤强度，施加震颤层数或施加特殊震颤的攻击技能的友方单位不低于5名，则在本场战斗期间触发该效果(不包括E.G.O技能，不包括待命人员)。\n友方单位增加震颤强度，施加震颤层数或施加特殊震颤的3技能硬币威力+2，造成的伤害+25%。",
+  "source": "tabx",
+  "_structured": true,
+  "page_type": "ego_gift",
+  "gift_name": "怀表：Type E",
+  "rarity": 4,
+  "cost": "400",
+  "effect_types": "震颤",
+  "attack_type": "怠惰",
+  "location": "时间杀人时间",
+  "stage": "base",
+  "special": "时间杀人时间合成",
+  "_schema_version": 1
+}

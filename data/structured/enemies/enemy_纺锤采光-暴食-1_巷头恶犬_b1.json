@@ -1,0 +1,127 @@
+{
+  "page_type": "enemy",
+  "title": "纺锤采光-暴食-1",
+  "enemy_name": "巷头恶犬",
+  "battle_stage": "纺锤采光-暴食-1",
+  "body_part": "人类",
+  "hp": 148,
+  "defense_level": 20,
+  "speed_min": 1,
+  "speed_max": 3,
+  "chaos_threshold": "103/63",
+  "physical_resistances": {
+    "斩击": 1.0,
+    "突刺": 1.0,
+    "打击": 1.0
+  },
+  "sin_resistances": {
+    "暴怒": 0.75,
+    "色欲": 0.75,
+    "怠惰": 0.75,
+    "暴食": 2.0,
+    "忧郁": 0.75,
+    "傲慢": 0.75,
+    "嫉妒": 0.75
+  },
+  "panic_types": [],
+  "passives": [],
+  "skills": [
+    {
+      "skill_name": "利爪撕扯",
+      "icon_id": "803201",
+      "sin_type": "色欲",
+      "damage_type": "斩击",
+      "base_value": 3,
+      "coin_power": 9,
+      "coin_count": 2,
+      "attack_level": 22,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[命中时] 下回合使目标增加2级 流血 强度"
+      ]
+    },
+    {
+      "skill_name": "恒定电压",
+      "icon_id": "803202",
+      "sin_type": "怠惰",
+      "damage_type": "打击",
+      "base_value": 4,
+      "coin_power": 9703,
+      "coin_count": 2,
+      "attack_level": 22,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[命中时] 下回合使目标增加1级 破裂 强度"
+      ]
+    },
+    {
+      "skill_name": "恒定电压",
+      "icon_id": "803203",
+      "sin_type": "怠惰",
+      "damage_type": "打击",
+      "base_value": 3,
+      "coin_power": 9703,
+      "coin_count": 3,
+      "attack_level": 22,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[命中时] 下回合使目标增加1级 破裂 强度",
+        "[正面命中时] 下回合使目标增加4级 破裂 强度"
+      ]
+    },
+    {
+      "skill_name": "咆哮",
+      "icon_id": "803204",
+      "sin_type": "傲慢",
+      "damage_type": "穿刺",
+      "base_value": 3,
+      "coin_power": 3,
+      "coin_count": 2,
+      "attack_level": 22,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[命中时] 下回合对目标施加2层 束缚",
+        "[正面命中时] 下回合对目标施加4层 破绽"
+      ]
+    },
+    {
+      "skill_name": "落雷牵引",
+      "icon_id": "803206",
+      "sin_type": "嫉妒",
+      "damage_type": "斩击",
+      "base_value": 3,
+      "coin_power": 5793,
+      "coin_count": 2,
+      "attack_level": 22,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[命中时] 下回合使目标增加2级 破裂 强度",
+        "[正面命中时] 下回合使目标增加5级 破裂 强度"
+      ]
+    }
+  ],
+  "is_ally": false,
+  "_structured": true,
+  "appear_stages": [
+    "纺锤采光-暴食-1"
+  ],
+  "enemy_id": "纺锤采光-暴食-1|巷头恶犬|人类",
+  "defense": 20,
+  "speed": "1~3",
+  "_schema_version": 1
+}

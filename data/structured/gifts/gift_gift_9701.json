@@ -1,0 +1,22 @@
+{
+  "id": "gift_9701",
+  "title": "火热多汁琵琶腿",
+  "url": "https://limbuscompany.huijiwiki.com/wiki/E.G.O饰品",
+  "categories": [
+    "E.G.O饰品"
+  ],
+  "content": "通过技能效果对敌方单位施加烧伤时，额外施加3层烧伤(每回合最多3次)",
+  "source": "tabx",
+  "_structured": true,
+  "page_type": "ego_gift",
+  "gift_name": "火热多汁琵琶腿",
+  "rarity": 3,
+  "cost": "259",
+  "effect_types": "烧伤",
+  "attack_type": "暴怒",
+  "location": "镜像迷宫",
+  "stage": "base",
+  "special": "地狱鸡",
+  "event": "事件-炸鸡对决",
+  "_schema_version": 1
+}

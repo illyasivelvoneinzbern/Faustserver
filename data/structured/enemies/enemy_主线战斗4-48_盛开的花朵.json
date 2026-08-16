@@ -1,0 +1,58 @@
+{
+  "page_type": "enemy",
+  "title": "主线战斗4-48",
+  "enemy_name": "盛开的花朵",
+  "battle_stage": "主线战斗4-48",
+  "body_part": "花蕾",
+  "hp": 31,
+  "defense_level": 32,
+  "speed_min": 1,
+  "speed_max": 2,
+  "chaos_threshold": "",
+  "physical_resistances": {
+    "斩击": 2.0,
+    "突刺": 0.75,
+    "打击": 1.0
+  },
+  "sin_resistances": {
+    "暴怒": 1.0,
+    "色欲": 0.75,
+    "怠惰": 1.0,
+    "暴食": 2.0,
+    "忧郁": 1.0,
+    "傲慢": 2.0,
+    "嫉妒": 1.0
+  },
+  "panic_types": [],
+  "passives": [],
+  "skills": [
+    {
+      "skill_name": "盛放",
+      "icon_id": "805501",
+      "sin_type": "常规",
+      "damage_type": "防御",
+      "base_value": 4,
+      "coin_power": 79,
+      "coin_count": 1,
+      "attack_level": 0,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "回合结束时使自身失去20点理智值。",
+        "理智值为-45时，恢复至理智值上限，并在下回合进入恍惚的意识状态",
+        "若本效果在2回合内没有移除，则在回合结束时移除该效果"
+      ]
+    }
+  ],
+  "is_ally": false,
+  "_structured": true,
+  "appear_stages": [
+    "主线战斗4-48"
+  ],
+  "enemy_id": "主线战斗4-48|盛开的花朵|花蕾",
+  "defense": 32,
+  "speed": "1~2",
+  "_schema_version": 1
+}

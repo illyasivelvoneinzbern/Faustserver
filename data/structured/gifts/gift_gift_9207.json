@@ -1,0 +1,22 @@
+{
+  "id": "gift_9207",
+  "title": "概率与选择",
+  "url": "https://limbuscompany.huijiwiki.com/wiki/E.G.O饰品",
+  "categories": [
+    "E.G.O饰品"
+  ],
+  "content": "随机使最左侧行动槽装备的E.G.O技能造成的伤害-50%或+150%(每回合最多1次)",
+  "source": "tabx",
+  "_structured": true,
+  "page_type": "ego_gift",
+  "gift_name": "概率与选择",
+  "rarity": 4,
+  "cost": "396",
+  "effect_types": "泛用",
+  "attack_type": "暴食",
+  "location": "镜像迷宫",
+  "stage": "base",
+  "special": "特殊事件",
+  "event": "事件-循环往复的信念与承诺",
+  "_schema_version": 1
+}

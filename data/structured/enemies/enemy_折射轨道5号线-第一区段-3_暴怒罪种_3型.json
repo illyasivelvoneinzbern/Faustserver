@@ -1,0 +1,103 @@
+{
+  "page_type": "enemy",
+  "title": "折射轨道5号线-第一区段-3",
+  "enemy_name": "暴怒罪种 3型",
+  "battle_stage": "折射轨道5号线-第一区段-3",
+  "body_part": "躯干",
+  "hp": 440,
+  "defense_level": 45,
+  "speed_min": 2,
+  "speed_max": 5,
+  "chaos_threshold": "264/0",
+  "physical_resistances": {
+    "斩击": 0.5,
+    "突刺": 0.5,
+    "打击": 0.5
+  },
+  "sin_resistances": {
+    "暴怒": 0.5,
+    "色欲": 1.5,
+    "怠惰": 0.5,
+    "暴食": 0.8,
+    "忧郁": 1.75,
+    "傲慢": 0.8,
+    "嫉妒": 1.0
+  },
+  "panic_types": [],
+  "passives": [],
+  "skills": [
+    {
+      "skill_name": "刺击",
+      "icon_id": "816101",
+      "sin_type": "暴怒",
+      "damage_type": "",
+      "base_value": 0,
+      "coin_power": 7,
+      "coin_count": 2,
+      "attack_level": 50,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "coin_effects": [
+        "[命中时] 使目标增加6级 烧伤 强度并对其施加2层 烧伤"
+      ]
+    },
+    {
+      "skill_name": "砍断",
+      "icon_id": "816102",
+      "sin_type": "暴怒",
+      "damage_type": "",
+      "base_value": 0,
+      "coin_power": 3,
+      "coin_count": 4,
+      "attack_level": 50,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "coin_effects": [
+        "[命中时] 使目标增加8级 烧伤 强度",
+        "[命中时] 对目标施加4层 烧伤",
+        "[命中时] 下回合对目标施加1层 突刺易损"
+      ]
+    },
+    {
+      "skill_name": "喷薄的暴怒",
+      "icon_id": "816103",
+      "sin_type": "暴怒",
+      "damage_type": "打击",
+      "base_value": 0,
+      "coin_power": 4,
+      "coin_count": 2,
+      "attack_level": 50,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "coin_effects": [
+        "[命中时] 对目标施加3层 烧伤",
+        "[正面命中时] 下回合对目标施加1层 暴怒易损"
+      ]
+    },
+    {
+      "skill_name": "反击",
+      "icon_id": "816104",
+      "sin_type": "暴怒",
+      "damage_type": "突刺",
+      "base_value": 0,
+      "coin_power": 4,
+      "coin_count": 2,
+      "attack_level": 50,
+      "attack_weight": 1,
+      "is_guard": true,
+      "guard_type": "反击",
+      "coin_effects": [
+        "[命中时] 下回合使自身获得10层 AttackDmgUp_Weak"
+      ]
+    }
+  ],
+  "is_ally": false,
+  "_structured": true,
+  "enemy_id": "折射轨道5号线-第一区段-3|暴怒罪种 3型",
+  "defense": 45,
+  "speed": "2~5",
+  "_schema_version": 1
+}

@@ -1,0 +1,165 @@
+{
+  "page_type": "enemy",
+  "title": "折射轨道1号线-终点站-无我",
+  "enemy_name": "无我入定",
+  "battle_stage": "折射轨道1号线-终点站-无我",
+  "body_part": "",
+  "hp": 108,
+  "defense_level": 51,
+  "speed_min": 2,
+  "speed_max": 5,
+  "chaos_threshold": "无",
+  "physical_resistances": {
+    "斩击": 1.0,
+    "突刺": 1.0,
+    "打击": 2.0
+  },
+  "sin_resistances": {
+    "暴怒": 1.0,
+    "色欲": 2.0,
+    "怠惰": 1.0,
+    "暴食": 1.0,
+    "忧郁": 1.0,
+    "傲慢": 1.0,
+    "嫉妒": 1.0
+  },
+  "panic_types": [],
+  "passives": [
+    "禅那: 回合开始时，若友方单位存活，则获得10层 守护 。",
+    "业报轮回: 全体单位攻击命中时，转移其10层 业报 至目标。 (拼点次数每增加1，转移的 业报 层数增加5层) 仍有其他友方单位存活时，无法将 业报 转移给无我入定",
+    "折射的挣扎: 若与同一目标拼点不低于10次，则拼点判定时随机使自身的拼点威力增加或减少(拼点次数/10)。(向下取整)",
+    "无我: 回合开始时，若佛像被破坏，则对除自身以外的1名友方单位施加30层 业报 和3层 易损 ，并进入无我 状态。(无我：改变攻击模式。所有攻击将不分敌我。)",
+    "变: 无恐慌类型数据"
+  ],
+  "skills": [
+    {
+      "skill_name": "阐经",
+      "icon_id": "852702",
+      "sin_type": "色欲",
+      "damage_type": "突刺",
+      "base_value": 4,
+      "coin_power": 9,
+      "coin_count": 2,
+      "attack_level": 55,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "使用时随机使除自身以外的1名友方单位获得2层强壮",
+        "2命中时下回合随机使除自身以外的1名友方单位获得2层伤害强化"
+      ]
+    },
+    {
+      "skill_name": "摩诃室利",
+      "icon_id": "852703",
+      "sin_type": "色欲",
+      "damage_type": "突刺",
+      "base_value": 4,
+      "coin_power": 9,
+      "coin_count": 1,
+      "attack_level": 55,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "使用时下回合使目标获得3层守护"
+      ]
+    },
+    {
+      "skill_name": "娑婆诃",
+      "icon_id": "852704",
+      "sin_type": "色欲",
+      "damage_type": "突刺",
+      "base_value": 3,
+      "coin_power": 9,
+      "coin_count": 1,
+      "attack_level": 60,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "使用时下回合使目标获得3层伤害强化"
+      ]
+    },
+    {
+      "skill_name": "般若波罗蜜",
+      "icon_id": "852705",
+      "sin_type": "暴怒",
+      "damage_type": "突刺",
+      "base_value": 18,
+      "coin_power": 987,
+      "coin_count": 3,
+      "attack_level": 55,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[命中时] 若目标带有 业报 ，则对其施加50层 业报"
+      ]
+    },
+    {
+      "skill_name": "禅那",
+      "icon_id": "852706",
+      "sin_type": "色欲",
+      "damage_type": "突刺",
+      "base_value": 10,
+      "coin_power": 9,
+      "coin_count": 2,
+      "attack_level": 50,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[命中时] 下回合对目标施加2层 虚弱"
+      ]
+    },
+    {
+      "skill_name": "强制供奉",
+      "icon_id": "852707",
+      "sin_type": "暴怒",
+      "damage_type": "突刺",
+      "base_value": 6,
+      "coin_power": 987,
+      "coin_count": 2,
+      "attack_level": 55,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[命中时] 对目标施加20层 业报"
+      ]
+    },
+    {
+      "skill_name": "鞭策",
+      "icon_id": "852708",
+      "sin_type": "暴怒",
+      "damage_type": "突刺",
+      "base_value": 5,
+      "coin_power": 987,
+      "coin_count": 3,
+      "attack_level": 55,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[命中时] 对目标施加10层 业报"
+      ]
+    }
+  ],
+  "is_ally": false,
+  "_structured": true,
+  "appear_stages": [
+    "折射轨道1号线-终点站-无我"
+  ],
+  "enemy_id": "折射轨道1号线-终点站-无我|无我入定|",
+  "defense": 51,
+  "speed": "2~5",
+  "_schema_version": 1
+}

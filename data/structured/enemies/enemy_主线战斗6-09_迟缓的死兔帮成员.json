@@ -1,0 +1,114 @@
+{
+  "page_type": "enemy",
+  "title": "主线战斗6-09",
+  "enemy_name": "迟缓的死兔帮成员",
+  "battle_stage": "主线战斗6-09",
+  "body_part": "",
+  "hp": 143,
+  "defense_level": 29,
+  "speed_min": 1,
+  "speed_max": 4,
+  "chaos_threshold": "",
+  "physical_resistances": {
+    "斩击": 1.0,
+    "突刺": 0.75,
+    "打击": 2.0
+  },
+  "sin_resistances": {
+    "暴怒": 1.0,
+    "色欲": 1.0,
+    "怠惰": 1.0,
+    "暴食": 1.0,
+    "忧郁": 1.0,
+    "傲慢": 1.0,
+    "嫉妒": 1.0
+  },
+  "panic_types": [],
+  "passives": [
+    "是你…:对战斗开始时现存体力最低的敌方单位造成的伤害+10%"
+  ],
+  "skills": [
+    {
+      "skill_name": "延…",
+      "icon_id": "9011701",
+      "sin_type": "暴怒",
+      "damage_type": "",
+      "base_value": 3,
+      "coin_power": 987,
+      "coin_count": 2,
+      "attack_level": 41,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[命中时] 对目标施加3层 破裂"
+      ]
+    },
+    {
+      "skill_name": "破…甲",
+      "icon_id": "9011702",
+      "sin_type": "暴怒",
+      "damage_type": "",
+      "base_value": 3,
+      "coin_power": 987,
+      "coin_count": 3,
+      "attack_level": 41,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[使用时] 若目标的 破裂 层数不低于3层，则使本技能的基础威力+1",
+        "[命中时] 对目标施加1层 攻击等级降低",
+        "[命中时] 对目标施加2层 破裂",
+        "[命中时] 使目标增加3级 破裂 强度"
+      ]
+    },
+    {
+      "skill_name": "切成…",
+      "icon_id": "9011703",
+      "sin_type": "暴食",
+      "damage_type": "",
+      "base_value": 4,
+      "coin_power": 854,
+      "coin_count": 3,
+      "attack_level": 41,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[使用时] 若目标带有 破裂 ，则目标每带有2层 破裂 ，使本技能的基础威力+1（最多+3）",
+        "[命中时] 对目标施加4层 破裂",
+        "[命中时] 使目标增加4级 流血 强度",
+        "[命中时] 对目标施加4层 攻击等级降低",
+        "[正面命中时] 下回合对目标施加2层 麻痹"
+      ]
+    },
+    {
+      "skill_name": "防…",
+      "icon_id": "9011704",
+      "sin_type": "常规",
+      "damage_type": "",
+      "base_value": 3,
+      "coin_power": 79,
+      "coin_count": 2,
+      "attack_level": 0,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": []
+    }
+  ],
+  "is_ally": false,
+  "_structured": true,
+  "appear_stages": [
+    "主线战斗6-09"
+  ],
+  "enemy_id": "主线战斗6-09|迟缓的死兔帮成员|",
+  "defense": 29,
+  "speed": "1~4",
+  "_schema_version": 1
+}

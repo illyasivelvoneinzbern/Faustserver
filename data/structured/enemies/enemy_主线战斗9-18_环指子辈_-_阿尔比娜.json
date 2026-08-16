@@ -1,0 +1,193 @@
+{
+  "page_type": "enemy",
+  "title": "主线战斗9-18",
+  "enemy_name": "环指子辈 - 阿尔比娜",
+  "battle_stage": "主线战斗9-18",
+  "body_part": "",
+  "hp": 1352,
+  "defense_level": 65,
+  "speed_min": 1,
+  "speed_max": 3,
+  "chaos_threshold": "1081 / 676",
+  "physical_resistances": {
+    "斩击": 0.8,
+    "突刺": 1.0,
+    "打击": 1.2
+  },
+  "sin_resistances": {
+    "暴怒": 1.0,
+    "色欲": 0.8,
+    "怠惰": 1.2,
+    "暴食": 1.2,
+    "忧郁": 0.8,
+    "傲慢": 1.0,
+    "嫉妒": 1.0
+  },
+  "panic_types": [
+    "活体材料",
+    "作品名：法西娅",
+    "剧烈振动的甲胄",
+    "烧伤",
+    "震颤",
+    "破裂",
+    "沉沦",
+    "流血"
+  ],
+  "passives": [
+    "我珍贵的作品，法西娅: 回合结束时，若自身的 活体材料 层数为2层，则下回合解除自身的 活体材料 并使自身获得 作品名：法西娅 回合开始时，若自身带有 作品名：法西娅 ，则本回合使用强力攻击 使用强力攻击前受到攻击技能攻击时，对自身施加1层 剧烈振动的甲胄",
+    "已作为材料使用的肉体: 受到 烧伤 、 震颤 、 破裂 与 沉沦 的体力伤害、理智伤害与混乱阈值前移-30% 受到 流血 的伤害-50%",
+    "固定恐慌: 被施加改变恐慌类型的状态时，自身的恐慌类型不会改变。效果改为对没有理智值的单位施加的效果。",
+    "恐慌恢复: 回合结束时，若陷入恐慌，则使自身的理智值恢复为0点。",
+    "保护与抑制用甲胄: 回合开始时，若自身未陷入混乱，则使自身获得2层 守护 ，10层 防御等级提升 与现存体力10%的护盾 本场战斗中自身每使用过1次“受迫的肉体”，以上效果的获得量减少1层 守护 ，5层 防御等级提升 与5%护盾",
+    "铁处女-棘: 若自身未陷入混乱，则自身受到攻击者最后一枚硬币攻击时，触发以下效果 - 对攻击者造成相当于该硬币伤害量20%的突刺伤害并使其增加2级 流血 强度(每个技能最多100点) - 该效果造成的伤害不会使目标陷入混乱",
+    "铁处女-除颤: • 拼点胜利后根据拼点次数按比例增加 （增加量：基础值为10，从第二次拼点起，每次拼点增加20%） • 击杀敌方单位时，不论该敌方单位等级，增加10 • 友方单位击杀敌方单位时，不论该敌方单位等级，增加5"
+  ],
+  "skills": [
+    {
+      "skill_name": "屠宰-肋骨",
+      "icon_id": "131901",
+      "sin_type": "暴食",
+      "damage_type": "斩击",
+      "base_value": 4,
+      "coin_power": 854,
+      "coin_count": 3,
+      "attack_level": 63,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[使用时] 若目标的 流血 强度不低于6级，则使本技能的硬币威力+1",
+        "[命中时] 使目标增加4级 流血 强度",
+        "[命中时] 下回合对目标施加1层 易损",
+        "[命中时] 下回合使自身获得1层 守护"
+      ]
+    },
+    {
+      "skill_name": "回旋粉碎",
+      "icon_id": "131902",
+      "sin_type": "暴食",
+      "damage_type": "斩击",
+      "base_value": 4,
+      "coin_power": 854,
+      "coin_count": 3,
+      "attack_level": 63,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[使用时] 若目标的 流血 强度不低于6级，则使本技能的硬币威力+1",
+        "[命中时] 对目标施加2层 流血",
+        "[命中时] 下回合对目标施加1层 束缚",
+        "[命中时] 下回合使自身获得1层 迅捷"
+      ]
+    },
+    {
+      "skill_name": "肌腱撕裂",
+      "icon_id": "131903",
+      "sin_type": "暴食",
+      "damage_type": "斩击",
+      "base_value": 4,
+      "coin_power": 854,
+      "coin_count": 4,
+      "attack_level": 63,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[使用时] 目标的 流血 强度每有4级，使本技能的硬币威力+1(最多+2)",
+        "[命中时] 使目标增加6级 流血 强度",
+        "[命中时] 对目标施加1层 流血",
+        "[命中时] 下回合对目标施加1层 威力降低",
+        "[命中时] 下回合使自身获得1层 威力提升"
+      ]
+    },
+    {
+      "skill_name": "法西娅在挨饿呢",
+      "icon_id": "131904",
+      "sin_type": "嫉妒",
+      "damage_type": "突刺",
+      "base_value": 4,
+      "coin_power": 5793,
+      "coin_count": 7,
+      "attack_level": 65,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[命中时] 使自身恢复5点理智值",
+        "[命中时] 使自身获得1层 活体材料"
+      ]
+    },
+    {
+      "skill_name": "受压肉体",
+      "icon_id": "131905",
+      "sin_type": "色欲",
+      "damage_type": "斩击",
+      "base_value": 8,
+      "coin_power": 9,
+      "coin_count": 9,
+      "attack_level": 70,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[使用时] 目标每带有4级 流血 强度，使本技能硬币威力+1(最多+4)",
+        "[使用时] 目标每带有2级 流血 强度，使本技能造成的伤害+10%(最多+100%)",
+        "[攻击后] 解除自身的 作品名：法西娅 不可摧毁的硬币",
+        "[命中时] 使自身恢复5点理智值 不可摧毁的硬币",
+        "[命中时] 下回合使自身获得1层 守护 不可摧毁的硬币",
+        "[命中时] 下回合使自身获得1层 伤害强化 不可摧毁的硬币",
+        "[命中时] 下回合使自身获得1层 迅捷"
+      ]
+    },
+    {
+      "skill_name": "展览的准备",
+      "icon_id": "131906",
+      "sin_type": "怠惰",
+      "damage_type": "守备",
+      "base_value": 4,
+      "coin_power": 9703,
+      "coin_count": 1,
+      "attack_level": 0,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "战斗开始自身受到攻击技能攻击时，对攻击者施加1层{{状态2|流血|4=负面}}(包括E.G.O技能)"
+      ]
+    },
+    {
+      "skill_name": "铁幕",
+      "icon_id": "131907",
+      "sin_type": "怠惰",
+      "damage_type": "守备",
+      "base_value": 10,
+      "coin_power": 9703,
+      "coin_count": 1,
+      "attack_level": 0,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "使本回合“铁处女-棘”造成的伤害变为20倍(该效果不会因偏转而解除)",
+        "战斗开始自身受到攻击技能攻击时，对攻击者施加1层{{状态2|流血|4=负面}}(包括E.G.O技能)"
+      ]
+    }
+  ],
+  "is_ally": false,
+  "_structured": true,
+  "appear_stages": [
+    "主线战斗9-18"
+  ],
+  "enemy_id": "主线战斗9-18|环指子辈 - 阿尔比娜|",
+  "defense": 65,
+  "speed": "1~3",
+  "_schema_version": 1
+}

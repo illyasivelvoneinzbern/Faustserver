@@ -1,0 +1,21 @@
+{
+  "id": "gift_1003",
+  "title": "腐烂碎片",
+  "url": "https://limbuscompany.huijiwiki.com/wiki/E.G.O饰品",
+  "categories": [
+    "E.G.O饰品"
+  ],
+  "content": "回合开始时，使现存体力不高于50%的友方恢复5点体力。",
+  "source": "tabx",
+  "_structured": true,
+  "page_type": "ego_gift",
+  "gift_name": "腐烂碎片",
+  "rarity": 0,
+  "cost": "0",
+  "effect_types": "",
+  "attack_type": "暴食",
+  "location": "第一章",
+  "stage": "base",
+  "event": "事件-与无法忍受的存在相遇",
+  "_schema_version": 1
+}

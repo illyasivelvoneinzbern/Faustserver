@@ -1,0 +1,132 @@
+{
+  "page_type": "enemy",
+  "title": "经验采光-8-突刺",
+  "enemy_name": "饱含邪气的咒杀僧",
+  "battle_stage": "经验采光-8-突刺",
+  "body_part": "",
+  "hp": 282,
+  "defense_level": 53,
+  "speed_min": 3,
+  "speed_max": 5,
+  "chaos_threshold": "",
+  "physical_resistances": {
+    "斩击": 0.5,
+    "突刺": 2.0,
+    "打击": 0.5
+  },
+  "sin_resistances": {
+    "暴怒": 1.0,
+    "色欲": 1.0,
+    "怠惰": 1.0,
+    "暴食": 1.0,
+    "忧郁": 1.0,
+    "傲慢": 1.0,
+    "嫉妒": 1.0
+  },
+  "panic_types": [
+    "深重的邪心（士气低落）",
+    "不详符咒",
+    "伤害强化",
+    "易损",
+    "深重的邪心（陷入恐慌）",
+    "不详符咒",
+    "伤害强化",
+    "易损"
+  ],
+  "passives": [
+    "杰出的符术士：自身对敌方单位施加 不祥符咒 时，使自身失去10点理智值 对带有 不祥符咒 的目标造成的伤害+(10-自身的理智值)%(最多+50%，最少+0%)",
+    "吸魂疗法：回合开始时，若现存体力不高于50%，则随机牺牲1名邪咒杀僧并使自身恢复(自身体力上限10%+牺牲单位体力50%)的体力与25点理智值，解除自身的混乱(每回合最多1次)"
+  ],
+  "skills": [
+    {
+      "skill_name": "符灵术-符击",
+      "icon_id": "9020901",
+      "sin_type": "色欲",
+      "damage_type": "",
+      "base_value": 0,
+      "coin_power": 1,
+      "coin_count": 2,
+      "attack_level": 55,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "coin_effects": [
+        "[命中时] 使目标增加3级 破裂 强度",
+        "[命中时] 对目标施加10层 不祥符咒"
+      ]
+    },
+    {
+      "skill_name": "符灵术-效力发动",
+      "icon_id": "9020902",
+      "sin_type": "傲慢",
+      "damage_type": "",
+      "base_value": 0,
+      "coin_power": 1,
+      "coin_count": 3,
+      "attack_level": 56,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "coin_effects": [
+        "[命中时] 使目标增加4级 破裂 强度",
+        "[命中时] 对目标施加10层 不祥符咒",
+        "[命中时] 消耗目标的3层 不祥符咒"
+      ]
+    },
+    {
+      "skill_name": "符灵术-执行",
+      "icon_id": "9020903",
+      "sin_type": "暴食",
+      "damage_type": "",
+      "base_value": 0,
+      "coin_power": 1,
+      "coin_count": 5,
+      "attack_level": 57,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "coin_effects": [
+        "[命中时] 使目标增加2级 破裂 强度",
+        "[命中时] 对目标施加10层 不祥符咒",
+        "[命中时] 对目标施加2层 破裂",
+        "[反面命中时] 对目标施加10层 不祥符咒"
+      ]
+    },
+    {
+      "skill_name": "符灵术-邪气爆发",
+      "icon_id": "9020904",
+      "sin_type": "暴怒",
+      "damage_type": "",
+      "base_value": 0,
+      "coin_power": 1,
+      "coin_count": 5,
+      "attack_level": 57,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "coin_effects": [
+        "[命中时] 使目标增加3级 破裂 强度并对其施加3层 破裂"
+      ]
+    },
+    {
+      "skill_name": "符灵术-防御",
+      "icon_id": "9020905",
+      "sin_type": "嫉妒",
+      "damage_type": "",
+      "base_value": 0,
+      "coin_power": 0,
+      "coin_count": 1,
+      "attack_level": 0,
+      "attack_weight": 1,
+      "is_guard": true,
+      "guard_type": "防御",
+      "coin_effects": []
+    }
+  ],
+  "is_ally": false,
+  "_structured": true,
+  "enemy_id": "经验采光-8-突刺|饱含邪气的咒杀僧",
+  "defense": 53,
+  "speed": "3~5",
+  "_schema_version": 1
+}

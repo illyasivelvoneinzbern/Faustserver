@@ -1,0 +1,21 @@
+{
+  "id": "gift_9213_upgraded_2",
+  "title": "微型摩天轮",
+  "url": "https://limbuscompany.huijiwiki.com/wiki/E.G.O饰品",
+  "categories": [
+    "E.G.O饰品"
+  ],
+  "content": "遭遇战中新的敌方单位增援时，战斗开始时使其增加5级流血强度并对其施加3层流血。\n若友方单位中存在<血魔>，则新的敌方单位增援时触发全体敌方单位的流血2次，并使全体敌方单位的流血层数减少2层",
+  "source": "tabx",
+  "_structured": true,
+  "page_type": "ego_gift",
+  "gift_name": "微型摩天轮",
+  "rarity": 4,
+  "cost": "402",
+  "effect_types": "流血",
+  "attack_type": "色欲",
+  "location": "镜像迷宫",
+  "stage": "upgraded_2",
+  "special": "梦之终焉合成，重新开园的拉·曼却领合成，无尽的游行合成",
+  "_schema_version": 1
+}

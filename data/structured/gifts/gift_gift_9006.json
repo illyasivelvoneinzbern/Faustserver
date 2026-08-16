@@ -1,0 +1,21 @@
+{
+  "id": "gift_9006",
+  "title": "咖啡与纸鹤",
+  "url": "https://limbuscompany.huijiwiki.com/wiki/E.G.O饰品",
+  "categories": [
+    "E.G.O饰品"
+  ],
+  "content": "回合开始时，随机获得1个上回合使用的攻击技能属性以外的1种E.G.O资源。\n\n若上回合使用了色欲技能，则改为获得上回合使用的攻击技能属性以外的所有E.G.O资源各1个。",
+  "source": "tabx",
+  "_structured": true,
+  "page_type": "ego_gift",
+  "gift_name": "咖啡与纸鹤",
+  "rarity": 2,
+  "cost": "186",
+  "effect_types": "泛用",
+  "attack_type": "色欲",
+  "location": "镜像迷宫",
+  "stage": "base",
+  "event": "事件-咖啡与纸鹤",
+  "_schema_version": 1
+}

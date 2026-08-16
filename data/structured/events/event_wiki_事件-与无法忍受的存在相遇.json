@@ -1,0 +1,36 @@
+{
+  "page_type": "event",
+  "title": "事件-与无法忍受的存在相遇",
+  "event_name": "与无法忍受的存在相遇",
+  "narration": "在狭窄的通道里前进时，一群蟑螂密密麻麻地涌了出来。\n沙沙作响的声音令人几欲作呕。\n应该避开它们走过去吗？又或者……\n\n虽然极其恶心，但不知道贸然行动会发生什么，谨慎地前进吧。\n唔呜呜……从脚上爬上来了啊！”\n虽然大家平安无事地经过了通道，但脸上的表情明显都不怎么好看，\n这段经历足以让人身心俱疲。\n全体友方单位失去\n10点理智值\n！\n\n忍无可忍。跟罪人们联手……联脚将蟑螂一只只踩爆。\n“啧……”\n格里高尔不自在地将脸转开了。\n随后，一群愤怒的虫化军人向这边袭来。\n格里高尔\n失去\n20点理智值\n遭遇\n战斗\n！\n获得E.G.O饰品\n腐烂碎片\n！",
+  "options": [
+    {
+      "choice_text": "虽然极其恶心，但不知道贸然行动会发生什么，谨慎地前进吧。",
+      "check_type": "",
+      "check_sin": "",
+      "check_threshold": 0,
+      "success_outcomes": [],
+      "failure_outcomes": []
+    },
+    {
+      "choice_text": "忍无可忍。跟罪人们联手……联脚将蟑螂一只只踩爆。",
+      "check_type": "",
+      "check_sin": "",
+      "check_threshold": 0,
+      "success_outcomes": [],
+      "failure_outcomes": []
+    }
+  ],
+  "ego_gifts": [],
+  "related_abnormalities": [
+    "事件触发地点",
+    "4区 脑叶公司支部-第Ⅲ区域"
+  ],
+  "trigger_location": "",
+  "_structured": true,
+  "id": "wiki_事件-与无法忍受的存在相遇",
+  "url": "https://limbuscompany.huijiwiki.com/wiki/事件-与无法忍受的存在相遇",
+  "categories": [],
+  "source": "wiki",
+  "_schema_version": 1
+}

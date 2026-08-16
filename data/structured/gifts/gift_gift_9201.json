@@ -1,0 +1,20 @@
+{
+  "id": "gift_9201",
+  "title": "次元分类回收箱",
+  "url": "https://limbuscompany.huijiwiki.com/wiki/E.G.O饰品",
+  "categories": [
+    "E.G.O饰品"
+  ],
+  "content": "[第3顺位友方单位专属]\n打击技能的攻击等级+(该友方单位拥有的打击基本攻击技能数)(同技能不重复计数，最多+3)。\n使用技能攻击敌方单位时，若丢弃了其他技能，则使造成的打击伤害+(10+被丢弃技能的级别×5)%(以最高级别计算，最多+25%)。",
+  "source": "tabx",
+  "_structured": true,
+  "page_type": "ego_gift",
+  "gift_name": "次元分类回收箱",
+  "rarity": 1,
+  "cost": "148",
+  "effect_types": "打击",
+  "attack_type": "暴怒",
+  "location": "镜像迷宫",
+  "stage": "base",
+  "_schema_version": 1
+}

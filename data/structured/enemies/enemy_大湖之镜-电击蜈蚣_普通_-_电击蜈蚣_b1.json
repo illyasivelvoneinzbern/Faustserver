@@ -1,0 +1,222 @@
+{
+  "page_type": "enemy",
+  "title": "大湖之镜-电击蜈蚣",
+  "enemy_name": "普通 - 电击蜈蚣",
+  "battle_stage": "大湖之镜-电击蜈蚣",
+  "body_part": "头部",
+  "hp": 855,
+  "defense_level": 47,
+  "speed_min": 2,
+  "speed_max": 5,
+  "chaos_threshold": "",
+  "physical_resistances": {
+    "斩击": 0.5,
+    "突刺": 1.0,
+    "打击": 2.0
+  },
+  "sin_resistances": {
+    "暴怒": 0.5,
+    "色欲": 1.0,
+    "怠惰": 1.5,
+    "暴食": 1.0,
+    "忧郁": 2.0,
+    "傲慢": 1.0,
+    "嫉妒": 0.5
+  },
+  "panic_types": [],
+  "passives": [],
+  "skills": [
+    {
+      "skill_name": "撕咬",
+      "icon_id": "804501",
+      "sin_type": "忧郁",
+      "damage_type": "穿刺",
+      "base_value": 6,
+      "coin_power": 3,
+      "coin_count": 2,
+      "attack_level": 47,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[使用时] 使自身获得2层 自体发电",
+        "[命中时] 使目标增加3级 流血 强度，对目标施加2层 流血"
+      ]
+    },
+    {
+      "skill_name": "电流注入",
+      "icon_id": "804504",
+      "sin_type": "暴食",
+      "damage_type": "穿刺",
+      "base_value": 5,
+      "coin_power": 854,
+      "coin_count": 2,
+      "attack_level": 47,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "使用时使自身获得1层自体发电",
+        "若目标带有麻痹则伤害+10%"
+      ]
+    },
+    {
+      "skill_name": "盘绕",
+      "icon_id": "804508",
+      "sin_type": "常规",
+      "damage_type": "防御",
+      "base_value": 1,
+      "coin_power": 79,
+      "coin_count": 1,
+      "attack_level": 0,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "行动槽中存在该技能时，获得与头部现存体力值相等的护盾"
+      ]
+    },
+    {
+      "skill_name": "蠕动的头",
+      "icon_id": "804509",
+      "sin_type": "嫉妒",
+      "damage_type": "穿刺",
+      "base_value": 6,
+      "coin_power": 5793,
+      "coin_count": 2,
+      "attack_level": 48,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "使用时消耗2层自体发电",
+        "拼点失败消耗2层自体发电"
+      ]
+    },
+    {
+      "skill_name": "尾针突刺",
+      "icon_id": "804502",
+      "sin_type": "忧郁",
+      "damage_type": "穿刺",
+      "base_value": 4,
+      "coin_power": 3,
+      "coin_count": 3,
+      "attack_level": 47,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[使用时] 使自身获得2层 自体发电",
+        "[命中时] 使目标增加3级 流血 强度，对目标施加2层 流血",
+        "[命中时] 下回合对目标施加2层 束缚"
+      ]
+    },
+    {
+      "skill_name": "紧紧蜷缩",
+      "icon_id": "804503",
+      "sin_type": "忧郁",
+      "damage_type": "打击",
+      "base_value": 5,
+      "coin_power": 3,
+      "coin_count": 2,
+      "attack_level": 47,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[使用时] 使自身获得2层 自体发电",
+        "[命中时] 对目标施加2层 易损",
+        "[正面命中时] 下回合对目标施加2层 束缚"
+      ]
+    },
+    {
+      "skill_name": "电气放电",
+      "icon_id": "804505",
+      "sin_type": "暴食",
+      "damage_type": "穿刺",
+      "base_value": 4,
+      "coin_power": 854,
+      "coin_count": 2,
+      "attack_level": 47,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "使用时使自身获得1层自体发电",
+        "若目标带有麻痹则伤害+10%"
+      ]
+    },
+    {
+      "skill_name": "放电",
+      "icon_id": "804506",
+      "sin_type": "嫉妒",
+      "damage_type": "打击",
+      "base_value": 4,
+      "coin_power": 5793,
+      "coin_count": 3,
+      "attack_level": 47,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[使用时] 使自身获得1层 自体发电 若目标带有 麻痹 则伤害+20%",
+        "[命中时] 对目标施加2层 易损",
+        "[命中时] 对目标施加5层 麻痹"
+      ]
+    },
+    {
+      "skill_name": "超高压放电",
+      "icon_id": "804507",
+      "sin_type": "嫉妒",
+      "damage_type": "打击",
+      "base_value": 13,
+      "coin_power": 5793,
+      "coin_count": 3,
+      "attack_level": 47,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[命中时] 对目标施加2层 易损",
+        "[命中时] 若目标处于 蓄能 状态，则额外造成最终伤害量40%的固定伤害",
+        "[命中时] 对目标施加3层 麻痹 ，1层 蓄能"
+      ]
+    },
+    {
+      "skill_name": "蠕动的尾",
+      "icon_id": "804510",
+      "sin_type": "嫉妒",
+      "damage_type": "穿刺",
+      "base_value": 8,
+      "coin_power": 5793,
+      "coin_count": 2,
+      "attack_level": 48,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "使用时消耗2层自体发电",
+        "拼点失败消耗3层自体发电"
+      ]
+    }
+  ],
+  "is_ally": false,
+  "_structured": true,
+  "appear_stages": [
+    "大湖之镜-电击蜈蚣"
+  ],
+  "enemy_id": "大湖之镜-电击蜈蚣|普通 - 电击蜈蚣|头部",
+  "defense": 47,
+  "speed": "2~5",
+  "_schema_version": 1
+}

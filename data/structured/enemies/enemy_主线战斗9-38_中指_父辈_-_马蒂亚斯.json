@@ -1,0 +1,284 @@
+{
+  "page_type": "enemy",
+  "title": "主线战斗9-38",
+  "enemy_name": "中指 父辈 - 马蒂亚斯",
+  "battle_stage": "主线战斗9-38",
+  "body_part": "",
+  "hp": 5600,
+  "defense_level": 100,
+  "speed_min": 1,
+  "speed_max": 3,
+  "chaos_threshold": "1960",
+  "physical_resistances": {
+    "斩击": 1.0,
+    "突刺": 1.2,
+    "打击": 0.8
+  },
+  "sin_resistances": {
+    "暴怒": 1.0,
+    "色欲": 1.0,
+    "怠惰": 1.0,
+    "暴食": 1.0,
+    "忧郁": 1.0,
+    "傲慢": 1.0,
+    "嫉妒": 1.0
+  },
+  "panic_types": [
+    "仔细看好，闺女！",
+    "中指-仇怨",
+    "复仇账簿",
+    "中指-仇怨纹身【长兄】",
+    "烧伤",
+    "流血",
+    "震颤",
+    "破裂"
+  ],
+  "passives": [
+    "闺女的教育: 拼点胜利时，使自身获得1层 仔细看好，闺女！ 技能命中时，使自身获得1层 仔细看好，闺女！ (每个技能最多1次，被摧毁的硬币不会触发) 每回合首个使用的技能拼点胜利时，使自身额外获得1层 仔细看好，闺女！ 并使该技能的硬币威力+1",
+    "怨恨: 每当自身被2个技能攻击时，使自身获得1层 中指-仇怨 并使自身的 仔细看好，闺女！ 层数减少1层(受到攻击次数累计计算) 若自身的 中指-仇怨 层数为最大值，则使用强力攻击 回合结束时，若现存体力低于80%、60%或40%，使自身的 中指-仇怨 层数变为最大值",
+    "复仇账簿: 关卡开始时，对全体罪人与LCD单位施加 复仇账簿 若本回合自身命中的技能数高于3个，则每超出1个，下回合使自身获得1层 中指-仇怨纹身【 长兄 】",
+    "仇怨纹身[长兄]: 受到的 烧伤 、 流血 、 震颤 与 破裂 伤害-30%(向下取整) 受到的混乱阈值前移量-50%(向下取整)",
+    "？？？: ？？？",
+    "固定恐慌: 被施加改变恐慌类型的状态时，自身的恐慌类型不会改变。效果改为对没有理智值的单位施加的效果。",
+    "恐慌恢复: • 拼点胜利后根据拼点次数按比例增加 （增加量：基础值为10，从第二次拼点起，每次拼点增加20%） • 击杀敌方单位时，不论该敌方单位等级，增加10 • 友方单位击杀敌方单位时，不论该敌方单位等级，增加5"
+  ],
+  "skills": [
+    {
+      "skill_name": "踏碎",
+      "icon_id": "132701",
+      "sin_type": "暴怒",
+      "damage_type": "打击",
+      "base_value": 10,
+      "coin_power": 987,
+      "coin_count": 4,
+      "attack_level": 87,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[命中时] 使目标增加3级 流血 强度 不可摧毁的硬币",
+        "[命中时] 对目标施加2层 流血"
+      ]
+    },
+    {
+      "skill_name": "踢飞",
+      "icon_id": "132702",
+      "sin_type": "暴怒",
+      "damage_type": "打击",
+      "base_value": 11,
+      "coin_power": 987,
+      "coin_count": 3,
+      "attack_level": 87,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[命中时] 使目标的混乱阈值前移5"
+      ]
+    },
+    {
+      "skill_name": "仇怨重踏",
+      "icon_id": "132703",
+      "sin_type": "嫉妒",
+      "damage_type": "打击",
+      "base_value": 13,
+      "coin_power": 5793,
+      "coin_count": 9,
+      "attack_level": 87,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[攻击后] 消耗自身所有 中指-仇怨 并使自身获得1层 仔细看好，闺女！ 不可摧毁的硬币",
+        "[命中时] 使目标增加3级 流血 强度 不可摧毁的硬币",
+        "[命中时] 对目标施加2层 流血 不可摧毁的硬币"
+      ]
+    },
+    {
+      "skill_name": "别这样就被玩坏了！",
+      "icon_id": "132704",
+      "sin_type": "傲慢",
+      "damage_type": "打击",
+      "base_value": 12,
+      "coin_power": 3,
+      "coin_count": 7,
+      "attack_level": 87,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[使用时] 若自身带有 中指-仇怨纹身【 长兄 】 ，则使本技能的硬币命中时对目标额外造成5点打击伤害 不可摧毁的硬币",
+        "[命中时] 对目标施加2层 束缚 不可摧毁的硬币",
+        "[命中时] 对目标额外造成10点打击伤害 不可摧毁的硬币"
+      ]
+    },
+    {
+      "skill_name": "犯规",
+      "icon_id": "132705",
+      "sin_type": "嫉妒",
+      "damage_type": "打击",
+      "base_value": 14,
+      "coin_power": 5793,
+      "coin_count": 3,
+      "attack_level": 87,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[使用时] 若自身带有 中指-仇怨纹身【 长兄 】 ，则令本技能的硬币命中时对目标施加1层 流血",
+        "[命中时] 使目标增加3级 流血 强度",
+        "[命中时] 使自身的混乱阈值后移10"
+      ]
+    },
+    {
+      "skill_name": "我要打开包装咯！",
+      "icon_id": "132706",
+      "sin_type": "嫉妒",
+      "damage_type": "打击",
+      "base_value": 15,
+      "coin_power": 5793,
+      "coin_count": 7,
+      "attack_level": 88,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[使用时] 若自身带有 中指-仇怨纹身【 长兄 】 ，则使本技能的硬币命中时对目标额外造成10点打击伤害",
+        "[攻击后] 使自身的 封印的剑 转化为 1阶段 封印解除 不可摧毁的硬币",
+        "[命中时] 对目标额外造成10点打击伤害 不可摧毁的硬币",
+        "[命中时] 对目标额外造成10点打击伤害"
+      ]
+    },
+    {
+      "skill_name": "踏碎",
+      "icon_id": "132707",
+      "sin_type": "暴怒",
+      "damage_type": "打击",
+      "base_value": 11,
+      "coin_power": 987,
+      "coin_count": 4,
+      "attack_level": 88,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[使用时] 若自身带有 中指-仇怨纹身【 长兄 】 ，则令本技能的硬币命中时使目标增加1级 流血 强度",
+        "[命中时] 使目标增加4级 流血 强度 不可摧毁的硬币",
+        "[命中时] 对目标施加2层 流血"
+      ]
+    },
+    {
+      "skill_name": "踢飞",
+      "icon_id": "132708",
+      "sin_type": "暴怒",
+      "damage_type": "打击",
+      "base_value": 13,
+      "coin_power": 987,
+      "coin_count": 3,
+      "attack_level": 88,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[使用时] 若自身带有 中指-仇怨纹身【 长兄 】 ，则令本技能的硬币命中时使目标增加1级 流血 强度",
+        "[命中时] 使目标的混乱阈值前移10"
+      ]
+    },
+    {
+      "skill_name": "仇怨重踏",
+      "icon_id": "132709",
+      "sin_type": "嫉妒",
+      "damage_type": "打击",
+      "base_value": 16,
+      "coin_power": 5793,
+      "coin_count": 9,
+      "attack_level": 88,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[使用时] 若自身带有 中指-仇怨纹身【 长兄 】 ，则令本技能的硬币命中时使目标增加1级 流血 强度",
+        "[攻击后] 消耗自身所有 中指-仇怨 并使自身获得1层 仔细看好，闺女！ 不可摧毁的硬币",
+        "[命中时] 使目标增加4级 流血 强度 不可摧毁的硬币",
+        "[命中时] 对目标施加2层 流血 不可摧毁的硬币"
+      ]
+    },
+    {
+      "skill_name": "不觉得很热乎吗？！",
+      "icon_id": "132710",
+      "sin_type": "傲慢",
+      "damage_type": "打击",
+      "base_value": 15,
+      "coin_power": 3,
+      "coin_count": 7,
+      "attack_level": 88,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[使用时] 若自身带有 中指-仇怨纹身【 长兄 】 ，则使本技能的硬币命中时对目标额外造成10点打击伤害",
+        "[命中时] 使目标增加2级 烧伤 强度",
+        "[命中时] 对目标施加2层 束缚 不可摧毁的硬币",
+        "[命中时] 对目标额外造成15点打击伤害 不可摧毁的硬币"
+      ]
+    },
+    {
+      "skill_name": "犯规",
+      "icon_id": "132711",
+      "sin_type": "嫉妒",
+      "damage_type": "打击",
+      "base_value": 16,
+      "coin_power": 5793,
+      "coin_count": 3,
+      "attack_level": 88,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[使用时] 若自身带有 中指-仇怨纹身【 长兄 】 ，则令本技能的硬币命中时对目标施加1层 流血",
+        "[命中时] 使目标增加4级 流血 强度",
+        "[命中时] 使自身的混乱阈值后移10"
+      ]
+    },
+    {
+      "skill_name": "连第二层包装纸也得拆开吗。",
+      "icon_id": "132712",
+      "sin_type": "嫉妒",
+      "damage_type": "打击",
+      "base_value": 14,
+      "coin_power": 5793,
+      "coin_count": 9,
+      "attack_level": 89,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[使用时] 若自身带有 中指-仇怨纹身【 长兄 】 ，则使本技能的硬币命中时对目标额外造成10点打击伤害",
+        "[攻击后] 使自身的 1阶段 封印解除 转化为 2阶段 封印解除 不可摧毁的硬币",
+        "[命中时] 对目标额外造成10点打击伤害 不可摧毁的硬币",
+        "[命中时] 对目标施加5层 易损"
+      ]
+    }
+  ],
+  "is_ally": false,
+  "_structured": true,
+  "appear_stages": [
+    "主线战斗9-38"
+  ],
+  "enemy_id": "主线战斗9-38|中指 父辈 - 马蒂亚斯|",
+  "defense": 100,
+  "speed": "1~3",
+  "_schema_version": 1
+}

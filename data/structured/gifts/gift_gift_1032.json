@@ -1,0 +1,21 @@
+{
+  "id": "gift_1032",
+  "title": "一堆火把",
+  "url": "https://limbuscompany.huijiwiki.com/wiki/E.G.O饰品",
+  "categories": [
+    "E.G.O饰品"
+  ],
+  "content": "关卡开始时，使全体友方单位获得3层迅捷。\n累计生效3次后失效。",
+  "source": "tabx",
+  "_structured": true,
+  "page_type": "ego_gift",
+  "gift_name": "一堆火把",
+  "rarity": 0,
+  "cost": "0",
+  "effect_types": "",
+  "attack_type": "暴怒",
+  "location": "第三章",
+  "stage": "base",
+  "event": "事件-一间放着机械发条装置的破旧房间",
+  "_schema_version": 1
+}

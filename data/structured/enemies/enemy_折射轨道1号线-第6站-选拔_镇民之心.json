@@ -1,0 +1,42 @@
+{
+  "page_type": "enemy",
+  "title": "折射轨道1号线-第6站-选拔",
+  "enemy_name": "镇民之心",
+  "battle_stage": "折射轨道1号线-第6站-选拔",
+  "body_part": "",
+  "hp": 201,
+  "defense_level": 48,
+  "speed_min": 1,
+  "speed_max": 5,
+  "chaos_threshold": "140 / 60",
+  "physical_resistances": {
+    "斩击": 1.0,
+    "突刺": 1.5,
+    "打击": 1.0
+  },
+  "sin_resistances": {
+    "暴怒": 1.0,
+    "色欲": 1.0,
+    "怠惰": 1.0,
+    "暴食": 1.0,
+    "忧郁": 1.5,
+    "傲慢": 1.0,
+    "嫉妒": 1.0
+  },
+  "panic_types": [
+    "禁锢"
+  ],
+  "passives": [
+    "检测到破损！: 无恐慌类型数据"
+  ],
+  "skills": [],
+  "is_ally": false,
+  "_structured": true,
+  "appear_stages": [
+    "折射轨道1号线-第6站-选拔"
+  ],
+  "enemy_id": "折射轨道1号线-第6站-选拔|镇民之心|",
+  "defense": 48,
+  "speed": "1~5",
+  "_schema_version": 1
+}

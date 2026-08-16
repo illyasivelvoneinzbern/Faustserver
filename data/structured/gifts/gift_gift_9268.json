@@ -1,0 +1,22 @@
+{
+  "id": "gift_9268",
+  "title": "万物的本能",
+  "url": "https://limbuscompany.huijiwiki.com/wiki/E.G.O饰品",
+  "categories": [
+    "E.G.O饰品"
+  ],
+  "content": "回合结束时，使属于环指的(带有流血的敌方单位数)名人格在下回合获得1层随机罪孽属性的伤害强化(每回合每名人格最多1次；若是集中遭遇战，则以部位判定)\n属于环指的人格造成的伤害+10%",
+  "source": "tabx",
+  "_structured": true,
+  "page_type": "ego_gift",
+  "gift_name": "万物的本能",
+  "rarity": 2,
+  "cost": "200",
+  "effect_types": "泛用",
+  "attack_type": "色欲",
+  "location": "镜像迷宫",
+  "stage": "base",
+  "special": "绞丝结线",
+  "event": "事件-野兽派环指画廊2",
+  "_schema_version": 1
+}

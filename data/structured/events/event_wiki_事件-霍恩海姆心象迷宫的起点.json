@@ -1,0 +1,41 @@
+{
+  "page_type": "event",
+  "title": "事件-霍恩海姆心象迷宫的起点",
+  "event_name": "霍恩海姆心象迷宫的起点",
+  "narration": "心象迷宫的起点。\n走进了一个可以领取E.G.O装备的，像是维修站的房间。\n“根据适应性检查结果，若同化率低于100%，请仅携带一个E.G.O。”\n与这个措辞严厉的警示牌一起的，还有扬声器中不断重复播放着的警告录音。\n听到E.G.O这个词，罪人们都一起查看起来，但是那里有的是……E.G.O饰品。\n“什么啊。不是E.G.O装备，而是那个什么饰品啊？”\n“E.G.O似乎是作为饰品的形态投影了出来。”\n“嗯。不能全部带走吗？”\n“这里是心象迷宫。和一般的镜像迷宫不同，还是遵循这个心象的规则比较好吧。”\n该如何抉择？\n\n带走燃烧着的手套。\n这难道不是我们现在最需要的E.G.O饰品吗？\n我们获得了一件名为“点火手套”的E.G.O饰品。\n获得\n！\n\n带走装饰着尖刺的战斗靴。\n这难道不是我们现在最需要的E.G.O饰品吗？\n我们获得了一件名为“荆棘战斗靴”的E.G.O饰品。\n获得\n！\n\n带走清洁喷雾。\n这难道不是我们现在最需要的E.G.O饰品吗？\n我们获得了一件名为“异想狩猎”的E.G.O饰品。\n获得\n！",
+  "options": [
+    {
+      "choice_text": "带走燃烧着的手套。",
+      "check_type": "",
+      "check_sin": "",
+      "check_threshold": 0,
+      "success_outcomes": [],
+      "failure_outcomes": []
+    },
+    {
+      "choice_text": "带走装饰着尖刺的战斗靴。",
+      "check_type": "",
+      "check_sin": "",
+      "check_threshold": 0,
+      "success_outcomes": [],
+      "failure_outcomes": []
+    },
+    {
+      "choice_text": "带走清洁喷雾。",
+      "check_type": "",
+      "check_sin": "",
+      "check_threshold": 0,
+      "success_outcomes": [],
+      "failure_outcomes": []
+    }
+  ],
+  "ego_gifts": [],
+  "related_abnormalities": [],
+  "trigger_location": "",
+  "_structured": true,
+  "id": "wiki_事件-霍恩海姆心象迷宫的起点",
+  "url": "https://limbuscompany.huijiwiki.com/wiki/事件-霍恩海姆心象迷宫的起点",
+  "categories": [],
+  "source": "wiki",
+  "_schema_version": 1
+}

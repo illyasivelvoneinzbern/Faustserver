@@ -1,0 +1,691 @@
+{
+  "page_type": "personality",
+  "title": "格里高尔脑叶公司E.G.O:目灯",
+  "sinner": "格里高尔",
+  "sinner_id": "gregor",
+  "personality_name": "格里高尔脑叶公司E.G.O:目灯",
+  "release_date": "2026.02.05",
+  "acquisition": "第7赛季提取",
+  "sin_affinities": {
+    "暴怒": 3,
+    "忧郁": 2,
+    "傲慢": 1
+  },
+  "physical_resistances": {
+    "斩击": 1.0,
+    "突刺": 0.5,
+    "打击": 2.0
+  },
+  "ego_resources": {
+    "暴怒": 3,
+    "忧郁": 2,
+    "傲慢": 1
+  },
+  "skills": [
+    {
+      "skill_index": 0,
+      "skill_name": "零距离注视",
+      "sin_type": "暴怒",
+      "damage_type": "突刺",
+      "guard_type": "",
+      "attack_capacity": 1,
+      "coin_count": 3,
+      "stage_groups": [
+        [
+          {
+            "stage": "I",
+            "base_value": 2,
+            "coin_power": 4,
+            "effects": [
+              {
+                "timing": "使用时",
+                "description": "下回合对自身施加1层 束缚"
+              },
+              {
+                "timing": "命中时",
+                "description": "使目标增加1级 烧伤 强度"
+              },
+              {
+                "timing": "命中时",
+                "description": "使目标增加2级 沉沦 强度"
+              }
+            ],
+            "raw_text": "基础值： 2 变动值： +4 [使用时] 下回合对自身施加1层 束缚 [命中时] 使目标增加1级 烧伤 强度 [命中时] 使目标增加2级 沉沦 强度"
+          },
+          {
+            "stage": "II",
+            "base_value": 2,
+            "coin_power": 4,
+            "effects": [
+              {
+                "timing": "使用时",
+                "description": "下回合对自身施加1层 束缚"
+              },
+              {
+                "timing": "命中时",
+                "description": "使目标增加1级 烧伤 强度"
+              },
+              {
+                "timing": "命中时",
+                "description": "使目标增加2级 沉沦 强度"
+              }
+            ],
+            "raw_text": "基础值： 2 变动值： +4 满足以下条件之一时，使本技能的硬币威力+1 - 若自身的速度值不高于1 - 若目标带有 眩惑 [使用时] 下回合对自身施加1层 束缚 [命中时] 使目标增加1级 烧伤 强度 [命中时] 使目标增加2级 沉沦 强度"
+          },
+          {
+            "stage": "III",
+            "base_value": 3,
+            "coin_power": 4,
+            "effects": [
+              {
+                "timing": "使用时",
+                "description": "下回合对自身施加1层 束缚"
+              },
+              {
+                "timing": "命中时",
+                "description": "使目标增加1级 烧伤 强度"
+              },
+              {
+                "timing": "命中时",
+                "description": "使目标增加2级 沉沦 强度"
+              }
+            ],
+            "raw_text": "基础值： 3 变动值： +4 满足以下条件之一时，使本技能的硬币威力+1 - 若自身的速度值不高于1 - 若目标带有 眩惑 [使用时] 下回合对自身施加1层 束缚 [命中时] 使目标增加1级 烧伤 强度 [命中时] 使目标增加2级 沉沦 强度"
+          },
+          {
+            "stage": "IV",
+            "base_value": 3,
+            "coin_power": 4,
+            "effects": [
+              {
+                "timing": "使用时",
+                "description": "若目标的 沉沦 强度与 烧伤 强度之和不低于6级，则使本技能的硬币威力+1"
+              },
+              {
+                "timing": "使用时",
+                "description": "下回合对自身施加1层 束缚"
+              },
+              {
+                "timing": "命中时",
+                "description": "使目标增加2级 烧伤 强度"
+              },
+              {
+                "timing": "命中时",
+                "description": "使目标增加3级 沉沦 强度"
+              }
+            ],
+            "raw_text": "基础值： 3 变动值： +4 满足以下条件之一时，使本技能的硬币威力+1 - 若目标的速度值高于自身至少3点 - 若自身的速度值不高于1 - 若目标带有 眩惑 [使用时] 若目标的 沉沦 强度与 烧伤 强度之和不低于6级，则使本技能的硬币威力+1 [使用时] 下回合对自身施加1层 束缚 [命中时] 使目标增加2级 烧伤 强度 [命中时] 使目标增加3级 沉沦 强度"
+          }
+        ]
+      ],
+      "coin_effects": [
+        {
+          "coin_index": 0,
+          "description": "技能一"
+        },
+        {
+          "coin_index": 0,
+          "description": "零距离注视 3"
+        },
+        {
+          "coin_index": 0,
+          "timing": "",
+          "description": "2"
+        },
+        {
+          "coin_index": 0,
+          "description": "+1"
+        },
+        {
+          "coin_index": 0,
+          "description": "1"
+        },
+        {
+          "coin_index": 0,
+          "description": "基础值： 2 变动值： +4 [使用时] 下回合对自身施加1层 束缚"
+        },
+        {
+          "coin_index": 1,
+          "timing": "命中时",
+          "description": "[命中时] 使目标增加1级 烧伤 烧伤 强度"
+        },
+        {
+          "coin_index": 2,
+          "timing": "命中时",
+          "description": "[命中时] 使目标增加2级 沉沦 沉沦 强度"
+        },
+        {
+          "coin_index": 1,
+          "timing": "命中时",
+          "description": "[命中时] 使目标增加1级 烧伤 烧伤 强度"
+        },
+        {
+          "coin_index": 2,
+          "timing": "命中时",
+          "description": "[命中时] 使目标增加2级 沉沦 沉沦 强度"
+        },
+        {
+          "coin_index": 1,
+          "timing": "命中时",
+          "description": "[命中时] 使目标增加1级 烧伤 烧伤 强度"
+        },
+        {
+          "coin_index": 2,
+          "timing": "命中时",
+          "description": "[命中时] 使目标增加2级 沉沦 沉沦 强度"
+        },
+        {
+          "coin_index": 1,
+          "timing": "命中时",
+          "description": "[命中时] 使目标增加2级 烧伤 烧伤 强度"
+        },
+        {
+          "coin_index": 2,
+          "timing": "命中时",
+          "description": "[命中时] 使目标增加3级 沉沦 沉沦 强度"
+        }
+      ],
+      "wikitext_key": "1技能"
+    },
+    {
+      "skill_index": 1,
+      "skill_name": "以不可见之物破坏可见之物",
+      "sin_type": "忧郁",
+      "damage_type": "突刺",
+      "guard_type": "",
+      "attack_capacity": 1,
+      "coin_count": 5,
+      "stage_groups": [
+        [
+          {
+            "stage": "I",
+            "base_value": 2,
+            "coin_power": 3,
+            "effects": [
+              {
+                "timing": "命中时",
+                "description": "对目标施加1层 沉沦"
+              },
+              {
+                "timing": "命中时",
+                "description": "对目标造成本硬币最终伤害量30%的打击伤害"
+              },
+              {
+                "timing": "命中时",
+                "description": "使目标增加1级 沉沦 强度"
+              },
+              {
+                "timing": "命中时",
+                "description": "对目标造成本硬币最终伤害量30%的打击伤害"
+              },
+              {
+                "timing": "命中时",
+                "description": "使目标增加2级 烧伤 强度"
+              }
+            ],
+            "raw_text": "基础值： 2 变动值： +3 [命中时] 对目标施加1层 沉沦 [命中时] 对目标造成本硬币最终伤害量30%的打击伤害 [命中时] 使目标增加1级 沉沦 强度 [命中时] 对目标造成本硬币最终伤害量30%的打击伤害 [命中时] 使目标增加2级 烧伤 强度"
+          },
+          {
+            "stage": "II",
+            "base_value": 2,
+            "coin_power": 3,
+            "effects": [
+              {
+                "timing": "命中时",
+                "description": "对目标施加2层 沉沦"
+              },
+              {
+                "timing": "命中时",
+                "description": "对目标造成本硬币最终伤害量30%的打击伤害"
+              },
+              {
+                "timing": "命中时",
+                "description": "使目标增加1级 沉沦 强度"
+              },
+              {
+                "timing": "命中时",
+                "description": "对目标造成本硬币最终伤害量30%的打击伤害"
+              },
+              {
+                "timing": "命中时",
+                "description": "使目标增加2级 烧伤 强度"
+              },
+              {
+                "timing": "命中时",
+                "description": "对目标施加1层 烧伤"
+              }
+            ],
+            "raw_text": "基础值： 2 变动值： +3 满足以下条件之一时，使本技能的拼点威力+2 - 若自身的速度值不高于1 - 若目标带有 眩惑 [命中时] 对目标施加2层 沉沦 [命中时] 对目标造成本硬币最终伤害量30%的打击伤害 [命中时] 使目标增加1级 沉沦 强度 [命中时] 对目标造成本硬币最终伤害量30%的打击伤害 [命中时] 使目标增加2级 烧伤 强度 [命中时] 对目标施加1层 烧伤"
+          },
+          {
+            "stage": "III",
+            "base_value": 3,
+            "coin_power": 3,
+            "effects": [
+              {
+                "timing": "命中时",
+                "description": "对目标施加2层 沉沦"
+              },
+              {
+                "timing": "命中时",
+                "description": "对目标造成本硬币最终伤害量30%的打击伤害"
+              },
+              {
+                "timing": "命中时",
+                "description": "使目标增加1级 沉沦 强度"
+              },
+              {
+                "timing": "命中时",
+                "description": "对目标造成本硬币最终伤害量30%的打击伤害"
+              },
+              {
+                "timing": "命中时",
+                "description": "使目标增加2级 烧伤 强度"
+              },
+              {
+                "timing": "命中时",
+                "description": "对目标施加1层 烧伤"
+              }
+            ],
+            "raw_text": "基础值： 3 变动值： +3 满足以下条件之一时，使本技能的拼点威力+2 - 若自身的速度值不高于1 - 若目标带有 眩惑 [命中时] 对目标施加2层 沉沦 [命中时] 对目标造成本硬币最终伤害量30%的打击伤害 [命中时] 使目标增加1级 沉沦 强度 [命中时] 对目标造成本硬币最终伤害量30%的打击伤害 [命中时] 使目标增加2级 烧伤 强度 [命中时] 对目标施加1层 烧伤"
+          },
+          {
+            "stage": "IV",
+            "base_value": 3,
+            "coin_power": 3,
+            "effects": [
+              {
+                "timing": "使用时",
+                "description": "若目标的 沉沦 强度与 烧伤 强度之和不低于6级，则使本技能的硬币威力+1"
+              },
+              {
+                "timing": "命中时",
+                "description": "对目标施加3层 沉沦"
+              },
+              {
+                "timing": "命中时",
+                "description": "对目标造成本硬币最终伤害量30%的打击伤害"
+              },
+              {
+                "timing": "命中时",
+                "description": "使目标增加2级 沉沦 强度"
+              },
+              {
+                "timing": "命中时",
+                "description": "对目标造成本硬币最终伤害量30%的打击伤害"
+              },
+              {
+                "timing": "命中时",
+                "description": "使目标增加2级 烧伤 强度"
+              },
+              {
+                "timing": "命中时",
+                "description": "对目标施加2层 烧伤"
+              }
+            ],
+            "raw_text": "基础值： 3 变动值： +3 满足以下条件之一时，使本技能的拼点威力+2 - 若目标的速度值高于自身至少3点 - 若自身的速度值不高于1 - 若目标带有 眩惑 [使用时] 若目标的 沉沦 强度与 烧伤 强度之和不低于6级，则使本技能的硬币威力+1 [命中时] 对目标施加3层 沉沦 [命中时] 对目标造成本硬币最终伤害量30%的打击伤害 [命中时] 使目标增加2级 沉沦 强度 [命中时] 对目标造成本硬币最终伤害量30%的打击伤害 [命中时] 使目标增加2级 烧伤 强度 [命中时] 对目标施加2层 烧伤"
+          }
+        ]
+      ],
+      "coin_effects": [
+        {
+          "coin_index": 0,
+          "description": "技能二"
+        },
+        {
+          "coin_index": 0,
+          "description": "以不可见之物破坏可见之物 2"
+        },
+        {
+          "coin_index": 0,
+          "timing": "",
+          "description": "4"
+        },
+        {
+          "coin_index": 0,
+          "description": "+2"
+        },
+        {
+          "coin_index": 0,
+          "description": "1"
+        },
+        {
+          "coin_index": 0,
+          "description": "基础值： 2 变动值： +3"
+        },
+        {
+          "coin_index": 1,
+          "timing": "命中时",
+          "description": "[命中时] 对目标施加1层 沉沦 沉沦 [命中时] 对目标造成本硬币最终伤害量30%的打击伤害"
+        },
+        {
+          "coin_index": 2,
+          "timing": "命中时",
+          "description": "[命中时] 使目标增加1级 沉沦 沉沦 强度 [命中时] 对目标造成本硬币最终伤害量30%的打击伤害"
+        },
+        {
+          "coin_index": 3,
+          "timing": "命中时",
+          "description": "[命中时] 使目标增加2级 烧伤 烧伤 强度"
+        },
+        {
+          "coin_index": 1,
+          "timing": "命中时",
+          "description": "[命中时] 对目标施加2层 沉沦 沉沦 [命中时] 对目标造成本硬币最终伤害量30%的打击伤害"
+        },
+        {
+          "coin_index": 2,
+          "timing": "命中时",
+          "description": "[命中时] 使目标增加1级 沉沦 沉沦 强度 [命中时] 对目标造成本硬币最终伤害量30%的打击伤害"
+        },
+        {
+          "coin_index": 3,
+          "timing": "命中时",
+          "description": "[命中时] 使目标增加2级 烧伤 烧伤 强度"
+        },
+        {
+          "coin_index": 4,
+          "timing": "命中时",
+          "description": "[命中时] 对目标施加1层 烧伤 烧伤"
+        },
+        {
+          "coin_index": 1,
+          "timing": "命中时",
+          "description": "[命中时] 对目标施加2层 沉沦 沉沦 [命中时] 对目标造成本硬币最终伤害量30%的打击伤害"
+        },
+        {
+          "coin_index": 2,
+          "timing": "命中时",
+          "description": "[命中时] 使目标增加1级 沉沦 沉沦 强度 [命中时] 对目标造成本硬币最终伤害量30%的打击伤害"
+        },
+        {
+          "coin_index": 3,
+          "timing": "命中时",
+          "description": "[命中时] 使目标增加2级 烧伤 烧伤 强度"
+        },
+        {
+          "coin_index": 4,
+          "timing": "命中时",
+          "description": "[命中时] 对目标施加1层 烧伤 烧伤"
+        },
+        {
+          "coin_index": 1,
+          "timing": "命中时",
+          "description": "[命中时] 对目标施加3层 沉沦 沉沦 [命中时] 对目标造成本硬币最终伤害量30%的打击伤害"
+        },
+        {
+          "coin_index": 2,
+          "timing": "命中时",
+          "description": "[命中时] 使目标增加2级 沉沦 沉沦 强度 [命中时] 对目标造成本硬币最终伤害量30%的打击伤害"
+        },
+        {
+          "coin_index": 3,
+          "timing": "命中时",
+          "description": "[命中时] 使目标增加2级 烧伤 烧伤 强度"
+        },
+        {
+          "coin_index": 4,
+          "timing": "命中时",
+          "description": "[命中时] 对目标施加2层 烧伤 烧伤"
+        }
+      ],
+      "wikitext_key": "2技能"
+    },
+    {
+      "skill_index": 2,
+      "skill_name": "给予被灯所眩惑之人以救赎",
+      "sin_type": "傲慢",
+      "damage_type": "突刺",
+      "guard_type": "",
+      "attack_capacity": 1,
+      "coin_count": 6,
+      "stage_groups": [
+        [
+          {
+            "stage": "I",
+            "base_value": 4,
+            "coin_power": 4,
+            "effects": [
+              {
+                "timing": "使用时",
+                "description": "若目标带有 眩惑 ，则使本技能的所有硬币转化为 不可摧毁的硬币 并使本技能的拼点威力+3"
+              },
+              {
+                "timing": "命中时",
+                "description": "对目标施加2层 沉沦"
+              },
+              {
+                "timing": "命中时",
+                "description": "使目标增加3级 烧伤 强度"
+              },
+              {
+                "timing": "命中时",
+                "description": "使目标增加3级 沉沦 强度 若目标(本体)体力不高于25%或其带有 眩惑 ，则使本硬币造成的伤害+60%"
+              },
+              {
+                "timing": "命中时",
+                "description": "若目标带有 眩惑 ，则对其造成本硬币最终伤害量60%的忧郁伤害"
+              }
+            ],
+            "raw_text": "基础值： 4 变动值： +4 满足以下条件之一时，使本技能的硬币威力+1，造成的伤害+20% - 若自身的速度值不高于1 - 若目标带有 眩惑 [使用时] 若目标带有 眩惑 ，则使本技能的所有硬币转化为 不可摧毁的硬币 并使本技能的拼点威力+3 [命中时] 对目标施加2层 沉沦 [命中时] 使目标增加3级 烧伤 强度 [命中时] 使目标增加3级 沉沦 强度 若目标(本体)体力不高于25%或其带有 眩惑 ，则使本硬币造成的伤害+60% [命中时] 若目标带有 眩惑 ，则对其造成本硬币最终伤害量60%的忧郁伤害"
+          },
+          {
+            "stage": "II",
+            "base_value": 5,
+            "coin_power": 4,
+            "effects": [
+              {
+                "timing": "使用时",
+                "description": "若目标的 沉沦 强度与 烧伤 强度之和不低于6级，则使本技能的硬币威力+1"
+              },
+              {
+                "timing": "使用时",
+                "description": "若目标带有 眩惑 ，则使本技能的所有硬币转化为 不可摧毁的硬币 并使本技能的拼点威力+3"
+              },
+              {
+                "timing": "攻击后",
+                "description": "若目标阵亡或其 眩惑 层数为3层，则下回合使自身获得1层 加算硬币强化 (每回合最多1次)"
+              },
+              {
+                "timing": "命中时",
+                "description": "对目标施加1层 烧伤"
+              },
+              {
+                "timing": "命中时",
+                "description": "对目标施加3层 沉沦"
+              },
+              {
+                "timing": "命中时",
+                "description": "使目标增加3级 烧伤 强度"
+              },
+              {
+                "timing": "命中时",
+                "description": "使目标增加3级 沉沦 强度 若目标(本体)体力不高于25%或其带有 眩惑 ，则使本硬币造成的伤害+60%"
+              },
+              {
+                "timing": "命中时",
+                "description": "若目标带有 眩惑 ，则对其造成本硬币最终伤害量80%的忧郁伤害"
+              }
+            ],
+            "raw_text": "基础值： 5 变动值： +4 满足以下条件之一时，使本技能的硬币威力+1，造成的伤害+40% - 若目标的速度值高于自身至少3点 - 若自身的速度值不高于1 - 若目标带有 眩惑 [使用时] 若目标的 沉沦 强度与 烧伤 强度之和不低于6级，则使本技能的硬币威力+1 [使用时] 若目标带有 眩惑 ，则使本技能的所有硬币转化为 不可摧毁的硬币 并使本技能的拼点威力+3 [攻击后] 若目标阵亡或其 眩惑 层数为3层，则下回合使自身获得1层 加算硬币强化 (每回合最多1次) [命中时] 对目标施加1层 烧伤 [命中时] 对目标施加3层 沉沦 [命中时] 使目标增加3级 烧伤 强度 [命中时] 使目标增加3级 沉沦 强度 若目标(本体)体力不高于25%或其带有 眩惑 ，则使本硬币造成的伤害+60% [命中时] 若目标带有 眩惑 ，则对其造成本硬币最终伤害量80%的忧郁伤害"
+          }
+        ]
+      ],
+      "coin_effects": [
+        {
+          "coin_index": 0,
+          "description": "技能三"
+        },
+        {
+          "coin_index": 0,
+          "description": "给予被灯所眩惑之人以救赎 1"
+        },
+        {
+          "coin_index": 0,
+          "timing": "",
+          "description": "3"
+        },
+        {
+          "coin_index": 0,
+          "description": "+5"
+        },
+        {
+          "coin_index": 0,
+          "description": "1"
+        },
+        {
+          "coin_index": 0,
+          "timing": "",
+          "description": "不可摧毁的硬币"
+        },
+        {
+          "coin_index": 1,
+          "timing": "命中时",
+          "description": "[命中时] 对目标施加2层 沉沦 沉沦"
+        },
+        {
+          "coin_index": 2,
+          "timing": "命中时",
+          "description": "[命中时] 使目标增加3级 烧伤 烧伤 强度 [命中时] 使目标增加3级 沉沦 沉沦 强度"
+        },
+        {
+          "coin_index": 3,
+          "timing": "命中时",
+          "description": "若目标(本体)体力不高于25%或其带有 眩惑 眩惑 ，则使本硬币造成的伤害+60% [命中时] 若目标带有 眩惑 眩惑 ，则对其造成本硬币最终伤害量60%的忧郁伤害"
+        },
+        {
+          "coin_index": 0,
+          "timing": "",
+          "description": "不可摧毁的硬币"
+        },
+        {
+          "coin_index": 0,
+          "timing": "",
+          "description": "加算硬币强化"
+        },
+        {
+          "coin_index": 1,
+          "timing": "命中时",
+          "description": "[命中时] 对目标施加1层 烧伤 烧伤 [命中时] 对目标施加3层 沉沦 沉沦"
+        },
+        {
+          "coin_index": 2,
+          "timing": "命中时",
+          "description": "[命中时] 使目标增加3级 烧伤 烧伤 强度 [命中时] 使目标增加3级 沉沦 沉沦 强度"
+        },
+        {
+          "coin_index": 3,
+          "timing": "命中时",
+          "description": "若目标(本体)体力不高于25%或其带有 眩惑 眩惑 ，则使本硬币造成的伤害+60% [命中时] 若目标带有 眩惑 眩惑 ，则对其造成本硬币最终伤害量80%的忧郁伤害"
+        }
+      ],
+      "wikitext_key": "3技能"
+    },
+    {
+      "skill_index": 3,
+      "skill_name": "焚烧羽毛所做的灯芯",
+      "sin_type": "",
+      "damage_type": "",
+      "guard_type": "防御",
+      "attack_capacity": 1,
+      "coin_count": 3,
+      "stage_groups": [
+        [
+          {
+            "stage": "I",
+            "base_value": 3,
+            "coin_power": 9,
+            "effects": [
+              {
+                "timing": "战斗开始",
+                "description": "使自身获得至8层 目灯 ，每获得1层 目灯 ，使自身受到体力上限1%的体力伤害(该效果不会使自身的体力低于1点)"
+              },
+              {
+                "timing": "回合结束时",
+                "description": "使除自身以外速度值最低的(自身的 束缚 层数/3)名友方单位在下回合获得1层 迅捷 (每回合最多1次，向下取整) 不可摧毁的硬币"
+              }
+            ],
+            "raw_text": "基础值： 3 变动值： +9 可拼点防御 [战斗开始] 使自身获得至8层 目灯 ，每获得1层 目灯 ，使自身受到体力上限1%的体力伤害(该效果不会使自身的体力低于1点) [回合结束时] 使除自身以外速度值最低的(自身的 束缚 层数/3)名友方单位在下回合获得1层 迅捷 (每回合最多1次，向下取整) 不可摧毁的硬币"
+          },
+          {
+            "stage": "II",
+            "base_value": 3,
+            "coin_power": 10,
+            "effects": [
+              {
+                "timing": "战斗开始",
+                "description": "使自身获得至8层 目灯 ，每获得1层 目灯 ，使自身受到体力上限1%的体力伤害(该效果不会使自身的体力低于1点)"
+              },
+              {
+                "timing": "回合结束时",
+                "description": "使除自身以外速度值最低的(自身的 束缚 层数/2)名友方单位在下回合获得1层 迅捷 (每回合最多1次，向下取整) 不可摧毁的硬币"
+              }
+            ],
+            "raw_text": "基础值： 3 变动值： +10 可拼点防御 [战斗开始] 使自身获得至8层 目灯 ，每获得1层 目灯 ，使自身受到体力上限1%的体力伤害(该效果不会使自身的体力低于1点) [回合结束时] 使除自身以外速度值最低的(自身的 束缚 层数/2)名友方单位在下回合获得1层 迅捷 (每回合最多1次，向下取整) 不可摧毁的硬币"
+          }
+        ]
+      ],
+      "coin_effects": [
+        {
+          "coin_index": 0,
+          "description": "守备技能"
+        },
+        {
+          "coin_index": 0,
+          "description": "焚烧羽毛所做的灯芯"
+        },
+        {
+          "coin_index": 0,
+          "timing": "",
+          "description": "1"
+        },
+        {
+          "coin_index": 0,
+          "description": "+5"
+        },
+        {
+          "coin_index": 0,
+          "description": "1"
+        },
+        {
+          "coin_index": 0,
+          "description": "基础值： 3 变动值： +9 可拼点防御 [战斗开始] 使自身获得至8层 目灯 ，每获得1层 目灯 ，使自身受到体力上限1%的体力伤害(该效果不会使自身的体力低于1点) [回合结束时] 使除自身以外速度值最低的(自身的 束缚 层数/3)名友方单位在下回合获得1层 迅捷 (每回合最多1次，向下取整)"
+        },
+        {
+          "coin_index": 1,
+          "timing": "",
+          "description": "不可摧毁的硬币 不可摧毁的硬币"
+        },
+        {
+          "coin_index": 0,
+          "timing": "",
+          "description": "不可摧毁的硬币"
+        },
+        {
+          "coin_index": 1,
+          "timing": "",
+          "description": "不可摧毁的硬币 不可摧毁的硬币"
+        },
+        {
+          "coin_index": 0,
+          "timing": "",
+          "description": "不可摧毁的硬币"
+        }
+      ],
+      "wikitext_key": "守备技能4"
+    }
+  ],
+  "battle_passive": "人格被动1121402\n人格被动1121403\n人格被动1121401\n人格被动1121421",
+  "support_passive": "",
+  "notes": "",
+  "voice_lines": [],
+  "skill_voice": [],
+  "_structured": true,
+  "id": "wiki_格里高尔脑叶公司E.G.O:目灯",
+  "url": "https://limbuscompany.huijiwiki.com/wiki/格里高尔脑叶公司E.G.O:目灯",
+  "categories": [
+    "人格"
+  ],
+  "source": "wiki",
+  "_schema_version": 1
+}

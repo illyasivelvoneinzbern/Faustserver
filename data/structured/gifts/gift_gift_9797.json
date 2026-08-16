@@ -1,0 +1,22 @@
+{
+  "id": "gift_9797",
+  "title": "注定破碎的火炮",
+  "url": "https://limbuscompany.huijiwiki.com/wiki/E.G.O饰品",
+  "categories": [
+    "E.G.O饰品"
+  ],
+  "content": "回合开始时，每回合使自身获得2层火力并对自身施加2层易碎\n从第2回合起，每回合额外获得1层火力并额外施加1层易碎(最多额外8层)",
+  "source": "tabx",
+  "_structured": true,
+  "page_type": "ego_gift",
+  "gift_name": "注定破碎的火炮",
+  "rarity": 4,
+  "cost": "398",
+  "effect_types": "泛用",
+  "attack_type": "忧郁",
+  "location": "镜像迷宫",
+  "stage": "base",
+  "special": "5号线",
+  "event": "事件-旋转木马",
+  "_schema_version": 1
+}

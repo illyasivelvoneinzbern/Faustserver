@@ -1,0 +1,573 @@
+{
+  "page_type": "personality",
+  "title": "辛克莱中指幼弟",
+  "sinner": "辛克莱",
+  "sinner_id": "sinclair",
+  "personality_name": "辛克莱中指幼弟",
+  "release_date": "2025.04.03",
+  "acquisition": "常驻提取",
+  "sin_affinities": {
+    "暴食": 3,
+    "嫉妒": 3
+  },
+  "physical_resistances": {
+    "斩击": 1.0,
+    "突刺": 2.0,
+    "打击": 0.5
+  },
+  "ego_resources": {
+    "暴食": 3,
+    "嫉妒": 3
+  },
+  "skills": [
+    {
+      "skill_index": 0,
+      "skill_name": "是你！",
+      "sin_type": "暴食",
+      "damage_type": "打击",
+      "guard_type": "",
+      "attack_capacity": 1,
+      "coin_count": 3,
+      "stage_groups": [
+        [
+          {
+            "stage": "I",
+            "base_value": 3,
+            "coin_power": 3,
+            "effects": [
+              {
+                "timing": "使用时",
+                "description": "下回合使本技能对应行动槽的 挑衅值 +2"
+              },
+              {
+                "timing": "使用时",
+                "description": "使自身恢复5点理智值"
+              },
+              {
+                "timing": "正面命中时",
+                "description": "使目标增加1级 流血 强度"
+              },
+              {
+                "timing": "正面命中时",
+                "description": "使目标增加1级 流血 强度"
+              }
+            ],
+            "raw_text": "基础值： 3 变动值： +3 [使用时] 下回合使本技能对应行动槽的 挑衅值 +2 [使用时] 使自身恢复5点理智值 [正面命中时] 使目标增加1级 流血 强度 [正面命中时] 使目标增加1级 流血 强度"
+          },
+          {
+            "stage": "II",
+            "base_value": 3,
+            "coin_power": 3,
+            "effects": [
+              {
+                "timing": "使用时",
+                "description": "下回合使本技能对应行动槽的 挑衅值 +3"
+              },
+              {
+                "timing": "使用时",
+                "description": "使自身恢复5点理智值"
+              },
+              {
+                "timing": "命中时",
+                "description": "使目标增加1级 流血 强度"
+              },
+              {
+                "timing": "命中时",
+                "description": "使目标增加1级 流血 强度"
+              }
+            ],
+            "raw_text": "基础值： 3 变动值： +3 若目标的 流血 强度不低于6级，则使本技能的硬币威力+1 [使用时] 下回合使本技能对应行动槽的 挑衅值 +3 [使用时] 使自身恢复5点理智值 [命中时] 使目标增加1级 流血 强度 [命中时] 使目标增加1级 流血 强度"
+          },
+          {
+            "stage": "III",
+            "base_value": 3,
+            "coin_power": 4,
+            "effects": [
+              {
+                "timing": "使用时",
+                "description": "下回合使本技能对应行动槽的 挑衅值 +3"
+              },
+              {
+                "timing": "使用时",
+                "description": "使自身恢复5点理智值"
+              },
+              {
+                "timing": "命中时",
+                "description": "使目标增加1级 流血 强度"
+              },
+              {
+                "timing": "命中时",
+                "description": "使目标增加1级 流血 强度"
+              }
+            ],
+            "raw_text": "基础值： 3 变动值： +4 若目标的 流血 强度不低于6级，则使本技能的硬币威力+1 [使用时] 下回合使本技能对应行动槽的 挑衅值 +3 [使用时] 使自身恢复5点理智值 [命中时] 使目标增加1级 流血 强度 [命中时] 使目标增加1级 流血 强度"
+          },
+          {
+            "stage": "IV",
+            "base_value": 3,
+            "coin_power": 4,
+            "effects": [
+              {
+                "timing": "使用时",
+                "description": "下回合使本技能对应行动槽的 挑衅值 +5"
+              },
+              {
+                "timing": "使用时",
+                "description": "使自身恢复5点理智值 - 若自身理智值为最大值，则改为使本技能的拼点威力+1"
+              },
+              {
+                "timing": "命中时",
+                "description": "使目标增加1级 流血 强度"
+              },
+              {
+                "timing": "命中时",
+                "description": "使目标增加1级 流血 强度"
+              }
+            ],
+            "raw_text": "基础值： 3 变动值： +4 若目标的 流血 强度不低于6级，则使本技能的硬币威力+1 [使用时] 下回合使本技能对应行动槽的 挑衅值 +5 [使用时] 使自身恢复5点理智值 - 若自身理智值为最大值，则改为使本技能的拼点威力+1 [命中时] 使目标增加1级 流血 强度 [命中时] 使目标增加1级 流血 强度"
+          }
+        ]
+      ],
+      "coin_effects": [
+        {
+          "coin_index": 0,
+          "description": "技能一"
+        },
+        {
+          "coin_index": 0,
+          "description": "是你！ 3"
+        },
+        {
+          "coin_index": 0,
+          "timing": "",
+          "description": "2"
+        },
+        {
+          "coin_index": 0,
+          "description": "+2"
+        },
+        {
+          "coin_index": 0,
+          "description": "1"
+        },
+        {
+          "coin_index": 0,
+          "description": "基础值： 3 变动值： +3 [使用时] 下回合使本技能对应行动槽的 挑衅值 +2 [使用时] 使自身恢复5点理智值"
+        },
+        {
+          "coin_index": 1,
+          "timing": "正面命中时",
+          "description": "[正面命中时] 使目标增加1级 流血 强度"
+        },
+        {
+          "coin_index": 2,
+          "timing": "正面命中时",
+          "description": "[正面命中时] 使目标增加1级 流血 强度"
+        },
+        {
+          "coin_index": 1,
+          "timing": "命中时",
+          "description": "[命中时] 使目标增加1级 流血 强度"
+        },
+        {
+          "coin_index": 2,
+          "timing": "命中时",
+          "description": "[命中时] 使目标增加1级 流血 强度"
+        },
+        {
+          "coin_index": 1,
+          "timing": "命中时",
+          "description": "[命中时] 使目标增加1级 流血 强度"
+        },
+        {
+          "coin_index": 2,
+          "timing": "命中时",
+          "description": "[命中时] 使目标增加1级 流血 强度"
+        },
+        {
+          "coin_index": 1,
+          "timing": "命中时",
+          "description": "[命中时] 使目标增加1级 流血 强度"
+        },
+        {
+          "coin_index": 2,
+          "timing": "命中时",
+          "description": "[命中时] 使目标增加1级 流血 强度"
+        }
+      ],
+      "wikitext_key": "1技能"
+    },
+    {
+      "skill_index": 1,
+      "skill_name": "加倍奉还吧",
+      "sin_type": "",
+      "damage_type": "",
+      "guard_type": "",
+      "attack_capacity": 1,
+      "coin_count": 3,
+      "stage_groups": [
+        [
+          {
+            "stage": "I",
+            "base_value": 4,
+            "coin_power": 3,
+            "effects": [
+              {
+                "timing": "使用时",
+                "description": "下回合使本技能对应行动槽的 挑衅值 +2"
+              },
+              {
+                "timing": "战斗开始",
+                "description": "使本技能增加(最大共鸣数/3)级攻击等级(最多2级，向下取整)"
+              },
+              {
+                "timing": "命中时",
+                "description": "使目标增加2级 流血 强度 若包括本技能在内共鸣数不低于4，则使本硬币造成的伤害+10%"
+              }
+            ],
+            "raw_text": "基础值： 4 变动值： +3 [使用时] 下回合使本技能对应行动槽的 挑衅值 +2 [战斗开始] 使本技能增加(最大共鸣数/3)级攻击等级(最多2级，向下取整) [命中时] 使目标增加2级 流血 强度 若包括本技能在内共鸣数不低于4，则使本硬币造成的伤害+10%"
+          },
+          {
+            "stage": "II",
+            "base_value": 4,
+            "coin_power": 3,
+            "effects": [
+              {
+                "timing": "使用时",
+                "description": "下回合使本技能对应行动槽的 挑衅值 +3"
+              },
+              {
+                "timing": "战斗开始",
+                "description": "使本技能增加(最大共鸣数/2)级攻击等级(最多3级，向下取整)"
+              },
+              {
+                "timing": "命中时",
+                "description": "使目标增加2级 流血 强度 若包括本技能在内共鸣数不低于4，则使本硬币造成的伤害+15%"
+              }
+            ],
+            "raw_text": "基础值： 4 变动值： +3 若目标的 流血 强度不低于6级，则使本技能的硬币威力+1 [使用时] 下回合使本技能对应行动槽的 挑衅值 +3 [战斗开始] 使本技能增加(最大共鸣数/2)级攻击等级(最多3级，向下取整) [命中时] 使目标增加2级 流血 强度 若包括本技能在内共鸣数不低于4，则使本硬币造成的伤害+15%"
+          },
+          {
+            "stage": "III",
+            "base_value": 4,
+            "coin_power": 4,
+            "effects": [
+              {
+                "timing": "使用时",
+                "description": "下回合使本技能对应行动槽的 挑衅值 +3"
+              },
+              {
+                "timing": "战斗开始",
+                "description": "使本技能增加(最大共鸣数/2)级攻击等级(最多3级，向下取整)"
+              },
+              {
+                "timing": "命中时",
+                "description": "使目标增加2级 流血 强度 若包括本技能在内共鸣数不低于4，则使本硬币造成的伤害+15%"
+              }
+            ],
+            "raw_text": "基础值： 4 变动值： +4 若目标的 流血 强度不低于6级，则使本技能的硬币威力+1 [使用时] 下回合使本技能对应行动槽的 挑衅值 +3 [战斗开始] 使本技能增加(最大共鸣数/2)级攻击等级(最多3级，向下取整) [命中时] 使目标增加2级 流血 强度 若包括本技能在内共鸣数不低于4，则使本硬币造成的伤害+15%"
+          },
+          {
+            "stage": "IV",
+            "base_value": 4,
+            "coin_power": 4,
+            "effects": [
+              {
+                "timing": "使用时",
+                "description": "下回合使本技能对应行动槽的 挑衅值 +5"
+              },
+              {
+                "timing": "战斗开始",
+                "description": "使本技能增加(最大共鸣数/2)级攻击等级(最多3级，向下取整) - 若该共鸣包括完全共鸣，则使以上效果增加的攻击等级变为2倍"
+              },
+              {
+                "timing": "命中时",
+                "description": "使目标增加2级 流血 强度 若包括本技能在内共鸣数不低于3，则使本硬币造成的伤害+20%"
+              }
+            ],
+            "raw_text": "基础值： 4 变动值： +4 若目标的 流血 强度不低于6级，则使本技能的硬币威力+1 [使用时] 下回合使本技能对应行动槽的 挑衅值 +5 [战斗开始] 使本技能增加(最大共鸣数/2)级攻击等级(最多3级，向下取整) - 若该共鸣包括完全共鸣，则使以上效果增加的攻击等级变为2倍 [命中时] 使目标增加2级 流血 强度 若包括本技能在内共鸣数不低于3，则使本硬币造成的伤害+20%"
+          }
+        ]
+      ],
+      "coin_effects": [
+        {
+          "coin_index": 0,
+          "description": "技能二"
+        },
+        {
+          "coin_index": 0,
+          "description": "加倍奉还吧 2"
+        },
+        {
+          "coin_index": 0,
+          "timing": "",
+          "description": "3"
+        },
+        {
+          "coin_index": 0,
+          "description": "+3"
+        },
+        {
+          "coin_index": 0,
+          "description": "1"
+        },
+        {
+          "coin_index": 0,
+          "description": "基础值： 4 变动值： +3 [使用时] 下回合使本技能对应行动槽的 挑衅值 +2 [战斗开始] 使本技能增加(最大共鸣数/3)级攻击等级(最多2级，向下取整)"
+        },
+        {
+          "coin_index": 2,
+          "timing": "命中时",
+          "description": "[命中时] 使目标增加2级 流血 强度"
+        },
+        {
+          "coin_index": 3,
+          "timing": "",
+          "description": "若包括本技能在内共鸣数不低于4，则使本硬币造成的伤害+10%"
+        },
+        {
+          "coin_index": 2,
+          "timing": "命中时",
+          "description": "[命中时] 使目标增加2级 流血 强度"
+        },
+        {
+          "coin_index": 3,
+          "timing": "",
+          "description": "若包括本技能在内共鸣数不低于4，则使本硬币造成的伤害+15%"
+        },
+        {
+          "coin_index": 2,
+          "timing": "命中时",
+          "description": "[命中时] 使目标增加2级 流血 强度"
+        },
+        {
+          "coin_index": 3,
+          "timing": "",
+          "description": "若包括本技能在内共鸣数不低于4，则使本硬币造成的伤害+15%"
+        },
+        {
+          "coin_index": 2,
+          "timing": "命中时",
+          "description": "[命中时] 使目标增加2级 流血 强度"
+        },
+        {
+          "coin_index": 3,
+          "timing": "",
+          "description": "若包括本技能在内共鸣数不低于3，则使本硬币造成的伤害+20%"
+        }
+      ],
+      "wikitext_key": "2技能"
+    },
+    {
+      "skill_index": 2,
+      "skill_name": "铭刻于心",
+      "sin_type": "",
+      "damage_type": "",
+      "guard_type": "",
+      "attack_capacity": 1,
+      "coin_count": 3,
+      "stage_groups": [
+        [
+          {
+            "stage": "I",
+            "base_value": 5,
+            "coin_power": 3,
+            "effects": [
+              {
+                "timing": "战斗开始",
+                "description": "使本技能增加(最大共鸣数/2)级攻击等级(最多3级，向下取整)"
+              },
+              {
+                "timing": "命中时",
+                "description": "使目标增加3级 流血 强度 包括本技能在内共鸣数每有1点，使本硬币造成的伤害+2.5%(最多+15%) 自身每带有10层 复仇账簿【辛克莱】 ，使本硬币造成的伤害+7.5%(最多+22.5%)"
+              }
+            ],
+            "raw_text": "基础值： 5 变动值： +3 自身每带有2层 复仇账簿【辛克莱】 ，使本技能造成的伤害+1%(最多+15%) 若目标的 流血 强度不低于6级，则使本技能的硬币威力+1 [战斗开始] 使本技能增加(最大共鸣数/2)级攻击等级(最多3级，向下取整) [命中时] 使目标增加3级 流血 强度 包括本技能在内共鸣数每有1点，使本硬币造成的伤害+2.5%(最多+15%) 自身每带有10层 复仇账簿【辛克莱】 ，使本硬币造成的伤害+7.5%(最多+22.5%)"
+          },
+          {
+            "stage": "II",
+            "base_value": 5,
+            "coin_power": 4,
+            "effects": [
+              {
+                "timing": "战斗开始",
+                "description": "使本技能增加(最大共鸣数/2)级攻击等级(最多3级，向下取整) - 若该共鸣包括完全共鸣，则使以上效果增加的攻击等级变为2倍"
+              },
+              {
+                "timing": "命中时",
+                "description": "使目标增加4级 流血 强度 包括本技能在内共鸣数每有1点，使本硬币造成的伤害+5%(最多+30%) 自身每带有10层 复仇账簿【辛克莱】 ，使本硬币造成的伤害+15%(最多+45%)"
+              }
+            ],
+            "raw_text": "基础值： 5 变动值： +4 自身每带有1层 复仇账簿【辛克莱】 ，使本技能造成的伤害+1%(最多+30%) 目标每带有6级 流血 强度，使本技能的硬币威力+1(最多+2) [战斗开始] 使本技能增加(最大共鸣数/2)级攻击等级(最多3级，向下取整) - 若该共鸣包括完全共鸣，则使以上效果增加的攻击等级变为2倍 [命中时] 使目标增加4级 流血 强度 包括本技能在内共鸣数每有1点，使本硬币造成的伤害+5%(最多+30%) 自身每带有10层 复仇账簿【辛克莱】 ，使本硬币造成的伤害+15%(最多+45%)"
+          }
+        ]
+      ],
+      "coin_effects": [
+        {
+          "coin_index": 0,
+          "description": "技能三"
+        },
+        {
+          "coin_index": 0,
+          "description": "铭刻于心 1"
+        },
+        {
+          "coin_index": 0,
+          "timing": "",
+          "description": "3"
+        },
+        {
+          "coin_index": 0,
+          "description": "+4"
+        },
+        {
+          "coin_index": 0,
+          "description": "1"
+        },
+        {
+          "coin_index": 0,
+          "description": "基础值： 5 变动值： +3 自身每带有2层 复仇账簿【辛克莱】 ，使本技能造成的伤害+1%(最多+15%) 若目标的 流血 强度不低于6级，则使本技能的硬币威力+1 [战斗开始] 使本技能增加(最大共鸣数/2)级攻击等级(最多3级，向下取整)"
+        },
+        {
+          "coin_index": 2,
+          "timing": "命中时",
+          "description": "[命中时] 使目标增加3级 流血 强度"
+        },
+        {
+          "coin_index": 3,
+          "timing": "",
+          "description": "包括本技能在内共鸣数每有1点，使本硬币造成的伤害+2.5%(最多+15%) 自身每带有10层 复仇账簿【辛克莱】 ，使本硬币造成的伤害+7.5%(最多+22.5%)"
+        },
+        {
+          "coin_index": 2,
+          "timing": "命中时",
+          "description": "[命中时] 使目标增加4级 流血 强度"
+        },
+        {
+          "coin_index": 3,
+          "timing": "",
+          "description": "包括本技能在内共鸣数每有1点，使本硬币造成的伤害+5%(最多+30%) 自身每带有10层 复仇账簿【辛克莱】 ，使本硬币造成的伤害+15%(最多+45%)"
+        }
+      ],
+      "wikitext_key": "3技能"
+    },
+    {
+      "skill_index": 3,
+      "skill_name": "在东部大闹一场吧",
+      "sin_type": "",
+      "damage_type": "",
+      "guard_type": "反击",
+      "attack_capacity": 1,
+      "coin_count": 3,
+      "stage_groups": [
+        [
+          {
+            "stage": "I",
+            "base_value": 5,
+            "coin_power": 4,
+            "effects": [
+              {
+                "timing": "战斗开始",
+                "description": "使自身获得已失去体力20%的护盾(每回合最多1次)"
+              },
+              {
+                "timing": "命中时",
+                "description": "使目标增加1级 流血 强度"
+              },
+              {
+                "timing": "命中时",
+                "description": "使目标增加1级 流血 强度"
+              }
+            ],
+            "raw_text": "基础值： 5 变动值： +4 [战斗开始] 使自身获得已失去体力20%的护盾(每回合最多1次) [命中时] 使目标增加1级 流血 强度 [命中时] 使目标增加1级 流血 强度"
+          },
+          {
+            "stage": "II",
+            "base_value": 5,
+            "coin_power": 4,
+            "effects": [
+              {
+                "timing": "战斗开始",
+                "description": "根据总计嫉妒完全共鸣数相应改变本技能效果 - 总计不低于4时，反击时改为使用“加倍奉还吧”进行反击 - 总计不低于6时，反击时改为使用“铭刻于心”进行反击 (位于仪表盘左侧的技能优先触发，每回合最多触发2次)"
+              },
+              {
+                "timing": "战斗开始",
+                "description": "使自身获得已失去体力30%的护盾(每回合最多1次)"
+              },
+              {
+                "timing": "命中时",
+                "description": "使目标增加1级 流血 强度"
+              },
+              {
+                "timing": "命中时",
+                "description": "使目标增加1级 流血 强度"
+              }
+            ],
+            "raw_text": "基础值： 5 变动值： +4 [战斗开始] 根据总计嫉妒完全共鸣数相应改变本技能效果 - 总计不低于4时，反击时改为使用“加倍奉还吧”进行反击 - 总计不低于6时，反击时改为使用“铭刻于心”进行反击 (位于仪表盘左侧的技能优先触发，每回合最多触发2次) [战斗开始] 使自身获得已失去体力30%的护盾(每回合最多1次) [命中时] 使目标增加1级 流血 强度 [命中时] 使目标增加1级 流血 强度"
+          }
+        ]
+      ],
+      "coin_effects": [
+        {
+          "coin_index": 0,
+          "description": "守备技能"
+        },
+        {
+          "coin_index": 0,
+          "description": "在东部大闹一场吧"
+        },
+        {
+          "coin_index": 0,
+          "timing": "",
+          "description": "2"
+        },
+        {
+          "coin_index": 0,
+          "description": "+5"
+        },
+        {
+          "coin_index": 0,
+          "description": "1"
+        },
+        {
+          "coin_index": 0,
+          "description": "基础值： 5 变动值： +4 [战斗开始] 使自身获得已失去体力20%的护盾(每回合最多1次)"
+        },
+        {
+          "coin_index": 1,
+          "timing": "命中时",
+          "description": "[命中时] 使目标增加1级 流血 强度"
+        },
+        {
+          "coin_index": 2,
+          "timing": "命中时",
+          "description": "[命中时] 使目标增加1级 流血 强度"
+        },
+        {
+          "coin_index": 1,
+          "timing": "命中时",
+          "description": "[命中时] 使目标增加1级 流血 强度"
+        },
+        {
+          "coin_index": 2,
+          "timing": "命中时",
+          "description": "[命中时] 使目标增加1级 流血 强度"
+        }
+      ],
+      "wikitext_key": "守备技能4"
+    }
+  ],
+  "battle_passive": "人格被动1101201\n人格被动1101221",
+  "support_passive": "",
+  "notes": "",
+  "voice_lines": [],
+  "skill_voice": [],
+  "_structured": true,
+  "id": "wiki_辛克莱中指幼弟",
+  "url": "https://limbuscompany.huijiwiki.com/wiki/辛克莱中指幼弟",
+  "categories": [
+    "人格"
+  ],
+  "source": "wiki",
+  "_schema_version": 1
+}

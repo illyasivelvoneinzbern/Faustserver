@@ -1,0 +1,21 @@
+{
+  "id": "gift_9252",
+  "title": "钉与锤",
+  "url": "https://limbuscompany.huijiwiki.com/wiki/E.G.O饰品",
+  "categories": [
+    "E.G.O饰品"
+  ],
+  "content": "属于N公司狂信徒的友方单位基础威力+3\n属于N公司狂信徒的人格获得狂信（我方）时，使全体属于N公司狂信徒的人格获得相应层数的狂信（我方）(每回合最多1次；包括自身)\n- 激活色欲完全共鸣时，令获得的狂信（我方）层数变为3倍",
+  "source": "tabx",
+  "_structured": true,
+  "page_type": "ego_gift",
+  "gift_name": "钉与锤",
+  "rarity": 4,
+  "cost": "400",
+  "effect_types": "流血",
+  "attack_type": "色欲",
+  "location": "镜像迷宫",
+  "stage": "base",
+  "special": "极限模式节点-1号线 : 疯狂",
+  "_schema_version": 1
+}

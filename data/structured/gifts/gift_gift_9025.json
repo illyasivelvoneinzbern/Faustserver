@@ -1,0 +1,21 @@
+{
+  "id": "gift_9025",
+  "title": "灰色大衣",
+  "url": "https://limbuscompany.huijiwiki.com/wiki/E.G.O饰品",
+  "categories": [
+    "E.G.O饰品"
+  ],
+  "content": "使用攻击容量不低于2的技能时，使其造成的伤害+20%。\n使用忧郁技能或攻击容量不低于2的技能造成伤害时，恢复该友方单位伤害量20%的体力。",
+  "source": "tabx",
+  "_structured": true,
+  "page_type": "ego_gift",
+  "gift_name": "灰色大衣",
+  "rarity": 2,
+  "cost": "192",
+  "effect_types": "泛用",
+  "attack_type": "忧郁",
+  "location": "镜像迷宫",
+  "stage": "base",
+  "event": "事件-灰色大衣",
+  "_schema_version": 1
+}

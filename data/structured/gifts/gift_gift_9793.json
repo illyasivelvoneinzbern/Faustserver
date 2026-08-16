@@ -1,0 +1,21 @@
+{
+  "id": "gift_9793",
+  "title": "漆字琉璃钿",
+  "url": "https://limbuscompany.huijiwiki.com/wiki/E.G.O饰品",
+  "categories": [
+    "E.G.O饰品"
+  ],
+  "content": "回合开始时，若拥有增加破裂强度或施加破裂层数的攻击技能的友方单位不低于5名，则在本场战斗期间触发该效果。(不包括E.G.O技能，不包括待命人员)\n自身的攻击技能击杀带有破裂的目标(若是集中遭遇战，则改为破坏部位)时，将目标的破裂强度施加给全体敌方单位(若是集中遭遇战，则改为所有部位)(每名敌方单位最多3级)\n自身的攻击技能击杀带有咒杀【迅捷】的目标(若是集中遭遇战，则改为破坏部位)时，将目标的破裂强度与层数施加给全体敌方单位(若是集中遭遇战，则改为所有部位)(每名敌方单位最多6点)",
+  "source": "tabx",
+  "_structured": true,
+  "page_type": "ego_gift",
+  "gift_name": "漆字琉璃钿",
+  "rarity": 4,
+  "cost": "407",
+  "effect_types": "破裂",
+  "attack_type": "暴食",
+  "location": "镜像迷宫",
+  "stage": "base",
+  "special": "深夜清扫合成",
+  "_schema_version": 1
+}

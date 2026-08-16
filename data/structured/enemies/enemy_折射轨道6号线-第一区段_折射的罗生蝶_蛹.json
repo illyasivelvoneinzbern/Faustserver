@@ -1,0 +1,158 @@
+{
+  "page_type": "enemy",
+  "title": "折射轨道6号线-第一区段",
+  "enemy_name": "折射的罗生蝶::蛹",
+  "battle_stage": "折射轨道6号线-第一区段",
+  "body_part": "",
+  "hp": 25616,
+  "defense_level": 57,
+  "speed_min": 1,
+  "speed_max": 1,
+  "chaos_threshold": "21773 / 16650 / 10246 / 2561",
+  "physical_resistances": {
+    "斩击": 1.0,
+    "突刺": 1.0,
+    "打击": 1.0
+  },
+  "sin_resistances": {
+    "暴怒": 1.5,
+    "色欲": 1.5,
+    "怠惰": 0.75,
+    "暴食": 0.75,
+    "忧郁": 1.0,
+    "傲慢": 1.5,
+    "嫉妒": 1.0
+  },
+  "panic_types": [],
+  "passives": [
+    "胎动: 无恐慌类型数据"
+  ],
+  "skills": [
+    {
+      "skill_name": "乱击",
+      "icon_id": "956301",
+      "sin_type": "忧郁",
+      "damage_type": "突刺",
+      "base_value": 3,
+      "coin_power": 3,
+      "coin_count": 3,
+      "attack_level": 61,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[使用时] - 目标的 烧伤 强度与 流血 强度之和每有8级，使本技能的拼点威力+1(最多+3) - 自身每带有6级 呼吸法 强度，使本技能造成的伤害+5%(最多+20%) - 使自身增加2级 呼吸法 强度",
+        "[命中时] 使目标增加1级 烧伤 强度",
+        "[命中时] 使目标增加1级 流血 强度",
+        "[命中时] 对目标施加1层 烧伤",
+        "[命中时] 对目标施加1层 流血"
+      ]
+    },
+    {
+      "skill_name": "粉碎",
+      "icon_id": "956302",
+      "sin_type": "怠惰",
+      "damage_type": "突刺",
+      "base_value": 3,
+      "coin_power": 9703,
+      "coin_count": 3,
+      "attack_level": 61,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[使用时] - 目标的 烧伤 强度与 流血 强度之和每有8级，使本技能的拼点威力+1(最多+3) - 自身每带有6级 呼吸法 强度，使本技能造成的伤害+5%(最多+20%) - 使自身获得2层 呼吸法",
+        "[命中时] 对目标施加1层 烧伤",
+        "[命中时] 对目标施加1层 流血",
+        "[命中时] 使目标增加1级 烧伤 强度",
+        "[命中时] 使目标增加1级 流血 强度"
+      ]
+    },
+    {
+      "skill_name": "胎动开始",
+      "icon_id": "956303",
+      "sin_type": "暴食",
+      "damage_type": "突刺",
+      "base_value": 6,
+      "coin_power": 854,
+      "coin_count": 3,
+      "attack_level": 62,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[使用时] 本回合内不会受到伤害",
+        "[攻击后] 结束本关卡 不可摧毁的硬币"
+      ]
+    },
+    {
+      "skill_name": "罗生-回归",
+      "icon_id": "956304",
+      "sin_type": "暴怒",
+      "damage_type": "突刺",
+      "base_value": 8,
+      "coin_power": 987,
+      "coin_count": 3,
+      "attack_level": 60,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "与本技能拼点的技能的攻击类型与罪孽属性会影响即将到来的过去",
+        "- 对关卡2的敌方单位施加灼热的鳞粉（蛹）",
+        "1不可摧毁的硬币"
+      ]
+    },
+    {
+      "skill_name": "罗生-显现",
+      "icon_id": "956305",
+      "sin_type": "傲慢",
+      "damage_type": "突刺",
+      "base_value": 8,
+      "coin_power": 3,
+      "coin_count": 3,
+      "attack_level": 60,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "与本技能拼点的技能的攻击类型与罪孽属性会影响即将到来的现在",
+        "- 对关卡3的敌方单位施加锐利的鳞粉（蛹）",
+        "1不可摧毁的硬币"
+      ]
+    },
+    {
+      "skill_name": "罗生-到来",
+      "icon_id": "956306",
+      "sin_type": "色欲",
+      "damage_type": "突刺",
+      "base_value": 8,
+      "coin_power": 9,
+      "coin_count": 3,
+      "attack_level": 60,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "与本技能拼点的技能的攻击类型与罪孽属性会影响即将到来的未来",
+        "- 对关卡4的敌方单位施加锈蚀的鳞粉（蛹）",
+        "1不可摧毁的硬币"
+      ]
+    }
+  ],
+  "is_ally": false,
+  "_structured": true,
+  "appear_stages": [
+    "折射轨道6号线-第一区段"
+  ],
+  "enemy_id": "折射轨道6号线-第一区段|折射的罗生蝶::蛹|",
+  "defense": 57,
+  "speed": "1~1",
+  "_schema_version": 1
+}

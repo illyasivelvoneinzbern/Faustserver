@@ -1,0 +1,49 @@
+{
+  "page_type": "event",
+  "title": "事件-经验记忆迷宫起始选项事件",
+  "event_name": "经验记忆迷宫起始选项事件",
+  "narration": "进入里面后，出现了一个充斥着刺鼻而憋闷的空气的黑暗洞窟。\n在那深处能看到一束细微的光，沿着那光向前走去时，看见了分成四岔的通道。\n有强风呼啸的通道、飘散着血腥味的通道、只是寂静无声的通道、传来刀刃相碰声的通道。\n走哪条路好呢？\n\n走向强风呼啸的通道。\n“比想象中……更猛烈呢……！”\n越往前走风吹得越猛烈，最后连罪人们都不得不紧闭双眼，用手臂挡在面前继续前进。\n然后在某个瞬间……像被啪地一下切断般，风停了。\n风停后露出的由石头堆成的台座上，随意地放着像是暗红色绳索的东西。\n获得\n！\n\n走向飘散着血腥味的通道。\n“血腥味……相当浓啊……”\n“喂，打起精神来。如果不行的话就再喝一袋那个血包。”\n“……此等小事，吾不会动摇。”\n腥臭的血腥味充满了空间，正当开始感到头晕的时候，空气却像什么都没发生过一样突然变得清新了。\n猛然回过神来时，眼前有一个台座。\n在由石头堆成的台座上，放着一个十分利落的公文包。\n获得\n！\n\n走向寂静无声的通道。\n通道安静到让人起鸡皮疙瘩，因此所有人都紧张兮兮地沿着通道缓缓前行。\n正觉得只有罪人们的脚步声空洞地回响的瞬间，眼前突然出现了一个台座。\n在那由石头堆成的台座上，放着一个司空见惯的吸入用罐子。\n获得\n！\n\n走向传来刀刃相碰声的通道。\n“前面到底有几个人在打架……？”\n“执行经理，因为有被卷入战斗的可能性，我们应当谨慎前进。”\n罪人们会如此紧张也是理所当然的，通道前方传来了刀刃彼此猛烈碰撞的声音。\n正感觉到那碰撞的次数在逐渐增多的刹那，声音啪地一下像被切断般停止了。\n不知不觉间，眼前摆着一个由石头堆成的台座。\n在那上面，有一个红色的装饰品，像是用于装饰刀柄末端的东西。\n获得\n！",
+  "options": [
+    {
+      "choice_text": "走向强风呼啸的通道。",
+      "check_type": "",
+      "check_sin": "",
+      "check_threshold": 0,
+      "success_outcomes": [],
+      "failure_outcomes": []
+    },
+    {
+      "choice_text": "走向飘散着血腥味的通道。",
+      "check_type": "",
+      "check_sin": "",
+      "check_threshold": 0,
+      "success_outcomes": [],
+      "failure_outcomes": []
+    },
+    {
+      "choice_text": "走向寂静无声的通道。",
+      "check_type": "",
+      "check_sin": "",
+      "check_threshold": 0,
+      "success_outcomes": [],
+      "failure_outcomes": []
+    },
+    {
+      "choice_text": "走向传来刀刃相碰声的通道。",
+      "check_type": "",
+      "check_sin": "",
+      "check_threshold": 0,
+      "success_outcomes": [],
+      "failure_outcomes": []
+    }
+  ],
+  "ego_gifts": [],
+  "related_abnormalities": [],
+  "trigger_location": "",
+  "_structured": true,
+  "id": "wiki_事件-经验记忆迷宫起始选项事件",
+  "url": "https://limbuscompany.huijiwiki.com/wiki/事件-经验记忆迷宫起始选项事件",
+  "categories": [],
+  "source": "wiki",
+  "_schema_version": 1
+}

@@ -1,0 +1,246 @@
+{
+  "page_type": "enemy",
+  "title": "主线战斗4-48",
+  "enemy_name": "冬柏 E.G.O::山茶花",
+  "battle_stage": "主线战斗4-48",
+  "body_part": "躯干",
+  "hp": 1465,
+  "defense_level": 34,
+  "speed_min": 1,
+  "speed_max": 3,
+  "chaos_threshold": "",
+  "physical_resistances": {
+    "斩击": 1.5,
+    "突刺": 0.75,
+    "打击": 1.0
+  },
+  "sin_resistances": {
+    "暴怒": 1.0,
+    "色欲": 0.5,
+    "怠惰": 1.0,
+    "暴食": 1.5,
+    "忧郁": 0.75,
+    "傲慢": 2.0,
+    "嫉妒": 1.0
+  },
+  "panic_types": [
+    "岌岌可危的心灵",
+    "混乱不安的心灵",
+    "对决"
+  ],
+  "passives": [
+    "开花的代价: 技能春风烂漫 拼点失败时，损失10点理智值。",
+    "绽放: 第5回合开始时，生成4朵拥有3层的即将绽放的花 。",
+    "盛开的内心: 体力低于50%时，进入第2阶段。在进入第2阶段前体力不会低于50%。",
+    "对决: 若体力不高于50%，则指定1名特定单位使用特殊技能 从本回合起，两回合间无法陷入混乱或进入恐慌状态。 若李箱带有 对决 效果，则冬柏获得1层 强壮 若李箱赢得对决，则下回合使全体友方单位获得3层 伤害强化 若冬柏赢得对决，则下回合使冬柏的理智值恢复至最大值",
+    "固定恐慌: 被施加改变恐慌类型的状态时，自身的恐慌类型不会改变。效果改为对没有理智值的单位施加的效果。"
+  ],
+  "skills": [
+    {
+      "skill_name": "飞香漫散",
+      "icon_id": "804401",
+      "sin_type": "暴食",
+      "damage_type": "斩击",
+      "base_value": 4,
+      "coin_power": 854,
+      "coin_count": 3,
+      "attack_level": 34,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[命中时] 使目标增加2级 破裂 强度",
+        "[命中时] 对目标施加1层 开花"
+      ]
+    },
+    {
+      "skill_name": "香氛扑鼻",
+      "icon_id": "804402",
+      "sin_type": "怠惰",
+      "damage_type": "打击",
+      "base_value": 7,
+      "coin_power": 9703,
+      "coin_count": 3,
+      "attack_level": 37,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[命中时] 对目标施加2层 开花"
+      ]
+    },
+    {
+      "skill_name": "花蕾绽放",
+      "icon_id": "804403",
+      "sin_type": "怠惰",
+      "damage_type": "打击",
+      "base_value": 7,
+      "coin_power": 9703,
+      "coin_count": 2,
+      "attack_level": 35,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[命中时] 对目标施加3层 破裂",
+        "[命中时] 对目标施加3层 开花"
+      ]
+    },
+    {
+      "skill_name": "如盛放的花一般……",
+      "icon_id": "804404",
+      "sin_type": "暴食",
+      "damage_type": "穿刺",
+      "base_value": 8,
+      "coin_power": 854,
+      "coin_count": 3,
+      "attack_level": 37,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[使用时] 对目标施加3层 开花",
+        "[命中时] 对目标施加1层 开花"
+      ]
+    },
+    {
+      "skill_name": "春风烂漫",
+      "icon_id": "804405",
+      "sin_type": "怠惰",
+      "damage_type": "打击",
+      "base_value": 16,
+      "coin_power": 9703,
+      "coin_count": 2,
+      "attack_level": 32,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[攻击后] 移除全部即将绽放的花",
+        "[命中时] 使目标损失15点理智值",
+        "[命中时] 对目标施加3层 开花"
+      ]
+    },
+    {
+      "skill_name": "必掩埋于沃土",
+      "icon_id": "804406",
+      "sin_type": "傲慢",
+      "damage_type": "斩击",
+      "base_value": 5,
+      "coin_power": 3,
+      "coin_count": 1,
+      "attack_level": 34,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "使用时下回合对目标施加对决"
+      ]
+    },
+    {
+      "skill_name": "水流花谢",
+      "icon_id": "804408",
+      "sin_type": "傲慢",
+      "damage_type": "斩击",
+      "base_value": 8,
+      "coin_power": 3,
+      "coin_count": 1,
+      "attack_level": 32,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "战斗开始使自身获得10层守护",
+        "拼点失败使自身获得3层落英缤纷"
+      ]
+    },
+    {
+      "skill_name": "馥郁芬芳",
+      "icon_id": "804409",
+      "sin_type": "怠惰",
+      "damage_type": "打击",
+      "base_value": 20,
+      "coin_power": 9703,
+      "coin_count": 4,
+      "attack_level": 42,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[命中时] 若目标处于 盛放 状态，则使目标陷入混乱并解除其 盛放 状态",
+        "[命中时] 对目标施加2层 易损",
+        "[命中时] 使目标增加5级 破裂 强度",
+        "[命中时] 对目标施加5层 破裂"
+      ]
+    },
+    {
+      "skill_name": "刺鼻残香",
+      "icon_id": "804410",
+      "sin_type": "常规",
+      "damage_type": "闪避",
+      "base_value": 6,
+      "coin_power": 79,
+      "coin_count": 1,
+      "attack_level": 0,
+      "attack_weight": 1,
+      "is_guard": true,
+      "guard_type": "闪避",
+      "importance": 0,
+      "coin_effects": [
+        "闪避成功时对目标施加1层开花"
+      ]
+    },
+    {
+      "skill_name": "静候花时",
+      "icon_id": "804411",
+      "sin_type": "常规",
+      "damage_type": "防御",
+      "base_value": 20,
+      "coin_power": 79,
+      "coin_count": 1,
+      "attack_level": 0,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "战斗开始使自身获得5层守护"
+      ]
+    },
+    {
+      "skill_name": "百花齐放",
+      "icon_id": "804407",
+      "sin_type": "傲慢",
+      "damage_type": "斩击",
+      "base_value": 7,
+      "coin_power": 1,
+      "coin_count": 1,
+      "attack_level": 0,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "拼点胜利使自身获得10层守护",
+        "拼点失败使自身获得1层落英缤纷"
+      ]
+    }
+  ],
+  "is_ally": false,
+  "_structured": true,
+  "appear_stages": [
+    "主线战斗4-48"
+  ],
+  "enemy_id": "主线战斗4-48|冬柏 E.G.O::山茶花|躯干",
+  "defense": 34,
+  "speed": "1~3",
+  "_schema_version": 1
+}
