@@ -107,8 +107,8 @@ copy .env.example .env   # Windows
 
 | 变量 | 说明 |
 |------|------|
-| `DEEPSEEK_API_KEY` | LLM API Key（DeepSeek，推荐） |
-| `SILICONFLOW_API_KEY` | Embedding API Key（硅基流动 BGE-M3）|
+| `DEEPSEEK_API_KEY` | LLM API Key（DeepSeek，推荐） （仅调用chat费用极低）|
+| `SILICONFLOW_API_KEY` | Embedding API Key（硅基流动 BGE-M3）（本地与云端均免费）|
 | `NAPCAT_TOKEN` | NapCatQQ 鉴权 Token（可选） |
 | `NAPCAT_QQ` | Bot 自身 QQ 号（用于群聊 @检测） |
 

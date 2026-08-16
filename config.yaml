@@ -123,7 +123,7 @@ x_fetcher:
   filter_retweets: true               # 改进计划 P1：过滤转发（RT）推文，避免非官方内容污染推送
   initial_backfill_hours: 24          # 改进计划 P1：首启水位线——首次运行（无已推记录）时仅推送最近 N 小时内的推文
   video_quality: "high"               # P35：视频清晰度 high(1080p)/medium(640p)/low(480p)；分开发送已修复发出问题，默认高清
-  push_group_id: 0                    # 目标群号；0=未设置 → 用 handle_event 记忆的群号兜底
+  push_group_id: 953062556            # 目标群号；0=未设置 → 用 handle_event 记忆的群号兜底
   media_dir: "data/media"             # 媒体（图片/视频）本地落地目录
   max_video_mb: 100.0                 # 视频超过该大小(MB)时降级
   fallback_video_to_file: true        # 超大视频降级为发文件；false=仅发文字+链接
