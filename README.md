@@ -1,4 +1,4 @@
-# 边狱巴士 RAG Agent（Limbus RAG Agent）
+# 边狱巴士群助手（Limbus RAG Agent）
 
 > 基于 LangChain 构建的边狱巴士（Limbus Company）RAG 智能体。融合灰机 Wiki 知识库 + X/Twitter 官方资讯，以自定义角色人格（12 罪人 + 执行管理人但丁）通过 QQ 与玩家交流。
 
