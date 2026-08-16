@@ -1,0 +1,20 @@
+{
+  "id": "gift_9044_upgraded_2",
+  "title": "震荡手环",
+  "url": "https://limbuscompany.huijiwiki.com/wiki/E.G.O饰品",
+  "categories": [
+    "E.G.O饰品"
+  ],
+  "content": "使用技能命中敌方单位时，下回合使其增加1级震颤强度。\n\n若该技能为暴怒技能，则改为使其增加3级震颤强度。",
+  "source": "tabx",
+  "_structured": true,
+  "page_type": "ego_gift",
+  "gift_name": "震荡手环",
+  "rarity": 2,
+  "cost": "208",
+  "effect_types": "震颤",
+  "attack_type": "暴怒",
+  "location": "镜像迷宫",
+  "stage": "upgraded_2",
+  "_schema_version": 1
+}

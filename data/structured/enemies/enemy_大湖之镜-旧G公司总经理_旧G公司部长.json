@@ -34,73 +34,9 @@
       "sin_type": "色欲",
       "damage_type": "打击",
       "base_value": 3,
-      "coin_power": 9,
-      "coin_count": 1,
-      "attack_level": 37,
-      "attack_weight": 1,
-      "is_guard": false,
-      "guard_type": "",
-      "importance": 0,
-      "coin_effects": []
-    },
-    {
-      "skill_name": "防御命令",
-      "icon_id": "9100106",
-      "sin_type": "忧郁",
-      "damage_type": "打击",
-      "base_value": 3,
-      "coin_power": 3,
-      "coin_count": 1,
-      "attack_level": 37,
-      "attack_weight": 1,
-      "is_guard": true,
-      "guard_type": "防御",
-      "importance": 0,
-      "coin_effects": [
-        "使用时下回合随机使2名友方单位获得1层守护"
-      ]
-    },
-    {
-      "skill_name": "攻击命令",
-      "icon_id": "9100109",
-      "sin_type": "暴怒",
-      "damage_type": "打击",
-      "base_value": 4,
-      "coin_power": 987,
-      "coin_count": 2,
-      "attack_level": 37,
-      "attack_weight": 1,
-      "is_guard": false,
-      "guard_type": "",
-      "importance": 0,
-      "coin_effects": [
-        "[正面命中时] 下回合对目标施加5层 破裂"
-      ]
-    },
-    {
-      "skill_name": "表壳硬化",
-      "icon_id": "9100108",
-      "sin_type": "常规",
-      "damage_type": "防御",
-      "base_value": 6,
-      "coin_power": 79,
-      "coin_count": 1,
-      "attack_level": 0,
-      "attack_weight": 1,
-      "is_guard": false,
-      "guard_type": "",
-      "importance": 0,
-      "coin_effects": []
-    },
-    {
-      "skill_name": "战时号令",
-      "icon_id": "9100105",
-      "sin_type": "色欲",
-      "damage_type": "打击",
-      "base_value": 3,
       "coin_power": 1,
       "coin_count": 2,
-      "attack_level": 2,
+      "attack_level": 37,
       "attack_weight": 1,
       "is_guard": false,
       "guard_type": "",
@@ -115,13 +51,13 @@
       "base_value": 3,
       "coin_power": 6,
       "coin_count": 1,
-      "attack_level": 0,
+      "attack_level": 37,
       "attack_weight": 1,
       "is_guard": false,
       "guard_type": "",
       "importance": 0,
       "coin_effects": [
-        "使用时下回合随机使2名友方单位获得1层守护"
+        "[使用时]下回合随机使2名友方单位获得1层守护"
       ]
     },
     {
@@ -132,13 +68,77 @@
       "base_value": 4,
       "coin_power": 8,
       "coin_count": 1,
-      "attack_level": 2,
+      "attack_level": 37,
       "attack_weight": 1,
       "is_guard": false,
       "guard_type": "",
       "importance": 0,
       "coin_effects": [
-        "1正面命中时下回合对目标施加5层破裂"
+        "硬币1：[正面命中时]下回合对目标施加5层破裂"
+      ]
+    },
+    {
+      "skill_name": "表壳硬化",
+      "icon_id": "9100108",
+      "sin_type": "常规",
+      "damage_type": "防御",
+      "base_value": 6,
+      "coin_power": 2,
+      "coin_count": 1,
+      "attack_level": 41,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": []
+    },
+    {
+      "skill_name": "战时号令",
+      "icon_id": "9100105",
+      "sin_type": "色欲",
+      "damage_type": "打击",
+      "base_value": 3,
+      "coin_power": 1,
+      "coin_count": 2,
+      "attack_level": 40,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": []
+    },
+    {
+      "skill_name": "防御命令",
+      "icon_id": "9100106",
+      "sin_type": "忧郁",
+      "damage_type": "打击",
+      "base_value": 3,
+      "coin_power": 6,
+      "coin_count": 1,
+      "attack_level": 40,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[使用时]下回合随机使2名友方单位获得1层守护"
+      ]
+    },
+    {
+      "skill_name": "攻击命令",
+      "icon_id": "9100109",
+      "sin_type": "暴怒",
+      "damage_type": "打击",
+      "base_value": 4,
+      "coin_power": 8,
+      "coin_count": 1,
+      "attack_level": 40,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "硬币1：[正面命中时]下回合对目标施加5层破裂"
       ]
     },
     {
@@ -149,7 +149,7 @@
       "base_value": 6,
       "coin_power": 2,
       "coin_count": 1,
-      "attack_level": 0,
+      "attack_level": 44,
       "attack_weight": 1,
       "is_guard": false,
       "guard_type": "",

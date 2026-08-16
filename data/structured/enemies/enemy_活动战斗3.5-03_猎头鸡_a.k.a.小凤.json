@@ -30,24 +30,25 @@
       "skill_name": "咯咯咯咯",
       "icon_id": "803401",
       "sin_type": "色欲",
-      "damage_type": "",
+      "damage_type": "打击",
       "base_value": 4,
       "coin_power": 7,
-      "coin_count": 2,
+      "coin_count": 1,
       "attack_level": 28,
       "attack_weight": 1,
       "is_guard": false,
       "guard_type": "",
       "importance": 0,
       "coin_effects": [
-        "[命中时] 使目标失去5点理智值"
+        "优先指定理智值最低的单位",
+        "硬币1：[命中时]使目标失去5点理智值"
       ]
     },
     {
       "skill_name": "咯咯咯",
       "icon_id": "803402",
       "sin_type": "色欲",
-      "damage_type": "",
+      "damage_type": "打击",
       "base_value": 4,
       "coin_power": 3,
       "coin_count": 2,
@@ -56,22 +57,28 @@
       "is_guard": false,
       "guard_type": "",
       "importance": 0,
-      "coin_effects": []
+      "coin_effects": [
+        "优先指定理智值最低的单位",
+        "硬币2：[命中时]使自身恢复7点体力",
+        "[正面命中时]使目标增加3级沉沦强度"
+      ]
     },
     {
       "skill_name": "咕咕",
       "icon_id": "803403",
       "sin_type": "常规",
-      "damage_type": "",
+      "damage_type": "闪避",
       "base_value": 3,
       "coin_power": 8,
       "coin_count": 1,
-      "attack_level": 0,
+      "attack_level": 23,
       "attack_weight": 1,
-      "is_guard": false,
-      "guard_type": "",
+      "is_guard": true,
+      "guard_type": "闪避",
       "importance": 0,
-      "coin_effects": []
+      "coin_effects": [
+        "若自身在本回合未受到伤害，则下回合使全体友方单位获得2层强壮"
+      ]
     }
   ],
   "is_ally": false,

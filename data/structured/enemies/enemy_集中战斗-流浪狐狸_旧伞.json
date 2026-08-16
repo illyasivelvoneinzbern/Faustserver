@@ -34,13 +34,13 @@
       "base_value": 3,
       "coin_power": 3,
       "coin_count": 1,
-      "attack_level": 34,
+      "attack_level": 0,
       "attack_weight": 1,
       "is_guard": false,
       "guard_type": "",
       "importance": 0,
       "coin_effects": [
-        "攻击后对全体敌方单位施加3层破裂与3层沉沦"
+        "[攻击后]对全体敌方单位施加3层破裂与3层沉沦"
       ]
     }
   ],

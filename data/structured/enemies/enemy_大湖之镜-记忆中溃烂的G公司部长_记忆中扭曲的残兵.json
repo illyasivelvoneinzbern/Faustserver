@@ -36,7 +36,7 @@
       "sin_type": "暴食",
       "damage_type": "斩击",
       "base_value": 2,
-      "coin_power": 854,
+      "coin_power": 4,
       "coin_count": 2,
       "attack_level": 35,
       "attack_weight": 1,
@@ -44,7 +44,7 @@
       "guard_type": "",
       "importance": 0,
       "coin_effects": [
-        "[正面命中时] 下回合对目标施加3层 束缚"
+        "硬币1：#c7ff94下回合对目标施加3层 束缚"
       ]
     },
     {
@@ -53,9 +53,9 @@
       "sin_type": "常规",
       "damage_type": "防御",
       "base_value": 5,
-      "coin_power": 79,
+      "coin_power": 3,
       "coin_count": 1,
-      "attack_level": 0,
+      "attack_level": 41,
       "attack_weight": 1,
       "is_guard": false,
       "guard_type": "",
@@ -70,13 +70,13 @@
       "base_value": 2,
       "coin_power": 4,
       "coin_count": 2,
-      "attack_level": 2,
+      "attack_level": 38,
       "attack_weight": 1,
       "is_guard": false,
       "guard_type": "",
       "importance": 0,
       "coin_effects": [
-        "1{{Color|#c7ff94|[正面命中时]}}下回合对目标施加3层 束缚"
+        "硬币1：#c7ff94下回合对目标施加3层 束缚"
       ]
     },
     {
@@ -87,7 +87,7 @@
       "base_value": 5,
       "coin_power": 3,
       "coin_count": 1,
-      "attack_level": 1,
+      "attack_level": 44,
       "attack_weight": 1,
       "is_guard": false,
       "guard_type": "",

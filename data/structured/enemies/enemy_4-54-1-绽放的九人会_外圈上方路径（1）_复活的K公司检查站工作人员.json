@@ -38,7 +38,7 @@
       "sin_type": "暴食",
       "damage_type": "打击",
       "base_value": 4,
-      "coin_power": 854,
+      "coin_power": 4,
       "coin_count": 1,
       "attack_level": 25,
       "attack_weight": 1,
@@ -46,7 +46,7 @@
       "guard_type": "",
       "importance": 0,
       "coin_effects": [
-        "拼点胜利下回合随机使2名友方单位获得1层忍耐"
+        "[拼点胜利]下回合随机使2名友方单位获得1层忍耐"
       ]
     },
     {
@@ -55,7 +55,7 @@
       "sin_type": "怠惰",
       "damage_type": "打击",
       "base_value": 6,
-      "coin_power": 9703,
+      "coin_power": 2,
       "coin_count": 2,
       "attack_level": 25,
       "attack_weight": 1,
@@ -63,7 +63,7 @@
       "guard_type": "",
       "importance": 0,
       "coin_effects": [
-        "[正面命中时] 使目标 震颤引爆"
+        "硬币1：[正面命中时]使目标震颤引爆"
       ]
     },
     {
@@ -72,7 +72,7 @@
       "sin_type": "暴食",
       "damage_type": "打击",
       "base_value": 4,
-      "coin_power": 854,
+      "coin_power": 7,
       "coin_count": 1,
       "attack_level": 25,
       "attack_weight": 1,
@@ -80,7 +80,7 @@
       "guard_type": "",
       "importance": 0,
       "coin_effects": [
-        "拼点胜利下回合随机使除自身以外的1名友方单位获得2层守护"
+        "[拼点胜利]下回合随机使除自身以外的1名友方单位获得2层守护"
       ]
     }
   ],

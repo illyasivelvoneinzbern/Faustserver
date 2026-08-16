@@ -69,11 +69,11 @@ TABX_FIELD_EFFECT = 6      # 效果类型 (烧伤/流血/震颤/破裂/沉沦/�
 TABX_FIELD_EVENT = 7       # 事件来源
 TABX_FIELD_WHERE = 8       # 出现地点
 TABX_FIELD_SPECIAL = 9     # 特定卡包/条件
-TABX_FIELD_DESC = 10       # 描述/关键词 (未升级效果)
-TABX_FIELD_DESC2 = 11      # 升级效果2
-TABX_FIELD_DESC3 = 12      # 升级效果3
-TABX_FIELD_DESC_1 = 13     # desc_1 (备用)
-TABX_FIELD_DESC_2 = 14     # desc_2 (备用)
+TABX_FIELD_DESC = 10       # desc (未强化效果)
+TABX_FIELD_DESC2 = 11      # desc2 (效果续段，非强化——P38 已并入 base)
+TABX_FIELD_DESC3 = 12      # desc3 (效果续段，非强化——P38 已并入 base)
+TABX_FIELD_DESC_1 = 13     # desc_1 (真强化·强化Ⅰ)
+TABX_FIELD_DESC_2 = 14     # desc_2 (真强化·强化Ⅱ)
 TABX_FIELD_SOURCE = 15     # 数据来源表名 (= "Gift")
 
 
@@ -208,6 +208,21 @@ class WikiSpider:
 
         logger.info(f"Data:Giftchoose.tabx 包含 {len(rows)} 条饰品记录")
 
+        # ── 字段索引：以 schema.fields 动态解析为准（P38，应对 wiki 增删列）──
+        # 若某列缺失（如旧版无 desc_1/desc_2），回落到模块级常量默认索引。
+        schema_fields = [f.get("name") for f in tabx.get("schema", {}).get("fields", [])]
+        _DEFAULT_IDX = {
+            "id": TABX_FIELD_ID, "name": TABX_FIELD_NAME, "png": TABX_FIELD_PNG,
+            "rarity": TABX_FIELD_RARITY, "cost": TABX_FIELD_COST, "aff": TABX_FIELD_AFF,
+            "effect": TABX_FIELD_EFFECT, "event": TABX_FIELD_EVENT, "where": TABX_FIELD_WHERE,
+            "special": TABX_FIELD_SPECIAL, "desc": TABX_FIELD_DESC, "desc2": TABX_FIELD_DESC2,
+            "desc3": TABX_FIELD_DESC3, "desc_1": TABX_FIELD_DESC_1, "desc_2": TABX_FIELD_DESC_2,
+        }
+        FIELD_IDX = {
+            name: (schema_fields.index(name) if name in schema_fields else _DEFAULT_IDX[name])
+            for name in _DEFAULT_IDX
+        }
+
         all_items = []
 
         def _val(row: list, idx: int) -> str:
@@ -246,46 +261,54 @@ class WikiSpider:
             text = re.sub(r'\n{3,}', '\n\n', text)
             return text.strip()
 
-        def _split_versions(desc: str, desc2: str = "", desc3: str = "") -> dict:
-            """将 desc 字段按版本标记拆分为 base / upgraded_2 / upgraded_3。
+        def _merge_effects(*parts: str) -> str:
+            """拼接效果分段为完整效果（去空行、去重行）。"""
+            out: list[str] = []
+            seen: set[str] = set()
+            for p in parts:
+                for ln in (p or "").splitlines():
+                    ln = ln.strip()
+                    if ln and ln not in seen:
+                        seen.add(ln)
+                        out.append(ln)
+            return "\n".join(out)
 
-            优先级：
-            1. 独立 desc2/desc3 字段（部分饰品有）
-            2. desc 内联标记：2级： / 3级
+        def _split_versions(desc: str, desc2: str = "", desc3: str = "",
+                            desc_1: str = "", desc_2: str = "") -> dict:
+            """将 tabx 各效果列拆分为 base / upgraded_2 / upgraded_3。
+
+            P38 修复（普适规则，面向全部饰品的 schema 级方案，非白名单）：
+            tabx schema 的效果列语义（字段顺序与页面渲染一致）：
+            - desc    = 未强化效果
+            - desc_1  = 强化Ⅰ 效果（真强化第一段）
+            - desc_2  = 强化Ⅱ 效果（真强化第二段）
+            - desc2 / desc3 = 同一效果的多段描述（效果续段，如「- 拉·曼却领
+              神父 格里高尔：…」列表延续、罗佳/希斯克利夫协同补充段落），
+              不是「基础版→强化版」的升级关系
+
+            实测（569 条记录）：desc_1/desc_2 与 desc2/desc3 完全互斥
+            （无任何记录同时带 desc_1 与 desc2），因此可安全地：
+            - desc2/desc3 一律合并进 base（续段）
+            - desc_1/desc_2 非空时分别生成 upgraded_2 / upgraded_3（真强化）
+
+            不再使用 desc 内联「2级：/3级：」标记拆分——「增加2级烧伤强度」等
+            游戏数值文本含大量「2级」字样，内联拆分是此前误判强化的来源。
             """
             versions = {}
             desc = _clean_wikitext(desc)
             desc2 = _clean_wikitext(desc2)
             desc3 = _clean_wikitext(desc3)
+            desc_1 = _clean_wikitext(desc_1)
+            desc_2 = _clean_wikitext(desc_2)
 
-            if desc2 or desc3:
-                # 有独立字段，直接使用
-                versions["base"] = desc
-                if desc2:
-                    versions["upgraded_2"] = desc2
-                if desc3:
-                    versions["upgraded_3"] = desc3
-                return versions
+            # 基础效果 = desc + 续段（desc2/desc3 只是同一效果的多段描述）
+            versions["base"] = _merge_effects(desc, desc2, desc3)
 
-            # 在 desc 中按内联标记拆分
-            # 匹配 "2级" 后跟冒号（中/英）或游戏术语 "波次"
-            # 不要求行首锚点，支持行内标记
-            parts2 = re.split(r'\s*2级(?:[：:]|波次)\s*', desc, maxsplit=1)
-            if len(parts2) == 1:
-                # 没有升级标记，只有基础版
-                versions["base"] = parts2[0]
-                return versions
-
-            versions["base"] = parts2[0]
-            remaining = parts2[1]
-
-            # 匹配 "3级" 后跟可选冒号（中/英）或游戏术语 "波次"
-            parts3 = re.split(r'\s*3级(?:[：:]|波次)?\s*', remaining, maxsplit=1)
-            if len(parts3) == 1:
-                versions["upgraded_2"] = parts3[0]
-            else:
-                versions["upgraded_2"] = parts3[0]
-                versions["upgraded_3"] = parts3[1]
+            # 真强化阶段：desc_1 / desc_2
+            if desc_1:
+                versions["upgraded_2"] = desc_1
+            if desc_2:
+                versions["upgraded_3"] = desc_2
 
             return versions
 
@@ -312,32 +335,34 @@ class WikiSpider:
                 lines.append(stage_label)
             return "\n".join(lines)
 
-        # 阶段标签映射
+        # 阶段标签映射（P38：desc_1=强化Ⅰ / desc_2=强化Ⅱ）
         STAGE_LABELS = {
             "base": "（未强化版）",
-            "upgraded_2": "（强化版·Ⅱ级）",
-            "upgraded_3": "（强化版·Ⅲ级）",
+            "upgraded_2": "（强化版·Ⅰ级）",
+            "upgraded_3": "（强化版·Ⅱ级）",
         }
 
         for row in rows:
-            if not isinstance(row, list) or len(row) <= TABX_FIELD_NAME:
+            if not isinstance(row, list) or len(row) <= FIELD_IDX["name"]:
                 continue
 
-            item_id = _val(row, TABX_FIELD_ID)
-            name = _val(row, TABX_FIELD_NAME)
+            item_id = _val(row, FIELD_IDX["id"])
+            name = _val(row, FIELD_IDX["name"])
             if not name:
                 continue
 
-            rarity = _val(row, TABX_FIELD_RARITY)
-            cost = _val(row, TABX_FIELD_COST)
-            effect = _val(row, TABX_FIELD_EFFECT)
-            aff = _val(row, TABX_FIELD_AFF)
-            where = _val(row, TABX_FIELD_WHERE)
-            special = _val(row, TABX_FIELD_SPECIAL)
-            event = _val(row, TABX_FIELD_EVENT)
-            desc = _val(row, TABX_FIELD_DESC)
-            desc2 = _val(row, TABX_FIELD_DESC2)
-            desc3 = _val(row, TABX_FIELD_DESC3)
+            rarity = _val(row, FIELD_IDX["rarity"])
+            cost = _val(row, FIELD_IDX["cost"])
+            effect = _val(row, FIELD_IDX["effect"])
+            aff = _val(row, FIELD_IDX["aff"])
+            where = _val(row, FIELD_IDX["where"])
+            special = _val(row, FIELD_IDX["special"])
+            event = _val(row, FIELD_IDX["event"])
+            desc = _val(row, FIELD_IDX["desc"])
+            desc2 = _val(row, FIELD_IDX["desc2"])
+            desc3 = _val(row, FIELD_IDX["desc3"])
+            desc_1 = _val(row, FIELD_IDX["desc_1"])
+            desc_2 = _val(row, FIELD_IDX["desc_2"])
 
             # 稀有度数值 (0~6)
             try:
@@ -345,8 +370,8 @@ class WikiSpider:
             except (ValueError, TypeError):
                 rarity_int = -1
 
-            # 拆分版本
-            versions = _split_versions(desc, desc2, desc3)
+            # 拆分版本（P38：desc_1/desc_2 为真强化，desc2/desc3 为效果续段）
+            versions = _split_versions(desc, desc2, desc3, desc_1, desc_2)
             tagline = _build_tagline(where, effect)
 
             # 收集特殊条件（如 "时间杀人时间合成"）

@@ -32,26 +32,9 @@
       "skill_name": "纵斩",
       "icon_id": "9011201",
       "sin_type": "色欲",
-      "damage_type": "",
+      "damage_type": "斩击",
       "base_value": 3,
-      "coin_power": 9,
-      "coin_count": 3,
-      "attack_level": 55,
-      "attack_weight": 1,
-      "is_guard": false,
-      "guard_type": "",
-      "importance": 0,
-      "coin_effects": [
-        "[命中时] 使目标增加3级 流血 强度"
-      ]
-    },
-    {
-      "skill_name": "回斩",
-      "icon_id": "9011302",
-      "sin_type": "色欲",
-      "damage_type": "",
-      "base_value": 4,
-      "coin_power": 9,
+      "coin_power": 3,
       "coin_count": 2,
       "attack_level": 55,
       "attack_weight": 1,
@@ -59,40 +42,60 @@
       "guard_type": "",
       "importance": 0,
       "coin_effects": [
-        "[命中时] 使目标增加5级 流血 强度"
+        "硬币1：[命中时]使目标增加3级流血强度"
       ]
     },
     {
-      "skill_name": "发劲",
-      "icon_id": "9011203",
-      "sin_type": "暴怒",
-      "damage_type": "",
-      "base_value": 5,
-      "coin_power": 987,
-      "coin_count": 3,
+      "skill_name": "回斩",
+      "icon_id": "9011302",
+      "sin_type": "色欲",
+      "damage_type": "斩击",
+      "base_value": 4,
+      "coin_power": 6,
+      "coin_count": 1,
       "attack_level": 55,
       "attack_weight": 1,
       "is_guard": false,
       "guard_type": "",
       "importance": 0,
       "coin_effects": [
-        "[命中时] 使目标增加4级 流血 强度"
+        "[拼点胜利]下回合对目标施加1层麻痹"
+      ]
+    },
+    {
+      "skill_name": "发劲",
+      "icon_id": "9011203",
+      "sin_type": "暴怒",
+      "damage_type": "斩击",
+      "base_value": 5,
+      "coin_power": 4,
+      "coin_count": 2,
+      "attack_level": 55,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[拼点胜利]下回合使自身获得1层守护",
+        "硬币1：[命中时]使目标增加4级流血强度"
       ]
     },
     {
       "skill_name": "防御",
       "icon_id": "9011204",
       "sin_type": "常规",
-      "damage_type": "",
+      "damage_type": "防御",
       "base_value": 5,
-      "coin_power": 79,
+      "coin_power": 5,
       "coin_count": 1,
-      "attack_level": 0,
+      "attack_level": 55,
       "attack_weight": 1,
-      "is_guard": true,
-      "guard_type": "防御",
+      "is_guard": false,
+      "guard_type": "",
       "importance": 0,
-      "coin_effects": []
+      "coin_effects": [
+        "[战斗开始]使自身获得1层守护"
+      ]
     }
   ],
   "is_ally": false,

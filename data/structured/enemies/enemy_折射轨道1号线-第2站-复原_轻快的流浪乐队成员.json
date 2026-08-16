@@ -34,14 +34,14 @@
       "base_value": 3,
       "coin_power": 4,
       "coin_count": 2,
-      "attack_level": 2,
+      "attack_level": 57,
       "attack_weight": 1,
       "is_guard": false,
       "guard_type": "",
       "importance": 0,
       "coin_effects": [
-        "使用时下回合使自身获得1层强壮",
-        "2不可摧毁的硬币"
+        "[使用时]下回合使自身获得1层强壮",
+        "硬币2：不可摧毁的硬币"
       ]
     },
     {
@@ -52,14 +52,14 @@
       "base_value": 2,
       "coin_power": 3,
       "coin_count": 3,
-      "attack_level": 1,
+      "attack_level": 57,
       "attack_weight": 1,
       "is_guard": false,
       "guard_type": "",
       "importance": 0,
       "coin_effects": [
-        "拼点胜利对目标造成5点理智伤害",
-        "3命中时下回合对目标施加2层虚弱"
+        "[拼点胜利]对目标造成5点理智伤害",
+        "硬币3：[命中时]下回合对目标施加2层虚弱"
       ]
     },
     {
@@ -70,17 +70,17 @@
       "base_value": 2,
       "coin_power": 2,
       "coin_count": 4,
-      "attack_level": 2,
+      "attack_level": 57,
       "attack_weight": 1,
       "is_guard": false,
       "guard_type": "",
       "importance": 0,
       "coin_effects": [
         "若目标的理智值低于0点，则使本技能的最终威力+2",
-        "1命中时对目标造成5点理智伤害",
-        "2命中时对目标造成5点理智伤害",
-        "3命中时对目标造成5点理智伤害",
-        "4命中时对目标造成10点理智伤害"
+        "硬币1：[命中时]对目标造成5点理智伤害",
+        "硬币2：[命中时]对目标造成5点理智伤害",
+        "硬币3：[命中时]对目标造成5点理智伤害",
+        "硬币4：[命中时]对目标造成10点理智伤害"
       ]
     }
   ],

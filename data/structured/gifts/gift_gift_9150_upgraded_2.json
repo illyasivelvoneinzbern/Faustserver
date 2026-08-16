@@ -1,0 +1,21 @@
+{
+  "id": "gift_9150_upgraded_2",
+  "title": "时间的枷锁",
+  "url": "https://limbuscompany.huijiwiki.com/wiki/E.G.O饰品",
+  "categories": [
+    "E.G.O饰品"
+  ],
+  "content": "回合开始时，使拥有打击攻击技能(不包括E.G.O技能)的友方单位获得2层攻击等级提升。\n若该单位拥有不低于2个打击攻击技能，则改为获得2层攻击等级提升与1层打击伤害强化。\n若该单位拥有不低于2个使用减算硬币的打击攻击技能，则改为获得3层攻击等级提升与2层打击伤害强化。",
+  "source": "tabx",
+  "_structured": true,
+  "page_type": "ego_gift",
+  "gift_name": "时间的枷锁",
+  "rarity": 2,
+  "cost": "212",
+  "effect_types": "打击",
+  "attack_type": "暴食",
+  "location": "镜像迷宫",
+  "stage": "upgraded_2",
+  "event": "事件-保密协议",
+  "_schema_version": 1
+}

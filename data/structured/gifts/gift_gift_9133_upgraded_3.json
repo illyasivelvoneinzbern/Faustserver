@@ -1,0 +1,21 @@
+{
+  "id": "gift_9133_upgraded_3",
+  "title": "解除限制的除颤仪",
+  "url": "https://limbuscompany.huijiwiki.com/wiki/E.G.O饰品",
+  "categories": [
+    "E.G.O饰品"
+  ],
+  "content": "回合结束时，使自身恢复(本回合攻击技能消耗的充能层数与特殊充能之和+2)点体力与理智值。\n若现存体力不高于75%，则使恢复量变为2倍。",
+  "source": "tabx",
+  "_structured": true,
+  "page_type": "ego_gift",
+  "gift_name": "解除限制的除颤仪",
+  "rarity": 1,
+  "cost": "147",
+  "effect_types": "充能",
+  "attack_type": "暴食",
+  "location": "镜像迷宫",
+  "stage": "upgraded_3",
+  "event": "事件-电击蜈蚣",
+  "_schema_version": 1
+}

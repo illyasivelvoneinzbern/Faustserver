@@ -34,9 +34,26 @@
       "skill_name": "叽",
       "icon_id": "9004201",
       "sin_type": "怠惰",
-      "damage_type": "",
+      "damage_type": "打击",
       "base_value": 2,
       "coin_power": 7,
+      "coin_count": 1,
+      "attack_level": 26,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "硬币1：[正面命中时]使目标增加3级破裂强度"
+      ]
+    },
+    {
+      "skill_name": "叽伊",
+      "icon_id": "9004202",
+      "sin_type": "怠惰",
+      "damage_type": "打击",
+      "base_value": 4,
+      "coin_power": 3,
       "coin_count": 2,
       "attack_level": 26,
       "attack_weight": 1,
@@ -44,39 +61,22 @@
       "guard_type": "",
       "importance": 0,
       "coin_effects": [
-        "[正面命中时] 使目标增加3级 破裂 强度"
-      ]
-    },
-    {
-      "skill_name": "叽伊",
-      "icon_id": "9004202",
-      "sin_type": "怠惰",
-      "damage_type": "",
-      "base_value": 4,
-      "coin_power": 3,
-      "coin_count": 3,
-      "attack_level": 26,
-      "attack_weight": 1,
-      "is_guard": false,
-      "guard_type": "",
-      "importance": 0,
-      "coin_effects": [
-        "[正面命中时] 使目标增加3层 破裂",
-        "[正面命中时] 使目标增加2级 破裂 强度"
+        "硬币1：[正面命中时]使目标增加3层破裂",
+        "硬币2：[正面命中时]使目标增加2级破裂强度"
       ]
     },
     {
       "skill_name": "防御",
       "icon_id": "9004203",
       "sin_type": "常规",
-      "damage_type": "",
+      "damage_type": "防御",
       "base_value": 5,
       "coin_power": 3,
       "coin_count": 1,
-      "attack_level": 0,
+      "attack_level": 23,
       "attack_weight": 1,
-      "is_guard": true,
-      "guard_type": "防御",
+      "is_guard": false,
+      "guard_type": "",
       "importance": 0,
       "coin_effects": []
     }

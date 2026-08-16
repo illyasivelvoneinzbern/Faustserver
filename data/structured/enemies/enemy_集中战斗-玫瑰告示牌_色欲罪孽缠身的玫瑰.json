@@ -32,16 +32,16 @@
       "sin_type": "色欲",
       "damage_type": "穿刺",
       "base_value": 3,
-      "coin_power": 9,
-      "coin_count": 4,
+      "coin_power": 1,
+      "coin_count": 3,
       "attack_level": 40,
       "attack_weight": 1,
       "is_guard": false,
       "guard_type": "",
       "importance": 0,
       "coin_effects": [
-        "[命中时] 使目标增加2级 流血 强度",
-        "[命中时] 使自身混乱阈值后移该硬币伤害的50%"
+        "硬币1：[命中时]使目标增加2级流血强度",
+        "[命中时]使自身混乱阈值后移该硬币伤害的50%"
       ]
     },
     {
@@ -50,15 +50,15 @@
       "sin_type": "色欲",
       "damage_type": "穿刺",
       "base_value": 3,
-      "coin_power": 9,
-      "coin_count": 4,
+      "coin_power": 2,
+      "coin_count": 3,
       "attack_level": 40,
       "attack_weight": 1,
       "is_guard": false,
       "guard_type": "",
       "importance": 0,
       "coin_effects": [
-        "[命中时] 对目标施加2层 流血"
+        "硬币1：[命中时]对目标施加2层流血"
       ]
     }
   ],

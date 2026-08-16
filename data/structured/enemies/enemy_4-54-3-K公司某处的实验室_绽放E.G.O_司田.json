@@ -38,15 +38,15 @@
       "sin_type": "嫉妒",
       "damage_type": "斩击",
       "base_value": 3,
-      "coin_power": 5793,
-      "coin_count": 3,
+      "coin_power": 5,
+      "coin_count": 2,
       "attack_level": 34,
       "attack_weight": 1,
       "is_guard": false,
       "guard_type": "",
       "importance": 0,
       "coin_effects": [
-        "[正面命中时] 下回合对目标施加1层 束缚 与1层 麻痹"
+        "硬币1：[正面命中时]下回合对目标施加1层束缚与1层麻痹"
       ]
     },
     {
@@ -55,17 +55,15 @@
       "sin_type": "暴食",
       "damage_type": "斩击",
       "base_value": 3,
-      "coin_power": 854,
-      "coin_count": 4,
+      "coin_power": 3,
+      "coin_count": 3,
       "attack_level": 34,
       "attack_weight": 1,
       "is_guard": false,
       "guard_type": "",
       "importance": 0,
       "coin_effects": [
-        "[命中时] 下回合对目标施加1层 束缚",
-        "[命中时] 下回合对目标施加1层 易损",
-        "[命中时] 下回合对目标施加3层 种子"
+        "硬币1：[命中时]下回合对目标施加1层束缚"
       ]
     },
     {
@@ -74,15 +72,16 @@
       "sin_type": "暴食",
       "damage_type": "斩击",
       "base_value": 8,
-      "coin_power": 854,
-      "coin_count": 4,
+      "coin_power": 1,
+      "coin_count": 3,
       "attack_level": 34,
       "attack_weight": 1,
       "is_guard": false,
       "guard_type": "",
       "importance": 0,
       "coin_effects": [
-        "[命中时] 对目标施加1层 种子 若目标带有 种子 ，则对其额外施加1层 种子"
+        "硬币1：[命中时]对目标施加1层种子",
+        "若目标带有种子，则对其额外施加1层种子"
       ]
     },
     {
@@ -91,15 +90,15 @@
       "sin_type": "暴食",
       "damage_type": "穿刺",
       "base_value": 5,
-      "coin_power": 854,
-      "coin_count": 2,
+      "coin_power": 6,
+      "coin_count": 1,
       "attack_level": 34,
       "attack_weight": 1,
       "is_guard": false,
       "guard_type": "",
       "importance": 0,
       "coin_effects": [
-        "[命中时] 对目标施加3层 种子 和1层 过量恢复 并使目标恢复15点体力"
+        "硬币1：[命中时]对目标施加3层种子和1层过量恢复并使目标恢复15点体力"
       ]
     },
     {
@@ -108,7 +107,7 @@
       "sin_type": "傲慢",
       "damage_type": "穿刺",
       "base_value": 7,
-      "coin_power": 3,
+      "coin_power": 6,
       "coin_count": 2,
       "attack_level": 32,
       "attack_weight": 1,
@@ -116,7 +115,8 @@
       "guard_type": "",
       "importance": 0,
       "coin_effects": [
-        "[命中时] 对目标施加3层 易损 ，使目标增加10级 流血 强度 目标处于 吸收养分 状态时，使自身恢复20点体力并在下回合获得2层 强壮"
+        "硬币1：[命中时]对目标施加3层易损，使目标增加10级流血强度",
+        "目标处于吸收养分状态时，使自身恢复20点体力并在下回合获得2层强壮"
       ]
     },
     {
@@ -125,16 +125,15 @@
       "sin_type": "傲慢",
       "damage_type": "穿刺",
       "base_value": 12,
-      "coin_power": 3,
-      "coin_count": 2,
+      "coin_power": 15,
+      "coin_count": 1,
       "attack_level": 38,
-      "attack_weight": 1,
+      "attack_weight": 7,
       "is_guard": false,
       "guard_type": "",
       "importance": 0,
       "coin_effects": [
-        "[使用时] 使所有欲望之树恢复15点体力。若没有欲望之树则生成一株",
-        "[命中时] 使自身恢复10点体力并对目标施加3层 种子"
+        "[使用时]使所有欲望之树恢复15点体力。若没有欲望之树则生成一株"
       ]
     }
   ],

@@ -1,0 +1,21 @@
+{
+  "id": "gift_9111_upgraded_2",
+  "title": "生物剧毒药瓶",
+  "url": "https://limbuscompany.huijiwiki.com/wiki/E.G.O饰品",
+  "categories": [
+    "E.G.O饰品"
+  ],
+  "content": "带有震颤强度的敌方单位阵亡时，下回合随机对1名敌方单位（若是异想体，则改为随机部位）造成（阵亡单位的震颤强度与层数之和×0.75）点怠惰伤害",
+  "source": "tabx",
+  "_structured": true,
+  "page_type": "ego_gift",
+  "gift_name": "生物剧毒药瓶",
+  "rarity": 3,
+  "cost": "259",
+  "effect_types": "震颤",
+  "attack_type": "怠惰",
+  "location": "镜像迷宫",
+  "stage": "upgraded_2",
+  "event": "事件-陆行珍珠",
+  "_schema_version": 1
+}

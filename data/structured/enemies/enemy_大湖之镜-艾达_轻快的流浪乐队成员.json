@@ -1,0 +1,185 @@
+{
+  "page_type": "enemy",
+  "title": "大湖之镜-艾达",
+  "enemy_name": "轻快的流浪乐队成员",
+  "battle_stage": "大湖之镜-艾达",
+  "body_part": "",
+  "hp": 119,
+  "defense_level": 40,
+  "speed_min": 2,
+  "speed_max": 5,
+  "chaos_threshold": "",
+  "physical_resistances": {
+    "斩击": 2.0,
+    "突刺": 1.0,
+    "打击": 0.75
+  },
+  "sin_resistances": {
+    "暴怒": 1.0,
+    "色欲": 1.0,
+    "怠惰": 1.0,
+    "暴食": 1.0,
+    "忧郁": 1.0,
+    "傲慢": 1.0,
+    "嫉妒": 1.0
+  },
+  "panic_types": [
+    "畏缩"
+  ],
+  "passives": [
+    "无"
+  ],
+  "skills": [
+    {
+      "skill_name": "来跳舞吧~",
+      "icon_id": "9002401",
+      "sin_type": "怠惰",
+      "damage_type": "突刺",
+      "base_value": 2,
+      "coin_power": 1,
+      "coin_count": 3,
+      "attack_level": 42,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "硬币1：[命中时]使自身恢复2点理智值",
+        "硬币2：[命中时]使自身恢复2点理智值",
+        "硬币3：[命中时]使自身恢复2点理智值"
+      ]
+    },
+    {
+      "skill_name": "热情之舞",
+      "icon_id": "9002502",
+      "sin_type": "嫉妒",
+      "damage_type": "斩击",
+      "base_value": 3,
+      "coin_power": 2,
+      "coin_count": 2,
+      "attack_level": 42,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[使用时]下回合使自身获得1层强壮"
+      ]
+    },
+    {
+      "skill_name": "舞蹈决斗",
+      "icon_id": "9002403",
+      "sin_type": "忧郁",
+      "damage_type": "斩击",
+      "base_value": 2,
+      "coin_power": 2,
+      "coin_count": 3,
+      "attack_level": 42,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[拼点胜利]使目标失去5点理智值",
+        "硬币3：[命中时]下回合对目标施加2层虚弱"
+      ]
+    },
+    {
+      "skill_name": "笑里藏刀",
+      "icon_id": "9002404",
+      "sin_type": "忧郁",
+      "damage_type": "突刺",
+      "base_value": 2,
+      "coin_power": 1,
+      "coin_count": 4,
+      "attack_level": 42,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "若目标的理智值不高于0，则使本技能的威力+1"
+      ]
+    },
+    {
+      "skill_name": "来跳舞吧~",
+      "icon_id": "9002401",
+      "sin_type": "怠惰",
+      "damage_type": "突刺",
+      "base_value": 2,
+      "coin_power": 1,
+      "coin_count": 3,
+      "attack_level": 45,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "硬币1：[命中时]使自身恢复2点理智值",
+        "硬币2：[命中时]使自身恢复2点理智值",
+        "硬币3：[命中时]使自身恢复2点理智值"
+      ]
+    },
+    {
+      "skill_name": "热情之舞",
+      "icon_id": "9002502",
+      "sin_type": "嫉妒",
+      "damage_type": "斩击",
+      "base_value": 3,
+      "coin_power": 2,
+      "coin_count": 2,
+      "attack_level": 45,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[使用时]下回合使自身获得1层强壮"
+      ]
+    },
+    {
+      "skill_name": "舞蹈决斗",
+      "icon_id": "9002403",
+      "sin_type": "忧郁",
+      "damage_type": "斩击",
+      "base_value": 2,
+      "coin_power": 2,
+      "coin_count": 3,
+      "attack_level": 45,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[拼点胜利]使目标失去5点理智值",
+        "硬币3：[命中时]下回合对目标施加2层虚弱"
+      ]
+    },
+    {
+      "skill_name": "笑里藏刀",
+      "icon_id": "9002404",
+      "sin_type": "忧郁",
+      "damage_type": "突刺",
+      "base_value": 2,
+      "coin_power": 1,
+      "coin_count": 4,
+      "attack_level": 45,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "若目标的理智值不高于0，则使本技能的威力+1"
+      ]
+    }
+  ],
+  "is_ally": false,
+  "_structured": true,
+  "appear_stages": [
+    "大湖之镜-艾达"
+  ],
+  "enemy_id": "大湖之镜-艾达|轻快的流浪乐队成员|",
+  "defense": 40,
+  "speed": "2~5",
+  "_schema_version": 1
+}

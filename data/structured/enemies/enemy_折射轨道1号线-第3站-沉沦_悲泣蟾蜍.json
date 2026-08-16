@@ -38,15 +38,15 @@
       "base_value": 4,
       "coin_power": 7,
       "coin_count": 1,
-      "attack_level": 1,
+      "attack_level": 59,
       "attack_weight": 1,
       "is_guard": false,
       "guard_type": "",
       "importance": 0,
       "coin_effects": [
-        "使用时对目标造成15点理智伤害",
-        "1不可摧毁的硬币",
-        "命中时使目标增加5级沉沦强度并对其施加5层沉沦"
+        "[使用时]对目标造成15点理智伤害",
+        "硬币1：不可摧毁的硬币",
+        "[命中时]使目标增加5级沉沦强度并对其施加5层沉沦"
       ]
     },
     {
@@ -57,14 +57,14 @@
       "base_value": 4,
       "coin_power": 7,
       "coin_count": 1,
-      "attack_level": 1,
+      "attack_level": 59,
       "attack_weight": 1,
       "is_guard": false,
       "guard_type": "",
       "importance": 0,
       "coin_effects": [
-        "拼点开始使目标恢复10点理智值",
-        "1命中时本硬币不会造成体力伤害，而改为造成伤害量一半的理智伤害"
+        "[拼点开始]使目标恢复10点理智值",
+        "硬币1：[命中时]本硬币不会造成体力伤害，而改为造成伤害量一半的理智伤害"
       ]
     },
     {
@@ -75,16 +75,16 @@
       "base_value": 7,
       "coin_power": 4,
       "coin_count": 2,
-      "attack_level": 1,
+      "attack_level": 59,
       "attack_weight": 1,
       "is_guard": false,
       "guard_type": "",
       "importance": 0,
       "coin_effects": [
         "若目标的理智值低于0点，则使本技能造成的伤害+50%",
-        "使用时对目标造成10点理智伤害",
-        "1命中时 对目标额外造成相当于其沉沦强度的体力伤害",
-        "2命中时对目标额外造成相当于其沉沦强度的体力伤害"
+        "[使用时]对目标造成10点理智伤害",
+        "硬币1：[命中时] 对目标额外造成相当于其沉沦强度的体力伤害",
+        "硬币2：[命中时]对目标额外造成相当于其沉沦强度的体力伤害"
       ]
     },
     {
@@ -95,7 +95,7 @@
       "base_value": 3,
       "coin_power": 4,
       "coin_count": 3,
-      "attack_level": 1,
+      "attack_level": 59,
       "attack_weight": 1,
       "is_guard": false,
       "guard_type": "",
@@ -103,10 +103,10 @@
       "coin_effects": [
         "优先指定沉沦强度最高的目标",
         "若目标的理智值低于0点，则使本技能造成的伤害+30%",
-        "使用时对目标造成5点理智伤害",
-        "1命中时对目标施加3层沉沦",
-        "2命中时对目标额外造成相当于其沉沦强度的体力伤害",
-        "3命中时对目标额外造成相当于其沉沦强度的理智伤害"
+        "[使用时]对目标造成5点理智伤害",
+        "硬币1：[命中时]对目标施加3层沉沦",
+        "硬币2：[命中时]对目标额外造成相当于其沉沦强度的体力伤害",
+        "硬币3：[命中时]对目标额外造成相当于其沉沦强度的理智伤害"
       ]
     },
     {
@@ -117,16 +117,16 @@
       "base_value": 14,
       "coin_power": 8,
       "coin_count": 1,
-      "attack_level": 1,
+      "attack_level": 59,
       "attack_weight": 1,
       "is_guard": false,
       "guard_type": "",
       "importance": 0,
       "coin_effects": [
         "若主要目标的理智值低于0点，则使本技能造成的伤害+100%",
-        "拼点失败取消所有技能",
-        "拼点失败对自身施加3层易损",
-        "1命中时使目标的沉沦强度与层数变为2倍"
+        "[拼点失败]取消所有技能",
+        "[拼点失败]对自身施加3层易损",
+        "硬币1：[命中时]使目标的沉沦强度与层数变为2倍"
       ]
     },
     {
@@ -137,13 +137,13 @@
       "base_value": 7,
       "coin_power": 5,
       "coin_count": 1,
-      "attack_level": 0,
+      "attack_level": 65,
       "attack_weight": 1,
       "is_guard": false,
       "guard_type": "",
       "importance": 0,
       "coin_effects": [
-        "战斗开始使自身获得2层守护"
+        "[战斗开始]使自身获得2层守护"
       ]
     }
   ],

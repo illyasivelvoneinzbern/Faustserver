@@ -1,0 +1,21 @@
+{
+  "id": "gift_9134_upgraded_2",
+  "title": "巡逻用手电筒",
+  "url": "https://limbuscompany.huijiwiki.com/wiki/E.G.O饰品",
+  "categories": [
+    "E.G.O饰品"
+  ],
+  "content": "[第1、第2、第3顺位人格专属]\n回合开始时，使适用的人格获得3层充能力场\n若适用的人格拥有获得或消耗充能层数或特殊充能的技能且带有充能力场，则使其1技能的拼点威力+1，造成的伤害+15%。",
+  "source": "tabx",
+  "_structured": true,
+  "page_type": "ego_gift",
+  "gift_name": "巡逻用手电筒",
+  "rarity": 2,
+  "cost": "210",
+  "effect_types": "充能",
+  "attack_type": "嫉妒",
+  "location": "镜像迷宫",
+  "stage": "upgraded_2",
+  "event": "事件-迷失的乘客",
+  "_schema_version": 1
+}

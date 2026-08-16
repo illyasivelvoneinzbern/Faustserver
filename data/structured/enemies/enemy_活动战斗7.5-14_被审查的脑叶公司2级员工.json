@@ -40,16 +40,15 @@
       "sin_type": "暴怒",
       "damage_type": "打击",
       "base_value": 4,
-      "coin_power": 987,
-      "coin_count": 2,
+      "coin_power": 7,
+      "coin_count": 1,
       "attack_level": 50,
       "attack_weight": 1,
       "is_guard": false,
       "guard_type": "",
       "importance": 0,
       "coin_effects": [
-        "[命中时] 对目标施加2层 破裂",
-        "[命中时] 对目标造成2点理智伤害"
+        "若目标未带有{{状态2|破裂|4=负面}}，则使本技能的拼点威力+1"
       ]
     },
     {
@@ -58,20 +57,15 @@
       "sin_type": "色欲",
       "damage_type": "打击",
       "base_value": 4,
-      "coin_power": 9,
-      "coin_count": 3,
+      "coin_power": 4,
+      "coin_count": 2,
       "attack_level": 50,
       "attack_weight": 1,
       "is_guard": false,
       "guard_type": "",
       "importance": 0,
       "coin_effects": [
-        "[使用时] 若目标的 破裂 强度不低于5级，则使本技能的硬币威力+1",
-        "[命中时] 使目标增加3级 破裂 强度",
-        "[命中时] 对目标造成3点理智伤害",
-        "[命中时] 使目标增加4级 破裂 强度",
-        "[命中时] 使自身恢复本硬币伤害量的体力(最多20点)",
-        "[命中时] 对目标造成5点理智伤害"
+        "[使用时]若目标的{{状态2|破裂|4=负面}}强度不低于5级，则使本技能的硬币威力+1"
       ]
     },
     {
@@ -80,20 +74,15 @@
       "sin_type": "暴食",
       "damage_type": "打击",
       "base_value": 3,
-      "coin_power": 854,
-      "coin_count": 4,
+      "coin_power": 4,
+      "coin_count": 3,
       "attack_level": 50,
       "attack_weight": 1,
       "is_guard": false,
       "guard_type": "",
       "importance": 0,
       "coin_effects": [
-        "[使用时] 目标每带有3级破裂 强度，使本技能的硬币威力+1(最多+2)",
-        "[命中时] 使目标增加4级 破裂 强度",
-        "[命中时] 使目标增加3级 破裂 强度",
-        "[命中时] 使自身恢复本硬币伤害量的体力(最多20点)",
-        "[命中时] 若现存体力不高于体力上限的50%，则重复使用本硬币1次",
-        "[命中时] 对目标造成10点理智伤害"
+        "[使用时]目标每带有3级破裂 强度，使本技能的硬币威力+1(最多+2)"
       ]
     },
     {
@@ -102,15 +91,15 @@
       "sin_type": "暴食",
       "damage_type": "防御",
       "base_value": 4,
-      "coin_power": 854,
+      "coin_power": 10,
       "coin_count": 1,
-      "attack_level": 0,
+      "attack_level": 50,
       "attack_weight": 1,
       "is_guard": false,
       "guard_type": "",
       "importance": 0,
       "coin_effects": [
-        "使用时目标每带有5级{{状态2|破裂|4=负面}}强度，使自身获得5点护盾"
+        "[使用时]目标每带有5级{{状态2|破裂|4=负面}}强度，使自身获得5点护盾"
       ]
     }
   ],

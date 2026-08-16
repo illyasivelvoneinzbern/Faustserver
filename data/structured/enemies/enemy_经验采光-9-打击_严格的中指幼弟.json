@@ -34,15 +34,15 @@
       "sin_type": "嫉妒",
       "damage_type": "打击",
       "base_value": 5,
-      "coin_power": 5793,
-      "coin_count": 2,
+      "coin_power": 6,
+      "coin_count": 1,
       "attack_level": 54,
       "attack_weight": 1,
       "is_guard": false,
       "guard_type": "",
       "importance": 0,
       "coin_effects": [
-        "[正面命中时] 下回合对目标施加1层 麻痹"
+        "硬币1：[正面命中时]下回合对目标施加1层{{状态2|麻痹|4=负面}}"
       ]
     },
     {
@@ -51,16 +51,17 @@
       "sin_type": "嫉妒",
       "damage_type": "打击",
       "base_value": 4,
-      "coin_power": 5793,
-      "coin_count": 3,
+      "coin_power": 5,
+      "coin_count": 2,
       "attack_level": 54,
       "attack_weight": 1,
       "is_guard": false,
       "guard_type": "",
       "importance": 0,
       "coin_effects": [
-        "[命中时] 下回合对目标施加2层 伤害弱化",
-        "[命中时] 根据本波次中属于中指的友方单位的阵亡数，对目标额外造成相应的固定伤害"
+        "[拼点失败]下回合使自身获得1层伤害强化",
+        "硬币1：[命中时]下回合对目标施加2层{{状态2|伤害弱化|4=负面}}",
+        "硬币2：[命中时]根据本波次中属于中指的友方单位的阵亡数，对目标额外造成相应的固定伤害"
       ]
     },
     {
@@ -69,16 +70,16 @@
       "sin_type": "嫉妒",
       "damage_type": "打击",
       "base_value": 3,
-      "coin_power": 5793,
-      "coin_count": 5,
+      "coin_power": 7,
+      "coin_count": 2,
       "attack_level": 54,
       "attack_weight": 1,
       "is_guard": false,
       "guard_type": "",
       "importance": 0,
       "coin_effects": [
-        "[正面命中时] 下回合对目标施加1层 加算硬币弱化",
-        "[命中时] 下回合对目标施加1层 加算硬币弱化"
+        "硬币1：[正面命中时]下回合对目标施加1层加算硬币弱化",
+        "硬币2：[命中时]下回合对目标施加1层加算硬币弱化"
       ]
     },
     {
@@ -87,15 +88,15 @@
       "sin_type": "常规",
       "damage_type": "防御",
       "base_value": 10,
-      "coin_power": 79,
+      "coin_power": 8,
       "coin_count": 1,
-      "attack_level": 0,
+      "attack_level": 54,
       "attack_weight": 1,
       "is_guard": false,
       "guard_type": "",
       "importance": 0,
       "coin_effects": [
-        "回合结束时若自身还剩余护盾值，则下回合获得1层强壮"
+        "[回合结束时]若自身还剩余护盾值，则下回合获得1层强壮"
       ]
     },
     {
@@ -104,7 +105,7 @@
       "sin_type": "暴怒",
       "damage_type": "打击",
       "base_value": 14,
-      "coin_power": 987,
+      "coin_power": -2,
       "coin_count": 2,
       "attack_level": 54,
       "attack_weight": 1,
@@ -112,9 +113,9 @@
       "guard_type": "",
       "importance": 0,
       "coin_effects": [
-        "拼点失败下回合使自身获得1层伤害强化",
-        "2命中时下回合对目标施加2层{{状态2|麻痹|4=负面}}",
-        "反面命中时使目标混乱阀值前移8"
+        "[拼点失败]下回合使自身获得1层伤害强化",
+        "硬币2：[命中时]下回合对目标施加2层{{状态2|麻痹|4=负面}}",
+        "[反面命中时]使目标混乱阀值前移8"
       ]
     },
     {
@@ -123,17 +124,17 @@
       "sin_type": "傲慢",
       "damage_type": "打击",
       "base_value": 8,
-      "coin_power": 3,
-      "coin_count": 2,
+      "coin_power": 5,
+      "coin_count": 1,
       "attack_level": 54,
       "attack_weight": 1,
       "is_guard": false,
       "guard_type": "",
       "importance": 0,
       "coin_effects": [
-        "[命中时] 使目标混乱阀值前移30",
-        "[命中时] 对目标造成20点固定伤害",
-        "[正面命中时] 下回合对目标施加3层 麻痹"
+        "硬币1：[命中时]使目标混乱阀值前移30",
+        "[命中时]对目标造成20点固定伤害",
+        "[正面命中时]下回合对目标施加3层{{状态2|麻痹|4=负面}}"
       ]
     }
   ],

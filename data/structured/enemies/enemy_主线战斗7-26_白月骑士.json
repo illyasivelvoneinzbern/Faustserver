@@ -34,18 +34,18 @@
       "icon_id": "838901",
       "sin_type": "傲慢",
       "damage_type": "斩击",
-      "base_value": 0,
-      "coin_power": 3,
-      "coin_count": 3,
+      "base_value": 11,
+      "coin_power": 8,
+      "coin_count": 2,
       "attack_level": 50,
       "attack_weight": 1,
       "is_guard": false,
       "guard_type": "",
       "importance": 0,
       "coin_effects": [
-        "[使用时] 下回合使自身获得2层 迅捷",
-        "[命中时] 下回合使自身获得1层 迅捷",
-        "[命中时] 下回合对目标施加2层 易损"
+        "[使用时]下回合使自身获得2层迅捷",
+        "硬币1：[命中时]下回合使自身获得1层迅捷",
+        "硬币2：[命中时]下回合对目标施加2层易损"
       ]
     },
     {
@@ -53,18 +53,18 @@
       "icon_id": "838902",
       "sin_type": "傲慢",
       "damage_type": "斩击",
-      "base_value": 0,
-      "coin_power": 3,
-      "coin_count": 3,
+      "base_value": 11,
+      "coin_power": 8,
+      "coin_count": 2,
       "attack_level": 50,
       "attack_weight": 1,
       "is_guard": false,
       "guard_type": "",
       "importance": 0,
       "coin_effects": [
-        "[使用时] 下回合使自身获得2层 迅捷",
-        "[命中时] 下回合使自身获得1层 迅捷",
-        "[命中时] 下回合对目标施加2层 易损"
+        "[使用时]下回合使自身获得2层迅捷",
+        "硬币1：[命中时]下回合使自身获得1层迅捷",
+        "硬币2：[命中时]下回合对目标施加2层易损"
       ]
     },
     {
@@ -72,17 +72,18 @@
       "icon_id": "838903",
       "sin_type": "怠惰",
       "damage_type": "斩击",
-      "base_value": 0,
-      "coin_power": 9703,
-      "coin_count": 4,
+      "base_value": 8,
+      "coin_power": 11,
+      "coin_count": 2,
       "attack_level": 50,
       "attack_weight": 1,
       "is_guard": false,
       "guard_type": "",
       "importance": 0,
       "coin_effects": [
-        "[使用时] 下回合使自身获得3层 迅捷 不可摧毁的硬币",
-        "[命中时] 下回合对目标施加3层 斩击易损"
+        "[使用时]下回合使自身获得3层迅捷",
+        "硬币1：不可摧毁的硬币",
+        "硬币2：[命中时]下回合对目标施加3层斩击易损"
       ]
     },
     {
@@ -90,16 +91,18 @@
       "icon_id": "838904",
       "sin_type": "傲慢",
       "damage_type": "斩击",
-      "base_value": 0,
-      "coin_power": 3,
-      "coin_count": 4,
+      "base_value": 10,
+      "coin_power": 10,
+      "coin_count": 2,
       "attack_level": 50,
       "attack_weight": 1,
       "is_guard": false,
       "guard_type": "",
       "importance": 0,
       "coin_effects": [
-        "[命中时] 对目标额外造成100点伤害"
+        "若自身的速度值高于目标5点或以上，则使本技能的拼点威力+5",
+        "硬币1：不可摧毁的硬币",
+        "硬币2：[命中时]对目标额外造成100点伤害"
       ]
     },
     {
@@ -107,17 +110,18 @@
       "icon_id": "838905",
       "sin_type": "暴怒",
       "damage_type": "穿刺",
-      "base_value": 0,
-      "coin_power": 987,
-      "coin_count": 3,
+      "base_value": 7,
+      "coin_power": 12,
+      "coin_count": 2,
       "attack_level": 50,
       "attack_weight": 1,
       "is_guard": false,
       "guard_type": "",
       "importance": 0,
       "coin_effects": [
-        "[使用时] 下回合使自身获得2层 迅捷",
-        "[命中时] 对目标额外造成50点伤害"
+        "[使用时]下回合使自身获得2层迅捷",
+        "硬币1：[命中时]对目标额外造成50点伤害",
+        "硬币2：[命中时]对目标额外造成50点伤害"
       ]
     },
     {
@@ -125,17 +129,18 @@
       "icon_id": "838906",
       "sin_type": "嫉妒",
       "damage_type": "穿刺",
-      "base_value": 0,
-      "coin_power": 5793,
-      "coin_count": 3,
+      "base_value": 7,
+      "coin_power": 12,
+      "coin_count": 2,
       "attack_level": 50,
       "attack_weight": 1,
       "is_guard": false,
       "guard_type": "",
       "importance": 0,
       "coin_effects": [
-        "[使用时] 下回合使自身获得2层 迅捷",
-        "[命中时] 对目标施加2层 精神裂痕"
+        "[使用时]下回合使自身获得2层迅捷",
+        "硬币1：[命中时]对目标施加2层精神裂痕",
+        "硬币2：[命中时]对目标施加2层精神裂痕"
       ]
     },
     {
@@ -143,16 +148,19 @@
       "icon_id": "838907",
       "sin_type": "忧郁",
       "damage_type": "防御",
-      "base_value": 0,
-      "coin_power": 3,
-      "coin_count": 3,
-      "attack_level": 0,
+      "base_value": 15,
+      "coin_power": 12,
+      "coin_count": 1,
+      "attack_level": 50,
       "attack_weight": 1,
       "is_guard": true,
       "guard_type": "防御",
       "importance": 0,
       "coin_effects": [
-        "[使用时] 下回合使自身获得3层 守护"
+        "可拼点防御",
+        "[使用时]下回合使自身获得3层守护",
+        "[拼点胜利]对目标造成相当于本技能最终拼点威力的体力伤害",
+        "硬币1：不可摧毁的硬币"
       ]
     },
     {
@@ -160,16 +168,16 @@
       "icon_id": "838908",
       "sin_type": "傲慢",
       "damage_type": "防御",
-      "base_value": 0,
-      "coin_power": 3,
+      "base_value": 10,
+      "coin_power": 10,
       "coin_count": 1,
-      "attack_level": 0,
+      "attack_level": 50,
       "attack_weight": 1,
       "is_guard": false,
       "guard_type": "",
       "importance": 0,
       "coin_effects": [
-        "战斗开始下回合使自身获得10层强壮与10层迅捷"
+        "[战斗开始]下回合使自身获得10层强壮与10层迅捷"
       ]
     }
   ],

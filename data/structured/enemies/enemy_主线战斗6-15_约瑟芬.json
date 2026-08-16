@@ -32,7 +32,42 @@
       "skill_name": "敲击",
       "icon_id": "9101401",
       "sin_type": "忧郁",
-      "damage_type": "",
+      "damage_type": "斩击",
+      "base_value": 3,
+      "coin_power": 4,
+      "coin_count": 2,
+      "attack_level": 47,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[使用时]若目标的沉沦强度不低于5级，则对目标施加1层攻击等级降低"
+      ]
+    },
+    {
+      "skill_name": "打扫时间！",
+      "icon_id": "9101402",
+      "sin_type": "忧郁",
+      "damage_type": "打击",
+      "base_value": 3,
+      "coin_power": 4,
+      "coin_count": 2,
+      "attack_level": 47,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[使用时]若目标的理智值不高于10点，则对目标施加2层攻击等级降低",
+        "[拼点胜利]对目标施加1层易损"
+      ]
+    },
+    {
+      "skill_name": "遵夫人之命…！",
+      "icon_id": "9101403",
+      "sin_type": "色欲",
+      "damage_type": "打击",
       "base_value": 3,
       "coin_power": 3,
       "coin_count": 3,
@@ -42,85 +77,44 @@
       "guard_type": "",
       "importance": 0,
       "coin_effects": [
-        "[使用时] 若目标的 沉沦 强度不低于5级，则对目标施加1层 攻击等级降低",
-        "[命中时] 使目标增加4级 沉沦 强度",
-        "[命中时] 下回合对目标施加1层 束缚",
-        "[命中时] 下回合对目标施加1层 麻痹"
-      ]
-    },
-    {
-      "skill_name": "打扫时间！",
-      "icon_id": "9101402",
-      "sin_type": "忧郁",
-      "damage_type": "",
-      "base_value": 3,
-      "coin_power": 3,
-      "coin_count": 4,
-      "attack_level": 47,
-      "attack_weight": 1,
-      "is_guard": false,
-      "guard_type": "",
-      "importance": 0,
-      "coin_effects": [
-        "[使用时] 若目标的理智值不高于10点，则对目标施加2层 攻击等级降低",
-        "[命中时] 下回合对目标施加1层 加算硬币弱化",
-        "[命中时] 对目标施加3层 沉沦",
-        "[命中时] 下回合对目标施加2层 易损"
-      ]
-    },
-    {
-      "skill_name": "遵夫人之命…！",
-      "icon_id": "9101403",
-      "sin_type": "色欲",
-      "damage_type": "",
-      "base_value": 3,
-      "coin_power": 9,
-      "coin_count": 4,
-      "attack_level": 47,
-      "attack_weight": 1,
-      "is_guard": false,
-      "guard_type": "",
-      "importance": 0,
-      "coin_effects": [
-        "[使用时] 目标每带有3级 沉沦 强度，则使本技能的基础威力+1（最多+3）",
-        "[命中时] 使目标增加8级 沉沦 强度",
-        "[正面命中时] 对目标施加2层 沉沦",
-        "[命中时] 下回合对目标施加2层 山庄的回响"
+        "[使用时]目标每带有3级沉沦强度，则使本技能的基础威力+1（最多+3）",
+        "[拼点胜利]使全体友方单位恢复5点理智值"
       ]
     },
     {
       "skill_name": "一尘…不染！",
       "icon_id": "9101404",
       "sin_type": "傲慢",
-      "damage_type": "",
+      "damage_type": "打击",
       "base_value": 5,
       "coin_power": 3,
-      "coin_count": 4,
+      "coin_count": 3,
       "attack_level": 47,
       "attack_weight": 1,
       "is_guard": false,
       "guard_type": "",
       "importance": 0,
       "coin_effects": [
-        "[命中时] 对目标额外造成相当于其 沉沦 强度的忧郁伤害并使其 沉沦 层数减少1层",
-        "[命中时] 使目标增加4级 沉沦 强度",
-        "[命中时] 若目标的 沉沦 层数不低于3层，则重复使用本硬币（最多2次）"
+        "[战斗开始]使包括自身在内的全体友方单位获得3层攻击等级提升并恢复15点理智值",
+        "[战斗开始]对除自身以外的全体友方单位施加1层易损"
       ]
     },
     {
       "skill_name": "一群鼠辈！",
       "icon_id": "9101405",
       "sin_type": "常规",
-      "damage_type": "",
+      "damage_type": "防御",
       "base_value": 10,
-      "coin_power": 79,
+      "coin_power": 20,
       "coin_count": 1,
-      "attack_level": 0,
+      "attack_level": 44,
       "attack_weight": 1,
       "is_guard": false,
       "guard_type": "",
       "importance": 0,
-      "coin_effects": []
+      "coin_effects": [
+        "回合结束时若自身带有护盾，则自身的混乱阀值后移50"
+      ]
     }
   ],
   "is_ally": false,

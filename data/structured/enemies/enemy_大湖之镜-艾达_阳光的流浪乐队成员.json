@@ -24,18 +24,161 @@
     "嫉妒": 1.0
   },
   "panic_types": [
-    "畏缩",
-    "虚弱",
-    "畏缩",
-    "虚弱"
+    "畏缩"
   ],
   "passives": [
     "无"
   ],
-  "skills": [],
+  "skills": [
+    {
+      "skill_name": "来跳舞吧~",
+      "icon_id": "9002401",
+      "sin_type": "怠惰",
+      "damage_type": "突刺",
+      "base_value": 2,
+      "coin_power": 1,
+      "coin_count": 3,
+      "attack_level": 42,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "硬币1：[命中时]使自身恢复2点理智值",
+        "硬币2：[命中时]使自身恢复2点理智值",
+        "硬币3：[命中时]使自身恢复2点理智值"
+      ]
+    },
+    {
+      "skill_name": "宁静之舞",
+      "icon_id": "9002402",
+      "sin_type": "嫉妒",
+      "damage_type": "斩击",
+      "base_value": 3,
+      "coin_power": 2,
+      "coin_count": 2,
+      "attack_level": 42,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[使用时]下回合使全体友方单位获得1层忍耐"
+      ]
+    },
+    {
+      "skill_name": "诶~呀！",
+      "icon_id": "9002405",
+      "sin_type": "",
+      "damage_type": "闪避",
+      "base_value": 2,
+      "coin_power": 6,
+      "coin_count": 1,
+      "attack_level": 43,
+      "attack_weight": 1,
+      "is_guard": true,
+      "guard_type": "闪避",
+      "importance": 0,
+      "coin_effects": [
+        "[闪避成功时]使目标失去5点理智值"
+      ]
+    },
+    {
+      "skill_name": "舞蹈决斗",
+      "icon_id": "9002403",
+      "sin_type": "忧郁",
+      "damage_type": "斩击",
+      "base_value": 2,
+      "coin_power": 2,
+      "coin_count": 3,
+      "attack_level": 42,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[拼点胜利]使目标失去5点理智值",
+        "硬币3：[命中时]下回合对目标施加2层虚弱"
+      ]
+    },
+    {
+      "skill_name": "来跳舞吧~",
+      "icon_id": "9002401",
+      "sin_type": "怠惰",
+      "damage_type": "突刺",
+      "base_value": 2,
+      "coin_power": 1,
+      "coin_count": 3,
+      "attack_level": 45,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "硬币1：[命中时]使自身恢复2点理智值",
+        "硬币2：[命中时]使自身恢复2点理智值",
+        "硬币3：[命中时]使自身恢复2点理智值"
+      ]
+    },
+    {
+      "skill_name": "宁静之舞",
+      "icon_id": "9002402",
+      "sin_type": "嫉妒",
+      "damage_type": "斩击",
+      "base_value": 3,
+      "coin_power": 2,
+      "coin_count": 2,
+      "attack_level": 45,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[使用时]下回合使全体友方单位获得1层忍耐"
+      ]
+    },
+    {
+      "skill_name": "诶~呀！",
+      "icon_id": "9002405",
+      "sin_type": "",
+      "damage_type": "闪避",
+      "base_value": 2,
+      "coin_power": 6,
+      "coin_count": 1,
+      "attack_level": 46,
+      "attack_weight": 1,
+      "is_guard": true,
+      "guard_type": "闪避",
+      "importance": 0,
+      "coin_effects": [
+        "[闪避成功时]使目标失去5点理智值"
+      ]
+    },
+    {
+      "skill_name": "舞蹈决斗",
+      "icon_id": "9002403",
+      "sin_type": "忧郁",
+      "damage_type": "斩击",
+      "base_value": 2,
+      "coin_power": 2,
+      "coin_count": 3,
+      "attack_level": 45,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[拼点胜利]使目标失去5点理智值",
+        "硬币3：[命中时]下回合对目标施加2层虚弱"
+      ]
+    }
+  ],
   "is_ally": false,
   "_structured": true,
-  "enemy_id": "大湖之镜-艾达|阳光的流浪乐队成员",
+  "appear_stages": [
+    "大湖之镜-艾达"
+  ],
+  "enemy_id": "大湖之镜-艾达|阳光的流浪乐队成员|",
   "defense": 40,
   "speed": "2~5",
   "_schema_version": 1

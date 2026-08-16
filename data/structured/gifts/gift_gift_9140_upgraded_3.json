@@ -1,0 +1,20 @@
+{
+  "id": "gift_9140_upgraded_3",
+  "title": "决意",
+  "url": "https://limbuscompany.huijiwiki.com/wiki/E.G.O饰品",
+  "categories": [
+    "E.G.O饰品"
+  ],
+  "content": "本场战斗中，拥有不低于2个斩击技能的友方单位首个回合的拼点威力+1，从第2回合起使其获得2层迅捷并使其最终威力+1。\n属于し协会的友方单位恢复体力至多恢复至体力上限的49%，但受到的伤害与使自身恢复的体力-75%（关卡开始时立即触发，不包括E.G.O饰品恢复的体力）。\n每回合开始时，使属于し协会的友方单位获得1层斩击威力提升与3层斩击伤害强化",
+  "source": "tabx",
+  "_structured": true,
+  "page_type": "ego_gift",
+  "gift_name": "决意",
+  "rarity": 2,
+  "cost": "207",
+  "effect_types": "斩击",
+  "attack_type": "忧郁",
+  "location": "镜像迷宫",
+  "stage": "upgraded_3",
+  "_schema_version": 1
+}

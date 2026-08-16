@@ -32,27 +32,29 @@
       "skill_name": "尖钉洗礼",
       "icon_id": "9100601",
       "sin_type": "傲慢",
-      "damage_type": "",
+      "damage_type": "突刺",
       "base_value": 5,
-      "coin_power": 3,
-      "coin_count": 4,
+      "coin_power": 1,
+      "coin_count": 3,
       "attack_level": 27,
       "attack_weight": 1,
       "is_guard": false,
       "guard_type": "",
       "importance": 0,
       "coin_effects": [
-        "[命中时] 下回合对目标施加1层 N公司的尖钉",
-        "[命中时] 下回合对目标施加2层 N公司的尖钉"
+        "若自身的体力不高于50%，则使本技能施加的{{状态2|N公司的尖钉|3=尖钉|4=负面}}层数额外+1层",
+        "硬币1：[命中时] 下回合对目标施加1层{{状态2|N公司的尖钉|3=尖钉|4=负面}}",
+        "硬币2：[命中时] 下回合对目标施加1层{{状态2|N公司的尖钉|3=尖钉|4=负面}}",
+        "硬币3：[命中时] 下回合对目标施加2层{{状态2|N公司的尖钉|3=尖钉|4=负面}}"
       ]
     },
     {
       "skill_name": "穿刺钉刑",
       "icon_id": "9100602",
       "sin_type": "傲慢",
-      "damage_type": "",
+      "damage_type": "突刺",
       "base_value": 4,
-      "coin_power": 3,
+      "coin_power": 5,
       "coin_count": 2,
       "attack_level": 27,
       "attack_weight": 1,
@@ -60,48 +62,85 @@
       "guard_type": "",
       "importance": 0,
       "coin_effects": [
-        "[命中时] 下回合使目标增加5级 流血 强度"
+        "硬币1：[命中时] 下回合使目标增加5级{{状态2|流血|4=负面}}强度"
       ]
     },
     {
       "skill_name": "虔诚信仰",
       "icon_id": "9100505",
       "sin_type": "常规",
-      "damage_type": "",
+      "damage_type": "防御",
       "base_value": 12,
-      "coin_power": 79,
+      "coin_power": 4,
       "coin_count": 1,
-      "attack_level": 0,
-      "attack_weight": 1,
-      "is_guard": false,
-      "guard_type": "",
-      "importance": 0,
-      "coin_effects": []
-    },
-    {
-      "skill_name": "愚不可及……！",
-      "icon_id": "9100606",
-      "sin_type": "傲慢",
-      "damage_type": "",
-      "base_value": 8,
-      "coin_power": 3,
-      "coin_count": 2,
       "attack_level": 27,
       "attack_weight": 1,
       "is_guard": false,
       "guard_type": "",
       "importance": 0,
       "coin_effects": [
-        "[命中时] 对目标施加1层 N公司的尖钉"
+        "[使用时]使自身获得2层守护"
+      ]
+    },
+    {
+      "skill_name": "愚不可及……！",
+      "icon_id": "9100606",
+      "sin_type": "傲慢",
+      "damage_type": "突刺",
+      "base_value": 8,
+      "coin_power": -4,
+      "coin_count": 1,
+      "attack_level": 27,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "硬币1：[命中时] 对目标施加1层{{状态2|N公司的尖钉|3=尖钉|4=负面}}"
       ]
     },
     {
       "skill_name": "锤们，听命…！",
       "icon_id": "9100603",
       "sin_type": "色欲",
-      "damage_type": "",
+      "damage_type": "突刺",
       "base_value": 4,
-      "coin_power": 9,
+      "coin_power": 6,
+      "coin_count": 1,
+      "attack_level": 27,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[拼点胜利]使全体友方单位获得1层狂信（敌方）",
+        "硬币1：[命中时]使理智值最低的2名友方单位恢复10点理智值"
+      ]
+    },
+    {
+      "skill_name": "铸就伟业…！",
+      "icon_id": "9100603",
+      "sin_type": "色欲",
+      "damage_type": "突刺",
+      "base_value": 4,
+      "coin_power": 6,
+      "coin_count": 1,
+      "attack_level": 27,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[使用时]下回合使全体友方单位获得1层狂信（敌方）"
+      ]
+    },
+    {
+      "skill_name": "涤净…罪孽！",
+      "icon_id": "9100604",
+      "sin_type": "暴怒",
+      "damage_type": "打击",
+      "base_value": 5,
+      "coin_power": 5,
       "coin_count": 2,
       "attack_level": 27,
       "attack_weight": 1,
@@ -109,58 +148,27 @@
       "guard_type": "",
       "importance": 0,
       "coin_effects": [
-        "[命中时] 使理智值最低的2名友方单位恢复10点理智值"
-      ]
-    },
-    {
-      "skill_name": "铸就伟业…！",
-      "icon_id": "9100603",
-      "sin_type": "色欲",
-      "damage_type": "",
-      "base_value": 4,
-      "coin_power": 9,
-      "coin_count": 1,
-      "attack_level": 27,
-      "attack_weight": 1,
-      "is_guard": false,
-      "guard_type": "",
-      "importance": 0,
-      "coin_effects": []
-    },
-    {
-      "skill_name": "涤净…罪孽！",
-      "icon_id": "9100604",
-      "sin_type": "暴怒",
-      "damage_type": "",
-      "base_value": 5,
-      "coin_power": 987,
-      "coin_count": 3,
-      "attack_level": 27,
-      "attack_weight": 1,
-      "is_guard": false,
-      "guard_type": "",
-      "importance": 0,
-      "coin_effects": [
-        "[正面命中时] 对目标施加5层 N公司的尖钉",
-        "[命中时] 若目标的 N公司的尖钉 层数不低于5层，则使其陷入混乱"
+        "硬币1：[正面命中时]对目标施加5层{{状态2|N公司的尖钉|3=尖钉|4=负面}}",
+        "硬币2：[命中时]若目标的{{状态2|N公司的尖钉|3=尖钉|4=负面}}层数不低于5层，则使其陷入混乱"
       ]
     },
     {
       "skill_name": "异端抹杀",
       "icon_id": "9100605",
       "sin_type": "暴怒",
-      "damage_type": "",
+      "damage_type": "突刺",
       "base_value": 11,
-      "coin_power": 987,
-      "coin_count": 3,
+      "coin_power": -4,
+      "coin_count": 2,
       "attack_level": 27,
       "attack_weight": 1,
       "is_guard": false,
       "guard_type": "",
       "importance": 0,
       "coin_effects": [
-        "[命中时] 下回合使目标增加10级 破裂 强度",
-        "[命中时] 下回合对目标施加5层 易损 强度"
+        "若目标带有{{状态2|N公司的尖钉|3=尖钉|4=负面}}，则使本技能造成的伤害+100%",
+        "硬币1：[命中时]下回合使目标增加10级{{状态2|破裂|4=负面}}强度",
+        "硬币2：[命中时]下回合对目标施加5层{{状态2|易损|4=负面}}强度"
       ]
     }
   ],

@@ -1,0 +1,21 @@
+{
+  "id": "gift_9091_upgraded_2",
+  "title": "真理之钟",
+  "url": "https://limbuscompany.huijiwiki.com/wiki/E.G.O饰品",
+  "categories": [
+    "E.G.O饰品"
+  ],
+  "content": "使敌方单位震颤引爆时，本回合与下回合对目标施加1层易损（每个震颤引爆的攻击技能最多1次）",
+  "source": "tabx",
+  "_structured": true,
+  "page_type": "ego_gift",
+  "gift_name": "真理之钟",
+  "rarity": 3,
+  "cost": "268",
+  "effect_types": "震颤",
+  "attack_type": "嫉妒",
+  "location": "镜像迷宫",
+  "stage": "upgraded_2",
+  "event": "事件-发条装置时间不倒翁",
+  "_schema_version": 1
+}

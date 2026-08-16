@@ -29,13 +29,13 @@
     {
       "skill_name": "宇宙燃烧",
       "icon_id": "800205",
-      "sin_type": "",
-      "damage_type": "",
+      "sin_type": "嫉妒",
+      "damage_type": "打击",
       "base_value": 45,
-      "coin_power": 5793,
+      "coin_power": -10,
       "coin_count": 1,
       "attack_level": 1,
-      "attack_weight": 1,
+      "attack_weight": 10,
       "is_guard": false,
       "guard_type": "",
       "importance": 0,
@@ -44,17 +44,19 @@
     {
       "skill_name": "宇宙燃烧",
       "icon_id": "800205",
-      "sin_type": "",
-      "damage_type": "",
+      "sin_type": "嫉妒",
+      "damage_type": "打击",
       "base_value": 45,
-      "coin_power": 5793,
+      "coin_power": -10,
       "coin_count": 1,
       "attack_level": 1,
-      "attack_weight": 1,
+      "attack_weight": 4,
       "is_guard": false,
       "guard_type": "",
       "importance": 0,
-      "coin_effects": []
+      "coin_effects": [
+        "[无法拼点]指定友方单位"
+      ]
     }
   ],
   "is_ally": false,

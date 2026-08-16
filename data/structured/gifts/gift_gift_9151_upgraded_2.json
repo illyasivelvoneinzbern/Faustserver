@@ -1,0 +1,20 @@
+{
+  "id": "gift_9151_upgraded_2",
+  "title": "紧握的雕像",
+  "url": "https://limbuscompany.huijiwiki.com/wiki/E.G.O饰品",
+  "categories": [
+    "E.G.O饰品"
+  ],
+  "content": "[第3、第4、第5顺位友方单位专属]\n打击技能拼点结束后，若剩余硬币数不低于2枚，则使其造成的伤害+10%，若剩余硬币数不低于3枚，则使其造成的伤害+20%，若剩余硬币数不低于4枚，则造成的伤害+40%。",
+  "source": "tabx",
+  "_structured": true,
+  "page_type": "ego_gift",
+  "gift_name": "紧握的雕像",
+  "rarity": 3,
+  "cost": "258",
+  "effect_types": "打击",
+  "attack_type": "暴怒",
+  "location": "镜像迷宫",
+  "stage": "upgraded_2",
+  "_schema_version": 1
+}

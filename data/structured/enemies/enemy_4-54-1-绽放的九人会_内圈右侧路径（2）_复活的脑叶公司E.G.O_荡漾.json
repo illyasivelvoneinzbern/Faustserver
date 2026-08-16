@@ -37,26 +37,43 @@
       "skill_name": "液体压制",
       "icon_id": "9005801",
       "sin_type": "暴食",
-      "damage_type": "",
+      "damage_type": "打击",
       "base_value": 3,
-      "coin_power": 854,
-      "coin_count": 2,
+      "coin_power": 7,
+      "coin_count": 1,
       "attack_level": 29,
       "attack_weight": 1,
       "is_guard": false,
       "guard_type": "",
       "importance": 0,
       "coin_effects": [
-        "[命中时] 下回合使目标增加2层 束缚"
+        "硬币1：[命中时]下回合使目标增加2层束缚"
       ]
     },
     {
       "skill_name": "液体爆发",
       "icon_id": "9005802",
       "sin_type": "怠惰",
-      "damage_type": "",
+      "damage_type": "打击",
       "base_value": 4,
-      "coin_power": 9703,
+      "coin_power": 7,
+      "coin_count": 1,
+      "attack_level": 29,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[使用时]使自身获得1层昂扬"
+      ]
+    },
+    {
+      "skill_name": "液体晃动",
+      "icon_id": "9005803",
+      "sin_type": "暴食",
+      "damage_type": "打击",
+      "base_value": 5,
+      "coin_power": 3,
       "coin_count": 2,
       "attack_level": 29,
       "attack_weight": 1,
@@ -64,43 +81,27 @@
       "guard_type": "",
       "importance": 0,
       "coin_effects": [
-        "[使用时] 使自身获得1层 昂扬",
-        "[命中时] 使目标 震颤引爆"
-      ]
-    },
-    {
-      "skill_name": "液体晃动",
-      "icon_id": "9005803",
-      "sin_type": "暴食",
-      "damage_type": "",
-      "base_value": 5,
-      "coin_power": 854,
-      "coin_count": 3,
-      "attack_level": 29,
-      "attack_weight": 1,
-      "is_guard": false,
-      "guard_type": "",
-      "importance": 0,
-      "coin_effects": [
-        "[使用时] 使自身获得1层 昂扬",
-        "[命中时] 使目标增加4级 震颤 强度",
-        "[命中时] 对目标施加1层 震颤"
+        "[使用时]使自身获得1层昂扬"
       ]
     },
     {
       "skill_name": "液体阻塞",
       "icon_id": "9005804",
       "sin_type": "常规",
-      "damage_type": "",
+      "damage_type": "防御",
       "base_value": 6,
-      "coin_power": 79,
+      "coin_power": 7,
       "coin_count": 1,
-      "attack_level": 0,
+      "attack_level": 36,
       "attack_weight": 1,
       "is_guard": false,
       "guard_type": "",
       "importance": 0,
-      "coin_effects": []
+      "coin_effects": [
+        "[使用时]恢复体力值上限的5%",
+        "下回合获得2层易损",
+        "[回合结束时]消耗全部醉意"
+      ]
     }
   ],
   "is_ally": false,

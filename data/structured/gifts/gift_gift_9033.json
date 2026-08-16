@@ -5,7 +5,7 @@
   "categories": [
     "E.G.O饰品"
   ],
-  "content": "使用技能命中敌方单位时，使其增加3级破裂强度。\n\n若该技能为嫉妒技能，则改为使其增加5级破裂强度。",
+  "content": "使用技能命中敌方单位时，使其增加3级破裂强度。\n若该技能为嫉妒技能，则改为使其增加5级破裂强度。",
   "source": "tabx",
   "_structured": true,
   "page_type": "ego_gift",

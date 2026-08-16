@@ -34,16 +34,16 @@
       "base_value": 3,
       "coin_power": 4,
       "coin_count": 2,
-      "attack_level": 0,
+      "attack_level": 46,
       "attack_weight": 1,
       "is_guard": false,
       "guard_type": "",
       "importance": 0,
       "coin_effects": [
-        "1命中时使目标增加3级流血强度",
-        "命中时对目标施加3层流血",
-        "2命中时使目标增加3级流血强度",
-        "命中时对目标施加3层流血"
+        "硬币1：[命中时]使目标增加3级流血强度",
+        "[命中时]对目标施加3层流血",
+        "硬币2：[命中时]使目标增加3级流血强度",
+        "[命中时]对目标施加3层流血"
       ]
     },
     {
@@ -54,14 +54,14 @@
       "base_value": 5,
       "coin_power": 4,
       "coin_count": 2,
-      "attack_level": 0,
+      "attack_level": 48,
       "attack_weight": 1,
       "is_guard": false,
       "guard_type": "",
       "importance": 0,
       "coin_effects": [
-        "1命中时对目标施加6层攻击等级降低",
-        "2命中时对目标施加3层流血"
+        "硬币1：[命中时]对目标施加6层攻击等级降低",
+        "硬币2：[命中时]对目标施加3层流血"
       ]
     },
     {
@@ -72,12 +72,14 @@
       "base_value": 4,
       "coin_power": 7,
       "coin_count": 1,
-      "attack_level": 0,
+      "attack_level": 46,
       "attack_weight": 1,
-      "is_guard": false,
-      "guard_type": "",
+      "is_guard": true,
+      "guard_type": "闪避",
       "importance": 0,
-      "coin_effects": []
+      "coin_effects": [
+        "[闪避失败时]消耗1层比普的自我"
+      ]
     },
     {
       "skill_name": "浑浊的纯洁",
@@ -87,17 +89,17 @@
       "base_value": 3,
       "coin_power": 4,
       "coin_count": 2,
-      "attack_level": 0,
+      "attack_level": 43,
       "attack_weight": 1,
       "is_guard": false,
       "guard_type": "",
       "importance": 0,
       "coin_effects": [
-        "拼点失败使自身获得2层破绽并失去10点理智值",
-        "1正面命中时对目标施加1层苍白的噪音",
-        "命中时对目标施加1层麻痹",
-        "2正面命中时对目标施加1层苍白的噪音",
-        "命中时对目标施加1层麻痹"
+        "[拼点失败]使自身获得2层破绽并失去10点理智值",
+        "硬币1：[正面命中时]对目标施加1层苍白的噪音",
+        "[命中时]对目标施加1层麻痹",
+        "硬币2：[正面命中时]对目标施加1层苍白的噪音",
+        "[命中时]对目标施加1层麻痹"
       ]
     },
     {
@@ -108,17 +110,17 @@
       "base_value": 8,
       "coin_power": 2,
       "coin_count": 1,
-      "attack_level": 0,
+      "attack_level": 43,
       "attack_weight": 3,
       "is_guard": false,
       "guard_type": "",
       "importance": 0,
       "coin_effects": [
-        "战斗开始自身每带有5层比普的自我，使本技能的基础威力+2，攻击容量+1",
-        "使用时使自身失去3层比普的自我",
-        "1命中时对目标施加1层苍白的噪音",
-        "命中时使目标的混乱阈值前移30",
-        "正面命中时使目标失去10点理智值"
+        "[战斗开始]自身每带有5层比普的自我，使本技能的基础威力+2，攻击容量+1",
+        "[使用时]使自身失去3层比普的自我",
+        "硬币1：[命中时]对目标施加1层苍白的噪音",
+        "[命中时]使目标的混乱阈值前移30",
+        "[正面命中时]使目标失去10点理智值"
       ]
     }
   ],

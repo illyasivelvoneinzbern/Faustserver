@@ -36,26 +36,26 @@
       "skill_name": "发现可疑目标",
       "icon_id": "852301",
       "sin_type": "暴食",
-      "damage_type": "",
+      "damage_type": "打击",
       "base_value": 6,
-      "coin_power": 854,
-      "coin_count": 2,
+      "coin_power": 6,
+      "coin_count": 1,
       "attack_level": 34,
       "attack_weight": 1,
       "is_guard": false,
       "guard_type": "",
       "importance": 0,
       "coin_effects": [
-        "[反面命中时] 使目标增加3级 破裂 强度"
+        "硬币1：[反面命中时]使目标增加3级破裂强度"
       ]
     },
     {
       "skill_name": "制服",
       "icon_id": "852302",
       "sin_type": "暴食",
-      "damage_type": "",
+      "damage_type": "打击",
       "base_value": 6,
-      "coin_power": 854,
+      "coin_power": 4,
       "coin_count": 2,
       "attack_level": 34,
       "attack_weight": 1,
@@ -63,16 +63,16 @@
       "guard_type": "",
       "importance": 0,
       "coin_effects": [
-        "[反面命中时] 使目标增加3级 破裂 强度"
+        "硬币1：[反面命中时]使目标增加3级破裂强度"
       ]
     },
     {
       "skill_name": "拦截可疑目标",
       "icon_id": "852303",
       "sin_type": "暴食",
-      "damage_type": "",
+      "damage_type": "打击",
       "base_value": 5,
-      "coin_power": 854,
+      "coin_power": 3,
       "coin_count": 4,
       "attack_level": 34,
       "attack_weight": 1,

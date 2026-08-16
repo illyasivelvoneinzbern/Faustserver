@@ -1,0 +1,21 @@
+{
+  "id": "gift_9108_upgraded_2",
+  "title": "敬畏",
+  "url": "https://limbuscompany.huijiwiki.com/wiki/E.G.O饰品",
+  "categories": [
+    "E.G.O饰品"
+  ],
+  "content": "[第1、第2、第3顺位友方单位专属]\n若主要目标的流血层数不低于5层，则使增加流血强度，施加流血层数或施加特殊流血的技能造成的伤害+15%",
+  "source": "tabx",
+  "_structured": true,
+  "page_type": "ego_gift",
+  "gift_name": "敬畏",
+  "rarity": 2,
+  "cost": "207",
+  "effect_types": "流血",
+  "attack_type": "嫉妒",
+  "location": "镜像迷宫",
+  "stage": "upgraded_2",
+  "event": "事件-轻蔑螺旋",
+  "_schema_version": 1
+}

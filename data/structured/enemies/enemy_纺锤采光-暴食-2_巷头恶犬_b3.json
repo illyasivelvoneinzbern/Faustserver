@@ -32,15 +32,15 @@
       "sin_type": "色欲",
       "damage_type": "斩击",
       "base_value": 3,
-      "coin_power": 9,
-      "coin_count": 2,
+      "coin_power": 10,
+      "coin_count": 1,
       "attack_level": 32,
       "attack_weight": 1,
       "is_guard": false,
       "guard_type": "",
       "importance": 0,
       "coin_effects": [
-        "[命中时] 下回合使目标增加2级 流血 强度"
+        "硬币1：[命中时]下回合使目标增加2级流血强度"
       ]
     },
     {
@@ -49,15 +49,15 @@
       "sin_type": "怠惰",
       "damage_type": "打击",
       "base_value": 4,
-      "coin_power": 9703,
-      "coin_count": 2,
+      "coin_power": 9,
+      "coin_count": 1,
       "attack_level": 32,
       "attack_weight": 1,
       "is_guard": false,
       "guard_type": "",
       "importance": 0,
       "coin_effects": [
-        "[命中时] 下回合使目标增加1级 破裂 强度"
+        "硬币1：[命中时]下回合使目标增加1级破裂强度"
       ]
     },
     {
@@ -66,16 +66,15 @@
       "sin_type": "怠惰",
       "damage_type": "打击",
       "base_value": 3,
-      "coin_power": 9703,
-      "coin_count": 3,
+      "coin_power": 4,
+      "coin_count": 2,
       "attack_level": 32,
       "attack_weight": 1,
       "is_guard": false,
       "guard_type": "",
       "importance": 0,
       "coin_effects": [
-        "[命中时] 下回合使目标增加1级 破裂 强度",
-        "[正面命中时] 下回合使目标增加4级 破裂 强度"
+        "硬币1：[命中时]下回合使目标增加1级破裂强度"
       ]
     },
     {
@@ -84,15 +83,15 @@
       "sin_type": "嫉妒",
       "damage_type": "穿刺",
       "base_value": 3,
-      "coin_power": 5793,
-      "coin_count": 2,
+      "coin_power": 7,
+      "coin_count": 1,
       "attack_level": 32,
-      "attack_weight": 1,
+      "attack_weight": 4,
       "is_guard": false,
       "guard_type": "",
       "importance": 0,
       "coin_effects": [
-        "[正面命中时] 下回合使目标增加3级 破裂 强度"
+        "硬币1：[正面命中时]下回合使目标增加3级破裂强度"
       ]
     },
     {
@@ -101,16 +100,16 @@
       "sin_type": "傲慢",
       "damage_type": "穿刺",
       "base_value": 3,
-      "coin_power": 3,
-      "coin_count": 2,
+      "coin_power": 7,
+      "coin_count": 1,
       "attack_level": 32,
-      "attack_weight": 1,
+      "attack_weight": 2,
       "is_guard": false,
       "guard_type": "",
       "importance": 0,
       "coin_effects": [
-        "[命中时] 下回合对目标施加2层 束缚",
-        "[正面命中时] 下回合对目标施加4层 破绽"
+        "硬币1：[命中时]下回合对目标施加2层束缚",
+        "[正面命中时]下回合对目标施加4层破绽"
       ]
     },
     {
@@ -119,7 +118,7 @@
       "sin_type": "嫉妒",
       "damage_type": "斩击",
       "base_value": 3,
-      "coin_power": 5793,
+      "coin_power": 5,
       "coin_count": 2,
       "attack_level": 32,
       "attack_weight": 1,
@@ -127,8 +126,8 @@
       "guard_type": "",
       "importance": 0,
       "coin_effects": [
-        "[命中时] 下回合使目标增加2级 破裂 强度",
-        "[正面命中时] 下回合使目标增加5级 破裂 强度"
+        "硬币1：[命中时]下回合使目标增加2级破裂强度",
+        "[正面命中时]下回合使目标增加5级破裂强度"
       ]
     },
     {
@@ -137,15 +136,15 @@
       "sin_type": "嫉妒",
       "damage_type": "斩击",
       "base_value": 15,
-      "coin_power": 5793,
+      "coin_power": -5,
       "coin_count": 2,
       "attack_level": 32,
-      "attack_weight": 1,
+      "attack_weight": 5,
       "is_guard": false,
       "guard_type": "",
       "importance": 0,
       "coin_effects": [
-        "[命中时] 下回合使目标增加10级 破裂 强度"
+        "硬币1：[命中时]下回合使目标增加10级破裂强度"
       ]
     }
   ],

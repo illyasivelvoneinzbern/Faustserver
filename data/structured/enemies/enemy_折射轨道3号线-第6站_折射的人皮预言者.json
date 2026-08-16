@@ -34,14 +34,14 @@
       "base_value": 4,
       "coin_power": 3,
       "coin_count": 2,
-      "attack_level": 2,
+      "attack_level": 40,
       "attack_weight": 1,
       "is_guard": false,
       "guard_type": "",
       "importance": 0,
       "coin_effects": [
-        "1命中时根据点燃的蜡烛数，对目标造成相应的理智伤害",
-        "2命中时根据点燃的蜡烛数，对目标造成相应的理智伤害"
+        "硬币1：[命中时]根据点燃的蜡烛数，对目标造成相应的理智伤害",
+        "硬币2：[命中时]根据点燃的蜡烛数，对目标造成相应的理智伤害"
       ]
     },
     {
@@ -52,15 +52,15 @@
       "base_value": 5,
       "coin_power": 3,
       "coin_count": 2,
-      "attack_level": 2,
+      "attack_level": 40,
       "attack_weight": 1,
       "is_guard": false,
       "guard_type": "",
       "importance": 0,
       "coin_effects": [
-        "1命中时下回合对目标施加1层暴怒易损",
+        "硬币1：[命中时]下回合对目标施加1层暴怒易损",
         "若目标带有烧伤，则使其增加4级烧伤强度",
-        "2命中时下回合对目标施加1层暴怒易损",
+        "硬币2：[命中时]下回合对目标施加1层暴怒易损",
         "若目标带有烧伤，则使其增加4级烧伤强度"
       ]
     },
@@ -70,9 +70,9 @@
       "sin_type": "暴怒",
       "damage_type": "打击",
       "base_value": 20,
-      "coin_power": 4,
+      "coin_power": -4,
       "coin_count": 2,
-      "attack_level": 2,
+      "attack_level": 40,
       "attack_weight": 7,
       "is_guard": false,
       "guard_type": "",
@@ -80,12 +80,12 @@
       "coin_effects": [
         "下回合熄灭所有蜡烛",
         "攻击命中带有标识的目标时，使其体力上限额外减少5%",
-        "拼点失败使目标增加10级烧伤强度，下回合对其施加标识",
-        "回合结束时使所有蜡烛恢复全部体力",
-        "1命中时使目标的体力上限减少10%",
-        "命中时使目标增加5级烧伤强度并对其施加2层烧伤",
-        "2命中时使目标的体力上限减少10%",
-        "命中时使目标增加5级烧伤强度并对其施加2层烧伤"
+        "[拼点失败]使目标增加10级烧伤强度，下回合对其施加标识",
+        "[回合结束时]使所有蜡烛恢复全部体力",
+        "硬币1：[命中时]使目标的体力上限减少10%",
+        "[命中时]使目标增加5级烧伤强度并对其施加2层烧伤",
+        "硬币2：[命中时]使目标的体力上限减少10%",
+        "[命中时]使目标增加5级烧伤强度并对其施加2层烧伤"
       ]
     },
     {
@@ -94,22 +94,23 @@
       "sin_type": "暴怒",
       "damage_type": "穿刺",
       "base_value": 20,
-      "coin_power": 4,
+      "coin_power": -4,
       "coin_count": 2,
-      "attack_level": 2,
+      "attack_level": 40,
       "attack_weight": 1,
       "is_guard": false,
       "guard_type": "",
       "importance": 0,
       "coin_effects": [
-        "无法拼点",
-        "无法改变拼点目标",
+        "[无法拼点]",
+        "[无法改变拼点目标]",
         "代替目标承受伤害，下回合使自身陷入混乱",
         "随机对未带有标识的1名敌方单位施加标识",
-        "1命中时使自身的体力上限减少5%",
-        "命中时使自身增加10级烧伤强度",
-        "2命中时使自身的体力上限减少5%",
-        "命中时使自身增加10级烧伤强度"
+        "[技能结束时]使所有蜡烛恢复全部体力",
+        "硬币1：[命中时]使自身的体力上限减少5%",
+        "[命中时]使自身增加10级烧伤强度",
+        "硬币2：[命中时]使自身的体力上限减少5%",
+        "[命中时]使自身增加10级烧伤强度"
       ]
     },
     {
@@ -120,14 +121,14 @@
       "base_value": 3,
       "coin_power": 3,
       "coin_count": 1,
-      "attack_level": 2,
+      "attack_level": 40,
       "attack_weight": 1,
       "is_guard": false,
       "guard_type": "",
       "importance": 0,
       "coin_effects": [
-        "无法拼点",
-        "1命中时对目标施加1层暴怒易损"
+        "[无法拼点]",
+        "硬币1：[命中时]对目标施加1层暴怒易损"
       ]
     },
     {
@@ -138,14 +139,14 @@
       "base_value": 3,
       "coin_power": 3,
       "coin_count": 1,
-      "attack_level": 2,
+      "attack_level": 40,
       "attack_weight": 1,
       "is_guard": false,
       "guard_type": "",
       "importance": 0,
       "coin_effects": [
-        "无法拼点",
-        "1命中时若目标带有烧伤，则使其增加3级烧伤强度"
+        "[无法拼点]",
+        "硬币1：[命中时]若目标带有烧伤，则使其增加3级烧伤强度"
       ]
     },
     {
@@ -156,14 +157,14 @@
       "base_value": 5,
       "coin_power": 5,
       "coin_count": 1,
-      "attack_level": 2,
+      "attack_level": 40,
       "attack_weight": 1,
       "is_guard": false,
       "guard_type": "",
       "importance": 0,
       "coin_effects": [
-        "1命中时使目标增加5级烧伤强度并对其施加2层烧伤",
-        "命中时使自身恢复20点体力"
+        "硬币1：[命中时]使目标增加5级烧伤强度并对其施加2层烧伤",
+        "[命中时]使自身恢复20点体力"
       ]
     }
   ],

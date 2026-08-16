@@ -34,9 +34,27 @@
       "skill_name": "伤痕诅咒",
       "icon_id": "9005901",
       "sin_type": "色欲",
-      "damage_type": "",
+      "damage_type": "打击",
       "base_value": 4,
-      "coin_power": 9,
+      "coin_power": 7,
+      "coin_count": 1,
+      "attack_level": 36,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[使用时]使自身获得1层纠缠的咒符",
+        "硬币1：[命中时]对目标施加3层破裂"
+      ]
+    },
+    {
+      "skill_name": "咒缚增殖",
+      "icon_id": "9005902",
+      "sin_type": "色欲",
+      "damage_type": "打击",
+      "base_value": 5,
+      "coin_power": 3,
       "coin_count": 2,
       "attack_level": 36,
       "attack_weight": 1,
@@ -44,17 +62,36 @@
       "guard_type": "",
       "importance": 0,
       "coin_effects": [
-        "[使用时] 使自身获得1层 纠缠的咒符",
-        "[命中时] 对目标施加3层 破裂"
+        "[使用时]使自身获得2层纠缠的咒符",
+        "硬币1：[命中时]对目标施加2层破裂",
+        "硬币2：[命中时]对目标施加2层破裂"
       ]
     },
     {
-      "skill_name": "咒缚增殖",
-      "icon_id": "9005902",
+      "skill_name": "束缚诅咒",
+      "icon_id": "9005903",
       "sin_type": "色欲",
-      "damage_type": "",
-      "base_value": 5,
-      "coin_power": 9,
+      "damage_type": "打击",
+      "base_value": 6,
+      "coin_power": 3,
+      "coin_count": 2,
+      "attack_level": 36,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[使用时]使自身获得2层纠缠的咒符",
+        "硬币2：[正面命中时]下回合对目标施加2层束缚"
+      ]
+    },
+    {
+      "skill_name": "凸显伤口",
+      "icon_id": "9006104",
+      "sin_type": "色欲",
+      "damage_type": "打击",
+      "base_value": 3,
+      "coin_power": 3,
       "coin_count": 3,
       "attack_level": 36,
       "attack_weight": 1,
@@ -62,56 +99,25 @@
       "guard_type": "",
       "importance": 0,
       "coin_effects": [
-        "[使用时] 使自身获得2层 纠缠的咒符",
-        "[命中时] 对目标施加2层 破裂"
-      ]
-    },
-    {
-      "skill_name": "束缚诅咒",
-      "icon_id": "9005903",
-      "sin_type": "色欲",
-      "damage_type": "",
-      "base_value": 6,
-      "coin_power": 9,
-      "coin_count": 2,
-      "attack_level": 36,
-      "attack_weight": 1,
-      "is_guard": false,
-      "guard_type": "",
-      "importance": 0,
-      "coin_effects": []
-    },
-    {
-      "skill_name": "凸显伤口",
-      "icon_id": "9006104",
-      "sin_type": "色欲",
-      "damage_type": "",
-      "base_value": 3,
-      "coin_power": 9,
-      "coin_count": 4,
-      "attack_level": 36,
-      "attack_weight": 1,
-      "is_guard": false,
-      "guard_type": "",
-      "importance": 0,
-      "coin_effects": [
-        "[命中时] 对目标施加2层 破裂",
-        "[命中时] 下回合对目标施加2层 束缚",
-        "[正面命中时] 使目标增加5级 破裂 强度"
+        "[回合结束时]消耗所有纠缠的咒符",
+        "硬币1：[命中时]对目标施加2层破裂",
+        "硬币2：[命中时]对目标施加2层破裂",
+        "硬币3：[命中时]下回合对目标施加2层束缚",
+        "[正面命中时]使目标增加5级破裂强度"
       ]
     },
     {
       "skill_name": "防御护符",
       "icon_id": "9005904",
       "sin_type": "常规",
-      "damage_type": "",
+      "damage_type": "防御",
       "base_value": 4,
-      "coin_power": 79,
+      "coin_power": 5,
       "coin_count": 1,
-      "attack_level": 0,
+      "attack_level": 25,
       "attack_weight": 1,
-      "is_guard": true,
-      "guard_type": "防御",
+      "is_guard": false,
+      "guard_type": "",
       "importance": 0,
       "coin_effects": []
     }

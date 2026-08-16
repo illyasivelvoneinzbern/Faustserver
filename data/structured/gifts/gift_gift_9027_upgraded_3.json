@@ -1,0 +1,21 @@
+{
+  "id": "gift_9027_upgraded_3",
+  "title": "谷底之星",
+  "url": "https://limbuscompany.huijiwiki.com/wiki/E.G.O饰品",
+  "categories": [
+    "E.G.O饰品"
+  ],
+  "content": "使用打击技能或傲慢技能命中敌方单位时，对目标造成5点固定理智伤害。\n\n理智值不高于0点的友方单位造成的伤害+25%",
+  "source": "tabx",
+  "_structured": true,
+  "page_type": "ego_gift",
+  "gift_name": "谷底之星",
+  "rarity": 2,
+  "cost": "185",
+  "effect_types": "打击",
+  "attack_type": "傲慢",
+  "location": "镜像迷宫",
+  "stage": "upgraded_3",
+  "event": "事件-谷底之星",
+  "_schema_version": 1
+}

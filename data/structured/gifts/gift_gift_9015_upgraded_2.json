@@ -1,0 +1,21 @@
+{
+  "id": "gift_9015_upgraded_2",
+  "title": "膏血",
+  "url": "https://limbuscompany.huijiwiki.com/wiki/E.G.O饰品",
+  "categories": [
+    "E.G.O饰品"
+  ],
+  "content": "技能对陷入混乱的敌方单位造成的伤害+12.5%。\n若技能为增加震颤强度，施加震颤层数，造成振幅转换，造成震颤引爆或造成振幅纠缠的技能，或该技能为怠惰技能，则加成改为+25%",
+  "source": "tabx",
+  "_structured": true,
+  "page_type": "ego_gift",
+  "gift_name": "膏血",
+  "rarity": 2,
+  "cost": "200",
+  "effect_types": "震颤",
+  "attack_type": "怠惰",
+  "location": "镜像迷宫",
+  "stage": "upgraded_2",
+  "event": "事件-膏血",
+  "_schema_version": 1
+}

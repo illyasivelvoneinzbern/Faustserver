@@ -34,7 +34,7 @@
       "sin_type": "傲慢",
       "damage_type": "",
       "base_value": 3,
-      "coin_power": 3,
+      "coin_power": 1,
       "coin_count": 1,
       "attack_level": 1,
       "attack_weight": 1,
@@ -49,6 +49,8 @@
   "appear_stages": [
     "主线战斗0-02",
     "主线战斗0-03",
+    "主线战斗0-04",
+    "主线战斗1-02",
     "主线战斗1-03",
     "主线战斗1-05",
     "主线战斗1-06",

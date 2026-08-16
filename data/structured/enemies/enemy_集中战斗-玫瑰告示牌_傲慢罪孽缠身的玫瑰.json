@@ -32,15 +32,15 @@
       "sin_type": "傲慢",
       "damage_type": "穿刺",
       "base_value": 3,
-      "coin_power": 3,
-      "coin_count": 1,
+      "coin_power": 4,
+      "coin_count": 2,
       "attack_level": 43,
       "attack_weight": 1,
       "is_guard": false,
       "guard_type": "",
       "importance": 0,
       "coin_effects": [
-        "使用时使全体友方单位增加3级呼吸法强度"
+        "[使用时]使全体友方单位增加3级呼吸法强度"
       ]
     },
     {
@@ -49,16 +49,15 @@
       "sin_type": "傲慢",
       "damage_type": "穿刺",
       "base_value": 4,
-      "coin_power": 3,
-      "coin_count": 3,
+      "coin_power": 5,
+      "coin_count": 2,
       "attack_level": 43,
       "attack_weight": 1,
       "is_guard": false,
       "guard_type": "",
       "importance": 0,
       "coin_effects": [
-        "[使用时] 使全体友方单位获得2层 呼吸法",
-        "[命中时] 使自身获得1层 呼吸法"
+        "[使用时]使全体友方单位获得2层呼吸法"
       ]
     },
     {
@@ -68,7 +67,7 @@
       "damage_type": "穿刺",
       "base_value": 2,
       "coin_power": 3,
-      "coin_count": 1,
+      "coin_count": 2,
       "attack_level": 41,
       "attack_weight": 1,
       "is_guard": false,

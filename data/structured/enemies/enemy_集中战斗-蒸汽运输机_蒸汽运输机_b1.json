@@ -32,15 +32,15 @@
       "sin_type": "傲慢",
       "damage_type": "打击",
       "base_value": 5,
-      "coin_power": 3,
-      "coin_count": 2,
-      "attack_level": 38,
+      "coin_power": 7,
+      "coin_count": 1,
+      "attack_level": 0,
       "attack_weight": 1,
       "is_guard": false,
       "guard_type": "",
       "importance": 0,
       "coin_effects": [
-        "[命中时] 下回合对目标施加3层 麻痹"
+        "自身每带有50层累积的过去，使本技能伤害+10%"
       ]
     },
     {
@@ -49,17 +49,15 @@
       "sin_type": "怠惰",
       "damage_type": "打击",
       "base_value": 5,
-      "coin_power": 9703,
-      "coin_count": 3,
-      "attack_level": 38,
+      "coin_power": 6,
+      "coin_count": 2,
+      "attack_level": 0,
       "attack_weight": 1,
       "is_guard": false,
       "guard_type": "",
       "importance": 0,
       "coin_effects": [
-        "[命中时] 下回合对目标施加3层 麻痹",
-        "[命中时] 使目标混乱阈值前移该硬币伤害的50%",
-        "[命中时] 自身每带有1层 累积的过去 ，使本技能造成的伤害+1%（最多50%）"
+        "若自身的呼吸法强度不低于5级，则使本技能拼点威力+1"
       ]
     },
     {
@@ -68,18 +66,15 @@
       "sin_type": "怠惰",
       "damage_type": "打击",
       "base_value": 5,
-      "coin_power": 9703,
-      "coin_count": 3,
-      "attack_level": 38,
+      "coin_power": 7,
+      "coin_count": 2,
+      "attack_level": 0,
       "attack_weight": 1,
       "is_guard": false,
       "guard_type": "",
       "importance": 0,
       "coin_effects": [
-        "[使用时] 使所有部位增加3级 呼吸法 强度并获得3层 呼吸法",
-        "[命中时] 使目标混乱阈值前移与自身 呼吸法 强度相当的数值",
-        "[命中时] 自身每带有3级 呼吸法 强度，使本硬币造成的伤害+20%（最多100%）",
-        "[命中时] 使所有部位增加4级 呼吸法 强度"
+        "[使用时]使所有部位增加3级呼吸法强度并获得3层呼吸法"
       ]
     },
     {
@@ -88,15 +83,15 @@
       "sin_type": "嫉妒",
       "damage_type": "打击",
       "base_value": 10,
-      "coin_power": 5793,
-      "coin_count": 2,
-      "attack_level": 36,
+      "coin_power": 10,
+      "coin_count": 1,
+      "attack_level": 0,
       "attack_weight": 1,
       "is_guard": false,
       "guard_type": "",
       "importance": 0,
       "coin_effects": [
-        "[命中时] 自身每带有1层 累积的过去 ，则使本技能伤害+1%（最多200%）"
+        "若自身的呼吸法强度不低于10级，则使本技能威力+2"
       ]
     },
     {
@@ -105,15 +100,15 @@
       "sin_type": "傲慢",
       "damage_type": "打击",
       "base_value": 4,
-      "coin_power": 3,
-      "coin_count": 2,
-      "attack_level": 38,
+      "coin_power": 6,
+      "coin_count": 1,
+      "attack_level": 0,
       "attack_weight": 1,
       "is_guard": false,
       "guard_type": "",
       "importance": 0,
       "coin_effects": [
-        "[命中时] 下回合对目标施加3层 束缚"
+        "自身每带有50层累积的过去，使本技能造成的伤害+10%"
       ]
     },
     {
@@ -122,16 +117,15 @@
       "sin_type": "暴怒",
       "damage_type": "穿刺",
       "base_value": 8,
-      "coin_power": 987,
-      "coin_count": 2,
-      "attack_level": 36,
+      "coin_power": 8,
+      "coin_count": 1,
+      "attack_level": 0,
       "attack_weight": 1,
       "is_guard": false,
       "guard_type": "",
       "importance": 0,
       "coin_effects": [
-        "[命中时] 若自身的 呼吸法 强度不低于5级，则使目标混乱阈值前移本硬币伤害量的50%",
-        "[命中时] 使所有部位获得4层 呼吸法 并增加8级 呼吸法 强度"
+        "若自身的呼吸法强度不低于7级，则使本技能硬币的威力+1"
       ]
     }
   ],

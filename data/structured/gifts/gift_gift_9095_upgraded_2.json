@@ -1,0 +1,21 @@
+{
+  "id": "gift_9095_upgraded_2",
+  "title": "破碎罗盘",
+  "url": "https://limbuscompany.huijiwiki.com/wiki/E.G.O饰品",
+  "categories": [
+    "E.G.O饰品"
+  ],
+  "content": "波次的首个回合开始时，随机对全体敌方单位（或所有异想体部位）施加共计（10+敌方单位数量×3）层沉沦。（若是异想体，仅其本体算作1名敌方单位）",
+  "source": "tabx",
+  "_structured": true,
+  "page_type": "ego_gift",
+  "gift_name": "破碎罗盘",
+  "rarity": 3,
+  "cost": "263",
+  "effect_types": "沉沦",
+  "attack_type": "傲慢",
+  "location": "镜像迷宫",
+  "stage": "upgraded_2",
+  "event": "事件-破碎罗盘",
+  "_schema_version": 1
+}

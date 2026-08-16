@@ -38,15 +38,15 @@
       "base_value": 5,
       "coin_power": 8,
       "coin_count": 1,
-      "attack_level": 1,
+      "attack_level": 55,
       "attack_weight": 1,
       "is_guard": false,
       "guard_type": "",
       "importance": 0,
       "coin_effects": [
         "若目标现存体力不低于50%，则使本技能的拼点威力+2",
-        "使用时使贾母恢复10点理智值",
-        "1命中时使目标增加3级{{状态2|沉沦|4=负面}}强度"
+        "[使用时]使贾母恢复10点理智值",
+        "硬币1：[命中时]使目标增加3级沉沦强度"
       ]
     },
     {
@@ -57,7 +57,7 @@
       "base_value": 5,
       "coin_power": 1,
       "coin_count": 1,
-      "attack_level": 1,
+      "attack_level": 55,
       "attack_weight": 1,
       "is_guard": false,
       "guard_type": "",

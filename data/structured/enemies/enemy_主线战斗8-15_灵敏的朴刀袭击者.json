@@ -38,15 +38,15 @@
       "sin_type": "暴食",
       "damage_type": "斩击",
       "base_value": 5,
-      "coin_power": 854,
-      "coin_count": 2,
+      "coin_power": 7,
+      "coin_count": 1,
       "attack_level": 52,
       "attack_weight": 1,
       "is_guard": false,
       "guard_type": "",
       "importance": 0,
       "coin_effects": [
-        "[命中时] 对目标施加3层 流血"
+        "硬币1：[命中时]对目标施加3层{{状态2|流血|4=负面}}"
       ]
     },
     {
@@ -55,16 +55,17 @@
       "sin_type": "怠惰",
       "damage_type": "斩击",
       "base_value": 5,
-      "coin_power": 9703,
-      "coin_count": 3,
+      "coin_power": 4,
+      "coin_count": 2,
       "attack_level": 52,
       "attack_weight": 1,
       "is_guard": false,
       "guard_type": "",
       "importance": 0,
       "coin_effects": [
-        "[使用时] 若目标的 流血 强度不低于5级，则使本技能的拼点威力+1",
-        "[命中时] 使目标增加2级 流血 强度"
+        "[使用时]若目标的{{状态2|流血|4=负面}}强度不低于5级，则使本技能的拼点威力+1",
+        "硬币1：[命中时]使目标增加2级{{状态2|流血|4=负面}}强度",
+        "硬币2：[命中时]使目标增加2级{{状态2|流血|4=负面}}强度"
       ]
     },
     {
@@ -73,17 +74,18 @@
       "sin_type": "暴怒",
       "damage_type": "斩击",
       "base_value": 5,
-      "coin_power": 987,
-      "coin_count": 4,
+      "coin_power": 4,
+      "coin_count": 3,
       "attack_level": 52,
       "attack_weight": 1,
       "is_guard": false,
       "guard_type": "",
       "importance": 0,
       "coin_effects": [
-        "[使用时] 目标每带有5级 流血 强度，使本技能的硬币威力+1(最多+2)",
-        "[命中时] 使目标增加3级 流血 强度",
-        "[命中时] 使目标增加3级 流血 强度 目标的 流血 强度与 流血 层数之和每有1点，使本硬币造成的伤害+1%(最多+20%)"
+        "[使用时]目标每带有5级{{状态2|流血|4=负面}}强度，使本技能的硬币威力+1(最多+2)",
+        "硬币1：[命中时]使目标增加3级{{状态2|流血|4=负面}}强度",
+        "硬币2：[命中时]使目标增加3级{{状态2|流血|4=负面}}强度",
+        "硬币3：目标的{{状态2|流血|4=负面}}强度与{{状态2|流血|4=负面}}层数之和每有1点，使本硬币造成的伤害+1%(最多+20%)"
       ]
     },
     {
@@ -92,17 +94,17 @@
       "sin_type": "色欲",
       "damage_type": "斩击",
       "base_value": 3,
-      "coin_power": 9,
-      "coin_count": 2,
+      "coin_power": 6,
+      "coin_count": 1,
       "attack_level": 52,
       "attack_weight": 1,
-      "is_guard": true,
-      "guard_type": "反击",
+      "is_guard": false,
+      "guard_type": "",
       "importance": 0,
       "coin_effects": [
-        "[使用时] }若目标的 流血 强度不低于6级，则使本技能的基础威力+1",
-        "[命中时] 使目标增加4级 流血 强度",
-        "[命中时] 下回合对目标施加3层 攻击等级降低"
+        "[使用时]}若目标的{{状态2|流血|4=负面}}强度不低于6级，则使本技能的基础威力+1",
+        "硬币1：[命中时]使目标增加4级{{状态2|流血|4=负面}}强度",
+        "[命中时]下回合对目标施加3层{{状态2|攻击等级降低|4=负面}}"
       ]
     }
   ],

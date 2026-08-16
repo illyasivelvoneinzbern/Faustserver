@@ -40,17 +40,17 @@
       "sin_type": "暴食",
       "damage_type": "打击",
       "base_value": 5,
-      "coin_power": 854,
-      "coin_count": 2,
+      "coin_power": 6,
+      "coin_count": 1,
       "attack_level": 58,
       "attack_weight": 1,
       "is_guard": false,
       "guard_type": "",
       "importance": 0,
       "coin_effects": [
-        "[命中时] 对目标施加2层 破裂",
-        "[命中时] 使目标增加3级 流血 强度",
-        "[命中时] 使本体与躯干部位恢复15点体力"
+        "[无法拼点]",
+        "优先指定带有魅惑（提灯）的罪人",
+        "本技能的攻击容量相当于带有魅惑（提灯）的罪人数"
       ]
     },
     {
@@ -59,16 +59,15 @@
       "sin_type": "暴食",
       "damage_type": "打击",
       "base_value": 5,
-      "coin_power": 854,
-      "coin_count": 2,
+      "coin_power": 9,
+      "coin_count": 1,
       "attack_level": 58,
       "attack_weight": 1,
       "is_guard": false,
       "guard_type": "",
       "importance": 0,
       "coin_effects": [
-        "[命中时] 对目标施加3层 破裂",
-        "[命中时] 对目标施加3层 流血"
+        "硬币1：[命中时]对目标施加3层{{状态2|破裂|4=负面}}"
       ]
     },
     {
@@ -77,16 +76,16 @@
       "sin_type": "怠惰",
       "damage_type": "打击",
       "base_value": 6,
-      "coin_power": 9703,
-      "coin_count": 2,
+      "coin_power": 8,
+      "coin_count": 1,
       "attack_level": 58,
-      "attack_weight": 1,
+      "attack_weight": 2,
       "is_guard": false,
       "guard_type": "",
       "importance": 0,
       "coin_effects": [
-        "[命中时] 使目标增加5级 破裂 强度",
-        "[命中时] 使目标增加5级 流血 强度"
+        "硬币1：[命中时]使目标增加5级{{状态2|破裂|4=负面}}强度",
+        "[命中时]使目标增加5级{{状态2|流血|4=负面}}强度"
       ]
     },
     {
@@ -95,15 +94,15 @@
       "sin_type": "暴食",
       "damage_type": "打击",
       "base_value": 7,
-      "coin_power": 854,
-      "coin_count": 3,
+      "coin_power": 8,
+      "coin_count": 1,
       "attack_level": 58,
-      "attack_weight": 1,
+      "attack_weight": 5,
       "is_guard": false,
       "guard_type": "",
       "importance": 0,
       "coin_effects": [
-        "[命中时] 目标每带有1级 破裂 强度，使本硬币造成的伤害+5%(最多+100%)"
+        "[拼点失败]使本技能造成的伤害-80%，且本技能造成的伤害不会使目标陷入混乱"
       ]
     },
     {
@@ -112,17 +111,17 @@
       "sin_type": "傲慢",
       "damage_type": "打击",
       "base_value": 10,
-      "coin_power": 3,
-      "coin_count": 3,
+      "coin_power": 8,
+      "coin_count": 1,
       "attack_level": 58,
-      "attack_weight": 1,
+      "attack_weight": 5,
       "is_guard": false,
       "guard_type": "",
       "importance": 0,
       "coin_effects": [
         "若目标的{{状态2|破裂|4=负面}}强度不低于5级，则使本技能造成的伤害+100%",
-        "拼点失败使本技能造成的伤害-80%，且本技能造成的伤害不会使目标陷入混乱",
-        "1{{状态2|不可摧毁的硬币|4=特殊}}"
+        "[拼点失败]使本技能造成的伤害-80%，且本技能造成的伤害不会使目标陷入混乱",
+        "硬币1：{{状态2|不可摧毁的硬币|4=特殊}}"
       ]
     },
     {
@@ -133,7 +132,7 @@
       "base_value": 6,
       "coin_power": 6,
       "coin_count": 1,
-      "attack_level": 3,
+      "attack_level": 58,
       "attack_weight": 1,
       "is_guard": false,
       "guard_type": "",
@@ -146,17 +145,15 @@
       "sin_type": "暴食",
       "damage_type": "打击",
       "base_value": 5,
-      "coin_power": 854,
-      "coin_count": 2,
+      "coin_power": 6,
+      "coin_count": 1,
       "attack_level": 58,
       "attack_weight": 1,
       "is_guard": false,
       "guard_type": "",
       "importance": 0,
       "coin_effects": [
-        "[命中时] 使目标增加3级 破裂 强度并对其施加3层 破裂",
-        "[命中时] 使目标增加3级 流血 强度并对其施加3层 流血",
-        "[命中时] 使本体与躯干部位恢复30点体力"
+        "[无法拼点]"
       ]
     }
   ],

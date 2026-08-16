@@ -15,6 +15,9 @@ class Session:
     persona_id: str
     created_at: float = field(default_factory=time.monotonic)
     last_active: float = field(default_factory=time.monotonic)
+    # P39：模糊搜索消歧的待确认选择（{"choices": [...], "query": str}），
+    # 用户回复数字编号后清空；非数字消息也会清除（防过期选择残留）。
+    pending_choice: dict | None = field(default=None)
 
     def touch(self):
         """更新最后活跃时间"""
@@ -46,6 +49,13 @@ class SessionManager:
         pid = persona_id or self.default_persona
         session = Session(session_id=session_id, persona_id=pid)
         self._sessions[session_id] = session
+        return session
+
+    def get_session(self, session_id: str) -> "Session | None":
+        """获取会话对象（不存在或已过期返回 None，不重建）。"""
+        session = self._sessions.get(session_id)
+        if session is None or session.is_expired(self.session_timeout):
+            return None
         return session
 
     def get_persona(self, session_id: str) -> str:

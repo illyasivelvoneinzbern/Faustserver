@@ -38,13 +38,13 @@
       "base_value": 2,
       "coin_power": 3,
       "coin_count": 2,
-      "attack_level": 0,
+      "attack_level": 14,
       "attack_weight": 1,
       "is_guard": false,
       "guard_type": "",
       "importance": 0,
       "coin_effects": [
-        "2正面命中时下回合对目标施加1层束缚"
+        "硬币2：[正面命中时]下回合对目标施加1层束缚"
       ]
     },
     {
@@ -55,14 +55,14 @@
       "base_value": 3,
       "coin_power": 2,
       "coin_count": 2,
-      "attack_level": 0,
+      "attack_level": 14,
       "attack_weight": 1,
       "is_guard": false,
       "guard_type": "",
       "importance": 0,
       "coin_effects": [
-        "1命中时下回合对目标施加1层威力降低",
-        "2命中时下回合对目标施加1层威力降低"
+        "硬币1：[命中时]下回合对目标施加1层威力降低",
+        "硬币2：[命中时]下回合对目标施加1层威力降低"
       ]
     },
     {
@@ -73,13 +73,13 @@
       "base_value": 2,
       "coin_power": 2,
       "coin_count": 3,
-      "attack_level": 0,
+      "attack_level": 14,
       "attack_weight": 1,
       "is_guard": false,
       "guard_type": "",
       "importance": 0,
       "coin_effects": [
-        "拼点胜利使本技能的威力+1"
+        "[拼点胜利]使本技能的威力+1"
       ]
     }
   ],

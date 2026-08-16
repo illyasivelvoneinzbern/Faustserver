@@ -34,16 +34,16 @@
       "sin_type": "嫉妒",
       "damage_type": "斩击",
       "base_value": 5,
-      "coin_power": 5793,
-      "coin_count": 2,
+      "coin_power": 8,
+      "coin_count": 1,
       "attack_level": 60,
       "attack_weight": 1,
       "is_guard": false,
       "guard_type": "",
       "importance": 0,
       "coin_effects": [
-        "[使用时] 若目标带有 次元裂痕 ，则使本技能造成的伤害+20%",
-        "[命中时] 对目标施加3层 次元裂痕"
+        "[使用时]若目标带有{{状态2|次元裂痕|4=负面}}，则使本技能造成的伤害+20%",
+        "硬币1：[命中时]对目标施加3层{{状态2|次元裂痕|4=负面}}"
       ]
     },
     {
@@ -52,16 +52,16 @@
       "sin_type": "嫉妒",
       "damage_type": "斩击",
       "base_value": 5,
-      "coin_power": 5793,
-      "coin_count": 2,
+      "coin_power": 8,
+      "coin_count": 1,
       "attack_level": 60,
-      "attack_weight": 1,
+      "attack_weight": 2,
       "is_guard": false,
       "guard_type": "",
       "importance": 0,
       "coin_effects": [
-        "[使用时] 若目标带有 次元裂痕 ，则使本技能造成的伤害+10%",
-        "[命中时] 对目标施加3层 次元裂痕"
+        "[使用时]若目标带有{{状态2|次元裂痕|4=负面}}，则使本技能造成的伤害+10%",
+        "硬币1：[命中时]对目标施加3层{{状态2|次元裂痕|4=负面}}"
       ]
     },
     {
@@ -70,12 +70,12 @@
       "sin_type": "忧郁",
       "damage_type": "守备",
       "base_value": 1,
-      "coin_power": 3,
+      "coin_power": 0,
       "coin_count": 1,
-      "attack_level": 0,
+      "attack_level": 58,
       "attack_weight": 1,
-      "is_guard": false,
-      "guard_type": "",
+      "is_guard": true,
+      "guard_type": "守备",
       "importance": 0,
       "coin_effects": [
         "若该次元存活，硬币威力+1"

@@ -35,9 +35,26 @@
       "skill_name": "爪钩切割",
       "icon_id": "9008401",
       "sin_type": "色欲",
-      "damage_type": "",
+      "damage_type": "斩击",
       "base_value": 4,
-      "coin_power": 9,
+      "coin_power": 7,
+      "coin_count": 1,
+      "attack_level": 30,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "硬币1：[正面命中时]使目标增加3级流血强度"
+      ]
+    },
+    {
+      "skill_name": "爪钩连割",
+      "icon_id": "9008402",
+      "sin_type": "色欲",
+      "damage_type": "斩击",
+      "base_value": 4,
+      "coin_power": 5,
       "coin_count": 2,
       "attack_level": 30,
       "attack_weight": 1,
@@ -45,57 +62,43 @@
       "guard_type": "",
       "importance": 0,
       "coin_effects": [
-        "[正面命中时] 使目标增加3级 流血 强度"
-      ]
-    },
-    {
-      "skill_name": "爪钩连割",
-      "icon_id": "9008402",
-      "sin_type": "色欲",
-      "damage_type": "",
-      "base_value": 4,
-      "coin_power": 9,
-      "coin_count": 3,
-      "attack_level": 30,
-      "attack_weight": 1,
-      "is_guard": false,
-      "guard_type": "",
-      "importance": 0,
-      "coin_effects": [
-        "[命中时] 对目标施加2层 流血",
-        "[命中时] 使目标增加5级 流血 强度"
+        "硬币1：[命中时]对目标施加2层流血",
+        "硬币2：[命中时]使目标增加5级流血强度"
       ]
     },
     {
       "skill_name": "战吼",
       "icon_id": "9008403",
       "sin_type": "常规",
-      "damage_type": "",
+      "damage_type": "防御",
       "base_value": 8,
-      "coin_power": 79,
+      "coin_power": 10,
       "coin_count": 1,
-      "attack_level": 0,
-      "attack_weight": 1,
-      "is_guard": false,
-      "guard_type": "",
-      "importance": 0,
-      "coin_effects": []
-    },
-    {
-      "skill_name": "撕开裂口",
-      "icon_id": "9008404",
-      "sin_type": "傲慢",
-      "damage_type": "",
-      "base_value": 4,
-      "coin_power": 3,
-      "coin_count": 3,
       "attack_level": 30,
       "attack_weight": 1,
       "is_guard": false,
       "guard_type": "",
       "importance": 0,
       "coin_effects": [
-        "[反面命中时] 使本硬币造成的伤害+30%"
+        "[使用时]下回合使自身增加2级呼吸法强度。",
+        "回合结束时，根据自身带有的护盾，使自身恢复相应的体力。"
+      ]
+    },
+    {
+      "skill_name": "撕开裂口",
+      "icon_id": "9008404",
+      "sin_type": "傲慢",
+      "damage_type": "斩击",
+      "base_value": 4,
+      "coin_power": 6,
+      "coin_count": 2,
+      "attack_level": 30,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "若自身带有呼吸法，则发动本技能的硬币效果。"
       ]
     }
   ],

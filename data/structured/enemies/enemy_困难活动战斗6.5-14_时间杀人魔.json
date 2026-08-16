@@ -45,15 +45,16 @@
       "sin_type": "忧郁",
       "damage_type": "斩击",
       "base_value": 3,
-      "coin_power": 3,
-      "coin_count": 3,
+      "coin_power": 4,
+      "coin_count": 1,
       "attack_level": 51,
       "attack_weight": 1,
       "is_guard": false,
       "guard_type": "",
       "importance": 0,
       "coin_effects": [
-        "[命中时] 使目标增加3级 流血 强度"
+        "若自身带有时间加速，则使本技能的拼点威力+1",
+        "[拼点失败]若现存体力不高于75%，则消耗40层抢来的时间并使自身获得1层守护(每回合最多1次)"
       ]
     },
     {
@@ -63,18 +64,17 @@
       "damage_type": "穿刺",
       "base_value": 4,
       "coin_power": 3,
-      "coin_count": 4,
+      "coin_count": 3,
       "attack_level": 51,
       "attack_weight": 1,
       "is_guard": false,
       "guard_type": "",
       "importance": 0,
       "coin_effects": [
-        "[使用时] 若自身的 抢来的时间 层数不低于700层，则对目标施加3层 流血",
-        "[使用时] 若自身的 抢来的时间 层数不低于500层，则对目标施加1层 流血",
-        "[使用时] 若自身的 抢来的时间 层数不低于400层，则消耗20层 抢来的时间 并使本技能增加的 流血 强度与施加的 流血 层数额外+1",
-        "[命中时] 使目标增加4级 流血 强度",
-        "[命中时] 对目标施加2层 流血"
+        "若自身带有时间加速，则使本技能的拼点威力+2",
+        "[使用时]若自身的抢来的时间层数不低于700层，则对目标施加3层流血",
+        "[使用时]若自身的抢来的时间层数不低于500层，则对目标施加1层流血",
+        "[使用时]若自身的抢来的时间层数不低于400层，则消耗20层抢来的时间并使本技能增加的流血强度与施加的流血层数额外+1"
       ]
     },
     {
@@ -83,17 +83,17 @@
       "sin_type": "傲慢",
       "damage_type": "穿刺",
       "base_value": 2,
-      "coin_power": 3,
-      "coin_count": 9,
+      "coin_power": 4,
+      "coin_count": 4,
       "attack_level": 52,
       "attack_weight": 1,
       "is_guard": false,
       "guard_type": "",
       "importance": 0,
       "coin_effects": [
-        "[使用时] 若现存体力不高于75%，则消耗40层 抢来的时间 并使本技能的拼点威力+2(每回合最多1次)",
-        "[命中时] 使目标增加3级 流血 强度 不可摧毁的硬币",
-        "[命中时] 对目标施加2层 流血"
+        "若自身带有时间加速，则使本技能的硬币威力+1",
+        "[使用时]若现存体力不高于75%，则消耗40层抢来的时间并使本技能的拼点威力+2(每回合最多1次)",
+        "[拼点失败]使本技能造成的伤害-80%，且本技能造成的伤害不会使目标陷入混乱"
       ]
     },
     {
@@ -102,17 +102,16 @@
       "sin_type": "暴怒",
       "damage_type": "斩击",
       "base_value": 5,
-      "coin_power": 987,
-      "coin_count": 5,
+      "coin_power": 5,
+      "coin_count": 2,
       "attack_level": 52,
       "attack_weight": 1,
       "is_guard": false,
       "guard_type": "",
       "importance": 0,
       "coin_effects": [
-        "[使用时] 若现存体力不高于75%，则消耗60层 抢来的时间 并使本技能的拼点威力+2",
-        "[命中时] 对目标施加1层 流血 不可摧毁的硬币",
-        "[命中时] 使目标增加5级 流血 强度"
+        "[使用时]若现存体力不高于75%，则消耗60层抢来的时间并使本技能的拼点威力+2",
+        "[攻击前]若自身带有时间加速，则使本技能的攻击容量+1"
       ]
     },
     {
@@ -121,7 +120,7 @@
       "sin_type": "嫉妒",
       "damage_type": "斩击",
       "base_value": 4,
-      "coin_power": 5793,
+      "coin_power": 4,
       "coin_count": 1,
       "attack_level": 52,
       "attack_weight": 1,
@@ -129,9 +128,9 @@
       "guard_type": "",
       "importance": 0,
       "coin_effects": [
-        "无法拼点",
+        "[无法拼点]",
         "对以自身为目标使用攻击技能的单位在下回合施加时间救援目标",
-        "战斗开始消耗200层抢来的时间并在下回合使自身获得时间加速"
+        "[战斗开始]消耗200层抢来的时间并在下回合使自身获得时间加速"
       ]
     },
     {
@@ -140,15 +139,15 @@
       "sin_type": "暴食",
       "damage_type": "闪避",
       "base_value": 3,
-      "coin_power": 854,
+      "coin_power": 8,
       "coin_count": 1,
-      "attack_level": 0,
+      "attack_level": 52,
       "attack_weight": 1,
       "is_guard": true,
       "guard_type": "闪避",
       "importance": 0,
       "coin_effects": [
-        "使用时自身每带有100层抢来的时间，使本技能的基础威力+1（最多+3）"
+        "[使用时]自身每带有100层抢来的时间，使本技能的基础威力+1（最多+3）"
       ]
     },
     {
@@ -157,15 +156,15 @@
       "sin_type": "怠惰",
       "damage_type": "斩击",
       "base_value": 3,
-      "coin_power": 9703,
-      "coin_count": 3,
+      "coin_power": 4,
+      "coin_count": 2,
       "attack_level": 52,
       "attack_weight": 1,
       "is_guard": false,
       "guard_type": "",
       "importance": 0,
       "coin_effects": [
-        "[命中时] 使目标增加3级 流血 强度"
+        "[拼点失败]对自身施加1层易损"
       ]
     },
     {
@@ -174,16 +173,15 @@
       "sin_type": "怠惰",
       "damage_type": "斩击",
       "base_value": 3,
-      "coin_power": 9703,
-      "coin_count": 5,
+      "coin_power": 4,
+      "coin_count": 2,
       "attack_level": 52,
       "attack_weight": 1,
       "is_guard": false,
       "guard_type": "",
       "importance": 0,
       "coin_effects": [
-        "[命中时] 使目标增加3级 流血 强度",
-        "[命中时] 对目标施加2层 流血"
+        "[拼点失败]对自身施加1层易损"
       ]
     }
   ],

@@ -34,16 +34,17 @@
       "sin_type": "傲慢",
       "damage_type": "突刺",
       "base_value": 5,
-      "coin_power": 3,
-      "coin_count": 4,
+      "coin_power": 1,
+      "coin_count": 3,
       "attack_level": 30,
       "attack_weight": 1,
       "is_guard": false,
       "guard_type": "",
       "importance": 0,
       "coin_effects": [
-        "[命中时] 下回合对目标施加1层 N公司的尖钉",
-        "[命中时] 下回合对目标施加2层 N公司的尖钉"
+        "硬币1：[命中时] 下回合对目标施加1层N公司的尖钉",
+        "硬币2：[命中时] 下回合对目标施加1层N公司的尖钉",
+        "硬币3：[命中时] 下回合对目标施加2层N公司的尖钉"
       ]
     },
     {
@@ -60,7 +61,7 @@
       "guard_type": "",
       "importance": 0,
       "coin_effects": [
-        "[命中时] 下回合使目标增加5级 流血 强度并对其施加2层 易损"
+        "硬币1：[命中时] 下回合使目标增加5级流血强度并对其施加2层易损"
       ]
     },
     {
@@ -69,15 +70,15 @@
       "sin_type": "常规",
       "damage_type": "防御",
       "base_value": 12,
-      "coin_power": 79,
+      "coin_power": 4,
       "coin_count": 1,
-      "attack_level": 0,
+      "attack_level": 30,
       "attack_weight": 1,
       "is_guard": false,
       "guard_type": "",
       "importance": 0,
       "coin_effects": [
-        "使用时使自身获得2层守护"
+        "[使用时]使自身获得2层守护"
       ]
     },
     {
@@ -86,15 +87,16 @@
       "sin_type": "色欲",
       "damage_type": "突刺",
       "base_value": 4,
-      "coin_power": 9,
-      "coin_count": 2,
+      "coin_power": 6,
+      "coin_count": 1,
       "attack_level": 30,
       "attack_weight": 1,
       "is_guard": false,
       "guard_type": "",
       "importance": 0,
       "coin_effects": [
-        "[命中时] 使理智值最低的2名友方单位恢复10点理智值"
+        "[拼点胜利]使全体友方单位获得1层狂信（敌方）",
+        "硬币1：[命中时]使理智值最低的2名友方单位恢复10点理智值"
       ]
     },
     {
@@ -103,16 +105,16 @@
       "sin_type": "暴怒",
       "damage_type": "打击",
       "base_value": 5,
-      "coin_power": 987,
-      "coin_count": 3,
+      "coin_power": 4,
+      "coin_count": 2,
       "attack_level": 30,
       "attack_weight": 1,
       "is_guard": false,
       "guard_type": "",
       "importance": 0,
       "coin_effects": [
-        "[正面命中时] 对目标施加3层 N公司的尖钉",
-        "[命中时] 若目标的 N公司的尖钉 层数高于5层，则使其陷入混乱"
+        "硬币1：[正面命中时]对目标施加3层N公司的尖钉",
+        "硬币2：[命中时]若目标的N公司的尖钉层数高于5层，则使其陷入混乱"
       ]
     }
   ],

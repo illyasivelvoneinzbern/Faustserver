@@ -32,7 +32,7 @@
       "sin_type": "色欲",
       "damage_type": "穿刺",
       "base_value": 4,
-      "coin_power": 9,
+      "coin_power": 1,
       "coin_count": 2,
       "attack_level": 47,
       "attack_weight": 1,
@@ -49,15 +49,17 @@
       "sin_type": "暴怒",
       "damage_type": "穿刺",
       "base_value": 18,
-      "coin_power": 987,
-      "coin_count": 2,
+      "coin_power": 8,
+      "coin_count": 1,
       "attack_level": 47,
       "attack_weight": 1,
       "is_guard": false,
       "guard_type": "",
       "importance": 0,
       "coin_effects": [
-        "[命中时] 若目标带有 业报 ，则对其施加50层 业报"
+        "{{Color|#ff0000|[无差别攻击]}}指定业报最多的单位",
+        "基于目标的业报层数来提升本技能的伤害（每层+2%）",
+        "若目标不带有业报，则本技能造成的伤害-50%"
       ]
     },
     {
@@ -66,15 +68,15 @@
       "sin_type": "暴怒",
       "damage_type": "穿刺",
       "base_value": 6,
-      "coin_power": 987,
-      "coin_count": 2,
+      "coin_power": 3,
+      "coin_count": 1,
       "attack_level": 47,
       "attack_weight": 1,
       "is_guard": false,
       "guard_type": "",
       "importance": 0,
       "coin_effects": [
-        "[命中时] 对目标施加20层 业报"
+        "{{Color|#93f13e|[拼点失败]}}对自身以外的1名随机友方单位施加20层业报"
       ]
     },
     {
@@ -83,15 +85,15 @@
       "sin_type": "暴怒",
       "damage_type": "穿刺",
       "base_value": 5,
-      "coin_power": 987,
-      "coin_count": 3,
+      "coin_power": 4,
+      "coin_count": 2,
       "attack_level": 47,
       "attack_weight": 1,
       "is_guard": false,
       "guard_type": "",
       "importance": 0,
       "coin_effects": [
-        "[命中时] 对目标施加10层 业报"
+        "{{Color|#93f13e|[拼点失败]}}对自身以外的1名随机友方单位施加20层业报"
       ]
     },
     {
@@ -100,7 +102,7 @@
       "sin_type": "色欲",
       "damage_type": "穿刺",
       "base_value": 4,
-      "coin_power": 9,
+      "coin_power": 4,
       "coin_count": 1,
       "attack_level": 47,
       "attack_weight": 1,
@@ -117,8 +119,8 @@
       "sin_type": "色欲",
       "damage_type": "穿刺",
       "base_value": 3,
-      "coin_power": 9,
-      "coin_count": 1,
+      "coin_power": 1,
+      "coin_count": 2,
       "attack_level": 47,
       "attack_weight": 1,
       "is_guard": false,
@@ -134,15 +136,15 @@
       "sin_type": "色欲",
       "damage_type": "穿刺",
       "base_value": 10,
-      "coin_power": 9,
-      "coin_count": 2,
+      "coin_power": 2,
+      "coin_count": 1,
       "attack_level": 47,
       "attack_weight": 1,
       "is_guard": false,
       "guard_type": "",
       "importance": 0,
       "coin_effects": [
-        "[命中时] 下回合对目标施加2层 虚弱"
+        "{{Color|#ff7e00|[拼点胜利]}}使自身的负面状态减半"
       ]
     }
   ],

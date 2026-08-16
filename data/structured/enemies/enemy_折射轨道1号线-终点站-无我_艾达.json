@@ -35,15 +35,16 @@
       "sin_type": "暴怒",
       "damage_type": "突刺",
       "base_value": 6,
-      "coin_power": 987,
-      "coin_count": 3,
+      "coin_power": 4,
+      "coin_count": 2,
       "attack_level": 55,
       "attack_weight": 1,
       "is_guard": false,
       "guard_type": "",
       "importance": 0,
       "coin_effects": [
-        "[命中时] 移除随机属性的3个E.G.O资源"
+        "硬币1：[命中时]移除随机属性的3个E.G.O资源",
+        "硬币2：[命中时]移除随机属性的3个E.G.O资源"
       ]
     },
     {
@@ -52,7 +53,7 @@
       "sin_type": "嫉妒",
       "damage_type": "打击",
       "base_value": 4,
-      "coin_power": 5793,
+      "coin_power": 4,
       "coin_count": 3,
       "attack_level": 55,
       "attack_weight": 1,
@@ -60,7 +61,7 @@
       "guard_type": "",
       "importance": 0,
       "coin_effects": [
-        "[命中时] 下回合对目标施加1层 加算硬币弱化"
+        "硬币1：[命中时]下回合对目标施加1层{{状态2|加算硬币弱化|4=负面}}"
       ]
     },
     {
@@ -77,8 +78,8 @@
       "guard_type": "",
       "importance": 0,
       "coin_effects": [
-        "[命中时] 下回合对目标施加2层 加算硬币弱化",
-        "[命中时] 下回合对目标施加1层 易损"
+        "硬币1：[命中时]下回合对目标施加2层{{状态2|加算硬币弱化|4=负面}}",
+        "硬币4：[命中时]下回合对目标施加1层{{状态2|易损|4=负面}}"
       ]
     }
   ],

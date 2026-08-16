@@ -40,15 +40,19 @@
       "sin_type": "怠惰",
       "damage_type": "突刺",
       "base_value": 5,
-      "coin_power": 9703,
-      "coin_count": 3,
+      "coin_power": 7,
+      "coin_count": 1,
       "attack_level": 60,
       "attack_weight": 1,
       "is_guard": false,
       "guard_type": "",
       "importance": 0,
       "coin_effects": [
-        "[使用时] 目标的 破裂 强度与 沉沦 强度之和每有3级，使本技能的最终威力+1(最多+2)"
+        "[使用时]目标的破裂强度与沉沦强度之和每有3级，使本技能的最终威力+1(最多+2)",
+        "[拼点失败]",
+        "- 使本技能造成的伤害不会使目标陷入混乱",
+        "硬币1：不可摧毁的硬币",
+        "[未摧毁 - 命中时]使目标增加3级沉沦强度"
       ]
     },
     {
@@ -57,17 +61,17 @@
       "sin_type": "怠惰",
       "damage_type": "斩击",
       "base_value": 5,
-      "coin_power": 9703,
-      "coin_count": 3,
+      "coin_power": 3,
+      "coin_count": 2,
       "attack_level": 60,
       "attack_weight": 1,
       "is_guard": false,
       "guard_type": "",
       "importance": 0,
       "coin_effects": [
-        "[使用时] 目标的 破裂 强度与 沉沦 强度之和每有3级，使本技能的最终威力+1(最多+2)",
-        "[命中时] 对目标施加2层 沉沦",
-        "[命中时] 使目标增加3级 沉沦 强度"
+        "[使用时]目标的破裂强度与沉沦强度之和每有3级，使本技能的最终威力+1(最多+2)",
+        "硬币1：[命中时]对目标施加2层沉沦",
+        "硬币2：[命中时]使目标增加3级沉沦强度"
       ]
     },
     {
@@ -76,17 +80,17 @@
       "sin_type": "暴食",
       "damage_type": "斩击",
       "base_value": 6,
-      "coin_power": 854,
-      "coin_count": 3,
+      "coin_power": 4,
+      "coin_count": 2,
       "attack_level": 60,
       "attack_weight": 1,
       "is_guard": false,
       "guard_type": "",
       "importance": 0,
       "coin_effects": [
-        "[使用时] 目标的 破裂 强度与 沉沦 强度之和每有3级，使本技能的最终威力+1(最多+2)",
-        "[命中时] 对目标施加3层 破裂",
-        "[命中时] 使目标增加2级 破裂 强度"
+        "[使用时]目标的破裂强度与沉沦强度之和每有3级，使本技能的最终威力+1(最多+2)",
+        "硬币1：[命中时]对目标施加3层破裂",
+        "硬币2：[命中时]使目标增加2级破裂强度"
       ]
     },
     {
@@ -95,18 +99,18 @@
       "sin_type": "暴食",
       "damage_type": "斩击",
       "base_value": 4,
-      "coin_power": 854,
-      "coin_count": 3,
+      "coin_power": 6,
+      "coin_count": 2,
       "attack_level": 60,
       "attack_weight": 1,
       "is_guard": false,
       "guard_type": "",
       "importance": 0,
       "coin_effects": [
-        "[使用时] 目标的 破裂 强度与 沉沦 强度之和每有3级，使本技能的最终威力+1(最多+2)",
-        "[命中时] 对目标施加2层 破裂",
-        "[命中时] 使目标增加3级 破裂 强度",
-        "[正面命中时] 使目标增加2级 破裂 强度"
+        "[使用时]目标的破裂强度与沉沦强度之和每有3级，使本技能的最终威力+1(最多+2)",
+        "硬币1：[命中时]对目标施加2层破裂",
+        "硬币2：[命中时]使目标增加3级破裂强度",
+        "[正面命中时]使目标增加2级破裂强度"
       ]
     },
     {
@@ -115,16 +119,24 @@
       "sin_type": "忧郁",
       "damage_type": "突刺",
       "base_value": 16,
-      "coin_power": 3,
-      "coin_count": 3,
+      "coin_power": 6,
+      "coin_count": 1,
       "attack_level": 60,
-      "attack_weight": 1,
+      "attack_weight": 5,
       "is_guard": false,
       "guard_type": "",
       "importance": 0,
       "coin_effects": [
-        "[使用时] 每有1把旧伞存活，使本技能的拼点威力+2",
-        "[命中时] 使目标增加5级 沉沦 强度"
+        "每把旧伞使本技能造成的伤害+25%",
+        "[使用时]每有1把旧伞存活，使本技能的拼点威力+2",
+        "[拼点失败]",
+        "- 使本技能的最终威力-10，造成的伤害-80%",
+        "- 使本技能造成的伤害不会使目标陷入混乱",
+        "- 使本技能不会触发目标的破裂与沉沦",
+        "[回合结束时]移除所有旧伞",
+        "[回合结束时]使自身获得层数相当于首个回合自身获得的保护伞层数的保护伞",
+        "硬币1：不可摧毁的硬币",
+        "[命中时]使目标增加5级沉沦强度"
       ]
     },
     {
@@ -133,15 +145,15 @@
       "sin_type": "常规",
       "damage_type": "守备",
       "base_value": 15,
-      "coin_power": 79,
+      "coin_power": 5,
       "coin_count": 1,
-      "attack_level": 0,
+      "attack_level": 48,
       "attack_weight": 1,
-      "is_guard": false,
-      "guard_type": "",
+      "is_guard": true,
+      "guard_type": "守备",
       "importance": 0,
       "coin_effects": [
-        "战斗开始使全体敌方单位失去20点理智值"
+        "[战斗开始]使全体敌方单位失去20点理智值"
       ]
     },
     {
@@ -150,7 +162,7 @@
       "sin_type": "忧郁",
       "damage_type": "斩击",
       "base_value": 5,
-      "coin_power": 3,
+      "coin_power": 7,
       "coin_count": 1,
       "attack_level": 60,
       "attack_weight": 1,
@@ -158,7 +170,7 @@
       "guard_type": "",
       "importance": 0,
       "coin_effects": [
-        "战斗开始使自身获得荆棘"
+        "[战斗开始]使自身获得荆棘"
       ]
     },
     {
@@ -167,7 +179,7 @@
       "sin_type": "忧郁",
       "damage_type": "斩击",
       "base_value": 5,
-      "coin_power": 3,
+      "coin_power": 7,
       "coin_count": 1,
       "attack_level": 60,
       "attack_weight": 1,
@@ -175,7 +187,7 @@
       "guard_type": "",
       "importance": 0,
       "coin_effects": [
-        "战斗开始使自身获得荆棘"
+        "[战斗开始]使自身获得荆棘"
       ]
     },
     {
@@ -184,22 +196,22 @@
       "sin_type": "忧郁",
       "damage_type": "突刺",
       "base_value": 16,
-      "coin_power": 3,
-      "coin_count": 3,
+      "coin_power": 6,
+      "coin_count": 1,
       "attack_level": 60,
-      "attack_weight": 1,
+      "attack_weight": 5,
       "is_guard": false,
       "guard_type": "",
       "importance": 0,
       "coin_effects": [
         "拼点时，每有1把旧伞存活，使本技能的拼点威力+2",
         "每把旧伞使本技能造成的伤害+25%",
-        "拼点失败",
+        "[拼点失败]",
         "- 使本技能的最终威力-10，造成的伤害-80%",
         "- 使本技能造成的伤害不会使目标陷入混乱",
         "- 使本技能不会触发目标的破裂与沉沦",
-        "1不可摧毁的硬币",
-        "未摧毁 - 命中时使目标增加3级沉沦强度"
+        "硬币1：不可摧毁的硬币",
+        "[未摧毁 - 命中时]使目标增加3级沉沦强度"
       ]
     }
   ],

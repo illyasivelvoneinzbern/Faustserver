@@ -1,0 +1,21 @@
+{
+  "id": "gift_9756_upgraded_2",
+  "title": "未孵化的火种",
+  "url": "https://limbuscompany.huijiwiki.com/wiki/E.G.O饰品",
+  "categories": [
+    "E.G.O饰品"
+  ],
+  "content": "受到致死伤害时，攻击期间内体力固定为1点。该攻击结束后使自身恢复体力上限20%的体力(每场战斗最多1次)。\n若自身带有烧伤，则改为攻击期间内体力固定为1点。该攻击结束后使自身恢复体力上限30%的体力(以上效果合计每场战斗最多1次)",
+  "source": "tabx",
+  "_structured": true,
+  "page_type": "ego_gift",
+  "gift_name": "未孵化的火种",
+  "rarity": 4,
+  "cost": "393",
+  "effect_types": "烧伤",
+  "attack_type": "暴怒",
+  "location": "镜像迷宫",
+  "stage": "upgraded_2",
+  "special": "3号线",
+  "_schema_version": 1
+}

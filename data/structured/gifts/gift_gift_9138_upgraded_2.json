@@ -1,0 +1,21 @@
+{
+  "id": "gift_9138_upgraded_2",
+  "title": "虚饰的和平",
+  "url": "https://limbuscompany.huijiwiki.com/wiki/E.G.O饰品",
+  "categories": [
+    "E.G.O饰品"
+  ],
+  "content": "[第5顺位友方单位专属]\n若自身的速度值与目标相差至少3点，则使自身斩击技能造成的伤害+20%。",
+  "source": "tabx",
+  "_structured": true,
+  "page_type": "ego_gift",
+  "gift_name": "虚饰的和平",
+  "rarity": 1,
+  "cost": "148",
+  "effect_types": "斩击",
+  "attack_type": "怠惰",
+  "location": "镜像迷宫",
+  "stage": "upgraded_2",
+  "event": "事件-古代遗像",
+  "_schema_version": 1
+}

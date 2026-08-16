@@ -1,0 +1,21 @@
+{
+  "id": "gift_9035_upgraded_3",
+  "title": "巫毒娃娃",
+  "url": "https://limbuscompany.huijiwiki.com/wiki/E.G.O饰品",
+  "categories": [
+    "E.G.O饰品"
+  ],
+  "content": "回合开始时，对全体敌方单位造成5点固定嫉妒伤害。\n对现存体力不高于50%的敌方单位施加2层威力降低。",
+  "source": "tabx",
+  "_structured": true,
+  "page_type": "ego_gift",
+  "gift_name": "巫毒娃娃",
+  "rarity": 1,
+  "cost": "149",
+  "effect_types": "泛用",
+  "attack_type": "嫉妒",
+  "location": "镜像迷宫",
+  "stage": "upgraded_3",
+  "event": "事件-巫毒娃娃",
+  "_schema_version": 1
+}

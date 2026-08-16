@@ -30,9 +30,44 @@
       "skill_name": "呱啊",
       "icon_id": "9007701",
       "sin_type": "色欲",
-      "damage_type": "",
+      "damage_type": "穿刺",
       "base_value": 2,
-      "coin_power": 9,
+      "coin_power": 2,
+      "coin_count": 2,
+      "attack_level": 32,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "硬币1：[正面命中时]使目标增加3级破裂强度"
+      ]
+    },
+    {
+      "skill_name": "蟹铲！",
+      "icon_id": "9007702",
+      "sin_type": "暴食",
+      "damage_type": "斩击",
+      "base_value": 3,
+      "coin_power": 6,
+      "coin_count": 1,
+      "attack_level": 32,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "硬币1：[命中时]下回合对目标施加2层破裂",
+        "[命中时]下回合对目标施加1层斩击易损"
+      ]
+    },
+    {
+      "skill_name": "呱啊啊！",
+      "icon_id": "9007703",
+      "sin_type": "色欲",
+      "damage_type": "穿刺",
+      "base_value": 3,
+      "coin_power": 2,
       "coin_count": 3,
       "attack_level": 32,
       "attack_weight": 1,
@@ -40,75 +75,42 @@
       "guard_type": "",
       "importance": 0,
       "coin_effects": [
-        "[正面命中时] 使目标增加3级 破裂 强度"
-      ]
-    },
-    {
-      "skill_name": "蟹铲！",
-      "icon_id": "9007702",
-      "sin_type": "暴食",
-      "damage_type": "",
-      "base_value": 3,
-      "coin_power": 854,
-      "coin_count": 2,
-      "attack_level": 32,
-      "attack_weight": 1,
-      "is_guard": false,
-      "guard_type": "",
-      "importance": 0,
-      "coin_effects": [
-        "[命中时] 下回合对目标施加2层 破裂",
-        "[命中时] 下回合对目标施加1层 斩击易损"
-      ]
-    },
-    {
-      "skill_name": "呱啊啊！",
-      "icon_id": "9007703",
-      "sin_type": "色欲",
-      "damage_type": "",
-      "base_value": 3,
-      "coin_power": 9,
-      "coin_count": 4,
-      "attack_level": 32,
-      "attack_weight": 1,
-      "is_guard": false,
-      "guard_type": "",
-      "importance": 0,
-      "coin_effects": [
-        "[命中时] 使目标增加3级 破裂 强度"
+        "硬币1：[命中时]使目标增加3级破裂强度"
       ]
     },
     {
       "skill_name": "吐泡",
       "icon_id": "9007704",
       "sin_type": "暴食",
-      "damage_type": "",
+      "damage_type": "打击",
       "base_value": 4,
-      "coin_power": 854,
-      "coin_count": 2,
+      "coin_power": 7,
+      "coin_count": 1,
       "attack_level": 32,
-      "attack_weight": 1,
+      "attack_weight": 2,
       "is_guard": false,
       "guard_type": "",
       "importance": 0,
       "coin_effects": [
-        "[命中时] 对目标施加5层 破裂"
+        "硬币1：[命中时]对目标施加5层破裂"
       ]
     },
     {
       "skill_name": "缩头螃蟹",
       "icon_id": "9007705",
       "sin_type": "常规",
-      "damage_type": "",
+      "damage_type": "防御",
       "base_value": 4,
-      "coin_power": 79,
+      "coin_power": 6,
       "coin_count": 1,
-      "attack_level": 0,
+      "attack_level": 37,
       "attack_weight": 1,
       "is_guard": false,
       "guard_type": "",
       "importance": 0,
-      "coin_effects": []
+      "coin_effects": [
+        "[战斗开始]本回合内若在带有护盾时受到伤害，则反弹4点斩击伤害"
+      ]
     }
   ],
   "is_ally": false,

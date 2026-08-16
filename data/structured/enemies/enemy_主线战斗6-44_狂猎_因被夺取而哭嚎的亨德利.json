@@ -34,8 +34,8 @@
       "sin_type": "暴食",
       "damage_type": "斩击",
       "base_value": 4,
-      "coin_power": 854,
-      "coin_count": 3,
+      "coin_power": 3,
+      "coin_count": 2,
       "attack_level": 45,
       "attack_weight": 1,
       "is_guard": false,
@@ -52,16 +52,15 @@
       "sin_type": "嫉妒",
       "damage_type": "斩击",
       "base_value": 5,
-      "coin_power": 5793,
-      "coin_count": 3,
+      "coin_power": 3,
+      "coin_count": 2,
       "attack_level": 45,
       "attack_weight": 1,
       "is_guard": false,
       "guard_type": "",
       "importance": 0,
       "coin_effects": [
-        "[命中时] 使目标增加4级 流血 强度并施加2层 流血",
-        "[命中时] 使目标增加4级 流血 强度并施加2层 流血 若自身的速度值高于目标至少3点，则重复使用本硬币（最多1次）"
+        "若自身的速度值高于目标，则使本技能的拼点威力+2"
       ]
     },
     {
@@ -70,19 +69,16 @@
       "sin_type": "嫉妒",
       "damage_type": "打击",
       "base_value": 4,
-      "coin_power": 5793,
-      "coin_count": 5,
+      "coin_power": 3,
+      "coin_count": 4,
       "attack_level": 45,
       "attack_weight": 1,
       "is_guard": false,
       "guard_type": "",
       "importance": 0,
       "coin_effects": [
-        "[使用时] 若目标现存体力不高于70%，则使本技能的拼点威力+2",
-        "[命中时] 下回合使自身获得1层 迅捷",
-        "[命中时] 对目标施加1层 易损",
-        "[命中时] 使目标增加5级 流血 强度并施加2层 流血",
-        "[命中时] 若目标的 流血 强度不低于20级，则使本硬币造成的伤害+100%"
+        "指定体力最低的目标",
+        "[使用时]若目标现存体力不高于70%，则使本技能的拼点威力+2"
       ]
     }
   ],

@@ -1,0 +1,20 @@
+{
+  "id": "gift_9106_upgraded_3",
+  "title": "被扣留的颂歌",
+  "url": "https://limbuscompany.huijiwiki.com/wiki/E.G.O饰品",
+  "categories": [
+    "E.G.O饰品"
+  ],
+  "content": "战斗开始时，若全体敌方单位（若是异想体，则改为所有部位）均带有流血，则下回合使全体友方单位获得2层迅捷，1层伤害强化与2层攻击等级提升。",
+  "source": "tabx",
+  "_structured": true,
+  "page_type": "ego_gift",
+  "gift_name": "被扣留的颂歌",
+  "rarity": 1,
+  "cost": "149",
+  "effect_types": "流血",
+  "attack_type": "怠惰",
+  "location": "镜像迷宫",
+  "stage": "upgraded_3",
+  "_schema_version": 1
+}

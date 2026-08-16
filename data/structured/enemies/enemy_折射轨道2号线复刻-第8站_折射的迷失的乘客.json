@@ -40,16 +40,17 @@
       "sin_type": "暴食",
       "damage_type": "斩击",
       "base_value": 8,
-      "coin_power": 854,
-      "coin_count": 2,
+      "coin_power": 7,
+      "coin_count": 1,
       "attack_level": 63,
       "attack_weight": 1,
       "is_guard": false,
       "guard_type": "",
       "importance": 0,
       "coin_effects": [
-        "[使用时] 使自身获得3层 充能",
-        "[命中时] 使目标增加3级 破裂 强度"
+        "[使用时]使自身获得3层充能",
+        "[拼点失败]消耗自身2层充能",
+        "硬币1：[命中时]使目标增加3级破裂强度"
       ]
     },
     {
@@ -58,16 +59,18 @@
       "sin_type": "嫉妒",
       "damage_type": "斩击",
       "base_value": 8,
-      "coin_power": 5793,
-      "coin_count": 3,
+      "coin_power": 4,
+      "coin_count": 2,
       "attack_level": 63,
       "attack_weight": 1,
       "is_guard": false,
       "guard_type": "",
       "importance": 0,
       "coin_effects": [
-        "[使用时] 使自身获得3层 充能",
-        "[命中时] 对目标施加3层 次元裂痕"
+        "[使用时]使自身获得3层充能",
+        "[拼点失败]消耗自身2层充能",
+        "硬币1：[命中时]对目标施加3层次元裂痕",
+        "硬币2：[命中时]对目标施加3层次元裂痕"
       ]
     },
     {
@@ -76,16 +79,17 @@
       "sin_type": "暴食",
       "damage_type": "突刺",
       "base_value": 10,
-      "coin_power": 854,
-      "coin_count": 2,
+      "coin_power": 7,
+      "coin_count": 1,
       "attack_level": 63,
-      "attack_weight": 1,
+      "attack_weight": 2,
       "is_guard": false,
       "guard_type": "",
       "importance": 0,
       "coin_effects": [
-        "[使用时] 使自身获得4层 充能",
-        "[命中时] 使目标增加5级 破裂 强度"
+        "[使用时]使自身获得4层充能",
+        "[拼点失败]消耗自身2层充能",
+        "硬币1：[命中时]使目标增加5级破裂强度"
       ]
     },
     {
@@ -94,15 +98,26 @@
       "sin_type": "嫉妒",
       "damage_type": "斩击",
       "base_value": 15,
-      "coin_power": 5793,
-      "coin_count": 5,
+      "coin_power": 3,
+      "coin_count": 2,
       "attack_level": 63,
       "attack_weight": 1,
       "is_guard": false,
       "guard_type": "",
       "importance": 0,
       "coin_effects": [
-        "[正面命中时] 使自身获得2层 充能"
+        "若自身的充能层数不低于10层，则消耗10层充能并使本技能的拼点威力+5，造成的伤害+100%",
+        "若自身的充能层数低于10层，则消耗100点本体体力并使本技能造成的伤害+80%(自身体力不会因该效果而低于1点)",
+        "[拼点失败]触发以下效果",
+        "- 对自身施加2层麻痹",
+        "- 使本技能造成的伤害-80%",
+        "- 使本技能不会使目标陷入混乱",
+        "- 使本技能不会触发目标的破裂",
+        "硬币1：不可摧毁的硬币",
+        "[正面命中时]使自身获得2层充能",
+        "[未摧毁 - 命中时]对目标施加3层次元裂痕",
+        "硬币2：不可摧毁的硬币",
+        "[正面命中时]使自身获得2层充能"
       ]
     },
     {
@@ -111,17 +126,17 @@
       "sin_type": "暴食",
       "damage_type": "斩击",
       "base_value": 5,
-      "coin_power": 854,
-      "coin_count": 3,
+      "coin_power": 2,
+      "coin_count": 2,
       "attack_level": 63,
       "attack_weight": 1,
-      "is_guard": true,
-      "guard_type": "反击",
+      "is_guard": false,
+      "guard_type": "",
       "importance": 0,
       "coin_effects": [
-        "[使用时] 使自身获得1层 充能",
-        "[命中时] 对目标施加2层 破裂",
-        "[命中时] 使目标增加2级 破裂 强度"
+        "[使用时]使自身获得1层充能",
+        "硬币1：[命中时]对目标施加2层破裂",
+        "硬币2：[命中时]使目标增加2级破裂强度"
       ]
     },
     {
@@ -130,15 +145,18 @@
       "sin_type": "嫉妒",
       "damage_type": "突刺",
       "base_value": 6,
-      "coin_power": 5793,
-      "coin_count": 3,
+      "coin_power": 8,
+      "coin_count": 1,
       "attack_level": 63,
-      "attack_weight": 1,
+      "attack_weight": 3,
       "is_guard": false,
       "guard_type": "",
       "importance": 0,
       "coin_effects": [
-        "[使用时] 若主要目标带有 次元裂痕 ，则使本技能造成的伤害+10%"
+        "[使用时]若主要目标带有次元裂痕，则使本技能造成的伤害+10%",
+        "[拼点失败]消耗自身2层充能",
+        "硬币1：不可摧毁的硬币",
+        "[未摧毁 - 命中时]对目标施加5层次元裂痕"
       ]
     },
     {
@@ -147,22 +165,22 @@
       "sin_type": "嫉妒",
       "damage_type": "突刺",
       "base_value": 10,
-      "coin_power": 5793,
-      "coin_count": 3,
+      "coin_power": 8,
+      "coin_count": 1,
       "attack_level": 63,
-      "attack_weight": 1,
+      "attack_weight": 5,
       "is_guard": false,
       "guard_type": "",
       "importance": 0,
       "coin_effects": [
         "可无视速度值与本技能拼点，直到使用本技能时，自身不会陷入混乱",
-        "拼点失败",
+        "[拼点失败]",
         "- 对自身施加2层虚弱与1层麻痹",
         "- 使本技能造成的伤害-90%，且本技能造成的伤害不会使目标陷入混乱",
         "根据自身带有的层数最高的次元效果，相应使本技能的拼点威力增加",
         "自身每带有1种次元效果，使本技能造成的伤害+10%",
-        "1不可摧毁的硬币",
-        "未摧毁 - 命中时使目标增加3级破裂强度"
+        "硬币1：不可摧毁的硬币",
+        "[未摧毁 - 命中时]使目标增加3级破裂强度"
       ]
     }
   ],

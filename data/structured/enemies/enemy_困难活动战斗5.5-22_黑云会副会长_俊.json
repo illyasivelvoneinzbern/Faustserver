@@ -35,27 +35,43 @@
       "skill_name": "墨云",
       "icon_id": "9101301",
       "sin_type": "色欲",
-      "damage_type": "",
+      "damage_type": "斩击",
       "base_value": 3,
-      "coin_power": 9,
-      "coin_count": 3,
+      "coin_power": 3,
+      "coin_count": 2,
       "attack_level": 55,
       "attack_weight": 1,
       "is_guard": false,
       "guard_type": "",
       "importance": 0,
       "coin_effects": [
-        "[使用时] 若目标的 流血 强度不低于5级，则使本技能造成的伤害+10%",
-        "[命中时] 使目标增加4级 流血 强度并施加1层 流血"
+        "[使用时]若目标的{{状态2|流血|4=负面}}强度不低于5级，则使本技能造成的伤害+10%"
       ]
     },
     {
       "skill_name": "善后",
       "icon_id": "9101302",
       "sin_type": "色欲",
-      "damage_type": "",
+      "damage_type": "斩击",
       "base_value": 3,
-      "coin_power": 9,
+      "coin_power": 4,
+      "coin_count": 2,
+      "attack_level": 55,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "若目标的{{状态2|流血|4=负面}}强度不低于5级，则使本技能的硬币威力+1"
+      ]
+    },
+    {
+      "skill_name": "云斩",
+      "icon_id": "9101303",
+      "sin_type": "暴怒",
+      "damage_type": "斩击",
+      "base_value": 4,
+      "coin_power": 3,
       "coin_count": 3,
       "attack_level": 55,
       "attack_weight": 1,
@@ -63,79 +79,62 @@
       "guard_type": "",
       "importance": 0,
       "coin_effects": [
-        "[命中时] 下回合对目标施加1层 斩击易损",
-        "[正面命中时] 使目标增加1级 流血 强度"
-      ]
-    },
-    {
-      "skill_name": "云斩",
-      "icon_id": "9101303",
-      "sin_type": "暴怒",
-      "damage_type": "",
-      "base_value": 4,
-      "coin_power": 987,
-      "coin_count": 4,
-      "attack_level": 55,
-      "attack_weight": 1,
-      "is_guard": false,
-      "guard_type": "",
-      "importance": 0,
-      "coin_effects": [
-        "[命中时] 下回合对目标施加1层 麻痹",
-        "[命中时] 使目标增加8级 流血 强度",
-        "[命中时] 对目标施加3层 流血"
+        "若目标的{{状态2|流血|4=负面}}强度不低于5级，则使本技能的硬币威力+1"
       ]
     },
     {
       "skill_name": "锋锐剑刃",
       "icon_id": "9101304",
       "sin_type": "暴怒",
-      "damage_type": "",
+      "damage_type": "斩击",
       "base_value": 4,
-      "coin_power": 987,
+      "coin_power": 4,
       "coin_count": 2,
       "attack_level": 55,
       "attack_weight": 1,
       "is_guard": false,
       "guard_type": "",
       "importance": 0,
-      "coin_effects": []
+      "coin_effects": [
+        "[战斗开始]使包括自身在内的全体友方单位获得2层斩击伤害强化",
+        "[战斗开始]使自身获得2层斩击威力提升"
+      ]
     },
     {
       "skill_name": "晴空斩",
       "icon_id": "9101305",
       "sin_type": "傲慢",
-      "damage_type": "",
+      "damage_type": "斩击",
       "base_value": 10,
-      "coin_power": 3,
-      "coin_count": 4,
+      "coin_power": 4,
+      "coin_count": 3,
       "attack_level": 55,
       "attack_weight": 1,
       "is_guard": false,
       "guard_type": "",
       "importance": 0,
       "coin_effects": [
-        "[正面命中时] 使目标增加2级 流血 强度",
-        "[正面命中时] 使目标增加3级 流血 强度 若目标的 流血 强度不低于7级，则使本硬币造成的伤害+50%",
-        "[命中时] 对目标施加10层 流血"
+        "[战斗开始]若目标的{{状态2|流血|4=负面}}强度不低于10级，则使本技能的攻击容量+1",
+        "[战斗开始]若本回合自身使用的攻击技能不低于4个，则使本技能的最终威力+5",
+        "[拼点胜利]使全体友方单位恢复15点理智值",
+        "若目标的{{状态2|流血|4=负面}}强度不低于7级，则使本技能造成的伤害+30%"
       ]
     },
     {
       "skill_name": "后巷规矩",
       "icon_id": "9101306",
       "sin_type": "嫉妒",
-      "damage_type": "",
+      "damage_type": "斩击",
       "base_value": 4,
-      "coin_power": 5793,
-      "coin_count": 2,
+      "coin_power": 2,
+      "coin_count": 1,
       "attack_level": 45,
       "attack_weight": 1,
       "is_guard": false,
       "guard_type": "",
       "importance": 0,
       "coin_effects": [
-        "[使用时] 除自身以外每有1名友方单位存活，使本技能额外增加1枚硬币（最多3次）",
-        "[命中时] 使目标增加2级 流血 强度并施加2层 流血"
+        "[使用时]除自身以外每有1名友方单位存活，使本技能额外增加1枚硬币（最多3次）"
       ]
     }
   ],

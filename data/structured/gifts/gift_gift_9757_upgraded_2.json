@@ -1,0 +1,21 @@
+{
+  "id": "gift_9757_upgraded_2",
+  "title": "对羊接地插头",
+  "url": "https://limbuscompany.huijiwiki.com/wiki/E.G.O饰品",
+  "categories": [
+    "E.G.O饰品"
+  ],
+  "content": "战斗中受到攻击时，下回合对攻击者施加1层麻痹。(每回合每名单位最多1次)\n战斗开始时，若嫉妒完全共鸣数不低于5，则对全体敌方单位施加1层麻痹。",
+  "source": "tabx",
+  "_structured": true,
+  "page_type": "ego_gift",
+  "gift_name": "对羊接地插头",
+  "rarity": 2,
+  "cost": "203",
+  "effect_types": "泛用",
+  "attack_type": "嫉妒",
+  "location": "镜像迷宫",
+  "stage": "upgraded_2",
+  "special": "4号线",
+  "_schema_version": 1
+}

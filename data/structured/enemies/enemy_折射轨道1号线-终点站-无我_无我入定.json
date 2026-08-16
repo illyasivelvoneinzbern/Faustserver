@@ -38,7 +38,7 @@
       "sin_type": "色欲",
       "damage_type": "突刺",
       "base_value": 4,
-      "coin_power": 9,
+      "coin_power": 4,
       "coin_count": 2,
       "attack_level": 55,
       "attack_weight": 1,
@@ -46,8 +46,8 @@
       "guard_type": "",
       "importance": 0,
       "coin_effects": [
-        "使用时随机使除自身以外的1名友方单位获得2层强壮",
-        "2命中时下回合随机使除自身以外的1名友方单位获得2层伤害强化"
+        "[使用时]随机使除自身以外的1名友方单位获得2层强壮",
+        "硬币2：[命中时]下回合随机使除自身以外的1名友方单位获得2层伤害强化"
       ]
     },
     {
@@ -56,7 +56,7 @@
       "sin_type": "色欲",
       "damage_type": "突刺",
       "base_value": 4,
-      "coin_power": 9,
+      "coin_power": 8,
       "coin_count": 1,
       "attack_level": 55,
       "attack_weight": 1,
@@ -64,7 +64,7 @@
       "guard_type": "",
       "importance": 0,
       "coin_effects": [
-        "使用时下回合使目标获得3层守护"
+        "[使用时]下回合使目标获得3层守护"
       ]
     },
     {
@@ -73,15 +73,15 @@
       "sin_type": "色欲",
       "damage_type": "突刺",
       "base_value": 3,
-      "coin_power": 9,
-      "coin_count": 1,
+      "coin_power": 5,
+      "coin_count": 2,
       "attack_level": 60,
       "attack_weight": 1,
       "is_guard": false,
       "guard_type": "",
       "importance": 0,
       "coin_effects": [
-        "使用时下回合使目标获得3层伤害强化"
+        "[使用时]下回合使目标获得3层伤害强化"
       ]
     },
     {
@@ -90,15 +90,19 @@
       "sin_type": "暴怒",
       "damage_type": "突刺",
       "base_value": 18,
-      "coin_power": 987,
-      "coin_count": 3,
+      "coin_power": 8,
+      "coin_count": 1,
       "attack_level": 55,
       "attack_weight": 1,
       "is_guard": false,
       "guard_type": "",
       "importance": 0,
       "coin_effects": [
-        "[命中时] 若目标带有 业报 ，则对其施加50层 业报"
+        "[无差别攻击]",
+        "目标每带有1层{{状态2|业报|4=负面}}，使本技能造成的伤害+2%",
+        "若目标未带有{{状态2|业报|4=负面}}，则使本技能造成的伤害-50%",
+        "硬币1：{{状态2|不可摧毁的硬币|4=特殊}}",
+        "[命中时]若目标带有{{状态2|业报|4=负面}}，则对其施加50层{{状态2|业报|4=负面}}"
       ]
     },
     {
@@ -107,15 +111,16 @@
       "sin_type": "色欲",
       "damage_type": "突刺",
       "base_value": 10,
-      "coin_power": 9,
-      "coin_count": 2,
+      "coin_power": 8,
+      "coin_count": 1,
       "attack_level": 50,
       "attack_weight": 1,
       "is_guard": false,
       "guard_type": "",
       "importance": 0,
       "coin_effects": [
-        "[命中时] 下回合对目标施加2层 虚弱"
+        "[拼点胜利]使自身带有的负面状态减半",
+        "硬币1：[命中时]下回合对目标施加2层{{状态2|虚弱|4=负面}}"
       ]
     },
     {
@@ -124,15 +129,16 @@
       "sin_type": "暴怒",
       "damage_type": "突刺",
       "base_value": 6,
-      "coin_power": 987,
-      "coin_count": 2,
+      "coin_power": 10,
+      "coin_count": 1,
       "attack_level": 55,
       "attack_weight": 1,
       "is_guard": false,
       "guard_type": "",
       "importance": 0,
       "coin_effects": [
-        "[命中时] 对目标施加20层 业报"
+        "[拼点失败]随机对除自身以外的1名友方单位施加20层{{状态2|业报|4=负面}}",
+        "硬币1：[命中时]对目标施加20层{{状态2|业报|4=负面}}"
       ]
     },
     {
@@ -141,15 +147,17 @@
       "sin_type": "暴怒",
       "damage_type": "突刺",
       "base_value": 5,
-      "coin_power": 987,
-      "coin_count": 3,
+      "coin_power": 5,
+      "coin_count": 2,
       "attack_level": 55,
       "attack_weight": 1,
       "is_guard": false,
       "guard_type": "",
       "importance": 0,
       "coin_effects": [
-        "[命中时] 对目标施加10层 业报"
+        "[拼点失败]随机对除自身以外的1名友方单位施加20层{{状态2|业报|4=负面}}",
+        "硬币1：[命中时]对目标施加10层{{状态2|业报|4=负面}}",
+        "硬币2：[命中时]对目标施加10层{{状态2|业报|4=负面}}"
       ]
     }
   ],

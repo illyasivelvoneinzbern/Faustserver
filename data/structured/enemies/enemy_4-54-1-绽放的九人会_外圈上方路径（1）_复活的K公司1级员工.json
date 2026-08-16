@@ -38,15 +38,15 @@
       "sin_type": "怠惰",
       "damage_type": "打击",
       "base_value": 4,
-      "coin_power": 9703,
-      "coin_count": 2,
+      "coin_power": 6,
+      "coin_count": 1,
       "attack_level": 27,
       "attack_weight": 1,
       "is_guard": false,
       "guard_type": "",
       "importance": 0,
       "coin_effects": [
-        "[命中时] 使目标增加2级 震颤 强度"
+        "硬币1：[命中时]使目标增加2级震颤强度"
       ]
     },
     {
@@ -55,7 +55,7 @@
       "sin_type": "怠惰",
       "damage_type": "打击",
       "base_value": 6,
-      "coin_power": 9703,
+      "coin_power": 3,
       "coin_count": 2,
       "attack_level": 27,
       "attack_weight": 1,
@@ -63,8 +63,8 @@
       "guard_type": "",
       "importance": 0,
       "coin_effects": [
-        "[命中时] 使目标增加2级 震颤 强度",
-        "[正面命中时] 使目标增加3级 震颤 强度"
+        "硬币1：[命中时]使目标增加2级震颤强度",
+        "[正面命中时]使目标增加3级震颤强度"
       ]
     },
     {
@@ -73,15 +73,16 @@
       "sin_type": "怠惰",
       "damage_type": "打击",
       "base_value": 5,
-      "coin_power": 9703,
-      "coin_count": 2,
+      "coin_power": 7,
+      "coin_count": 1,
       "attack_level": 27,
       "attack_weight": 1,
       "is_guard": false,
       "guard_type": "",
       "importance": 0,
       "coin_effects": [
-        "[命中时] 使目标 震颤引爆"
+        "优先攻击带有震颤的单位",
+        "硬币1：[命中时]使目标震颤引爆"
       ]
     },
     {
@@ -90,15 +91,15 @@
       "sin_type": "常规",
       "damage_type": "防御",
       "base_value": 5,
-      "coin_power": 79,
-      "coin_count": 2,
-      "attack_level": 0,
+      "coin_power": 5,
+      "coin_count": 1,
+      "attack_level": 30,
       "attack_weight": 1,
       "is_guard": false,
       "guard_type": "",
       "importance": 0,
       "coin_effects": [
-        "1战斗开始使自身恢复体力上限5%的体力"
+        "硬币1：[战斗开始]使自身恢复体力上限5%的体力"
       ]
     }
   ],

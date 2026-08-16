@@ -1,0 +1,21 @@
+{
+  "id": "gift_9093_upgraded_3",
+  "title": "荧光灯",
+  "url": "https://limbuscompany.huijiwiki.com/wiki/E.G.O饰品",
+  "categories": [
+    "E.G.O饰品"
+  ],
+  "content": "回合结束时，若有敌方单位或异想体部位带有破裂，则下回合随机使1名友方单位获得1层伤害强化与1层迅捷。重复（带有破裂的敌方单位或异想体部位数量+3）次。",
+  "source": "tabx",
+  "_structured": true,
+  "page_type": "ego_gift",
+  "gift_name": "荧光灯",
+  "rarity": 2,
+  "cost": "219",
+  "effect_types": "破裂",
+  "attack_type": "傲慢",
+  "location": "镜像迷宫",
+  "stage": "upgraded_3",
+  "event": "事件-噬梦的浊流",
+  "_schema_version": 1
+}

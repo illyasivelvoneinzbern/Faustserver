@@ -35,41 +35,41 @@
       "skill_name": "阻止入侵者",
       "icon_id": "9005401",
       "sin_type": "暴食",
-      "damage_type": "",
+      "damage_type": "斩击",
       "base_value": 4,
       "coin_power": 6,
-      "coin_count": 2,
+      "coin_count": 1,
       "attack_level": 32,
       "attack_weight": 1,
       "is_guard": false,
       "guard_type": "",
       "importance": 0,
       "coin_effects": [
-        "[命中时] 下回合对目标施加3层 破裂"
+        "硬币1：[命中时]下回合对目标施加3层破裂"
       ]
     },
     {
       "skill_name": "禁止入内",
       "icon_id": "9005402",
       "sin_type": "暴食",
-      "damage_type": "",
+      "damage_type": "斩击",
       "base_value": 6,
       "coin_power": 6,
-      "coin_count": 2,
+      "coin_count": 1,
       "attack_level": 32,
       "attack_weight": 1,
       "is_guard": false,
       "guard_type": "",
       "importance": 0,
       "coin_effects": [
-        "[命中时] 使目标增加2级 破裂 强度"
+        "硬币1：[命中时]使目标增加2级破裂强度"
       ]
     },
     {
       "skill_name": "禁止通行",
       "icon_id": "9005403",
       "sin_type": "暴食",
-      "damage_type": "",
+      "damage_type": "斩击",
       "base_value": 5,
       "coin_power": 4,
       "coin_count": 2,
@@ -78,22 +78,26 @@
       "is_guard": false,
       "guard_type": "",
       "importance": 0,
-      "coin_effects": []
+      "coin_effects": [
+        "硬币2：[正面命中时]下回合对目标施加2层易损"
+      ]
     },
     {
       "skill_name": "掩护！掩护！",
       "icon_id": "9005404",
       "sin_type": "常规",
-      "damage_type": "",
+      "damage_type": "防御",
       "base_value": 5,
       "coin_power": 5,
       "coin_count": 1,
-      "attack_level": 0,
+      "attack_level": 28,
       "attack_weight": 1,
       "is_guard": false,
       "guard_type": "",
       "importance": 0,
-      "coin_effects": []
+      "coin_effects": [
+        "[使用时]使自身恢复体力上限5%的体力"
+      ]
     }
   ],
   "is_ally": false,

@@ -1,0 +1,21 @@
+{
+  "id": "gift_9127_upgraded_2",
+  "title": "魔鬼所享",
+  "url": "https://limbuscompany.huijiwiki.com/wiki/E.G.O饰品",
+  "categories": [
+    "E.G.O饰品"
+  ],
+  "content": "回合结束时，下回合使呼吸法强度最高的1名友方单位与呼吸法层数最高的1名友方单位获得1层迅捷与1层攻击等级提升。(该效果可能对同一单位重复生效)\n若该友方单位拥有色欲攻击技能，则改为使其获得2层迅捷与2层攻击等级提升。(不包括E.G.O技能)",
+  "source": "tabx",
+  "_structured": true,
+  "page_type": "ego_gift",
+  "gift_name": "魔鬼所享",
+  "rarity": 1,
+  "cost": "144",
+  "effect_types": "呼吸法",
+  "attack_type": "色欲",
+  "location": "镜像迷宫",
+  "stage": "upgraded_2",
+  "special": "困难",
+  "_schema_version": 1
+}

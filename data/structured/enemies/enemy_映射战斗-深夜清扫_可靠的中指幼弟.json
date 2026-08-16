@@ -36,7 +36,7 @@
       "sin_type": "傲慢",
       "damage_type": "打击",
       "base_value": 8,
-      "coin_power": 3,
+      "coin_power": 5,
       "coin_count": 1,
       "attack_level": 46,
       "attack_weight": 1,
@@ -51,15 +51,15 @@
       "sin_type": "嫉妒",
       "damage_type": "打击",
       "base_value": 5,
-      "coin_power": 5793,
-      "coin_count": 2,
+      "coin_power": 6,
+      "coin_count": 1,
       "attack_level": 46,
       "attack_weight": 1,
       "is_guard": false,
       "guard_type": "",
       "importance": 0,
       "coin_effects": [
-        "[正面命中时] 下回合对目标施加1层 麻痹"
+        "硬币1：[正面命中时]下回合对目标施加1层麻痹"
       ]
     },
     {
@@ -68,16 +68,16 @@
       "sin_type": "嫉妒",
       "damage_type": "打击",
       "base_value": 5,
-      "coin_power": 5793,
-      "coin_count": 3,
+      "coin_power": 6,
+      "coin_count": 2,
       "attack_level": 46,
       "attack_weight": 1,
       "is_guard": false,
       "guard_type": "",
       "importance": 0,
       "coin_effects": [
-        "[正面命中时] 下回合对目标施加1层 虚弱",
-        "[命中时] 下回合对目标施加2层 麻痹"
+        "硬币1：[正面命中时]下回合对目标施加1层虚弱",
+        "硬币2：[命中时]下回合对目标施加2层麻痹"
       ]
     }
   ],

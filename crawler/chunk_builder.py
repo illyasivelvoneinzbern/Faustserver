@@ -813,7 +813,8 @@ def build_enemy_chunks(data: dict) -> list[Document]:
                     f"- 罪孽属性: {sin_type}",
                     f"- 伤害类型: {damage_type}",
                     f"- 基础值: {base_value}",
-                    f"- 硬币威力: +{coin_power}",
+                    # P38：硬币威力保留符号（减算硬币为负，如 -3）
+                    f"- 硬币威力: {coin_power:+d}" if coin_power else f"- 硬币威力: {coin_power}",
                     f"- 硬币数量: {coin_count}",
                     f"- 攻击容量: {atk_weight}",
                 ]

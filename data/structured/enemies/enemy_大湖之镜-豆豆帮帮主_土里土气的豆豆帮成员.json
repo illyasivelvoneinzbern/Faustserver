@@ -1,0 +1,143 @@
+{
+  "page_type": "enemy",
+  "title": "大湖之镜-豆豆帮帮主",
+  "enemy_name": "土里土气的豆豆帮成员",
+  "battle_stage": "大湖之镜-豆豆帮帮主",
+  "body_part": "",
+  "hp": 150,
+  "defense_level": 38,
+  "speed_min": 1,
+  "speed_max": 4,
+  "chaos_threshold": "",
+  "physical_resistances": {
+    "斩击": 2.0,
+    "突刺": 0.75,
+    "打击": 1.0
+  },
+  "sin_resistances": {
+    "暴怒": 1.0,
+    "色欲": 1.0,
+    "怠惰": 1.0,
+    "暴食": 1.0,
+    "忧郁": 1.0,
+    "傲慢": 1.0,
+    "嫉妒": 1.0
+  },
+  "panic_types": [
+    "畏缩"
+  ],
+  "passives": [
+    "无"
+  ],
+  "skills": [
+    {
+      "skill_name": "横扫",
+      "icon_id": "9001701",
+      "sin_type": "色欲",
+      "damage_type": "打击",
+      "base_value": 3,
+      "coin_power": 5,
+      "coin_count": 1,
+      "attack_level": 38,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": []
+    },
+    {
+      "skill_name": "无耻打击",
+      "icon_id": "9001702",
+      "sin_type": "色欲",
+      "damage_type": "打击",
+      "base_value": 3,
+      "coin_power": 3,
+      "coin_count": 2,
+      "attack_level": 38,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "硬币1：[正面命中时]下回合对目标施加1层束缚",
+        "硬币2：[正面命中时]下回合对目标施加1层束缚"
+      ]
+    },
+    {
+      "skill_name": "时来运转",
+      "icon_id": "9001703",
+      "sin_type": "暴食",
+      "damage_type": "打击",
+      "base_value": 4,
+      "coin_power": 2,
+      "coin_count": 1,
+      "attack_level": 38,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[战斗开始]使自身本回合第2个行动槽的技能中所有硬币的朝向都必定是正面"
+      ]
+    },
+    {
+      "skill_name": "横扫",
+      "icon_id": "9001701",
+      "sin_type": "色欲",
+      "damage_type": "打击",
+      "base_value": 3,
+      "coin_power": 5,
+      "coin_count": 1,
+      "attack_level": 41,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": []
+    },
+    {
+      "skill_name": "无耻打击",
+      "icon_id": "9001702",
+      "sin_type": "色欲",
+      "damage_type": "打击",
+      "base_value": 3,
+      "coin_power": 3,
+      "coin_count": 2,
+      "attack_level": 41,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "硬币1：[正面命中时]下回合对目标施加1层束缚",
+        "硬币2：[正面命中时]下回合对目标施加1层束缚"
+      ]
+    },
+    {
+      "skill_name": "时来运转",
+      "icon_id": "9001703",
+      "sin_type": "暴食",
+      "damage_type": "打击",
+      "base_value": 4,
+      "coin_power": 2,
+      "coin_count": 1,
+      "attack_level": 41,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[战斗开始]使自身本回合第2个行动槽的技能中所有硬币的朝向都必定是正面"
+      ]
+    }
+  ],
+  "is_ally": false,
+  "_structured": true,
+  "appear_stages": [
+    "大湖之镜-豆豆帮帮主"
+  ],
+  "enemy_id": "大湖之镜-豆豆帮帮主|土里土气的豆豆帮成员|",
+  "defense": 38,
+  "speed": "1~4",
+  "_schema_version": 1
+}

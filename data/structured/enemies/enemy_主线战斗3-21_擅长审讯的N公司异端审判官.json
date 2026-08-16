@@ -32,68 +32,39 @@
   ],
   "skills": [
     {
-      "skill_name": "",
-      "icon_id": "9003602",
-      "sin_type": "傲慢",
-      "damage_type": "",
-      "base_value": 0,
-      "coin_power": 5,
-      "coin_count": 2,
-      "attack_level": 24,
-      "attack_weight": 1,
-      "is_guard": false,
-      "guard_type": "",
-      "importance": 0,
-      "coin_effects": []
-    },
-    {
       "skill_name": "竟敢！",
       "icon_id": "9003504",
       "sin_type": "暴怒",
-      "damage_type": "",
+      "damage_type": "突刺",
       "base_value": 3,
-      "coin_power": 987,
-      "coin_count": 2,
+      "coin_power": 8,
+      "coin_count": 1,
       "attack_level": 24,
       "attack_weight": 1,
       "is_guard": false,
       "guard_type": "",
       "importance": 0,
       "coin_effects": [
-        "[正面命中时] 下回合对目标施加1层 N公司的尖钉"
+        "硬币1：[正面命中时]下回合对目标施加1层{{状态2|N公司的尖钉|3=尖钉|4=负面}}"
       ]
     },
     {
       "skill_name": "威严的宣教",
       "icon_id": "9003503",
       "sin_type": "色欲",
-      "damage_type": "",
+      "damage_type": "打击",
       "base_value": 5,
       "coin_power": 9,
-      "coin_count": 2,
+      "coin_count": 1,
       "attack_level": 24,
       "attack_weight": 1,
       "is_guard": false,
       "guard_type": "",
       "importance": 0,
       "coin_effects": [
-        "[命中时] 下回合对目标施加2层 虚弱"
+        "[拼点失败]下回合对自身施加2层{{状态2|虚弱|4=负面}}",
+        "硬币1：[命中时]下回合对目标施加2层{{状态2|虚弱|4=负面}}"
       ]
-    },
-    {
-      "skill_name": "",
-      "icon_id": "9003701",
-      "sin_type": "暴怒",
-      "damage_type": "",
-      "base_value": 0,
-      "coin_power": 0,
-      "coin_count": 3,
-      "attack_level": 24,
-      "attack_weight": 1,
-      "is_guard": false,
-      "guard_type": "",
-      "importance": 0,
-      "coin_effects": []
     }
   ],
   "is_ally": false,

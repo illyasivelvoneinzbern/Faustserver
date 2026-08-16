@@ -37,7 +37,7 @@
       "base_value": 4,
       "coin_power": 3,
       "coin_count": 2,
-      "attack_level": 1,
+      "attack_level": 45,
       "attack_weight": 1,
       "is_guard": false,
       "guard_type": "",
@@ -52,7 +52,7 @@
       "base_value": 5,
       "coin_power": 3,
       "coin_count": 2,
-      "attack_level": 1,
+      "attack_level": 45,
       "attack_weight": 1,
       "is_guard": false,
       "guard_type": "",
@@ -69,14 +69,14 @@
       "base_value": 4,
       "coin_power": 3,
       "coin_count": 4,
-      "attack_level": 1,
+      "attack_level": 45,
       "attack_weight": 1,
       "is_guard": false,
       "guard_type": "",
       "importance": 0,
       "coin_effects": [
         "指定体力最低的目标",
-        "使用时若目标现存体力不高于70%，则使本技能的拼点威力+2"
+        "[使用时]若目标现存体力不高于70%，则使本技能的拼点威力+2"
       ]
     },
     {
@@ -87,12 +87,14 @@
       "base_value": 5,
       "coin_power": 5,
       "coin_count": 2,
-      "attack_level": 1,
+      "attack_level": 45,
       "attack_weight": 1,
       "is_guard": false,
       "guard_type": "",
       "importance": 0,
-      "coin_effects": []
+      "coin_effects": [
+        "优先指定希斯克利夫"
+      ]
     },
     {
       "skill_name": "把它还来…！！",
@@ -102,13 +104,13 @@
       "base_value": 2,
       "coin_power": 1,
       "coin_count": 4,
-      "attack_level": 1,
+      "attack_level": 45,
       "attack_weight": 1,
       "is_guard": false,
       "guard_type": "",
       "importance": 0,
       "coin_effects": [
-        "无法拼点"
+        "[无法拼点]"
       ]
     },
     {
@@ -119,7 +121,7 @@
       "base_value": 5,
       "coin_power": 6,
       "coin_count": 2,
-      "attack_level": 1,
+      "attack_level": 45,
       "attack_weight": 1,
       "is_guard": false,
       "guard_type": "",
@@ -137,7 +139,7 @@
       "base_value": 10,
       "coin_power": 20,
       "coin_count": 1,
-      "attack_level": 1,
+      "attack_level": 45,
       "attack_weight": 1,
       "is_guard": false,
       "guard_type": "",
@@ -154,13 +156,13 @@
       "base_value": 5,
       "coin_power": 7,
       "coin_count": 1,
-      "attack_level": 1,
+      "attack_level": 45,
       "attack_weight": 1,
-      "is_guard": false,
-      "guard_type": "",
+      "is_guard": true,
+      "guard_type": "闪避",
       "importance": 0,
       "coin_effects": [
-        "闪避成功时下回合对目标施加1层束缚（最多2次）"
+        "[闪避成功时]下回合对目标施加1层束缚（最多2次）"
       ]
     },
     {
@@ -171,7 +173,7 @@
       "base_value": 7,
       "coin_power": 3,
       "coin_count": 4,
-      "attack_level": 1,
+      "attack_level": 50,
       "attack_weight": 1,
       "is_guard": false,
       "guard_type": "",

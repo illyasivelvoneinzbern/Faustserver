@@ -232,7 +232,8 @@ def load_persona_index(out_dir: str = DEFAULT_OUT_DIR) -> dict[str, dict]:
 # 饰品数据源：data/raw/wiki_accessories.jsonl（爬虫从 Data:Giftchoose.tabx 解析）。
 # 与人格不同，饰品存在两个数据难点：
 #  1. title 不唯一（如 怀表：Type L 在 时间杀人时间 与 镜像迷宫 各一条）
-#  2. 多 stage 版本（血雾 有 base / upgraded_2 / upgraded_3 三条）
+#  2. 多 stage 版本（如 炎鳞 有 base / upgraded_2 / upgraded_3 三条；P38 后
+#     upgraded_2/upgraded_3 仅由 tabx desc_1/desc_2 真强化阶段产生）
 # → 文件名与主索引键一律用 id（gift_xxxx），title 仅作反向聚合键。
 # ════════════════════════════════════════════════════════════════════════
 
@@ -248,7 +249,7 @@ def clean_gift_content(record: dict) -> dict:
     处理：
     - 去除首行标签行 ``名字：[地点][效果类型]``（信息已拆分为结构化字段）
     - 去除 ``镜牢经费.png：xxx``（经费由 cost 字段表达）
-    - 去除尾部 ``（未强化版）/（强化版·Ⅱ级）/（强化版·Ⅲ级）`` 版本标注行
+    - 去除尾部 ``（未强化版）/（强化版·Ⅰ级）/（强化版·Ⅱ级）`` 版本标注行
       （版本由 stage 字段表达）
     - 压缩多余空行、去除行尾空白
 

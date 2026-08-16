@@ -33,71 +33,70 @@
       "skill_name": "该死的贱…",
       "icon_id": "9101501",
       "sin_type": "傲慢",
-      "damage_type": "",
+      "damage_type": "打击",
       "base_value": 3,
       "coin_power": 3,
-      "coin_count": 3,
+      "coin_count": 2,
       "attack_level": 48,
       "attack_weight": 1,
       "is_guard": false,
       "guard_type": "",
       "importance": 0,
       "coin_effects": [
-        "[命中时] 下回合使自身获得1层 攻击等级提升"
+        "硬币1：[命中时]下回合使自身获得1层攻击等级提升"
       ]
     },
     {
       "skill_name": "除…",
       "icon_id": "9101502",
       "sin_type": "傲慢",
-      "damage_type": "",
+      "damage_type": "打击",
       "base_value": 4,
       "coin_power": 3,
-      "coin_count": 3,
+      "coin_count": 2,
       "attack_level": 46,
       "attack_weight": 1,
       "is_guard": false,
       "guard_type": "",
       "importance": 0,
       "coin_effects": [
-        "[命中时] 若目标带有 攻击等级降低 ，则对目标追加本硬币伤害量20%的打击伤害"
+        "[拼点胜利]使本技能的基础威力+1"
       ]
     },
     {
       "skill_name": "…掉你",
       "icon_id": "9101504",
       "sin_type": "暴怒",
-      "damage_type": "",
+      "damage_type": "打击",
       "base_value": 5,
-      "coin_power": 987,
-      "coin_count": 3,
+      "coin_power": 5,
+      "coin_count": 2,
       "attack_level": 46,
       "attack_weight": 1,
       "is_guard": false,
       "guard_type": "",
       "importance": 0,
       "coin_effects": [
-        "[命中时] 对目标施加1层 易损",
-        "[命中时] 下回合对目标施加1层 易损",
-        "[命中时] 下回合对目标施加2层 麻痹",
-        "[命中时] 目标每带有2层 攻击等级降低 ，使本硬币造成的伤害+30%（最多+120%）",
-        "[正面命中时] 若目标带有不低于3种负面状态，则重复使用本硬币（最多1次）"
+        "指定负面状态最多的目标",
+        "[拼点胜利]目标每带有3层攻击等级降低使本技能的硬币威力+1（最多+3）"
       ]
     },
     {
       "skill_name": "防御",
       "icon_id": "9101505",
       "sin_type": "常规",
-      "damage_type": "",
+      "damage_type": "防御",
       "base_value": 5,
-      "coin_power": 79,
+      "coin_power": 5,
       "coin_count": 1,
-      "attack_level": 0,
+      "attack_level": 43,
       "attack_weight": 1,
-      "is_guard": true,
-      "guard_type": "防御",
+      "is_guard": false,
+      "guard_type": "",
       "importance": 0,
-      "coin_effects": []
+      "coin_effects": [
+        "[使用时]除自身以外每有1名友方单位存活，使自身额外获得20点护盾"
+      ]
     }
   ],
   "is_ally": false,

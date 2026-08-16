@@ -46,16 +46,16 @@
       "sin_type": "忧郁",
       "damage_type": "斩击",
       "base_value": 3,
-      "coin_power": 3,
-      "coin_count": 3,
+      "coin_power": 4,
+      "coin_count": 2,
       "attack_level": 45,
       "attack_weight": 1,
       "is_guard": false,
       "guard_type": "",
       "importance": 0,
       "coin_effects": [
-        "[命中时] 使目标增加3级 流血 强度",
-        "[命中时] 目标增加3级 流血 强度"
+        "若自身带有时间加速，则使本技能的拼点威力+1",
+        "[拼点失败]若现存体力低于75%，则消耗50层共享的时间并使自身获得1层守护(每回合最多1次)"
       ]
     },
     {
@@ -64,18 +64,17 @@
       "sin_type": "傲慢",
       "damage_type": "穿刺",
       "base_value": 4,
-      "coin_power": 3,
-      "coin_count": 4,
+      "coin_power": 4,
+      "coin_count": 3,
       "attack_level": 45,
       "attack_weight": 1,
       "is_guard": false,
       "guard_type": "",
       "importance": 0,
       "coin_effects": [
-        "[使用时] 若所有部位的 共享的时间 层数总计不低于500层，则对目标施加1层 流血",
-        "[使用时] 若 共享的时间 层数总计不低于300层，则消耗25层 共享的时间 并使本技能增加的 流血 强度与施加的 流血 层数额外+1",
-        "[命中时] 使目标增加4级 流血 强度",
-        "[命中时] 对目标施加2层 流血"
+        "若自身带有时间加速，则使本技能的拼点威力+2",
+        "[使用时]若所有部位的共享的时间层数总计不低于500层，则对目标施加1层流血",
+        "[使用时]若共享的时间层数总计不低于300层，则消耗25层共享的时间并使本技能增加的流血强度与施加的流血层数额外+1"
       ]
     },
     {
@@ -85,16 +84,15 @@
       "damage_type": "斩击",
       "base_value": 3,
       "coin_power": 3,
-      "coin_count": 5,
+      "coin_count": 4,
       "attack_level": 42,
       "attack_weight": 1,
       "is_guard": false,
       "guard_type": "",
       "importance": 0,
       "coin_effects": [
-        "[使用时] 若现存体力低于75%，则消耗50层 共享的时间 并使本技能的拼点威力+2(每回合最多1次)",
-        "[命中时] 使目标增加3级 流血 强度",
-        "[命中时] 对目标施加2层 流血"
+        "若自身带有时间加速，则使本技能的硬币威力+1",
+        "[使用时]若现存体力低于75%，则消耗50层共享的时间并使本技能的拼点威力+2(每回合最多1次)"
       ]
     },
     {
@@ -103,17 +101,17 @@
       "sin_type": "暴怒",
       "damage_type": "穿刺",
       "base_value": 5,
-      "coin_power": 987,
-      "coin_count": 3,
+      "coin_power": 5,
+      "coin_count": 2,
       "attack_level": 42,
       "attack_weight": 1,
       "is_guard": false,
       "guard_type": "",
       "importance": 0,
       "coin_effects": [
-        "[使用时] 若现存体力低于75%，则消耗75层 共享的时间 并使本技能的拼点威力+2",
-        "[命中时] 对目标施加1层 流血",
-        "[命中时] 使目标增加8级 流血 强度"
+        "[使用时]若现存体力低于75%，则消耗75层共享的时间并使本技能的拼点威力+2",
+        "[攻击前]若自身带有时间加速，则使本技能的攻击容量+1",
+        "[攻击前]若现存体力低于60%，则消耗10层共享的时间并使本技能的攻击容量+1"
       ]
     },
     {
@@ -122,7 +120,7 @@
       "sin_type": "嫉妒",
       "damage_type": "斩击",
       "base_value": 3,
-      "coin_power": 5793,
+      "coin_power": 3,
       "coin_count": 1,
       "attack_level": 42,
       "attack_weight": 1,
@@ -130,9 +128,9 @@
       "guard_type": "",
       "importance": 0,
       "coin_effects": [
-        "无法拼点",
+        "[无法拼点]",
         "对以自身为目标使用攻击技能的单位在下回合施加时间救援目标",
-        "战斗开始消耗200层共享的时间并在下回合使自身获得时间加速"
+        "[战斗开始]消耗200层共享的时间并在下回合使自身获得时间加速"
       ]
     },
     {
@@ -141,15 +139,15 @@
       "sin_type": "暴食",
       "damage_type": "闪避",
       "base_value": 2,
-      "coin_power": 854,
+      "coin_power": 8,
       "coin_count": 1,
-      "attack_level": 0,
+      "attack_level": 42,
       "attack_weight": 1,
       "is_guard": true,
       "guard_type": "闪避",
       "importance": 0,
       "coin_effects": [
-        "使用时所有部位总计每带有100层共享的时间，使本技能基础威力+1"
+        "[使用时]所有部位总计每带有100层共享的时间，使本技能基础威力+1"
       ]
     },
     {
@@ -158,16 +156,19 @@
       "sin_type": "怠惰",
       "damage_type": "穿刺",
       "base_value": 48,
-      "coin_power": 9703,
-      "coin_count": 2,
+      "coin_power": 48,
+      "coin_count": 1,
       "attack_level": 45,
       "attack_weight": 1,
       "is_guard": false,
       "guard_type": "",
       "importance": 0,
       "coin_effects": [
-        "[使用时] 获得全员最后剩余的400层 共享的时间 后将其消耗",
-        "[命中时] 删除目标的时间。若目标的时间被删除，则使所有部位的 共享的时间 恢复至最大值，下回合使自身获得10层 迅捷 与 强壮"
+        "[无法拼点]",
+        "使自身的速度值固定为24点",
+        "本回合内无法陷入混乱状态",
+        "[使用时]获得全员最后剩余的400层共享的时间后将其消耗",
+        "硬币1：[命中时]删除目标的时间。若目标的时间被删除，则使所有部位的共享的时间恢复至最大值，下回合使自身获得10层迅捷与强壮"
       ]
     },
     {
@@ -176,9 +177,9 @@
       "sin_type": "嫉妒",
       "damage_type": "防御",
       "base_value": 5,
-      "coin_power": 5793,
+      "coin_power": 1,
       "coin_count": 1,
-      "attack_level": 0,
+      "attack_level": 45,
       "attack_weight": 1,
       "is_guard": false,
       "guard_type": "",

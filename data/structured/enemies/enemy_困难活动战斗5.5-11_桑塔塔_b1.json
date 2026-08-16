@@ -37,17 +37,15 @@
       "sin_type": "暴食",
       "damage_type": "打击",
       "base_value": 5,
-      "coin_power": 854,
-      "coin_count": 2,
+      "coin_power": 3,
+      "coin_count": 1,
       "attack_level": 55,
       "attack_weight": 1,
       "is_guard": false,
       "guard_type": "",
       "importance": 0,
       "coin_effects": [
-        "[使用时] 使自身获得2层 充能",
-        "[命中时] 下回合对目标施加3层 束缚",
-        "[命中时] 使自身增加2级 呼吸法 强度"
+        "[使用时]使自身获得2层充能"
       ]
     },
     {
@@ -56,17 +54,15 @@
       "sin_type": "暴食",
       "damage_type": "打击",
       "base_value": 4,
-      "coin_power": 854,
-      "coin_count": 3,
+      "coin_power": 4,
+      "coin_count": 2,
       "attack_level": 55,
       "attack_weight": 1,
       "is_guard": false,
       "guard_type": "",
       "importance": 0,
       "coin_effects": [
-        "[使用时] 使自身获得2层 充能",
-        "[命中时] 使自身获得3层 呼吸法",
-        "[正面命中时] 使自身增加3级 呼吸法 强度"
+        "[使用时]使自身获得2层充能"
       ]
     },
     {
@@ -75,16 +71,15 @@
       "sin_type": "怠惰",
       "damage_type": "打击",
       "base_value": 6,
-      "coin_power": 9703,
-      "coin_count": 2,
+      "coin_power": 8,
+      "coin_count": 1,
       "attack_level": 55,
       "attack_weight": 1,
       "is_guard": false,
       "guard_type": "",
       "importance": 0,
       "coin_effects": [
-        "[命中时] 使目标失去5点理智值",
-        "[命中时] 使自身增加2级 呼吸法 强度并获得3层 呼吸法"
+        "若目标带有{{状态2|束缚|4=负面}}，且自身的速度值高于目标，则根据速度值之差，相应使本技能的拼点威力增加"
       ]
     },
     {
@@ -93,19 +88,17 @@
       "sin_type": "暴怒",
       "damage_type": "打击",
       "base_value": 9,
-      "coin_power": 987,
-      "coin_count": 7,
+      "coin_power": 3,
+      "coin_count": 3,
       "attack_level": 55,
       "attack_weight": 1,
       "is_guard": false,
       "guard_type": "",
       "importance": 0,
       "coin_effects": [
-        "[命中时] 使自身增加3级 呼吸法 强度 不可摧毁的硬币",
-        "[命中时] 根据自身的 呼吸法 强度，相应追加额外伤害",
-        "[命中时] 使自身增加1级 呼吸法 强度并获得3层 呼吸法 不可摧毁的硬币",
-        "[命中时] 对目标施加3层某种随机效果，该效果可能为 守护 、 强壮 、 易损 或 麻痹",
-        "[命中时] 根据自身的 充能 层数，使目标失去相应的理智值"
+        "若自身带有嚯！嚯！嚯！，则使本技能的硬币效果增加“下回合对目标施加1层{{状态2|麻痹|4=负面}} ”",
+        "优先指定速度值最低的单位",
+        "[回合结束时]消耗所有充能层数"
       ]
     },
     {
@@ -114,9 +107,9 @@
       "sin_type": "常规",
       "damage_type": "防御",
       "base_value": 80,
-      "coin_power": 79,
+      "coin_power": 20,
       "coin_count": 1,
-      "attack_level": 0,
+      "attack_level": 50,
       "attack_weight": 1,
       "is_guard": false,
       "guard_type": "",

@@ -34,15 +34,15 @@
       "sin_type": "暴食",
       "damage_type": "穿刺",
       "base_value": 3,
-      "coin_power": 854,
-      "coin_count": 3,
+      "coin_power": 3,
+      "coin_count": 2,
       "attack_level": 35,
       "attack_weight": 1,
       "is_guard": false,
       "guard_type": "",
       "importance": 0,
       "coin_effects": [
-        "[命中时] 对目标施加1层 种子"
+        "硬币1：[命中时]对目标施加1层种子"
       ]
     },
     {
@@ -51,9 +51,9 @@
       "sin_type": "常规",
       "damage_type": "防御",
       "base_value": 6,
-      "coin_power": 79,
+      "coin_power": 6,
       "coin_count": 1,
-      "attack_level": 0,
+      "attack_level": 35,
       "attack_weight": 1,
       "is_guard": false,
       "guard_type": "",

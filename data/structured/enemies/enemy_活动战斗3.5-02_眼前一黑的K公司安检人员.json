@@ -34,66 +34,67 @@
       "skill_name": "叽叽叽叽",
       "icon_id": "9004501",
       "sin_type": "怠惰",
-      "damage_type": "",
+      "damage_type": "打击",
       "base_value": 3,
       "coin_power": 6,
-      "coin_count": 2,
+      "coin_count": 1,
       "attack_level": 20,
       "attack_weight": 1,
       "is_guard": false,
       "guard_type": "",
       "importance": 0,
       "coin_effects": [
-        "[正面命中时] 使目标增加5级 震颤 强度"
+        "若自身在上回合未受到伤害，则使本技能的硬币威力+1",
+        "硬币1：[正面命中时]使目标增加5级震颤强度"
       ]
     },
     {
       "skill_name": "叽叽叽叽",
       "icon_id": "9004502",
       "sin_type": "怠惰",
-      "damage_type": "",
+      "damage_type": "打击",
       "base_value": 4,
       "coin_power": 6,
-      "coin_count": 2,
-      "attack_level": 20,
-      "attack_weight": 1,
-      "is_guard": true,
-      "guard_type": "防御",
-      "importance": 0,
-      "coin_effects": [
-        "[命中时] 下回合对目标施加1层 束缚 与2层 防御等级降低"
-      ]
-    },
-    {
-      "skill_name": "叽伊叽叽",
-      "icon_id": "9004503",
-      "sin_type": "怠惰",
-      "damage_type": "",
-      "base_value": 6,
-      "coin_power": 8,
-      "coin_count": 2,
+      "coin_count": 1,
       "attack_level": 20,
       "attack_weight": 1,
       "is_guard": false,
       "guard_type": "",
       "importance": 0,
       "coin_effects": [
-        "[使用时] 使自身获得2层 守护",
-        "[命中时] 使目标 震颤引爆"
+        "硬币1：[命中时]下回合对目标施加1层束缚与2层防御等级降低"
+      ]
+    },
+    {
+      "skill_name": "叽伊叽叽",
+      "icon_id": "9004503",
+      "sin_type": "怠惰",
+      "damage_type": "打击",
+      "base_value": 6,
+      "coin_power": 8,
+      "coin_count": 1,
+      "attack_level": 20,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[使用时]使自身获得2层守护",
+        "硬币1：[命中时]使目标震颤引爆"
       ]
     },
     {
       "skill_name": "防御",
       "icon_id": "9004403",
       "sin_type": "常规",
-      "damage_type": "",
+      "damage_type": "防御",
       "base_value": 4,
       "coin_power": 4,
       "coin_count": 1,
-      "attack_level": 0,
+      "attack_level": 27,
       "attack_weight": 1,
-      "is_guard": true,
-      "guard_type": "防御",
+      "is_guard": false,
+      "guard_type": "",
       "importance": 0,
       "coin_effects": []
     }

@@ -35,16 +35,15 @@
       "sin_type": "嫉妒",
       "damage_type": "打击",
       "base_value": 4,
-      "coin_power": 5793,
-      "coin_count": 3,
+      "coin_power": 3,
+      "coin_count": 2,
       "attack_level": 45,
       "attack_weight": 1,
       "is_guard": false,
       "guard_type": "",
       "importance": 0,
       "coin_effects": [
-        "[命中时] 对目标施加3层 破裂",
-        "[命中时] 使目标增加3级 破裂 强度"
+        "硬币1：[命中时]对目标施加3层破裂"
       ]
     },
     {
@@ -53,18 +52,15 @@
       "sin_type": "暴怒",
       "damage_type": "打击",
       "base_value": 4,
-      "coin_power": 987,
-      "coin_count": 4,
+      "coin_power": 2,
+      "coin_count": 3,
       "attack_level": 46,
       "attack_weight": 1,
       "is_guard": false,
       "guard_type": "",
       "importance": 0,
       "coin_effects": [
-        "[命中时] 对目标施加3层 破裂",
-        "[命中时] 使目标增加3级 破裂 强度",
-        "[命中时] 使目标增加3级 流血 强度",
-        "[命中时] 使目标增加等同于 破裂 强度的 流血 强度"
+        "[拼点胜利]下回合使自身获得1层强壮与1层伤害强化"
       ]
     },
     {
@@ -73,18 +69,15 @@
       "sin_type": "忧郁",
       "damage_type": "打击",
       "base_value": 3,
-      "coin_power": 3,
-      "coin_count": 4,
+      "coin_power": 4,
+      "coin_count": 3,
       "attack_level": 46,
       "attack_weight": 1,
       "is_guard": false,
       "guard_type": "",
       "importance": 0,
       "coin_effects": [
-        "[正面命中时] 使本技能的下一枚硬币的威力+1",
-        "[正面命中时] 使本技能的下一枚硬币的威力+2",
-        "[命中时] 下回合对目标施加3层 麻痹",
-        "[命中时] 使目标增加8级 流血 强度"
+        "若目标的破裂强度不低于5级，则使本技能的拼点威力+1"
       ]
     },
     {
@@ -93,25 +86,6 @@
       "sin_type": "嫉妒",
       "damage_type": "打击",
       "base_value": 3,
-      "coin_power": 5793,
-      "coin_count": 5,
-      "attack_level": 45,
-      "attack_weight": 1,
-      "is_guard": false,
-      "guard_type": "",
-      "importance": 0,
-      "coin_effects": [
-        "[命中时] 对目标施加3层 流血 与3层 破裂",
-        "[命中时] 使目标增加3级 流血 强度与3级 破裂 强度",
-        "[命中时] 下回合使自身获得1层 强壮"
-      ]
-    },
-    {
-      "skill_name": "你会更加痛苦！",
-      "icon_id": "816405",
-      "sin_type": "忧郁",
-      "damage_type": "打击",
-      "base_value": 3,
       "coin_power": 3,
       "coin_count": 4,
       "attack_level": 45,
@@ -120,9 +94,24 @@
       "guard_type": "",
       "importance": 0,
       "coin_effects": [
-        "[正面命中时] 使本技能的下一枚硬币的威力+1",
-        "[正面命中时] 使本技能的下一枚硬币的威力+2",
-        "[命中时] 使目标增加8级 流血 强度"
+        "[无法改变拼点目标]"
+      ]
+    },
+    {
+      "skill_name": "你会更加痛苦！",
+      "icon_id": "816405",
+      "sin_type": "忧郁",
+      "damage_type": "打击",
+      "base_value": 3,
+      "coin_power": 4,
+      "coin_count": 3,
+      "attack_level": 45,
+      "attack_weight": 3,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[无法改变拼点目标]"
       ]
     },
     {
@@ -131,15 +120,15 @@
       "sin_type": "色欲",
       "damage_type": "防御",
       "base_value": 15,
-      "coin_power": 9,
+      "coin_power": 10,
       "coin_count": 1,
-      "attack_level": 0,
+      "attack_level": 48,
       "attack_weight": 1,
-      "is_guard": true,
-      "guard_type": "防御",
+      "is_guard": false,
+      "guard_type": "",
       "importance": 0,
       "coin_effects": [
-        "使用时下回合使自身获得1层强壮"
+        "[使用时]下回合使自身获得1层强壮"
       ]
     },
     {
@@ -148,16 +137,15 @@
       "sin_type": "嫉妒",
       "damage_type": "打击",
       "base_value": 8,
-      "coin_power": 5793,
-      "coin_count": 2,
+      "coin_power": 8,
+      "coin_count": 1,
       "attack_level": 50,
       "attack_weight": 1,
-      "is_guard": true,
-      "guard_type": "反击",
+      "is_guard": false,
+      "guard_type": "",
       "importance": 0,
       "coin_effects": [
-        "[使用时] 下回合使自身获得1层 强壮",
-        "[命中时] 对目标施加3级 流血 强度"
+        "[使用时]下回合使自身获得1层强壮"
       ]
     }
   ],

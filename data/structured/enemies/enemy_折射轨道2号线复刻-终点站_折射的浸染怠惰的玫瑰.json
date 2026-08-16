@@ -41,16 +41,16 @@
       "sin_type": "怠惰",
       "damage_type": "打击",
       "base_value": 4,
-      "coin_power": 9703,
-      "coin_count": 2,
+      "coin_power": 4,
+      "coin_count": 1,
       "attack_level": 57,
       "attack_weight": 1,
       "is_guard": false,
       "guard_type": "",
       "importance": 0,
       "coin_effects": [
-        "[使用时] 每有1朵与自身罪孽属性不同的玫瑰，使本技能的基础威力+1(最多+6)",
-        "[命中时] 使目标增加8级 震颤 强度"
+        "[使用时]每有1朵与自身罪孽属性不同的玫瑰，使本技能的基础威力+1(最多+6)",
+        "硬币1：[命中时]使目标增加8级震颤强度"
       ]
     },
     {
@@ -59,17 +59,17 @@
       "sin_type": "怠惰",
       "damage_type": "打击",
       "base_value": 6,
-      "coin_power": 9703,
-      "coin_count": 2,
+      "coin_power": 6,
+      "coin_count": 1,
       "attack_level": 57,
       "attack_weight": 1,
       "is_guard": false,
       "guard_type": "",
       "importance": 0,
       "coin_effects": [
-        "[使用时] 每有1朵与自身罪孽属性不同的玫瑰，使本技能的基础威力+1(最多+6)",
-        "[命中时] 使目标增加8级 震颤 强度",
-        "[正面命中时] 使目标 震颤引爆"
+        "[使用时]每有1朵与自身罪孽属性不同的玫瑰，使本技能的基础威力+1(最多+6)",
+        "硬币1：[命中时]使目标增加8级震颤强度",
+        "[正面命中时]使目标震颤引爆"
       ]
     },
     {
@@ -78,16 +78,16 @@
       "sin_type": "怠惰",
       "damage_type": "守备",
       "base_value": 15,
-      "coin_power": 9703,
+      "coin_power": 5,
       "coin_count": 1,
-      "attack_level": 0,
+      "attack_level": 63,
       "attack_weight": 1,
-      "is_guard": false,
-      "guard_type": "",
+      "is_guard": true,
+      "guard_type": "守备",
       "importance": 0,
       "coin_effects": [
         "若自身带有护盾时受到攻击，则使自身与目标震颤引爆",
-        "使用时每有1朵与自身罪孽属性不同的玫瑰，使本技能的基础威力+1(最多+6)"
+        "[使用时]每有1朵与自身罪孽属性不同的玫瑰，使本技能的基础威力+1(最多+6)"
       ]
     }
   ],

@@ -30,24 +30,25 @@
       "skill_name": "咯哦咯",
       "icon_id": "803401",
       "sin_type": "色欲",
-      "damage_type": "",
+      "damage_type": "打击",
       "base_value": 4,
       "coin_power": 8,
-      "coin_count": 2,
+      "coin_count": 1,
       "attack_level": 21,
       "attack_weight": 1,
       "is_guard": false,
       "guard_type": "",
       "importance": 0,
       "coin_effects": [
-        "[命中时] 对目标施加1层 易损"
+        "优先指定体力最低的单位",
+        "硬币1：[命中时]对目标施加1层易损"
       ]
     },
     {
       "skill_name": "咯咯啵",
       "icon_id": "803402",
       "sin_type": "色欲",
-      "damage_type": "",
+      "damage_type": "打击",
       "base_value": 4,
       "coin_power": 3,
       "coin_count": 2,
@@ -56,22 +57,28 @@
       "is_guard": false,
       "guard_type": "",
       "importance": 0,
-      "coin_effects": []
+      "coin_effects": [
+        "优先指定体力最低的单位",
+        "硬币2：[命中时]使自身恢复7点体力",
+        "[正面命中时]使目标增加5级流血强度"
+      ]
     },
     {
       "skill_name": "咕",
       "icon_id": "803403",
       "sin_type": "常规",
-      "damage_type": "",
+      "damage_type": "闪避",
       "base_value": 4,
       "coin_power": 8,
       "coin_count": 1,
-      "attack_level": 0,
+      "attack_level": 21,
       "attack_weight": 1,
       "is_guard": true,
       "guard_type": "闪避",
       "importance": 0,
-      "coin_effects": []
+      "coin_effects": [
+        "[闪避成功时]使目标失去15点理智值"
+      ]
     }
   ],
   "is_ally": false,

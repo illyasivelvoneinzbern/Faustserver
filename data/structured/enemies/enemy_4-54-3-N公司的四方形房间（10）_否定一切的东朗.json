@@ -32,16 +32,15 @@
       "sin_type": "忧郁",
       "damage_type": "斩击",
       "base_value": 4,
-      "coin_power": 3,
-      "coin_count": 2,
+      "coin_power": 6,
+      "coin_count": 1,
       "attack_level": 34,
       "attack_weight": 1,
       "is_guard": false,
       "guard_type": "",
       "importance": 0,
       "coin_effects": [
-        "[使用时] 下回合对目标施加1层 空虚的标记",
-        "[命中时] 使目标增加10级 破裂 强度"
+        "[使用时]下回合对目标施加1层空虚的标记"
       ]
     },
     {
@@ -50,16 +49,15 @@
       "sin_type": "忧郁",
       "damage_type": "斩击",
       "base_value": 3,
-      "coin_power": 3,
-      "coin_count": 3,
+      "coin_power": 5,
+      "coin_count": 2,
       "attack_level": 34,
       "attack_weight": 1,
       "is_guard": false,
       "guard_type": "",
       "importance": 0,
       "coin_effects": [
-        "[命中时] 使目标增加5级 破裂 强度",
-        "[命中时] 对目标施加3层 破裂"
+        "硬币1：[命中时]使目标增加5级破裂强度"
       ]
     },
     {
@@ -68,15 +66,15 @@
       "sin_type": "暴怒",
       "damage_type": "斩击",
       "base_value": 6,
-      "coin_power": 987,
-      "coin_count": 3,
+      "coin_power": 4,
+      "coin_count": 2,
       "attack_level": 34,
       "attack_weight": 1,
       "is_guard": false,
       "guard_type": "",
       "importance": 0,
       "coin_effects": [
-        "[命中时] 根据伤害量相应恢复体力 若目标带有 空虚的标记 ，则下回合使自身获得1层 强壮"
+        "若目标带有空虚的标记，则使本技能造成的伤害+50%"
       ]
     },
     {
@@ -85,15 +83,15 @@
       "sin_type": "忧郁",
       "damage_type": "斩击",
       "base_value": 10,
-      "coin_power": 3,
+      "coin_power": 4,
       "coin_count": 2,
       "attack_level": 34,
-      "attack_weight": 1,
+      "attack_weight": 3,
       "is_guard": false,
       "guard_type": "",
       "importance": 0,
       "coin_effects": [
-        "[命中时] 使目标增加10级 流血 强度"
+        "硬币1：[命中时]使目标增加10级流血强度"
       ]
     },
     {
@@ -104,7 +102,7 @@
       "base_value": 4,
       "coin_power": 4,
       "coin_count": 3,
-      "attack_level": 2,
+      "attack_level": 35,
       "attack_weight": 1,
       "is_guard": false,
       "guard_type": "",
@@ -119,7 +117,7 @@
       "base_value": 5,
       "coin_power": 4,
       "coin_count": 2,
-      "attack_level": 2,
+      "attack_level": 35,
       "attack_weight": 1,
       "is_guard": false,
       "guard_type": "",
@@ -136,13 +134,13 @@
       "base_value": 5,
       "coin_power": 1,
       "coin_count": 1,
-      "attack_level": 2,
+      "attack_level": 32,
       "attack_weight": 1,
       "is_guard": false,
       "guard_type": "",
       "importance": 0,
       "coin_effects": [
-        "拼点失败使自身增加10级破裂强度"
+        "[拼点失败]使自身增加10级破裂强度"
       ]
     },
     {
@@ -153,7 +151,7 @@
       "base_value": 5,
       "coin_power": 4,
       "coin_count": 2,
-      "attack_level": 2,
+      "attack_level": 35,
       "attack_weight": 1,
       "is_guard": false,
       "guard_type": "",
@@ -170,13 +168,13 @@
       "base_value": 5,
       "coin_power": 1,
       "coin_count": 1,
-      "attack_level": 2,
+      "attack_level": 32,
       "attack_weight": 1,
       "is_guard": false,
       "guard_type": "",
       "importance": 0,
       "coin_effects": [
-        "拼点失败使自身增加10级破裂强度"
+        "[拼点失败]使自身增加10级破裂强度"
       ]
     },
     {
@@ -187,13 +185,13 @@
       "base_value": 5,
       "coin_power": 10,
       "coin_count": 1,
-      "attack_level": 2,
+      "attack_level": 35,
       "attack_weight": 1,
       "is_guard": false,
       "guard_type": "",
       "importance": 0,
       "coin_effects": [
-        "1命中时对目标施加5层易损"
+        "硬币1：[命中时]对目标施加5层易损"
       ]
     },
     {
@@ -204,13 +202,13 @@
       "base_value": 15,
       "coin_power": 8,
       "coin_count": 1,
-      "attack_level": 2,
+      "attack_level": 36,
       "attack_weight": 7,
       "is_guard": false,
       "guard_type": "",
       "importance": 0,
       "coin_effects": [
-        "1命中时对目标施加2层易损并使目标增加5级破裂强度与5级流血强度。使自身恢复本硬币伤害量10%的体力"
+        "硬币1：[命中时]对目标施加2层易损并使目标增加5级破裂强度与5级流血强度。使自身恢复本硬币伤害量10%的体力"
       ]
     }
   ],

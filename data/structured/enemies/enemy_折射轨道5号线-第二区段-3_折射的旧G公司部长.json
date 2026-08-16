@@ -39,7 +39,7 @@
       "base_value": 3,
       "coin_power": 1,
       "coin_count": 2,
-      "attack_level": 2,
+      "attack_level": 47,
       "attack_weight": 1,
       "is_guard": false,
       "guard_type": "",
@@ -54,13 +54,13 @@
       "base_value": 3,
       "coin_power": 6,
       "coin_count": 1,
-      "attack_level": 0,
+      "attack_level": 47,
       "attack_weight": 1,
       "is_guard": false,
       "guard_type": "",
       "importance": 0,
       "coin_effects": [
-        "使用时下回合随机使2名友方单位获得1层守护"
+        "[使用时]下回合随机使2名友方单位获得1层守护"
       ]
     },
     {
@@ -71,13 +71,13 @@
       "base_value": 4,
       "coin_power": 8,
       "coin_count": 1,
-      "attack_level": 2,
+      "attack_level": 47,
       "attack_weight": 1,
       "is_guard": false,
       "guard_type": "",
       "importance": 0,
       "coin_effects": [
-        "1正面命中时下回合对目标施加5层破裂"
+        "硬币1：[正面命中时]下回合对目标施加5层破裂"
       ]
     },
     {
@@ -88,7 +88,7 @@
       "base_value": 6,
       "coin_power": 2,
       "coin_count": 1,
-      "attack_level": 0,
+      "attack_level": 51,
       "attack_weight": 1,
       "is_guard": false,
       "guard_type": "",

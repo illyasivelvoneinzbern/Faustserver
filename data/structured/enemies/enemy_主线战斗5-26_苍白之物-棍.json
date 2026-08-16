@@ -37,26 +37,43 @@
       "skill_name": "..-. .",
       "icon_id": "9009301",
       "sin_type": "傲慢",
-      "damage_type": "",
+      "damage_type": "打击",
       "base_value": 10,
-      "coin_power": 3,
-      "coin_count": 2,
+      "coin_power": -6,
+      "coin_count": 1,
       "attack_level": 29,
       "attack_weight": 1,
-      "is_guard": true,
-      "guard_type": "防御",
+      "is_guard": false,
+      "guard_type": "",
       "importance": 0,
       "coin_effects": [
-        "[命中时] 对目标施加2层 防御等级降低"
+        "硬币1：[命中时]对目标施加2层防御等级降低"
       ]
     },
     {
       "skill_name": ".-.. .",
       "icon_id": "9009302",
       "sin_type": "傲慢",
-      "damage_type": "",
+      "damage_type": "打击",
       "base_value": 13,
-      "coin_power": 3,
+      "coin_power": -8,
+      "coin_count": 1,
+      "attack_level": 29,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[使用时]下回合随机使1名其他苍白的友方单位获得1层伤害强化"
+      ]
+    },
+    {
+      "skill_name": ".-.. .-",
+      "icon_id": "9009303",
+      "sin_type": "傲慢",
+      "damage_type": "打击",
+      "base_value": 14,
+      "coin_power": -6,
       "coin_count": 2,
       "attack_level": 29,
       "attack_weight": 1,
@@ -64,28 +81,7 @@
       "guard_type": "",
       "importance": 0,
       "coin_effects": [
-        "[使用时] 下回合随机使1名其他苍白的友方单位获得1层 伤害强化",
-        "[命中时] 对目标施加2层 麻痹",
-        "[正面命中时] 对目标施加1层 苍白的噪音"
-      ]
-    },
-    {
-      "skill_name": ".-.. .-",
-      "icon_id": "9009303",
-      "sin_type": "傲慢",
-      "damage_type": "",
-      "base_value": 14,
-      "coin_power": 3,
-      "coin_count": 3,
-      "attack_level": 29,
-      "attack_weight": 1,
-      "is_guard": true,
-      "guard_type": "防御",
-      "importance": 0,
-      "coin_effects": [
-        "[使用时] 下回合随机使1名其他苍白的友方单位获得1层 伤害强化",
-        "[命中时] 对目标施加2层 防御等级降低",
-        "[命中时] 对目标施加1层 苍白的噪音"
+        "[使用时]下回合随机使1名其他苍白的友方单位获得1层伤害强化"
       ]
     }
   ],

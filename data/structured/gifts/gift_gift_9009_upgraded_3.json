@@ -1,0 +1,21 @@
+{
+  "id": "gift_9009_upgraded_3",
+  "title": "炽热的羽毛",
+  "url": "https://limbuscompany.huijiwiki.com/wiki/E.G.O饰品",
+  "categories": [
+    "E.G.O饰品"
+  ],
+  "content": "使用增加烧伤强度或施加特殊烧伤的技能或色欲技能对敌方单位造成伤害时，使目标增加4级烧伤强度。\n回合开始时，使烧伤强度不低于20级的全体敌方单位的烧伤强度变为2.5倍。",
+  "source": "tabx",
+  "_structured": true,
+  "page_type": "ego_gift",
+  "gift_name": "炽热的羽毛",
+  "rarity": 2,
+  "cost": "203",
+  "effect_types": "烧伤",
+  "attack_type": "色欲",
+  "location": "镜像迷宫",
+  "stage": "upgraded_3",
+  "event": "事件-人皮预言者",
+  "_schema_version": 1
+}

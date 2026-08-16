@@ -1,0 +1,20 @@
+{
+  "id": "gift_9055_upgraded_2",
+  "title": "暴雨",
+  "url": "https://limbuscompany.huijiwiki.com/wiki/E.G.O饰品",
+  "categories": [
+    "E.G.O饰品"
+  ],
+  "content": "回合开始时，使全体敌方单位（或所有异想体部位）增加(3+当前回合数×2)级震颤强度并对其施加3层震颤。\n回合结束时，使全体敌方单位（或所有异想体部位）震颤引爆。",
+  "source": "tabx",
+  "_structured": true,
+  "page_type": "ego_gift",
+  "gift_name": "暴雨",
+  "rarity": 4,
+  "cost": "381",
+  "effect_types": "震颤",
+  "attack_type": "怠惰",
+  "location": "镜像迷宫",
+  "stage": "upgraded_2",
+  "_schema_version": 1
+}

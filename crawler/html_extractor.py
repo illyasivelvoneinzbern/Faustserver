@@ -1491,9 +1491,11 @@ class EnemyExtractor:
             return
 
         # 按 h2/h3 标题切分：h3 设置当前敌人归属，h2 清空归属（如 ==援助单位==）。
-        # P25：h3 区段标题（技能/被动/基本信息等）不切换归属，继承最近的敌人名；
-        # 非区段 h2 视为敌人名（折射轨道格式：h2 敌人 + h3"技能"），
-        # 与 extract() 中 h2/h3/h4/h5 均视为敌人标题的处理保持一致。
+        # P38：统一 h2~h5 标题归属切分。
+        # P25：区段标题（技能/被动/基本信息等）不切换归属，继承最近的敌人名；
+        # 非区段标题视为敌人名（折射轨道 h2 敌人 + h3"技能"、经验采光 h4 敌人
+        # 如 ====苍白之物-棍==== 等），与 extract() 中 h2/h3/h4/h5 均视为
+        # 敌人标题的处理保持一致。
         _SECTION_KW = (
             "技能", "被动", "基本信息", "战斗信息", "主线导航", "导航",
             "援助单位", "友方单位", "事件", "器物", "波次", "理智值", "特殊语音",
@@ -1501,26 +1503,27 @@ class EnemyExtractor:
         current_enemy: Optional[str] = None
         sections: list[tuple[Optional[str], str]] = []
         buf_lines: list[str] = []
+        _HEADING_RE = re.compile(r'^(={2,5})([^=]+)\1\s*$')
         for line in self.wikitext.splitlines():
             stripped = line.strip()
-            h2 = re.match(r'^==([^=]+)==\s*$', stripped)
-            h3 = re.match(r'^===([^=]+)===\s*$', stripped)
-            if h2 or h3:
+            hm = _HEADING_RE.match(stripped)
+            if hm:
                 sections.append((current_enemy, "\n".join(buf_lines)))
                 buf_lines = []
-                if h3:
-                    name = h3.group(1).strip()
-                    if not any(k in name for k in _SECTION_KW):
-                        current_enemy = name
-                        self._enemy_skill_icons.setdefault(current_enemy, [])
-                    # 区段标题：继承当前归属，不切换
-                else:
-                    name = h2.group(1).strip()
+                level = len(hm.group(1))
+                name = hm.group(2).strip()
+                if level == 2:
+                    # h2：非区段 → 敌人名；区段 → 清空归属
                     if not any(k in name for k in _SECTION_KW):
                         current_enemy = name
                         self._enemy_skill_icons.setdefault(current_enemy, [])
                     else:
                         current_enemy = None
+                else:
+                    # h3/h4/h5：非区段 → 敌人名；区段 → 继承当前归属
+                    if not any(k in name for k in _SECTION_KW):
+                        current_enemy = name
+                        self._enemy_skill_icons.setdefault(current_enemy, [])
             else:
                 buf_lines.append(line)
         sections.append((current_enemy, "\n".join(buf_lines)))
@@ -1542,7 +1545,10 @@ class EnemyExtractor:
                         if depth == 0:
                             template_content = text[match.start() + 2:i]
                             icon_match = re.search(
-                                r'(?:技能图标|图标)\s*=\s*(\d+)', template_content
+                                # P38：兼容中文图标名（如 黑檀皇后的苹果技能图标2），
+                                # 不再要求纯数字——数字图标用于 DOM 配对，中文图标
+                                # 在 _apply_wikitext_skill_attribution 走技能名兜底
+                                r'(?:技能图标|图标)\s*=\s*([^\n|]+)', template_content
                             )
                             if icon_match:
                                 self._enemy_skill_icons[enemy_name].append(
@@ -1569,7 +1575,8 @@ class EnemyExtractor:
         if not self.wikitext:
             return
 
-        # 与图标归属同一套 h2/h3 切分逻辑（P25：h3 区段标题继承归属，非区段 h2 视为敌人名）
+        # 与图标归属同一套 h2~h5 切分逻辑（P38：含 h4 敌人标题，如 经验采光-5
+        # ====苍白之物-棍====；P25：h3+ 区段标题继承归属，非区段标题视为敌人名）
         _SECTION_KW = (
             "技能", "被动", "基本信息", "战斗信息", "主线导航", "导航",
             "援助单位", "友方单位", "事件", "器物", "波次", "理智值", "特殊语音",
@@ -1577,25 +1584,25 @@ class EnemyExtractor:
         current_enemy: Optional[str] = None
         sections: list[tuple[Optional[str], str]] = []
         buf_lines: list[str] = []
+        _HEADING_RE = re.compile(r'^(={2,5})([^=]+)\1\s*$')
         for line in self.wikitext.splitlines():
             stripped = line.strip()
-            h2 = re.match(r'^==([^=]+)==\s*$', stripped)
-            h3 = re.match(r'^===([^=]+)===\s*$', stripped)
-            if h2 or h3:
+            hm = _HEADING_RE.match(stripped)
+            if hm:
                 sections.append((current_enemy, "\n".join(buf_lines)))
                 buf_lines = []
-                if h3:
-                    name = h3.group(1).strip()
-                    if not any(k in name for k in _SECTION_KW):
-                        current_enemy = name
-                        self._wikitext_enemy_skills.setdefault(current_enemy, [])
-                else:
-                    name = h2.group(1).strip()
+                level = len(hm.group(1))
+                name = hm.group(2).strip()
+                if level == 2:
                     if not any(k in name for k in _SECTION_KW):
                         current_enemy = name
                         self._wikitext_enemy_skills.setdefault(current_enemy, [])
                     else:
                         current_enemy = None
+                else:
+                    if not any(k in name for k in _SECTION_KW):
+                        current_enemy = name
+                        self._wikitext_enemy_skills.setdefault(current_enemy, [])
             else:
                 buf_lines.append(line)
         sections.append((current_enemy, "\n".join(buf_lines)))
@@ -1629,21 +1636,65 @@ class EnemyExtractor:
         字段值以 `|参数=值` 形式（首行可能紧跟模板名，如 8-30 的
         `{{敌方技能|` 后直接是 `|名称=...`，9-38 为 `{{敌方技能` + 换行）。
         用正则逐字段提取，兼容 6-8 位图标与 修正值=??? 等占位值。
+
+        兼容两套字段命名（实测并存）：
+        - 主线战斗系：名称/图标/等级/硬币数/修正值/罪孽/类型/攻击容量/基础值/变动值/效果
+        - 异想体系：  技能名称/技能图标/技能类型/技能硬币数/技能攻击等级/技能属性/
+                      技能攻击容量/技能基础值/技能硬币加成/技能描述
+        注意：`等级`/`技能等级` 是技能阶数（1/2/3），不是攻击等级；
+        攻击等级来自 `修正值`/`技能攻击等级`。
+
+        P38：数值字段以 wikitext 为权威（DOM 侧 base64 污染/图标计数/冒号缺失
+        均会导致劣化），并在返回 dict 中记录 `_wt_present` 字段存在集合，
+        供 _apply_wikitext_skill_attribution 合并时判断「模板显式给出该字段」。
         """
         def _field(*names: str, to_line_end: bool = False) -> str:
-            """提取参数值。默认值不含内嵌 `|`（截至下一个参数）；
-            to_line_end=True 时取到行尾（用于效果字段，含内嵌 {{...|...}} 模板）。
+            """提取参数值。
+
+            P38：改为扫描至下一个顶层 `|`（跳过 {{...}}/[[...]] 嵌套），
+            支持值内嵌模板（如 `|修正值=?({{#html:Hide|{"content":"50"} }})`、
+            `|效果=...{{硬币|1}}...`），不再被值内的 `|` 截断。
+            to_line_end=True 时取到行尾（效果字段，兼容超长行）。
             """
             for n in names:
-                pattern = (
-                    r'(?:^|\n)\s*\|\s*' + re.escape(n) + r'\s*=\s*([^\n]*)'
-                    if to_line_end
-                    else r'(?:^|\n)\s*\|\s*' + re.escape(n) + r'\s*=\s*([^\n|]*)'
+                m = re.search(
+                    r'(?:^|\n)\s*\|\s*' + re.escape(n) + r'\s*=\s*',
+                    template_content,
                 )
-                m = re.search(pattern, template_content)
-                if m:
-                    return m.group(1).strip()
+                if not m:
+                    continue
+                start = m.end()
+                if to_line_end:
+                    end = template_content.find("\n", start)
+                    if end == -1:
+                        end = len(template_content)
+                    return template_content[start:end].strip()
+                depth = 0
+                i = start
+                while i < len(template_content):
+                    if template_content[i:i + 2] in ("{{", "[["):
+                        depth += 1
+                        i += 2
+                        continue
+                    if template_content[i:i + 2] in ("}}", "]]"):
+                        depth = max(0, depth - 1)
+                        i += 2
+                        continue
+                    if template_content[i] == "|" and depth == 0:
+                        break
+                    i += 1
+                return template_content[start:i].strip()
             return ""
+
+        present: set[str] = set()  # 模板显式给出的字段名（供合并覆盖判断）
+
+        # P38：部分敌方页面（如 主线战斗7-26 白月骑士）将真实数值隐藏在
+        # {{#html:Hide|{"content":"50"} }} 内（页面显示 "?"），此处提取隐藏值。
+        _HIDDEN_NUM_RE = re.compile(r'"content"\s*:\s*"?(-?\d+)"?')
+
+        def _unhide(text: str) -> str:
+            m = _HIDDEN_NUM_RE.search(text)
+            return m.group(1) if m else text
 
         name = _field("技能名称", "名称")
         icon = _field("技能图标", "图标")
@@ -1651,50 +1702,61 @@ class EnemyExtractor:
             return None
 
         # 基础值：可为负（-3）或占位（???）
-        base_text = _field("基础值")
-        try:
-            base_value = int(base_text)
-        except (ValueError, TypeError):
-            base_value = 0
-
-        # 硬币威力：变动值形如 +2 / -1
-        coin_power = 0
-        change_text = _field("变动值")
-        pm = re.match(r'[+-]?(\d+)', change_text.strip())
-        if pm:
+        base_text = _unhide(_field("基础值", "技能基础值"))
+        base_value = 0
+        if base_text:
+            present.add("base_value")
             try:
-                coin_power = int(pm.group(1))
-            except ValueError:
-                coin_power = 0
+                base_value = int(base_text)
+            except (ValueError, TypeError):
+                base_value = 0
+
+        # 硬币威力：变动值形如 +2 / -1（保留符号，减算硬币为负）
+        coin_power = 0
+        change_text = _unhide(_field("变动值", "技能硬币加成", "硬币加成"))
+        if change_text:
+            present.add("coin_power")
+            pm = re.match(r'[+-]?\d+', change_text.strip())
+            if pm:
+                try:
+                    coin_power = int(pm.group(0))
+                except ValueError:
+                    coin_power = 0
 
         # 硬币数量
         coin_count = 0
-        cc_text = _field("硬币数")
-        try:
-            coin_count = int(cc_text)
-        except (ValueError, TypeError):
-            coin_count = 0
+        cc_text = _unhide(_field("硬币数", "技能硬币数"))
+        if cc_text:
+            present.add("coin_count")
+            try:
+                coin_count = int(cc_text)
+            except (ValueError, TypeError):
+                coin_count = 0
 
-        # 攻击等级 / 攻击容量
+        # 攻击等级（修正值/技能攻击等级，非 等级）；攻击容量
         attack_level = 0
-        al_text = _field("等级")
-        try:
-            attack_level = int(al_text)
-        except (ValueError, TypeError):
-            attack_level = 0
+        al_text = _unhide(_field("修正值", "技能攻击等级", "攻击等级"))
+        if al_text:
+            present.add("attack_level")
+            try:
+                attack_level = int(al_text)
+            except (ValueError, TypeError):
+                attack_level = 0
         attack_weight = 1
-        aw_text = _field("攻击容量")
-        try:
-            attack_weight = int(aw_text)
-        except (ValueError, TypeError):
-            attack_weight = 1
+        aw_text = _unhide(_field("攻击容量", "技能攻击容量"))
+        if aw_text:
+            present.add("attack_weight")
+            try:
+                attack_weight = int(aw_text)
+            except (ValueError, TypeError):
+                attack_weight = 1
 
         # 罪孽 / 伤害类型
-        sin_type = _field("罪孽")
-        damage_type = _field("类型")
+        sin_type = _field("罪孽", "技能属性")
+        damage_type = _field("类型", "技能类型")
         # 效果字段含内嵌 {{...|...}} 模板，需取到行尾（to_line_end=True）；
         # 必须先于重要性解析定义，因为重要性可内嵌于效果字段（修复③）
-        effect_text = _field("效果", to_line_end=True)
+        effect_text = _field("效果", "技能描述", to_line_end=True)
         # 重要性（修复③）：|重要性=N 直接字段，或效果字段内嵌 {{重要性|N|名称}}
         importance = 0
         imp_text = _field("重要性")
@@ -1703,12 +1765,19 @@ class EnemyExtractor:
             if imp_match:
                 imp_text = imp_match.group(1)
         importance = _parse_importance(imp_text)
-        # 守备类型：wikitext 无守备技能时类型为"守备"，或效果含"可拼点反击"
+        # 守备类型：类型为"守备/闪避/反击"，或效果以"可拼点反击/闪避/防御"标记
+        # （P38：仅精确匹配可拼点前缀，避免"本技能不会触发目标的守备技能"等
+        # 效果文本含"守备"字样的攻击技能被误判为守备技能）
         is_guard = False
         guard_type = ""
-        if "守备" in damage_type or "反击" in damage_type:
+        if damage_type in ("守备", "闪避", "反击") or "守备" in damage_type:
             is_guard = True
-            guard_type = "反击" if "反击" in damage_type else "守备"
+            guard_type = damage_type
+        else:
+            gp = re.search(r"可拼点(反击|闪避|防御)", effect_text)
+            if gp:
+                is_guard = True
+                guard_type = gp.group(1)
 
         from crawler.buffs_data import resolve_buff_codes_in_text
 
@@ -1721,10 +1790,19 @@ class EnemyExtractor:
                 if not seg_clean:
                     continue
                 seg_clean = re.sub(r'^[★\s]+', '', seg_clean)
-                # 去掉模板外壳只保留可读文本：
+                # P38 格式归一化（修复与 DOM 链路的排版差异）：
+                # {{硬币|N}} → "硬币N："（保留硬币编号），{{颜色|X}} → "[X]"（方括号时机标签）
+                seg_readable = re.sub(r'\{\{硬币\|(\d+)\}\}', r'硬币\1：', seg_clean)
+                seg_readable = re.sub(r'\{\{颜色\|([^}|]+)\}\}', r'[\1]', seg_readable)
                 # 修复④：先解析 {{BuffPro|Code}} -> 中文名（页面级配对映射优先，
-                # 回落 buffs_data 静态表），再做通用 {{X|Y}} -> Y（如 {{颜色|命中时}} -> 命中时）
-                seg_readable = _resolve_buffpro_in_text(seg_clean, self._buff_code_map)
+                # 回落 buffs_data 静态表），再做通用模板清洗
+                seg_readable = _resolve_buffpro_in_text(seg_readable, self._buff_code_map)
+                # {{状态2|A|...}} / {{状态|A|...}} → A（状态名；P38 补：白月骑士等
+                # 页面用 {{状态2|不可摧毁的硬币|4=特殊}} 而非 BuffPro）
+                seg_readable = re.sub(r'\{\{状态2?\|([^|}]+)(?:\|[^}]*)?\}\}', r'\1', seg_readable)
+                # 通用多参数模板 → 取第 2 参数（显示名）
+                seg_readable = re.sub(r'\{\{[^{}|]+\|([^}|]+)\|[^}|]+\}\}', r'\1', seg_readable)
+                # 通用两参数模板 {{X|Y}} → Y
                 seg_readable = re.sub(r'\{\{[^|}]+\|([^}|]+)\}\}', r'\1', seg_readable)
                 # 剥离 wikitext 效果中的内联 HTML 样式残留（如
                 # <span style="color:#ff6000;...">攻击类型与罪孽属性</span>）
@@ -1733,6 +1811,9 @@ class EnemyExtractor:
                 seg_readable = resolve_buff_codes_in_text(
                     seg_readable, extra_map=self._buff_code_map
                 )
+                seg_readable = seg_readable.strip()
+                if not seg_readable:
+                    continue
                 # 修复 P24-1：放宽过滤——含效果/时机关键词 或 [方括号时机标签] 即收集，
                 # 避免 [使用时]/[攻击后] 等无"命中时"字样的效果段被整体丢弃。
                 # P25：补充无时机标签的效果段关键词（折射轨道"影响即将到来的过去 /
@@ -1743,7 +1824,7 @@ class EnemyExtractor:
                     "每回合", "充能", "呼吸法", "流血", "烧伤", "斩击", "突刺",
                     "打击", "施加", "获得", "失去", "影响", "拼点", "本技能",
                     "不可摧毁", "硬币", "鳞粉", "过去", "现在", "未来",
-                    "使目标", "使自身", "自身", "回合结束时",
+                    "使目标", "使自身", "自身", "回合结束时", "优先",
                 )
                 if any(k in seg_readable for k in _effect_kw) or re.search(r'\[[^\]]+\]', seg_readable):
                     coin_effects.append(seg_readable)
@@ -1764,6 +1845,7 @@ class EnemyExtractor:
             "guard_type": guard_type,
             "importance": importance,
             "coin_effects": coin_effects,
+            "_wt_present": sorted(present),
         }
 
     def _apply_wikitext_skill_attribution(self, enemies: list[EnemyData]) -> None:
@@ -1803,6 +1885,7 @@ class EnemyExtractor:
                 used_dom: set[int] = set()
                 for wt in wt_skills:
                     wt_icon = wt.get("icon_id") or ""
+                    wt_name = (wt.get("skill_name") or "").strip()
                     dom_match = None
                     for idx, s in enumerate(e.skills):
                         if idx in used_dom:
@@ -1810,31 +1893,64 @@ class EnemyExtractor:
                         if (s.get("icon_id") or "") == wt_icon:
                             dom_match = (idx, s)
                             break
+                    # P38：图标未配对成功时用技能名兜底——部分页面图标为中文名
+                    # （如 黑檀皇后的苹果技能图标2），或 DOM 图标 id 缺失
+                    if dom_match is None and wt_name:
+                        for idx, s in enumerate(e.skills):
+                            if idx in used_dom:
+                                continue
+                            if (s.get("skill_name") or "").strip() == wt_name:
+                                dom_match = (idx, s)
+                                break
                     if dom_match:
                         used_dom.add(dom_match[0])
-                        # 修复 P21-A：DOM 技能数值可能劣化（base_value 选择器命中 0、
-                        # coin_power 正则误匹配、coin_count 按图标 alt 计数错误、damage_type 缺失），
-                        # 以 wikitext 权威值为准，逐字段回填（仅当 DOM 值为默认/缺失时才覆盖，
-                        # 避免破坏 DOM 正确的非权威字段）。
+                        # P38 合并策略：wikitext 为权威。
+                        # 此前（P21-A）仅当 DOM 值为默认/缺失时才回填 wikitext 值，
+                        # 导致 DOM 侧劣化值（coin_power 命中 base64 数字 854/987/9703、
+                        # coin_count 误计 不可摧毁的硬币/硬币.png 图标、attack_weight
+                        # 因渲染文本无冒号恒为 1、base_value 选择器命中 0）无法被纠正。
+                        # 现改为：凡 wikitext 模板显式给出某数值字段（_wt_present），
+                        # 一律以 wikitext 值覆盖 DOM（数值/类型/守备字段）。
                         s = dict(dom_match[1])
-                        if not s.get("base_value") and wt.get("base_value"):
+                        wt_present = set(wt.get("_wt_present") or [])
+                        if "base_value" in wt_present:
                             s["base_value"] = wt["base_value"]
-                        if not s.get("coin_power") and wt.get("coin_power"):
+                        if "coin_power" in wt_present:
                             s["coin_power"] = wt["coin_power"]
-                        if not s.get("coin_count") and wt.get("coin_count"):
+                        if "coin_count" in wt_present:
                             s["coin_count"] = wt["coin_count"]
-                        if not s.get("damage_type") and wt.get("damage_type"):
+                        if "attack_level" in wt_present:
+                            s["attack_level"] = wt["attack_level"]
+                        if "attack_weight" in wt_present:
+                            s["attack_weight"] = wt["attack_weight"]
+                        if wt.get("damage_type") and not s.get("damage_type"):
                             s["damage_type"] = wt["damage_type"]
-                        if not s.get("sin_type") and wt.get("sin_type"):
+                        if wt.get("sin_type") and not s.get("sin_type"):
                             s["sin_type"] = wt["sin_type"]
-                        # 修复"效果为空"：DOM 效果仅提取带 [时机] 标签的段落，
-                        # 无标签效果（如折射轨道"影响即将到来的过去…"）会被丢弃；
-                        # DOM 效果为空时用 wikitext 侧完整效果（已中文化）回填
-                        if not s.get("coin_effects") and wt.get("coin_effects"):
+                        # P38：守备/反击 以 wikitext 侧检测为准（DOM 侧"本技能不会
+                        # 触发目标的守备技能"等效果文本会误判攻击技能为守备技能）。
+                        if wt.get("is_guard"):
+                            s["is_guard"] = True
+                            if wt.get("guard_type"):
+                                s["guard_type"] = wt["guard_type"]
+                        elif "守备" in (wt.get("damage_type") or ""):
+                            s["is_guard"] = True
+                            s["guard_type"] = wt.get("guard_type") or "守备"
+                        else:
+                            # wikitext 明确为非守备技能（类型为攻击属性）时，
+                            # 纠正 DOM 的守备误判（如"本技能不会触发目标的守备技能"）
+                            if wt.get("damage_type"):
+                                s["is_guard"] = False
+                                s["guard_type"] = ""
+                        # P38 效果来源：wikitext 侧为权威（逐 <br> 分段 + [时机] 归一化 +
+                        # 硬币N：前缀），结构比 DOM 更完整（DOM 会把硬币图标 alt 文本
+                        # "不可摧毁的硬币" 粘连进效果行、丢失 拼点胜利/拼点失败 分段）。
+                        # 仅当 wikitext 无效果字段时才保留 DOM 效果。
+                        if wt.get("coin_effects"):
                             s["coin_effects"] = wt["coin_effects"]
                         rebuilt.append(s)
                     else:
-                        rebuilt.append(wt)
+                        rebuilt.append({k: v for k, v in wt.items() if k != "_wt_present"})
                 if rebuilt:
                     e.skills = rebuilt
                 continue
@@ -2942,21 +3058,53 @@ class EnemyExtractor:
             except ValueError:
                 continue
 
-        # ── 硬币威力：+N 模式 ──
-        plus_pattern = re.findall(r"\+(\d+)", table_html)
-        if plus_pattern:
-            skill.coin_power = int(plus_pattern[0])
+        # ── 硬币威力：技能数值区中带符号的数值（+N / -N）──
+        # P38 修复：旧实现 `re.findall(r"\+(\d+)", table_html)` 取整张表第一个 +N，
+        # 会命中技能名内联 data:image base64 里的数字（854/987/9703），产生垃圾值。
+        # 正确来源：技能卡片数值区 `<span style="color:#ECCCA3;">+2</span>`（游戏 UI 数值色），
+        # 该区域内数值按顺序为 [攻击等级, 基础值, 硬币威力(带符号), 硬币数量]，
+        # 因此取第一个形如 [+-]N 的 span 即为硬币威力。
+        for span in table.select("span[style*='ECCCA3']"):
+            txt = span.get_text(strip=True)
+            if re.fullmatch(r"[+-]\d+", txt):
+                try:
+                    skill.coin_power = int(txt)
+                except ValueError:
+                    pass
+                break
+        else:
+            # 兜底：定位 margin-top:-105px 的硬币威力显示块
+            for div in table.select('div[style*="margin-top:-105px"]'):
+                txt = div.get_text(strip=True)
+                m = re.search(r"([+-]\d+)", txt)
+                if m:
+                    try:
+                        skill.coin_power = int(m.group(1))
+                    except ValueError:
+                        pass
+                    break
 
-        # ── 硬币数量：img[alt*="硬币"] + ×N ──
-        coin_imgs = table.select('img[alt*="硬币"]')
-        if coin_imgs:
-            # 方法1: 从 img 后面的文本提取 ×N
-            coin_count_match = re.search(r"×\s*(\d+)", table_text)
-            if coin_count_match:
-                skill.coin_count = int(coin_count_match.group(1))
-            else:
-                # 方法2: 直接数硬币图标
-                skill.coin_count = len(coin_imgs)
+        # ── 硬币数量：`硬币图标 ×N` 显示块（P38 修复）──
+        # 旧实现取整表第一个 "×N"（会命中"概率×5%"等）或按 img[alt*="硬币"] 计数
+        # （会把 硬币.png 图标与 不可摧毁的硬币.png 都数进去，如 Furioso 5 枚误计为 2）。
+        # 正确来源：`<big><b><img alt="硬币.png"><img alt="乘号.png"><span>N</span></b></big>`
+        for big in table.select("big"):
+            if big.select_one('img[alt*="乘号"]'):
+                span = big.select_one("span[style*='ECCCA3']")
+                if span:
+                    try:
+                        skill.coin_count = int(span.get_text(strip=True))
+                    except ValueError:
+                        pass
+                break
+        else:
+            # 兜底：数带编号的硬币效果图标（硬币1.png/硬币2.png...，不含 不可摧毁的硬币.png）
+            numbered = [
+                img for img in table.select('img[alt*="硬币"]')
+                if re.search(r"硬币\d+\.png", img.get("alt", ""))
+            ]
+            if numbered:
+                skill.coin_count = len(numbered)
 
         # ── 攻击等级：img[alt*="数值图标-攻击"] ──
         atk_img = table.select_one('img[alt*="数值图标-攻击"]')
@@ -2968,20 +3116,18 @@ class EnemyExtractor:
                 if atk_match:
                     skill.attack_level = int(atk_match.group(1))
 
-        # ── 攻击容量 ──
-        cap_match = re.search(r"攻击容量[：:]\s*(\d+)", table_text)
+        # ── 攻击容量（渲染文本为 "攻击容量 7"，冒号可选）──
+        cap_match = re.search(r"攻击容量\s*[：:]?\s*(\d+)", table_text)
         if cap_match:
             skill.attack_weight = int(cap_match.group(1))
 
-        # ── 守备技能检测 ──
-        if any(g in table_text for g in ["闪避", "防御", "反击", "守备"]):
+        # ── 守备技能检测（P38：仅匹配"可拼点反击/闪避/防御"前缀）──
+        # 旧实现匹配裸词"守备/防御/反击"，会把效果文本含"本技能不会触发目标的
+        # 守备技能"的攻击技能（如 Furioso-Replica）误判为守备技能。
+        guard_match = re.search(r"可拼点(反击|闪避|防御)", table_text)
+        if guard_match:
             skill.is_guard = True
-            if "闪避" in table_text:
-                skill.guard_type = "闪避"
-            elif "反击" in table_text:
-                skill.guard_type = "反击"
-            elif "防御" in table_text:
-                skill.guard_type = "防御"
+            skill.guard_type = guard_match.group(1)
 
         # ── 重要性（修复③）：从表格文本提取「重要性：N」值 ──
         imp_match = re.search(r'重要性[：:]\s*(\d+)', table_text)

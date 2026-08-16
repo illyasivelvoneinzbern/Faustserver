@@ -32,8 +32,43 @@
       "skill_name": "开始打扫",
       "icon_id": "9012601",
       "sin_type": "忧郁",
-      "damage_type": "",
+      "damage_type": "斩击",
       "base_value": 2,
+      "coin_power": 4,
+      "coin_count": 2,
+      "attack_level": 44,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "硬币1：[命中时]使目标增加4级沉沦强度"
+      ]
+    },
+    {
+      "skill_name": "迎接不速之客",
+      "icon_id": "9012602",
+      "sin_type": "忧郁",
+      "damage_type": "打击",
+      "base_value": 2,
+      "coin_power": 5,
+      "coin_count": 2,
+      "attack_level": 44,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[拼点胜利]使自身获得1层加算硬币强化",
+        "[拼点失败]使自身增加3级沉沦强度"
+      ]
+    },
+    {
+      "skill_name": "待客之道2式 禁锢",
+      "icon_id": "9012603",
+      "sin_type": "傲慢",
+      "damage_type": "打击",
+      "base_value": 5,
       "coin_power": 3,
       "coin_count": 3,
       "attack_level": 44,
@@ -42,63 +77,25 @@
       "guard_type": "",
       "importance": 0,
       "coin_effects": [
-        "[命中时] 使目标增加4级 沉沦 强度",
-        "[正面命中时] 下回合对目标施加1层 束缚"
-      ]
-    },
-    {
-      "skill_name": "迎接不速之客",
-      "icon_id": "9012602",
-      "sin_type": "忧郁",
-      "damage_type": "",
-      "base_value": 2,
-      "coin_power": 3,
-      "coin_count": 4,
-      "attack_level": 44,
-      "attack_weight": 1,
-      "is_guard": false,
-      "guard_type": "",
-      "importance": 0,
-      "coin_effects": [
-        "[命中时] 使目标增加8级 沉沦 强度",
-        "[命中时] 对目标施加3层 沉沦"
-      ]
-    },
-    {
-      "skill_name": "待客之道2式 禁锢",
-      "icon_id": "9012603",
-      "sin_type": "傲慢",
-      "damage_type": "",
-      "base_value": 5,
-      "coin_power": 3,
-      "coin_count": 4,
-      "attack_level": 44,
-      "attack_weight": 1,
-      "is_guard": true,
-      "guard_type": "防御",
-      "importance": 0,
-      "coin_effects": [
-        "[使用时] 目标每带有5级 沉沦 强度，则使本技能的基础威力+1（最多+2）",
-        "[命中时] 下回合对目标施加1层 束缚",
-        "[命中时] 对目标施加2层 防御等级降低",
-        "[命中时] 若目标的 沉沦 强度不低于8级，则重复使用本硬币（最多1次）",
-        "[正面命中时] 对目标施加4层 防御等级降低 与1层 易损"
+        "[使用时]目标每带有5级沉沦强度，则使本技能的基础威力+1（最多+2）"
       ]
     },
     {
       "skill_name": "防御",
       "icon_id": "9012604",
       "sin_type": "常规",
-      "damage_type": "",
+      "damage_type": "防御",
       "base_value": 5,
-      "coin_power": 79,
+      "coin_power": 5,
       "coin_count": 1,
-      "attack_level": 0,
+      "attack_level": 42,
       "attack_weight": 1,
-      "is_guard": true,
-      "guard_type": "防御",
+      "is_guard": false,
+      "guard_type": "",
       "importance": 0,
-      "coin_effects": []
+      "coin_effects": [
+        "回合结束时若自身带有护盾，则使自身的混乱阀值后移10"
+      ]
     }
   ],
   "is_ally": false,

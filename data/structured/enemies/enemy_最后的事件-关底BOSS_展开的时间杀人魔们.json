@@ -32,15 +32,15 @@
       "sin_type": "傲慢",
       "damage_type": "穿刺",
       "base_value": 4,
-      "coin_power": 3,
-      "coin_count": 2,
+      "coin_power": 6,
+      "coin_count": 1,
       "attack_level": 45,
       "attack_weight": 1,
       "is_guard": false,
       "guard_type": "",
       "importance": 0,
       "coin_effects": [
-        "[命中时] 使目标增加3级 流血 强度"
+        "硬币1：[命中时]使目标增加3级流血强度"
       ]
     },
     {
@@ -50,16 +50,14 @@
       "damage_type": "穿刺",
       "base_value": 2,
       "coin_power": 3,
-      "coin_count": 4,
+      "coin_count": 3,
       "attack_level": 45,
       "attack_weight": 1,
       "is_guard": false,
       "guard_type": "",
       "importance": 0,
       "coin_effects": [
-        "[使用时] 若目标的 流血 强度不低于5级，则使本技能拼点威力+1",
-        "[命中时] 使目标增加3级 流血 强度",
-        "[命中时] 对目标施加2层 流血"
+        "[使用时]若目标的流血强度不低于5级，则使本技能拼点威力+1"
       ]
     },
     {
@@ -68,18 +66,15 @@
       "sin_type": "嫉妒",
       "damage_type": "穿刺",
       "base_value": 4,
-      "coin_power": 5793,
-      "coin_count": 3,
+      "coin_power": 5,
+      "coin_count": 2,
       "attack_level": 45,
       "attack_weight": 1,
       "is_guard": false,
       "guard_type": "",
       "importance": 0,
       "coin_effects": [
-        "[使用时] 若目标的 流血 强度不低于5级，则使本技能拼点威力+1",
-        "[命中时] 使目标增加4级 流血 强度",
-        "[命中时] 对目标施加3层 流血",
-        "[命中时] 使目标增加5级 烧伤 强度"
+        "[使用时]若目标的流血强度不低于5级，则使本技能拼点威力+1"
       ]
     },
     {
@@ -88,12 +83,12 @@
       "sin_type": "暴食",
       "damage_type": "闪避",
       "base_value": 2,
-      "coin_power": 854,
+      "coin_power": 8,
       "coin_count": 1,
-      "attack_level": 0,
+      "attack_level": 42,
       "attack_weight": 1,
-      "is_guard": false,
-      "guard_type": "",
+      "is_guard": true,
+      "guard_type": "闪避",
       "importance": 0,
       "coin_effects": []
     }

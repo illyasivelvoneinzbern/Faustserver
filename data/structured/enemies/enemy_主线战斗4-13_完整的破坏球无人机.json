@@ -35,27 +35,44 @@
       "skill_name": "装填…发射",
       "icon_id": "9005001",
       "sin_type": "怠惰",
-      "damage_type": "",
+      "damage_type": "打击",
       "base_value": 4,
-      "coin_power": 9703,
-      "coin_count": 2,
+      "coin_power": 7,
+      "coin_count": 1,
       "attack_level": 22,
       "attack_weight": 1,
       "is_guard": false,
       "guard_type": "",
       "importance": 0,
       "coin_effects": [
-        "[命中时] 使目标增加5级 震颤 强度",
-        "[正面命中时] 对目标施加2层 震颤"
+        "硬币1：[命中时]使目标增加5级震颤强度",
+        "[正面命中时]对目标施加2层震颤"
       ]
     },
     {
       "skill_name": "正在镇压。",
       "icon_id": "9005002",
       "sin_type": "怠惰",
-      "damage_type": "",
+      "damage_type": "打击",
       "base_value": 4,
-      "coin_power": 9703,
+      "coin_power": 8,
+      "coin_count": 1,
+      "attack_level": 22,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "硬币1：[命中时]下回合对目标施加2层虚弱"
+      ]
+    },
+    {
+      "skill_name": "注意 注意 不稳",
+      "icon_id": "9005003",
+      "sin_type": "傲慢",
+      "damage_type": "打击",
+      "base_value": 5,
+      "coin_power": 2,
       "coin_count": 2,
       "attack_level": 22,
       "attack_weight": 1,
@@ -63,41 +80,26 @@
       "guard_type": "",
       "importance": 0,
       "coin_effects": [
-        "[命中时] 下回合对目标施加2层 虚弱"
-      ]
-    },
-    {
-      "skill_name": "注意 注意 不稳",
-      "icon_id": "9005003",
-      "sin_type": "傲慢",
-      "damage_type": "",
-      "base_value": 5,
-      "coin_power": 3,
-      "coin_count": 3,
-      "attack_level": 22,
-      "attack_weight": 1,
-      "is_guard": false,
-      "guard_type": "",
-      "importance": 0,
-      "coin_effects": [
-        "[命中时] 下回合对目标施加5层 攻击等级降低",
-        "[命中时] 使目标 震颤引爆"
+        "硬币1：[命中时]下回合对目标施加5层攻击等级降低",
+        "硬币2：[命中时]使目标震颤引爆"
       ]
     },
     {
       "skill_name": "切换防御模式",
       "icon_id": "9005004",
       "sin_type": "常规",
-      "damage_type": "",
+      "damage_type": "防御",
       "base_value": 6,
-      "coin_power": 79,
+      "coin_power": 4,
       "coin_count": 1,
-      "attack_level": 0,
+      "attack_level": 31,
       "attack_weight": 1,
-      "is_guard": true,
-      "guard_type": "防御",
+      "is_guard": false,
+      "guard_type": "",
       "importance": 0,
-      "coin_effects": []
+      "coin_effects": [
+        "[使用时]使自身获得2层守护"
+      ]
     }
   ],
   "is_ally": false,

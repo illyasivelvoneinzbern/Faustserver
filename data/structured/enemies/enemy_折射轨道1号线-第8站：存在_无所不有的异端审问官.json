@@ -32,15 +32,15 @@
       "sin_type": "色欲",
       "damage_type": "斩击",
       "base_value": 4,
-      "coin_power": 9,
-      "coin_count": 3,
+      "coin_power": -1,
+      "coin_count": 2,
       "attack_level": 25,
       "attack_weight": 1,
       "is_guard": false,
       "guard_type": "",
       "importance": 0,
       "coin_effects": [
-        "[命中时] 对目标造成5点理智伤害"
+        "硬币1：[命中时]对目标造成5点理智伤害"
       ]
     },
     {
@@ -49,7 +49,7 @@
       "sin_type": "色欲",
       "damage_type": "斩击",
       "base_value": 4,
-      "coin_power": 9,
+      "coin_power": 6,
       "coin_count": 1,
       "attack_level": 25,
       "attack_weight": 1,
@@ -64,15 +64,15 @@
       "sin_type": "色欲",
       "damage_type": "穿刺",
       "base_value": 3,
-      "coin_power": 9,
-      "coin_count": 2,
+      "coin_power": 10,
+      "coin_count": 1,
       "attack_level": 25,
       "attack_weight": 1,
       "is_guard": false,
       "guard_type": "",
       "importance": 0,
       "coin_effects": [
-        "[命中时] 使自身恢复体力上限10%的体力并获得1层 本能"
+        "硬币1：[命中时]使自身恢复体力上限10%的体力并获得1层本能"
       ]
     },
     {
@@ -81,16 +81,15 @@
       "sin_type": "色欲",
       "damage_type": "穿刺",
       "base_value": 4,
-      "coin_power": 9,
-      "coin_count": 3,
+      "coin_power": 2,
+      "coin_count": 2,
       "attack_level": 25,
       "attack_weight": 1,
       "is_guard": false,
       "guard_type": "",
       "importance": 0,
       "coin_effects": [
-        "[命中时] 使自身恢复体力上限10%的体力",
-        "[命中时] 下回合使目标增加10级 流血 强度"
+        "硬币1：[命中时]使自身恢复体力上限10%的体力"
       ]
     }
   ],

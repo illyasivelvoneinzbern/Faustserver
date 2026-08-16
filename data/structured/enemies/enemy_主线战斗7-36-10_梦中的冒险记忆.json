@@ -32,16 +32,16 @@
       "sin_type": "色欲",
       "damage_type": "守备",
       "base_value": 10,
-      "coin_power": 9,
+      "coin_power": 5,
       "coin_count": 1,
-      "attack_level": 0,
+      "attack_level": 45,
       "attack_weight": 1,
-      "is_guard": false,
-      "guard_type": "",
+      "is_guard": true,
+      "guard_type": "守备",
       "importance": 0,
       "coin_effects": [
-        "战斗开始随机使1名罪人获得1层拼点威力提升 与1层伤害强化",
-        "战斗开始对堂吉诃德与凝结的梦施加1层易损"
+        "[战斗开始]随机使1名罪人获得1层拼点威力提升 与1层伤害强化",
+        "[战斗开始]对堂吉诃德与凝结的梦施加1层易损"
       ]
     }
   ],

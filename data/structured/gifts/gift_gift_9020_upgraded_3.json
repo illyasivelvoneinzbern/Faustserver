@@ -1,0 +1,21 @@
+{
+  "id": "gift_9020_upgraded_3",
+  "title": "白棉花",
+  "url": "https://limbuscompany.huijiwiki.com/wiki/E.G.O饰品",
+  "categories": [
+    "E.G.O饰品"
+  ],
+  "content": "回合开始时，解除敌方单位的混乱，使其增加(12+混乱阶段×6)级流血强度并在本回合与下回合对其施加 (12+混乱阶段×6)层攻击等级降低与防御等级降低。(每场战斗每名敌方单位最多1次，不对不能解除混乱的特定敌方单位生效)",
+  "source": "tabx",
+  "_structured": true,
+  "page_type": "ego_gift",
+  "gift_name": "白棉花",
+  "rarity": 2,
+  "cost": "201",
+  "effect_types": "流血",
+  "attack_type": "暴食",
+  "location": "镜像迷宫",
+  "stage": "upgraded_3",
+  "event": "事件-浸染棉花",
+  "_schema_version": 1
+}

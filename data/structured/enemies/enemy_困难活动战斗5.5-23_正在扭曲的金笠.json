@@ -35,16 +35,15 @@
       "sin_type": "傲慢",
       "damage_type": "斩击",
       "base_value": 8,
-      "coin_power": 3,
-      "coin_count": 3,
+      "coin_power": -3,
+      "coin_count": 2,
       "attack_level": 53,
       "attack_weight": 1,
       "is_guard": false,
       "guard_type": "",
       "importance": 0,
       "coin_effects": [
-        "[使用时] 使自身增加2级 呼吸法 强度",
-        "[命中时] 对目标施加3层 流血"
+        "[使用时]使自身增加2级呼吸法强度"
       ]
     },
     {
@@ -53,19 +52,15 @@
       "sin_type": "傲慢",
       "damage_type": "斩击",
       "base_value": 11,
-      "coin_power": 3,
-      "coin_count": 4,
+      "coin_power": -3,
+      "coin_count": 3,
       "attack_level": 53,
       "attack_weight": 1,
       "is_guard": false,
       "guard_type": "",
       "importance": 0,
       "coin_effects": [
-        "[使用时] 使自身增加2级 呼吸法 强度",
-        "[命中时] 对目标施加3层 流血",
-        "[命中时] 下回合使自身获得1层 伤害强化",
-        "[命中时] 使目标增加3级 流血 强度",
-        "[命中时] 下回合对目标施加1层 麻痹"
+        "[使用时]使自身增加2级呼吸法强度"
       ]
     },
     {
@@ -74,18 +69,15 @@
       "sin_type": "怠惰",
       "damage_type": "斩击",
       "base_value": 12,
-      "coin_power": 9703,
-      "coin_count": 3,
+      "coin_power": -4,
+      "coin_count": 2,
       "attack_level": 43,
       "attack_weight": 1,
       "is_guard": false,
       "guard_type": "",
       "importance": 0,
       "coin_effects": [
-        "[命中时] 使自身增加1级 呼吸法 强度并获得1层 呼吸法",
-        "[命中时] 使目标增加3级 流血 强度",
-        "[命中时] 下回合使自身获得1层 斩击伤害强化",
-        "[命中时] 下回合对目标施加2层 斩击抗性弱化"
+        "[拼点胜利]使自身获得1层呼吸法"
       ]
     },
     {
@@ -94,16 +86,15 @@
       "sin_type": "怠惰",
       "damage_type": "斩击",
       "base_value": 14,
-      "coin_power": 9703,
-      "coin_count": 7,
+      "coin_power": -4,
+      "coin_count": 3,
       "attack_level": 53,
       "attack_weight": 1,
       "is_guard": false,
       "guard_type": "",
       "importance": 0,
       "coin_effects": [
-        "[命中时] 使自身增加3级 呼吸法 强度并获得1层 呼吸法",
-        "[命中时] 下回合使自身获得2层 斩击伤害强化"
+        "[拼点胜利]使自身获得3层呼吸法"
       ]
     },
     {
@@ -112,15 +103,16 @@
       "sin_type": "暴怒",
       "damage_type": "斩击",
       "base_value": 25,
-      "coin_power": 987,
-      "coin_count": 7,
+      "coin_power": -8,
+      "coin_count": 3,
       "attack_level": 53,
-      "attack_weight": 1,
+      "attack_weight": 3,
       "is_guard": false,
       "guard_type": "",
       "importance": 0,
       "coin_effects": [
-        "[使用时] 若护盾未被全部消耗，则使本技能的拼点威力+5 不可摧毁的硬币 若本硬币被摧毁，则使本技能的最终威力-20"
+        "[战斗开始]使自身获得50点护盾",
+        "[使用时]若护盾未被全部消耗，则使本技能的拼点威力+5"
       ]
     },
     {
@@ -129,15 +121,15 @@
       "sin_type": "嫉妒",
       "damage_type": "闪避",
       "base_value": 12,
-      "coin_power": 5793,
+      "coin_power": -8,
       "coin_count": 1,
-      "attack_level": 0,
+      "attack_level": 58,
       "attack_weight": 1,
       "is_guard": true,
       "guard_type": "闪避",
       "importance": 0,
       "coin_effects": [
-        "闪避成功时使自身增加4级呼吸法强度"
+        "[闪避成功时]使自身增加4级呼吸法强度"
       ]
     },
     {
@@ -146,12 +138,12 @@
       "sin_type": "色欲",
       "damage_type": "斩击",
       "base_value": 10,
-      "coin_power": 9,
+      "coin_power": -5,
       "coin_count": 1,
       "attack_level": 53,
       "attack_weight": 1,
-      "is_guard": true,
-      "guard_type": "反击",
+      "is_guard": false,
+      "guard_type": "",
       "importance": 0,
       "coin_effects": [
         "下回合使自身获得(激活本反击技能后所受到的伤害)层凝结中的怨恨"

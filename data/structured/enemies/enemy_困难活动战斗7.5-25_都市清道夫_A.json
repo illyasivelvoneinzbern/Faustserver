@@ -39,17 +39,15 @@
       "sin_type": "暴怒",
       "damage_type": "穿刺",
       "base_value": 3,
-      "coin_power": 987,
-      "coin_count": 3,
+      "coin_power": 4,
+      "coin_count": 2,
       "attack_level": 60,
       "attack_weight": 1,
       "is_guard": false,
       "guard_type": "",
       "importance": 0,
       "coin_effects": [
-        "[命中时] 使目标增加2级 流血 强度",
-        "[命中时] 对目标施加2层 流血",
-        "[命中时] 恢复2点体力"
+        "若目标的{{状态2|流血|4=负面}}强度不低于2级，则使本技能的硬币威力+1"
       ]
     },
     {
@@ -58,16 +56,15 @@
       "sin_type": "暴怒",
       "damage_type": "穿刺",
       "base_value": 5,
-      "coin_power": 987,
-      "coin_count": 3,
+      "coin_power": 4,
+      "coin_count": 2,
       "attack_level": 60,
       "attack_weight": 1,
       "is_guard": false,
       "guard_type": "",
       "importance": 0,
       "coin_effects": [
-        "[命中时] 对目标施加2层 麻痹",
-        "[命中时] 使目标增加2级 流血 强度"
+        "若目标的{{状态2|流血|4=负面}}强度不低于2级，则使本技能的硬币威力+1"
       ]
     },
     {
@@ -76,17 +73,15 @@
       "sin_type": "傲慢",
       "damage_type": "穿刺",
       "base_value": 4,
-      "coin_power": 3,
-      "coin_count": 4,
+      "coin_power": 5,
+      "coin_count": 2,
       "attack_level": 60,
       "attack_weight": 1,
       "is_guard": false,
       "guard_type": "",
       "importance": 0,
       "coin_effects": [
-        "[命中时] 使目标增加4级 流血 强度 不可摧毁的硬币",
-        "[命中时] 对目标施加1层 流血 本硬币命中时，使自身恢复本硬币造成伤害量30%的体力",
-        "[正面命中时] 重复使用本硬币（每个技能最多3次）"
+        "若目标的{{状态2|流血|4=负面}}强度不低于2级，则使本技能的硬币威力+1"
       ]
     },
     {
@@ -95,16 +90,15 @@
       "sin_type": "色欲",
       "damage_type": "斩击",
       "base_value": 4,
-      "coin_power": 9,
-      "coin_count": 5,
+      "coin_power": 4,
+      "coin_count": 2,
       "attack_level": 60,
       "attack_weight": 1,
       "is_guard": false,
       "guard_type": "",
       "importance": 0,
       "coin_effects": [
-        "[命中时] 使自身混乱阈值后移5 不可摧毁的硬币",
-        "[命中时] 对目标施加3层 流血"
+        "[战斗开始]使目标获得4层坚韧"
       ]
     }
   ],

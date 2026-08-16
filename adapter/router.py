@@ -18,10 +18,13 @@ class MessageRouter:
         bot_qq: str = "",
         trigger_keywords: list[str] | None = None,
         command_prefix: str = "/",
+        require_at_in_group: bool = True,
     ):
         self.bot_qq = bot_qq
         self.trigger_keywords = trigger_keywords or []
         self.command_prefix = command_prefix
+        # P36：群聊是否必须 @机器人 才响应（True=屏蔽群内非艾特信息）
+        self.require_at_in_group = require_at_in_group
 
     def parse_event(self, event: dict) -> Optional[QQMessage]:
         """将 NapCatQQ 事件解析为 QQMessage"""
@@ -32,22 +35,25 @@ class MessageRouter:
         判断是否应该响应此消息。
 
         规则优先级：
-        1. 指令消息 (/开头) → 总是响应
-        2. 私聊消息 → 总是响应
-        3. 群聊 @Bot → 总是响应
-        4. 群聊含触发关键词 → 响应
-        5. 其他 → 不响应
+        1. 私聊消息 → 总是响应
+        2. 群聊 @Bot → 总是响应
+        3. 群聊非 @（require_at_in_group=True，默认）→ 不响应（屏蔽关键词/裸指令）
+        4. 群聊非 @（require_at_in_group=False）→ 指令 / 触发关键词可响应
         """
-        # 指令消息
-        if msg.command:
-            return True
-
         # 私聊消息
         if not msg.is_group:
             return True
 
         # 群聊 @机器人
         if msg.is_at_bot:
+            return True
+
+        # 群聊非 @：默认屏蔽（P36：不响应群内艾特bot以外的信息）
+        if self.require_at_in_group:
+            return False
+
+        # 指令消息（/开头）
+        if msg.command:
             return True
 
         # 群聊触发关键词

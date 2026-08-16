@@ -39,17 +39,20 @@
       "sin_type": "怠惰",
       "damage_type": "打击",
       "base_value": 6,
-      "coin_power": 9703,
-      "coin_count": 2,
+      "coin_power": 6,
+      "coin_count": 1,
       "attack_level": 61,
       "attack_weight": 1,
       "is_guard": false,
       "guard_type": "",
       "importance": 0,
       "coin_effects": [
-        "[使用时] 使自身获得3层 充能",
-        "[命中时] 对目标施加1层 啮合的时间 - 若目标带有负面状态，则改为施加2层 啮合的时间",
-        "[命中时] 下回合对目标施加3层 麻痹"
+        "自身每带有3层充能，使本技能的基础威力+1",
+        "[使用时]使自身获得3层充能",
+        "[拼点失败]消耗自身2层充能",
+        "硬币1：[命中时]对目标施加1层啮合的时间（2号线复刻）",
+        "- 若目标带有负面状态，则改为施加2层啮合的时间（2号线复刻）",
+        "[命中时]下回合对目标施加3层麻痹"
       ]
     },
     {
@@ -58,17 +61,18 @@
       "sin_type": "傲慢",
       "damage_type": "突刺",
       "base_value": 7,
-      "coin_power": 3,
-      "coin_count": 2,
+      "coin_power": 7,
+      "coin_count": 1,
       "attack_level": 61,
       "attack_weight": 1,
       "is_guard": false,
       "guard_type": "",
       "importance": 0,
       "coin_effects": [
-        "[使用时] 使自身获得4层 充能",
-        "[命中时] 下回合使自身获得3层 时间租赁",
-        "[命中时] 下回合对目标施加3层 束缚"
+        "自身每带有3层充能，使本技能的基础威力+1",
+        "[使用时]使自身获得4层充能",
+        "硬币1：[命中时]下回合使自身获得3层时间租赁（敌方）",
+        "[命中时]下回合对目标施加3层束缚"
       ]
     },
     {
@@ -77,17 +81,26 @@
       "sin_type": "嫉妒",
       "damage_type": "打击",
       "base_value": 6,
-      "coin_power": 5793,
-      "coin_count": 5,
+      "coin_power": 7,
+      "coin_count": 2,
       "attack_level": 61,
       "attack_weight": 1,
       "is_guard": false,
       "guard_type": "",
       "importance": 0,
       "coin_effects": [
-        "[命中时] 下回合对目标施加2层 束缚",
-        "[命中时] 对目标施加1层 啮合的时间",
-        "[命中时] 使自身获得4层 充能"
+        "自身每带有1层时间租赁（敌方），使本技能的基础威力+1",
+        "[拼点失败]",
+        "- 消耗自身3层充能",
+        "- 使本技能造成的伤害-80%",
+        "- 使本技能造成的伤害不会使目标陷入混乱",
+        "硬币1：不可摧毁的硬币",
+        "[命中时]下回合对目标施加2层束缚",
+        "[命中时]对目标施加1层啮合的时间（2号线复刻）",
+        "[未摧毁 - 命中时]对目标施加1层啮合的时间（2号线复刻）",
+        "硬币2：不可摧毁的硬币",
+        "[命中时]使自身获得4层充能",
+        "[未摧毁 - 命中时]自身每带有1层时间租赁（敌方），使本硬币造成的伤害+20%"
       ]
     },
     {
@@ -96,15 +109,15 @@
       "sin_type": "常规",
       "damage_type": "守备",
       "base_value": 8,
-      "coin_power": 79,
+      "coin_power": 7,
       "coin_count": 1,
-      "attack_level": 0,
+      "attack_level": 63,
       "attack_weight": 1,
       "is_guard": true,
-      "guard_type": "防御",
+      "guard_type": "守备",
       "importance": 0,
       "coin_effects": [
-        "战斗开始使自身获得2层充能"
+        "[战斗开始]使自身获得2层充能"
       ]
     }
   ],

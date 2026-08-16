@@ -1,0 +1,20 @@
+{
+  "id": "gift_9097_upgraded_3",
+  "title": "马蹄铁饰物",
+  "url": "https://limbuscompany.huijiwiki.com/wiki/E.G.O饰品",
+  "categories": [
+    "E.G.O饰品"
+  ],
+  "content": "回合开始时，随机使未带有呼吸法强度的2名友方单位增加3级呼吸法强度。\n若全体友方单位都带有呼吸法强度，则改为使全体友方单位获得3层呼吸法。",
+  "source": "tabx",
+  "_structured": true,
+  "page_type": "ego_gift",
+  "gift_name": "马蹄铁饰物",
+  "rarity": 1,
+  "cost": "154",
+  "effect_types": "呼吸法",
+  "attack_type": "暴怒",
+  "location": "镜像迷宫",
+  "stage": "upgraded_3",
+  "_schema_version": 1
+}

@@ -7,13 +7,16 @@
 ## 功能特性
 
 - **🧠 RAG 知识问答**：向量检索（ChromaDB）+ BM25 混合 + 渐进式多轮检索 + LLM 查询扩展，回答角色、人格、E.G.O、剧情、敌方等设定问题
-- **⚡ 结构化直答四件套**：人格 / 饰品 / 事件 / 敌方数据从 `data/structured/*.json` **确定性取数**（绕过 LLM、无幻觉），命中即精确返回
+- **⚡ 结构化直答四件套**：人格 / 饰品 / 事件 / 敌方数据从 `data/structured/*.json` **确定性取数**（绕过 LLM、无幻觉），命中即精确返回；**打包转发**（P40）：直答命中（跳过 RAG）时按节拆分为多条转发 node，以 QQ 合并转发卡片发送，告别超长单条文本
 - **🎭 人格扮演**：13 个罪人扮演人格（李箱~格里高尔 + 但丁），数据驱动重拟——含**好恶（likes/dislikes）**、**人物关系（relationships）**、few-shot 示例、问候语；但丁按设定**只以钟表声回应**
+- **🧬 拟真人格引擎（P38）**：不止于角色卡——从 4.2 万条剧情台词 + 官方语音构建**角色台词库**，回复时检索真实台词作为【说话样本】注入 + **角色内心反应建模**（先想后说）+ **破格自检**，让角色"像角色一样说话"（见 [plans/persona_realism_training.md](plans/persona_realism_training.md)）
 - **🗣 观点类问答结合剧情**：意图门控区分「观点 / 比较 / 数据 / 闲聊」——观点类（"你怎么看里恩？"）注入该角色**剧情身份 + 台词 + 人物互动**（含打分选句），且检索仅限剧情来源；"该怎么打"等游戏机制类仍走数据直答
 - **🎲 抽奖（Gacha）**：三灯人格 3% / 二灯人格 13% / 一灯人格 81% / EGO 3%，十连保底 1 个二灯；支持单抽/十连，提供 **MCP stdio server** 工具
 - **🐦 官方资讯拉取**：Nitter RSS 轮询推送 X/Twitter 官方账号（@LimbusCompany_B）新推；**视频推文自动解析真实 mp4**（syndication API，1080p，分开发送）；RT 过滤、链接清洗、首启水位线防刷屏
+- **🎮 Steam 资讯拉取**：Steam 社区 RSS（`steamcommunity.com/games/{appid}/rss`）抓取游戏公告/新闻（标题/正文/配图/公告页链接），支持 `/steam新闻` 指令与后台新公告轮询推送；占位图过滤、公告 id 幂等防重推
 - **🛡️ 安全防护**：敏感词过滤 + 频率控制 + 打字延迟模拟 + 违规熔断
 - **🔍 检索增强**：昵称/俗称展开（兔浮→浮士德黑兽-卯魁首）、敌方名模糊匹配、章节编号直查、语义缓存、自我反思闭环
+- **🎯 模糊搜索消歧（P39）**：数据查询在四类直答全部未命中时，用 **rapidfuzz** 从结构化库模糊检索 top-N 候选（如"里恩数据"→ 四个里恩版本），用户回复数字即确定性作答；唯一高置信候选直接作答，语义类模糊查询（"火系人格"）自动回落 RAG 不劫持；**相关实体歧义**（"卯魁首"→ 人格浮士德黑兽-卯魁首 / 敌方子路）自动并列候选询问，不擅自作答
 - **🪄 输出净化**：回复自动移除神态/动作描写（如"（扫了一眼屏幕）"），只保留角色话语
 
 ---
@@ -29,6 +32,7 @@ D:\Angela\
 ├── crawler/                   # 数据抓取
 │   ├── spider.py              # Wiki 爬虫（Playwright 绕过 CloudFlare）
 │   ├── x_fetcher.py           # X/Twitter RSS 拉取 + 视频 mp4 解析
+│   ├── steam_fetcher.py       # Steam 社区 RSS 拉取（games/{appid}/rss）
 │   ├── html_extractor.py      # 渲染 HTML 结构化提取（人格/敌方/事件/剧情）
 │   ├── buffs_data.py          # BuffPro 状态效果中文化（页面级配对映射）
 │   └── export.py              # JSONL 导出
@@ -38,6 +42,8 @@ D:\Angela\
 │   ├── retriever.py           # 渐进式检索（向量+BM25+章节直查）
 │   ├── intent_gate.py         # 意图门控（观点/比较/数据/闲聊）
 │   ├── story_facts.py         # 剧情事实底座（台词索引+打分+人物互动）
+│   ├── persona_corpus.py      # 拟真台词库（剧情台词+官方语音 → 角色台词索引）
+│   ├── persona_engine.py      # 拟真生成引擎（台词样本注入+内心反应+破格自检）
 │   ├── persona_direct.py      # 人格结构化直答（含比较直答）
 │   ├── gift_direct.py         # 饰品直答
 │   ├── event_direct.py        # 事件直答
@@ -55,10 +61,11 @@ D:\Angela\
 ├── agent/                     # Agent 核心
 │   ├── core.py                # 主控制器（意图门控/抽奖/推文指令）
 │   ├── tools.py               # 工具定义（gacha 等）
+│   ├── forward.py             # 直答打包转发（文本分节 → 合并转发 node）
 │   ├── session.py / memory.py # 会话与短期记忆（10 轮窗口）
 │
 ├── adapter/                   # 消息平台
-│   ├── napcat.py              # NapCatQQ 适配（媒体分开发送）
+│   ├── napcat.py              # NapCatQQ 适配（媒体分开发送 + 合并转发）
 │   └── router.py              # 消息路由
 │
 ├── utils/                     # 安全/工具
@@ -71,6 +78,8 @@ D:\Angela\
 │   ├── extract_sinner_data.py # 提取罪人语音+剧情素材
 │   ├── persona_gen.py         # 生成罪人扮演 YAML 骨架
 │   ├── mine_relationships.py  # 统计剧情人物互动
+│   ├── build_persona_corpus.py# 拟真台词库统计/预览/导出
+│   ├── eval_persona.py        # 拟真度评测（基线 vs 增强，四维 LLM 裁判）
 │   └── rebuild_vector_db.py   # 重建向量库
 │
 └── data/                      # 数据目录
@@ -145,6 +154,7 @@ python main.py
 | `/人格列表` | 查看所有可用人格 |
 | `/人格切换 <id>` | 切换当前会话人格（如 `/人格切换 堂吉诃德`） |
 | `/最新推文 [N]` | 拉取官方最新 N 条推文（含图片/视频，N 默认 3 最多 5） |
+| `/steam新闻 [N]` | 拉取 Steam 最新 N 条公告/新闻（含配图，N 默认 3 最多 5） |
 | `抽奖` / `十连` / `来一发十连` | 抽奖（三灯3%/二灯13%/一灯81%/EGO 3%，十连保底二灯） |
 
 对话示例：
@@ -161,7 +171,7 @@ python main.py
 📦 数据层           🧠 推理层         🤖 Agent 层          🛡️ 安全层        📡 接入层
 ┌──────────┐    ┌──────────┐    ┌──────────┐    ┌──────────┐    ┌──────────┐
 │ Wiki爬虫  │───▶│ 检索器    │───▶│ 意图门控  │───▶│ 敏感词过滤│───▶│ NapCatQQ │
-│ X拉取    │    │ 人格Prompt│    │ 直答四件套│    │ 频率控制  │    │ 消息路由 │
+│ X/Steam拉取│    │ 人格Prompt│    │ 直答四件套│    │ 频率控制  │    │ 消息路由 │
 │ 结构化导出│    │ 剧情事实  │    │ 人格扮演  │    │ 打字延迟  │    │ 会话管理 │
 └──────────┘    └──────────┘    │ 抽奖/推文 │    └──────────┘    └──────────┘
       │               │         └──────────┘
@@ -181,7 +191,8 @@ python main.py
 | `embedding` | Embedding（硅基流动 BGE-M3） |
 | `retrieval` | 检索参数（top_k、渐进式、查询扩展、噪声过滤） |
 | `x_fetcher` | X 拉取（accounts、`filter_retweets`、`video_quality`、`push_group_id`、水位线） |
-| `agent` | 直答开关（persona/gift/event/enemy direct）、默认人格 |
+| `steam_fetcher` | Steam 拉取（`appid`、`rss_url`、`fetch_interval_minutes`、`max_images_per_item`、`push_group_id`） |
+| `agent` | 直答开关（persona/gift/event/enemy direct）、默认人格、`forward_reply` 直答打包转发 |
 | `confidence` | 置信度评估与自我反思 |
 | `napcat` | NapCatQQ 连接 |
 | `sensitive_filter` / `rate_limit` / `typing_delay` | 安全防护 |

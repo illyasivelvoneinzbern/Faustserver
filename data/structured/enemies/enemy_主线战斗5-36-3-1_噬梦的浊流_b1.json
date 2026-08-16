@@ -32,15 +32,15 @@
       "sin_type": "怠惰",
       "damage_type": "打击",
       "base_value": 5,
-      "coin_power": 9703,
-      "coin_count": 2,
+      "coin_power": 5,
+      "coin_count": 1,
       "attack_level": 43,
       "attack_weight": 1,
       "is_guard": false,
       "guard_type": "",
       "importance": 0,
       "coin_effects": [
-        "[命中时] 使目标增加4级 沉沦 强度"
+        "硬币1：[命中时]使目标增加4级沉沦强度"
       ]
     },
     {
@@ -49,15 +49,16 @@
       "sin_type": "怠惰",
       "damage_type": "打击",
       "base_value": 5,
-      "coin_power": 9703,
-      "coin_count": 3,
+      "coin_power": 3,
+      "coin_count": 2,
       "attack_level": 43,
       "attack_weight": 1,
       "is_guard": false,
       "guard_type": "",
       "importance": 0,
       "coin_effects": [
-        "[命中时] 对目标施加3层 沉沦"
+        "硬币1：[命中时]对目标施加3层沉沦",
+        "硬币2：[命中时]对目标施加3层沉沦"
       ]
     },
     {
@@ -66,15 +67,18 @@
       "sin_type": "怠惰",
       "damage_type": "打击",
       "base_value": 5,
-      "coin_power": 9703,
-      "coin_count": 3,
+      "coin_power": 4,
+      "coin_count": 2,
       "attack_level": 43,
       "attack_weight": 1,
       "is_guard": false,
       "guard_type": "",
       "importance": 0,
       "coin_effects": [
-        "[命中时] 使目标增加4级 沉沦 强度 若目标带有 荧光灯碎片 ，则对目标施加2层 沉沦"
+        "硬币1：[命中时]使目标增加4级沉沦强度",
+        "若目标带有荧光灯碎片，则对目标施加2层沉沦",
+        "硬币2：[命中时]使目标增加4级沉沦强度",
+        "若目标带有荧光灯碎片，则对目标施加2层沉沦"
       ]
     },
     {
@@ -83,16 +87,18 @@
       "sin_type": "忧郁",
       "damage_type": "穿刺",
       "base_value": 4,
-      "coin_power": 3,
-      "coin_count": 3,
+      "coin_power": 1,
+      "coin_count": 2,
       "attack_level": 43,
-      "attack_weight": 1,
+      "attack_weight": 6,
       "is_guard": false,
       "guard_type": "",
       "importance": 0,
       "coin_effects": [
-        "[命中时] 使目标增加3级 沉沦 强度并对其施加2层 沉沦",
-        "[正面命中时] 下回合使目标 理智值减少效率 -2"
+        "[无法拼点][战斗开始]改变战斗场地",
+        "硬币1：[命中时]使目标增加3级沉沦强度并对其施加2层沉沦",
+        "[正面命中时]下回合使目标理智值减少效率-2",
+        "硬币2：[命中时]使目标增加3级沉沦强度并对其施加2层沉沦"
       ]
     },
     {
@@ -101,18 +107,23 @@
       "sin_type": "傲慢",
       "damage_type": "打击",
       "base_value": 15,
-      "coin_power": 3,
-      "coin_count": 5,
+      "coin_power": 2,
+      "coin_count": 4,
       "attack_level": 43,
       "attack_weight": 1,
       "is_guard": false,
       "guard_type": "",
       "importance": 0,
       "coin_effects": [
-        "[命中时] 对目标施加3层 沉沦",
-        "[正面命中时] 使目标增加4级 沉沦 强度",
-        "[命中时] 使目标增加4级 沉沦 强度",
-        "[命中时] 使目标 沉沦泛滥"
+        "[拼点失败]使荧光灯部位失去体力上限34%的体力",
+        "[拼点失败]对自身施加1层盲目",
+        "硬币1：[命中时]对目标施加3层沉沦",
+        "[正面命中时]使目标增加4级沉沦强度",
+        "硬币2：[命中时]对目标施加3层沉沦",
+        "[正面命中时]使目标增加4级沉沦强度",
+        "硬币3：[命中时]使目标增加4级沉沦强度",
+        "[正面命中时]使目标增加4级沉沦强度",
+        "硬币4：[命中时]使目标沉沦泛滥"
       ]
     },
     {
@@ -121,16 +132,18 @@
       "sin_type": "傲慢",
       "damage_type": "打击",
       "base_value": 15,
-      "coin_power": 3,
-      "coin_count": 2,
+      "coin_power": 5,
+      "coin_count": 1,
       "attack_level": 43,
       "attack_weight": 1,
       "is_guard": false,
       "guard_type": "",
       "importance": 0,
       "coin_effects": [
-        "[攻击后] 使荧光灯部位失去体力上限34%的体力",
-        "[命中时] 击杀目标"
+        "[无法拼点][无法改变拼点目标]",
+        "[攻击后]使荧光灯部位失去体力上限34%的体力",
+        "[回合结束时]对自身施加1层盲目",
+        "硬币1：[命中时]击杀目标"
       ]
     },
     {
@@ -139,15 +152,15 @@
       "sin_type": "傲慢",
       "damage_type": "穿刺",
       "base_value": 4,
-      "coin_power": 3,
-      "coin_count": 3,
+      "coin_power": 4,
+      "coin_count": 2,
       "attack_level": 43,
       "attack_weight": 1,
       "is_guard": false,
       "guard_type": "",
       "importance": 0,
       "coin_effects": [
-        "[命中时] 使目标增加4级 沉沦 强度 若目标带有 荧光灯碎片 ，则对目标施加2层 沉沦"
+        "[回合结束时]生成漂流物"
       ]
     },
     {
@@ -156,15 +169,16 @@
       "sin_type": "忧郁",
       "damage_type": "穿刺",
       "base_value": 10,
-      "coin_power": 3,
-      "coin_count": 2,
+      "coin_power": 5,
+      "coin_count": 1,
       "attack_level": 43,
       "attack_weight": 1,
       "is_guard": false,
       "guard_type": "",
       "importance": 0,
       "coin_effects": [
-        "[命中时] 使目标增加4级 沉沦 强度"
+        "[战斗开始]消耗所有盲目",
+        "[战斗开始]摧毁所有漂流物与被破坏的漂流物"
       ]
     }
   ],

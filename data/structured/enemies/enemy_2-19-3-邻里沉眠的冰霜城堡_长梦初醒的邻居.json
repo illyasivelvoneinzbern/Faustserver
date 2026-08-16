@@ -32,7 +32,7 @@
       "sin_type": "傲慢",
       "damage_type": "斩击",
       "base_value": 3,
-      "coin_power": 3,
+      "coin_power": 5,
       "coin_count": 1,
       "attack_level": 13,
       "attack_weight": 1,
@@ -47,8 +47,8 @@
       "sin_type": "傲慢",
       "damage_type": "斩击",
       "base_value": 2,
-      "coin_power": 3,
-      "coin_count": 1,
+      "coin_power": 2,
+      "coin_count": 2,
       "attack_level": 13,
       "attack_weight": 1,
       "is_guard": false,
@@ -62,15 +62,15 @@
       "sin_type": "傲慢",
       "damage_type": "打击",
       "base_value": 11,
-      "coin_power": 3,
-      "coin_count": 2,
+      "coin_power": -9,
+      "coin_count": 1,
       "attack_level": 13,
       "attack_weight": 1,
       "is_guard": false,
       "guard_type": "",
       "importance": 0,
       "coin_effects": [
-        "[正面命中时] 下回合对目标施加1层 易损"
+        "硬币1：[正面命中时]下回合对目标施加1层易损"
       ]
     }
   ],

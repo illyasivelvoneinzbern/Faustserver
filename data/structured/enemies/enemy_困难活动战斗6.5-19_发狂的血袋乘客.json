@@ -36,15 +36,15 @@
       "sin_type": "色欲",
       "damage_type": "斩击",
       "base_value": 2,
-      "coin_power": 9,
-      "coin_count": 2,
+      "coin_power": 5,
+      "coin_count": 1,
       "attack_level": 52,
       "attack_weight": 1,
       "is_guard": false,
       "guard_type": "",
       "importance": 0,
       "coin_effects": [
-        "[命中时] 使目标增加3级 流血 强度"
+        "硬币1：[命中时]使目标增加3级流血强度"
       ]
     },
     {
@@ -53,15 +53,15 @@
       "sin_type": "暴怒",
       "damage_type": "斩击",
       "base_value": 3,
-      "coin_power": 987,
-      "coin_count": 3,
+      "coin_power": 4,
+      "coin_count": 2,
       "attack_level": 52,
       "attack_weight": 1,
       "is_guard": false,
       "guard_type": "",
       "importance": 0,
       "coin_effects": [
-        "[命中时] 使目标增加2级 流血 强度"
+        "硬币1：[命中时]使目标增加2级流血强度"
       ]
     },
     {
@@ -70,16 +70,16 @@
       "sin_type": "怠惰",
       "damage_type": "斩击",
       "base_value": 3,
-      "coin_power": 9703,
-      "coin_count": 2,
+      "coin_power": 3,
+      "coin_count": 3,
       "attack_level": 55,
       "attack_weight": 1,
       "is_guard": false,
       "guard_type": "",
       "importance": 0,
       "coin_effects": [
-        "[命中时] 使目标增加4级 流血",
-        "[命中时] 吸收目标至多10级 流血 强度并使自身恢复(吸收的 流血 强度×2)%体力(本效果不会使目标的 流血 强度降至1级以下)"
+        "若目标的流血强度不低于10级，则使本技能造成的伤害+20%",
+        "硬币1：[命中时]使目标增加4级流血"
       ]
     },
     {
@@ -88,16 +88,16 @@
       "sin_type": "暴怒",
       "damage_type": "斩击",
       "base_value": 6,
-      "coin_power": 987,
-      "coin_count": 2,
+      "coin_power": 1,
+      "coin_count": 1,
       "attack_level": 55,
       "attack_weight": 1,
-      "is_guard": true,
-      "guard_type": "反击",
+      "is_guard": false,
+      "guard_type": "",
       "importance": 0,
       "coin_effects": [
-        "[使用时] 自身每带有3层 流血 ，使本技能的基础威力+1(最多+2)",
-        "[命中时] 使目标增加2级 流血 强度"
+        "[使用时]自身每带有3层流血，使本技能的基础威力+1(最多+2)",
+        "硬币1：[命中时]使目标增加2级流血强度"
       ]
     }
   ],

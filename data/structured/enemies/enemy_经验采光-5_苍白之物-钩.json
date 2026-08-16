@@ -36,9 +36,66 @@
       "skill_name": "--. . ...-",
       "icon_id": "9009401",
       "sin_type": "色欲",
-      "damage_type": "",
+      "damage_type": "斩击",
       "base_value": 10,
-      "coin_power": 9,
+      "coin_power": -6,
+      "coin_count": 1,
+      "attack_level": 34,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "若目标带有苍白的噪音，除自身以外每有1名友方单位存活，使目标失去1点理智值",
+        "硬币1：[命中时]对目标施加2层流血",
+        "[正面命中时]使目标增加3级流血强度"
+      ]
+    },
+    {
+      "skill_name": "...- ...",
+      "icon_id": "9009402",
+      "sin_type": "色欲",
+      "damage_type": "斩击",
+      "base_value": 11,
+      "coin_power": -5,
+      "coin_count": 1,
+      "attack_level": 34,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "硬币1：[命中时]对目标施加1层苍白的噪音",
+        "硬币2：[命中时]对目标施加3层流血",
+        "[正面命中时]使目标增加3级流血强度"
+      ]
+    },
+    {
+      "skill_name": ".--. .... -",
+      "icon_id": "9009403",
+      "sin_type": "暴怒",
+      "damage_type": "斩击",
+      "base_value": 13,
+      "coin_power": -6,
+      "coin_count": 1,
+      "attack_level": 34,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[拼点胜利]对目标施加1层苍白的噪音",
+        "硬币1：[命中时]下回合对目标施加4层流血",
+        "硬币2：[命中时]下回合对目标施加2层易损"
+      ]
+    },
+    {
+      "skill_name": "-.- ..",
+      "icon_id": "9009504",
+      "sin_type": "常规",
+      "damage_type": "防御",
+      "base_value": 20,
+      "coin_power": -10,
       "coin_count": 2,
       "attack_level": 34,
       "attack_weight": 1,
@@ -46,61 +103,9 @@
       "guard_type": "",
       "importance": 0,
       "coin_effects": [
-        "[命中时] 对目标施加2层 流血",
-        "[正面命中时] 使目标增加3级 流血 强度"
+        "若自身带有护盾时受到攻击，则对攻击者施加1层苍白的噪音",
+        "[回合结束时]若自身在带有护盾，则下回合使自身增加3级呼吸法强度"
       ]
-    },
-    {
-      "skill_name": "...- ...",
-      "icon_id": "9009402",
-      "sin_type": "色欲",
-      "damage_type": "",
-      "base_value": 11,
-      "coin_power": 9,
-      "coin_count": 3,
-      "attack_level": 34,
-      "attack_weight": 1,
-      "is_guard": false,
-      "guard_type": "",
-      "importance": 0,
-      "coin_effects": [
-        "[命中时] 对目标施加1层 苍白的噪音",
-        "[命中时] 对目标施加3层 流血",
-        "[正面命中时] 使目标增加3级 流血 强度"
-      ]
-    },
-    {
-      "skill_name": ".--. .... -",
-      "icon_id": "9009403",
-      "sin_type": "暴怒",
-      "damage_type": "",
-      "base_value": 13,
-      "coin_power": 987,
-      "coin_count": 3,
-      "attack_level": 34,
-      "attack_weight": 1,
-      "is_guard": false,
-      "guard_type": "",
-      "importance": 0,
-      "coin_effects": [
-        "[命中时] 下回合对目标施加4层 流血",
-        "[命中时] 下回合对目标施加2层 易损"
-      ]
-    },
-    {
-      "skill_name": "-.- ..",
-      "icon_id": "9009504",
-      "sin_type": "常规",
-      "damage_type": "",
-      "base_value": 20,
-      "coin_power": 79,
-      "coin_count": 1,
-      "attack_level": 0,
-      "attack_weight": 1,
-      "is_guard": false,
-      "guard_type": "",
-      "importance": 0,
-      "coin_effects": []
     }
   ],
   "is_ally": false,

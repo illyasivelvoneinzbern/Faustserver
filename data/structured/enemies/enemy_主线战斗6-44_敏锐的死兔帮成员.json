@@ -34,15 +34,15 @@
       "sin_type": "暴怒",
       "damage_type": "打击",
       "base_value": 4,
-      "coin_power": 987,
-      "coin_count": 2,
+      "coin_power": 6,
+      "coin_count": 1,
       "attack_level": 50,
       "attack_weight": 1,
       "is_guard": false,
       "guard_type": "",
       "importance": 0,
       "coin_effects": [
-        "[命中时] 对目标施加3层 破裂"
+        "硬币1：[命中时]对目标施加3层破裂"
       ]
     },
     {
@@ -51,18 +51,19 @@
       "sin_type": "暴怒",
       "damage_type": "突刺",
       "base_value": 4,
-      "coin_power": 987,
-      "coin_count": 3,
+      "coin_power": 3,
+      "coin_count": 2,
       "attack_level": 50,
       "attack_weight": 1,
       "is_guard": false,
       "guard_type": "",
       "importance": 0,
       "coin_effects": [
-        "[使用时] 若目标的 破裂 层数不低于3层，则使本技能基础威力+1",
-        "[命中时] 对目标施加2层 攻击等级降低",
-        "[命中时] 对目标施加3层 破裂",
-        "[命中时] 使目标增加6级 破裂 强度"
+        "[使用时]若目标的破裂层数不低于3层，则使本技能基础威力+1",
+        "硬币1：[命中时]对目标施加2层攻击等级降低",
+        "[命中时]对目标施加3层破裂",
+        "硬币2：[命中时]对目标施加2层攻击等级降低",
+        "[命中时]使目标增加6级破裂强度"
       ]
     }
   ],

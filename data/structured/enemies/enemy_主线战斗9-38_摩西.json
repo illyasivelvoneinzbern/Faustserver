@@ -37,16 +37,18 @@
       "sin_type": "暴怒",
       "damage_type": "突刺",
       "base_value": 12,
-      "coin_power": 987,
-      "coin_count": 3,
-      "attack_level": 1,
+      "coin_power": 3,
+      "coin_count": 2,
+      "attack_level": 0,
       "attack_weight": 1,
       "is_guard": false,
       "guard_type": "",
       "importance": 0,
       "coin_effects": [
-        "[使用时] 使自身失去3点理智值",
-        "[命中时] 对目标额外造成5点伤害"
+        "若目标带有负面状态，则使本技能造成的伤害+50%",
+        "[使用时]使自身失去3点理智值",
+        "硬币1：[命中时]对目标额外造成5点伤害",
+        "硬币2：[命中时]对目标额外造成5点伤害"
       ]
     },
     {
@@ -55,17 +57,17 @@
       "sin_type": "忧郁",
       "damage_type": "突刺",
       "base_value": 1,
-      "coin_power": 3,
+      "coin_power": 1,
       "coin_count": 1,
-      "attack_level": 1,
+      "attack_level": 0,
       "attack_weight": 1,
-      "is_guard": true,
+      "is_guard": false,
       "guard_type": "",
       "importance": 0,
       "coin_effects": [
-        "无法拼点",
+        "[无法拼点]",
         "本技能不会命中敌方单位，且不会触发目标的守备技能",
-        "使用时使自身增加5级呼吸法强度并使自身获得3层呼吸法"
+        "[使用时]使自身增加5级呼吸法强度并使自身获得3层呼吸法"
       ]
     },
     {
@@ -74,17 +76,19 @@
       "sin_type": "忧郁",
       "damage_type": "突刺",
       "base_value": 16,
-      "coin_power": 3,
-      "coin_count": 2,
-      "attack_level": 5,
-      "attack_weight": 1,
-      "is_guard": true,
+      "coin_power": 2,
+      "coin_count": 1,
+      "attack_level": 0,
+      "attack_weight": 5,
+      "is_guard": false,
       "guard_type": "",
       "importance": 0,
       "coin_effects": [
-        "[使用时] 使自身增加5级 呼吸法 强度并使自身获得3层 呼吸法",
-        "[命中时] 使目标恢复15点理智值",
-        "[命中时] 使自身与目标获得2层 白色吐息-精神守护"
+        "[无法拼点]",
+        "本技能指定友方单位为目标，不会触发守备技能，且不会造成伤害",
+        "[使用时]使自身增加5级呼吸法强度并使自身获得3层呼吸法",
+        "硬币1：[命中时]使目标恢复15点理智值",
+        "[命中时]使自身与目标获得2层白色吐息-精神守护"
       ]
     },
     {
@@ -93,16 +97,18 @@
       "sin_type": "暴怒",
       "damage_type": "突刺",
       "base_value": 17,
-      "coin_power": 987,
-      "coin_count": 2,
-      "attack_level": 5,
-      "attack_weight": 1,
-      "is_guard": true,
-      "guard_type": "防御",
+      "coin_power": 2,
+      "coin_count": 1,
+      "attack_level": 0,
+      "attack_weight": 5,
+      "is_guard": false,
+      "guard_type": "",
       "importance": 0,
       "coin_effects": [
-        "[使用时] 使自身增加5级 呼吸法 强度并使自身获得3层 呼吸法",
-        "[命中时] 使自身与目标获得2层 红色吐息-身体强化 、1层 攻击等级提升 与1层 防御等级提升"
+        "[无法拼点]",
+        "本技能指定友方单位为目标，不会触发守备技能，且不会造成伤害",
+        "[使用时]使自身增加5级呼吸法强度并使自身获得3层呼吸法",
+        "硬币1：[命中时]使自身与目标获得2层红色吐息-身体强化、1层攻击等级提升与1层防御等级提升"
       ]
     },
     {
@@ -111,19 +117,22 @@
       "sin_type": "嫉妒",
       "damage_type": "突刺",
       "base_value": 14,
-      "coin_power": 5793,
-      "coin_count": 4,
-      "attack_level": 1,
+      "coin_power": 3,
+      "coin_count": 1,
+      "attack_level": 0,
       "attack_weight": 1,
-      "is_guard": true,
+      "is_guard": false,
       "guard_type": "",
       "importance": 0,
       "coin_effects": [
-        "[使用时] 使自身失去8点理智值",
-        "[使用时] 使自身增加5级 呼吸法 强度并使自身获得3层 呼吸法 不可摧毁的硬币",
-        "[命中时] 对目标造成8点理智伤害",
-        "[命中时] 对目标施加4层 紫色吐息-歇斯底里 、2层 易损 与3层 加算硬币弱化",
-        "[命中时] 下回合对目标施加5层 束缚"
+        "本技能不会触发目标的守备技能",
+        "若目标带有负面状态，则使本技能造成的伤害+50%",
+        "[使用时]使自身失去8点理智值",
+        "[使用时]使自身增加5级呼吸法强度并使自身获得3层呼吸法",
+        "硬币1：不可摧毁的硬币",
+        "[命中时]对目标造成8点理智伤害",
+        "[命中时]对目标施加4层紫色吐息-歇斯底里、2层易损与3层加算硬币弱化",
+        "[命中时]下回合对目标施加5层束缚"
       ]
     },
     {
@@ -132,16 +141,18 @@
       "sin_type": "暴怒",
       "damage_type": "突刺",
       "base_value": 17,
-      "coin_power": 987,
-      "coin_count": 2,
-      "attack_level": 5,
-      "attack_weight": 1,
-      "is_guard": true,
+      "coin_power": 3,
+      "coin_count": 1,
+      "attack_level": 0,
+      "attack_weight": 5,
+      "is_guard": false,
       "guard_type": "",
       "importance": 0,
       "coin_effects": [
-        "[使用时] 使自身增加5级 呼吸法 强度并使自身获得3层 呼吸法",
-        "[命中时] 使自身与目标获得1层 红色吐息-守护 与5层 守护"
+        "[无法拼点]",
+        "本技能指定友方单位为目标，不会触发守备技能，且不会造成伤害",
+        "[使用时]使自身增加5级呼吸法强度并使自身获得3层呼吸法",
+        "硬币1：[命中时]使自身与目标获得1层红色吐息-守护与5层守护"
       ]
     },
     {
@@ -150,16 +161,18 @@
       "sin_type": "暴怒",
       "damage_type": "突刺",
       "base_value": 17,
-      "coin_power": 987,
-      "coin_count": 2,
-      "attack_level": 3,
-      "attack_weight": 1,
-      "is_guard": true,
+      "coin_power": 2,
+      "coin_count": 1,
+      "attack_level": 0,
+      "attack_weight": 3,
+      "is_guard": false,
       "guard_type": "",
       "importance": 0,
       "coin_effects": [
-        "[使用时] 使自身增加5级 呼吸法 强度并使自身获得3层 呼吸法",
-        "[命中时] 使目标获得1层 红色吐息-疾驰的身体 与5层 攻击等级提升"
+        "[无法拼点]",
+        "本技能指定友方单位为目标，不会触发守备技能，且不会造成伤害",
+        "[使用时]使自身增加5级呼吸法强度并使自身获得3层呼吸法",
+        "硬币1：[命中时]使目标获得1层红色吐息-疾驰的身体与5层攻击等级提升"
       ]
     },
     {
@@ -168,19 +181,19 @@
       "sin_type": "暴怒",
       "damage_type": "突刺",
       "base_value": 25,
-      "coin_power": 987,
+      "coin_power": 25,
       "coin_count": 1,
-      "attack_level": 1,
+      "attack_level": 0,
       "attack_weight": 1,
-      "is_guard": true,
+      "is_guard": false,
       "guard_type": "",
       "importance": 0,
       "coin_effects": [
-        "无法拼点",
+        "[无法拼点]",
         "本技能不会命中敌方单位，且不会触发目标的守备技能",
-        "战斗开始使自身获得100点护盾(每场战斗最多1次)",
-        "战斗开始使自身获得1层深长吐息-红色",
-        "回合结束时使自身失去15点理智值"
+        "[战斗开始]使自身获得100点护盾(每场战斗最多1次)",
+        "[战斗开始]使自身获得1层深长吐息-红色",
+        "[回合结束时]使自身失去15点理智值"
       ]
     }
   ],

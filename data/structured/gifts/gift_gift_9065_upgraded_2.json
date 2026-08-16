@@ -1,0 +1,20 @@
+{
+  "id": "gift_9065_upgraded_2",
+  "title": "美感",
+  "url": "https://limbuscompany.huijiwiki.com/wiki/E.G.O饰品",
+  "categories": [
+    "E.G.O饰品"
+  ],
+  "content": "对理智值不高于0点的敌方单位造成的伤害+40%。\n\n增加沉沦强度或施加沉沦层数的技能造成的伤害额外+10%\n\n对没有理智值的敌方单位触发沉沦效果时，不对其造成忧郁伤害，而是以所有罪孽属性中最有效的属性伤害进行替代。",
+  "source": "tabx",
+  "_structured": true,
+  "page_type": "ego_gift",
+  "gift_name": "美感",
+  "rarity": 4,
+  "cost": "373",
+  "effect_types": "沉沦",
+  "attack_type": "傲慢",
+  "location": "镜像迷宫",
+  "stage": "upgraded_2",
+  "_schema_version": 1
+}

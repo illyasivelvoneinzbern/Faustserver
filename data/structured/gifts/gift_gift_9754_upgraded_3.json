@@ -1,0 +1,21 @@
+{
+  "id": "gift_9754_upgraded_3",
+  "title": "枷锁",
+  "url": "https://limbuscompany.huijiwiki.com/wiki/E.G.O饰品",
+  "categories": [
+    "E.G.O饰品"
+  ],
+  "content": "关卡开始时，使全体友方单位的体力上限增加(当前阶层×5)%(最多50%)",
+  "source": "tabx",
+  "_structured": true,
+  "page_type": "ego_gift",
+  "gift_name": "枷锁",
+  "rarity": 4,
+  "cost": "396",
+  "effect_types": "泛用",
+  "attack_type": "暴食",
+  "location": "镜像迷宫",
+  "stage": "upgraded_3",
+  "special": "2号线",
+  "_schema_version": 1
+}

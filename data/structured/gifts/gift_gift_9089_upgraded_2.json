@@ -1,0 +1,20 @@
+{
+  "id": "gift_9089_upgraded_2",
+  "title": "锈蚀的笼头",
+  "url": "https://limbuscompany.huijiwiki.com/wiki/E.G.O饰品",
+  "categories": [
+    "E.G.O饰品"
+  ],
+  "content": "使用单个技能造成不低于12点体力伤害时，使目标增加3级流血强度。\n若该技能为斩击技能，则改为增加5级流血强度。",
+  "source": "tabx",
+  "_structured": true,
+  "page_type": "ego_gift",
+  "gift_name": "锈蚀的笼头",
+  "rarity": 1,
+  "cost": "164",
+  "effect_types": "流血",
+  "attack_type": "嫉妒",
+  "location": "镜像迷宫",
+  "stage": "upgraded_2",
+  "_schema_version": 1
+}

@@ -34,15 +34,15 @@
       "sin_type": "暴怒",
       "damage_type": "突刺",
       "base_value": 4,
-      "coin_power": 987,
-      "coin_count": 2,
+      "coin_power": 5,
+      "coin_count": 1,
       "attack_level": 58,
       "attack_weight": 1,
       "is_guard": false,
       "guard_type": "",
       "importance": 0,
       "coin_effects": [
-        "[命中时] 使目标增加5级 烧伤 强度并对其施加2层 烧伤"
+        "硬币1：[命中时]使目标增加5级烧伤强度并对其施加2层烧伤"
       ]
     },
     {
@@ -51,15 +51,16 @@
       "sin_type": "暴怒",
       "damage_type": "斩击",
       "base_value": 4,
-      "coin_power": 987,
-      "coin_count": 2,
+      "coin_power": 7,
+      "coin_count": 1,
       "attack_level": 58,
       "attack_weight": 1,
       "is_guard": false,
       "guard_type": "",
       "importance": 0,
       "coin_effects": [
-        "[命中时] 使目标增加5级 烧伤 强度并对其施加2层 烧伤"
+        "[拼点胜利]若目标带有烧伤，则使本技能的基础威力+2",
+        "硬币1：[命中时]使目标增加5级烧伤强度并对其施加2层烧伤"
       ]
     },
     {
@@ -68,18 +69,19 @@
       "sin_type": "暴怒",
       "damage_type": "突刺",
       "base_value": 5,
-      "coin_power": 987,
-      "coin_count": 3,
+      "coin_power": 5,
+      "coin_count": 2,
       "attack_level": 58,
       "attack_weight": 1,
       "is_guard": false,
       "guard_type": "",
       "importance": 0,
       "coin_effects": [
-        "[使用时] 若目标的 烧伤 强度不低于5级，则使本技能的硬币威力+1",
-        "[命中时] 对目标施加2层 烧伤",
-        "[正面命中时] 下回合对目标施加1层 暴怒易损",
-        "[命中时] 使目标增加8级 烧伤 强度"
+        "[使用时]若目标的烧伤强度不低于5级，则使本技能的硬币威力+1",
+        "硬币1：[命中时]对目标施加2层烧伤",
+        "[正面命中时]下回合对目标施加1层暴怒易损",
+        "硬币2：[命中时]使目标增加8级烧伤强度",
+        "[正面命中时]下回合对目标施加1层暴怒易损"
       ]
     },
     {
@@ -88,16 +90,16 @@
       "sin_type": "暴怒",
       "damage_type": "突刺",
       "base_value": 4,
-      "coin_power": 987,
-      "coin_count": 2,
+      "coin_power": 4,
+      "coin_count": 1,
       "attack_level": 58,
       "attack_weight": 1,
-      "is_guard": true,
-      "guard_type": "反击",
+      "is_guard": false,
+      "guard_type": "",
       "importance": 0,
       "coin_effects": [
-        "[使用时] 若目标的 烧伤 强度不低于5级，则使本技能的硬币威力+2",
-        "[命中时] 下回合使自身获得1层 脆弱攻击伤害强化"
+        "[使用时]若目标的烧伤强度不低于5级，则使本技能的硬币威力+2",
+        "硬币1：[命中时]下回合使自身获得1层脆弱攻击伤害强化"
       ]
     }
   ],

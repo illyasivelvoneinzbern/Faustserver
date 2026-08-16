@@ -18,6 +18,7 @@ def build_rag_chain(
     retriever: Any,
     persona_manager: Any = None,
     default_persona_id: str = "",
+    persona_engine: Any = None,
 ):
     """
     构建 RAG Chain（支持运行时动态人格切换）。
@@ -27,6 +28,8 @@ def build_rag_chain(
         retriever: LimBusRetriever 实例
         persona_manager: PersonaManager 实例（可选）
         default_persona_id: 默认人格 ID（当请求未指定时使用）
+        persona_engine: PersonaEngine 实例（可选，拟真人格增强：
+            注入角色真实台词样本 + 内心反应建模，见 rag/persona_engine.py）
     """
 
     # ── 辅助：根据 persona_id 获取角色名用于检索过滤 ──
@@ -86,6 +89,27 @@ def build_rag_chain(
         persona_id = inputs.get("persona_id", default_persona_id)
         system_tmpl = _get_system_template(persona_manager, persona_id)
 
+        # ── 拟真人格增强（P38）：真实台词样本 + 内心反应建模 ──
+        samples_block = ""
+        if persona_engine is not None and persona_engine.enabled:
+            persona_name = _get_persona_name(persona_id)
+            if persona_name:
+                samples_block = persona_engine.samples_block(
+                    persona_name,
+                    inputs.get("question", ""),
+                    inputs.get("chat_history", ""),
+                )
+            if persona_engine.thinking:
+                display_name = ""
+                if persona_manager and persona_id:
+                    p = persona_manager.get(persona_id)
+                    if p:
+                        display_name = p.get("display_name") or p.get("name", "")
+                if display_name:
+                    instr = persona_engine.thinking_instruction(display_name)
+                    if instr:
+                        system_tmpl = f"{system_tmpl}\n\n{instr}"
+
         # P29：背景事实底座（opinion/compare 意图注入，修复"观点编造身份"）
         # 观点类问题（如"你怎么看里恩"）绕过直答后，LLM 若拿不到实体事实，
         # 会凭印象编造身份（曾把食指父辈里恩说成 N 公司异端审判官）。
@@ -97,6 +121,7 @@ def build_rag_chain(
             ("system", system_tmpl),
             ("human",
              "【对话历史】\n{chat_history}\n\n"
+             + (samples_block + "\n\n" if samples_block else "")
              + fact_block +
              "【参考资料】\n{context}\n\n"
              "用户：{question}"),
@@ -329,6 +354,7 @@ async def run_rag_query(
     persona_id: str = "",
     fact_base: str = "",
     story_only: bool = False,
+    persona_engine: Any = None,
 ) -> str:
     """执行 RAG 查询并返回回答（异步）。
 
@@ -336,6 +362,7 @@ async def run_rag_query(
     注入【背景事实】区块，防止 LLM 编造对象身份。
     story_only（P29c）：仅检索剧情来源（opinion 观点问题专用，
     避免拉入敌方单位数据淹没剧情事实）。
+    persona_engine（P38）：拟真人格引擎，生成后剥离【内心反应】并做一致性自检。
     """
     try:
         result = await chain.ainvoke({
@@ -345,6 +372,10 @@ async def run_rag_query(
             "fact_base": fact_base,
             "story_only": story_only,
         })
+        if persona_engine is not None and persona_engine.enabled:
+            result = await persona_engine.postprocess_by_id(
+                persona_id, result, question
+            )
         return result
     except Exception as e:
         logger.error(f"RAG 查询异常: {e}")
@@ -358,6 +389,7 @@ def run_rag_query_sync(
     persona_id: str = "",
     fact_base: str = "",
     story_only: bool = False,
+    persona_engine: Any = None,
 ) -> str:
     """同步执行 RAG 查询"""
     try:
@@ -368,6 +400,12 @@ def run_rag_query_sync(
             "fact_base": fact_base,
             "story_only": story_only,
         })
+        if persona_engine is not None and persona_engine.enabled:
+            # 同步场景下仅做剥离 + 规则自检（LLM 判定仅异步路径支持）
+            persona = None
+            if persona_engine.persona_manager and persona_id:
+                persona = persona_engine.persona_manager.get(persona_id)
+            result = persona_engine.postprocess_sync(persona, result, question)
         return result
     except Exception as e:
         logger.error(f"RAG 查询异常: {e}")

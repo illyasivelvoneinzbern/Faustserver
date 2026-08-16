@@ -37,9 +37,26 @@
       "skill_name": "使劲打啊",
       "icon_id": "9008701",
       "sin_type": "色欲",
-      "damage_type": "",
+      "damage_type": "斩击",
       "base_value": 5,
-      "coin_power": 9,
+      "coin_power": 6,
+      "coin_count": 1,
+      "attack_level": 30,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[使用时]若目标带有流血，则使自身获得1层守护"
+      ]
+    },
+    {
+      "skill_name": "往这打啊",
+      "icon_id": "9008702",
+      "sin_type": "色欲",
+      "damage_type": "斩击",
+      "base_value": 6,
+      "coin_power": 4,
       "coin_count": 2,
       "attack_level": 30,
       "attack_weight": 1,
@@ -47,80 +64,60 @@
       "guard_type": "",
       "importance": 0,
       "coin_effects": [
-        "[使用时] 若目标带有 流血 ，则使自身获得1层 守护",
-        "[命中时] 下回合对目标施加2层 束缚",
-        "[命中时] 使目标增加2级 流血 强度"
-      ]
-    },
-    {
-      "skill_name": "往这打啊",
-      "icon_id": "9008702",
-      "sin_type": "色欲",
-      "damage_type": "",
-      "base_value": 6,
-      "coin_power": 9,
-      "coin_count": 3,
-      "attack_level": 30,
-      "attack_weight": 1,
-      "is_guard": false,
-      "guard_type": "",
-      "importance": 0,
-      "coin_effects": [
-        "[使用时] 若目标带有 流血 ，则使自身获得1层 守护",
-        "[命中时] 下回合对目标施加1层 麻痹",
-        "[命中时] 使目标增加2级 流血 强度",
-        "[命中时] 下回合对目标施加2层 伤害弱化"
+        "[使用时]若目标带有流血，则使自身获得1层守护"
       ]
     },
     {
       "skill_name": "再使劲啊",
       "icon_id": "9008703",
       "sin_type": "暴怒",
-      "damage_type": "",
+      "damage_type": "斩击",
       "base_value": 6,
-      "coin_power": 987,
-      "coin_count": 3,
+      "coin_power": 5,
+      "coin_count": 2,
       "attack_level": 30,
       "attack_weight": 1,
       "is_guard": false,
       "guard_type": "",
       "importance": 0,
       "coin_effects": [
-        "[攻击后] 下回合使自身获得1层 伤害强化",
-        "[命中时] 使自身获得2层 守护",
-        "[命中时] 下回合使自身获得2层 守护",
-        "[命中时] 下回合使自身增加4级 呼吸法 强度"
+        "[攻击后]下回合使自身获得1层伤害强化"
       ]
     },
     {
       "skill_name": "防御",
       "icon_id": "9008704",
       "sin_type": "常规",
-      "damage_type": "",
+      "damage_type": "防御",
       "base_value": 10,
-      "coin_power": 79,
+      "coin_power": 7,
       "coin_count": 1,
-      "attack_level": 0,
+      "attack_level": 40,
       "attack_weight": 1,
-      "is_guard": true,
-      "guard_type": "防御",
+      "is_guard": false,
+      "guard_type": "",
       "importance": 0,
-      "coin_effects": []
+      "coin_effects": [
+        "[使用时]下回合使自身增加2级呼吸法强度。",
+        "回合结束时，根据自身带有的护盾，使自身恢复相应的体力。"
+      ]
     },
     {
       "skill_name": "劫掠",
       "icon_id": "9008705",
       "sin_type": "傲慢",
-      "damage_type": "",
+      "damage_type": "斩击",
       "base_value": 6,
-      "coin_power": 3,
+      "coin_power": 8,
       "coin_count": 1,
       "attack_level": 30,
       "attack_weight": 1,
       "is_guard": false,
       "guard_type": "",
       "importance": 0,
-      "coin_effects": []
+      "coin_effects": [
+        "[拼点胜利]复制并使用目标级别为1~3的1个技能的硬币威力与硬币数"
+      ]
     }
   ],
   "is_ally": false,

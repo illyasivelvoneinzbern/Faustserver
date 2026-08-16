@@ -1,0 +1,21 @@
+{
+  "id": "gift_9267_upgraded_2",
+  "title": "灼热的铜管",
+  "url": "https://limbuscompany.huijiwiki.com/wiki/E.G.O饰品",
+  "categories": [
+    "E.G.O饰品"
+  ],
+  "content": "最大烧伤强度+21\n战斗中首次增加的烧伤强度变为3倍(每场战斗最多1次)\n敌方单位受到烧伤伤害时，对其造成相当于其烧伤强度的暴怒伤害\n增加烧伤强度，施加烧伤层数或施加特殊烧伤的技能造成的伤害+25%",
+  "source": "tabx",
+  "_structured": true,
+  "page_type": "ego_gift",
+  "gift_name": "灼热的铜管",
+  "rarity": 4,
+  "cost": "403",
+  "effect_types": "烧伤",
+  "attack_type": "怠惰",
+  "location": "镜像迷宫",
+  "stage": "upgraded_2",
+  "special": "解放的暴怒，盛火时节",
+  "_schema_version": 1
+}

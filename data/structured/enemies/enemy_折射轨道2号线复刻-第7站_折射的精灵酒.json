@@ -36,12 +36,12 @@
       "sin_type": "常规",
       "damage_type": "守备",
       "base_value": 1,
-      "coin_power": 79,
+      "coin_power": 0,
       "coin_count": 1,
-      "attack_level": 0,
+      "attack_level": 61,
       "attack_weight": 1,
-      "is_guard": false,
-      "guard_type": "",
+      "is_guard": true,
+      "guard_type": "守备",
       "importance": 0,
       "coin_effects": []
     }

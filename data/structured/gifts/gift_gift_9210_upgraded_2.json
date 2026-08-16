@@ -1,0 +1,20 @@
+{
+  "id": "gift_9210_upgraded_2",
+  "title": "嫩肉锤",
+  "url": "https://limbuscompany.huijiwiki.com/wiki/E.G.O饰品",
+  "categories": [
+    "E.G.O饰品"
+  ],
+  "content": "[第4顺位友方单位专属]\n若自身拥有不低于2个打击攻击技能，则回合开始时使自身获得2层拼点威力提升",
+  "source": "tabx",
+  "_structured": true,
+  "page_type": "ego_gift",
+  "gift_name": "嫩肉锤",
+  "rarity": 1,
+  "cost": "155",
+  "effect_types": "打击",
+  "attack_type": "嫉妒",
+  "location": "镜像迷宫",
+  "stage": "upgraded_2",
+  "_schema_version": 1
+}

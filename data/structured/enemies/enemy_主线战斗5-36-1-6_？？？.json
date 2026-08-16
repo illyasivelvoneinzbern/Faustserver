@@ -34,57 +34,62 @@
       "skill_name": "狩猎开始",
       "icon_id": "810301",
       "sin_type": "嫉妒",
-      "damage_type": "",
+      "damage_type": "穿刺",
       "base_value": 4,
-      "coin_power": 5793,
-      "coin_count": 2,
+      "coin_power": 6,
+      "coin_count": 1,
       "attack_level": 36,
       "attack_weight": 1,
       "is_guard": false,
       "guard_type": "",
       "importance": 0,
       "coin_effects": [
-        "[使用时] 下回合对目标施加 猎物标记",
-        "[命中时] 使目标增加4级 流血 强度"
+        "[战斗开始]下回合召唤4名友方单位",
+        "[使用时]下回合对目标施加猎物标记",
+        "硬币1：[命中时]使目标增加4级流血强度"
       ]
     },
     {
       "skill_name": "鱼叉",
       "icon_id": "810302",
       "sin_type": "嫉妒",
-      "damage_type": "",
+      "damage_type": "穿刺",
       "base_value": 4,
-      "coin_power": 5793,
-      "coin_count": 2,
+      "coin_power": 6,
+      "coin_count": 1,
       "attack_level": 39,
       "attack_weight": 1,
       "is_guard": false,
       "guard_type": "",
       "importance": 0,
       "coin_effects": [
-        "[命中时] 使目标增加4级 流血 强度"
+        "硬币1：[命中时]使目标增加4级流血强度"
       ]
     },
     {
       "skill_name": "穿刺鱼叉",
       "icon_id": "810303",
       "sin_type": "嫉妒",
-      "damage_type": "",
+      "damage_type": "穿刺",
       "base_value": 4,
-      "coin_power": 5793,
+      "coin_power": 3,
       "coin_count": 3,
       "attack_level": 39,
       "attack_weight": 1,
       "is_guard": false,
       "guard_type": "",
       "importance": 0,
-      "coin_effects": []
+      "coin_effects": [
+        "硬币2：[命中时]对目标施加3层攻击等级降低",
+        "[命中时]下回合对目标施加2层束缚",
+        "硬币4：[命中时]使目标增加4级流血强度"
+      ]
     },
     {
       "skill_name": "深呼吸",
       "icon_id": "810304",
       "sin_type": "傲慢",
-      "damage_type": "",
+      "damage_type": "穿刺",
       "base_value": 4,
       "coin_power": 3,
       "coin_count": 2,
@@ -93,75 +98,108 @@
       "is_guard": false,
       "guard_type": "",
       "importance": 0,
-      "coin_effects": []
+      "coin_effects": [
+        "[战斗开始]使自身增加10级呼吸法强度并获得5层呼吸法",
+        "本技能造成暴击时不消耗呼吸法层数",
+        "回合结束时，除自身以外每有1名友方单位存活，下回合使自身获得1层加算硬币强化"
+      ]
     },
     {
       "skill_name": "反击",
       "icon_id": "810305",
       "sin_type": "傲慢",
-      "damage_type": "",
+      "damage_type": "穿刺",
       "base_value": 3,
-      "coin_power": 3,
-      "coin_count": 2,
+      "coin_power": 5,
+      "coin_count": 1,
       "attack_level": 42,
       "attack_weight": 1,
-      "is_guard": true,
-      "guard_type": "反击",
+      "is_guard": false,
+      "guard_type": "",
       "importance": 0,
       "coin_effects": [
-        "[命中时] 对目标施加2层 流血"
+        "本技能造成暴击时不消耗呼吸法层数",
+        "硬币1：[命中时]对目标施加2层流血"
       ]
     },
     {
       "skill_name": "追踪猎物",
       "icon_id": "810306",
       "sin_type": "嫉妒",
-      "damage_type": "",
+      "damage_type": "穿刺",
       "base_value": 3,
-      "coin_power": 5793,
-      "coin_count": 4,
+      "coin_power": 5,
+      "coin_count": 3,
       "attack_level": 42,
       "attack_weight": 1,
       "is_guard": false,
       "guard_type": "",
       "importance": 0,
       "coin_effects": [
-        "[命中时] 使目标增加1级 流血 强度",
-        "[命中时] 使目标增加5级 流血 强度"
+        "本技能暴击时造成的伤害+30%",
+        "硬币1：[命中时]使目标增加1级流血强度",
+        "硬币2：[命中时]使目标增加1级流血强度",
+        "[暴击命中时]使目标的第一混乱阈值前移本硬币伤害量的50%",
+        "硬币3：[命中时]使目标增加5级流血强度"
       ]
     },
     {
       "skill_name": "割喉",
       "icon_id": "810307",
       "sin_type": "暴怒",
-      "damage_type": "",
+      "damage_type": "穿刺",
       "base_value": 13,
-      "coin_power": 987,
-      "coin_count": 2,
+      "coin_power": 8,
+      "coin_count": 1,
       "attack_level": 42,
-      "attack_weight": 1,
+      "attack_weight": 3,
       "is_guard": false,
       "guard_type": "",
       "importance": 0,
       "coin_effects": [
-        "[使用时] 若自身未带有 呼吸法 ，则使自身在回合结束时陷入混乱 暴击时造成的伤害+50%",
-        "[命中时] 下回合使目标陷入混乱"
+        "造成暴击时不消耗呼吸法层数",
+        "目标每带有1级流血强度，使本技能造成的伤害+5%",
+        "[使用时]若自身未带有呼吸法，则使自身在回合结束时陷入混乱",
+        "硬币1：暴击时造成的伤害+50%",
+        "[命中时]下回合使目标陷入混乱"
       ]
     },
     {
       "skill_name": "深呼吸",
       "icon_id": "810308",
       "sin_type": "傲慢",
-      "damage_type": "",
+      "damage_type": "防御",
       "base_value": 8,
-      "coin_power": 3,
+      "coin_power": 1,
       "coin_count": 1,
-      "attack_level": 0,
+      "attack_level": 45,
       "attack_weight": 1,
       "is_guard": false,
       "guard_type": "",
       "importance": 0,
-      "coin_effects": []
+      "coin_effects": [
+        "[战斗开始]使自身增加3级呼吸法强度并获得5层呼吸法"
+      ]
+    },
+    {
+      "skill_name": "生存意志",
+      "icon_id": "810309",
+      "sin_type": "暴怒",
+      "damage_type": "穿刺",
+      "base_value": 5,
+      "coin_power": 4,
+      "coin_count": 3,
+      "attack_level": 42,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "本技能暴击时造成的伤害+30%",
+        "硬币1：[命中时]使本体与部位恢复本硬币伤害量50%的体力",
+        "硬币2：[命中时]使本体与部位恢复本硬币伤害量50%的体力",
+        "硬币3：[命中时]使本体与部位恢复本硬币伤害量50%的体力"
+      ]
     }
   ],
   "is_ally": false,

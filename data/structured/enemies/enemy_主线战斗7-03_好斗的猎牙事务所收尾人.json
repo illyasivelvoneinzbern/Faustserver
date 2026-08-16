@@ -36,16 +36,17 @@
       "sin_type": "嫉妒",
       "damage_type": "打击",
       "base_value": 4,
-      "coin_power": 5793,
-      "coin_count": 2,
+      "coin_power": 6,
+      "coin_count": 1,
       "attack_level": 40,
       "attack_weight": 1,
-      "is_guard": true,
-      "guard_type": "防御",
+      "is_guard": false,
+      "guard_type": "",
       "importance": 0,
       "coin_effects": [
-        "[命中时] 使目标增加3级 破裂 强度",
-        "[命中时] 对目标施加1层 防御等级降低"
+        "目标的{{状态2|破裂|4=负面}}强度不低于5级，则使本技能造成的伤害+10%",
+        "硬币1：[命中时]使目标增加3级{{状态2|破裂|4=负面}}强度",
+        "[命中时]对目标施加1层{{状态2|防御等级降低|4=负面}}"
       ]
     },
     {
@@ -54,16 +55,18 @@
       "sin_type": "暴怒",
       "damage_type": "打击",
       "base_value": 4,
-      "coin_power": 987,
-      "coin_count": 3,
+      "coin_power": 5,
+      "coin_count": 2,
       "attack_level": 40,
       "attack_weight": 1,
       "is_guard": false,
       "guard_type": "",
       "importance": 0,
       "coin_effects": [
-        "[命中时] 使目标增加1级 破裂 强度",
-        "[命中时] 对目标施加1层 体力恢复降低 若目标的 破裂 强度不低于5级，则对目标施加1层 体力恢复降低"
+        "若目标的{{状态2|破裂|4=负面}}强度不低于5级，则使本技能的基础威力+1",
+        "硬币1：[命中时]使目标增加1级{{状态2|破裂|4=负面}}强度",
+        "硬币2：[命中时]对目标施加1层{{状态2|体力恢复降低|4=负面}}",
+        "若目标的{{状态2|破裂|4=负面}}强度不低于5级，则对目标施加1层{{状态2|体力恢复降低|4=负面}}"
       ]
     },
     {
@@ -72,19 +75,15 @@
       "sin_type": "暴食",
       "damage_type": "打击",
       "base_value": 6,
-      "coin_power": 854,
-      "coin_count": 3,
+      "coin_power": 5,
+      "coin_count": 2,
       "attack_level": 40,
       "attack_weight": 1,
       "is_guard": false,
       "guard_type": "",
       "importance": 0,
       "coin_effects": [
-        "[使用时] 若目标的 破裂 强度不低于10级，则本技能命中时不消耗目标的 破裂 层数",
-        "[命中时] 对目标施加1层 破裂",
-        "[命中时] 对目标施加1层 易损",
-        "[命中时] 使目标增加4级 破裂 强度",
-        "[命中时] 若目标的 破裂 强度不低于10级，则使本硬币造成的伤害+30%"
+        "[使用时]若目标的{{状态2|破裂|4=负面}}强度不低于10级，则本技能命中时不消耗目标的{{状态2|破裂|4=负面}}层数"
       ]
     },
     {
@@ -93,15 +92,15 @@
       "sin_type": "常规",
       "damage_type": "防御",
       "base_value": 8,
-      "coin_power": 79,
+      "coin_power": 4,
       "coin_count": 1,
-      "attack_level": 0,
+      "attack_level": 40,
       "attack_weight": 1,
       "is_guard": false,
       "guard_type": "",
       "importance": 0,
       "coin_effects": [
-        "使用时若自身带有{{状态2|流血|4=负面}}，则使自身的{{状态2|流血|4=负面}}强度减少2级(不会降至1级以下)"
+        "[使用时]若自身带有{{状态2|流血|4=负面}}，则使自身的{{状态2|流血|4=负面}}强度减少2级(不会降至1级以下)"
       ]
     }
   ],

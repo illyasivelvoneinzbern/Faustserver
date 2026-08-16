@@ -34,16 +34,15 @@
       "sin_type": "傲慢",
       "damage_type": "斩击",
       "base_value": 4,
-      "coin_power": 3,
-      "coin_count": 3,
+      "coin_power": 4,
+      "coin_count": 2,
       "attack_level": 46,
       "attack_weight": 1,
       "is_guard": false,
       "guard_type": "",
       "importance": 0,
       "coin_effects": [
-        "[使用时] 使自身获得2层 呼吸法",
-        "[命中时] 使自身增加3级 呼吸法 强度"
+        "[使用时]使自身获得2层呼吸法"
       ]
     },
     {
@@ -60,7 +59,7 @@
       "guard_type": "",
       "importance": 0,
       "coin_effects": [
-        "使用时使自身增加5级呼吸法强度"
+        "[使用时]使自身增加5级呼吸法强度"
       ]
     },
     {
@@ -69,16 +68,15 @@
       "sin_type": "傲慢",
       "damage_type": "斩击",
       "base_value": 4,
-      "coin_power": 3,
-      "coin_count": 2,
+      "coin_power": 12,
+      "coin_count": 1,
       "attack_level": 46,
       "attack_weight": 1,
       "is_guard": false,
       "guard_type": "",
       "importance": 0,
       "coin_effects": [
-        "[使用时] 若自身的 呼吸法 强度不低于5级，则使本技能的硬币威力+2",
-        "[命中时] 自身增加4级 呼吸法 强度并使自身获得3层 呼吸法"
+        "[使用时]若自身的呼吸法强度不低于5级，则使本技能的硬币威力+2"
       ]
     },
     {
@@ -87,16 +85,15 @@
       "sin_type": "傲慢",
       "damage_type": "斩击",
       "base_value": 6,
-      "coin_power": 3,
-      "coin_count": 2,
+      "coin_power": 7,
+      "coin_count": 1,
       "attack_level": 46,
       "attack_weight": 1,
-      "is_guard": true,
-      "guard_type": "反击",
+      "is_guard": false,
+      "guard_type": "",
       "importance": 0,
       "coin_effects": [
-        "[使用时] 若自身的 呼吸法 强度不低于6级，则使本技能的硬币威力+2",
-        "[命中时] 下回合使自身获得2层 呼吸法"
+        "[使用时]若自身的呼吸法强度不低于6级，则使本技能的硬币威力+2"
       ]
     }
   ],

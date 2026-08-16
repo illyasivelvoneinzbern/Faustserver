@@ -1,0 +1,21 @@
+{
+  "id": "gift_9001_upgraded_2",
+  "title": "地狱蝶之梦",
+  "url": "https://limbuscompany.huijiwiki.com/wiki/E.G.O饰品",
+  "categories": [
+    "E.G.O饰品"
+  ],
+  "content": "通过技能效果使已带有烧伤或特殊烧伤的敌方单位增加烧伤或施加特殊烧伤时，随机使敌方单位增加共计4级烧伤强度。\n激活暴怒完全共鸣时，战斗开始时，随机使敌方单位增加共计6级烧伤强度。",
+  "source": "tabx",
+  "_structured": true,
+  "page_type": "ego_gift",
+  "gift_name": "地狱蝶之梦",
+  "rarity": 2,
+  "cost": "198",
+  "effect_types": "烧伤",
+  "attack_type": "暴怒",
+  "location": "镜像迷宫",
+  "stage": "upgraded_2",
+  "event": "事件-红焰蛾",
+  "_schema_version": 1
+}

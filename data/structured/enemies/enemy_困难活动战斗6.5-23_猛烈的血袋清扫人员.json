@@ -38,17 +38,17 @@
       "sin_type": "色欲",
       "damage_type": "穿刺",
       "base_value": 5,
-      "coin_power": 9,
-      "coin_count": 2,
+      "coin_power": 5,
+      "coin_count": 1,
       "attack_level": 56,
       "attack_weight": 1,
       "is_guard": false,
       "guard_type": "",
       "importance": 0,
       "coin_effects": [
-        "[使用时] 使自身获得2层 充能",
-        "[命中时] 使自身获得2层 充能",
-        "[命中时] 对目标施加2层 流血"
+        "[使用时]使自身获得2层充能",
+        "硬币1：[命中时]使自身获得2层充能",
+        "[命中时]对目标施加2层{{状态2|流血|4=负面}}"
       ]
     },
     {
@@ -57,17 +57,19 @@
       "sin_type": "忧郁",
       "damage_type": "斩击",
       "base_value": 5,
-      "coin_power": 3,
-      "coin_count": 3,
+      "coin_power": 4,
+      "coin_count": 2,
       "attack_level": 56,
       "attack_weight": 1,
       "is_guard": false,
       "guard_type": "",
       "importance": 0,
       "coin_effects": [
-        "[使用时] 使自身获得5层 充能",
-        "[命中时] 使自身获得2层 充能",
-        "[命中时] 对目标施加2层 流血"
+        "[使用时]使自身获得5层充能",
+        "硬币1：[命中时]使自身获得2层充能",
+        "[命中时]对目标施加2层{{状态2|流血|4=负面}}",
+        "硬币2：[命中时]使自身获得2层充能",
+        "[命中时]对目标施加2层{{状态2|流血|4=负面}}"
       ]
     },
     {
@@ -76,7 +78,7 @@
       "sin_type": "嫉妒",
       "damage_type": "斩击",
       "base_value": 5,
-      "coin_power": 5793,
+      "coin_power": 4,
       "coin_count": 2,
       "attack_level": 59,
       "attack_weight": 1,
@@ -84,10 +86,7 @@
       "guard_type": "",
       "importance": 0,
       "coin_effects": [
-        "[使用时] 消耗自身所有 充能 层数与体力上限2×(15-消耗的 充能 层数)%的体力并使本技能的硬币威力+2",
-        "[命中时] 使目标增加6级 流血 强度",
-        "[命中时] 对目标施加2层 易损",
-        "[命中时] 吸收目标至多10级 流血 强度并使自身恢复(吸收的 流血 强度×2)%体力(本效果不会使目标的 流血 强度降至1级以下)"
+        "[使用时]消耗自身所有充能层数与体力上限2×(15-消耗的充能层数)%的体力并使本技能的硬币威力+2"
       ]
     },
     {
@@ -96,15 +95,15 @@
       "sin_type": "暴怒",
       "damage_type": "闪避",
       "base_value": 4,
-      "coin_power": 987,
+      "coin_power": 8,
       "coin_count": 1,
-      "attack_level": 0,
+      "attack_level": 55,
       "attack_weight": 1,
       "is_guard": true,
       "guard_type": "闪避",
       "importance": 0,
       "coin_effects": [
-        "使用时自身每带有3层{{状态2|流血|4=负面}}，使本技能的基础威力+1(最多+2)"
+        "[使用时]自身每带有3层{{状态2|流血|4=负面}}，使本技能的基础威力+1(最多+2)"
       ]
     }
   ],

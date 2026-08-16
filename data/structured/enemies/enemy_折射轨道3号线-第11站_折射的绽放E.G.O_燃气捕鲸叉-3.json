@@ -34,16 +34,16 @@
       "base_value": 3,
       "coin_power": 4,
       "coin_count": 2,
-      "attack_level": 0,
+      "attack_level": 46,
       "attack_weight": 1,
       "is_guard": false,
       "guard_type": "",
       "importance": 0,
       "coin_effects": [
-        "1命中时使目标增加3级流血强度",
-        "命中时对目标施加3层流血",
-        "2命中时使目标增加3级流血强度",
-        "命中时对目标施加3层流血"
+        "硬币1：[命中时]使目标增加3级流血强度",
+        "[命中时]对目标施加3层流血",
+        "硬币2：[命中时]使目标增加3级流血强度",
+        "[命中时]对目标施加3层流血"
       ]
     },
     {
@@ -54,14 +54,14 @@
       "base_value": 5,
       "coin_power": 4,
       "coin_count": 2,
-      "attack_level": 0,
+      "attack_level": 48,
       "attack_weight": 1,
       "is_guard": false,
       "guard_type": "",
       "importance": 0,
       "coin_effects": [
-        "1命中时对目标施加6层攻击等级降低",
-        "2命中时对目标施加3层流血"
+        "硬币1：[命中时]对目标施加6层攻击等级降低",
+        "硬币2：[命中时]对目标施加3层流血"
       ]
     },
     {
@@ -72,17 +72,17 @@
       "base_value": 4,
       "coin_power": 3,
       "coin_count": 3,
-      "attack_level": 0,
+      "attack_level": 43,
       "attack_weight": 1,
       "is_guard": false,
       "guard_type": "",
       "importance": 0,
       "coin_effects": [
-        "使用时对目标施加1层猎物标记",
-        "1命中时对目标施加2层伤害弱化",
-        "2命中时对目标施加3层流血",
-        "3正面命中时对目标施加1层苍白的噪音",
-        "命中时使目标增加5级流血强度"
+        "[使用时]对目标施加1层猎物标记",
+        "硬币1：[命中时]对目标施加2层伤害弱化",
+        "硬币2：[命中时]对目标施加3层流血",
+        "硬币3：[正面命中时]对目标施加1层苍白的噪音",
+        "[命中时]使目标增加5级流血强度"
       ]
     },
     {
@@ -93,17 +93,17 @@
       "base_value": 10,
       "coin_power": 5,
       "coin_count": 1,
-      "attack_level": 0,
+      "attack_level": 46,
       "attack_weight": 1,
       "is_guard": false,
       "guard_type": "",
       "importance": 0,
       "coin_effects": [
-        "使用时使自身失去5层魁魁格的自我",
-        "拼点胜利使自身获得6层防御等级提升",
-        "拼点失败使自身失去5点理智值",
-        "1命中时对目标施加2层苍白的噪音",
-        "命中时使目标陷入混乱"
+        "[使用时]使自身失去5层魁魁格的自我",
+        "[拼点胜利]使自身获得6层防御等级提升",
+        "[拼点失败]使自身失去5点理智值",
+        "硬币1：[命中时]对目标施加2层苍白的噪音",
+        "[命中时]使目标陷入混乱"
       ]
     },
     {
@@ -114,13 +114,13 @@
       "base_value": 2,
       "coin_power": 2,
       "coin_count": 2,
-      "attack_level": 0,
+      "attack_level": 41,
       "attack_weight": 1,
       "is_guard": false,
       "guard_type": "",
       "importance": 0,
       "coin_effects": [
-        "战斗开始使自身获得体力上限10%的护盾。每带有1层魁魁格的自我，使自身额外获得体力上限0.5%的护盾。"
+        "[战斗开始]使自身获得体力上限10%的护盾。每带有1层魁魁格的自我，使自身额外获得体力上限0.5%的护盾。"
       ]
     }
   ],

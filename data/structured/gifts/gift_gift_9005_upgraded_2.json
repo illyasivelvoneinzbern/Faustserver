@@ -1,0 +1,21 @@
+{
+  "id": "gift_9005_upgraded_2",
+  "title": "拟伤虫",
+  "url": "https://limbuscompany.huijiwiki.com/wiki/E.G.O饰品",
+  "categories": [
+    "E.G.O饰品"
+  ],
+  "content": "使用增加流血强度或施加特殊流血的技能或暴怒技能对敌方单位造成伤害时，使目标增加5级流血强度。",
+  "source": "tabx",
+  "_structured": true,
+  "page_type": "ego_gift",
+  "gift_name": "拟伤虫",
+  "rarity": 2,
+  "cost": "202",
+  "effect_types": "流血",
+  "attack_type": "暴怒",
+  "location": "镜像迷宫",
+  "stage": "upgraded_2",
+  "event": "事件-拟伤虫",
+  "_schema_version": 1
+}

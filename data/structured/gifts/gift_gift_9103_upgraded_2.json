@@ -1,0 +1,21 @@
+{
+  "id": "gift_9103_upgraded_2",
+  "title": "郁火",
+  "url": "https://limbuscompany.huijiwiki.com/wiki/E.G.O饰品",
+  "categories": [
+    "E.G.O饰品"
+  ],
+  "content": "通过技能效果对带有烧伤或特殊烧伤的敌方单位施加烧伤或特殊烧伤时，下回合使自身获得1层迅捷。（每个技能最多1次，每回合最多3次）\n\n若该友方单位带有迅捷，则改为获得2层迅捷与2层攻击等级提升。",
+  "source": "tabx",
+  "_structured": true,
+  "page_type": "ego_gift",
+  "gift_name": "郁火",
+  "rarity": 2,
+  "cost": "199",
+  "effect_types": "烧伤",
+  "attack_type": "暴食",
+  "location": "镜像迷宫",
+  "stage": "upgraded_2",
+  "event": "事件-黄铜公牛 - 流泪",
+  "_schema_version": 1
+}

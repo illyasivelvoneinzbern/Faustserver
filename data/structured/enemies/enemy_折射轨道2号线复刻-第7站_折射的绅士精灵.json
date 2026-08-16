@@ -38,15 +38,15 @@
       "sin_type": "暴食",
       "damage_type": "打击",
       "base_value": 10,
-      "coin_power": 854,
-      "coin_count": 2,
+      "coin_power": 6,
+      "coin_count": 1,
       "attack_level": 56,
       "attack_weight": 1,
       "is_guard": false,
       "guard_type": "",
       "importance": 0,
       "coin_effects": [
-        "[命中时] 使目标增加5级 震颤 强度并对其施加2层 震颤"
+        "硬币1：[命中时]使目标增加5级震颤强度并对其施加2层震颤"
       ]
     },
     {
@@ -55,16 +55,16 @@
       "sin_type": "傲慢",
       "damage_type": "打击",
       "base_value": 10,
-      "coin_power": 3,
-      "coin_count": 2,
+      "coin_power": 8,
+      "coin_count": 1,
       "attack_level": 56,
       "attack_weight": 1,
       "is_guard": false,
       "guard_type": "",
       "importance": 0,
       "coin_effects": [
-        "[命中时] 下回合对目标施加2层 束缚",
-        "[命中时] 使本体与使用本技能的部位恢复5%的体力"
+        "硬币1：[命中时]下回合对目标施加2层束缚",
+        "[命中时]使本体与使用本技能的部位恢复5%的体力"
       ]
     },
     {
@@ -73,17 +73,18 @@
       "sin_type": "暴食",
       "damage_type": "打击",
       "base_value": 10,
-      "coin_power": 854,
-      "coin_count": 3,
+      "coin_power": 4,
+      "coin_count": 2,
       "attack_level": 56,
       "attack_weight": 1,
       "is_guard": false,
       "guard_type": "",
       "importance": 0,
       "coin_effects": [
-        "[命中时] 使目标增加5级 震颤 强度",
-        "[命中时] 根据目标的 震颤 层数，相应使其 震颤引爆",
-        "[命中时] 消耗目标所有 震颤 层数"
+        "优先指定带有震颤的目标",
+        "硬币1：[命中时]使目标增加5级震颤强度",
+        "硬币2：[命中时]根据目标的震颤层数，相应使其震颤引爆",
+        "[命中时]消耗目标所有震颤层数"
       ]
     },
     {
@@ -92,17 +93,22 @@
       "sin_type": "色欲",
       "damage_type": "突刺",
       "base_value": 22,
-      "coin_power": 9,
-      "coin_count": 3,
+      "coin_power": 5,
+      "coin_count": 1,
       "attack_level": 56,
       "attack_weight": 1,
       "is_guard": false,
       "guard_type": "",
       "importance": 0,
       "coin_effects": [
-        "[使用时] 若目标未带有 醉意 ，则使本技能造成的伤害+200%",
-        "[命中时] 若目标的 醉意 层数不低于5层，则本硬币造成的伤害为0点 下回合使绅士精灵陷入混乱",
-        "[命中时] 消耗目标所有 醉意"
+        "优先指定带有醉意（2号线）的目标",
+        "若目标未带有醉意（2号线），则使本技能的拼点威力+8",
+        "[使用时]若目标未带有醉意（2号线），则使本技能造成的伤害+200%",
+        "[拼点失败]使本技能造成的伤害-80%，且本技能造成的伤害不会使目标陷入混乱",
+        "硬币1：不可摧毁的硬币",
+        "[命中时]若目标的醉意（2号线）层数不低于5层，则本硬币造成的伤害为0点",
+        "下回合使绅士精灵陷入混乱",
+        "[命中时]消耗目标所有醉意（2号线）"
       ]
     },
     {
@@ -111,15 +117,15 @@
       "sin_type": "常规",
       "damage_type": "守备",
       "base_value": 14,
-      "coin_power": 79,
+      "coin_power": 7,
       "coin_count": 1,
-      "attack_level": 0,
+      "attack_level": 53,
       "attack_weight": 1,
-      "is_guard": false,
-      "guard_type": "",
+      "is_guard": true,
+      "guard_type": "守备",
       "importance": 0,
       "coin_effects": [
-        "使用时下回合对自身施加3层束缚"
+        "[使用时]下回合对自身施加3层束缚"
       ]
     },
     {
@@ -128,20 +134,20 @@
       "sin_type": "暴怒",
       "damage_type": "打击",
       "base_value": 17,
-      "coin_power": 987,
-      "coin_count": 3,
+      "coin_power": 5,
+      "coin_count": 1,
       "attack_level": 56,
       "attack_weight": 1,
       "is_guard": false,
       "guard_type": "",
       "importance": 0,
       "coin_effects": [
-        "战斗开始下回合召唤折射的精灵酒",
-        "拼点失败折射的精灵酒会以体力上限50%的体力被召唤",
-        "拼点失败使本技能造成的伤害-80%，且本技能造成的伤害不会使目标陷入混乱",
-        "1不可摧毁的硬币",
-        "未摧毁 - 命中时使目标增加5级震颤强度",
-        "未摧毁 - 命中时使目标震颤引爆"
+        "[战斗开始]下回合召唤折射的精灵酒",
+        "[拼点失败]折射的精灵酒会以体力上限50%的体力被召唤",
+        "[拼点失败]使本技能造成的伤害-80%，且本技能造成的伤害不会使目标陷入混乱",
+        "硬币1：不可摧毁的硬币",
+        "[未摧毁 - 命中时]使目标增加5级震颤强度",
+        "[未摧毁 - 命中时]使目标震颤引爆"
       ]
     }
   ],

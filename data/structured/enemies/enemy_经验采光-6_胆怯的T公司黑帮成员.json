@@ -32,46 +32,27 @@
       "skill_name": "别停下来！",
       "icon_id": "9011501",
       "sin_type": "傲慢",
-      "damage_type": "",
+      "damage_type": "打击",
       "base_value": 4,
-      "coin_power": 3,
-      "coin_count": 2,
+      "coin_power": 6,
+      "coin_count": 1,
       "attack_level": 45,
       "attack_weight": 1,
       "is_guard": false,
       "guard_type": "",
       "importance": 0,
       "coin_effects": [
-        "[使用时] 若目标带有 麻痹 ，则使本技能硬币威力+1",
-        "[命中时] 使目标增加2级 震颤 强度并施加4层 震颤"
+        "[使用时]若目标带有麻痹，则使本技能硬币威力+1",
+        "硬币1：[命中时]使目标增加2级震颤强度并施加4层震颤"
       ]
     },
     {
       "skill_name": "昏过去吧！",
       "icon_id": "9011502",
       "sin_type": "傲慢",
-      "damage_type": "",
+      "damage_type": "打击",
       "base_value": 4,
       "coin_power": 3,
-      "coin_count": 3,
-      "attack_level": 45,
-      "attack_weight": 1,
-      "is_guard": false,
-      "guard_type": "",
-      "importance": 0,
-      "coin_effects": [
-        "[使用时] 若目标带有 震颤 ，则使本技能硬币威力+1",
-        "[命中时] 使目标增加2级 震颤 强度并施加3层 震颤",
-        "[命中时] 下回合对目标施加2层 麻痹"
-      ]
-    },
-    {
-      "skill_name": "头晕目眩",
-      "icon_id": "9011503",
-      "sin_type": "怠惰",
-      "damage_type": "",
-      "base_value": 3,
-      "coin_power": 9703,
       "coin_count": 2,
       "attack_level": 45,
       "attack_weight": 1,
@@ -79,21 +60,41 @@
       "guard_type": "",
       "importance": 0,
       "coin_effects": [
-        "[命中时] 使目标 震颤引爆 若 震颤引爆 使目标陷入混乱，重复使用本硬币"
+        "[使用时]若目标带有震颤，则使本技能硬币威力+1",
+        "硬币1：[命中时]使目标增加2级震颤强度并施加3层震颤",
+        "硬币2：[命中时]下回合对目标施加2层麻痹"
+      ]
+    },
+    {
+      "skill_name": "头晕目眩",
+      "icon_id": "9011503",
+      "sin_type": "怠惰",
+      "damage_type": "打击",
+      "base_value": 3,
+      "coin_power": 6,
+      "coin_count": 1,
+      "attack_level": 45,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "硬币1：[命中时]使目标震颤引爆",
+        "若震颤引爆使目标陷入混乱，重复使用本硬币"
       ]
     },
     {
       "skill_name": "防御",
       "icon_id": "9011404",
       "sin_type": "常规",
-      "damage_type": "",
+      "damage_type": "防御",
       "base_value": 5,
-      "coin_power": 79,
+      "coin_power": 5,
       "coin_count": 1,
-      "attack_level": 0,
+      "attack_level": 45,
       "attack_weight": 1,
-      "is_guard": true,
-      "guard_type": "防御",
+      "is_guard": false,
+      "guard_type": "",
       "importance": 0,
       "coin_effects": []
     }

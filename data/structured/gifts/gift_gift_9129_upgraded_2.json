@@ -1,0 +1,21 @@
+{
+  "id": "gift_9129_upgraded_2",
+  "title": "陈旧的木雕人偶",
+  "url": "https://limbuscompany.huijiwiki.com/wiki/E.G.O饰品",
+  "categories": [
+    "E.G.O饰品"
+  ],
+  "content": "[第1、第2、第3顺位友方单位专属]\n暴击时，下回合对目标施加1层防御等级降低(每回合每名友方单位最多4次）\n[不可重复触发] 朱符 堂吉诃德 E.G.O被动触发时，该效果不会触发",
+  "source": "tabx",
+  "_structured": true,
+  "page_type": "ego_gift",
+  "gift_name": "陈旧的木雕人偶",
+  "rarity": 2,
+  "cost": "214",
+  "effect_types": "呼吸法",
+  "attack_type": "暴怒",
+  "location": "镜像迷宫",
+  "stage": "upgraded_2",
+  "event": "事件-因而无人哭泣",
+  "_schema_version": 1
+}

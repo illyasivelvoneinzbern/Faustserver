@@ -32,9 +32,26 @@
       "skill_name": "伤...伤害",
       "icon_id": "9011601",
       "sin_type": "暴怒",
-      "damage_type": "",
+      "damage_type": "打击",
       "base_value": 4,
-      "coin_power": 987,
+      "coin_power": 6,
+      "coin_count": 1,
+      "attack_level": 47,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "硬币1：[命中时]使目标增加3级破裂强度"
+      ]
+    },
+    {
+      "skill_name": "...呼...",
+      "icon_id": "9011602",
+      "sin_type": "暴怒",
+      "damage_type": "斩击",
+      "base_value": 3,
+      "coin_power": 4,
       "coin_count": 2,
       "attack_level": 47,
       "attack_weight": 1,
@@ -42,64 +59,50 @@
       "guard_type": "",
       "importance": 0,
       "coin_effects": [
-        "[命中时] 使目标增加3级 破裂 强度"
-      ]
-    },
-    {
-      "skill_name": "...呼...",
-      "icon_id": "9011602",
-      "sin_type": "暴怒",
-      "damage_type": "",
-      "base_value": 3,
-      "coin_power": 987,
-      "coin_count": 3,
-      "attack_level": 47,
-      "attack_weight": 1,
-      "is_guard": true,
-      "guard_type": "防御",
-      "importance": 0,
-      "coin_effects": [
-        "[使用时] 若目标的 破裂 强度不低于3级，则使本技能基础威力+1",
-        "[命中时] 对目标施加1层 防御等级降低",
-        "[命中时] 对目标施加2层 破裂",
-        "[命中时] 使目标增加3级 破裂 强度"
+        "[使用时]若目标的破裂强度不低于3级，则使本技能基础威力+1",
+        "硬币1：[命中时]对目标施加1层防御等级降低",
+        "[命中时]对目标施加2层破裂",
+        "硬币2：[命中时]对目标施加1层防御等级降低",
+        "[命中时]使目标增加3级破裂强度"
       ]
     },
     {
       "skill_name": "弱点...",
       "icon_id": "9011603",
       "sin_type": "暴食",
-      "damage_type": "",
+      "damage_type": "打击",
       "base_value": 3,
-      "coin_power": 854,
-      "coin_count": 3,
+      "coin_power": 5,
+      "coin_count": 2,
       "attack_level": 47,
       "attack_weight": 1,
-      "is_guard": true,
-      "guard_type": "防御",
+      "is_guard": false,
+      "guard_type": "",
       "importance": 0,
       "coin_effects": [
-        "[使用时] 若目标带有 破裂 ，则目标每带有3级 破裂 强度使本技能基础威力+1（至多3次）",
-        "[命中时] 使目标增加6级 破裂 强度",
-        "[命中时] 使目标增加4级 流血 强度",
-        "[命中时] 对目标施加4层 防御等级降低",
-        "[正面命中时] 下回合对目标施加2层 麻痹"
+        "[使用时]若目标带有破裂，则目标每带有3级破裂强度使本技能基础威力+1（至多3次）",
+        "硬币1：[命中时]使目标增加6级破裂强度",
+        "[命中时]使目标增加4级流血强度",
+        "硬币2：[命中时]对目标施加4层防御等级降低",
+        "[正面命中时]下回合对目标施加2层麻痹"
       ]
     },
     {
       "skill_name": "防...",
       "icon_id": "9011604",
       "sin_type": "常规",
-      "damage_type": "",
+      "damage_type": "防御",
       "base_value": 4,
-      "coin_power": 79,
+      "coin_power": 7,
       "coin_count": 1,
-      "attack_level": 0,
+      "attack_level": 47,
       "attack_weight": 1,
       "is_guard": false,
       "guard_type": "",
       "importance": 0,
-      "coin_effects": []
+      "coin_effects": [
+        "回合结束时若自身的护盾值未耗尽，则下回合自身获得1层攻击等级提升"
+      ]
     }
   ],
   "is_ally": false,

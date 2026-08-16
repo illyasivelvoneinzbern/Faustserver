@@ -32,15 +32,15 @@
       "sin_type": "色欲",
       "damage_type": "穿刺",
       "base_value": 3,
-      "coin_power": 9,
-      "coin_count": 4,
+      "coin_power": 2,
+      "coin_count": 3,
       "attack_level": 48,
       "attack_weight": 1,
       "is_guard": false,
       "guard_type": "",
       "importance": 0,
       "coin_effects": [
-        "[命中时] 对目标施加2层 破裂"
+        "硬币1：[命中时]对目标施加2层破裂"
       ]
     },
     {
@@ -49,15 +49,15 @@
       "sin_type": "色欲",
       "damage_type": "穿刺",
       "base_value": 5,
-      "coin_power": 9,
-      "coin_count": 2,
+      "coin_power": 7,
+      "coin_count": 1,
       "attack_level": 49,
-      "attack_weight": 1,
+      "attack_weight": 3,
       "is_guard": false,
       "guard_type": "",
       "importance": 0,
       "coin_effects": [
-        "[命中时] 对目标施加4层 破裂"
+        "硬币1：[命中时]对目标施加4层破裂"
       ]
     },
     {
@@ -66,15 +66,15 @@
       "sin_type": "暴食",
       "damage_type": "打击",
       "base_value": 3,
-      "coin_power": 854,
-      "coin_count": 3,
+      "coin_power": 4,
+      "coin_count": 2,
       "attack_level": 49,
-      "attack_weight": 1,
+      "attack_weight": 5,
       "is_guard": false,
       "guard_type": "",
       "importance": 0,
       "coin_effects": [
-        "[命中时] 对目标施加5层 破裂"
+        "[无差别攻击]"
       ]
     },
     {
@@ -83,16 +83,15 @@
       "sin_type": "暴食",
       "damage_type": "打击",
       "base_value": 5,
-      "coin_power": 854,
-      "coin_count": 2,
+      "coin_power": 11,
+      "coin_count": 1,
       "attack_level": 52,
-      "attack_weight": 1,
+      "attack_weight": 5,
       "is_guard": false,
       "guard_type": "",
       "importance": 0,
       "coin_effects": [
-        "[攻击后] 回合结束时，若自身外的螃蟹少于5只，则额外召唤3只螃蟹（最多5只）",
-        "[命中时] 使目标增加5级 破裂 强度"
+        "[无差别攻击]"
       ]
     },
     {
@@ -101,16 +100,16 @@
       "sin_type": "暴食",
       "damage_type": "穿刺",
       "base_value": 5,
-      "coin_power": 854,
-      "coin_count": 2,
+      "coin_power": 10,
+      "coin_count": 1,
       "attack_level": 51,
-      "attack_weight": 1,
+      "attack_weight": 5,
       "is_guard": false,
       "guard_type": "",
       "importance": 0,
       "coin_effects": [
-        "[命中时] 使目标增加5级 破裂 强度",
-        "[命中时] 对目标施加5层 破裂"
+        "[无差别攻击]",
+        "目标每带有5层破裂，则使本技能造成的伤害+20%"
       ]
     },
     {
@@ -119,14 +118,15 @@
       "sin_type": "常规",
       "damage_type": "防御",
       "base_value": 5,
-      "coin_power": 79,
+      "coin_power": 10,
       "coin_count": 1,
-      "attack_level": 0,
+      "attack_level": 52,
       "attack_weight": 1,
       "is_guard": false,
       "guard_type": "",
       "importance": 0,
       "coin_effects": [
+        "[战斗开始]若在带有护盾时受到伤害，则反弹7点伤害",
         "使目标增加1级破裂强度"
       ]
     }

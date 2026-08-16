@@ -41,16 +41,16 @@
       "sin_type": "色欲",
       "damage_type": "打击",
       "base_value": 5,
-      "coin_power": 9,
-      "coin_count": 2,
+      "coin_power": 4,
+      "coin_count": 1,
       "attack_level": 10,
       "attack_weight": 1,
       "is_guard": false,
       "guard_type": "",
       "importance": 0,
       "coin_effects": [
-        "[使用时] 使目标恢复5点理智值",
-        "[命中时] 使目标恢复5点理智值"
+        "[使用时]使目标恢复5点理智值",
+        "硬币1：[命中时]使目标恢复5点理智值"
       ]
     },
     {
@@ -59,15 +59,17 @@
       "sin_type": "色欲",
       "damage_type": "打击",
       "base_value": 3,
-      "coin_power": 9,
-      "coin_count": 4,
+      "coin_power": 2,
+      "coin_count": 1,
       "attack_level": 10,
-      "attack_weight": 1,
+      "attack_weight": 3,
       "is_guard": false,
       "guard_type": "",
       "importance": 0,
       "coin_effects": [
-        "[命中时] 使目标增加2级 震颤 强度"
+        "硬币1：[命中时]使目标增加2级震颤强度",
+        "硬币2：[命中时]使目标增加2级震颤强度",
+        "硬币3：[命中时]使目标增加2级震颤强度"
       ]
     },
     {
@@ -76,15 +78,16 @@
       "sin_type": "色欲",
       "damage_type": "打击",
       "base_value": 3,
-      "coin_power": 9,
-      "coin_count": 3,
+      "coin_power": 3,
+      "coin_count": 2,
       "attack_level": 10,
       "attack_weight": 1,
       "is_guard": false,
       "guard_type": "",
       "importance": 0,
       "coin_effects": [
-        "[命中时] 对目标施加1层 震颤"
+        "硬币1：[命中时]对目标施加1层震颤",
+        "硬币2：[命中时]对目标施加1层震颤"
       ]
     },
     {
@@ -93,15 +96,15 @@
       "sin_type": "暴怒",
       "damage_type": "打击",
       "base_value": 6,
-      "coin_power": 987,
-      "coin_count": 2,
+      "coin_power": 7,
+      "coin_count": 1,
       "attack_level": 10,
-      "attack_weight": 1,
+      "attack_weight": 7,
       "is_guard": false,
       "guard_type": "",
       "importance": 0,
       "coin_effects": [
-        "[命中时] 使目标 震颤引爆"
+        "硬币1：[命中时]使目标震颤引爆"
       ]
     },
     {
@@ -110,15 +113,18 @@
       "sin_type": "色欲",
       "damage_type": "打击",
       "base_value": 8,
-      "coin_power": 9,
-      "coin_count": 4,
+      "coin_power": 2,
+      "coin_count": 3,
       "attack_level": 10,
-      "attack_weight": 1,
+      "attack_weight": 7,
       "is_guard": false,
       "guard_type": "",
       "importance": 0,
       "coin_effects": [
-        "[命中时] 使目标 震颤引爆"
+        "[无法拼点]",
+        "硬币1：[命中时]使目标震颤引爆",
+        "硬币2：[命中时]使目标震颤引爆",
+        "硬币3：[命中时]使目标震颤引爆"
       ]
     },
     {
@@ -127,17 +133,17 @@
       "sin_type": "色欲",
       "damage_type": "守备",
       "base_value": 5,
-      "coin_power": 9,
-      "coin_count": 3,
-      "attack_level": 0,
+      "coin_power": 1,
+      "coin_count": 1,
+      "attack_level": 10,
       "attack_weight": 1,
       "is_guard": true,
-      "guard_type": "防御",
+      "guard_type": "守备",
       "importance": 0,
       "coin_effects": [
         "可拼点防御",
-        "拼点胜利使目标恢复5点理智值",
-        "1不可摧毁的硬币"
+        "[拼点胜利]使目标恢复5点理智值",
+        "硬币1：不可摧毁的硬币"
       ]
     }
   ],

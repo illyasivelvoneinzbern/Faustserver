@@ -34,13 +34,13 @@
       "base_value": 2,
       "coin_power": 4,
       "coin_count": 2,
-      "attack_level": 0,
+      "attack_level": 49,
       "attack_weight": 1,
       "is_guard": false,
       "guard_type": "",
       "importance": 0,
       "coin_effects": [
-        "1命中时使目标增加4级{{状态2|沉沦|4=负面}}强度"
+        "硬币1：[命中时]使目标增加4级{{状态2|沉沦|4=负面}}强度"
       ]
     },
     {
@@ -51,14 +51,14 @@
       "base_value": 2,
       "coin_power": 5,
       "coin_count": 2,
-      "attack_level": 0,
+      "attack_level": 49,
       "attack_weight": 1,
       "is_guard": false,
       "guard_type": "",
       "importance": 0,
       "coin_effects": [
-        "拼点胜利使自身获得1层加算硬币强化",
-        "拼点失败使自身增加3级{{状态2|沉沦|4=负面}}强度"
+        "[拼点胜利]使自身获得1层加算硬币强化",
+        "[拼点失败]使自身增加3级{{状态2|沉沦|4=负面}}强度"
       ]
     },
     {
@@ -69,7 +69,7 @@
       "base_value": 5,
       "coin_power": 3,
       "coin_count": 3,
-      "attack_level": 0,
+      "attack_level": 49,
       "attack_weight": 1,
       "is_guard": false,
       "guard_type": "",
@@ -86,7 +86,7 @@
       "base_value": 5,
       "coin_power": 5,
       "coin_count": 1,
-      "attack_level": 0,
+      "attack_level": 47,
       "attack_weight": 1,
       "is_guard": false,
       "guard_type": "",

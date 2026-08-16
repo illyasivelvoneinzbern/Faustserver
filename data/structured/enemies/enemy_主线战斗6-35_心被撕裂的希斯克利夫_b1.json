@@ -34,13 +34,13 @@
       "base_value": 2,
       "coin_power": 3,
       "coin_count": 2,
-      "attack_level": 1,
+      "attack_level": 45,
       "attack_weight": 1,
       "is_guard": false,
       "guard_type": "",
       "importance": 0,
       "coin_effects": [
-        "1命中时使目标增加4级流血强度"
+        "硬币1：[命中时]使目标增加4级流血强度"
       ]
     },
     {
@@ -51,13 +51,13 @@
       "base_value": 2,
       "coin_power": 4,
       "coin_count": 2,
-      "attack_level": 1,
+      "attack_level": 45,
       "attack_weight": 1,
       "is_guard": false,
       "guard_type": "",
       "importance": 0,
       "coin_effects": [
-        "拼点胜利下回合使自身获得3层防御等级提升"
+        "[拼点胜利]下回合使自身获得3层防御等级提升"
       ]
     },
     {
@@ -68,13 +68,13 @@
       "base_value": 1,
       "coin_power": 1,
       "coin_count": 2,
-      "attack_level": 1,
+      "attack_level": 48,
       "attack_weight": 1,
       "is_guard": false,
       "guard_type": "",
       "importance": 0,
       "coin_effects": [
-        "无法拼点"
+        "[无法拼点]"
       ]
     },
     {
@@ -85,13 +85,13 @@
       "base_value": 3,
       "coin_power": 4,
       "coin_count": 2,
-      "attack_level": 1,
+      "attack_level": 48,
       "attack_weight": 1,
       "is_guard": false,
       "guard_type": "",
       "importance": 0,
       "coin_effects": [
-        "使用时若目标的流血强度不低于8级，则使本技能的拼点威力+1"
+        "[使用时]若目标的流血强度不低于8级，则使本技能的拼点威力+1"
       ]
     },
     {
@@ -102,13 +102,13 @@
       "base_value": 2,
       "coin_power": 3,
       "coin_count": 4,
-      "attack_level": 1,
+      "attack_level": 47,
       "attack_weight": 1,
       "is_guard": false,
       "guard_type": "",
       "importance": 0,
       "coin_effects": [
-        "使用时目标每带有5级流血强度，使本技能的基础威力+1（最多+3）"
+        "[使用时]目标每带有5级流血强度，使本技能的基础威力+1（最多+3）"
       ]
     },
     {
@@ -119,13 +119,13 @@
       "base_value": 2,
       "coin_power": 4,
       "coin_count": 4,
-      "attack_level": 1,
+      "attack_level": 48,
       "attack_weight": 1,
       "is_guard": false,
       "guard_type": "",
       "importance": 0,
       "coin_effects": [
-        "使用时目标每带有5级流血强度，使本技能的基础威力+1（最多+4）"
+        "[使用时]目标每带有5级流血强度，使本技能的基础威力+1（最多+4）"
       ]
     },
     {
@@ -136,13 +136,13 @@
       "base_value": 1,
       "coin_power": 1,
       "coin_count": 1,
-      "attack_level": 1,
+      "attack_level": 45,
       "attack_weight": 1,
       "is_guard": false,
       "guard_type": "",
       "importance": 0,
       "coin_effects": [
-        "1命中时使目标增加2级流血强度"
+        "硬币1：[命中时]使目标增加2级流血强度"
       ]
     }
   ],

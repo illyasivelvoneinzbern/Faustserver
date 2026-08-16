@@ -36,14 +36,14 @@
       "base_value": 2,
       "coin_power": 9,
       "coin_count": 1,
-      "attack_level": 2,
+      "attack_level": 56,
       "attack_weight": 1,
       "is_guard": false,
       "guard_type": "",
       "importance": 0,
       "coin_effects": [
-        "使用时若目标带有破裂，则使本技能的硬币威力+1",
-        "1命中时使目标增加6级破裂强度"
+        "[使用时]若目标带有破裂，则使本技能的硬币威力+1",
+        "硬币1：[命中时]使目标增加6级破裂强度"
       ]
     },
     {
@@ -54,16 +54,16 @@
       "base_value": 2,
       "coin_power": 2,
       "coin_count": 4,
-      "attack_level": 2,
+      "attack_level": 56,
       "attack_weight": 1,
       "is_guard": false,
       "guard_type": "",
       "importance": 0,
       "coin_effects": [
-        "1命中时对目标施加1层流血",
-        "2命中时对目标施加1层流血",
-        "3命中时对目标施加1层流血",
-        "4命中时使目标增加4级流血强度"
+        "硬币1：[命中时]对目标施加1层流血",
+        "硬币2：[命中时]对目标施加1层流血",
+        "硬币3：[命中时]对目标施加1层流血",
+        "硬币4：[命中时]使目标增加4级流血强度"
       ]
     }
   ],

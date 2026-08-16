@@ -20,6 +20,7 @@ from adapter.router import MessageRouter
 from adapter.types import QQMessage
 from agent.session import SessionManager
 from agent.memory import create_memory, get_chat_history_text
+from agent.forward import AgentReply, split_forward_sections
 from agent.tools import (
     create_persona_switch_tool,
     needs_persona_switch_llm,
@@ -104,6 +105,17 @@ class LimbusAgent:
             max_size=200,
         ) if token_cfg.get("enable_cache") else None
 
+        # ── 直答打包转发（Forward Reply，P40）──
+        # 人格/饰品/事件/敌方/比较直答命中（跳过 RAG）时，把规范文本按节拆分为
+        # 多条转发 node，通过 NapCatQQ 合并转发（send_*_forward_msg）打包发送，
+        # 避免单条超长文本被 QQ 静默拒收（见 _SEND_CHUNK_MAX 症状2诊断）。
+        fr_cfg = self.config.get("agent", {}).get("forward_reply", {}) or {}
+        self._forward_enabled = bool(fr_cfg.get("enabled", True))
+        self._forward_sender_name = str(fr_cfg.get("sender_name", "") or "").strip()
+        self._forward_sender_uin = str(fr_cfg.get("sender_uin", "") or "").strip()
+        self._forward_max_chars = int(fr_cfg.get("max_chars_per_node", 1500))
+        self._forward_min_nodes = max(1, int(fr_cfg.get("min_nodes", 2)))
+
         # ── 置信度 / 自我反思（默认关闭，initialize_rag 中按配置覆盖）──
         self._confidence_enabled = False
         self._confidence_low_threshold = 0.3
@@ -116,6 +128,11 @@ class LimbusAgent:
         self._x_pushed_ids: set[str] = set()          # 已推送 tweet_id（幂等）
         self._push_group_ids: set[str] = set()        # 记忆到的群号（兜底）
         self._init_x_push()
+
+        # ── Steam 社区 RSS 新公告轮询推送（P37）──
+        self._steam_poll_task: Optional[asyncio.Task] = None
+        self._steam_pushed_ids: set[str] = set()      # 已推送 announcement_id（幂等）
+        self._init_steam_push()
 
     def _init_llm(self):
         """初始化 LLM"""
@@ -174,6 +191,7 @@ class LimbusAgent:
             bot_qq=napcat_cfg.get("bot_qq", ""),
             trigger_keywords=napcat_cfg.get("trigger_keywords", []),
             command_prefix=napcat_cfg.get("command_prefix", "/"),
+            require_at_in_group=napcat_cfg.get("require_at_in_group", True),
         )
 
     def _init_session(self):
@@ -465,6 +483,177 @@ class LimbusAgent:
             self.log.warning(f"媒体清理异常（忽略）: {e}")
             return 0
 
+    # ── Steam 社区 RSS 新公告轮询推送（P37）──
+
+    def _init_steam_push(self):
+        """初始化 Steam 推送：加载已推公告 id，解析配置。"""
+        steam_cfg = self.config.get("steam_fetcher", {})
+        self._steam_pushed_path = Path(
+            steam_cfg.get("pushed_ids_path", "data/steam_pushed_ids.json")
+        ).resolve()
+        self._steam_appid = str(steam_cfg.get("appid", 1973530))
+        self._steam_rss_url = steam_cfg.get("rss_url") or None
+
+        try:
+            if self._steam_pushed_path.exists():
+                data = json.loads(self._steam_pushed_path.read_text(encoding="utf-8"))
+                if isinstance(data, list):
+                    self._steam_pushed_ids = set(str(x) for x in data)
+                elif isinstance(data, dict):
+                    self._steam_pushed_ids = set(str(x) for x in data.get("pushed_ids", []))
+                self.log.info(f"已加载 {len(self._steam_pushed_ids)} 个已推送 Steam 公告 id")
+        except Exception as e:
+            self.log.warning(f"加载 Steam 已推 id 失败: {e}")
+
+    def _save_steam_pushed(self):
+        """持久化已推公告 id 列表。"""
+        try:
+            self._steam_pushed_path.parent.mkdir(parents=True, exist_ok=True)
+            self._steam_pushed_path.write_text(
+                json.dumps(
+                    {"pushed_ids": sorted(self._steam_pushed_ids)},
+                    ensure_ascii=False,
+                    indent=2,
+                ),
+                encoding="utf-8",
+            )
+        except Exception as e:
+            self.log.warning(f"保存 Steam 已推 id 失败: {e}")
+
+    def _resolve_steam_push_groups(self) -> list[str]:
+        """解析 Steam 推送目标群号（优先级：steam.push_group_id → x.push_group_id → 记忆群）。"""
+        steam_cfg = self.config.get("steam_fetcher", {})
+        group = steam_cfg.get("push_group_id", 0) or 0
+        if not group:
+            group = self.config.get("x_fetcher", {}).get("push_group_id", 0) or 0
+        groups: list[str] = []
+        if group:
+            groups.append(str(group))
+        else:
+            groups.extend(sorted(self._push_group_ids))
+        return groups
+
+    def _format_steam_item_text(self, item: dict) -> str:
+        """把 Steam 公告组装成可读文本（标题 + 正文 + 公告页链接）。"""
+        title = (item.get("title") or "").strip()
+        text = (item.get("text") or "").strip()
+        permalink = (item.get("permalink") or "").strip()
+        header = f"【Steam公告】{title or '(无标题)'}"
+        body = text if text and text != title else "(公告内容见图片)"
+        if permalink:
+            body = f"{body}\n{permalink}"
+        return f"{header}\n{body}"
+
+    async def _push_steam_item_to_groups(self, item: dict) -> bool:
+        """把单条 Steam 公告推送到所有目标群（文本 + 配图）。"""
+        groups = self._resolve_steam_push_groups()
+        if not groups:
+            self.log.warning(f"无目标群可推送（announcement_id={item.get('announcement_id')}），跳过")
+            return False
+
+        text = self._format_steam_item_text(item)
+        images = list(item.get("image_urls") or [])
+        max_images = max(
+            0, int(self.config.get("steam_fetcher", {}).get("max_images_per_item", 5))
+        )
+        if max_images:
+            images = images[:max_images]
+
+        ok = True
+        for gid in groups:
+            try:
+                if images:
+                    sent = await self.adapter.send_group_msg_media(
+                        group_id=int(gid),
+                        text=text,
+                        images=images,
+                        media_dir=self._media_dir,
+                        prefer_local_images=bool(
+                            self.config.get("x_fetcher", {}).get("prefer_local_images", True)
+                        ),
+                    )
+                else:
+                    sent = await self.adapter.send_group_msg(int(gid), text)
+                if not sent:
+                    self.log.warning(
+                        f"Steam 公告推送失败 group={gid} id={item.get('announcement_id')}"
+                    )
+                    ok = False
+            except Exception as e:
+                self.log.error(
+                    f"Steam 公告推送异常 group={gid} id={item.get('announcement_id')}: {e}"
+                )
+                ok = False
+        return ok
+
+    async def _steam_poll_loop(self, max_rounds: Optional[int] = None):
+        """后台轮询：拉取 Steam 新公告 → 推送 → 记录已推 id（幂等防重推）。
+
+        单轮异常不中断循环（try/except + 继续下一轮）。
+        max_rounds：可选的最大轮数；为 None 时无限循环（生产场景），
+        测试可传 1 只跑单轮以验证逻辑。
+        """
+        steam_cfg = self.config.get("steam_fetcher", {})
+        interval = float(steam_cfg.get("fetch_interval_minutes", 30)) * 60
+        max_new = int(steam_cfg.get("max_new_per_cycle", 3))
+        appid = int(self._steam_appid)
+
+        # 首启水位线：pushed_ids 为空（首次运行/状态丢失）时只推送最近 72h 内公告，
+        # 避免历史公告刷屏。
+        min_published_at: Optional[str] = None
+        if not self._steam_pushed_ids:
+            from datetime import datetime, timedelta, timezone
+            min_published_at = (
+                datetime.now(timezone.utc) - timedelta(hours=72)
+            ).isoformat()
+            self.log.info("Steam 首启水位线生效：仅推送最近 72h 内公告")
+
+        self.log.info(
+            f"Steam 新公告轮询启动: interval={interval:.0f}s max_new={max_new} "
+            f"appid={appid} groups={self._resolve_steam_push_groups()}"
+        )
+
+        rounds = 0
+        while True:
+            rounds += 1
+            try:
+                from crawler.steam_fetcher import fetch_new_steam_news as _fetch
+
+                new_items = await _fetch(
+                    appid=appid,
+                    rss_url=self._steam_rss_url,
+                    state_path=str(
+                        self.config.get("steam_fetcher", {})
+                        .get("feed_state_path", "data/steam_feed_state.json")
+                    ),
+                    pushed_ids=self._steam_pushed_ids,
+                    min_published_at=min_published_at,
+                    limit=max_new * 3,
+                )
+                # 按时间正序，最多取 N 条（防刷屏）
+                to_push = new_items[:max_new]
+                for item in to_push:
+                    aid = item.get("announcement_id", "")
+                    if not aid or aid in self._steam_pushed_ids:
+                        continue
+                    sent = await self._push_steam_item_to_groups(item)
+                    if sent:
+                        self._steam_pushed_ids.add(aid)
+                        self._save_steam_pushed()
+                        self.log.info(f"已推送并记录 Steam 公告 id={aid}")
+                    else:
+                        self.log.warning(f"Steam 公告推送失败，暂不记录已推 id（下轮重试）: {aid}")
+                if not to_push:
+                    self.log.debug("Steam 轮询: 无新公告")
+            except asyncio.CancelledError:
+                raise
+            except Exception as e:
+                self.log.error(f"Steam 轮询异常（下轮继续）: {e}")
+
+            if max_rounds is not None and rounds >= max_rounds:
+                break
+            await asyncio.sleep(interval)
+
     def _get_memory(self, session_id: str) -> Any:
         """获取或创建会话的对话记忆"""
         if session_id not in self._memory_store:
@@ -565,6 +754,32 @@ class LimbusAgent:
         self._reflect_enabled = confidence_cfg.get("reflect_enabled", False)
         self._reflect_max_attempts = confidence_cfg.get("reflect_max_attempts", 1)
 
+        # ── 拟真人格引擎（P38，见 plans/persona_realism_training.md）──
+        # 数据底座：剧情/语音真实台词库；生成引擎：台词样本注入 + 内心反应 + 自检。
+        # 默认关闭（persona_training.enabled=false），开启后行为与现有链路完全兼容。
+        self.persona_engine = None
+        try:
+            pt_cfg = self.config.get("persona_training", {}) or {}
+            if pt_cfg.get("enabled", False):
+                from rag.persona_corpus import PersonaCorpus
+                from rag.persona_engine import PersonaEngine
+                self.persona_engine = PersonaEngine(
+                    corpus=PersonaCorpus,
+                    persona_manager=self.persona_manager,
+                    llm=self.llm,
+                    mode=pt_cfg.get("mode", "thinking"),
+                    max_samples=pt_cfg.get("max_samples", 3),
+                    consistency=pt_cfg.get("consistency", "rules"),
+                )
+                self.log.info(
+                    f"拟真人格引擎已启用: mode={self.persona_engine.mode} "
+                    f"samples={self.persona_engine.max_samples} "
+                    f"consistency={self.persona_engine.consistency}"
+                )
+        except Exception as e:
+            self.persona_engine = None
+            self.log.warning(f"拟真人格引擎初始化失败，保持原链路: {e}")
+
         # 构建 RAG Chain（默认人格作为 fallback，运行时动态注入 persona_id）
         default_pid = self.config["agent"].get("default_persona", "")
         self.rag_chain = build_rag_chain(
@@ -572,6 +787,7 @@ class LimbusAgent:
             retriever=self.retriever,
             persona_manager=self.persona_manager,
             default_persona_id=default_pid,
+            persona_engine=self.persona_engine,
         )
         self._current_persona_id = default_pid
 
@@ -636,6 +852,33 @@ class LimbusAgent:
             self.enemy_direct = None
             self.log.warning(f"敌方单位结构化直答初始化失败，回落 RAG: {e}")
 
+        # ── 模糊搜索消歧（P39，rag/entity_disambiguation.py）──
+        # 数据类查询在四类直答全部未命中时，用 rapidfuzz 从结构化库模糊检索
+        # top-N 候选列给用户，回复数字即确定性作答（绕过 LLM，无幻觉）。
+        self.disambig = None
+        try:
+            da_cfg = self.config["agent"].get("disambiguation", {}) or {}
+            if da_cfg.get("enabled", True):
+                from rag.entity_disambiguation import DisambiguationEngine
+                self.disambig = DisambiguationEngine(
+                    persona_store=self.persona_direct,
+                    enemy_store=self.enemy_direct,
+                    gift_store=self.gift_direct,
+                    event_store=self.event_direct,
+                    top_k=da_cfg.get("top_k", 5),
+                    ask_threshold=da_cfg.get("ask_threshold", 55),
+                    direct_threshold=da_cfg.get("direct_threshold", 85),
+                    direct_gap=da_cfg.get("direct_gap", 10),
+                )
+                self.log.info(
+                    f"模糊搜索消歧已启用: top_k={self.disambig.top_k} "
+                    f"ask={self.disambig.ask_threshold} "
+                    f"direct={self.disambig.direct_threshold} gap={self.disambig.direct_gap}"
+                )
+        except Exception as e:
+            self.disambig = None
+            self.log.warning(f"模糊搜索消歧初始化失败，跳过: {e}")
+
         self.log.info("RAG 组件初始化完成")
 
     # ── 消息处理主流程 ──
@@ -681,23 +924,53 @@ class LimbusAgent:
         # ── Agent 推理 ──
         reply = await self._generate_reply(msg, session_id)
 
-        if not reply:
+        # 直答命中返回 AgentReply（可能带打包转发分节）；普通链路返回纯文本
+        if isinstance(reply, AgentReply):
+            reply_text = reply.text
+            forward_sections = reply.forward_sections
+        else:
+            reply_text = reply
+            forward_sections = None
+
+        if not reply_text:
             return
 
         # ── 安全检查：输出过滤 ──
-        passed, safe_reply = self.sensitive_filter.check_output(reply, session_id)
+        passed, safe_reply = self.sensitive_filter.check_output(reply_text, session_id)
         if not passed:
             self.log.warning(f"输出敏感词拦截: session={session_id}")
             return
 
+        # ── 输出过滤改写文本时丢弃转发分节（分节基于过滤前文本构建，可能不一致）──
+        if forward_sections and safe_reply != reply_text:
+            self.log.debug(f"输出过滤改写文本，放弃打包转发分节: session={session_id}")
+            forward_sections = None
+
         # ── 写入对话记忆 ──
         self._save_to_memory(session_id, msg.text, safe_reply)
 
-        # ── 发送回复 ──
-        await self._send_reply(msg, safe_reply)
+        # ── 发送回复（直答命中 → 打包转发；失败自动回落普通分段发送）──
+        await self._send_reply(msg, safe_reply, forward_sections=forward_sections)
 
-    async def _generate_reply(self, msg: QQMessage, session_id: str) -> str:
-        """调用 LLM 生成回复（运行时动态注入当前会话的人格 ID）"""
+    def _wrap_direct(self, text: str) -> AgentReply:
+        """把直答命中文本包装为 AgentReply（附打包转发分节）。
+
+        仅当配置启用且文本可拆出 >= min_nodes 个分节时才附带 forward_sections；
+        否则 forward_sections=None，发送层按普通文本发送（兼容原链路）。
+        """
+        sections: Optional[list[str]] = None
+        if self._forward_enabled and text:
+            secs = split_forward_sections(text, max_chars=self._forward_max_chars)
+            if len(secs) >= self._forward_min_nodes:
+                sections = secs
+        return AgentReply(text=text, forward_sections=sections)
+
+    async def _generate_reply(self, msg: QQMessage, session_id: str) -> "str | AgentReply":
+        """调用 LLM 生成回复（运行时动态注入当前会话的人格 ID）。
+
+        直答命中（人格/饰品/事件/敌方/比较直答，跳过 RAG）时返回
+        ``AgentReply``（附打包转发分节）；其余链路返回纯文本 str。
+        """
 
         # ── P17 人格切换：预拦截 + LLM function-calling ──
         # 用户发出「切换人格为X / 变成X / 扮演X」等指令时直接走切换路径，
@@ -705,6 +978,12 @@ class LimbusAgent:
         persona_switch_reply = await self._try_persona_switch(msg.text, session_id)
         if persona_switch_reply is not None:
             return persona_switch_reply
+
+        # ── P39 模糊消歧：用户回复数字选择候选 / 取消 ──
+        # 上一条数据查询返回了候选清单并存入会话，本条是数字编号 → 确定性作答。
+        disambig_reply = self._resolve_pending_choice(msg.text, session_id)
+        if disambig_reply is not None:
+            return disambig_reply
 
         # ── P26 抽奖（Gacha）指令预拦截 ──
         # 「抽卡/抽奖/十连/单抽」等明确句式 → 确定性调用 gacha_pull
@@ -719,7 +998,10 @@ class LimbusAgent:
         # data/other → 正常直答链。
         from rag.intent_gate import classify_user_intent
         _intent = classify_user_intent(msg.text)
-        _skip_direct = _intent in ("opinion", "compare")
+        # 纯数字消息（1~9）且无待确认候选 → 不进数据直答/消歧，
+        # 避免"1"被饰品直答命中"1B型八角螺栓"（P39 数字选择语义应只属于候选流程）。
+        _pure_digit = bool(re.fullmatch(r"[1-9]", (msg.text or "").strip()))
+        _skip_direct = _intent in ("opinion", "compare") or _pure_digit
         if _skip_direct:
             self.log.debug(f"意图门控: {_intent}，跳过直答: '{msg.text[:30]}...'")
 
@@ -731,7 +1013,7 @@ class LimbusAgent:
                 direct = self.persona_direct.try_direct_answer(msg.text)
                 if direct:
                     self.log.info(f"人格直答命中，跳过 RAG: '{msg.text[:30]}...'")
-                    return direct
+                    return self._wrap_direct(direct)
             except Exception as e:
                 self.log.warning(f"人格直答异常，回落 RAG: {e}")
 
@@ -743,7 +1025,7 @@ class LimbusAgent:
                 direct = self.gift_direct.try_direct_answer(msg.text)
                 if direct:
                     self.log.info(f"饰品直答命中，跳过 RAG: '{msg.text[:30]}...'")
-                    return direct
+                    return self._wrap_direct(direct)
             except Exception as e:
                 self.log.warning(f"饰品直答异常，回落 RAG: {e}")
 
@@ -755,7 +1037,7 @@ class LimbusAgent:
                 direct = self.event_direct.try_direct_answer(msg.text)
                 if direct:
                     self.log.info(f"事件直答命中，跳过 RAG: '{msg.text[:30]}...'")
-                    return direct
+                    return self._wrap_direct(direct)
             except Exception as e:
                 self.log.warning(f"事件直答异常，回落 RAG: {e}")
 
@@ -767,8 +1049,13 @@ class LimbusAgent:
             try:
                 direct = self.enemy_direct.try_direct_answer(msg.text)
                 if direct:
+                    if isinstance(direct, list):
+                        # P23 多候选 → 统一走"存会话待确认"（用户回复数字即
+                        # 确定性作答）——根治"回复数字被误当饰品名查询"
+                        # （如"1"命中"1B型八角螺栓"）。
+                        return self._handle_enemy_candidates(direct, msg.text, session_id)
                     self.log.info(f"敌方直答命中，跳过 RAG: '{msg.text[:30]}...'")
-                    return direct
+                    return self._wrap_direct(direct)
             except Exception as e:
                 self.log.warning(f"敌方直答异常，回落 RAG: {e}")
 
@@ -776,7 +1063,39 @@ class LimbusAgent:
         if _intent == "compare":
             compare_reply = self._try_compare_answer(msg.text)
             if compare_reply is not None:
-                return compare_reply
+                return self._wrap_direct(compare_reply)
+
+        # ── P39 模糊搜索消歧：四类直答全部未命中时，从结构化库模糊检索候选 ──
+        # 仅 data 意图触发（避免劫持闲聊/观点）；候选清单存入会话，用户回复数字
+        # 即确定性作答（绕过 LLM，无幻觉）——根治"模糊查询 → RAG 编造/未收录"。
+        if self.disambig is not None and _intent == "data":
+            try:
+                choices = self.disambig.search(msg.text)
+                if choices:
+                    top = choices[0]
+                    # 唯一高置信候选 → 直接作答；
+                    # 多候选但 top 明显占优（分差 ≥ direct_gap）→ 也直接作答，避免多余提问
+                    dominant = top["score"] >= self.disambig.direct_threshold and (
+                        len(choices) == 1
+                        or top["score"] - choices[1]["score"] >= self.disambig.direct_gap
+                    )
+                    if not dominant:
+                        session = self.session_manager.get_session(session_id)
+                        if session is not None:
+                            session.pending_choice = {"choices": choices, "query": msg.text}
+                            self.log.info(
+                                f"模糊消歧: '{msg.text[:20]}...' → {len(choices)} 个候选"
+                            )
+                            return self.disambig.format_choices(choices)
+                    # 占优候选直接确定性作答（绕过 LLM，防 RAG 编造）
+                    self.log.info(
+                        f"模糊消歧占优候选直答: {top['display']} (score={top['score']})"
+                    )
+                    answer = self.disambig.answer(top)
+                    if answer:
+                        return self._wrap_direct(answer)
+            except Exception as e:
+                self.log.warning(f"模糊搜索消歧异常，回落 RAG: {e}")
 
         # 语义缓存检查（轻量文本匹配）
         if self.semantic_cache is not None:
@@ -813,6 +1132,7 @@ class LimbusAgent:
                 self.rag_chain, msg.text, chat_history,
                 persona_id=persona_id, fact_base=fact_base,
                 story_only=story_only,
+                persona_engine=self.persona_engine,
             )
             reply = reply.strip() if reply else ""
 
@@ -842,7 +1162,8 @@ class LimbusAgent:
                         )
                         try:
                             reply2 = await run_rag_query(
-                                self.rag_chain, reflected, chat_history, persona_id=persona_id
+                                self.rag_chain, reflected, chat_history, persona_id=persona_id,
+                                persona_engine=self.persona_engine,
                             )
                             reply2 = reply2.strip() if reply2 else ""
                             if reply2:
@@ -922,6 +1243,74 @@ class LimbusAgent:
         except Exception as e:
             self.log.warning(f"抽奖指令处理异常，回落常规链路: {e}")
             return None
+
+    # ── P39：模糊消歧的候选选择（回复数字编号 / 取消）──
+
+    def _handle_enemy_candidates(
+        self, names: list[str], query: str, session_id: str
+    ) -> str:
+        """敌方多候选清单（P23 由 enemy_direct 返回）：存会话待确认。
+
+        用户回复数字编号 → _resolve_pending_choice 确定性作答；
+        根治"回复数字被误当饰品名查询"（如"1"命中"1B型八角螺栓"）。
+        """
+        session = self.session_manager.get_session(session_id)
+        if session is not None:
+            choices = [
+                {"kind": "enemy", "name": n, "score": 100.0, "display": f"敌方｜{n}"}
+                for n in names
+            ]
+            session.pending_choice = {"choices": choices, "query": query}
+            self.log.info(
+                f"敌方多候选存会话待确认: {len(names)} 个 (session={session_id})"
+            )
+        if self.disambig is not None:
+            return self.disambig.format_choices(choices if session is not None else [])
+        # 降级（无消歧引擎时）：普通编号清单
+        lines = ["检测到多个可能的目标，请回复数字选择（或发送「取消」）："]
+        for i, n in enumerate(names, 1):
+            lines.append(f"{i}. 敌方｜{n}")
+        return "\n".join(lines)
+
+    def _resolve_pending_choice(self, text: str, session_id: str) -> Optional[str]:
+        """处理上一条模糊搜索候选清单的用户选择。
+
+        - 回复数字（1~9）→ 从会话 pending_choice 中取对应候选，确定性作答；
+        - 回复「取消/算了/不了」→ 清除待确认状态；
+        - 其他消息 → 清除过期待确认，返回 None（按正常消息处理）。
+
+        Returns:
+            命中的回复文本（含 AgentReply 包装）；未命中返回 None。
+        """
+        session = self.session_manager.get_session(session_id)
+        if session is None or not session.pending_choice:
+            return None
+        t = (text or "").strip()
+        choices = session.pending_choice.get("choices") or []
+
+        if t in ("取消", "算了", "不了", "不用了", "取消查询"):
+            session.pending_choice = None
+            self.log.info(f"模糊消歧取消: session={session_id}")
+            return "好的，已取消这次查询。"
+
+        if t.isdigit():
+            idx = int(t) - 1
+            session.pending_choice = None
+            if not (0 <= idx < len(choices)):
+                return "选项编号超出范围，请重新回复数字或发送「取消」。"
+            choice = choices[idx]
+            if self.disambig is None:
+                return "该功能暂不可用，请稍后再试。"
+            answer = self.disambig.answer(choice)
+            if not answer:
+                self.log.warning(f"模糊消歧选择无数据: {choice}")
+                return "该选项暂无详细数据，请换一个试试。"
+            self.log.info(f"模糊消歧选择: {choice['display']} (session={session_id})")
+            return self._wrap_direct(answer)
+
+        # 非数字/非取消：清掉过期待确认，按正常消息处理
+        session.pending_choice = None
+        return None
 
     # ── P27：比较直答（compare 意图，配合意图门控）──
 
@@ -1293,8 +1682,12 @@ class LimbusAgent:
             chunks.append(rest.rstrip())
         return [c for c in chunks if c]
 
-    async def _send_reply(self, msg: QQMessage, text: str):
+    async def _send_reply(self, msg: QQMessage, text: str, forward_sections: Optional[list[str]] = None):
         """通过 NapCatQQ 发送回复（含打字延迟 + 超长分段）。
+
+        直答打包转发（P40）：``forward_sections`` 非空时，优先以合并转发
+        （打包转发）消息发送——把多节数据封装为转发卡片，替代单条超长文本；
+        转发失败（NapCat 拒收/未回执/异常）自动回落普通分段发送，不影响主链路。
 
         修复症状2：人格直答全文可达 8314 字符/20KB，QQ 群单条消息超长会被
         静默拒收。此处按行边界分段发送，并逐段检查 adapter 返回值记录日志，
@@ -1311,6 +1704,22 @@ class LimbusAgent:
             tid = int(target_id)
         except ValueError:
             return
+
+        # ── 直答打包转发（合并转发卡片）：分节 >= min_nodes 且启用时优先 ──
+        if (
+            forward_sections
+            and len(forward_sections) >= self._forward_min_nodes
+        ):
+            try:
+                sent = await self._send_forward_reply(msg, tid, forward_sections)
+                if sent:
+                    self.log.info(
+                        f"直答打包转发成功: {len(forward_sections)} 节 (target={tid})"
+                    )
+                    return
+                self.log.warning(f"直答打包转发被拒，回落普通分段发送 (target={tid})")
+            except Exception as e:
+                self.log.error(f"直答打包转发异常，回落普通分段发送: {e}")
 
         parts = self._split_reply(text)
         total = len(parts)
@@ -1332,6 +1741,32 @@ class LimbusAgent:
             # 段间轻微间隔，避免被 QQ 频率风控
             if i < total:
                 await asyncio.sleep(0.3)
+
+    async def _send_forward_reply(self, msg: QQMessage, tid: int, sections: list[str]) -> bool:
+        """以合并转发（打包转发）消息发送直答数据分节。
+
+        Args:
+            msg: 原始消息（用于判定群聊/私聊）。
+            tid: 目标群号或用户 QQ。
+            sections: 转发分节文本列表（每节一条 node）。
+
+        Returns:
+            NapCat 回执确认成功返回 True；失败返回 False（调用方回落普通发送）。
+        """
+        from adapter.napcat import build_forward_nodes
+
+        # 转发卡片发送者：配置 sender_name/sender_uin 优先，否则用机器人自身信息
+        sender_name = self._forward_sender_name or "边狱巴士"
+        sender_uin = self._forward_sender_uin or str(
+            self.config.get("napcat", {}).get("bot_qq", "") or ""
+        )
+        nodes = build_forward_nodes(sections, sender_name=sender_name, sender_uin=sender_uin)
+        if not nodes:
+            return False
+
+        if msg.is_group and msg.group_id:
+            return await self.adapter.send_group_forward_msg(tid, nodes)
+        return await self.adapter.send_private_forward_msg(tid, nodes)
 
     # ── 指令处理 ──
 
@@ -1360,6 +1795,19 @@ class LimbusAgent:
                 except ValueError:
                     pass
             await self._cmd_latest_tweets(msg, n)
+            return
+        elif (
+            cmd.startswith("steam新闻") or cmd.startswith("steam资讯")
+            or cmd.startswith("steam公告") or cmd.startswith("steam更新")
+            or cmd.startswith("Steam新闻")
+        ):
+            # /steam新闻 [N]  → 拉取 Steam 最近 N 条公告/新闻（含配图）发到本会话
+            n = 3
+            try:
+                n = max(1, min(int(msg.command_args.strip().split()[0]), 5))
+            except (ValueError, IndexError):
+                pass
+            await self._cmd_latest_steam_news(msg, n)
             return
         else:
             reply = f"未知指令: /{cmd}。输入 /帮助 查看可用指令。"
@@ -1434,6 +1882,69 @@ class LimbusAgent:
             self.log.error(f"/最新推文 指令异常: {e}")
             await self._send_reply(msg, f"拉取推文失败：{e}")
 
+    async def _cmd_latest_steam_news(self, msg: QQMessage, n: int = 3):
+        """P37：/steam新闻 N —— 拉取 Steam 最近 N 条公告/新闻并发送（文本+配图）。"""
+        try:
+            from crawler.steam_fetcher import fetch_steam_news
+            steam_cfg = self.config.get("steam_fetcher", {})
+            appid = int(steam_cfg.get("appid", 1973530))
+            rss_url = steam_cfg.get("rss_url") or None
+
+            # 先回执（拉取需要数秒）
+            await self._send_reply(msg, f"正在拉取 Steam 最新公告（最多 {n} 条）……")
+
+            items = await fetch_steam_news(appid=appid, rss_url=rss_url, limit=n)
+            if not items:
+                await self._send_reply(msg, "暂时没有拉取到 Steam 公告（RSS 可能暂时不可用）。")
+                return
+
+            target_id, is_group = self.router.get_response_target(msg)
+            try:
+                tid = int(target_id)
+            except ValueError:
+                return
+
+            max_images = max(
+                0, int(steam_cfg.get("max_images_per_item", 5))
+            )
+            for i, item in enumerate(items, 1):
+                text = self._format_steam_item_text(item)
+                header = f"【Steam公告 {i}/{len(items)}】{(item.get('title') or '').strip()}"
+                body = (item.get("text") or "").strip()
+                if body and body != (item.get("title") or "").strip():
+                    body = body[:800]  # 正文过长截断，完整内容见公告页
+                if item.get("permalink"):
+                    body = f"{body}\n{item['permalink']}" if body else item["permalink"]
+                full_text = f"{header}\n{body}"
+                images = list(item.get("image_urls") or [])
+                if max_images:
+                    images = images[:max_images]
+
+                if is_group:
+                    if images:
+                        sent = await self.adapter.send_group_msg_media(
+                            group_id=tid,
+                            text=full_text,
+                            images=images,
+                            media_dir=self._media_dir,
+                            prefer_local_images=bool(
+                                self.config.get("x_fetcher", {}).get("prefer_local_images", True)
+                            ),
+                        )
+                    else:
+                        sent = await self.adapter.send_group_msg(tid, full_text)
+                    if not sent:
+                        self.log.warning(f"/steam新闻 发送失败: {item.get('announcement_id')}")
+                else:
+                    # 私聊：无媒体通道，附图片链接
+                    link_note = ""
+                    if images:
+                        link_note += "\n图片: " + " ".join(images[:3])
+                    await self.adapter.send_private_msg(tid, f"{full_text}{link_note}")
+        except Exception as e:
+            self.log.error(f"/steam新闻 指令异常: {e}")
+            await self._send_reply(msg, f"拉取 Steam 公告失败：{e}")
+
     def _cmd_status(self) -> str:
         """状态查询"""
         persona_name = ""
@@ -1458,7 +1969,8 @@ class LimbusAgent:
             "/帮助 - 显示本帮助\n"
             "/人格列表 - 查看所有可用人格\n"
             "/人格切换 <id> - 切换当前会话的人格\n"
-            "/最新推文 [N] - 拉取官方最新 N 条推文（含图片/视频，N 默认 3，最多 5）\n\n"
+            "/最新推文 [N] - 拉取官方最新 N 条推文（含图片/视频，N 默认 3，最多 5）\n"
+            "/steam新闻 [N] - 拉取 Steam 最新 N 条公告/新闻（含配图，N 默认 3，最多 5）\n\n"
             "直接发送消息即可与角色对话，支持边狱巴士知识问答。"
         )
 
@@ -1512,6 +2024,11 @@ class LimbusAgent:
             self._x_poll_task = asyncio.create_task(self._x_poll_loop())
             self.log.info("X 新推轮询后台任务已启动")
 
+        # ── P37: 挂载 Steam 新公告轮询后台任务（不阻塞主事件循环）──
+        if self.config.get("steam_fetcher", {}).get("enabled", False):
+            self._steam_poll_task = asyncio.create_task(self._steam_poll_loop())
+            self.log.info("Steam 新公告轮询后台任务已启动")
+
         # 连接 NapCatQQ
         self.log.info("Agent 启动完成，等待 NapCatQQ 连接...")
         await self.adapter.connect()
@@ -1531,9 +2048,21 @@ class LimbusAgent:
                 self.log.warning(f"X 轮询任务退出异常（忽略）: {e}")
             self._x_poll_task = None
 
+        # ── P37: 取消 Steam 新公告轮询后台任务（吞掉 CancelledError）──
+        if self._steam_poll_task:
+            self._steam_poll_task.cancel()
+            try:
+                await self._steam_poll_task
+            except asyncio.CancelledError:
+                pass
+            except Exception as e:
+                self.log.warning(f"Steam 轮询任务退出异常（忽略）: {e}")
+            self._steam_poll_task = None
+
         # 持久化推送状态
         self._save_x_pushed()
         self._save_push_groups()
+        self._save_steam_pushed()
 
         await self.adapter.disconnect()
         self.log.info("Agent 已关闭")

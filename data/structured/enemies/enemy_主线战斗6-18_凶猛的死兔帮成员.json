@@ -36,68 +36,26 @@
       "skill_name": "处理…",
       "icon_id": "9011801",
       "sin_type": "暴怒",
-      "damage_type": "",
+      "damage_type": "打击",
       "base_value": 3,
-      "coin_power": 987,
-      "coin_count": 2,
+      "coin_power": 6,
+      "coin_count": 1,
       "attack_level": 46,
       "attack_weight": 1,
       "is_guard": false,
       "guard_type": "",
       "importance": 0,
       "coin_effects": [
-        "[命中时] 使目标增加4级 破裂 强度"
+        "硬币1：[命中时]使目标增加4级破裂强度"
       ]
     },
     {
       "skill_name": "移...除...",
       "icon_id": "9011802",
       "sin_type": "暴怒",
-      "damage_type": "",
+      "damage_type": "突刺",
       "base_value": 3,
-      "coin_power": 987,
-      "coin_count": 3,
-      "attack_level": 46,
-      "attack_weight": 1,
-      "is_guard": true,
-      "guard_type": "防御",
-      "importance": 0,
-      "coin_effects": [
-        "[使用时] 若目标的 破裂 强度不低于3级，则使本技能的基础威力+1",
-        "[命中时] 对目标施加2层 防御等级降低",
-        "[命中时] 对目标施加2层 破裂",
-        "[命中时] 使目标增加6级 破裂 强度"
-      ]
-    },
-    {
-      "skill_name": "阻…止…",
-      "icon_id": "9011803",
-      "sin_type": "嫉妒",
-      "damage_type": "",
-      "base_value": 4,
-      "coin_power": 5793,
-      "coin_count": 3,
-      "attack_level": 46,
-      "attack_weight": 1,
-      "is_guard": true,
-      "guard_type": "防御",
-      "importance": 0,
-      "coin_effects": [
-        "[使用时] 对目标造成3点理智伤害",
-        "[使用时] 若目标带有 破裂 ，则其每带有4级 破裂 强度使本技能的基础威力+1（最多+3）",
-        "[命中时] 使目标增加6级 破裂 强度",
-        "[命中时] 使目标增加6级 流血 强度",
-        "[命中时] 对目标施加3层 防御等级降低",
-        "[正面命中时] 下回合对目标施加1层 麻痹"
-      ]
-    },
-    {
-      "skill_name": "反…",
-      "icon_id": "9011804",
-      "sin_type": "忧郁",
-      "damage_type": "",
-      "base_value": 4,
-      "coin_power": 3,
+      "coin_power": 4,
       "coin_count": 2,
       "attack_level": 46,
       "attack_weight": 1,
@@ -105,7 +63,42 @@
       "guard_type": "",
       "importance": 0,
       "coin_effects": [
-        "[命中时] 使目标增加2级 流血 强度"
+        "[使用时]若目标的破裂强度不低于3级，则使本技能的基础威力+1"
+      ]
+    },
+    {
+      "skill_name": "阻…止…",
+      "icon_id": "9011803",
+      "sin_type": "嫉妒",
+      "damage_type": "打击",
+      "base_value": 4,
+      "coin_power": 4,
+      "coin_count": 2,
+      "attack_level": 46,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[使用时]对目标造成3点理智伤害",
+        "[使用时]若目标带有破裂，则其每带有4级破裂强度使本技能的基础威力+1（最多+3）"
+      ]
+    },
+    {
+      "skill_name": "反…",
+      "icon_id": "9011804",
+      "sin_type": "忧郁",
+      "damage_type": "打击",
+      "base_value": 4,
+      "coin_power": 3,
+      "coin_count": 1,
+      "attack_level": 46,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "若目标带有破裂，则使本技能的最终威力+1"
       ]
     }
   ],

@@ -34,13 +34,13 @@
       "base_value": 2,
       "coin_power": 5,
       "coin_count": 2,
-      "attack_level": 2,
+      "attack_level": 54,
       "attack_weight": 1,
       "is_guard": false,
       "guard_type": "",
       "importance": 0,
       "coin_effects": [
-        "2命中时下回合对目标施加3层束缚与2层麻痹"
+        "硬币2：[命中时]下回合对目标施加3层束缚与2层麻痹"
       ]
     },
     {
@@ -51,13 +51,13 @@
       "base_value": 3,
       "coin_power": 8,
       "coin_count": 0,
-      "attack_level": 1,
+      "attack_level": 54,
       "attack_weight": 1,
       "is_guard": false,
       "guard_type": "",
       "importance": 0,
       "coin_effects": [
-        "1命中时下回合对目标施加2层N公司的尖钉"
+        "硬币1：[命中时]下回合对目标施加2层N公司的尖钉"
       ]
     },
     {
@@ -68,14 +68,14 @@
       "base_value": 5,
       "coin_power": 9,
       "coin_count": 1,
-      "attack_level": 3,
+      "attack_level": 54,
       "attack_weight": 1,
       "is_guard": false,
       "guard_type": "",
       "importance": 0,
       "coin_effects": [
-        "拼点失败下回合对自身施加2层虚弱",
-        "1命中时下回合对目标施加2层虚弱"
+        "[拼点失败]下回合对自身施加2层虚弱",
+        "硬币1：[命中时]下回合对目标施加2层虚弱"
       ]
     },
     {
@@ -84,16 +84,16 @@
       "sin_type": "暴怒",
       "damage_type": "打击",
       "base_value": 8,
-      "coin_power": 1,
+      "coin_power": -1,
       "coin_count": 3,
-      "attack_level": 3,
+      "attack_level": 54,
       "attack_weight": 1,
       "is_guard": false,
       "guard_type": "",
       "importance": 0,
       "coin_effects": [
-        "2正面命中时对目标施加2层N公司的尖钉",
-        "3命中时 若目标的N公司的尖钉层数不低于5层，则下回合对其施加10层束缚"
+        "硬币2：[正面命中时]对目标施加2层N公司的尖钉",
+        "硬币3：[命中时] 若目标的N公司的尖钉层数不低于5层，则下回合对其施加10层束缚"
       ]
     }
   ],

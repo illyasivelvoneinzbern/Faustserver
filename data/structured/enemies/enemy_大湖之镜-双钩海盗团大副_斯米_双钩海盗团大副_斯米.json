@@ -39,123 +39,15 @@
       "sin_type": "色欲",
       "damage_type": "斩击",
       "base_value": 5,
-      "coin_power": 9,
-      "coin_count": 2,
-      "attack_level": 47,
-      "attack_weight": 1,
-      "is_guard": false,
-      "guard_type": "",
-      "importance": 0,
-      "coin_effects": [
-        "[命中时] 使目标增加3级 流血 强度"
-      ]
-    },
-    {
-      "skill_name": "小的们，来活了",
-      "icon_id": "9101202",
-      "sin_type": "色欲",
-      "damage_type": "斩击",
-      "base_value": 4,
-      "coin_power": 9,
-      "coin_count": 3,
-      "attack_level": 47,
-      "attack_weight": 1,
-      "is_guard": false,
-      "guard_type": "",
-      "importance": 0,
-      "coin_effects": [
-        "[命中时] 对目标施加2层 流血",
-        "[正面命中时] 使目标增加2级 流血 强度",
-        "[命中时] 对目标施加1层 流血",
-        "[正面命中时] 使目标增加4级 流血 强度"
-      ]
-    },
-    {
-      "skill_name": "战斗指挥",
-      "icon_id": "9101203",
-      "sin_type": "怠惰",
-      "damage_type": "斩击",
-      "base_value": 4,
-      "coin_power": 9703,
-      "coin_count": 2,
-      "attack_level": 47,
-      "attack_weight": 1,
-      "is_guard": false,
-      "guard_type": "",
-      "importance": 0,
-      "coin_effects": [
-        "使用时使自身增加5级呼吸法强度"
-      ]
-    },
-    {
-      "skill_name": "发现漏洞！开火！",
-      "icon_id": "9101204",
-      "sin_type": "暴怒",
-      "damage_type": "斩击",
-      "base_value": 5,
-      "coin_power": 987,
-      "coin_count": 3,
-      "attack_level": 47,
-      "attack_weight": 1,
-      "is_guard": false,
-      "guard_type": "",
-      "importance": 0,
-      "coin_effects": [
-        "[命中时] 使目标增加4级 流血 强度",
-        "[正面命中时] 使目标增加4级 流血 强度",
-        "[命中时] 对目标施加3层 流血 根据目标带有的 流血 强度，对其额外造成造成相应的伤害 消耗1发 弹药"
-      ]
-    },
-    {
-      "skill_name": "闪避",
-      "icon_id": "9101205",
-      "sin_type": "常规",
-      "damage_type": "防御",
-      "base_value": 8,
-      "coin_power": 79,
-      "coin_count": 1,
-      "attack_level": 0,
-      "attack_weight": 1,
-      "is_guard": true,
-      "guard_type": "闪避",
-      "importance": 0,
-      "coin_effects": [
-        "闪避成功时下回合使自身增加5级呼吸法强度。",
-        "闪避成功时下回合使全体友方单位增加2级呼吸法强度。"
-      ]
-    },
-    {
-      "skill_name": "劫掠",
-      "icon_id": "9101206",
-      "sin_type": "傲慢",
-      "damage_type": "斩击",
-      "base_value": 7,
-      "coin_power": 3,
-      "coin_count": 1,
-      "attack_level": 47,
-      "attack_weight": 1,
-      "is_guard": false,
-      "guard_type": "",
-      "importance": 0,
-      "coin_effects": [
-        "拼点胜利复制并使用目标级别为3的技能的硬币威力与硬币数"
-      ]
-    },
-    {
-      "skill_name": "往那看",
-      "icon_id": "9101201",
-      "sin_type": "色欲",
-      "damage_type": "斩击",
-      "base_value": 5,
       "coin_power": 7,
       "coin_count": 1,
-      "attack_level": 0,
+      "attack_level": 47,
       "attack_weight": 1,
       "is_guard": false,
       "guard_type": "",
       "importance": 0,
       "coin_effects": [
-        "1命中时使目标增加3级流血强度"
+        "硬币1：[命中时]使目标增加3级流血强度"
       ]
     },
     {
@@ -166,16 +58,16 @@
       "base_value": 4,
       "coin_power": 4,
       "coin_count": 2,
-      "attack_level": 0,
+      "attack_level": 47,
       "attack_weight": 1,
       "is_guard": false,
       "guard_type": "",
       "importance": 0,
       "coin_effects": [
-        "1命中时对目标施加2层{{状态2|流血|4=负面}}",
-        "正面命中时使目标增加2级{{状态2|流血|4=负面}}强度",
-        "2命中时对目标施加1层{{状态2|流血|4=负面}}",
-        "正面命中时使目标增加4级{{状态2|流血|4=负面}}强度"
+        "硬币1：[命中时]对目标施加2层流血",
+        "[正面命中时]使目标增加2级流血强度",
+        "硬币2：[命中时]对目标施加1层流血",
+        "[正面命中时]使目标增加4级流血强度"
       ]
     },
     {
@@ -186,13 +78,13 @@
       "base_value": 4,
       "coin_power": 5,
       "coin_count": 2,
-      "attack_level": 0,
+      "attack_level": 47,
       "attack_weight": 1,
       "is_guard": false,
       "guard_type": "",
       "importance": 0,
       "coin_effects": [
-        "使用时使自身增加5级呼吸法强度"
+        "[使用时]使自身增加5级呼吸法强度"
       ]
     },
     {
@@ -203,7 +95,113 @@
       "base_value": 5,
       "coin_power": 7,
       "coin_count": 2,
-      "attack_level": 0,
+      "attack_level": 47,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "若目标的流血强度不低于5级，则使本技能的拼点威力+2"
+      ]
+    },
+    {
+      "skill_name": "闪避",
+      "icon_id": "9101205",
+      "sin_type": "常规",
+      "damage_type": "防御",
+      "base_value": 8,
+      "coin_power": 5,
+      "coin_count": 1,
+      "attack_level": 37,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[闪避成功时]下回合使自身增加5级呼吸法强度。",
+        "[闪避成功时]下回合使全体友方单位增加2级呼吸法强度。"
+      ]
+    },
+    {
+      "skill_name": "劫掠",
+      "icon_id": "9101206",
+      "sin_type": "傲慢",
+      "damage_type": "斩击",
+      "base_value": 7,
+      "coin_power": 8,
+      "coin_count": 1,
+      "attack_level": 47,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[拼点胜利]复制并使用目标级别为3的技能的硬币威力与硬币数"
+      ]
+    },
+    {
+      "skill_name": "往那看",
+      "icon_id": "9101201",
+      "sin_type": "色欲",
+      "damage_type": "斩击",
+      "base_value": 5,
+      "coin_power": 7,
+      "coin_count": 1,
+      "attack_level": 50,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "硬币1：[命中时]使目标增加3级流血强度"
+      ]
+    },
+    {
+      "skill_name": "小的们，来活了",
+      "icon_id": "9101202",
+      "sin_type": "色欲",
+      "damage_type": "斩击",
+      "base_value": 4,
+      "coin_power": 4,
+      "coin_count": 2,
+      "attack_level": 50,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "硬币1：[命中时]对目标施加2层流血",
+        "[正面命中时]使目标增加2级流血强度",
+        "硬币2：[命中时]对目标施加1层流血",
+        "[正面命中时]使目标增加4级流血强度"
+      ]
+    },
+    {
+      "skill_name": "战斗指挥",
+      "icon_id": "9101203",
+      "sin_type": "怠惰",
+      "damage_type": "斩击",
+      "base_value": 4,
+      "coin_power": 5,
+      "coin_count": 2,
+      "attack_level": 50,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[使用时]使自身增加5级呼吸法强度"
+      ]
+    },
+    {
+      "skill_name": "发现漏洞！开火！",
+      "icon_id": "9101204",
+      "sin_type": "暴怒",
+      "damage_type": "斩击",
+      "base_value": 5,
+      "coin_power": 7,
+      "coin_count": 2,
+      "attack_level": 50,
       "attack_weight": 1,
       "is_guard": false,
       "guard_type": "",
@@ -220,14 +218,14 @@
       "base_value": 8,
       "coin_power": 5,
       "coin_count": 1,
-      "attack_level": 0,
+      "attack_level": 40,
       "attack_weight": 1,
       "is_guard": false,
       "guard_type": "",
       "importance": 0,
       "coin_effects": [
-        "闪避成功时下回合使自身增加5级呼吸法强度。",
-        "闪避成功时下回合使全体友方单位增加2级呼吸法强度。"
+        "[闪避成功时]下回合使自身增加5级呼吸法强度。",
+        "[闪避成功时]下回合使全体友方单位增加2级呼吸法强度。"
       ]
     },
     {
@@ -238,13 +236,13 @@
       "base_value": 7,
       "coin_power": 8,
       "coin_count": 1,
-      "attack_level": 0,
+      "attack_level": 50,
       "attack_weight": 1,
       "is_guard": false,
       "guard_type": "",
       "importance": 0,
       "coin_effects": [
-        "拼点胜利复制并使用目标级别为3的技能的硬币威力与硬币数"
+        "[拼点胜利]复制并使用目标级别为3的技能的硬币威力与硬币数"
       ]
     }
   ],

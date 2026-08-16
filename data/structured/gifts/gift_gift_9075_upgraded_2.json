@@ -1,0 +1,20 @@
+{
+  "id": "gift_9075_upgraded_2",
+  "title": "充能式手套",
+  "url": "https://limbuscompany.huijiwiki.com/wiki/E.G.O饰品",
+  "categories": [
+    "E.G.O饰品"
+  ],
+  "content": "最大充能层数+10\n关卡开始时，使全体友方单位获得6层充能。\n回合开始时，使全体友方单位获得3层充能。\n[第1顺位友方单位专属] 关卡开始时，获得10层超亚光蓄能",
+  "source": "tabx",
+  "_structured": true,
+  "page_type": "ego_gift",
+  "gift_name": "充能式手套",
+  "rarity": 4,
+  "cost": "394",
+  "effect_types": "充能",
+  "attack_type": "嫉妒",
+  "location": "镜像迷宫",
+  "stage": "upgraded_2",
+  "_schema_version": 1
+}

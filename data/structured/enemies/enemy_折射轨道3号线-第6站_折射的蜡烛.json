@@ -34,13 +34,13 @@
       "base_value": 5,
       "coin_power": 5,
       "coin_count": 2,
-      "attack_level": 2,
+      "attack_level": 44,
       "attack_weight": 1,
       "is_guard": false,
       "guard_type": "",
       "importance": 0,
       "coin_effects": [
-        "1命中时使目标增加6级烧伤强度并对其施加2层烧伤"
+        "硬币1：[命中时]使目标增加6级烧伤强度并对其施加2层烧伤"
       ]
     },
     {
@@ -51,13 +51,13 @@
       "base_value": 2,
       "coin_power": 2,
       "coin_count": 2,
-      "attack_level": 2,
+      "attack_level": 44,
       "attack_weight": 1,
       "is_guard": false,
       "guard_type": "",
       "importance": 0,
       "coin_effects": [
-        "战斗开始使自身获得20点护盾"
+        "[战斗开始]使自身获得20点护盾"
       ]
     }
   ],

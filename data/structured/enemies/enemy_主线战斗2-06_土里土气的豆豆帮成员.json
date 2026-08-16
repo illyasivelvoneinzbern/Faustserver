@@ -29,13 +29,62 @@
   "passives": [
     "无"
   ],
-  "skills": [],
+  "skills": [
+    {
+      "skill_name": "穿刺",
+      "icon_id": "9001901",
+      "sin_type": "色欲",
+      "damage_type": "斩击",
+      "base_value": 2,
+      "coin_power": 2,
+      "coin_count": 2,
+      "attack_level": 7,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": []
+    },
+    {
+      "skill_name": "刁钻突刺",
+      "icon_id": "9001902",
+      "sin_type": "色欲",
+      "damage_type": "斩击",
+      "base_value": 3,
+      "coin_power": 7,
+      "coin_count": 1,
+      "attack_level": 7,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "硬币1：[正面命中时]使目标增加2级破裂强度"
+      ]
+    },
+    {
+      "skill_name": "时来运转",
+      "icon_id": "9001703",
+      "sin_type": "暴食",
+      "damage_type": "斩击",
+      "base_value": 4,
+      "coin_power": 2,
+      "coin_count": 1,
+      "attack_level": 7,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[战斗开始]使自身本回合第2个行动槽的技能中所有硬币的朝向都必定是正面"
+      ]
+    }
+  ],
   "is_ally": false,
   "_structured": true,
   "appear_stages": [
     "主线战斗2-06",
-    "主线战斗2-07",
-    "大湖之镜-豆豆帮帮主"
+    "主线战斗2-07"
   ],
   "enemy_id": "主线战斗2-06|土里土气的豆豆帮成员|",
   "defense": 7,

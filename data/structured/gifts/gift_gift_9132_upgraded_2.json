@@ -1,0 +1,21 @@
+{
+  "id": "gift_9132_upgraded_2",
+  "title": "不间断电源装置",
+  "url": "https://limbuscompany.huijiwiki.com/wiki/E.G.O饰品",
+  "categories": [
+    "E.G.O饰品"
+  ],
+  "content": "回合结束时，若自身的充能层数不高于4层，则下回合开始时使自身获得3层充能。\n回合结束时，若自身的充能层数高于4层，则下回合开始时使自身获得1层伤害强化。",
+  "source": "tabx",
+  "_structured": true,
+  "page_type": "ego_gift",
+  "gift_name": "不间断电源装置",
+  "rarity": 1,
+  "cost": "156",
+  "effect_types": "充能",
+  "attack_type": "暴怒",
+  "location": "镜像迷宫",
+  "stage": "upgraded_2",
+  "event": "事件-Kqe-1j-23",
+  "_schema_version": 1
+}

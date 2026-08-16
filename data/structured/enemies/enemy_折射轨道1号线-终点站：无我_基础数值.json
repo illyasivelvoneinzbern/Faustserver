@@ -32,7 +32,7 @@
       "sin_type": "傲慢",
       "damage_type": "突刺",
       "base_value": 5,
-      "coin_power": 3,
+      "coin_power": 1,
       "coin_count": 2,
       "attack_level": 35,
       "attack_weight": 1,
@@ -40,7 +40,7 @@
       "guard_type": "",
       "importance": 0,
       "coin_effects": [
-        "[正面命中时] 下回合对目标施加1层 伤害弱化"
+        "硬币1：[正面命中时] 下回合对目标施加1层伤害弱化"
       ]
     },
     {
@@ -49,7 +49,7 @@
       "sin_type": "色欲",
       "damage_type": "突刺",
       "base_value": 5,
-      "coin_power": 9,
+      "coin_power": 4,
       "coin_count": 2,
       "attack_level": 35,
       "attack_weight": 1,
@@ -57,7 +57,7 @@
       "guard_type": "",
       "importance": 0,
       "coin_effects": [
-        "2正面命中时 下回合对目标施加1层束缚"
+        "硬币2：[正面命中时] 下回合对目标施加1层束缚"
       ]
     },
     {
@@ -66,7 +66,7 @@
       "sin_type": "暴怒",
       "damage_type": "打击",
       "base_value": 5,
-      "coin_power": 987,
+      "coin_power": 6,
       "coin_count": 2,
       "attack_level": 35,
       "attack_weight": 1,
@@ -74,7 +74,7 @@
       "guard_type": "",
       "importance": 0,
       "coin_effects": [
-        "[命中时] 下回合对目标施加1层 麻痹"
+        "硬币1：[命中时] 下回合对目标施加1层麻痹"
       ]
     },
     {
@@ -83,15 +83,16 @@
       "sin_type": "暴怒",
       "damage_type": "穿刺",
       "base_value": 6,
-      "coin_power": 987,
-      "coin_count": 3,
+      "coin_power": 2,
+      "coin_count": 2,
       "attack_level": 35,
       "attack_weight": 1,
       "is_guard": false,
       "guard_type": "",
       "importance": 0,
       "coin_effects": [
-        "[命中时] 移除随机属性的3个罪孽碎片"
+        "硬币1：[命中时]移除随机属性的3个罪孽碎片",
+        "硬币2：[命中时]移除随机属性的3个罪孽碎片"
       ]
     },
     {
@@ -100,7 +101,7 @@
       "sin_type": "嫉妒",
       "damage_type": "打击",
       "base_value": 3,
-      "coin_power": 5793,
+      "coin_power": 2,
       "coin_count": 3,
       "attack_level": 40,
       "attack_weight": 1,
@@ -108,7 +109,7 @@
       "guard_type": "",
       "importance": 0,
       "coin_effects": [
-        "[正面命中时] 下回合使目标获得1层 加算硬币弱化"
+        "硬币1：[正面命中时]下回合使目标获得1层加算硬币弱化"
       ]
     },
     {
@@ -117,7 +118,7 @@
       "sin_type": "忧郁",
       "damage_type": "打击",
       "base_value": 3,
-      "coin_power": 3,
+      "coin_power": 2,
       "coin_count": 4,
       "attack_level": 40,
       "attack_weight": 1,
@@ -125,8 +126,8 @@
       "guard_type": "",
       "importance": 0,
       "coin_effects": [
-        "[命中时] 下回合使目标获得2层 加算硬币弱化",
-        "[正面命中时] 下回合使目标获得1层 易损"
+        "硬币1：[命中时]下回合使目标获得2层加算硬币弱化",
+        "硬币4：[正面命中时]下回合使目标获得1层易损"
       ]
     },
     {
@@ -135,15 +136,16 @@
       "sin_type": "暴怒",
       "damage_type": "穿刺",
       "base_value": 6,
-      "coin_power": 987,
-      "coin_count": 3,
+      "coin_power": 2,
+      "coin_count": 2,
       "attack_level": 35,
       "attack_weight": 1,
       "is_guard": false,
       "guard_type": "",
       "importance": 0,
       "coin_effects": [
-        "[命中时] 移除随机属性的3个罪孽碎片"
+        "硬币1：[命中时]移除随机属性的3个罪孽碎片",
+        "硬币2：[命中时]移除随机属性的3个罪孽碎片"
       ]
     }
   ],

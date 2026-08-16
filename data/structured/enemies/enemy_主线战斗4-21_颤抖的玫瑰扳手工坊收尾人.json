@@ -34,9 +34,49 @@
       "skill_name": "摩擦加速",
       "icon_id": "9005301",
       "sin_type": "暴食",
-      "damage_type": "",
+      "damage_type": "斩击",
       "base_value": 3,
-      "coin_power": 854,
+      "coin_power": 3,
+      "coin_count": 3,
+      "attack_level": 33,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "硬币1：[命中时]使目标增加1级震颤强度",
+        "[正面命中时]使目标增加1级破裂强度",
+        "硬币2：[命中时]使目标增加1级震颤强度",
+        "[正面命中时]使目标增加2级破裂强度",
+        "硬币3：[命中时]使目标增加1级震颤强度",
+        "[正面命中时]使目标增加3级破裂强度"
+      ]
+    },
+    {
+      "skill_name": "碾碎你！",
+      "icon_id": "9005302",
+      "sin_type": "暴食",
+      "damage_type": "斩击",
+      "base_value": 3,
+      "coin_power": 8,
+      "coin_count": 1,
+      "attack_level": 33,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "硬币1：[命中时]使目标增加2级震颤强度",
+        "[正面命中时]使目标增加3级破裂强度"
+      ]
+    },
+    {
+      "skill_name": "震颤震动",
+      "icon_id": "9005303",
+      "sin_type": "怠惰",
+      "damage_type": "斩击",
+      "base_value": 3,
+      "coin_power": 1,
       "coin_count": 4,
       "attack_level": 33,
       "attack_weight": 1,
@@ -44,59 +84,26 @@
       "guard_type": "",
       "importance": 0,
       "coin_effects": [
-        "[命中时] 使目标增加1级 震颤 强度",
-        "[正面命中时] 使目标增加1级 破裂 强度",
-        "[正面命中时] 使目标增加2级 破裂 强度",
-        "[正面命中时] 使目标增加3级 破裂 强度"
+        "硬币3：[命中时]前两枚硬币为正面时，根据目标的震颤强度，增加相应的震颤强度",
+        "硬币4：[命中时]前两枚硬币为正面时，根据技能硬币的正面数，增加相应的破裂强度"
       ]
-    },
-    {
-      "skill_name": "碾碎你！",
-      "icon_id": "9005302",
-      "sin_type": "暴食",
-      "damage_type": "",
-      "base_value": 3,
-      "coin_power": 854,
-      "coin_count": 2,
-      "attack_level": 33,
-      "attack_weight": 1,
-      "is_guard": false,
-      "guard_type": "",
-      "importance": 0,
-      "coin_effects": [
-        "[命中时] 使目标增加2级 震颤 强度",
-        "[正面命中时] 使目标增加3级 破裂 强度"
-      ]
-    },
-    {
-      "skill_name": "震颤震动",
-      "icon_id": "9005303",
-      "sin_type": "怠惰",
-      "damage_type": "",
-      "base_value": 3,
-      "coin_power": 9703,
-      "coin_count": 3,
-      "attack_level": 33,
-      "attack_weight": 1,
-      "is_guard": false,
-      "guard_type": "",
-      "importance": 0,
-      "coin_effects": []
     },
     {
       "skill_name": "发动引擎",
       "icon_id": "9005304",
       "sin_type": "常规",
-      "damage_type": "",
+      "damage_type": "防御",
       "base_value": 4,
-      "coin_power": 79,
+      "coin_power": 4,
       "coin_count": 1,
-      "attack_level": 0,
+      "attack_level": 30,
       "attack_weight": 1,
       "is_guard": false,
       "guard_type": "",
       "importance": 0,
-      "coin_effects": []
+      "coin_effects": [
+        "[使用时]下回合使自身获得1层震颤同步"
+      ]
     }
   ],
   "is_ally": false,

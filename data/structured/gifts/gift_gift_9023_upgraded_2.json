@@ -1,0 +1,21 @@
+{
+  "id": "gift_9023_upgraded_2",
+  "title": "雷击木",
+  "url": "https://limbuscompany.huijiwiki.com/wiki/E.G.O饰品",
+  "categories": [
+    "E.G.O饰品"
+  ],
+  "content": "通过技能效果增加破裂强度时，使目标增加2级破裂强度并施加1层破裂。",
+  "source": "tabx",
+  "_structured": true,
+  "page_type": "ego_gift",
+  "gift_name": "雷击木",
+  "rarity": 3,
+  "cost": "252",
+  "effect_types": "破裂",
+  "attack_type": "忧郁",
+  "location": "镜像迷宫",
+  "stage": "upgraded_2",
+  "event": "事件-雷霆树枝",
+  "_schema_version": 1
+}

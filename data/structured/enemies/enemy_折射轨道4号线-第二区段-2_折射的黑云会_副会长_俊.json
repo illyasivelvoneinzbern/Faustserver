@@ -34,13 +34,13 @@
       "base_value": 3,
       "coin_power": 3,
       "coin_count": 2,
-      "attack_level": 0,
+      "attack_level": 53,
       "attack_weight": 1,
       "is_guard": false,
       "guard_type": "",
       "importance": 0,
       "coin_effects": [
-        "使用时若目标的{{状态2|流血|4=负面}}强度不低于5级，则使本技能造成的伤害+10%"
+        "[使用时]若目标的{{状态2|流血|4=负面}}强度不低于5级，则使本技能造成的伤害+10%"
       ]
     },
     {
@@ -51,7 +51,7 @@
       "base_value": 3,
       "coin_power": 4,
       "coin_count": 2,
-      "attack_level": 0,
+      "attack_level": 53,
       "attack_weight": 1,
       "is_guard": false,
       "guard_type": "",
@@ -68,7 +68,7 @@
       "base_value": 4,
       "coin_power": 3,
       "coin_count": 3,
-      "attack_level": 0,
+      "attack_level": 53,
       "attack_weight": 1,
       "is_guard": false,
       "guard_type": "",
@@ -85,14 +85,14 @@
       "base_value": 4,
       "coin_power": 4,
       "coin_count": 2,
-      "attack_level": 0,
+      "attack_level": 53,
       "attack_weight": 1,
       "is_guard": false,
       "guard_type": "",
       "importance": 0,
       "coin_effects": [
-        "战斗开始使包括自身在内的全体友方单位获得2层斩击伤害强化",
-        "战斗开始使自身获得2层斩击威力提升"
+        "[战斗开始]使包括自身在内的全体友方单位获得2层斩击伤害强化",
+        "[战斗开始]使自身获得2层斩击威力提升"
       ]
     },
     {
@@ -103,15 +103,15 @@
       "base_value": 10,
       "coin_power": 4,
       "coin_count": 3,
-      "attack_level": 0,
+      "attack_level": 53,
       "attack_weight": 1,
       "is_guard": false,
       "guard_type": "",
       "importance": 0,
       "coin_effects": [
-        "战斗开始若目标的{{状态2|流血|4=负面}}强度不低于10级，则使本技能的攻击容量+1",
-        "战斗开始若本回合自身使用的攻击技能不低于5个，则使本技能的最终威力+5",
-        "拼点胜利使全体友方单位恢复10点理智值",
+        "[战斗开始]若目标的{{状态2|流血|4=负面}}强度不低于10级，则使本技能的攻击容量+1",
+        "[战斗开始]若本回合自身使用的攻击技能不低于5个，则使本技能的最终威力+5",
+        "[拼点胜利]使全体友方单位恢复10点理智值",
         "若目标的{{状态2|流血|4=负面}}强度不低于7级，则使本技能造成的伤害+30%"
       ]
     },
@@ -123,13 +123,13 @@
       "base_value": 4,
       "coin_power": 2,
       "coin_count": 1,
-      "attack_level": 0,
+      "attack_level": 53,
       "attack_weight": 1,
       "is_guard": false,
       "guard_type": "",
       "importance": 0,
       "coin_effects": [
-        "使用时除自身以外每有1名友方单位存活，使本技能额外增加1枚硬币（最多3次）"
+        "[使用时]除自身以外每有1名友方单位存活，使本技能额外增加1枚硬币（最多3次）"
       ]
     }
   ],

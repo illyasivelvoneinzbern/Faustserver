@@ -32,7 +32,7 @@
       "sin_type": "暴怒",
       "damage_type": "穿刺",
       "base_value": 5,
-      "coin_power": 987,
+      "coin_power": 5,
       "coin_count": 2,
       "attack_level": 39,
       "attack_weight": 1,
@@ -40,7 +40,7 @@
       "guard_type": "",
       "importance": 0,
       "coin_effects": [
-        "[命中时] 使目标增加6级 烧伤 强度并对其施加2层 烧伤"
+        "硬币1：[命中时]使目标增加6级烧伤强度并对其施加2层烧伤"
       ]
     },
     {
@@ -49,7 +49,7 @@
       "sin_type": "暴怒",
       "damage_type": "穿刺",
       "base_value": 2,
-      "coin_power": 987,
+      "coin_power": 2,
       "coin_count": 2,
       "attack_level": 39,
       "attack_weight": 1,
@@ -57,7 +57,7 @@
       "guard_type": "",
       "importance": 0,
       "coin_effects": [
-        "[命中时] 使目标增加1级 烧伤 强度，对目标施加1层 烧伤"
+        "[战斗开始]使自身获得20点护盾"
       ]
     }
   ],

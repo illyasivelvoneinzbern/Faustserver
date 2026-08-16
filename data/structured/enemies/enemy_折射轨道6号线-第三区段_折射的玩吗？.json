@@ -38,17 +38,17 @@
       "sin_type": "暴怒",
       "damage_type": "守备",
       "base_value": 20,
-      "coin_power": 987,
-      "coin_count": 3,
-      "attack_level": 0,
+      "coin_power": 10,
+      "coin_count": 1,
+      "attack_level": 60,
       "attack_weight": 1,
       "is_guard": true,
-      "guard_type": "防御",
+      "guard_type": "守备",
       "importance": 0,
       "coin_effects": [
         "可拼点防御",
         "本场战斗中每有1名阵亡的友方单位，使本技能的最终威力-4",
-        "1不可摧毁的硬币"
+        "硬币1：不可摧毁的硬币"
       ]
     },
     {
@@ -57,15 +57,20 @@
       "sin_type": "色欲",
       "damage_type": "打击",
       "base_value": 7,
-      "coin_power": 9,
-      "coin_count": 5,
+      "coin_power": -2,
+      "coin_count": 2,
       "attack_level": 61,
       "attack_weight": 1,
       "is_guard": false,
       "guard_type": "",
       "importance": 0,
       "coin_effects": [
-        "[命中时] 下回合对目标施加1层 威力降低"
+        "本场战斗中每有1名阵亡的友方单位，使本技能的最终威力+1，造成的伤害+5%",
+        "[拼点失败]使本技能的基础威力-7",
+        "[拼点失败]本技能造成的伤害不会使目标陷入混乱",
+        "硬币1：不可摧毁的硬币",
+        "硬币2：不可摧毁的硬币",
+        "[命中时]下回合对目标施加1层威力降低"
       ]
     },
     {
@@ -74,15 +79,19 @@
       "sin_type": "色欲",
       "damage_type": "打击",
       "base_value": 8,
-      "coin_power": 9,
-      "coin_count": 3,
+      "coin_power": -4,
+      "coin_count": 1,
       "attack_level": 61,
       "attack_weight": 1,
       "is_guard": false,
       "guard_type": "",
       "importance": 0,
       "coin_effects": [
-        "[命中时] 下回合对目标施加1层 威力降低"
+        "本场战斗中每有1名阵亡的友方单位，使本技能的最终威力+1，造成的伤害+10%",
+        "[拼点失败]使本技能的基础威力-8",
+        "[拼点失败]本技能造成的伤害不会使目标陷入混乱",
+        "硬币1：不可摧毁的硬币",
+        "[命中时]下回合对目标施加1层威力降低"
       ]
     },
     {
@@ -91,15 +100,20 @@
       "sin_type": "色欲",
       "damage_type": "打击",
       "base_value": 10,
-      "coin_power": 9,
-      "coin_count": 5,
+      "coin_power": -3,
+      "coin_count": 2,
       "attack_level": 62,
       "attack_weight": 1,
       "is_guard": false,
       "guard_type": "",
       "importance": 0,
       "coin_effects": [
-        "[命中时] 下回合对目标施加2层 威力降低"
+        "本场战斗中每有1名阵亡的友方单位，使本技能的最终威力+1，造成的伤害+5%",
+        "[拼点失败]使本技能的基础威力-10",
+        "[拼点失败]本技能造成的伤害不会使目标陷入混乱",
+        "硬币1：不可摧毁的硬币",
+        "硬币2：不可摧毁的硬币",
+        "[命中时]下回合对目标施加2层威力降低"
       ]
     },
     {
@@ -108,22 +122,22 @@
       "sin_type": "嫉妒",
       "damage_type": "斩击",
       "base_value": 4,
-      "coin_power": 5793,
-      "coin_count": 7,
+      "coin_power": -1,
+      "coin_count": 3,
       "attack_level": 63,
-      "attack_weight": 1,
-      "is_guard": true,
+      "attack_weight": 3,
+      "is_guard": false,
       "guard_type": "",
       "importance": 0,
       "coin_effects": [
         "本技能单方面攻击或拼点失败时，使本技能造成的伤害+300%",
-        "拼点开始 若目标带有威力降低，则使本技能的拼点威力+20",
-        "拼点胜利本技能不会触发目标的守备技能",
-        "拼点胜利结束本技能并对目标使用“你赢啦”",
-        "1不可摧毁的硬币",
-        "2不可摧毁的硬币",
-        "3不可摧毁的硬币",
-        "未摧毁 - 命中时使目标增加5级流血强度并对其施加4层流血"
+        "[拼点开始] 若目标带有威力降低，则使本技能的拼点威力+20",
+        "[拼点胜利]本技能不会触发目标的守备技能",
+        "[拼点胜利]结束本技能并对目标使用“你赢啦”",
+        "硬币1：不可摧毁的硬币",
+        "硬币2：不可摧毁的硬币",
+        "硬币3：不可摧毁的硬币",
+        "[未摧毁 - 命中时]使目标增加5级流血强度并对其施加4层流血"
       ]
     },
     {
@@ -132,19 +146,19 @@
       "sin_type": "嫉妒",
       "damage_type": "突刺",
       "base_value": 6,
-      "coin_power": 5793,
-      "coin_count": 5,
+      "coin_power": 4,
+      "coin_count": 1,
       "attack_level": 60,
       "attack_weight": 1,
-      "is_guard": true,
+      "is_guard": false,
       "guard_type": "",
       "importance": 0,
       "coin_effects": [
-        "无法拼点",
+        "[无法拼点]",
         "本技能适用于以下效果",
         "- 不会命中目标",
-        "使用时下回合使目标获得2层攻击等级提升",
-        "攻击后使现存体力最低的2名罪人恢复(本硬币的最终威力×5)点体力"
+        "[使用时]下回合使目标获得2层攻击等级提升",
+        "[攻击后]使现存体力最低的2名罪人恢复(本硬币的最终威力×5)点体力"
       ]
     },
     {
@@ -153,16 +167,25 @@
       "sin_type": "嫉妒",
       "damage_type": "斩击",
       "base_value": 4,
-      "coin_power": 5793,
-      "coin_count": 7,
+      "coin_power": -1,
+      "coin_count": 3,
       "attack_level": 63,
-      "attack_weight": 1,
-      "is_guard": true,
+      "attack_weight": 7,
+      "is_guard": false,
       "guard_type": "",
       "importance": 0,
       "coin_effects": [
-        "[使用时] 若目标装备了守备技能，则使本技能对其造成的伤害-90%",
-        "[攻击后] 结束本回合 不可摧毁的硬币 不可摧毁的硬币 不可摧毁的硬币"
+        "本技能不会触发守备技能，且可无视速度值与本技能拼点",
+        "[使用时]若目标装备了守备技能，则使本技能对其造成的伤害-90%",
+        "[拼点开始]使本技能的最终威力+20",
+        "[拼点胜利]使本技能造成的伤害+100%",
+        "[拼点失败]使本技能造成的伤害-90%，且本技能造成的伤害不会使目标陷入混乱",
+        "[拼点失败]下回合使自身所有部位陷入混乱",
+        "[攻击后]结束本回合",
+        "硬币1：不可摧毁的硬币",
+        "硬币2：不可摧毁的硬币",
+        "硬币3：不可摧毁的硬币",
+        "[未摧毁 - 命中时]使目标增加6级流血强度并对其施加5层流血"
       ]
     }
   ],

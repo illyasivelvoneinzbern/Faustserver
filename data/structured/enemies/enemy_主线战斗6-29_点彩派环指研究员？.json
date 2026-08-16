@@ -34,16 +34,15 @@
       "sin_type": "色欲",
       "damage_type": "穿刺",
       "base_value": 3,
-      "coin_power": 9,
-      "coin_count": 4,
+      "coin_power": 2,
+      "coin_count": 3,
       "attack_level": 45,
       "attack_weight": 1,
       "is_guard": false,
       "guard_type": "",
       "importance": 0,
       "coin_effects": [
-        "[命中时] 使目标增加3级 流血 强度",
-        "[命中时] 对目标施加4层 流血"
+        "[拼点胜利]若目标的流血强度不低于5级，则在攻击结束后随机对1名敌方单位重复使用本技能（最多1次）"
       ]
     },
     {
@@ -52,18 +51,15 @@
       "sin_type": "色欲",
       "damage_type": "穿刺",
       "base_value": 4,
-      "coin_power": 9,
-      "coin_count": 4,
+      "coin_power": 3,
+      "coin_count": 3,
       "attack_level": 45,
       "attack_weight": 1,
       "is_guard": false,
       "guard_type": "",
       "importance": 0,
       "coin_effects": [
-        "[命中时] 若目标带有 流血 ，则下回合对其施加2层 攻击等级降低",
-        "[命中时] 使目标增加5级 流血 强度",
-        "[命中时] 下回合对目标施加3层 攻击等级降低",
-        "[命中时] 使目标增加相当于其 流血 强度的 破裂 强度"
+        "若目标的流血强度不低于5级，则使本技能造成的伤害+30%"
       ]
     },
     {
@@ -72,17 +68,17 @@
       "sin_type": "傲慢",
       "damage_type": "穿刺",
       "base_value": 4,
-      "coin_power": 3,
-      "coin_count": 4,
+      "coin_power": 4,
+      "coin_count": 3,
       "attack_level": 45,
       "attack_weight": 1,
       "is_guard": false,
       "guard_type": "",
       "importance": 0,
       "coin_effects": [
-        "[命中时] 使目标增加10级 流血 强度",
-        "[命中时] 对目标施加层数相当于其 流血 层数的 破裂",
-        "[命中时] 使目标增加相当于其 流血 强度的 破裂 强度"
+        "目标每带有3级流血强度，使本技能的硬币威力+1（最多+4）",
+        "[拼点胜利]若目标的流血强度不低于6级，则使本技能造成的伤害+40%",
+        "硬币1：[命中时]使目标增加10级流血强度"
       ]
     },
     {
@@ -91,18 +87,16 @@
       "sin_type": "暴怒",
       "damage_type": "穿刺",
       "base_value": 4,
-      "coin_power": 987,
-      "coin_count": 4,
+      "coin_power": 4,
+      "coin_count": 3,
       "attack_level": 45,
       "attack_weight": 1,
-      "is_guard": true,
-      "guard_type": "防御",
+      "is_guard": false,
+      "guard_type": "",
       "importance": 0,
       "coin_effects": [
-        "[命中时] 对目标施加2层 防御等级降低",
-        "[命中时] 若目标的 流血 强度不低于5级，则重复使用本硬币（最多3次）",
-        "[命中时] 使目标的 流血 层数减少1层",
-        "[正面命中时] 对目标施加2层 防御等级降低"
+        "[拼点胜利]若目标带有流血，则下回合使自身获得1层强壮",
+        "[拼点胜利]若目标的流血强度不低于10级，则下回合使自身获得1层强壮"
       ]
     },
     {
@@ -111,15 +105,15 @@
       "sin_type": "常规",
       "damage_type": "闪避",
       "base_value": 5,
-      "coin_power": 79,
+      "coin_power": 10,
       "coin_count": 1,
-      "attack_level": 0,
+      "attack_level": 43,
       "attack_weight": 1,
       "is_guard": true,
       "guard_type": "闪避",
       "importance": 0,
       "coin_effects": [
-        "闪避成功时使自身获得1层强壮（最多2层）"
+        "[闪避成功时]使自身获得1层强壮（最多2层）"
       ]
     }
   ],

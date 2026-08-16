@@ -36,72 +36,27 @@
       "skill_name": "还击",
       "icon_id": "9012201",
       "sin_type": "傲慢",
-      "damage_type": "",
+      "damage_type": "打击",
       "base_value": 4,
       "coin_power": 3,
-      "coin_count": 2,
+      "coin_count": 1,
       "attack_level": 44,
       "attack_weight": 1,
-      "is_guard": true,
-      "guard_type": "防御",
+      "is_guard": false,
+      "guard_type": "",
       "importance": 0,
       "coin_effects": [
-        "[命中时] 下回合对目标施加2层 攻击等级降低",
-        "[正面命中时] 下回合对目标施加2层 防御等级降低"
+        "硬币1：[命中时]下回合对目标施加2层攻击等级降低",
+        "[正面命中时]下回合对目标施加2层防御等级降低"
       ]
     },
     {
       "skill_name": "阻止法",
       "icon_id": "9012202",
       "sin_type": "嫉妒",
-      "damage_type": "",
+      "damage_type": "斩击",
       "base_value": 5,
-      "coin_power": 5793,
-      "coin_count": 3,
-      "attack_level": 44,
-      "attack_weight": 1,
-      "is_guard": true,
-      "guard_type": "防御",
-      "importance": 0,
-      "coin_effects": [
-        "[使用时] 若自身的速度值高于目标，则使自身恢复5点理智值",
-        "[命中时] 下回合使自身获得2层 迅捷",
-        "[命中时] 对目标施加2层 麻痹",
-        "[命中时] 下回合对目标施加2层 防御等级降低",
-        "[命中时] 下回合对目标施加2层 麻痹"
-      ]
-    },
-    {
-      "skill_name": "躯体束缚法",
-      "icon_id": "9012203",
-      "sin_type": "嫉妒",
-      "damage_type": "",
-      "base_value": 4,
-      "coin_power": 5793,
-      "coin_count": 4,
-      "attack_level": 44,
-      "attack_weight": 1,
-      "is_guard": true,
-      "guard_type": "防御",
-      "importance": 0,
-      "coin_effects": [
-        "[使用时] 若自身的速度值高于目标，则对目标施加2层 斩击抗性弱化",
-        "[命中时] 对目标施加2层 易损",
-        "[命中时] 对目标施加3层 防御等级降低",
-        "[命中时] 下回合对目标施加2层 攻击等级降低",
-        "[命中时] 下回合对目标施加2层 防御等级降低",
-        "[命中时] 下回合使自身获得3层 迅捷",
-        "[命中时] 下回合对目标施加2层 斩击抗性弱化",
-        "[正面命中时] 下回合对目标施加2层 麻痹"
-      ]
-    },
-    {
-      "skill_name": "整理整顿",
-      "icon_id": "9012204",
-      "sin_type": "色欲",
-      "damage_type": "",
-      "base_value": 4,
-      "coin_power": 9,
+      "coin_power": 4,
       "coin_count": 2,
       "attack_level": 44,
       "attack_weight": 1,
@@ -109,26 +64,73 @@
       "guard_type": "",
       "importance": 0,
       "coin_effects": [
-        "[使用时] 若自身的速度值高于目标，则使本技能的拼点威力+3",
-        "[命中时] 使目标增加15级 流血 强度并对其施加3层 流血",
-        "[命中时] 下回合对目标施加2层 麻痹",
-        "[命中时] 若自身的速度值高于目标至少3点，则重复使用本技能（1次）"
+        "[使用时]若自身的速度值高于目标，则使自身恢复5点理智值",
+        "硬币1：[命中时]下回合使自身获得2层迅捷",
+        "[命中时]对目标施加2层麻痹",
+        "硬币2：[命中时]下回合对目标施加2层防御等级降低",
+        "[命中时]下回合对目标施加2层麻痹"
+      ]
+    },
+    {
+      "skill_name": "躯体束缚法",
+      "icon_id": "9012203",
+      "sin_type": "嫉妒",
+      "damage_type": "斩击",
+      "base_value": 4,
+      "coin_power": 4,
+      "coin_count": 3,
+      "attack_level": 44,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[使用时]若自身的速度值高于目标，则对目标施加2层斩击抗性弱化",
+        "硬币1：[命中时]对目标施加2层易损",
+        "[命中时]对目标施加3层防御等级降低",
+        "硬币2：[命中时]下回合对目标施加2层攻击等级降低",
+        "[命中时]下回合对目标施加2层防御等级降低",
+        "硬币3：[命中时]下回合使自身获得3层迅捷",
+        "[命中时]下回合对目标施加2层斩击抗性弱化",
+        "[正面命中时]下回合对目标施加2层麻痹"
+      ]
+    },
+    {
+      "skill_name": "整理整顿",
+      "icon_id": "9012204",
+      "sin_type": "色欲",
+      "damage_type": "突刺",
+      "base_value": 4,
+      "coin_power": 6,
+      "coin_count": 1,
+      "attack_level": 44,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[使用时]若自身的速度值高于目标，则使本技能的拼点威力+3",
+        "硬币1：[命中时]使目标增加15级流血强度并对其施加3层流血",
+        "[命中时]下回合对目标施加2层麻痹",
+        "[命中时]若自身的速度值高于目标至少3点，则重复使用本技能（1次）"
       ]
     },
     {
       "skill_name": "闪避",
       "icon_id": "9012205",
       "sin_type": "常规",
-      "damage_type": "",
+      "damage_type": "闪避",
       "base_value": 4,
-      "coin_power": 79,
+      "coin_power": 6,
       "coin_count": 1,
-      "attack_level": 0,
+      "attack_level": 44,
       "attack_weight": 1,
       "is_guard": true,
       "guard_type": "闪避",
       "importance": 0,
-      "coin_effects": []
+      "coin_effects": [
+        "[闪避成功时]使自身恢复5点理智值"
+      ]
     }
   ],
   "is_ally": false,

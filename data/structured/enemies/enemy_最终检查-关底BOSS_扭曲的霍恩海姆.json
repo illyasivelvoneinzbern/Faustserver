@@ -50,16 +50,15 @@
       "sin_type": "色欲",
       "damage_type": "打击",
       "base_value": 6,
-      "coin_power": 9,
-      "coin_count": 2,
+      "coin_power": 3,
+      "coin_count": 1,
       "attack_level": 50,
       "attack_weight": 1,
       "is_guard": false,
       "guard_type": "",
       "importance": 0,
       "coin_effects": [
-        "[使用时] 自身每带有5级 呼吸法 强度，使本技能的最终威力+1(最多+3)",
-        "[命中时] 使目标增加2级 震颤 强度"
+        "[使用时]自身每带有5级呼吸法强度，使本技能的最终威力+1(最多+3)"
       ]
     },
     {
@@ -68,16 +67,15 @@
       "sin_type": "暴食",
       "damage_type": "穿刺",
       "base_value": 6,
-      "coin_power": 854,
-      "coin_count": 2,
+      "coin_power": 3,
+      "coin_count": 1,
       "attack_level": 51,
       "attack_weight": 1,
       "is_guard": false,
       "guard_type": "",
       "importance": 0,
       "coin_effects": [
-        "[使用时] 自身每带有5级 呼吸法 强度，使本技能的最终威力+1(最多+5)",
-        "[命中时] 使目标增加3级 震颤 强度"
+        "[使用时]自身每带有5级呼吸法强度，使本技能的最终威力+1(最多+5)"
       ]
     },
     {
@@ -86,16 +84,15 @@
       "sin_type": "怠惰",
       "damage_type": "穿刺",
       "base_value": 3,
-      "coin_power": 9703,
-      "coin_count": 3,
+      "coin_power": 8,
+      "coin_count": 1,
       "attack_level": 51,
       "attack_weight": 1,
       "is_guard": false,
       "guard_type": "",
       "importance": 0,
       "coin_effects": [
-        "[使用时] 若自身的 呼吸法 强度不低于10级，则消耗 呼吸法 强度，每消耗3级 呼吸法 强度，使本技能的最终威力+2(最多+4) 不可摧毁的硬币",
-        "[命中时] 若目标的 震颤 层数不低于5层，则使目标 震颤引爆 并使其 震颤 层数减少1层"
+        "[使用时]若自身的呼吸法强度不低于10级，则消耗呼吸法强度，每消耗3级呼吸法强度，使本技能的最终威力+2(最多+4)"
       ]
     },
     {
@@ -104,15 +101,15 @@
       "sin_type": "傲慢",
       "damage_type": "穿刺",
       "base_value": 2,
-      "coin_power": 3,
-      "coin_count": 2,
+      "coin_power": 2,
+      "coin_count": 1,
       "attack_level": 52,
       "attack_weight": 1,
       "is_guard": false,
       "guard_type": "",
       "importance": 0,
       "coin_effects": [
-        "[使用时] 消耗自身一半的 呼吸法 强度与层数 - 使本技能的最终威力+(消耗的 呼吸法 强度与层数之和/2)(最多+20) - 使本技能造成的伤害+(消耗的 呼吸法 强度×2)%(最多+50%) - 使本技能暴击时造成的伤害+(消耗的 呼吸法 层数×4)%(最多+100%)"
+        "[使用时]消耗自身一半的呼吸法强度与层数"
       ]
     },
     {
@@ -121,15 +118,15 @@
       "sin_type": "忧郁",
       "damage_type": "防御",
       "base_value": 4,
-      "coin_power": 3,
+      "coin_power": 4,
       "coin_count": 1,
-      "attack_level": 0,
+      "attack_level": 50,
       "attack_weight": 1,
       "is_guard": false,
       "guard_type": "",
       "importance": 0,
       "coin_effects": [
-        "使用时自身每带有3级呼吸法强度，使本技能的最终威力+1(最多+5)"
+        "[使用时]自身每带有3级呼吸法强度，使本技能的最终威力+1(最多+5)"
       ]
     }
   ],

@@ -32,16 +32,17 @@
       "sin_type": "忧郁",
       "damage_type": "打击",
       "base_value": 4,
-      "coin_power": 3,
-      "coin_count": 2,
+      "coin_power": 7,
+      "coin_count": 1,
       "attack_level": 45,
       "attack_weight": 1,
       "is_guard": false,
       "guard_type": "",
       "importance": 0,
       "coin_effects": [
-        "[命中时] 对目标施加2层 流血",
-        "[命中时] 使自身增加10级 流血 强度并使自身获得1层 染血之手"
+        "[拼点失败]自身增加10级流血强度并对自身施加1层流血",
+        "硬币1：[命中时]对目标施加2层流血",
+        "[命中时]使自身增加10级流血强度并使自身获得1层染血之手"
       ]
     },
     {
@@ -50,18 +51,20 @@
       "sin_type": "暴怒",
       "damage_type": "打击",
       "base_value": 3,
-      "coin_power": 987,
-      "coin_count": 4,
+      "coin_power": 3,
+      "coin_count": 3,
       "attack_level": 45,
       "attack_weight": 1,
       "is_guard": false,
       "guard_type": "",
       "importance": 0,
       "coin_effects": [
-        "[使用时] 若目标的 流血 强度不低于4级，则使本技能造成的伤害+10%",
-        "[命中时] 对目标施加2层 流血",
-        "[命中时] 对目标施加2层 流血 若目标的 流血 强度不低于6级，则使自身获得1层 硬化血液",
-        "[命中时] 使自身增加20级 流血 强度并使自身获得2层 染血之手"
+        "[使用时]若目标的流血强度不低于4级，则使本技能造成的伤害+10%",
+        "硬币1：[命中时]对目标施加2层流血",
+        "硬币2：[命中时]对目标施加2层流血",
+        "若目标的流血强度不低于6级，则使自身获得1层硬化血液",
+        "硬币3：[命中时]对目标施加2层流血",
+        "[命中时]使自身增加20级流血强度并使自身获得2层染血之手"
       ]
     },
     {
@@ -70,16 +73,16 @@
       "sin_type": "色欲",
       "damage_type": "打击",
       "base_value": 6,
-      "coin_power": 9,
-      "coin_count": 2,
+      "coin_power": 6,
+      "coin_count": 1,
       "attack_level": 45,
       "attack_weight": 1,
-      "is_guard": true,
-      "guard_type": "反击",
+      "is_guard": false,
+      "guard_type": "",
       "importance": 0,
       "coin_effects": [
-        "[使用时] 自身每带有1层 硬化血液 ，使本技能的基础威力+1",
-        "[正面命中时] 使目标增加2级 流血 强度"
+        "[使用时]自身每带有1层硬化血液，使本技能的基础威力+1",
+        "硬币1：[正面命中时]使目标增加2级流血强度"
       ]
     },
     {
@@ -88,20 +91,17 @@
       "sin_type": "色欲",
       "damage_type": "打击",
       "base_value": 4,
-      "coin_power": 9,
-      "coin_count": 3,
+      "coin_power": 5,
+      "coin_count": 2,
       "attack_level": 45,
       "attack_weight": 1,
       "is_guard": false,
       "guard_type": "",
       "importance": 0,
       "coin_effects": [
-        "[使用时] 若目标的 流血 强度不低于6级，则使本技能的基础威力+1",
-        "[使用时] 通过本技能效果施加 流血 时，根据自身带有的 硬化血液 层数，额外使目标增加 破裂 强度",
-        "[攻击后] 消耗所有 硬化血液 与 染血之手",
-        "[命中时] 使目标增加4级 流血 强度",
-        "[命中时] 对其施加2层 流血",
-        "[命中时] 使自身恢复体力上限(目标的 流血 强度)%的体力(最多20%)"
+        "[使用时]若目标的流血强度不低于6级，则使本技能的基础威力+1",
+        "[使用时]通过本技能效果施加流血时，根据自身带有的硬化血液层数，额外使目标增加破裂强度",
+        "[攻击后]消耗所有硬化血液与染血之手"
       ]
     },
     {
@@ -110,16 +110,16 @@
       "sin_type": "暴怒",
       "damage_type": "打击",
       "base_value": 7,
-      "coin_power": 987,
-      "coin_count": 2,
+      "coin_power": 3,
+      "coin_count": 1,
       "attack_level": 45,
-      "attack_weight": 1,
+      "attack_weight": 3,
       "is_guard": false,
       "guard_type": "",
       "importance": 0,
       "coin_effects": [
-        "无法拼点",
-        "1硬币攻击结束时对目标造成10点色欲伤害，随后自身阵亡"
+        "[无法拼点]",
+        "硬币1：[硬币攻击结束时]对目标造成10点色欲伤害，随后自身阵亡"
       ]
     },
     {
@@ -128,16 +128,16 @@
       "sin_type": "色欲",
       "damage_type": "打击",
       "base_value": 6,
-      "coin_power": 9,
-      "coin_count": 2,
+      "coin_power": 6,
+      "coin_count": 1,
       "attack_level": 45,
       "attack_weight": 1,
-      "is_guard": true,
-      "guard_type": "反击",
+      "is_guard": false,
+      "guard_type": "",
       "importance": 0,
       "coin_effects": [
-        "[使用时] 自身每带有1层 硬化血液 ，使本技能的基础威力+1",
-        "[正面命中时] 使目标增加2级 流血 强度"
+        "[使用时]自身每带有1层硬化血液，使本技能的基础威力+1",
+        "硬币1：[正面命中时]使目标增加2级流血强度"
       ]
     }
   ],

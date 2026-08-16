@@ -32,16 +32,16 @@
       "sin_type": "暴食",
       "damage_type": "打击",
       "base_value": 17,
-      "coin_power": 854,
-      "coin_count": 2,
+      "coin_power": 8,
+      "coin_count": 1,
       "attack_level": 35,
       "attack_weight": 1,
       "is_guard": false,
       "guard_type": "",
       "importance": 0,
       "coin_effects": [
-        "[命中时] 目标每带有1级 流血 强度，使本硬币造成的伤害+5%",
-        "[命中时] 消耗目标所有 流血 强度"
+        "[战斗开始]下回合生成折射的四叶草。",
+        "[拼点失败]折射的四叶草以50%的体力生成"
       ]
     },
     {
@@ -50,16 +50,15 @@
       "sin_type": "傲慢",
       "damage_type": "打击",
       "base_value": 7,
-      "coin_power": 3,
-      "coin_count": 2,
+      "coin_power": 7,
+      "coin_count": 1,
       "attack_level": 35,
       "attack_weight": 1,
       "is_guard": false,
       "guard_type": "",
       "importance": 0,
       "coin_effects": [
-        "[命中时] 目标每带有1级 流血 强度，使自身恢复体力上限1%的体力",
-        "[命中时] 消耗目标1层 流血"
+        "[战斗开始]使所有部位获得3层守护"
       ]
     },
     {
@@ -68,17 +67,15 @@
       "sin_type": "色欲",
       "damage_type": "打击",
       "base_value": 6,
-      "coin_power": 9,
-      "coin_count": 2,
+      "coin_power": 7,
+      "coin_count": 1,
       "attack_level": 35,
       "attack_weight": 1,
       "is_guard": false,
       "guard_type": "",
       "importance": 0,
       "coin_effects": [
-        "[命中时] 若目标的 流血 层数不低于2层，则使目标增加5级 流血 强度",
-        "[命中时] 若目标的 流血 层数不低于2层，则对目标施加1层 麻痹",
-        "[命中时] 对目标施加4层 流血"
+        "硬币1：[命中时]若目标的流血层数不低于2层，则使目标增加5级流血强度"
       ]
     },
     {
@@ -87,16 +84,15 @@
       "sin_type": "色欲",
       "damage_type": "穿刺",
       "base_value": 5,
-      "coin_power": 9,
-      "coin_count": 2,
+      "coin_power": 8,
+      "coin_count": 1,
       "attack_level": 35,
       "attack_weight": 1,
       "is_guard": false,
       "guard_type": "",
       "importance": 0,
       "coin_effects": [
-        "[命中时] 使目标增加3级 流血 强度",
-        "[命中时] 若目标带有 流血 ，则下回合对目标施加1层 束缚"
+        "硬币1：[命中时]使目标增加3级流血强度"
       ]
     },
     {
@@ -105,17 +101,15 @@
       "sin_type": "暴食",
       "damage_type": "打击",
       "base_value": 5,
-      "coin_power": 854,
-      "coin_count": 3,
+      "coin_power": 6,
+      "coin_count": 2,
       "attack_level": 35,
       "attack_weight": 1,
       "is_guard": false,
       "guard_type": "",
       "importance": 0,
       "coin_effects": [
-        "[命中时] 使目标增加3级 流血 强度",
-        "[命中时] 若目标带有 流血 ，则使自身恢复25点体力",
-        "[命中时] 若目标的 流血 层数不低于2层，则使目标增加5级 流血 强度"
+        "硬币1：[命中时]使目标增加3级流血强度"
       ]
     }
   ],

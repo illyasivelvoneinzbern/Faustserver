@@ -34,74 +34,61 @@
       "skill_name": "直击心窝",
       "icon_id": "9009701",
       "sin_type": "嫉妒",
-      "damage_type": "",
+      "damage_type": "打击",
       "base_value": 5,
-      "coin_power": 5793,
-      "coin_count": 2,
+      "coin_power": 6,
+      "coin_count": 1,
       "attack_level": 46,
       "attack_weight": 1,
       "is_guard": false,
       "guard_type": "",
       "importance": 0,
       "coin_effects": [
-        "[正面命中时] 下回合对目标施加1层 麻痹"
+        "硬币1：[正面命中时]下回合对目标施加1层麻痹"
       ]
     },
     {
       "skill_name": "破坏颅骨",
       "icon_id": "9009703",
       "sin_type": "嫉妒",
-      "damage_type": "",
+      "damage_type": "打击",
       "base_value": 3,
-      "coin_power": 5793,
-      "coin_count": 5,
+      "coin_power": 7,
+      "coin_count": 2,
       "attack_level": 46,
       "attack_weight": 1,
       "is_guard": false,
       "guard_type": "",
       "importance": 0,
       "coin_effects": [
-        "[正面命中时] 下回合对目标施加1层 加算硬币弱化",
-        "[命中时] 下回合对目标施加1层 加算硬币弱化"
+        "硬币1：[正面命中时]下回合对目标施加1层加算硬币弱化",
+        "硬币2：[命中时]下回合对目标施加1层加算硬币弱化"
       ]
     },
     {
       "skill_name": "铭刻准备",
       "icon_id": "9009704",
       "sin_type": "常规",
-      "damage_type": "",
+      "damage_type": "防御",
       "base_value": 10,
-      "coin_power": 79,
+      "coin_power": 8,
       "coin_count": 1,
-      "attack_level": 0,
-      "attack_weight": 1,
-      "is_guard": false,
-      "guard_type": "",
-      "importance": 0,
-      "coin_effects": []
-    },
-    {
-      "skill_name": "报复",
-      "icon_id": "9009705",
-      "sin_type": "暴怒",
-      "damage_type": "",
-      "base_value": 12,
-      "coin_power": 987,
-      "coin_count": 2,
       "attack_level": 46,
       "attack_weight": 1,
       "is_guard": false,
       "guard_type": "",
       "importance": 0,
-      "coin_effects": []
+      "coin_effects": [
+        "[回合结束时]若自身还剩余护盾值，则下回合获得1层强壮"
+      ]
     },
     {
-      "skill_name": "加倍奉还",
-      "icon_id": "9009606",
-      "sin_type": "傲慢",
-      "damage_type": "",
-      "base_value": 8,
-      "coin_power": 3,
+      "skill_name": "报复",
+      "icon_id": "9009705",
+      "sin_type": "暴怒",
+      "damage_type": "打击",
+      "base_value": 12,
+      "coin_power": -2,
       "coin_count": 2,
       "attack_level": 46,
       "attack_weight": 1,
@@ -109,9 +96,28 @@
       "guard_type": "",
       "importance": 0,
       "coin_effects": [
-        "[命中时] 使目标混乱阀值前移30",
-        "[命中时] 固定使目标损失20体力",
-        "[正面命中时] 下回合对目标施加3层 麻痹"
+        "[拼点失败]下回合使自身获得1层伤害强化",
+        "硬币2：[命中时]下回合对目标施加2层麻痹",
+        "[反面命中时]使目标混乱阀值前移8"
+      ]
+    },
+    {
+      "skill_name": "加倍奉还",
+      "icon_id": "9009606",
+      "sin_type": "傲慢",
+      "damage_type": "打击",
+      "base_value": 8,
+      "coin_power": 5,
+      "coin_count": 1,
+      "attack_level": 46,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "硬币1：[命中时]使目标混乱阀值前移30",
+        "[命中时]固定使目标损失20体力",
+        "[正面命中时]下回合对目标施加3层麻痹"
       ]
     }
   ],

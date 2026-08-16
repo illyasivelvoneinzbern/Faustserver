@@ -32,65 +32,70 @@
       "skill_name": "锋锐剑击",
       "icon_id": "9011101",
       "sin_type": "色欲",
-      "damage_type": "",
+      "damage_type": "斩击",
       "base_value": 3,
-      "coin_power": 9,
-      "coin_count": 2,
+      "coin_power": 5,
+      "coin_count": 1,
       "attack_level": 52,
       "attack_weight": 1,
       "is_guard": false,
       "guard_type": "",
       "importance": 0,
       "coin_effects": [
-        "[命中时] 使目标增加3级 流血 强度"
+        "硬币1：[命中时]使目标增加3级流血强度"
       ]
     },
     {
       "skill_name": "割裂",
       "icon_id": "9011102",
       "sin_type": "色欲",
-      "damage_type": "",
+      "damage_type": "斩击",
       "base_value": 4,
-      "coin_power": 9,
-      "coin_count": 2,
+      "coin_power": 7,
+      "coin_count": 1,
       "attack_level": 52,
       "attack_weight": 1,
       "is_guard": false,
       "guard_type": "",
       "importance": 0,
       "coin_effects": [
-        "[命中时] 对目标施加2层 流血"
+        "硬币1：若目标带有流血，则使本硬币造成的伤害+30%",
+        "[命中时]对目标施加2层流血"
       ]
     },
     {
       "skill_name": "锐利之舞",
       "icon_id": "9011103",
       "sin_type": "暴怒",
-      "damage_type": "",
+      "damage_type": "斩击",
       "base_value": 2,
-      "coin_power": 987,
-      "coin_count": 4,
+      "coin_power": 3,
+      "coin_count": 3,
       "attack_level": 52,
       "attack_weight": 1,
       "is_guard": false,
       "guard_type": "",
       "importance": 0,
-      "coin_effects": []
+      "coin_effects": [
+        "[拼点胜利]下回合自身获得1层斩击伤害强化"
+      ]
     },
     {
       "skill_name": "闪避",
       "icon_id": "9011004",
       "sin_type": "常规",
-      "damage_type": "",
+      "damage_type": "闪避",
       "base_value": 3,
-      "coin_power": 79,
+      "coin_power": 5,
       "coin_count": 1,
-      "attack_level": 0,
+      "attack_level": 52,
       "attack_weight": 1,
       "is_guard": true,
       "guard_type": "闪避",
       "importance": 0,
-      "coin_effects": []
+      "coin_effects": [
+        "[闪避成功时]下回合自身获得1层斩击伤害强化（每回合最多1层）"
+      ]
     }
   ],
   "is_ally": false,
@@ -99,6 +104,7 @@
     "困难活动战斗5.5-14",
     "困难活动战斗5.5-15",
     "困难活动战斗5.5-16",
+    "困难活动战斗5.5-17",
     "困难活动战斗5.5-18",
     "困难活动战斗5.5-19",
     "困难活动战斗5.5-20",

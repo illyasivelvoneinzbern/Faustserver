@@ -34,15 +34,16 @@
       "sin_type": "暴食",
       "damage_type": "穿刺",
       "base_value": 2,
-      "coin_power": 854,
-      "coin_count": 2,
+      "coin_power": 2,
+      "coin_count": 1,
       "attack_level": 49,
       "attack_weight": 1,
       "is_guard": false,
       "guard_type": "",
       "importance": 0,
       "coin_effects": [
-        "[命中时] 使目标增加4级 破裂 强度并对其施加2层 破裂"
+        "优先指定带有{{状态2|荆棘套索|4=负面}}的目标",
+        "硬币1：[命中时]使目标增加4级{{状态2|破裂|4=负面}}强度并对其施加2层{{状态2|破裂|4=负面}}"
       ]
     }
   ],

@@ -34,12 +34,14 @@
       "base_value": 4,
       "coin_power": 3,
       "coin_count": 2,
-      "attack_level": 2,
+      "attack_level": 39,
       "attack_weight": 1,
       "is_guard": false,
       "guard_type": "",
       "importance": 0,
-      "coin_effects": []
+      "coin_effects": [
+        "[战斗开始]消耗1层绿色黏液"
+      ]
     },
     {
       "skill_name": "腐蚀黏液",
@@ -49,12 +51,14 @@
       "base_value": 4,
       "coin_power": 4,
       "coin_count": 2,
-      "attack_level": 2,
+      "attack_level": 39,
       "attack_weight": 1,
       "is_guard": false,
       "guard_type": "",
       "importance": 0,
-      "coin_effects": []
+      "coin_effects": [
+        "[战斗开始]消耗1层绿色黏液"
+      ]
     },
     {
       "skill_name": "麻痹黏液",
@@ -64,14 +68,15 @@
       "base_value": 5,
       "coin_power": 4,
       "coin_count": 2,
-      "attack_level": 2,
+      "attack_level": 39,
       "attack_weight": 1,
       "is_guard": false,
       "guard_type": "",
       "importance": 0,
       "coin_effects": [
-        "1命中时目标每带有1层剧毒，对其施加1层麻痹",
-        "命中时对目标施加2层幼虫"
+        "[战斗开始]消耗1层绿色黏液",
+        "硬币1：[命中时]目标每带有1层剧毒，对其施加1层麻痹",
+        "[命中时]对目标施加2层幼虫"
       ]
     },
     {
@@ -82,14 +87,15 @@
       "base_value": 50,
       "coin_power": 1,
       "coin_count": 2,
-      "attack_level": 2,
+      "attack_level": 39,
       "attack_weight": 1,
       "is_guard": false,
       "guard_type": "",
       "importance": 0,
       "coin_effects": [
-        "无法拼点无法改变拼点目标",
-        "1击杀目标时，使自身获得3层绿色黏液"
+        "[无法拼点][无法改变拼点目标]",
+        "优先攻击绿色黏液",
+        "硬币1：击杀目标时，使自身获得3层绿色黏液"
       ]
     },
     {
@@ -100,17 +106,18 @@
       "base_value": 4,
       "coin_power": 6,
       "coin_count": 2,
-      "attack_level": 2,
+      "attack_level": 39,
       "attack_weight": 1,
       "is_guard": false,
       "guard_type": "",
       "importance": 0,
       "coin_effects": [
-        "使用时对目标施加3层幼虫",
-        "1命中时对目标施加4层剧毒",
-        "正面命中时下回合对目标施加1层麻痹",
-        "2命中时对目标施加4层剧毒",
-        "正面命中时下回合对目标施加1层麻痹"
+        "[战斗开始]消耗2层绿色黏液",
+        "[使用时]对目标施加3层幼虫",
+        "硬币1：[命中时]对目标施加4层剧毒",
+        "[正面命中时]下回合对目标施加1层麻痹",
+        "硬币2：[命中时]对目标施加4层剧毒",
+        "[正面命中时]下回合对目标施加1层麻痹"
       ]
     },
     {
@@ -121,18 +128,18 @@
       "base_value": 15,
       "coin_power": 10,
       "coin_count": 1,
-      "attack_level": 2,
+      "attack_level": 39,
       "attack_weight": 5,
       "is_guard": false,
       "guard_type": "",
       "importance": 0,
       "coin_effects": [
-        "战斗开始自身每带有1层绿色黏液，使本技能的攻击容量+1",
-        "战斗开始使自身获得10层绿色黏液",
-        "1命中时对目标施加10层剧毒",
-        "命中时使目标失去7点理智值",
-        "命中时对目标施加3层幼虫",
-        "正面命中时下回合对目标施加1层麻痹与3层防御等级降低"
+        "[战斗开始]自身每带有1层绿色黏液，使本技能的攻击容量+1",
+        "[战斗开始]使自身获得10层绿色黏液",
+        "硬币1：[命中时]对目标施加10层剧毒",
+        "[命中时]使目标失去7点理智值",
+        "[命中时]对目标施加3层幼虫",
+        "[正面命中时]下回合对目标施加1层麻痹与3层防御等级降低"
       ]
     },
     {
@@ -143,13 +150,13 @@
       "base_value": 8,
       "coin_power": 8,
       "coin_count": 1,
-      "attack_level": 2,
+      "attack_level": 39,
       "attack_weight": 1,
-      "is_guard": false,
-      "guard_type": "",
+      "is_guard": true,
+      "guard_type": "闪避",
       "importance": 0,
       "coin_effects": [
-        "闪避成功时对目标施加5层剧毒"
+        "[闪避成功时]对目标施加5层剧毒"
       ]
     }
   ],

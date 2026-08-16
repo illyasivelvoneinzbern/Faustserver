@@ -1,0 +1,21 @@
+{
+  "id": "gift_9031_upgraded_2",
+  "title": "辉光变动仪",
+  "url": "https://limbuscompany.huijiwiki.com/wiki/E.G.O饰品",
+  "categories": [
+    "E.G.O饰品"
+  ],
+  "content": "波次的首个回合开始时，使全体敌方单位（或所有异想体部位）增加4级震颤强度，并对其施加4层震颤。\n使用嫉妒技能造成伤害时，使目标增加2级震颤强度。",
+  "source": "tabx",
+  "_structured": true,
+  "page_type": "ego_gift",
+  "gift_name": "辉光变动仪",
+  "rarity": 1,
+  "cost": "145",
+  "effect_types": "震颤",
+  "attack_type": "嫉妒",
+  "location": "镜像迷宫",
+  "stage": "upgraded_2",
+  "event": "事件-蒸汽运输机",
+  "_schema_version": 1
+}

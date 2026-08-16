@@ -1,0 +1,20 @@
+{
+  "id": "gift_9195_upgraded_3",
+  "title": "云纹鹤颈瓶",
+  "url": "https://limbuscompany.huijiwiki.com/wiki/E.G.O饰品",
+  "categories": [
+    "E.G.O饰品"
+  ],
+  "content": "斩击1技能的拼点威力+1，命中时对目标施加2层攻击等级降低。\n- 对于属于黑云会的友方单位，该效果同样适用于所有基础攻击技能(该效果不会叠加)\n回合开始时，使属于黑云会的友方单位获得1层威力提升，基础攻击技能命中并增加流血强度或施加流血层数时，使自身增加1~2级呼吸法强度(每回合每名友方单位最多8次)。",
+  "source": "tabx",
+  "_structured": true,
+  "page_type": "ego_gift",
+  "gift_name": "云纹鹤颈瓶",
+  "rarity": 3,
+  "cost": "264",
+  "effect_types": "斩击",
+  "attack_type": "暴食",
+  "location": "镜像迷宫",
+  "stage": "upgraded_3",
+  "_schema_version": 1
+}

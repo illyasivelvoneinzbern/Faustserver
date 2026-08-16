@@ -54,15 +54,15 @@
       "sin_type": "忧郁",
       "damage_type": "打击",
       "base_value": 12,
-      "coin_power": 3,
+      "coin_power": 12,
       "coin_count": 1,
       "attack_level": 60,
-      "attack_weight": 1,
+      "attack_weight": 7,
       "is_guard": false,
       "guard_type": "",
       "importance": 0,
       "coin_effects": [
-        "无法拼点"
+        "[无法拼点]"
       ]
     },
     {
@@ -71,16 +71,15 @@
       "sin_type": "暴食",
       "damage_type": "打击",
       "base_value": 6,
-      "coin_power": 854,
-      "coin_count": 2,
+      "coin_power": 6,
+      "coin_count": 1,
       "attack_level": 59,
-      "attack_weight": 1,
-      "is_guard": true,
-      "guard_type": "防御",
+      "attack_weight": 3,
+      "is_guard": false,
+      "guard_type": "",
       "importance": 0,
       "coin_effects": [
-        "[命中时] 若目标为友方单位，则召唤目标时每消耗4层 深海的生命力 ，本回合与下回合使其获得1层 防御等级提升 (最多5层)",
-        "[命中时] 若目标为敌方单位，则使其增加3级 沉沦 强度并对其施加2层 神经损伤"
+        "[无差别攻击]"
       ]
     },
     {
@@ -89,16 +88,15 @@
       "sin_type": "暴食",
       "damage_type": "打击",
       "base_value": 6,
-      "coin_power": 854,
-      "coin_count": 2,
+      "coin_power": 6,
+      "coin_count": 1,
       "attack_level": 59,
       "attack_weight": 1,
       "is_guard": false,
       "guard_type": "",
       "importance": 0,
       "coin_effects": [
-        "[命中时] 若目标为友方单位，则召唤目标时每消耗4层 深海的生命力 ，本回合与下回合使其获得1层 攻击等级提升 (最多5层)",
-        "[命中时] 若目标为敌方单位，则使其增加3级 沉沦 强度并对其施加2层 神经损伤"
+        "[无差别攻击]"
       ]
     },
     {
@@ -108,14 +106,14 @@
       "damage_type": "守备",
       "base_value": 3,
       "coin_power": 9,
-      "coin_count": 3,
-      "attack_level": 0,
+      "coin_count": 1,
+      "attack_level": 60,
       "attack_weight": 1,
       "is_guard": true,
-      "guard_type": "防御",
+      "guard_type": "守备",
       "importance": 0,
       "coin_effects": [
-        "可拼点防御"
+        "[可拼点防御]"
       ]
     },
     {
@@ -124,18 +122,15 @@
       "sin_type": "忧郁",
       "damage_type": "打击",
       "base_value": 3,
-      "coin_power": 3,
-      "coin_count": 7,
+      "coin_power": 4,
+      "coin_count": 3,
       "attack_level": 62,
-      "attack_weight": 1,
+      "attack_weight": 13,
       "is_guard": false,
       "guard_type": "",
       "importance": 0,
       "coin_effects": [
-        "[攻击后] 使自身获得100层 深海的生命力",
-        "[命中时] 若目标为友方单位，则使自身恢复其体力上限10%的体力",
-        "[命中时] 若目标为敌方单位，则对其施加2层 神经损伤 不可摧毁的硬币",
-        "[命中时] 若目标为敌方单位，则使其增加4级 沉沦 强度并对其施加4层 沉沦 与4层 神经损伤"
+        "[无差别攻击]"
       ]
     },
     {
@@ -144,19 +139,15 @@
       "sin_type": "嫉妒",
       "damage_type": "打击",
       "base_value": 4,
-      "coin_power": 5793,
-      "coin_count": 4,
+      "coin_power": 3,
+      "coin_count": 2,
       "attack_level": 61,
       "attack_weight": 1,
       "is_guard": false,
       "guard_type": "",
       "importance": 0,
       "coin_effects": [
-        "[使用时] 若自身的 深海的生命力 层数不低于50层，则消耗5层 深海的生命力 并令本技能施加的 神经损伤 层数额外+2层",
-        "[使用时] 目标每带有5层 神经损伤 ，消耗1层 深海的生命力 并使本技能的拼点威力+1(最多+5)",
-        "[命中时] 使目标增加2级 沉沦 强度",
-        "[命中时] 对目标施加2层 神经损伤 不可摧毁的硬币",
-        "[命中时] 对目标施加4层 神经损伤"
+        "[使用时] 若自身的深海的生命力层数不低于50层，则消耗5层深海的生命力并令本技能施加的神经损伤层数额外+2层"
       ]
     },
     {
@@ -166,18 +157,14 @@
       "damage_type": "打击",
       "base_value": 4,
       "coin_power": 3,
-      "coin_count": 4,
+      "coin_count": 2,
       "attack_level": 61,
       "attack_weight": 1,
       "is_guard": false,
       "guard_type": "",
       "importance": 0,
       "coin_effects": [
-        "[使用时] 若自身的 深海的生命力 层数不低于50层，则消耗4层 深海的生命力 并使本技能的硬币威力+1",
-        "[使用时] 目标每带有10层 神经损伤 ，消耗3层 深海的生命力 并使本技能的硬币威力+1(最多+2)",
-        "[命中时] 使目标增加2级 沉沦 强度",
-        "[命中时] 对目标施加2层 神经损伤 不可摧毁的硬币",
-        "[命中时] 对目标施加4层 神经损伤"
+        "[使用时]若自身的深海的生命力层数不低于50层，则消耗4层深海的生命力并使本技能的硬币威力+1"
       ]
     },
     {
@@ -187,15 +174,14 @@
       "damage_type": "打击",
       "base_value": 3,
       "coin_power": 9,
-      "coin_count": 3,
+      "coin_count": 1,
       "attack_level": 62,
-      "attack_weight": 1,
+      "attack_weight": 3,
       "is_guard": false,
       "guard_type": "",
       "importance": 0,
       "coin_effects": [
-        "[使用时] 主要目标每带有3层 神经损伤 ，使本技能的硬币威力+1(最多+9)",
-        "[命中时] 对目标施加6层 神经损伤"
+        "[使用时] 主要目标每带有3层神经损伤，使本技能的硬币威力+1(最多+9)"
       ]
     },
     {
@@ -204,18 +190,15 @@
       "sin_type": "忧郁",
       "damage_type": "打击",
       "base_value": 3,
-      "coin_power": 3,
-      "coin_count": 7,
+      "coin_power": 5,
+      "coin_count": 3,
       "attack_level": 63,
-      "attack_weight": 1,
+      "attack_weight": 7,
       "is_guard": false,
       "guard_type": "",
       "importance": 0,
       "coin_effects": [
-        "[攻击后] - 使自身获得100层 深海的生命力 - 使自身获得等同于自身体力上限20%的护盾 - 结束本回合",
-        "[命中时] 对目标施加2层 神经损伤 不可摧毁的硬币",
-        "[命中时] 对目标施加4层 神经损伤 不可摧毁的硬币",
-        "[命中时] 对目标施加6层 神经损伤"
+        "优先指定神经损伤层数最高的目标"
       ]
     }
   ],

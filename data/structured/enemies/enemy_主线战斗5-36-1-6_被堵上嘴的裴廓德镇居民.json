@@ -32,63 +32,9 @@
       "skill_name": "连续突刺",
       "icon_id": "9009901",
       "sin_type": "怠惰",
-      "damage_type": "",
+      "damage_type": "穿刺",
       "base_value": 3,
-      "coin_power": 9703,
-      "coin_count": 3,
-      "attack_level": 40,
-      "attack_weight": 1,
-      "is_guard": false,
-      "guard_type": "",
-      "importance": 0,
-      "coin_effects": [
-        "[正面命中时] 使目标增加2层 流血",
-        "[正面命中时] 使目标增加1层 流血"
-      ]
-    },
-    {
-      "skill_name": "刻下伤口",
-      "icon_id": "9009902",
-      "sin_type": "怠惰",
-      "damage_type": "",
-      "base_value": 3,
-      "coin_power": 9703,
-      "coin_count": 5,
-      "attack_level": 40,
-      "attack_weight": 1,
-      "is_guard": false,
-      "guard_type": "",
-      "importance": 0,
-      "coin_effects": [
-        "[命中时] 使目标增加1层 流血"
-      ]
-    },
-    {
-      "skill_name": "保卫小镇！",
-      "icon_id": "9009903",
-      "sin_type": "暴怒",
-      "damage_type": "",
-      "base_value": 12,
-      "coin_power": 987,
-      "coin_count": 5,
-      "attack_level": 40,
-      "attack_weight": 1,
-      "is_guard": false,
-      "guard_type": "",
-      "importance": 0,
-      "coin_effects": [
-        "[使用时] 使自身增加5级 呼吸法 强度",
-        "[命中时] 使自身获得1层 呼吸法",
-        "[命中时] 使自身恢复4点理智值"
-      ]
-    },
-    {
-      "skill_name": "捕获用标枪",
-      "icon_id": "9009904",
-      "sin_type": "傲慢",
-      "damage_type": "",
-      "base_value": 8,
-      "coin_power": 3,
+      "coin_power": 4,
       "coin_count": 2,
       "attack_level": 40,
       "attack_weight": 1,
@@ -96,24 +42,86 @@
       "guard_type": "",
       "importance": 0,
       "coin_effects": [
-        "[使用时] 使自身增加5级 呼吸法 强度并获得2层 呼吸法",
-        "[命中时] 下回合对目标施加2层 束缚 与2层 伤害弱化"
+        "硬币1：[正面命中时]使目标增加2层流血",
+        "硬币2：[正面命中时]使目标增加1层流血"
+      ]
+    },
+    {
+      "skill_name": "刻下伤口",
+      "icon_id": "9009902",
+      "sin_type": "怠惰",
+      "damage_type": "穿刺",
+      "base_value": 3,
+      "coin_power": 2,
+      "coin_count": 4,
+      "attack_level": 40,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[拼点胜利]使自身恢复5点理智值"
+      ]
+    },
+    {
+      "skill_name": "保卫小镇！",
+      "icon_id": "9009903",
+      "sin_type": "暴怒",
+      "damage_type": "穿刺",
+      "base_value": 12,
+      "coin_power": -2,
+      "coin_count": 4,
+      "attack_level": 40,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[使用时]使自身增加5级呼吸法强度",
+        "硬币1：[命中时]使自身获得1层呼吸法",
+        "[命中时]使自身恢复4点理智值",
+        "硬币2：[命中时]使自身获得1层呼吸法",
+        "[命中时]使自身恢复4点理智值",
+        "硬币3：[命中时]使自身获得1层呼吸法",
+        "[命中时]使自身恢复4点理智值",
+        "硬币4：[命中时]使自身获得1层呼吸法",
+        "[命中时]使自身恢复4点理智值"
+      ]
+    },
+    {
+      "skill_name": "捕获用标枪",
+      "icon_id": "9009904",
+      "sin_type": "傲慢",
+      "damage_type": "穿刺",
+      "base_value": 8,
+      "coin_power": 8,
+      "coin_count": 1,
+      "attack_level": 40,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[使用时]使自身增加5级呼吸法强度并获得2层呼吸法",
+        "硬币1：[命中时]下回合对目标施加2层束缚与2层伤害弱化"
       ]
     },
     {
       "skill_name": "闪避",
       "icon_id": "9009905",
       "sin_type": "怠惰",
-      "damage_type": "",
+      "damage_type": "闪避",
       "base_value": 5,
-      "coin_power": 9703,
+      "coin_power": 10,
       "coin_count": 1,
-      "attack_level": 0,
+      "attack_level": 42,
       "attack_weight": 1,
       "is_guard": true,
       "guard_type": "闪避",
       "importance": 0,
-      "coin_effects": []
+      "coin_effects": [
+        "[闪避成功时]下回合使自身获得1层攻击等级提升(最多3次)"
+      ]
     }
   ],
   "is_ally": false,

@@ -34,106 +34,121 @@
       "skill_name": "注射HP安瓿",
       "icon_id": "9005601",
       "sin_type": "暴食",
-      "damage_type": "",
+      "damage_type": "突刺",
       "base_value": 15,
-      "coin_power": 854,
+      "coin_power": 5,
       "coin_count": 1,
       "attack_level": 30,
       "attack_weight": 1,
       "is_guard": false,
       "guard_type": "",
       "importance": 0,
-      "coin_effects": []
+      "coin_effects": [
+        "[无法拼点][使用时]指定友方单位",
+        "使目标恢复等同于伤害量的体力。"
+      ]
     },
     {
       "skill_name": "注射防御安瓿",
       "icon_id": "9005602",
       "sin_type": "暴食",
-      "damage_type": "",
+      "damage_type": "突刺",
       "base_value": 1,
-      "coin_power": 854,
-      "coin_count": 1,
-      "attack_level": 30,
-      "attack_weight": 1,
-      "is_guard": true,
-      "guard_type": "防御",
-      "importance": 0,
-      "coin_effects": []
-    },
-    {
-      "skill_name": "紧急发射崩解安瓿",
-      "icon_id": "9005603",
-      "sin_type": "色欲",
-      "damage_type": "",
-      "base_value": 5,
-      "coin_power": 9,
+      "coin_power": 1,
       "coin_count": 1,
       "attack_level": 30,
       "attack_weight": 1,
       "is_guard": false,
       "guard_type": "",
       "importance": 0,
-      "coin_effects": []
+      "coin_effects": [
+        "[无法拼点][使用时]指定友方单位",
+        "使目标获得1层随机属性守护。"
+      ]
+    },
+    {
+      "skill_name": "紧急发射崩解安瓿",
+      "icon_id": "9005603",
+      "sin_type": "色欲",
+      "damage_type": "突刺",
+      "base_value": 5,
+      "coin_power": 6,
+      "coin_count": 1,
+      "attack_level": 30,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[使用时]下回合对目标施加2层麻痹",
+        "[正面命中]对目标施加2层崩解安瓿"
+      ]
     },
     {
       "skill_name": "弱点 弱点暴露",
       "icon_id": "9005704",
       "sin_type": "色欲",
-      "damage_type": "",
+      "damage_type": "突刺",
       "base_value": 3,
-      "coin_power": 9,
+      "coin_power": 2,
       "coin_count": 4,
       "attack_level": 30,
       "attack_weight": 1,
       "is_guard": false,
       "guard_type": "",
       "importance": 0,
-      "coin_effects": []
+      "coin_effects": [
+        "硬币2：[命中时]下回合对目标施加1层易损",
+        "硬币3：[正面命中]下回合对目标施加2层易损",
+        "硬币4：[正面命中]对目标施加3层崩解安瓿"
+      ]
     },
     {
       "skill_name": "请继续战斗。",
       "icon_id": "9005603",
       "sin_type": "色欲",
-      "damage_type": "",
+      "damage_type": "突刺",
       "base_value": 3,
-      "coin_power": 9,
-      "coin_count": 2,
+      "coin_power": 1,
+      "coin_count": 1,
       "attack_level": 30,
       "attack_weight": 1,
       "is_guard": false,
       "guard_type": "",
       "importance": 0,
       "coin_effects": [
-        "[命中时] 下回合使目标获得2层 伤害强化"
+        "[无法拼点]指定友方单位",
+        "硬币1：[命中时]下回合使目标获得2层伤害强化"
       ]
     },
     {
       "skill_name": "请不要爱惜身体。",
       "icon_id": "9005704",
       "sin_type": "色欲",
-      "damage_type": "",
+      "damage_type": "突刺",
       "base_value": 3,
-      "coin_power": 9,
-      "coin_count": 2,
+      "coin_power": 1,
+      "coin_count": 1,
       "attack_level": 30,
       "attack_weight": 1,
       "is_guard": false,
       "guard_type": "",
       "importance": 0,
       "coin_effects": [
-        "[命中时] 下回合使目标获得2层 强壮",
-        "[命中时] 下回合对目标施加2层 易损"
+        "[无法拼点]指定友方单位",
+        "硬币1：[命中时]下回合使目标获得2层强壮",
+        "[命中时]下回合对目标施加2层易损"
       ]
     },
     {
       "skill_name": "撤退",
       "icon_id": "9005705",
       "sin_type": "常规",
-      "damage_type": "",
+      "damage_type": "防御",
       "base_value": 8,
-      "coin_power": 79,
+      "coin_power": 5,
       "coin_count": 1,
-      "attack_level": 0,
+      "attack_level": 43,
       "attack_weight": 1,
       "is_guard": false,
       "guard_type": "",

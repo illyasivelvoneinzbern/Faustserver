@@ -40,17 +40,18 @@
       "sin_type": "色欲",
       "damage_type": "斩击",
       "base_value": 4,
-      "coin_power": 9,
-      "coin_count": 3,
+      "coin_power": 5,
+      "coin_count": 2,
       "attack_level": 54,
       "attack_weight": 1,
       "is_guard": false,
       "guard_type": "",
       "importance": 0,
       "coin_effects": [
-        "[使用时] 若目标的理智值低于0点，则使本技能的基础威力+2",
-        "[使用时] 使自身获得1层 本能",
-        "[命中时] 对目标造成7点理智伤害"
+        "[使用时]若目标的理智值低于0点，则使本技能的基础威力+2",
+        "[使用时]使自身获得1层本能",
+        "硬币1：[命中时]对目标造成7点理智伤害",
+        "硬币2：[命中时]对目标造成7点理智伤害"
       ]
     },
     {
@@ -59,7 +60,7 @@
       "sin_type": "色欲",
       "damage_type": "斩击",
       "base_value": 5,
-      "coin_power": 9,
+      "coin_power": 5,
       "coin_count": 1,
       "attack_level": 58,
       "attack_weight": 1,
@@ -67,8 +68,8 @@
       "guard_type": "",
       "importance": 0,
       "coin_effects": [
-        "使用时对目标造成10点理智伤害",
-        "使用时使自身获得2层本能"
+        "[使用时]对目标造成10点理智伤害",
+        "[使用时]使自身获得2层本能"
       ]
     },
     {
@@ -77,17 +78,20 @@
       "sin_type": "色欲",
       "damage_type": "突刺",
       "base_value": 6,
-      "coin_power": 9,
-      "coin_count": 3,
+      "coin_power": 10,
+      "coin_count": 1,
       "attack_level": 54,
       "attack_weight": 1,
       "is_guard": false,
       "guard_type": "",
       "importance": 0,
       "coin_effects": [
-        "[使用时] 若目标的理智值低于0点，则使本技能的基础威力+2",
-        "[使用时] 使自身获得5层 本能",
-        "[命中时] 对目标造成7点理智伤害"
+        "[使用时]若目标的理智值低于0点，则使本技能的基础威力+2",
+        "[使用时]使自身获得5层本能",
+        "[拼点失败]使本技能造成的伤害-80%，且本技能造成的伤害不会使目标陷入混乱",
+        "硬币1：{{状态2|不可摧毁的硬币|4=特殊}}",
+        "[命中时]对目标造成7点理智伤害",
+        "[未摧毁 - 命中时]使自身恢复体力上限10%的体力"
       ]
     },
     {
@@ -96,18 +100,18 @@
       "sin_type": "色欲",
       "damage_type": "突刺",
       "base_value": 4,
-      "coin_power": 9,
-      "coin_count": 3,
+      "coin_power": 5,
+      "coin_count": 2,
       "attack_level": 54,
       "attack_weight": 1,
       "is_guard": false,
       "guard_type": "",
       "importance": 0,
       "coin_effects": [
-        "[使用时] 若目标的理智值低于0点，则使本技能的基础威力+2",
-        "[使用时] 使自身获得1层 本能",
-        "[命中时] 对目标施加3层 流血",
-        "[命中时] 使目标增加10级 流血 强度"
+        "[使用时]若目标的理智值低于0点，则使本技能的基础威力+2",
+        "[使用时]使自身获得1层本能",
+        "硬币1：[命中时]对目标施加3层{{状态2|流血|4=负面}}",
+        "硬币2：[命中时]使目标增加10级{{状态2|流血|4=负面}}强度"
       ]
     }
   ],

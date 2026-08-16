@@ -1,0 +1,21 @@
+{
+  "id": "gift_9066_upgraded_3",
+  "title": "雾化吸入器",
+  "url": "https://limbuscompany.huijiwiki.com/wiki/E.G.O饰品",
+  "categories": [
+    "E.G.O饰品"
+  ],
+  "content": "波次的首个回合开始时，使全体友方单位增加5级呼吸法强度并获得5层呼吸法。\n激活傲慢共鸣时，战斗开始时，使全体友方单位增加3级呼吸法强度并获得3层呼吸法。\n- [不可重复触发] 胸痛 良秀E.G.O被动“息”触发时，该效果不会触发",
+  "source": "tabx",
+  "_structured": true,
+  "page_type": "ego_gift",
+  "gift_name": "雾化吸入器",
+  "rarity": 2,
+  "cost": "218",
+  "effect_types": "呼吸法",
+  "attack_type": "傲慢",
+  "location": "镜像迷宫",
+  "stage": "upgraded_3",
+  "event": "事件-往昔的睡袋",
+  "_schema_version": 1
+}

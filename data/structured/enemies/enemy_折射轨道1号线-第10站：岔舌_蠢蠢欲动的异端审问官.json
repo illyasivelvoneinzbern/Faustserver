@@ -33,14 +33,14 @@
       "damage_type": "穿刺",
       "base_value": 2,
       "coin_power": 9,
-      "coin_count": 2,
+      "coin_count": 1,
       "attack_level": 27,
       "attack_weight": 1,
       "is_guard": false,
       "guard_type": "",
       "importance": 0,
       "coin_effects": [
-        "[命中时] 下回合对目标施加3层 麻痹"
+        "硬币1：[命中时]下回合对目标施加3层麻痹"
       ]
     },
     {
@@ -49,7 +49,7 @@
       "sin_type": "色欲",
       "damage_type": "打击",
       "base_value": 4,
-      "coin_power": 9,
+      "coin_power": 2,
       "coin_count": 2,
       "attack_level": 27,
       "attack_weight": 1,
@@ -57,7 +57,7 @@
       "guard_type": "",
       "importance": 0,
       "coin_effects": [
-        "拼点失败使自身失去1层本能"
+        "[拼点失败]使自身失去1层本能"
       ]
     },
     {
@@ -66,16 +66,15 @@
       "sin_type": "色欲",
       "damage_type": "打击",
       "base_value": 3,
-      "coin_power": 9,
-      "coin_count": 4,
+      "coin_power": 3,
+      "coin_count": 3,
       "attack_level": 27,
       "attack_weight": 1,
       "is_guard": false,
       "guard_type": "",
       "importance": 0,
       "coin_effects": [
-        "[命中时] 下回合使目标增加2级 流血 强度并对其施加1层 麻痹",
-        "[命中时] 下回合使目标增加4级 流血 强度并对其施加2层 麻痹"
+        "自身每有一处手臂被破坏，使本技能的威力-1"
       ]
     },
     {
@@ -84,7 +83,7 @@
       "sin_type": "色欲",
       "damage_type": "打击",
       "base_value": 3,
-      "coin_power": 9,
+      "coin_power": 4,
       "coin_count": 2,
       "attack_level": 27,
       "attack_weight": 1,
@@ -92,7 +91,7 @@
       "guard_type": "",
       "importance": 0,
       "coin_effects": [
-        "[命中时] 使目标的混乱阈值前移10；下回合对目标施加5层 束缚"
+        "[拼点失败]使自身失去1层本能"
       ]
     },
     {
@@ -101,15 +100,15 @@
       "sin_type": "常规",
       "damage_type": "防御",
       "base_value": 6,
-      "coin_power": 79,
+      "coin_power": 2,
       "coin_count": 1,
-      "attack_level": 0,
+      "attack_level": 27,
       "attack_weight": 1,
       "is_guard": false,
       "guard_type": "",
       "importance": 0,
       "coin_effects": [
-        "战斗开始使自身获得1层本能"
+        "[战斗开始]使自身获得1层本能"
       ]
     },
     {
@@ -118,16 +117,15 @@
       "sin_type": "暴食",
       "damage_type": "打击",
       "base_value": 7,
-      "coin_power": 854,
-      "coin_count": 4,
+      "coin_power": -1,
+      "coin_count": 3,
       "attack_level": 27,
       "attack_weight": 1,
       "is_guard": false,
       "guard_type": "",
       "importance": 0,
       "coin_effects": [
-        "[使用时] 使自身失去12点体力并在下回合使自身增加5级 流血 强度",
-        "[命中时] 下回合对目标施加3层 剧毒"
+        "[使用时]使自身失去12点体力并在下回合使自身增加5级流血强度"
       ]
     },
     {
@@ -136,16 +134,15 @@
       "sin_type": "暴食",
       "damage_type": "打击",
       "base_value": 11,
-      "coin_power": 854,
-      "coin_count": 3,
+      "coin_power": -5,
+      "coin_count": 2,
       "attack_level": 27,
       "attack_weight": 1,
       "is_guard": false,
       "guard_type": "",
       "importance": 0,
       "coin_effects": [
-        "[使用时] 使自身失去12点体力并在下回合使自身获得3层 流血",
-        "[命中时] 下回合对目标施加6层 麻痹"
+        "[使用时]使自身失去12点体力并在下回合使自身获得3层流血"
       ]
     }
   ],

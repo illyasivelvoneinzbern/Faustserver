@@ -328,14 +328,16 @@ class EnemyDirectStore:
         bare = n.split(" - ")[-1].strip()
         return re.sub(r"[（(].*?[)）]", "", bare).strip()
 
-    def try_direct_answer(self, query: str) -> Optional[str]:
+    def try_direct_answer(self, query: str) -> "str | list[str] | None":
         """直答入口。
 
         1. 非启用 / 空查询 → None
         2. 穷举/列表查询（如"有哪些敌人"）→ None（避免误触发，回落 RAG 列表检索）
         3. 遍历索引敌方名，命中候选集合（支持双向包含 + 去空格规范化匹配）
-        4. 单候选 → 直答全部部位记录；多候选 → 取完全相等，否则返回候选提示清单
-           （P23：不再静默回落 RAG 导致"未收录"，而是列出候选询问用户）
+        4. 单候选 → 直答全部部位记录；多候选 → 取完全相等，否则返回**候选名列表**
+           （P23：不再静默回落 RAG 导致"未收录"；列表由 agent/core.py 统一
+           存会话待确认——用户回复数字编号即确定性作答，根治"回复数字被
+           误当饰品名查询"（如"1"命中"1B型八角螺栓"））
         5. 未命中 → None（回落 RAG）
         """
         if not self.enabled:
@@ -433,17 +435,11 @@ class EnemyDirectStore:
                 logger.info(f"敌方直答命中（完全相等）: {q} → {exact[0]}")
                 return format_enemy_full(name_index[exact[0]])
             # P23：多候选不再静默回落 RAG（否则会被 chain 硬短路为"未收录"），
-            # 改为返回候选清单，引导用户精确指定（对应目标3：多候选列举询问）。
-            lines = ["检测到多个同名敌方单位，请指定其中一个："]
-            for i, c in enumerate(candidates, 1):
-                stage = ""
-                recs = name_index[c]
-                if recs:
-                    stage = (recs[0].get("battle_stage") or "").strip()
-                suffix = f"（{stage}）" if stage else ""
-                lines.append(f"{i}. {c}{suffix}")
-            logger.info(f"敌方直答多候选（{len(candidates)}），返回候选清单: {candidates}")
-            return "\n".join(lines)
+            # 改为返回候选名列表，由 agent/core.py 统一"存会话待确认"——
+            # 用户回复数字编号 → 确定性作答；根治"回复数字被误当饰品名查询"
+            # （如"1"命中"1B型八角螺栓"）。
+            logger.info(f"敌方直答多候选（{len(candidates)}），返回候选列表: {candidates}")
+            return candidates
 
         logger.debug(f"敌方直答未命中，回落 RAG: {q[:30]}")
         return None

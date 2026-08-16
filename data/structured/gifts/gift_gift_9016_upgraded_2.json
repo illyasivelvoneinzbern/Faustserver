@@ -1,0 +1,21 @@
+{
+  "id": "gift_9016_upgraded_2",
+  "title": "绿光果实",
+  "url": "https://limbuscompany.huijiwiki.com/wiki/E.G.O饰品",
+  "categories": [
+    "E.G.O饰品"
+  ],
+  "content": "使用暴食技能对未陷入混乱的敌方单位造成伤害，或通过技能效果增加震颤强度时，随机使全体敌方单位（或所有异想体部位）增加共计6级震颤强度。",
+  "source": "tabx",
+  "_structured": true,
+  "page_type": "ego_gift",
+  "gift_name": "绿光果实",
+  "rarity": 1,
+  "cost": "146",
+  "effect_types": "震颤",
+  "attack_type": "暴食",
+  "location": "镜像迷宫",
+  "stage": "upgraded_2",
+  "event": "事件-绅士精灵",
+  "_schema_version": 1
+}

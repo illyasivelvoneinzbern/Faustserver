@@ -27,10 +27,12 @@ from rag.query_processor import classify_intent
 logger = logging.getLogger(__name__)
 
 # 版本显示名映射（stage 字段 → 中文标注）
+# P38：tabx 的 desc_1/desc_2 才是真强化阶段（强化Ⅰ / 强化Ⅱ）；
+# desc2/desc3 只是效果续段（已并入 base），不再产生 upgraded 版本。
 _STAGE_LABELS: dict[str, str] = {
     "base": "未强化",
-    "upgraded_2": "强化版·Ⅱ级",
-    "upgraded_3": "强化版·Ⅲ级",
+    "upgraded_2": "强化版·Ⅰ级",
+    "upgraded_3": "强化版·Ⅱ级",
 }
 # 稀有度显示（rarity 0~6 → 星数）
 _RARITY_STARS = ("☆", "★")
@@ -98,7 +100,7 @@ def format_gift_full(records: list[dict]) -> str:
     """确定性格式化：将同 title 的多版本记录聚合为规范纯文本。
 
     输出字段：名称 / 稀有度 / 获取地点 / 效果类型 / 罪孽属性 / 经费 / 特殊 / 事件 /
-    效果文本（按版本分节，base → 强化版·Ⅱ级 → 强化版·Ⅲ级）。
+    效果文本（按版本分节，base → 强化版·Ⅰ级 → 强化版·Ⅱ级）。
 
     Args:
         records: 同 title 的饰品记录列表（含多版本/多地点），按 base→upgraded 排序。

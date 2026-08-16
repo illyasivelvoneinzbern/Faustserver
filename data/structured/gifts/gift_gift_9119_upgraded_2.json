@@ -1,0 +1,21 @@
+{
+  "id": "gift_9119_upgraded_2",
+  "title": "破伞",
+  "url": "https://limbuscompany.huijiwiki.com/wiki/E.G.O饰品",
+  "categories": [
+    "E.G.O饰品"
+  ],
+  "content": "[第1、第2、第3顺位友方单位专属]\n增加破裂强度或施加破裂的攻击技能拼点胜利时，使目标增加2级破裂强度并对其施加2层破裂（每回合每名友方单位最多1次）\n若目标未带有破裂，则改为使其增加4级破裂强度并对其施加2层破裂。",
+  "source": "tabx",
+  "_structured": true,
+  "page_type": "ego_gift",
+  "gift_name": "破伞",
+  "rarity": 2,
+  "cost": "211",
+  "effect_types": "破裂",
+  "attack_type": "怠惰",
+  "location": "镜像迷宫",
+  "stage": "upgraded_2",
+  "event": "事件-流浪狐狸",
+  "_schema_version": 1
+}

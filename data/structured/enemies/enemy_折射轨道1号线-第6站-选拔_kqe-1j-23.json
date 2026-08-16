@@ -37,15 +37,15 @@
       "sin_type": "忧郁",
       "damage_type": "打击",
       "base_value": 5,
-      "coin_power": 3,
-      "coin_count": 1,
+      "coin_power": 4,
+      "coin_count": 2,
       "attack_level": 50,
       "attack_weight": 1,
       "is_guard": false,
       "guard_type": "",
       "importance": 0,
       "coin_effects": [
-        "使用时使自身获得4层充能"
+        "[使用时]使自身获得4层充能"
       ]
     },
     {
@@ -55,14 +55,14 @@
       "damage_type": "打击",
       "base_value": 7,
       "coin_power": 3,
-      "coin_count": 3,
+      "coin_count": 2,
       "attack_level": 50,
       "attack_weight": 1,
       "is_guard": false,
       "guard_type": "",
       "importance": 0,
       "coin_effects": [
-        "[命中时] 下回合对目标施加1层 加算硬币弱化"
+        "硬币1：[命中时]下回合对目标施加1层{{状态2|加算硬币弱化|4=负面}}"
       ]
     },
     {
@@ -71,16 +71,16 @@
       "sin_type": "嫉妒",
       "damage_type": "打击",
       "base_value": 8,
-      "coin_power": 5793,
-      "coin_count": 3,
+      "coin_power": 4,
+      "coin_count": 1,
       "attack_level": 50,
       "attack_weight": 1,
       "is_guard": false,
       "guard_type": "",
       "importance": 0,
       "coin_effects": [
-        "1{{状态2|不可摧毁的硬币|4=特殊}}",
-        "未摧毁 - 命中时下回合对目标施加3层{{状态2|麻痹|4=负面}}"
+        "硬币1：{{状态2|不可摧毁的硬币|4=特殊}}",
+        "[未摧毁 - 命中时]下回合对目标施加3层{{状态2|麻痹|4=负面}}"
       ]
     },
     {
@@ -89,16 +89,17 @@
       "sin_type": "嫉妒",
       "damage_type": "打击",
       "base_value": 16,
-      "coin_power": 5793,
-      "coin_count": 2,
+      "coin_power": 8,
+      "coin_count": 1,
       "attack_level": 50,
       "attack_weight": 1,
       "is_guard": false,
       "guard_type": "",
       "importance": 0,
       "coin_effects": [
-        "[使用时] 消耗所有 充能 层数",
-        "[命中时] 对目标施加 禁锢"
+        "[使用时]消耗所有充能层数",
+        "[拼点失败]下回合暴露出镇民之心",
+        "硬币1：[命中时]对目标施加{{状态2|禁锢|4=负面}}"
       ]
     },
     {
@@ -107,15 +108,16 @@
       "sin_type": "嫉妒",
       "damage_type": "打击",
       "base_value": 20,
-      "coin_power": 5793,
-      "coin_count": 2,
+      "coin_power": 5,
+      "coin_count": 1,
       "attack_level": 50,
       "attack_weight": 1,
       "is_guard": false,
       "guard_type": "",
       "importance": 0,
       "coin_effects": [
-        "[命中时] 使目标增加10级 烧伤 强度"
+        "[无法拼点]",
+        "硬币1：[命中时]使目标增加10级{{状态2|烧伤|4=负面}}强度"
       ]
     },
     {
@@ -124,16 +126,17 @@
       "sin_type": "嫉妒",
       "damage_type": "打击",
       "base_value": 7,
-      "coin_power": 5793,
-      "coin_count": 3,
+      "coin_power": 7,
+      "coin_count": 2,
       "attack_level": 50,
       "attack_weight": 1,
       "is_guard": false,
       "guard_type": "",
       "importance": 0,
       "coin_effects": [
-        "[使用时] 下回合使自身陷入混乱",
-        "[命中时] 消耗2层 充能 并使目标增加10级 烧伤 强度"
+        "[使用时]下回合使自身陷入混乱",
+        "硬币1：[命中时]消耗2层充能并使目标增加10级{{状态2|烧伤|4=负面}}强度",
+        "硬币2：[命中时]消耗2层充能并使目标增加10级{{状态2|烧伤|4=负面}}强度"
       ]
     },
     {
@@ -142,17 +145,17 @@
       "sin_type": "常规",
       "damage_type": "守备",
       "base_value": 10,
-      "coin_power": 79,
+      "coin_power": 2,
       "coin_count": 1,
-      "attack_level": 0,
+      "attack_level": 70,
       "attack_weight": 1,
-      "is_guard": false,
-      "guard_type": "",
+      "is_guard": true,
+      "guard_type": "守备",
       "importance": 0,
       "coin_effects": [
-        "使用时使自身获得5层守护",
-        "使用时下回合使自身获得10层打击伤害强化",
-        "回合结束时若自身未陷入混乱，则下回合对自身施加5层{{状态2|易损|4=负面}}"
+        "[使用时]使自身获得5层守护",
+        "[使用时]下回合使自身获得10层打击伤害强化",
+        "[回合结束时]若自身未陷入混乱，则下回合对自身施加5层{{状态2|易损|4=负面}}"
       ]
     },
     {
@@ -161,12 +164,12 @@
       "sin_type": "常规",
       "damage_type": "守备",
       "base_value": 4,
-      "coin_power": 79,
+      "coin_power": 1,
       "coin_count": 1,
-      "attack_level": 0,
+      "attack_level": 70,
       "attack_weight": 1,
-      "is_guard": false,
-      "guard_type": "",
+      "is_guard": true,
+      "guard_type": "守备",
       "importance": 0,
       "coin_effects": []
     },
@@ -176,16 +179,18 @@
       "sin_type": "嫉妒",
       "damage_type": "打击",
       "base_value": 16,
-      "coin_power": 5793,
-      "coin_count": 2,
+      "coin_power": 8,
+      "coin_count": 1,
       "attack_level": 50,
       "attack_weight": 1,
       "is_guard": false,
       "guard_type": "",
       "importance": 0,
       "coin_effects": [
-        "[使用时] 消耗所有 充能",
-        "[命中时] 对目标施加 禁锢"
+        "[无法拼点]",
+        "[无法改变拼点目标]",
+        "[使用时]消耗所有充能",
+        "硬币1：[命中时]对目标施加{{状态2|禁锢|4=负面}}"
       ]
     }
   ],

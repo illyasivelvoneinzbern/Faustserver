@@ -1,0 +1,22 @@
+{
+  "id": "gift_9812_upgraded_3",
+  "title": "交织的时间",
+  "url": "https://limbuscompany.huijiwiki.com/wiki/E.G.O饰品",
+  "categories": [
+    "E.G.O饰品"
+  ],
+  "content": "使敌方单位振幅转换或振幅纠缠时，使其震颤引爆(每回合每名友方单位最多3次)",
+  "source": "tabx",
+  "_structured": true,
+  "page_type": "ego_gift",
+  "gift_name": "交织的时间",
+  "rarity": 2,
+  "cost": "147",
+  "effect_types": "震颤",
+  "attack_type": "暴怒",
+  "location": "镜像迷宫",
+  "stage": "upgraded_3",
+  "special": "时间杀人时间复刻",
+  "event": "事件-日常生活",
+  "_schema_version": 1
+}

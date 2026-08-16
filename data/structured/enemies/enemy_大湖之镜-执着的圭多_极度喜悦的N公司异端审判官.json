@@ -37,15 +37,15 @@
       "sin_type": "傲慢",
       "damage_type": "打击",
       "base_value": 4,
-      "coin_power": 3,
-      "coin_count": 2,
+      "coin_power": 6,
+      "coin_count": 1,
       "attack_level": 37,
       "attack_weight": 1,
       "is_guard": false,
       "guard_type": "",
       "importance": 0,
       "coin_effects": [
-        "[正面命中时] 下回合对目标施加3层 束缚 和2层 虚弱"
+        "硬币1：[正面命中时] 下回合对目标施加3层束缚和2层虚弱"
       ]
     },
     {
@@ -54,15 +54,15 @@
       "sin_type": "常规",
       "damage_type": "防御",
       "base_value": 6,
-      "coin_power": 79,
+      "coin_power": 4,
       "coin_count": 1,
-      "attack_level": 0,
+      "attack_level": 41,
       "attack_weight": 1,
       "is_guard": false,
       "guard_type": "",
       "importance": 0,
       "coin_effects": [
-        "使用时使自身获得1层守护"
+        "[使用时]使自身获得1层守护"
       ]
     },
     {
@@ -71,7 +71,7 @@
       "sin_type": "色欲",
       "damage_type": "打击",
       "base_value": 4,
-      "coin_power": 9,
+      "coin_power": 5,
       "coin_count": 2,
       "attack_level": 37,
       "attack_weight": 1,
@@ -79,7 +79,8 @@
       "guard_type": "",
       "importance": 0,
       "coin_effects": [
-        "[命中时] 下回合使目标增加2级 流血 强度"
+        "[拼点胜利]使理智值最低的2名友方单位恢复15点理智值",
+        "硬币1：[命中时]下回合使目标增加2级流血强度"
       ]
     },
     {
@@ -88,7 +89,7 @@
       "sin_type": "暴怒",
       "damage_type": "打击",
       "base_value": 7,
-      "coin_power": 987,
+      "coin_power": -2,
       "coin_count": 3,
       "attack_level": 37,
       "attack_weight": 1,
@@ -96,8 +97,8 @@
       "guard_type": "",
       "importance": 0,
       "coin_effects": [
-        "[正面命中时] 对目标施加2层 N公司的尖钉",
-        "[命中时] 若目标的 N公司的尖钉 层数高于5层，则在下回合对其施加10层 虚弱 和10层 麻痹"
+        "硬币1：[正面命中时]对目标施加2层N公司的尖钉",
+        "硬币3：[命中时]若目标的N公司的尖钉层数高于5层，则在下回合对其施加10层虚弱和10层麻痹"
       ]
     },
     {
@@ -108,13 +109,13 @@
       "base_value": 4,
       "coin_power": 6,
       "coin_count": 1,
-      "attack_level": 0,
+      "attack_level": 40,
       "attack_weight": 1,
       "is_guard": false,
       "guard_type": "",
       "importance": 0,
       "coin_effects": [
-        "1正面命中时 下回合对目标施加3层{{状态2|束缚|4=负面}}和2层{{状态2|虚弱|4=负面}}"
+        "硬币1：[正面命中时] 下回合对目标施加3层束缚和2层虚弱"
       ]
     },
     {
@@ -125,13 +126,13 @@
       "base_value": 6,
       "coin_power": 4,
       "coin_count": 1,
-      "attack_level": 0,
+      "attack_level": 44,
       "attack_weight": 1,
       "is_guard": false,
       "guard_type": "",
       "importance": 0,
       "coin_effects": [
-        "使用时使自身获得1层守护"
+        "[使用时]使自身获得1层守护"
       ]
     },
     {
@@ -142,14 +143,14 @@
       "base_value": 4,
       "coin_power": 5,
       "coin_count": 2,
-      "attack_level": 0,
+      "attack_level": 40,
       "attack_weight": 1,
       "is_guard": false,
       "guard_type": "",
       "importance": 0,
       "coin_effects": [
-        "拼点胜利使理智值最低的2名友方单位恢复15点理智值",
-        "1命中时下回合使目标增加2级{{状态2|流血|4=负面}}强度"
+        "[拼点胜利]使理智值最低的2名友方单位恢复15点理智值",
+        "硬币1：[命中时]下回合使目标增加2级流血强度"
       ]
     },
     {
@@ -158,16 +159,16 @@
       "sin_type": "暴怒",
       "damage_type": "打击",
       "base_value": 7,
-      "coin_power": 2,
+      "coin_power": -2,
       "coin_count": 3,
-      "attack_level": 0,
+      "attack_level": 40,
       "attack_weight": 1,
       "is_guard": false,
       "guard_type": "",
       "importance": 0,
       "coin_effects": [
-        "1正面命中时对目标施加2层{{状态2|N公司的尖钉|3=尖钉|4=负面}}",
-        "3命中时若目标的{{状态2|N公司的尖钉|3=尖钉|4=负面}}层数高于5层，则在下回合对其施加10层{{状态2|虚弱|4=负面}}和10层{{状态2|麻痹|4=负面}}"
+        "硬币1：[正面命中时]对目标施加2层N公司的尖钉",
+        "硬币3：[命中时]若目标的N公司的尖钉层数高于5层，则在下回合对其施加10层虚弱和10层麻痹"
       ]
     }
   ],

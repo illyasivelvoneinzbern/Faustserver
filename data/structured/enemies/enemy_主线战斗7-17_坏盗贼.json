@@ -36,17 +36,18 @@
       "sin_type": "暴怒",
       "damage_type": "斩击",
       "base_value": 3,
-      "coin_power": 987,
-      "coin_count": 3,
+      "coin_power": 4,
+      "coin_count": 2,
       "attack_level": 44,
       "attack_weight": 1,
       "is_guard": false,
       "guard_type": "",
       "importance": 0,
       "coin_effects": [
-        "[使用时] 使自身增加2级 呼吸法 强度",
-        "[命中时] 使目标增加1级 流血 强度",
-        "[命中时] 对目标施加1层 麻痹"
+        "[使用时]使自身增加2级呼吸法强度",
+        "硬币1：[命中时]使目标增加1级{{状态2|流血|4=负面}}强度",
+        "硬币2：[命中时]对目标施加1层{{状态2|麻痹|4=负面}}",
+        "[暴击命中时]使本硬币造成的伤害+20%"
       ]
     },
     {
@@ -55,17 +56,18 @@
       "sin_type": "嫉妒",
       "damage_type": "穿刺",
       "base_value": 4,
-      "coin_power": 5793,
-      "coin_count": 3,
+      "coin_power": 5,
+      "coin_count": 2,
       "attack_level": 44,
       "attack_weight": 1,
-      "is_guard": true,
-      "guard_type": "防御",
+      "is_guard": false,
+      "guard_type": "",
       "importance": 0,
       "coin_effects": [
-        "[使用时] 使自身增加2级 呼吸法 强度",
-        "[命中时] 对目标施加1层 易损",
-        "[命中时] 对目标施加1层 防御等级降低"
+        "[使用时]使自身增加2级呼吸法强度",
+        "硬币1：[命中时]对目标施加1层{{状态2|易损|4=负面}}",
+        "硬币2：[命中时]对目标施加1层{{状态2|防御等级降低|4=负面}}",
+        "[暴击命中时]若目标带有{{状态2|弱者|4=负面}}，则使本硬币造成的伤害+30%"
       ]
     }
   ],

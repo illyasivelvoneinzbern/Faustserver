@@ -38,16 +38,16 @@
       "sin_type": "色欲",
       "damage_type": "斩击",
       "base_value": 5,
-      "coin_power": 9,
-      "coin_count": 2,
+      "coin_power": 6,
+      "coin_count": 1,
       "attack_level": 42,
       "attack_weight": 1,
       "is_guard": false,
       "guard_type": "",
       "importance": 0,
       "coin_effects": [
-        "[命中时] 对目标施加2层 流血",
-        "[正面命中时] 使目标增加3级 流血 强度"
+        "硬币1：[命中时]对目标施加2层流血",
+        "[正面命中时]使目标增加3级流血强度"
       ]
     },
     {
@@ -56,7 +56,7 @@
       "sin_type": "色欲",
       "damage_type": "斩击",
       "base_value": 5,
-      "coin_power": 9,
+      "coin_power": 4,
       "coin_count": 2,
       "attack_level": 42,
       "attack_weight": 1,
@@ -64,7 +64,7 @@
       "guard_type": "",
       "importance": 0,
       "coin_effects": [
-        "2命中时使目标增加4级流血强度并对目标施加3层流血"
+        "硬币2：[命中时]使目标增加4级流血强度并对目标施加3层流血"
       ]
     },
     {
@@ -73,7 +73,7 @@
       "sin_type": "暴怒",
       "damage_type": "斩击",
       "base_value": 3,
-      "coin_power": 987,
+      "coin_power": 4,
       "coin_count": 3,
       "attack_level": 42,
       "attack_weight": 1,
@@ -81,9 +81,7 @@
       "guard_type": "",
       "importance": 0,
       "coin_effects": [
-        "[攻击后] 下回合使自身获得1层 伤害强化",
-        "[命中时] 下回合使自身增加4级 呼吸法 强度",
-        "[命中时] 下回合对目标施加2层 易损"
+        "[攻击后]下回合使自身获得1层伤害强化"
       ]
     },
     {
@@ -92,15 +90,15 @@
       "sin_type": "常规",
       "damage_type": "防御",
       "base_value": 8,
-      "coin_power": 79,
+      "coin_power": 8,
       "coin_count": 1,
-      "attack_level": 0,
+      "attack_level": 42,
       "attack_weight": 1,
       "is_guard": false,
       "guard_type": "",
       "importance": 0,
       "coin_effects": [
-        "使用时下回合使自身增加2级呼吸法强度。",
+        "[使用时]下回合使自身增加2级呼吸法强度。",
         "回合结束时，根据自身带有的护盾，使自身恢复相应的体力。"
       ]
     },
@@ -110,7 +108,7 @@
       "sin_type": "傲慢",
       "damage_type": "斩击",
       "base_value": 6,
-      "coin_power": 3,
+      "coin_power": 8,
       "coin_count": 1,
       "attack_level": 42,
       "attack_weight": 1,
@@ -118,7 +116,7 @@
       "guard_type": "",
       "importance": 0,
       "coin_effects": [
-        "拼点胜利复制并使用目标级别为1~3的1个技能的硬币威力与硬币数"
+        "[拼点胜利]复制并使用目标级别为1~3的1个技能的硬币威力与硬币数"
       ]
     },
     {
@@ -129,14 +127,14 @@
       "base_value": 5,
       "coin_power": 6,
       "coin_count": 1,
-      "attack_level": 0,
+      "attack_level": 45,
       "attack_weight": 1,
       "is_guard": false,
       "guard_type": "",
       "importance": 0,
       "coin_effects": [
-        "1命中时对目标施加2层流血",
-        "正面命中时使目标增加3级流血强度"
+        "硬币1：[命中时]对目标施加2层流血",
+        "[正面命中时]使目标增加3级流血强度"
       ]
     },
     {
@@ -147,13 +145,13 @@
       "base_value": 5,
       "coin_power": 4,
       "coin_count": 2,
-      "attack_level": 0,
+      "attack_level": 45,
       "attack_weight": 1,
       "is_guard": false,
       "guard_type": "",
       "importance": 0,
       "coin_effects": [
-        "2命中时使目标增加4级流血强度并对目标施加3层流血"
+        "硬币2：[命中时]使目标增加4级流血强度并对目标施加3层流血"
       ]
     },
     {
@@ -164,13 +162,13 @@
       "base_value": 3,
       "coin_power": 4,
       "coin_count": 3,
-      "attack_level": 0,
+      "attack_level": 45,
       "attack_weight": 1,
       "is_guard": false,
       "guard_type": "",
       "importance": 0,
       "coin_effects": [
-        "攻击后下回合使自身获得1层伤害强化"
+        "[攻击后]下回合使自身获得1层伤害强化"
       ]
     },
     {
@@ -181,13 +179,13 @@
       "base_value": 8,
       "coin_power": 8,
       "coin_count": 1,
-      "attack_level": 0,
+      "attack_level": 45,
       "attack_weight": 1,
       "is_guard": false,
       "guard_type": "",
       "importance": 0,
       "coin_effects": [
-        "使用时下回合使自身增加2级呼吸法强度。",
+        "[使用时]下回合使自身增加2级呼吸法强度。",
         "回合结束时，根据自身带有的护盾，使自身恢复相应的体力。"
       ]
     },
@@ -199,13 +197,13 @@
       "base_value": 6,
       "coin_power": 8,
       "coin_count": 1,
-      "attack_level": 0,
+      "attack_level": 45,
       "attack_weight": 1,
       "is_guard": false,
       "guard_type": "",
       "importance": 0,
       "coin_effects": [
-        "拼点胜利复制并使用目标级别为1~3的1个技能的硬币威力与硬币数"
+        "[拼点胜利]复制并使用目标级别为1~3的1个技能的硬币威力与硬币数"
       ]
     }
   ],

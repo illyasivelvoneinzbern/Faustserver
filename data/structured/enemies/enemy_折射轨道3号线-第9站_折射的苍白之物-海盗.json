@@ -32,9 +32,9 @@
       "sin_type": "色欲",
       "damage_type": "斩击",
       "base_value": 10,
-      "coin_power": 4,
+      "coin_power": -4,
       "coin_count": 1,
-      "attack_level": 0,
+      "attack_level": 41,
       "attack_weight": 1,
       "is_guard": false,
       "guard_type": "",
@@ -49,17 +49,17 @@
       "sin_type": "色欲",
       "damage_type": "斩击",
       "base_value": 11,
-      "coin_power": 5,
+      "coin_power": -5,
       "coin_count": 2,
-      "attack_level": 0,
+      "attack_level": 41,
       "attack_weight": 1,
       "is_guard": false,
       "guard_type": "",
       "importance": 0,
       "coin_effects": [
-        "1命中时对目标施加1层苍白的噪音",
-        "2命中时对目标施加3层流血",
-        "命中时使目标增加3级流血强度"
+        "硬币1：[命中时]对目标施加1层苍白的噪音",
+        "硬币2：[命中时]对目标施加3层流血",
+        "[命中时]使目标增加3级流血强度"
       ]
     },
     {
@@ -68,15 +68,15 @@
       "sin_type": "暴怒",
       "damage_type": "斩击",
       "base_value": 13,
-      "coin_power": 6,
+      "coin_power": -6,
       "coin_count": 2,
-      "attack_level": 0,
+      "attack_level": 41,
       "attack_weight": 1,
       "is_guard": false,
       "guard_type": "",
       "importance": 0,
       "coin_effects": [
-        "拼点胜利对目标施加1层苍白的噪音"
+        "[拼点胜利]对目标施加1层苍白的噪音"
       ]
     },
     {
@@ -85,16 +85,16 @@
       "sin_type": "",
       "damage_type": "防御",
       "base_value": 15,
-      "coin_power": 5,
+      "coin_power": -5,
       "coin_count": 1,
-      "attack_level": 0,
+      "attack_level": 41,
       "attack_weight": 1,
       "is_guard": false,
       "guard_type": "",
       "importance": 0,
       "coin_effects": [
         "若自身带有护盾时受到攻击，则对攻击者施加1层苍白的噪音",
-        "回合结束时若自身在带有护盾，则下回合使自身增加3级呼吸法强度"
+        "[回合结束时]若自身在带有护盾，则下回合使自身增加3级呼吸法强度"
       ]
     }
   ],

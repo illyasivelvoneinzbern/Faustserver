@@ -32,8 +32,8 @@
       "sin_type": "暴食",
       "damage_type": "穿刺",
       "base_value": 2,
-      "coin_power": 854,
-      "coin_count": 1,
+      "coin_power": 1,
+      "coin_count": 2,
       "attack_level": 18,
       "attack_weight": 1,
       "is_guard": false,
@@ -47,7 +47,7 @@
       "sin_type": "暴食",
       "damage_type": "打击",
       "base_value": 5,
-      "coin_power": 854,
+      "coin_power": 5,
       "coin_count": 1,
       "attack_level": 18,
       "attack_weight": 1,
@@ -55,8 +55,8 @@
       "guard_type": "",
       "importance": 0,
       "coin_effects": [
-        "拼点失败对自身造成20点伤害",
-        "拼点失败使自身失去1层光辉"
+        "[拼点失败]对自身造成20点伤害",
+        "[拼点失败]使自身失去1层光辉"
       ]
     },
     {
@@ -65,9 +65,9 @@
       "sin_type": "常规",
       "damage_type": "防御",
       "base_value": 5,
-      "coin_power": 79,
+      "coin_power": 2,
       "coin_count": 1,
-      "attack_level": 0,
+      "attack_level": 18,
       "attack_weight": 1,
       "is_guard": false,
       "guard_type": "",
@@ -82,13 +82,13 @@
       "base_value": 3,
       "coin_power": 1,
       "coin_count": 2,
-      "attack_level": 0,
+      "attack_level": 22,
       "attack_weight": 1,
       "is_guard": false,
       "guard_type": "",
       "importance": 0,
       "coin_effects": [
-        "2命中时使自身的本体恢复3点体力"
+        "硬币2：[命中时]使自身的本体恢复3点体力"
       ]
     },
     {
@@ -99,14 +99,14 @@
       "base_value": 4,
       "coin_power": 8,
       "coin_count": 1,
-      "attack_level": 0,
+      "attack_level": 22,
       "attack_weight": 1,
       "is_guard": false,
       "guard_type": "",
       "importance": 0,
       "coin_effects": [
-        "1命中时下回合对目标施加3层流血",
-        "命中时下回合对目标施加2层易损"
+        "硬币1：[命中时]下回合对目标施加3层流血",
+        "[命中时]下回合对目标施加2层易损"
       ]
     }
   ],

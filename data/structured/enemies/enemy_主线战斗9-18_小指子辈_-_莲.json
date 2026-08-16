@@ -43,17 +43,17 @@
       "sin_type": "怠惰",
       "damage_type": "守备",
       "base_value": 4,
-      "coin_power": 9703,
+      "coin_power": 6,
       "coin_count": 1,
-      "attack_level": 0,
+      "attack_level": 65,
       "attack_weight": 1,
       "is_guard": true,
-      "guard_type": "闪避",
+      "guard_type": "守备",
       "importance": 0,
       "coin_effects": [
-        "战斗开始使自身增加8级呼吸法强度",
+        "[战斗开始]使自身增加8级呼吸法强度",
         "- 若使用本技能的行动槽为攻击技能的主要目标，则令该效果增加的呼吸法强度减少4级",
-        "闪避成功时使自身增加1级呼吸法强度"
+        "[闪避成功时]使自身增加1级呼吸法强度"
       ]
     },
     {
@@ -62,19 +62,19 @@
       "sin_type": "怠惰",
       "damage_type": "守备",
       "base_value": 4,
-      "coin_power": 9703,
-      "coin_count": 3,
-      "attack_level": 0,
+      "coin_power": 6,
+      "coin_count": 1,
+      "attack_level": 65,
       "attack_weight": 1,
       "is_guard": true,
-      "guard_type": "防御",
+      "guard_type": "守备",
       "importance": 0,
       "coin_effects": [
         "{{状态2|可拼点防御|4=特殊}}",
-        "战斗开始使自身获得4层呼吸法",
+        "[战斗开始]使自身获得4层呼吸法",
         "- 若使用本技能的行动槽为攻击技能的主要目标，则令该效果获得的呼吸法层数减少2层",
-        "拼点胜利使自身获得1层呼吸法",
-        "1{{状态2|不可摧毁的硬币|4=特殊}}"
+        "[拼点胜利]使自身获得1层呼吸法",
+        "硬币1：{{状态2|不可摧毁的硬币|4=特殊}}"
       ]
     },
     {
@@ -83,15 +83,17 @@
       "sin_type": "忧郁",
       "damage_type": "打击",
       "base_value": 4,
-      "coin_power": 3,
-      "coin_count": 2,
+      "coin_power": 6,
+      "coin_count": 1,
       "attack_level": 65,
       "attack_weight": 1,
       "is_guard": true,
       "guard_type": "反击",
       "importance": 0,
       "coin_effects": [
-        "[命中时] 使自身获得2层 呼吸法"
+        "[可拼点反击]",
+        "[拼点失败]使自身失去1层呼吸法",
+        "硬币1：[命中时]使自身获得2层呼吸法"
       ]
     },
     {
@@ -100,15 +102,15 @@
       "sin_type": "傲慢",
       "damage_type": "斩击",
       "base_value": 7,
-      "coin_power": 3,
-      "coin_count": 2,
+      "coin_power": 5,
+      "coin_count": 1,
       "attack_level": 66,
-      "attack_weight": 1,
+      "attack_weight": 3,
       "is_guard": false,
       "guard_type": "",
       "importance": 0,
       "coin_effects": [
-        "1使本硬币暴击时造成的伤害+50%"
+        "硬币1：使本硬币暴击时造成的伤害+50%"
       ]
     },
     {
@@ -117,15 +119,15 @@
       "sin_type": "傲慢",
       "damage_type": "斩击",
       "base_value": 6,
-      "coin_power": 3,
-      "coin_count": 2,
+      "coin_power": 6,
+      "coin_count": 1,
       "attack_level": 66,
-      "attack_weight": 1,
+      "attack_weight": 3,
       "is_guard": false,
       "guard_type": "",
       "importance": 0,
       "coin_effects": [
-        "[命中时] 下回合对目标施加1层 斩击易损"
+        "硬币1：[命中时]下回合对目标施加1层斩击易损"
       ]
     },
     {
@@ -134,15 +136,21 @@
       "sin_type": "暴怒",
       "damage_type": "斩击",
       "base_value": 8,
-      "coin_power": 987,
-      "coin_count": 3,
+      "coin_power": 9,
+      "coin_count": 1,
       "attack_level": 67,
-      "attack_weight": 1,
+      "attack_weight": 8,
       "is_guard": false,
       "guard_type": "",
       "importance": 0,
       "coin_effects": [
-        "[使用时] 自身每带有10层 月下青刀 ，使本技能的硬币威力+1"
+        "可无视速度值与本技能拼点",
+        "自身每带有1层{{状态2|月下青刀|4=特殊}}，使本技能造成的伤害+1%",
+        "[使用时]自身每带有10层{{状态2|月下青刀|4=特殊}}，使本技能的硬币威力+1",
+        "[拼点失败]使本技能造成的伤害-80%，且本技能造成的伤害不会使目标陷入混乱",
+        "硬币1：{{状态2|不可摧毁的硬币|4=特殊}}",
+        "使本硬币暴击时造成的伤害+50%",
+        "[未摧毁 - 命中时]对目标造成相当于本硬币最终伤害量的斩击伤害"
       ]
     },
     {
@@ -151,15 +159,15 @@
       "sin_type": "怠惰",
       "damage_type": "守备",
       "base_value": 5,
-      "coin_power": 9703,
-      "coin_count": 10,
-      "attack_level": 0,
+      "coin_power": 5,
+      "coin_count": 1,
+      "attack_level": 65,
       "attack_weight": 1,
-      "is_guard": false,
-      "guard_type": "",
+      "is_guard": true,
+      "guard_type": "守备",
       "importance": 0,
       "coin_effects": [
-        "战斗开始使自身获得(自身的{{状态2|月下青刀|4=特殊}}层数×10)点护盾"
+        "[战斗开始]使自身获得(自身的{{状态2|月下青刀|4=特殊}}层数×10)点护盾"
       ]
     },
     {
@@ -168,16 +176,17 @@
       "sin_type": "忧郁",
       "damage_type": "斩击",
       "base_value": 4,
-      "coin_power": 3,
-      "coin_count": 3,
+      "coin_power": 4,
+      "coin_count": 2,
       "attack_level": 65,
       "attack_weight": 1,
       "is_guard": false,
       "guard_type": "",
       "importance": 0,
       "coin_effects": [
-        "[命中时] 使自身获得1层 呼吸法",
-        "[命中时] 使自身增加2级 呼吸法 强度"
+        "[拼点胜利]使自身获得1层{{状态2|月下青刀|4=特殊}}",
+        "硬币1：[命中时]使自身获得1层呼吸法",
+        "硬币2：[命中时]使自身增加2级呼吸法强度"
       ]
     },
     {
@@ -187,15 +196,17 @@
       "damage_type": "斩击",
       "base_value": 4,
       "coin_power": 3,
-      "coin_count": 4,
+      "coin_count": 3,
       "attack_level": 65,
       "attack_weight": 1,
       "is_guard": false,
       "guard_type": "",
       "importance": 0,
       "coin_effects": [
-        "[命中时] 使自身获得1层 呼吸法",
-        "[命中时] 使自身增加1级 呼吸法 强度 使本硬币暴击时造成的伤害+30%"
+        "[拼点胜利]使自身获得1层{{状态2|月下青刀|4=特殊}}",
+        "硬币1：[命中时]使自身获得1层呼吸法",
+        "硬币2：[命中时]使自身增加1级呼吸法强度",
+        "硬币3：使本硬币暴击时造成的伤害+30%"
       ]
     }
   ],

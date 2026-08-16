@@ -1,0 +1,21 @@
+{
+  "id": "gift_9435_upgraded_3",
+  "title": "管家式束缚法",
+  "url": "https://limbuscompany.huijiwiki.com/wiki/E.G.O饰品",
+  "categories": [
+    "E.G.O饰品"
+  ],
+  "content": "回合开始时，对上回合解除混乱的敌方单位施加3层束缚\n现存体力比例最高的友方单位攻击命中时，若目标陷入混乱，则每层混乱阶段使造成的伤害+12.5%",
+  "source": "tabx",
+  "_structured": true,
+  "page_type": "ego_gift",
+  "gift_name": "管家式束缚法",
+  "rarity": 2,
+  "cost": "148",
+  "effect_types": "泛用",
+  "attack_type": "忧郁",
+  "location": "镜像迷宫",
+  "stage": "upgraded_3",
+  "special": "心意相悖",
+  "_schema_version": 1
+}

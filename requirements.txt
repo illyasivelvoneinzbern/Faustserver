@@ -15,6 +15,7 @@ langchain-text-splitters>=0.3.0
 chromadb>=0.5.0
 rank-bm25>=0.2.2          # BM25 关键词检索（混合检索必需）
 jieba>=0.42.1             # 中文分词（BM25 索引必需）
+rapidfuzz>=3.0            # 模糊匹配（P39 模糊搜索消歧，Levenshtein 系，比 difflib 快几十倍）
 
 # ── 爬虫 / Wiki 数据 ──
 playwright>=1.45.0        # 无头浏览器（绕过 CloudFlare，渲染 BuffPro 状态效果中文）

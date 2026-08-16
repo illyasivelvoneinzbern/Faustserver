@@ -1,0 +1,21 @@
+{
+  "id": "gift_9427_upgraded_3",
+  "title": "守镇鱼叉",
+  "url": "https://limbuscompany.huijiwiki.com/wiki/E.G.O饰品",
+  "categories": [
+    "E.G.O饰品"
+  ],
+  "content": "[第6顺位人格专属]\n回合结束时，若现存体力不高于体力上限的50%，则下回合使自身获得1层强壮\n回合结束时，若有友方单位陷入混乱，则下回合使自身的挑衅值+6，并使自身获得4层防御等级提升",
+  "source": "tabx",
+  "_structured": true,
+  "page_type": "ego_gift",
+  "gift_name": "守镇鱼叉",
+  "rarity": 2,
+  "cost": "202",
+  "effect_types": "泛用",
+  "attack_type": "怠惰",
+  "location": "镜像迷宫",
+  "stage": "upgraded_3",
+  "special": "伏行深渊",
+  "_schema_version": 1
+}

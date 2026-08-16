@@ -32,15 +32,15 @@
       "sin_type": "暴食",
       "damage_type": "打击",
       "base_value": 4,
-      "coin_power": 854,
-      "coin_count": 2,
+      "coin_power": 6,
+      "coin_count": 1,
       "attack_level": 49,
       "attack_weight": 1,
       "is_guard": false,
       "guard_type": "",
       "importance": 0,
       "coin_effects": [
-        "[命中时] 使目标增加5级 震颤 强度并对其施加2层 震颤"
+        "进行拼点时，使目标获得1层昂扬"
       ]
     },
     {
@@ -49,7 +49,7 @@
       "sin_type": "暴食",
       "damage_type": "打击",
       "base_value": 6,
-      "coin_power": 854,
+      "coin_power": 4,
       "coin_count": 2,
       "attack_level": 49,
       "attack_weight": 1,
@@ -57,7 +57,8 @@
       "guard_type": "",
       "importance": 0,
       "coin_effects": [
-        "进行拼点时，使目标获得2层昂扬"
+        "进行拼点时，使目标获得2层昂扬",
+        "优先指定带有震颤的单位"
       ]
     },
     {
@@ -66,16 +67,15 @@
       "sin_type": "暴食",
       "damage_type": "打击",
       "base_value": 6,
-      "coin_power": 854,
-      "coin_count": 2,
+      "coin_power": 8,
+      "coin_count": 1,
       "attack_level": 49,
       "attack_weight": 1,
       "is_guard": false,
       "guard_type": "",
       "importance": 0,
       "coin_effects": [
-        "[使用时] 使自身恢复体力上限5%的体力",
-        "[命中时] 下回合对目标施加2层 束缚"
+        "进行拼点时，使目标获得1层昂扬"
       ]
     },
     {
@@ -84,17 +84,18 @@
       "sin_type": "色欲",
       "damage_type": "穿刺",
       "base_value": 8,
-      "coin_power": 9,
-      "coin_count": 2,
+      "coin_power": 8,
+      "coin_count": 1,
       "attack_level": 49,
       "attack_weight": 1,
       "is_guard": false,
       "guard_type": "",
       "importance": 0,
       "coin_effects": [
-        "[命中时] 若目标带有 昂扬 ，则每层 昂扬 使本硬币造成的伤害+10%",
-        "[命中时] 若目标带有 醉意 则造成0点伤害，并使自身失去50点体力",
-        "[命中时] 消耗目标所有 昂扬 或 醉意"
+        "[无法拼点]",
+        "无法改变拼点目标",
+        "优先指定带有昂扬的目标",
+        "若目标未带有醉意，则使本技能的拼点威力+5"
       ]
     },
     {
@@ -103,17 +104,16 @@
       "sin_type": "色欲",
       "damage_type": "穿刺",
       "base_value": 16,
-      "coin_power": 9,
-      "coin_count": 2,
+      "coin_power": 8,
+      "coin_count": 1,
       "attack_level": 49,
       "attack_weight": 1,
       "is_guard": false,
       "guard_type": "",
       "importance": 0,
       "coin_effects": [
-        "[命中时] 若目标带有 昂扬 ，则每层 昂扬 使本硬币造成的伤害+100%",
-        "[命中时] 若目标带有 醉意 则造成0点伤害，并使自身失去50点体力",
-        "[命中时] 消耗目标所有 昂扬 或 醉意"
+        "优先指定带有昂扬的目标",
+        "若目标未带有醉意，则使本技能的拼点威力+5"
       ]
     },
     {
@@ -122,15 +122,15 @@
       "sin_type": "嫉妒",
       "damage_type": "打击",
       "base_value": 7,
-      "coin_power": 5793,
-      "coin_count": 2,
+      "coin_power": 8,
+      "coin_count": 1,
       "attack_level": 49,
       "attack_weight": 1,
       "is_guard": false,
       "guard_type": "",
       "importance": 0,
       "coin_effects": [
-        "[命中时] 攻击精灵酒时，下回合使自身恢复体力上限10%的体力并使自身获得2层 强壮 ，2层 迅捷 与2层 守护"
+        "优先攻击妖精酒"
       ]
     },
     {
@@ -139,15 +139,15 @@
       "sin_type": "常规",
       "damage_type": "闪避",
       "base_value": 10,
-      "coin_power": 79,
+      "coin_power": 7,
       "coin_count": 1,
-      "attack_level": 0,
+      "attack_level": 47,
       "attack_weight": 1,
-      "is_guard": false,
-      "guard_type": "",
+      "is_guard": true,
+      "guard_type": "闪避",
       "importance": 0,
       "coin_effects": [
-        "使用时下回合使自身获得1层束缚"
+        "[使用时]下回合使自身获得1层束缚"
       ]
     }
   ],

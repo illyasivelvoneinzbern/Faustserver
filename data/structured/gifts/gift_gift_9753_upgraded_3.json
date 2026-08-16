@@ -1,0 +1,21 @@
+{
+  "id": "gift_9753_upgraded_3",
+  "title": "节拍器",
+  "url": "https://limbuscompany.huijiwiki.com/wiki/E.G.O饰品",
+  "categories": [
+    "E.G.O饰品"
+  ],
+  "content": "回合数为奇数时，使全体友方单位获得1层伤害强化与1层攻击等级提升。回合数为偶数时，使全体友方单位获得1层守护与1层防御等级提升。",
+  "source": "tabx",
+  "_structured": true,
+  "page_type": "ego_gift",
+  "gift_name": "节拍器",
+  "rarity": 2,
+  "cost": "207",
+  "effect_types": "泛用",
+  "attack_type": "怠惰",
+  "location": "镜像迷宫",
+  "stage": "upgraded_3",
+  "special": "2号线",
+  "_schema_version": 1
+}

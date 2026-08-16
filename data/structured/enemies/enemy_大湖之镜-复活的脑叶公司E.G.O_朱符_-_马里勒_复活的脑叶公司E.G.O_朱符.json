@@ -37,16 +37,15 @@
       "sin_type": "色欲",
       "damage_type": "打击",
       "base_value": 4,
-      "coin_power": 9,
-      "coin_count": 2,
+      "coin_power": 7,
+      "coin_count": 1,
       "attack_level": 43,
       "attack_weight": 1,
       "is_guard": false,
       "guard_type": "",
       "importance": 0,
       "coin_effects": [
-        "[使用时] 使自身获得1层 纠缠的咒符",
-        "[命中时] 对目标施加3层 破裂"
+        "[使用时]使自身获得1层纠缠的咒符"
       ]
     },
     {
@@ -55,16 +54,15 @@
       "sin_type": "色欲",
       "damage_type": "打击",
       "base_value": 5,
-      "coin_power": 9,
-      "coin_count": 3,
+      "coin_power": 3,
+      "coin_count": 2,
       "attack_level": 43,
       "attack_weight": 1,
       "is_guard": false,
       "guard_type": "",
       "importance": 0,
       "coin_effects": [
-        "[使用时] 使自身获得2层 纠缠的咒符",
-        "[命中时] 对目标施加2层 破裂"
+        "[使用时]使自身获得2层纠缠的咒符"
       ]
     },
     {
@@ -73,7 +71,7 @@
       "sin_type": "色欲",
       "damage_type": "打击",
       "base_value": 6,
-      "coin_power": 9,
+      "coin_power": 3,
       "coin_count": 2,
       "attack_level": 43,
       "attack_weight": 1,
@@ -81,7 +79,7 @@
       "guard_type": "",
       "importance": 0,
       "coin_effects": [
-        "使用时使自身获得2层纠缠的咒符"
+        "[使用时]使自身获得2层纠缠的咒符"
       ]
     },
     {
@@ -90,17 +88,15 @@
       "sin_type": "色欲",
       "damage_type": "打击",
       "base_value": 3,
-      "coin_power": 9,
-      "coin_count": 4,
+      "coin_power": 3,
+      "coin_count": 3,
       "attack_level": 43,
       "attack_weight": 1,
       "is_guard": false,
       "guard_type": "",
       "importance": 0,
       "coin_effects": [
-        "[命中时] 对目标施加2层 破裂",
-        "[命中时] 下回合对目标施加2层 束缚",
-        "[正面命中时] 使目标增加5级 破裂 强度"
+        "[回合结束时]消耗全部纠缠的咒符"
       ]
     },
     {
@@ -111,13 +107,13 @@
       "base_value": 4,
       "coin_power": 7,
       "coin_count": 1,
-      "attack_level": 0,
+      "attack_level": 47,
       "attack_weight": 1,
       "is_guard": false,
       "guard_type": "",
       "importance": 0,
       "coin_effects": [
-        "使用时使自身获得1层纠缠的咒符"
+        "[使用时]使自身获得1层纠缠的咒符"
       ]
     },
     {
@@ -128,13 +124,13 @@
       "base_value": 5,
       "coin_power": 3,
       "coin_count": 2,
-      "attack_level": 0,
+      "attack_level": 47,
       "attack_weight": 1,
       "is_guard": false,
       "guard_type": "",
       "importance": 0,
       "coin_effects": [
-        "使用时使自身获得2层纠缠的咒符"
+        "[使用时]使自身获得2层纠缠的咒符"
       ]
     },
     {
@@ -145,13 +141,13 @@
       "base_value": 6,
       "coin_power": 3,
       "coin_count": 2,
-      "attack_level": 0,
+      "attack_level": 47,
       "attack_weight": 1,
       "is_guard": false,
       "guard_type": "",
       "importance": 0,
       "coin_effects": [
-        "使用时使自身获得2层纠缠的咒符"
+        "[使用时]使自身获得2层纠缠的咒符"
       ]
     },
     {
@@ -162,13 +158,13 @@
       "base_value": 3,
       "coin_power": 3,
       "coin_count": 3,
-      "attack_level": 0,
+      "attack_level": 47,
       "attack_weight": 1,
       "is_guard": false,
       "guard_type": "",
       "importance": 0,
       "coin_effects": [
-        "回合结束时消耗全部纠缠的咒符"
+        "[回合结束时]消耗全部纠缠的咒符"
       ]
     }
   ],

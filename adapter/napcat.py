@@ -144,6 +144,42 @@ def _build_media_segments(
     return segments
 
 
+def build_forward_nodes(
+    sections: list[str],
+    sender_name: str = "边狱巴士",
+    sender_uin: str = "",
+) -> list[dict]:
+    """把分节文本打包为 OneBot 合并转发（打包转发）node 段列表。
+
+    每个分节对应合并转发卡片中的一条"消息"（node）：
+    ``{"type": "node", "data": {"name": <昵称>, "uin": <QQ>, "content": [text段]}}``。
+    content 使用标准 OneBot v11 的 segment 数组形态（text 段），
+    兼容 NapCat 的 ``send_group_forward_msg`` / ``send_private_forward_msg``。
+
+    Args:
+        sections: 转发分节文本列表（每节一条 node）；空节会被过滤。
+        sender_name: node 显示昵称（合并转发卡片中的发送者名）。
+        sender_uin: node 显示 QQ（合并转发卡片中的发送者 QQ）。
+
+    Returns:
+        OneBot node 段列表；sections 全空时返回 []。
+    """
+    nodes: list[dict] = []
+    for sec in sections or []:
+        sec = (sec or "").strip()
+        if not sec:
+            continue
+        nodes.append({
+            "type": "node",
+            "data": {
+                "name": sender_name or "边狱巴士",
+                "uin": str(sender_uin or ""),
+                "content": [{"type": "text", "data": {"text": sec}}],
+            },
+        })
+    return nodes
+
+
 def _split_image_segments(segments: list[str], max_images_per_msg: int) -> list[list[str]]:
     """把 CQ 段按图片数量拆分为多条消息（单条超限时分多条发送）。
 
@@ -346,6 +382,46 @@ class NapCatAdapter:
             },
         })
 
+    async def send_group_forward_msg(self, group_id: int, nodes: list[dict]) -> bool:
+        """发送群聊合并转发（打包转发）消息。
+
+        Args:
+            group_id: 目标群号
+            nodes: OneBot node 段列表（见 :func:`build_forward_nodes`）
+
+        Returns:
+            回执确认成功返回 True；NapCat 明确拒绝返回 False。
+            回执超时按已发送处理（NapCat 合并转发已知不回执问题），
+            避免转发已送达后调用方回落重发原文。
+        """
+        return await self._send({
+            "action": "send_group_forward_msg",
+            "params": {
+                "group_id": group_id,
+                "messages": nodes,
+            },
+        }, timeout_means_sent=True)
+
+    async def send_private_forward_msg(self, user_id: int, nodes: list[dict]) -> bool:
+        """发送私聊合并转发（打包转发）消息。
+
+        Args:
+            user_id: 目标用户 QQ
+            nodes: OneBot node 段列表（见 :func:`build_forward_nodes`）
+
+        Returns:
+            回执确认成功返回 True；NapCat 明确拒绝返回 False。
+            回执超时按已发送处理（NapCat 合并转发已知不回执问题），
+            避免转发已送达后调用方回落重发原文。
+        """
+        return await self._send({
+            "action": "send_private_forward_msg",
+            "params": {
+                "user_id": user_id,
+                "messages": nodes,
+            },
+        }, timeout_means_sent=True)
+
     async def send_group_msg_media(
         self,
         group_id: int,
@@ -460,7 +536,12 @@ class NapCatAdapter:
             url=src, media_dir=media_dir, kind=kind, filename_hint=src
         )
 
-    async def _send(self, payload: dict, wait_ack: bool = True) -> bool:
+    async def _send(
+        self,
+        payload: dict,
+        wait_ack: bool = True,
+        timeout_means_sent: bool = False,
+    ) -> bool:
         """底层发送方法。
 
         通过 OneBot 的 ``echo`` 机制携带唯一标识发送，并等待 NapCat 返回回执，
@@ -471,9 +552,16 @@ class NapCatAdapter:
             payload: OneBot API 请求体。
             wait_ack: 是否等待回执（默认 True）。媒体等内部发送建议保持 True；
                       纯探测场景可传 False 以快速返回。
+            timeout_means_sent: 回执超时是否按「已发送」处理（默认 False）。
+                合并转发（send_*_forward_msg）存在 NapCat 已知问题：消息实际已
+                送达，但回执可能不返回/延迟返回（见 NapCat 合并转发超时问题）。
+                此时若按失败处理，调用方会回落重发一遍原文（用户看到"转发后又
+                发一遍"）。传 True 时超时按成功处理，避免重复发送；NapCat 明确
+                拒绝（retcode 非 0）仍返回 False。
 
         Returns:
-            发送且 NapCat 回执确认成功返回 True；未连接/回执失败/超时返回 False。
+            发送且 NapCat 回执确认成功返回 True；未连接/回执失败返回 False；
+            超时且 timeout_means_sent=True 时返回 True（视为已送达）。
         """
         if not self.ws or not self._connected:
             logger.warning("WebSocket 未连接，无法发送消息")
@@ -508,6 +596,12 @@ class NapCatAdapter:
             )
         except asyncio.TimeoutError:
             self._pending_acks.pop(echo, None)
+            if timeout_means_sent:
+                logger.warning(
+                    f"发送消息回执超时但按已发送处理 (echo={echo}, "
+                    f"action={payload.get('action')})，避免重复发送"
+                )
+                return True
             logger.warning(
                 f"发送消息回执超时 (echo={echo}, action={payload.get('action')})，"
                 f"可能被 NapCat/QQ 侧拒收（如超长消息）"

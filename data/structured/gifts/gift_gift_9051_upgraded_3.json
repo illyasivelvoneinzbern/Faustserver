@@ -1,0 +1,21 @@
+{
+  "id": "gift_9051_upgraded_3",
+  "title": "石冢",
+  "url": "https://limbuscompany.huijiwiki.com/wiki/E.G.O饰品",
+  "categories": [
+    "E.G.O饰品"
+  ],
+  "content": "友方单位通过技能效果获得的呼吸法强度变为2倍。\n\n若友方单位击杀了敌方单位，则下回合开始时使其增加4级呼吸法强度并获得2层呼吸法。(每回合最多1次)",
+  "source": "tabx",
+  "_structured": true,
+  "page_type": "ego_gift",
+  "gift_name": "石冢",
+  "rarity": 2,
+  "cost": "196",
+  "effect_types": "呼吸法",
+  "attack_type": "怠惰",
+  "location": "镜像迷宫",
+  "stage": "upgraded_3",
+  "event": "事件-石冢",
+  "_schema_version": 1
+}

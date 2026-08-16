@@ -37,7 +37,7 @@
       "base_value": 4,
       "coin_power": 6,
       "coin_count": 1,
-      "attack_level": 2,
+      "attack_level": 31,
       "attack_weight": 1,
       "is_guard": false,
       "guard_type": "",
@@ -54,7 +54,7 @@
       "base_value": 5,
       "coin_power": 6,
       "coin_count": 1,
-      "attack_level": 2,
+      "attack_level": 31,
       "attack_weight": 1,
       "is_guard": false,
       "guard_type": "",
@@ -71,13 +71,14 @@
       "base_value": 4,
       "coin_power": 3,
       "coin_count": 2,
-      "attack_level": 2,
+      "attack_level": 31,
       "attack_weight": 1,
       "is_guard": false,
       "guard_type": "",
       "importance": 0,
       "coin_effects": [
-        "进行拼点时，使目标获得2层昂扬"
+        "进行拼点时，使目标获得2层昂扬",
+        "优先指定带有震颤的单位"
       ]
     },
     {
@@ -88,13 +89,13 @@
       "base_value": 6,
       "coin_power": 8,
       "coin_count": 1,
-      "attack_level": 2,
+      "attack_level": 31,
       "attack_weight": 1,
       "is_guard": false,
       "guard_type": "",
       "importance": 0,
       "coin_effects": [
-        "无法拼点",
+        "[无法拼点]",
         "无法改变拼点目标",
         "优先指定带有昂扬的目标",
         "若目标未带有醉意，则使本技能的拼点威力+5"
@@ -108,7 +109,7 @@
       "base_value": 6,
       "coin_power": 10,
       "coin_count": 1,
-      "attack_level": 2,
+      "attack_level": 31,
       "attack_weight": 1,
       "is_guard": false,
       "guard_type": "",
@@ -126,12 +127,14 @@
       "base_value": 5,
       "coin_power": 7,
       "coin_count": 1,
-      "attack_level": 2,
+      "attack_level": 31,
       "attack_weight": 1,
       "is_guard": false,
       "guard_type": "",
       "importance": 0,
-      "coin_effects": []
+      "coin_effects": [
+        "优先指定精灵酒"
+      ]
     },
     {
       "skill_name": "想要这杯精灵酒吗？",
@@ -141,13 +144,13 @@
       "base_value": 5,
       "coin_power": 8,
       "coin_count": 1,
-      "attack_level": 0,
+      "attack_level": 31,
       "attack_weight": 1,
-      "is_guard": false,
-      "guard_type": "",
+      "is_guard": true,
+      "guard_type": "闪避",
       "importance": 0,
       "coin_effects": [
-        "使用时下回合使自身获得1层束缚"
+        "[使用时]下回合使自身获得1层束缚"
       ]
     }
   ],

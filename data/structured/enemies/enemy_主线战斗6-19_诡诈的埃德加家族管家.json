@@ -35,74 +35,80 @@
       "skill_name": "捉鼠",
       "icon_id": "9012301",
       "sin_type": "色欲",
-      "damage_type": "",
+      "damage_type": "斩击",
       "base_value": 4,
-      "coin_power": 9,
-      "coin_count": 3,
+      "coin_power": 3,
+      "coin_count": 2,
       "attack_level": 44,
       "attack_weight": 1,
       "is_guard": false,
       "guard_type": "",
       "importance": 0,
       "coin_effects": [
-        "[命中时] 使目标增加3级 流血 强度",
-        "[命中时] 下回合对目标施加2层 流血",
-        "[正面命中时] 下回合对目标施加1层 束缚"
+        "硬币1：[命中时]使目标增加3级流血强度",
+        "硬币2：[命中时]下回合对目标施加2层流血",
+        "[正面命中时]下回合对目标施加1层束缚"
       ]
     },
     {
       "skill_name": "扭动",
       "icon_id": "9012302",
       "sin_type": "嫉妒",
-      "damage_type": "",
+      "damage_type": "斩击",
       "base_value": 5,
-      "coin_power": 5793,
-      "coin_count": 3,
-      "attack_level": 44,
-      "attack_weight": 1,
-      "is_guard": true,
-      "guard_type": "防御",
-      "importance": 0,
-      "coin_effects": [
-        "[命中时] 使目标增加4级 流血 强度",
-        "[正面命中时] 对目标施加2层 流血",
-        "[命中时] 若目标的 流血 强度不低于5级，则下回合对其施加1层 麻痹"
-      ]
-    },
-    {
-      "skill_name": "割裂伤口",
-      "icon_id": "9012303",
-      "sin_type": "傲慢",
-      "damage_type": "",
-      "base_value": 4,
-      "coin_power": 3,
-      "coin_count": 5,
+      "coin_power": 4,
+      "coin_count": 2,
       "attack_level": 44,
       "attack_weight": 1,
       "is_guard": false,
       "guard_type": "",
       "importance": 0,
       "coin_effects": [
-        "[命中时] 使目标增加6级 流血 强度",
-        "[命中时] 对目标施加2层 流血",
-        "[正面命中时] 下回合对目标施加2层 束缚",
-        "[命中时] 若目标的 流血 强度不低于7级，则对其追加本硬币伤害量20%的伤害"
+        "[拼点胜利]若目标现存体力为100%，则使本技能造成的伤害+30%",
+        "[拼点失败]对自身施加3层防御等级降低",
+        "硬币1：[命中时]使目标增加4级流血强度",
+        "[正面命中时]对目标施加2层流血",
+        "硬币2：[命中时]若目标的流血强度不低于5级，则下回合对其施加1层麻痹"
+      ]
+    },
+    {
+      "skill_name": "割裂伤口",
+      "icon_id": "9012303",
+      "sin_type": "傲慢",
+      "damage_type": "斩击",
+      "base_value": 4,
+      "coin_power": 3,
+      "coin_count": 2,
+      "attack_level": 44,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[拼点胜利]使自身获得1层斩击威力提升",
+        "硬币1：[命中时]使目标增加6级流血强度",
+        "硬币2：[命中时]对目标施加2层流血",
+        "[正面命中时]下回合对目标施加2层束缚",
+        "硬币3：[命中时]若目标的流血强度不低于7级，则对其追加本硬币伤害量20%的伤害",
+        "硬币4：[命中时]若目标的流血强度不低于7级，则对其追加本硬币伤害量20%的伤害"
       ]
     },
     {
       "skill_name": "闪避",
       "icon_id": "9012304",
       "sin_type": "常规",
-      "damage_type": "",
+      "damage_type": "闪避",
       "base_value": 5,
-      "coin_power": 79,
+      "coin_power": 8,
       "coin_count": 1,
-      "attack_level": 0,
+      "attack_level": 45,
       "attack_weight": 1,
       "is_guard": true,
       "guard_type": "闪避",
       "importance": 0,
-      "coin_effects": []
+      "coin_effects": [
+        "[闪避成功时]使自身恢复3点理智值"
+      ]
     }
   ],
   "is_ally": false,

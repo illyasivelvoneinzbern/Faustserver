@@ -32,9 +32,9 @@
       "sin_type": "暴食",
       "damage_type": "打击",
       "base_value": 10,
-      "coin_power": 4,
+      "coin_power": -4,
       "coin_count": 2,
-      "attack_level": 0,
+      "attack_level": 36,
       "attack_weight": 1,
       "is_guard": false,
       "guard_type": "",
@@ -49,9 +49,9 @@
       "sin_type": "暴食",
       "damage_type": "穿刺",
       "base_value": 11,
-      "coin_power": 7,
+      "coin_power": -7,
       "coin_count": 1,
-      "attack_level": 0,
+      "attack_level": 36,
       "attack_weight": 1,
       "is_guard": false,
       "guard_type": "",
@@ -66,15 +66,15 @@
       "sin_type": "色欲",
       "damage_type": "穿刺",
       "base_value": 15,
-      "coin_power": 5,
+      "coin_power": -5,
       "coin_count": 2,
-      "attack_level": 0,
+      "attack_level": 36,
       "attack_weight": 1,
       "is_guard": false,
       "guard_type": "",
       "importance": 0,
       "coin_effects": [
-        "使用时若目标带有苍白的噪音，则使除自身以外现存体力最低的1名苍白的友方单位恢复30点体力"
+        "[使用时]若目标带有苍白的噪音，则使除自身以外现存体力最低的1名苍白的友方单位恢复30点体力"
       ]
     }
   ],

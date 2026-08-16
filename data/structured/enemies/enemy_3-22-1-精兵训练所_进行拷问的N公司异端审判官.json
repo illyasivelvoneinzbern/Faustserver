@@ -35,65 +35,73 @@
       "skill_name": "粗暴钉击",
       "icon_id": "9003502",
       "sin_type": "傲慢",
-      "damage_type": "",
+      "damage_type": "突刺",
       "base_value": 3,
       "coin_power": 3,
-      "coin_count": 4,
-      "attack_level": 23,
-      "attack_weight": 1,
-      "is_guard": false,
-      "guard_type": "",
-      "importance": 0,
-      "coin_effects": [
-        "[命中时] 下回合对目标施加1层 N公司的尖钉 并使其增加1级 流血 强度"
-      ]
-    },
-    {
-      "skill_name": "竟敢！",
-      "icon_id": "9003504",
-      "sin_type": "暴怒",
-      "damage_type": "",
-      "base_value": 3,
-      "coin_power": 987,
-      "coin_count": 2,
-      "attack_level": 23,
-      "attack_weight": 1,
-      "is_guard": false,
-      "guard_type": "",
-      "importance": 0,
-      "coin_effects": [
-        "[正面命中时] 下回合对目标施加1层 N公司的尖钉"
-      ]
-    },
-    {
-      "skill_name": "狂热的宣教",
-      "icon_id": "9003503",
-      "sin_type": "色欲",
-      "damage_type": "",
-      "base_value": 4,
-      "coin_power": 9,
-      "coin_count": 2,
-      "attack_level": 23,
-      "attack_weight": 1,
-      "is_guard": false,
-      "guard_type": "",
-      "importance": 0,
-      "coin_effects": []
-    },
-    {
-      "skill_name": "粗暴的异端审判",
-      "icon_id": "9003701",
-      "sin_type": "暴怒",
-      "damage_type": "",
-      "base_value": 6,
-      "coin_power": 987,
       "coin_count": 3,
       "attack_level": 23,
       "attack_weight": 1,
       "is_guard": false,
       "guard_type": "",
       "importance": 0,
-      "coin_effects": []
+      "coin_effects": [
+        "硬币1：[命中时]下回合对目标施加1层N公司的尖钉并使其增加1级流血强度",
+        "硬币2：[命中时]下回合对目标施加1层N公司的尖钉并使其增加1级流血强度",
+        "硬币3：[命中时]下回合对目标施加1层N公司的尖钉并使其增加1级流血强度"
+      ]
+    },
+    {
+      "skill_name": "竟敢！",
+      "icon_id": "9003504",
+      "sin_type": "暴怒",
+      "damage_type": "突刺",
+      "base_value": 3,
+      "coin_power": 8,
+      "coin_count": 1,
+      "attack_level": 23,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "硬币1：[正面命中时]下回合对目标施加1层N公司的尖钉"
+      ]
+    },
+    {
+      "skill_name": "狂热的宣教",
+      "icon_id": "9003503",
+      "sin_type": "色欲",
+      "damage_type": "突刺",
+      "base_value": 4,
+      "coin_power": 3,
+      "coin_count": 2,
+      "attack_level": 23,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "[拼点失败]下回合对自身施加2层易损",
+        "硬币2：[命中时]下回合对目标施加2层易损"
+      ]
+    },
+    {
+      "skill_name": "粗暴的异端审判",
+      "icon_id": "9003701",
+      "sin_type": "暴怒",
+      "damage_type": "打击",
+      "base_value": 6,
+      "coin_power": -1,
+      "coin_count": 3,
+      "attack_level": 23,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "硬币2：[正面命中时]对目标施加1层N公司的尖钉",
+        "硬币3：[命中时]若目标的N公司的尖钉层数高于5层，则在下回合对其施加10层束缚"
+      ]
     }
   ],
   "is_ally": false,

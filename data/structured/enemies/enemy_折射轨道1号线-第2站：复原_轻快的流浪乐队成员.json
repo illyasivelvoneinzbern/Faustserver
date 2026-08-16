@@ -34,15 +34,15 @@
       "sin_type": "嫉妒",
       "damage_type": "斩击",
       "base_value": 3,
-      "coin_power": 5793,
-      "coin_count": 1,
+      "coin_power": 2,
+      "coin_count": 2,
       "attack_level": 32,
       "attack_weight": 1,
       "is_guard": false,
       "guard_type": "",
       "importance": 0,
       "coin_effects": [
-        "使用时下回合使自身获得1层强壮"
+        "[使用时]下回合使自身获得1层强壮"
       ]
     },
     {
@@ -51,16 +51,16 @@
       "sin_type": "忧郁",
       "damage_type": "斩击",
       "base_value": 2,
-      "coin_power": 3,
-      "coin_count": 2,
+      "coin_power": 2,
+      "coin_count": 3,
       "attack_level": 32,
       "attack_weight": 1,
       "is_guard": false,
       "guard_type": "",
       "importance": 0,
       "coin_effects": [
-        "拼点胜利使目标失去5点理智值",
-        "3命中时下回合对目标施加2层虚弱"
+        "[拼点胜利]使目标失去5点理智值",
+        "硬币3：[命中时]下回合对目标施加2层虚弱"
       ]
     },
     {
@@ -69,8 +69,8 @@
       "sin_type": "忧郁",
       "damage_type": "突刺",
       "base_value": 2,
-      "coin_power": 3,
-      "coin_count": 1,
+      "coin_power": 1,
+      "coin_count": 4,
       "attack_level": 32,
       "attack_weight": 1,
       "is_guard": false,

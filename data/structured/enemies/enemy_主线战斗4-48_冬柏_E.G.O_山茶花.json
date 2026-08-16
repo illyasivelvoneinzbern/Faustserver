@@ -42,16 +42,18 @@
       "sin_type": "暴食",
       "damage_type": "斩击",
       "base_value": 4,
-      "coin_power": 854,
-      "coin_count": 3,
+      "coin_power": 2,
+      "coin_count": 2,
       "attack_level": 34,
       "attack_weight": 1,
       "is_guard": false,
       "guard_type": "",
       "importance": 0,
       "coin_effects": [
-        "[命中时] 使目标增加2级 破裂 强度",
-        "[命中时] 对目标施加1层 开花"
+        "硬币1：[命中时]使目标增加2级破裂强度",
+        "[命中时]对目标施加1层开花",
+        "硬币2：[命中时]使目标增加2级破裂强度",
+        "[命中时]对目标施加1层开花"
       ]
     },
     {
@@ -60,15 +62,16 @@
       "sin_type": "怠惰",
       "damage_type": "打击",
       "base_value": 7,
-      "coin_power": 9703,
-      "coin_count": 3,
+      "coin_power": 1,
+      "coin_count": 2,
       "attack_level": 37,
-      "attack_weight": 1,
+      "attack_weight": 3,
       "is_guard": false,
       "guard_type": "",
       "importance": 0,
       "coin_effects": [
-        "[命中时] 对目标施加2层 开花"
+        "硬币1：[命中时]对目标施加2层开花",
+        "硬币2：[命中时]对目标施加2层开花"
       ]
     },
     {
@@ -77,16 +80,17 @@
       "sin_type": "怠惰",
       "damage_type": "打击",
       "base_value": 7,
-      "coin_power": 9703,
-      "coin_count": 2,
+      "coin_power": 5,
+      "coin_count": 1,
       "attack_level": 35,
       "attack_weight": 1,
       "is_guard": false,
       "guard_type": "",
       "importance": 0,
       "coin_effects": [
-        "[命中时] 对目标施加3层 破裂",
-        "[命中时] 对目标施加3层 开花"
+        "下回合生成2朵花",
+        "硬币1：[命中时]对目标施加3层破裂",
+        "[命中时]对目标施加3层开花"
       ]
     },
     {
@@ -95,7 +99,7 @@
       "sin_type": "暴食",
       "damage_type": "穿刺",
       "base_value": 8,
-      "coin_power": 854,
+      "coin_power": 1,
       "coin_count": 3,
       "attack_level": 37,
       "attack_weight": 1,
@@ -103,8 +107,9 @@
       "guard_type": "",
       "importance": 0,
       "coin_effects": [
-        "[使用时] 对目标施加3层 开花",
-        "[命中时] 对目标施加1层 开花"
+        "[使用时]对目标施加3层开花",
+        "硬币1：[命中时]对目标施加1层开花",
+        "硬币2：[命中时]对目标施加1层开花"
       ]
     },
     {
@@ -113,17 +118,18 @@
       "sin_type": "怠惰",
       "damage_type": "打击",
       "base_value": 16,
-      "coin_power": 9703,
-      "coin_count": 2,
+      "coin_power": 4,
+      "coin_count": 1,
       "attack_level": 32,
-      "attack_weight": 1,
+      "attack_weight": 7,
       "is_guard": false,
       "guard_type": "",
       "importance": 0,
       "coin_effects": [
-        "[攻击后] 移除全部即将绽放的花",
-        "[命中时] 使目标损失15点理智值",
-        "[命中时] 对目标施加3层 开花"
+        "场上存活的每朵[[#即将绽放的花|即将绽放的花]]的最终威力+5",
+        "[攻击后]移除全部即将绽放的花",
+        "硬币1：[命中时]使目标损失15点理智值",
+        "[命中时]对目标施加3层开花"
       ]
     },
     {
@@ -132,7 +138,7 @@
       "sin_type": "傲慢",
       "damage_type": "斩击",
       "base_value": 5,
-      "coin_power": 3,
+      "coin_power": 6,
       "coin_count": 1,
       "attack_level": 34,
       "attack_weight": 1,
@@ -140,7 +146,7 @@
       "guard_type": "",
       "importance": 0,
       "coin_effects": [
-        "使用时下回合对目标施加对决"
+        "[使用时]下回合对目标施加对决"
       ]
     },
     {
@@ -149,16 +155,16 @@
       "sin_type": "傲慢",
       "damage_type": "斩击",
       "base_value": 8,
-      "coin_power": 3,
-      "coin_count": 1,
+      "coin_power": 1,
+      "coin_count": 3,
       "attack_level": 32,
       "attack_weight": 1,
       "is_guard": false,
       "guard_type": "",
       "importance": 0,
       "coin_effects": [
-        "战斗开始使自身获得10层守护",
-        "拼点失败使自身获得3层落英缤纷"
+        "[战斗开始]使自身获得10层守护",
+        "[拼点失败]使自身获得3层落英缤纷"
       ]
     },
     {
@@ -167,18 +173,20 @@
       "sin_type": "怠惰",
       "damage_type": "打击",
       "base_value": 20,
-      "coin_power": 9703,
-      "coin_count": 4,
+      "coin_power": 5,
+      "coin_count": 3,
       "attack_level": 42,
-      "attack_weight": 1,
+      "attack_weight": 15,
       "is_guard": false,
       "guard_type": "",
       "importance": 0,
       "coin_effects": [
-        "[命中时] 若目标处于 盛放 状态，则使目标陷入混乱并解除其 盛放 状态",
-        "[命中时] 对目标施加2层 易损",
-        "[命中时] 使目标增加5级 破裂 强度",
-        "[命中时] 对目标施加5层 破裂"
+        "[无法拼点]",
+        "若目标处于盛放状态则伤害量增加100%",
+        "硬币1：[命中时]若目标处于盛放状态，则使目标陷入混乱并解除其盛放状态",
+        "硬币2：[命中时]对目标施加2层易损",
+        "硬币3：[命中时]使目标增加5级破裂强度",
+        "[命中时]对目标施加5层破裂"
       ]
     },
     {
@@ -187,15 +195,15 @@
       "sin_type": "常规",
       "damage_type": "闪避",
       "base_value": 6,
-      "coin_power": 79,
+      "coin_power": 2,
       "coin_count": 1,
-      "attack_level": 0,
+      "attack_level": 35,
       "attack_weight": 1,
       "is_guard": true,
       "guard_type": "闪避",
       "importance": 0,
       "coin_effects": [
-        "闪避成功时对目标施加1层开花"
+        "[闪避成功时]对目标施加1层开花"
       ]
     },
     {
@@ -204,15 +212,15 @@
       "sin_type": "常规",
       "damage_type": "防御",
       "base_value": 20,
-      "coin_power": 79,
+      "coin_power": 10,
       "coin_count": 1,
-      "attack_level": 0,
+      "attack_level": 35,
       "attack_weight": 1,
       "is_guard": false,
       "guard_type": "",
       "importance": 0,
       "coin_effects": [
-        "战斗开始使自身获得5层守护"
+        "[战斗开始]使自身获得5层守护"
       ]
     },
     {
@@ -223,14 +231,14 @@
       "base_value": 7,
       "coin_power": 1,
       "coin_count": 1,
-      "attack_level": 0,
+      "attack_level": 32,
       "attack_weight": 1,
       "is_guard": false,
       "guard_type": "",
       "importance": 0,
       "coin_effects": [
-        "拼点胜利使自身获得10层守护",
-        "拼点失败使自身获得1层落英缤纷"
+        "[拼点胜利]使自身获得10层守护",
+        "[拼点失败]使自身获得1层落英缤纷"
       ]
     }
   ],

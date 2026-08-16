@@ -32,8 +32,8 @@
       "sin_type": "忧郁",
       "damage_type": "突刺",
       "base_value": 2,
-      "coin_power": 3,
-      "coin_count": 1,
+      "coin_power": 1,
+      "coin_count": 4,
       "attack_level": 32,
       "attack_weight": 1,
       "is_guard": false,
@@ -49,15 +49,15 @@
       "sin_type": "忧郁",
       "damage_type": "打击",
       "base_value": 4,
-      "coin_power": 3,
-      "coin_count": 2,
+      "coin_power": 8,
+      "coin_count": 1,
       "attack_level": 33,
       "attack_weight": 1,
       "is_guard": false,
       "guard_type": "",
       "importance": 0,
       "coin_effects": [
-        "[命中时] 下回合对目标施加3层 虚弱 和3层 麻痹"
+        "{{Color|#ff7e00|[拼点胜利]}}对目标造成10点理智伤害"
       ]
     },
     {
@@ -66,9 +66,9 @@
       "sin_type": "常规",
       "damage_type": "闪避",
       "base_value": 2,
-      "coin_power": 79,
+      "coin_power": 8,
       "coin_count": 1,
-      "attack_level": 0,
+      "attack_level": 28,
       "attack_weight": 1,
       "is_guard": true,
       "guard_type": "闪避",
@@ -83,40 +83,6 @@
       "sin_type": "嫉妒",
       "damage_type": "打击",
       "base_value": 3,
-      "coin_power": 5793,
-      "coin_count": 2,
-      "attack_level": 33,
-      "attack_weight": 1,
-      "is_guard": false,
-      "guard_type": "",
-      "importance": 0,
-      "coin_effects": [
-        "2{{Color|#93f13e|[命中时]}}下回合使自身获得2层强壮"
-      ]
-    },
-    {
-      "skill_name": "再迅速点~",
-      "icon_id": "9100404",
-      "sin_type": "嫉妒",
-      "damage_type": "打击",
-      "base_value": 4,
-      "coin_power": 5793,
-      "coin_count": 2,
-      "attack_level": 33,
-      "attack_weight": 1,
-      "is_guard": false,
-      "guard_type": "",
-      "importance": 0,
-      "coin_effects": [
-        "2{{Color|#93f13e|[命中时]}}下回合使自身获得2层忍耐"
-      ]
-    },
-    {
-      "skill_name": "皮纳塔派对~！",
-      "icon_id": "9100405",
-      "sin_type": "忧郁",
-      "damage_type": "打击",
-      "base_value": 3,
       "coin_power": 3,
       "coin_count": 2,
       "attack_level": 33,
@@ -125,8 +91,41 @@
       "guard_type": "",
       "importance": 0,
       "coin_effects": [
-        "[使用时] 若目标的理智值低于0，则根据其理智值按比例增加自身的暴击率",
-        "[正面命中时] 使自身的混乱阈值后移本硬币伤害量的50%"
+        "硬币2：{{Color|#93f13e|[命中时]}}下回合使自身获得2层强壮"
+      ]
+    },
+    {
+      "skill_name": "再迅速点~",
+      "icon_id": "9100404",
+      "sin_type": "嫉妒",
+      "damage_type": "打击",
+      "base_value": 4,
+      "coin_power": 2,
+      "coin_count": 2,
+      "attack_level": 33,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "硬币2：{{Color|#93f13e|[命中时]}}下回合使自身获得2层忍耐"
+      ]
+    },
+    {
+      "skill_name": "皮纳塔派对~！",
+      "icon_id": "9100405",
+      "sin_type": "忧郁",
+      "damage_type": "打击",
+      "base_value": 3,
+      "coin_power": 2,
+      "coin_count": 4,
+      "attack_level": 33,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "{{Color|#26cfff|[使用时]}}若目标的理智值低于0，则根据其理智值按比例增加自身的暴击率"
       ]
     }
   ],

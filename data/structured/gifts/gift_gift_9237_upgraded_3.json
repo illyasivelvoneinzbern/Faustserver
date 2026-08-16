@@ -1,0 +1,22 @@
+{
+  "id": "gift_9237_upgraded_3",
+  "title": "行进贝斯",
+  "url": "https://limbuscompany.huijiwiki.com/wiki/E.G.O饰品",
+  "categories": [
+    "E.G.O饰品"
+  ],
+  "content": "[第3、第4顺位友方单位专属]\n回合开始时，使自身获得1层亢奋\n攻击命中时，以25%的概率使自身与随机2名友方单位获得1层亢奋\n- 若该技能为增加流血或烧伤强度，或施加流血或烧伤层数的技能(包括特殊关键词)，则改为以100%的概率获得",
+  "source": "tabx",
+  "_structured": true,
+  "page_type": "ego_gift",
+  "gift_name": "行进贝斯",
+  "rarity": 2,
+  "cost": "200",
+  "effect_types": "流血",
+  "attack_type": "色欲",
+  "location": "镜像迷宫",
+  "stage": "upgraded_3",
+  "special": "琥珀色的黄昏",
+  "event": "事件-歌唱机",
+  "_schema_version": 1
+}

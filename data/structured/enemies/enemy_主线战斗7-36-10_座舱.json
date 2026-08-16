@@ -32,7 +32,7 @@
       "sin_type": "色欲",
       "damage_type": "防御",
       "base_value": 3,
-      "coin_power": 9,
+      "coin_power": 3,
       "coin_count": 1,
       "attack_level": 45,
       "attack_weight": 1,
@@ -49,17 +49,17 @@
       "sin_type": "暴怒",
       "damage_type": "打击",
       "base_value": 12,
-      "coin_power": 987,
-      "coin_count": 2,
+      "coin_power": 3,
+      "coin_count": 1,
       "attack_level": 45,
-      "attack_weight": 1,
+      "attack_weight": 3,
       "is_guard": false,
       "guard_type": "",
       "importance": 0,
       "coin_effects": [
-        "无法拼点",
-        "战斗开始对自身施加3层{{状态2|易损|4=负面}}",
-        "1硬币攻击结束时对目标造成10点色欲伤害，随后去除自身"
+        "[无法拼点]",
+        "[战斗开始]对自身施加3层易损",
+        "硬币1：[硬币攻击结束时]对目标造成10点色欲伤害，随后去除自身"
       ]
     }
   ],

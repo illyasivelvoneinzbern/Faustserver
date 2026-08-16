@@ -32,7 +32,7 @@
       "sin_type": "色欲",
       "damage_type": "斩击",
       "base_value": 4,
-      "coin_power": 9,
+      "coin_power": 6,
       "coin_count": 1,
       "attack_level": 32,
       "attack_weight": 1,
@@ -47,16 +47,16 @@
       "sin_type": "色欲",
       "damage_type": "打击",
       "base_value": 4,
-      "coin_power": 9,
-      "coin_count": 5,
+      "coin_power": 1,
+      "coin_count": 4,
       "attack_level": 32,
       "attack_weight": 1,
       "is_guard": false,
       "guard_type": "",
       "importance": 0,
       "coin_effects": [
-        "[命中时] 下回合对目标施加1层 束缚",
-        "[命中时] 下回合对目标施加1层 麻痹"
+        "硬币1：[命中时]下回合对目标施加1层束缚",
+        "[命中时]下回合对目标施加1层麻痹"
       ]
     },
     {
@@ -65,16 +65,16 @@
       "sin_type": "色欲",
       "damage_type": "打击",
       "base_value": 5,
-      "coin_power": 9,
-      "coin_count": 3,
+      "coin_power": -1,
+      "coin_count": 2,
       "attack_level": 32,
       "attack_weight": 1,
       "is_guard": false,
       "guard_type": "",
       "importance": 0,
       "coin_effects": [
-        "[命中时] 下回合对目标施加1层 束缚",
-        "[命中时] 下回合对目标施加1层 麻痹"
+        "硬币1：[命中时]下回合对目标施加1层束缚",
+        "[命中时]下回合对目标施加1层麻痹"
       ]
     },
     {
@@ -83,8 +83,8 @@
       "sin_type": "色欲",
       "damage_type": "斩击",
       "base_value": 4,
-      "coin_power": 9,
-      "coin_count": 1,
+      "coin_power": 6,
+      "coin_count": 2,
       "attack_level": 32,
       "attack_weight": 1,
       "is_guard": false,
@@ -98,16 +98,16 @@
       "sin_type": "暴怒",
       "damage_type": "穿刺",
       "base_value": 4,
-      "coin_power": 987,
-      "coin_count": 4,
+      "coin_power": 4,
+      "coin_count": 3,
       "attack_level": 32,
       "attack_weight": 1,
       "is_guard": false,
       "guard_type": "",
       "importance": 0,
       "coin_effects": [
-        "[命中时] 下回合对目标施加1层 易损",
-        "[命中时] 下回合使目标增加2级 流血 强度"
+        "硬币1：[命中时]下回合对目标施加1层易损",
+        "[命中时]下回合使目标增加2级流血强度"
       ]
     },
     {
@@ -116,16 +116,15 @@
       "sin_type": "暴怒",
       "damage_type": "穿刺",
       "base_value": 10,
-      "coin_power": 987,
-      "coin_count": 2,
+      "coin_power": 5,
+      "coin_count": 1,
       "attack_level": 32,
       "attack_weight": 1,
       "is_guard": false,
       "guard_type": "",
       "importance": 0,
       "coin_effects": [
-        "[使用时] 若目标的体力低于30%，则使本技能造成的伤害+100%",
-        "[正面命中时] 目标的体力低于30%时，直接击杀目标并使自身恢复30点体力 下回合使自身获得2层 强壮"
+        "{{Color|#26cfff|[使用时]}}若目标的体力低于30%，则使本技能造成的伤害+100%"
       ]
     },
     {
@@ -134,17 +133,15 @@
       "sin_type": "暴怒",
       "damage_type": "穿刺",
       "base_value": 15,
-      "coin_power": 987,
-      "coin_count": 2,
+      "coin_power": 5,
+      "coin_count": 1,
       "attack_level": 32,
-      "attack_weight": 1,
+      "attack_weight": 5,
       "is_guard": false,
       "guard_type": "",
       "importance": 0,
       "coin_effects": [
-        "[使用时] 若目标的体力低于30%，则使本技能造成的伤害+100%",
-        "[命中时] 下回合对目标施加5层 易损",
-        "[命中时] 下回合使目标增加5级 流血 强度"
+        "{{Color|#26cfff|[使用时]}}若目标的体力低于30%，则使本技能造成的伤害+100%"
       ]
     },
     {
@@ -153,9 +150,9 @@
       "sin_type": "常规",
       "damage_type": "防御",
       "base_value": 10,
-      "coin_power": 79,
+      "coin_power": 10,
       "coin_count": 1,
-      "attack_level": 0,
+      "attack_level": 32,
       "attack_weight": 1,
       "is_guard": false,
       "guard_type": "",

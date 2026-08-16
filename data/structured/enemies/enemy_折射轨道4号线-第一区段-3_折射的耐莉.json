@@ -36,13 +36,13 @@
       "base_value": 3,
       "coin_power": 3,
       "coin_count": 2,
-      "attack_level": 1,
+      "attack_level": 46,
       "attack_weight": 1,
       "is_guard": false,
       "guard_type": "",
       "importance": 0,
       "coin_effects": [
-        "使用时对目标施加1层管家的标记"
+        "[使用时]对目标施加1层管家的标记"
       ]
     },
     {
@@ -53,14 +53,14 @@
       "base_value": 3,
       "coin_power": 4,
       "coin_count": 2,
-      "attack_level": 1,
+      "attack_level": 46,
       "attack_weight": 1,
       "is_guard": false,
       "guard_type": "",
       "importance": 0,
       "coin_effects": [
-        "使用时若目标带有管家的标记，则使本技能的拼点威力+1",
-        "拼点胜利下回合使自身获得1层迅捷"
+        "[使用时]若目标带有管家的标记，则使本技能的拼点威力+1",
+        "[拼点胜利]下回合使自身获得1层迅捷"
       ]
     },
     {
@@ -71,14 +71,14 @@
       "base_value": 3,
       "coin_power": 4,
       "coin_count": 2,
-      "attack_level": 1,
+      "attack_level": 46,
       "attack_weight": 1,
       "is_guard": false,
       "guard_type": "",
       "importance": 0,
       "coin_effects": [
-        "使用时若目标带有管家的标记，则使本技能的拼点威力+1",
-        "拼点胜利下回合使自身获得1层迅捷"
+        "[使用时]若目标带有管家的标记，则使本技能的拼点威力+1",
+        "[拼点胜利]下回合使自身获得1层迅捷"
       ]
     },
     {
@@ -89,13 +89,13 @@
       "base_value": 4,
       "coin_power": 3,
       "coin_count": 3,
-      "attack_level": 1,
+      "attack_level": 47,
       "attack_weight": 1,
       "is_guard": false,
       "guard_type": "",
       "importance": 0,
       "coin_effects": [
-        "使用时若自身的速度值高于目标，则使本技能的拼点威力+2"
+        "[使用时]若自身的速度值高于目标，则使本技能的拼点威力+2"
       ]
     },
     {
@@ -106,13 +106,13 @@
       "base_value": 6,
       "coin_power": 10,
       "coin_count": 1,
-      "attack_level": 1,
+      "attack_level": 48,
       "attack_weight": 1,
       "is_guard": false,
       "guard_type": "",
       "importance": 0,
       "coin_effects": [
-        "使用时若目标带有管家的标记，则使本技能的拼点威力+10"
+        "[使用时]若目标带有管家的标记，则使本技能的拼点威力+10"
       ]
     },
     {
@@ -123,16 +123,16 @@
       "base_value": 6,
       "coin_power": 3,
       "coin_count": 4,
-      "attack_level": 1,
+      "attack_level": 47,
       "attack_weight": 1,
       "is_guard": false,
       "guard_type": "",
       "importance": 0,
       "coin_effects": [
-        "战斗开始根据带有管家的标记的敌方单位数，使本技能的攻击容量相应增加",
-        "使用时若自身的速度值高于目标至少3点，则对其施加2层斩击抗性弱化",
-        "使用时若目标带有管家的标记，则使本技能的拼点威力+8",
-        "回合结束时解除所有管家的标记"
+        "[战斗开始]根据带有管家的标记的敌方单位数，使本技能的攻击容量相应增加",
+        "[使用时]若自身的速度值高于目标至少3点，则对其施加2层斩击抗性弱化",
+        "[使用时]若目标带有管家的标记，则使本技能的拼点威力+8",
+        "[回合结束时]解除所有管家的标记"
       ]
     },
     {
@@ -143,14 +143,14 @@
       "base_value": 6,
       "coin_power": 10,
       "coin_count": 1,
-      "attack_level": 1,
+      "attack_level": 48,
       "attack_weight": 1,
       "is_guard": false,
       "guard_type": "",
       "importance": 0,
       "coin_effects": [
         "优先指定带有束缚法的目标",
-        "拼点失败若目标带有束缚法，则解除其束缚法"
+        "[拼点失败]若目标带有束缚法，则解除其束缚法"
       ]
     },
     {
@@ -161,14 +161,14 @@
       "base_value": 5,
       "coin_power": 3,
       "coin_count": 4,
-      "attack_level": 1,
+      "attack_level": 47,
       "attack_weight": 1,
       "is_guard": false,
       "guard_type": "",
       "importance": 0,
       "coin_effects": [
-        "使用时若目标带有束缚法，则使本技能的基础威力+5",
-        "使用时若目标带有束缚法，则对其施加1层束缚法"
+        "[使用时]若目标带有束缚法，则使本技能的基础威力+5",
+        "[使用时]若目标带有束缚法，则对其施加1层束缚法"
       ]
     },
     {
@@ -179,14 +179,14 @@
       "base_value": 6,
       "coin_power": 8,
       "coin_count": 1,
-      "attack_level": 1,
+      "attack_level": 39,
       "attack_weight": 1,
-      "is_guard": false,
-      "guard_type": "",
+      "is_guard": true,
+      "guard_type": "闪避",
       "importance": 0,
       "coin_effects": [
-        "闪避成功时使自身恢复5点理智值",
-        "闪避成功时仅在下回合使自身增加1个行动槽（最多1次）"
+        "[闪避成功时]使自身恢复5点理智值",
+        "[闪避成功时]仅在下回合使自身增加1个行动槽（最多1次）"
       ]
     },
     {
@@ -197,7 +197,7 @@
       "base_value": 8,
       "coin_power": 10,
       "coin_count": 1,
-      "attack_level": 1,
+      "attack_level": 48,
       "attack_weight": 1,
       "is_guard": false,
       "guard_type": "",

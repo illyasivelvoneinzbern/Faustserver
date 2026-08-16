@@ -1,0 +1,21 @@
+{
+  "id": "gift_9047_upgraded_2",
+  "title": "荆棘套索",
+  "url": "https://limbuscompany.huijiwiki.com/wiki/E.G.O饰品",
+  "categories": [
+    "E.G.O饰品"
+  ],
+  "content": "回合结束时，使全体敌方单位增加与其（速度值+1）相等的破裂强度。\n激活色欲完全共鸣时，在战斗开始时随机使1名敌方单位增加4级破裂强度并对其施加3层破裂。",
+  "source": "tabx",
+  "_structured": true,
+  "page_type": "ego_gift",
+  "gift_name": "荆棘套索",
+  "rarity": 2,
+  "cost": "187",
+  "effect_types": "破裂",
+  "attack_type": "色欲",
+  "location": "镜像迷宫",
+  "stage": "upgraded_2",
+  "event": "事件-玫瑰猎人",
+  "_schema_version": 1
+}

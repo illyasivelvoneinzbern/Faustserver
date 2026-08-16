@@ -32,15 +32,15 @@
       "sin_type": "暴食",
       "damage_type": "穿刺",
       "base_value": 4,
-      "coin_power": 854,
-      "coin_count": 3,
+      "coin_power": 3,
+      "coin_count": 2,
       "attack_level": 41,
       "attack_weight": 1,
       "is_guard": false,
       "guard_type": "",
       "importance": 0,
       "coin_effects": [
-        "[命中时] 使目标增加3级 破裂 强度"
+        "本攻击技能命中时，下回合使自身获得体力恢复提升"
       ]
     },
     {
@@ -49,17 +49,15 @@
       "sin_type": "暴食",
       "damage_type": "穿刺",
       "base_value": 2,
-      "coin_power": 854,
-      "coin_count": 5,
+      "coin_power": 3,
+      "coin_count": 4,
       "attack_level": 41,
       "attack_weight": 1,
       "is_guard": false,
       "guard_type": "",
       "importance": 0,
       "coin_effects": [
-        "[使用时] 若目标带有 破裂 ，则使本技能的基础威力+1",
-        "[命中时] 对目标施加2层 破裂",
-        "[正面命中时] 使本体与部位恢复3点体力"
+        "[使用时]若目标带有破裂，则使本技能的基础威力+1"
       ]
     },
     {
@@ -68,17 +66,16 @@
       "sin_type": "暴食",
       "damage_type": "穿刺",
       "base_value": 3,
-      "coin_power": 854,
-      "coin_count": 5,
+      "coin_power": 3,
+      "coin_count": 4,
       "attack_level": 41,
       "attack_weight": 1,
-      "is_guard": true,
-      "guard_type": "防御",
+      "is_guard": false,
+      "guard_type": "",
       "importance": 0,
       "coin_effects": [
-        "[使用时] 若目标的 破裂 强度不低于5级，则对其施加2层 防御等级降低 自身每带有1层 体力恢复提升 ，使本技能的基础威力+1（最多+3）",
-        "[命中时] 对目标施加2层 破裂",
-        "[正面命中时] 使本体与部位恢复5点体力"
+        "[使用时]若目标的破裂强度不低于5级，则对其施加2层防御等级降低",
+        "自身每带有1层体力恢复提升，使本技能的基础威力+1（最多+3）"
       ]
     },
     {
@@ -87,15 +84,15 @@
       "sin_type": "暴食",
       "damage_type": "突刺",
       "base_value": 2,
-      "coin_power": 854,
-      "coin_count": 3,
+      "coin_power": 2,
+      "coin_count": 2,
       "attack_level": 41,
       "attack_weight": 1,
-      "is_guard": true,
-      "guard_type": "反击",
+      "is_guard": false,
+      "guard_type": "",
       "importance": 0,
       "coin_effects": [
-        "[命中时] 使目标增加3级 破裂 强度并对其施加2层 破裂"
+        "若本体体力不高于50%，则令本技能的硬币命中时使本体与部位恢复10点体力"
       ]
     }
   ],

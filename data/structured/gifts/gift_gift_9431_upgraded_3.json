@@ -1,0 +1,21 @@
+{
+  "id": "gift_9431_upgraded_3",
+  "title": "损坏的小提琴",
+  "url": "https://limbuscompany.huijiwiki.com/wiki/E.G.O饰品",
+  "categories": [
+    "E.G.O饰品"
+  ],
+  "content": "[第5、第6顺位人格专属]\n若现存体力不高于65%，则拼点胜利时使自身获得1层攻击等级提升与1层体力恢复提升(每回合每名单位最多2次)\n若现存体力不高于40%，则改为使用技能时使自身获得1层攻击等级提升与1层体力恢复提升(每回合每名单位最多2次)\n拼点胜利且拼点次数不低于5时，使拼点胜利的技能造成的伤害+(拼点次数×3)%(最多+30%)",
+  "source": "tabx",
+  "_structured": true,
+  "page_type": "ego_gift",
+  "gift_name": "损坏的小提琴",
+  "rarity": 3,
+  "cost": "243",
+  "effect_types": "泛用",
+  "attack_type": "色欲",
+  "location": "镜像迷宫",
+  "stage": "upgraded_3",
+  "special": "宅邸的副产物",
+  "_schema_version": 1
+}

@@ -34,7 +34,7 @@
       "sin_type": "忧郁",
       "damage_type": "突刺",
       "base_value": 5,
-      "coin_power": 3,
+      "coin_power": -1,
       "coin_count": 2,
       "attack_level": 28,
       "attack_weight": 1,
@@ -42,8 +42,8 @@
       "guard_type": "",
       "importance": 0,
       "coin_effects": [
-        "拼点胜利随机使1名友方单位恢复10点理智值",
-        "2命中时对目标造成5点理智伤害"
+        "[拼点胜利]随机使1名友方单位恢复10点理智值",
+        "硬币2：[命中时]对目标造成5点理智伤害"
       ]
     },
     {
@@ -52,15 +52,16 @@
       "sin_type": "色欲",
       "damage_type": "斩击",
       "base_value": 3,
-      "coin_power": 9,
-      "coin_count": 2,
+      "coin_power": 7,
+      "coin_count": 1,
       "attack_level": 28,
       "attack_weight": 1,
       "is_guard": false,
       "guard_type": "",
       "importance": 0,
       "coin_effects": [
-        "[命中时] 下回合对目标施加2层 流血"
+        "若目标的理智低于自身，则使本技能的威力+1",
+        "硬币1：[命中时]下回合对目标施加2层流血"
       ]
     },
     {
@@ -69,7 +70,7 @@
       "sin_type": "忧郁",
       "damage_type": "突刺",
       "base_value": 4,
-      "coin_power": 3,
+      "coin_power": 4,
       "coin_count": 1,
       "attack_level": 28,
       "attack_weight": 1,
@@ -84,15 +85,16 @@
       "sin_type": "怠惰",
       "damage_type": "打击",
       "base_value": 13,
-      "coin_power": 9703,
-      "coin_count": 2,
+      "coin_power": -10,
+      "coin_count": 1,
       "attack_level": 28,
       "attack_weight": 1,
       "is_guard": false,
       "guard_type": "",
       "importance": 0,
       "coin_effects": [
-        "[命中时] 下回合对目标施加3层 麻痹"
+        "[拼点胜利]使目标失去15点理智值",
+        "硬币1：[命中时]下回合对目标施加3层麻痹"
       ]
     }
   ],

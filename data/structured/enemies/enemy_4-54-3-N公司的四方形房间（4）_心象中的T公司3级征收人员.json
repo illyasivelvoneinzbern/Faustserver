@@ -35,17 +35,15 @@
       "sin_type": "怠惰",
       "damage_type": "打击",
       "base_value": 5,
-      "coin_power": 9703,
-      "coin_count": 2,
+      "coin_power": 9,
+      "coin_count": 1,
       "attack_level": 36,
       "attack_weight": 1,
       "is_guard": false,
       "guard_type": "",
       "importance": 0,
       "coin_effects": [
-        "[使用时] 获得1层 充能",
-        "[命中时] 对目标施加1层 啮合的时间",
-        "[命中时] 消耗2层 充能 对目标施加3层 麻痹"
+        "[使用时]获得1层充能"
       ]
     },
     {
@@ -54,16 +52,15 @@
       "sin_type": "傲慢",
       "damage_type": "穿刺",
       "base_value": 6,
-      "coin_power": 3,
-      "coin_count": 2,
+      "coin_power": 10,
+      "coin_count": 1,
       "attack_level": 36,
       "attack_weight": 1,
       "is_guard": false,
       "guard_type": "",
       "importance": 0,
       "coin_effects": [
-        "[使用时] 使自身获得1层 充能",
-        "[命中时] 下回合自身获得1层 迅捷 并对目标施加2层 束缚"
+        "[使用时]使自身获得1层充能"
       ]
     },
     {
@@ -72,18 +69,17 @@
       "sin_type": "嫉妒",
       "damage_type": "打击",
       "base_value": 8,
-      "coin_power": 5793,
-      "coin_count": 3,
+      "coin_power": 4,
+      "coin_count": 2,
       "attack_level": 36,
       "attack_weight": 1,
       "is_guard": false,
       "guard_type": "",
       "importance": 0,
       "coin_effects": [
-        "[使用时] 若自身 充能 层数不低于5层，则使本技能的拼点威力 +2 下回合陷入无法行动状态",
-        "[命中时] 下回合对目标施加1层 束缚",
-        "[命中时] 如果自身有5+层 充能 ，则消耗所有充能层数并使每次攻击的伤害+10%",
-        "[命中时] 对目标施加1层 啮合的时间"
+        "[战斗开始]使自身获得3层充能",
+        "[使用时]若自身充能层数不低于5层，则使本技能的拼点威力 +2",
+        "下回合陷入无法行动状态"
       ]
     },
     {
@@ -92,22 +88,24 @@
       "sin_type": "常规",
       "damage_type": "防御",
       "base_value": 8,
-      "coin_power": 79,
+      "coin_power": 7,
       "coin_count": 1,
-      "attack_level": 0,
+      "attack_level": 38,
       "attack_weight": 1,
       "is_guard": false,
       "guard_type": "",
       "importance": 0,
       "coin_effects": [
-        "战斗开始使自身获得3层心象中的时间租赁与1层充能"
+        "[战斗开始]使自身获得3层心象中的时间租赁与1层充能"
       ]
     }
   ],
   "is_ally": false,
   "_structured": true,
   "appear_stages": [
-    "4-54-3-N公司的四方形房间（4）"
+    "4-54-3-N公司的四方形房间（4）",
+    "4-54-3-N公司的四方形房间（7）",
+    "4-54-3-N公司的四方形房间（9）"
   ],
   "enemy_id": "4-54-3-N公司的四方形房间（4）|心象中的T公司3级征收人员|",
   "defense": 38,

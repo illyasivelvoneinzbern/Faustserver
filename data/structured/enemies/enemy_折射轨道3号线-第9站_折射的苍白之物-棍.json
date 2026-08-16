@@ -32,15 +32,15 @@
       "sin_type": "傲慢",
       "damage_type": "打击",
       "base_value": 10,
-      "coin_power": 6,
+      "coin_power": -6,
       "coin_count": 1,
-      "attack_level": 0,
+      "attack_level": 38,
       "attack_weight": 1,
       "is_guard": false,
       "guard_type": "",
       "importance": 0,
       "coin_effects": [
-        "1命中时对目标施加2层防御等级降低"
+        "硬币1：[命中时]对目标施加2层防御等级降低"
       ]
     },
     {
@@ -49,15 +49,15 @@
       "sin_type": "傲慢",
       "damage_type": "打击",
       "base_value": 13,
-      "coin_power": 8,
+      "coin_power": -8,
       "coin_count": 1,
-      "attack_level": 0,
+      "attack_level": 38,
       "attack_weight": 1,
       "is_guard": false,
       "guard_type": "",
       "importance": 0,
       "coin_effects": [
-        "使用时下回合随机使1名其他苍白的友方单位获得1层伤害强化"
+        "[使用时]下回合随机使1名其他苍白的友方单位获得1层伤害强化"
       ]
     },
     {
@@ -66,15 +66,15 @@
       "sin_type": "傲慢",
       "damage_type": "打击",
       "base_value": 14,
-      "coin_power": 6,
+      "coin_power": -6,
       "coin_count": 2,
-      "attack_level": 0,
+      "attack_level": 38,
       "attack_weight": 1,
       "is_guard": false,
       "guard_type": "",
       "importance": 0,
       "coin_effects": [
-        "使用时下回合随机使1名其他苍白的友方单位获得1层伤害强化"
+        "[使用时]下回合随机使1名其他苍白的友方单位获得1层伤害强化"
       ]
     }
   ],

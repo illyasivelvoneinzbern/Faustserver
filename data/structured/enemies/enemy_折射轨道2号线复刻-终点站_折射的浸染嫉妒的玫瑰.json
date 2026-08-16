@@ -40,17 +40,19 @@
       "sin_type": "嫉妒",
       "damage_type": "斩击",
       "base_value": 3,
-      "coin_power": 5793,
-      "coin_count": 3,
+      "coin_power": 4,
+      "coin_count": 2,
       "attack_level": 61,
       "attack_weight": 1,
       "is_guard": false,
       "guard_type": "",
       "importance": 0,
       "coin_effects": [
-        "[使用时] 每有1朵与自身罪孽属性不同的玫瑰，使本技能的基础威力+1(最多+6)",
-        "[使用时] 使自身获得3层 充能",
-        "[命中时] 使自身获得1层 充能"
+        "[使用时]每有1朵与自身罪孽属性不同的玫瑰，使本技能的基础威力+1(最多+6)",
+        "[使用时]使自身获得3层充能",
+        "[拼点失败]使自身失去3层充能",
+        "硬币1：[命中时]使自身获得1层充能",
+        "硬币2：[命中时]使自身获得1层充能"
       ]
     },
     {
@@ -59,16 +61,16 @@
       "sin_type": "嫉妒",
       "damage_type": "斩击",
       "base_value": 2,
-      "coin_power": 5793,
-      "coin_count": 1,
+      "coin_power": 2,
+      "coin_count": 4,
       "attack_level": 64,
       "attack_weight": 1,
       "is_guard": false,
       "guard_type": "",
       "importance": 0,
       "coin_effects": [
-        "使用时每有1朵与自身罪孽属性不同的玫瑰，使本技能的基础威力+1(最多+6)",
-        "使用时消耗10层充能并使本技能的硬币威力+4"
+        "[使用时]每有1朵与自身罪孽属性不同的玫瑰，使本技能的基础威力+1(最多+6)",
+        "[使用时]消耗10层充能并使本技能的硬币威力+4"
       ]
     }
   ],

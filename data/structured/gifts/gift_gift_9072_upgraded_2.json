@@ -1,0 +1,20 @@
+{
+  "id": "gift_9072_upgraded_2",
+  "title": "避雷针",
+  "url": "https://limbuscompany.huijiwiki.com/wiki/E.G.O饰品",
+  "categories": [
+    "E.G.O饰品"
+  ],
+  "content": "关卡开始时，使全体友方单位获得4层充能。\n若参与战斗的拥有嫉妒攻击技能的友方单位不低于2名，则改为获得6层充能。",
+  "source": "tabx",
+  "_structured": true,
+  "page_type": "ego_gift",
+  "gift_name": "避雷针",
+  "rarity": 3,
+  "cost": "247",
+  "effect_types": "充能",
+  "attack_type": "嫉妒",
+  "location": "镜像迷宫",
+  "stage": "upgraded_2",
+  "_schema_version": 1
+}

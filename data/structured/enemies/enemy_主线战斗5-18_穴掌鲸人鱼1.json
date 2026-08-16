@@ -33,43 +33,9 @@
       "skill_name": "呕出水沫",
       "icon_id": "9008301",
       "sin_type": "忧郁",
-      "damage_type": "",
+      "damage_type": "穿刺",
       "base_value": 3,
-      "coin_power": 3,
-      "coin_count": 3,
-      "attack_level": 32,
-      "attack_weight": 1,
-      "is_guard": false,
-      "guard_type": "",
-      "importance": 0,
-      "coin_effects": [
-        "[正面命中时] 使目标增加2级 沉沦 强度"
-      ]
-    },
-    {
-      "skill_name": "利爪",
-      "icon_id": "9008302",
-      "sin_type": "傲慢",
-      "damage_type": "",
-      "base_value": 4,
-      "coin_power": 3,
-      "coin_count": 3,
-      "attack_level": 32,
-      "attack_weight": 1,
-      "is_guard": false,
-      "guard_type": "",
-      "importance": 0,
-      "coin_effects": [
-        "[命中时] 使自身恢复本硬币伤害量30%的体力"
-      ]
-    },
-    {
-      "skill_name": "洒水",
-      "icon_id": "9008303",
-      "sin_type": "忧郁",
-      "damage_type": "",
-      "base_value": 8,
-      "coin_power": 3,
+      "coin_power": 4,
       "coin_count": 2,
       "attack_level": 32,
       "attack_weight": 1,
@@ -77,23 +43,60 @@
       "guard_type": "",
       "importance": 0,
       "coin_effects": [
-        "[命中时] 对目标施加5层 沉沦"
+        "硬币1：[正面命中时]使目标增加2级沉沦强度",
+        "硬币2：[正面命中时]使目标增加2级沉沦强度"
+      ]
+    },
+    {
+      "skill_name": "利爪",
+      "icon_id": "9008302",
+      "sin_type": "傲慢",
+      "damage_type": "斩击",
+      "base_value": 4,
+      "coin_power": 4,
+      "coin_count": 2,
+      "attack_level": 32,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "若目标的沉沦强度不低于5级，则使本技能造成的伤害+20%"
+      ]
+    },
+    {
+      "skill_name": "洒水",
+      "icon_id": "9008303",
+      "sin_type": "忧郁",
+      "damage_type": "穿刺",
+      "base_value": 8,
+      "coin_power": 5,
+      "coin_count": 1,
+      "attack_level": 32,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": [
+        "硬币1：[命中时]对目标施加5层沉沦"
       ]
     },
     {
       "skill_name": "光滑的表皮",
       "icon_id": "9008304",
       "sin_type": "常规",
-      "damage_type": "",
+      "damage_type": "防御",
       "base_value": 4,
-      "coin_power": 79,
+      "coin_power": 6,
       "coin_count": 1,
-      "attack_level": 0,
+      "attack_level": 39,
       "attack_weight": 1,
       "is_guard": false,
       "guard_type": "",
       "importance": 0,
-      "coin_effects": []
+      "coin_effects": [
+        "若自身带有护盾时受到攻击，则使攻击者增加1级沉沦强度"
+      ]
     }
   ],
   "is_ally": false,

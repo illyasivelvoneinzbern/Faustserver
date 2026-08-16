@@ -35,17 +35,18 @@
       "sin_type": "暴食",
       "damage_type": "打击",
       "base_value": 3,
-      "coin_power": 854,
-      "coin_count": 3,
+      "coin_power": 2,
+      "coin_count": 2,
       "attack_level": 52,
       "attack_weight": 1,
       "is_guard": false,
       "guard_type": "",
       "importance": 0,
       "coin_effects": [
-        "[命中时] 使自身增加4级 呼吸法 强度",
-        "[命中时] 使自身增加3级 呼吸法 强度",
-        "[正面命中时] 使自身获得1层 呼吸法"
+        "硬币1：[命中时]使自身增加4级呼吸法强度",
+        "硬币2：[命中时]使自身增加3级呼吸法强度",
+        "[正面命中时]使自身获得1层呼吸法",
+        "[暴击命中时]对目标施加2层{{状态2|麻痹|4=负面}}"
       ]
     },
     {
@@ -54,16 +55,15 @@
       "sin_type": "怠惰",
       "damage_type": "打击",
       "base_value": 5,
-      "coin_power": 9703,
-      "coin_count": 2,
+      "coin_power": 7,
+      "coin_count": 1,
       "attack_level": 52,
       "attack_weight": 1,
       "is_guard": false,
       "guard_type": "",
       "importance": 0,
       "coin_effects": [
-        "[命中时] 使自身增加4级 呼吸法 强度",
-        "[正面命中时] 使自身获得1层 呼吸法 使本硬币暴击时造成的伤害+40%"
+        "[拼点胜利]使自身恢复5点理智值"
       ]
     },
     {
@@ -72,16 +72,18 @@
       "sin_type": "暴怒",
       "damage_type": "打击",
       "base_value": 3,
-      "coin_power": 987,
-      "coin_count": 3,
+      "coin_power": 3,
+      "coin_count": 2,
       "attack_level": 52,
       "attack_weight": 1,
       "is_guard": false,
       "guard_type": "",
       "importance": 0,
       "coin_effects": [
-        "[命中时] 使自身增加3级 呼吸法 强度 使本硬币暴击时造成的伤害+30%",
-        "[命中时] 使自身获得2层 呼吸法"
+        "硬币1：使本硬币暴击时造成的伤害+30%",
+        "[命中时]使自身增加3级呼吸法强度",
+        "硬币2：使本硬币暴击时造成的伤害+30%",
+        "[命中时]使自身获得2层呼吸法"
       ]
     }
   ],

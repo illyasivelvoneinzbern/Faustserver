@@ -32,15 +32,15 @@
       "sin_type": "暴怒",
       "damage_type": "突刺",
       "base_value": 4,
-      "coin_power": 987,
-      "coin_count": 2,
+      "coin_power": 7,
+      "coin_count": 1,
       "attack_level": 49,
       "attack_weight": 1,
       "is_guard": false,
       "guard_type": "",
       "importance": 0,
       "coin_effects": [
-        "[命中时] 使目标增加6级 烧伤 强度并对其施加2层 烧伤"
+        "硬币1：[命中时]使目标增加6级{{状态2|烧伤|4=负面}}强度并对其施加2层{{状态2|烧伤|4=负面}}"
       ]
     },
     {
@@ -49,17 +49,15 @@
       "sin_type": "暴怒",
       "damage_type": "斩击",
       "base_value": 4,
-      "coin_power": 987,
-      "coin_count": 4,
+      "coin_power": 3,
+      "coin_count": 3,
       "attack_level": 49,
       "attack_weight": 1,
       "is_guard": false,
       "guard_type": "",
       "importance": 0,
       "coin_effects": [
-        "[命中时] 使目标增加8级 烧伤 强度",
-        "[命中时] 对目标施加4层 烧伤",
-        "[命中时] 下回合对目标施加1层 突刺易损"
+        "[拼点胜利]若目标带有{{状态2|烧伤|4=负面}}，则使本技能的基础威力+2"
       ]
     },
     {
@@ -68,17 +66,16 @@
       "sin_type": "暴怒",
       "damage_type": "打击",
       "base_value": 6,
-      "coin_power": 987,
-      "coin_count": 2,
+      "coin_power": 4,
+      "coin_count": 3,
       "attack_level": 49,
       "attack_weight": 1,
       "is_guard": false,
       "guard_type": "",
       "importance": 0,
       "coin_effects": [
-        "[使用时] 目标每带有5级 烧伤 强度，则使本技能的硬币威力+1（最高+3）",
-        "[命中时] 对目标施加3层 烧伤",
-        "[正面命中时] 下回合对目标施加1层 暴怒易损"
+        "[使用时]目标每带有5级{{状态2|烧伤|4=负面}}强度，则使本技能的硬币威力+1（最高+3）",
+        "[拼点胜利]若目标带有的{{状态2|烧伤|4=负面}}强度不低于9级，则使本技能的攻击容量+1"
       ]
     },
     {
@@ -87,17 +84,16 @@
       "sin_type": "暴怒",
       "damage_type": "突刺",
       "base_value": 6,
-      "coin_power": 987,
-      "coin_count": 2,
+      "coin_power": 4,
+      "coin_count": 1,
       "attack_level": 49,
       "attack_weight": 1,
-      "is_guard": true,
-      "guard_type": "反击",
+      "is_guard": false,
+      "guard_type": "",
       "importance": 0,
       "coin_effects": [
-        "[使用时] 若目标的 烧伤 强度不低于5级，则使本技能的硬币威力+2",
-        "[使用时] 若目标的 烧伤 强度不低于6级，则重复使用本技能（最多2次）",
-        "[命中时] 下回合使自身获得10层 脆弱攻击伤害强化"
+        "[使用时]若目标的{{状态2|烧伤|4=负面}}强度不低于5级，则使本技能的硬币威力+2",
+        "[使用时]若目标的{{状态2|烧伤|4=负面}}强度不低于6级，则重复使用本技能（最多2次）"
       ]
     },
     {
@@ -108,13 +104,13 @@
       "base_value": 4,
       "coin_power": 7,
       "coin_count": 1,
-      "attack_level": 1,
+      "attack_level": 55,
       "attack_weight": 1,
       "is_guard": false,
       "guard_type": "",
       "importance": 0,
       "coin_effects": [
-        "1命中时使目标增加6级{{状态2|烧伤|4=负面}}强度并对其施加2层{{状态2|烧伤|4=负面}}"
+        "硬币1：[命中时]使目标增加6级{{状态2|烧伤|4=负面}}强度并对其施加2层{{状态2|烧伤|4=负面}}"
       ]
     },
     {
@@ -125,13 +121,13 @@
       "base_value": 4,
       "coin_power": 4,
       "coin_count": 3,
-      "attack_level": 2,
+      "attack_level": 55,
       "attack_weight": 1,
       "is_guard": false,
       "guard_type": "",
       "importance": 0,
       "coin_effects": [
-        "拼点胜利若目标带有{{状态2|烧伤|4=负面}}，则使本技能的基础威力+2"
+        "[拼点胜利]若目标带有{{状态2|烧伤|4=负面}}，则使本技能的基础威力+2"
       ]
     },
     {
@@ -142,14 +138,14 @@
       "base_value": 6,
       "coin_power": 4,
       "coin_count": 3,
-      "attack_level": 3,
+      "attack_level": 55,
       "attack_weight": 1,
       "is_guard": false,
       "guard_type": "",
       "importance": 0,
       "coin_effects": [
-        "使用时目标每带有5级{{状态2|烧伤|4=负面}}强度，则使本技能的硬币威力+1（最高+3）",
-        "拼点胜利若目标带有的{{状态2|烧伤|4=负面}}强度不低于9级，则使本技能的攻击容量+1"
+        "[使用时]目标每带有5级{{状态2|烧伤|4=负面}}强度，则使本技能的硬币威力+1（最高+3）",
+        "[拼点胜利]若目标带有的{{状态2|烧伤|4=负面}}强度不低于9级，则使本技能的攻击容量+1"
       ]
     },
     {
@@ -160,14 +156,14 @@
       "base_value": 8,
       "coin_power": 4,
       "coin_count": 1,
-      "attack_level": 3,
+      "attack_level": 55,
       "attack_weight": 1,
       "is_guard": false,
       "guard_type": "",
       "importance": 0,
       "coin_effects": [
-        "使用时若目标的{{状态2|烧伤|4=负面}}强度不低于5级，则使本技能的硬币威力+2",
-        "使用时若目标的{{状态2|烧伤|4=负面}}强度不低于6级，则重复使用本技能（最多2次）"
+        "[使用时]若目标的{{状态2|烧伤|4=负面}}强度不低于5级，则使本技能的硬币威力+2",
+        "[使用时]若目标的{{状态2|烧伤|4=负面}}强度不低于6级，则重复使用本技能（最多2次）"
       ]
     }
   ],

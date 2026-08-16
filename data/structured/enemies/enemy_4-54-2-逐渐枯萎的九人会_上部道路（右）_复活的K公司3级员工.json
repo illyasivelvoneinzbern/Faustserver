@@ -36,15 +36,15 @@
       "sin_type": "暴食",
       "damage_type": "打击",
       "base_value": 4,
-      "coin_power": 854,
-      "coin_count": 2,
+      "coin_power": 7,
+      "coin_count": 1,
       "attack_level": 32,
       "attack_weight": 1,
       "is_guard": false,
       "guard_type": "",
       "importance": 0,
       "coin_effects": [
-        "[正面命中时] 使目标增加1级 破裂 强度"
+        "硬币1：{{Color|#c7ff94|[正面命中时]}}使目标增加1级破裂强度"
       ]
     },
     {
@@ -53,16 +53,15 @@
       "sin_type": "暴食",
       "damage_type": "打击",
       "base_value": 3,
-      "coin_power": 854,
-      "coin_count": 3,
+      "coin_power": 3,
+      "coin_count": 2,
       "attack_level": 32,
       "attack_weight": 1,
       "is_guard": false,
       "guard_type": "",
       "importance": 0,
       "coin_effects": [
-        "[正面命中时] 使目标增加3级 破裂 强度",
-        "[命中时] 对目标施加3层 破裂"
+        "硬币1：{{Color|#c7ff94|[正面命中时]}}使目标增加3级破裂强度"
       ]
     },
     {
@@ -71,16 +70,15 @@
       "sin_type": "暴食",
       "damage_type": "打击",
       "base_value": 3,
-      "coin_power": 854,
-      "coin_count": 3,
+      "coin_power": 4,
+      "coin_count": 2,
       "attack_level": 32,
       "attack_weight": 1,
       "is_guard": false,
       "guard_type": "",
       "importance": 0,
       "coin_effects": [
-        "[命中时] 对目标施加2层 破裂",
-        "[正面命中时] 对目标造成( 破裂 强度x 破裂 层数)点伤害 随后解除目标的 破裂 效果"
+        "{{Color|#93f13e|[拼点失败]}}使自身恢复10点体力"
       ]
     }
   ],

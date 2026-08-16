@@ -24,8 +24,6 @@
     "嫉妒": 1.0
   },
   "panic_types": [
-    "无措",
-    "虚弱",
     "无措"
   ],
   "passives": [
@@ -36,20 +34,39 @@
       "skill_name": "拙劣斩击",
       "icon_id": "9000401",
       "sin_type": "傲慢",
-      "damage_type": "",
-      "base_value": 0,
+      "damage_type": "斩击",
+      "base_value": 2,
+      "coin_power": 1,
+      "coin_count": 2,
+      "attack_level": 1,
+      "attack_weight": 1,
+      "is_guard": false,
+      "guard_type": "",
+      "importance": 0,
+      "coin_effects": []
+    },
+    {
+      "skill_name": "拙劣斩击",
+      "icon_id": "9000401",
+      "sin_type": "傲慢",
+      "damage_type": "斩击",
+      "base_value": 3,
       "coin_power": 1,
       "coin_count": 1,
       "attack_level": 1,
       "attack_weight": 1,
       "is_guard": false,
       "guard_type": "",
+      "importance": 0,
       "coin_effects": []
     }
   ],
   "is_ally": false,
   "_structured": true,
-  "enemy_id": "主线战斗0-03|不识数的流氓",
+  "appear_stages": [
+    "主线战斗0-03"
+  ],
+  "enemy_id": "主线战斗0-03|不识数的流氓|",
   "defense": 1,
   "speed": "1~5",
   "_schema_version": 1

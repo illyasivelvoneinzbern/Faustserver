@@ -32,15 +32,15 @@
       "sin_type": "暴怒",
       "damage_type": "打击",
       "base_value": 6,
-      "coin_power": 987,
-      "coin_count": 3,
+      "coin_power": 5,
+      "coin_count": 2,
       "attack_level": 49,
       "attack_weight": 1,
       "is_guard": false,
       "guard_type": "",
       "importance": 0,
       "coin_effects": [
-        "[命中时] 使目标增加3级 烧伤 强度"
+        "硬币1：[命中时]使目标增加3级烧伤强度"
       ]
     },
     {
@@ -49,15 +49,15 @@
       "sin_type": "暴怒",
       "damage_type": "打击",
       "base_value": 10,
-      "coin_power": 987,
-      "coin_count": 2,
+      "coin_power": 6,
+      "coin_count": 1,
       "attack_level": 49,
       "attack_weight": 1,
       "is_guard": false,
       "guard_type": "",
       "importance": 0,
       "coin_effects": [
-        "[命中时] 对目标施加3层 烧伤"
+        "硬币1：[命中时]对目标施加3层烧伤"
       ]
     },
     {
@@ -66,16 +66,15 @@
       "sin_type": "暴怒",
       "damage_type": "打击",
       "base_value": 6,
-      "coin_power": 987,
-      "coin_count": 4,
+      "coin_power": 4,
+      "coin_count": 3,
       "attack_level": 53,
       "attack_weight": 1,
       "is_guard": false,
       "guard_type": "",
       "importance": 0,
       "coin_effects": [
-        "[命中时] 使目标增加2级 烧伤 强度",
-        "[命中时] 使目标的混乱阈值前移20%"
+        "硬币1：[命中时]使目标增加2级烧伤强度"
       ]
     },
     {
@@ -84,16 +83,15 @@
       "sin_type": "怠惰",
       "damage_type": "打击",
       "base_value": 15,
-      "coin_power": 9703,
-      "coin_count": 2,
+      "coin_power": 5,
+      "coin_count": 1,
       "attack_level": 45,
       "attack_weight": 1,
       "is_guard": false,
       "guard_type": "",
       "importance": 0,
       "coin_effects": [
-        "[命中时] 使目标损失15点理智值",
-        "[命中时] 使目标的混乱阈值前移伤害量的50%"
+        "[拼点失败]使自身获得1层尚未释怀的哀伤"
       ]
     },
     {
@@ -102,16 +100,15 @@
       "sin_type": "忧郁",
       "damage_type": "打击",
       "base_value": 12,
-      "coin_power": 3,
-      "coin_count": 2,
+      "coin_power": 7,
+      "coin_count": 1,
       "attack_level": 53,
       "attack_weight": 1,
       "is_guard": false,
       "guard_type": "",
       "importance": 0,
       "coin_effects": [
-        "[命中时] 使自身获得1层 飘忽不定的情绪",
-        "[命中时] 对目标施加3层 沉沦"
+        "[拼点胜利]下回合使自身获得1层迅捷和1层强壮"
       ]
     },
     {
@@ -121,15 +118,14 @@
       "damage_type": "打击",
       "base_value": 12,
       "coin_power": 3,
-      "coin_count": 3,
+      "coin_count": 2,
       "attack_level": 53,
       "attack_weight": 1,
       "is_guard": false,
       "guard_type": "",
       "importance": 0,
       "coin_effects": [
-        "[命中时] 使自身获得1层 飘忽不定的情绪",
-        "[命中时] 使目标增加2级 沉沦 强度"
+        "[拼点胜利]下回合使自身获得1层迅捷和1层强壮"
       ]
     }
   ],
