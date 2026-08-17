@@ -121,6 +121,8 @@ x_fetcher:
   fetch_interval_minutes: 2           # 轮询间隔（分钟）；Nitter 限流，建议 >=60s
   max_new_per_cycle: 5                # 每轮最多推送的新推条数（防刷屏）
   filter_retweets: true               # 改进计划 P1：过滤转发（RT）推文，避免非官方内容污染推送
+  attach_official_replies: true       # P38：官方自回帖（R to 自己，线程续写/补充更正）合并到父推文一并转发
+  max_replies_per_tweet: 3            # P38：单条推文最多附带官方回复数（正文/配图均按此截断）
   initial_backfill_hours: 24          # 改进计划 P1：首启水位线——首次运行（无已推记录）时仅推送最近 N 小时内的推文
   video_quality: "high"               # P35：视频清晰度 high(1080p)/medium(640p)/low(480p)；分开发送已修复发出问题，默认高清
   push_group_id: 953062556           # 目标群号；0=未设置 → 用 handle_event 记忆的群号兜底

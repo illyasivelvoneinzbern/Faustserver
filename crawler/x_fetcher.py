@@ -6,6 +6,7 @@ X/Twitter 官方账号内容拉取：通过 RSS 桥接获取推文（P20-B 扩�
 - 真推文 id（status id）：从 item.guid 提取，供幂等去重。
 - 账号与 RSS 镜像 URL 均可配置（config.yaml x_fetcher 段）。
 - 保留旧接口（fetch_account / fetch_all / fetch_x_feeds），新增 fetch_new_tweets()。
+- P38：识别官方自回帖（R to @…），group_threads() 将回复合并到父推文线程。
 """
 
 import asyncio
@@ -303,6 +304,16 @@ def parse_tweet_entry(account: dict, entry, base_url: str = "") -> dict:
     if retweet:
         text = re.sub(r"^\s*RT\s+by\s+@[^:：]+[：:]\s*", "", text)
 
+    # ── 官方自回帖（线程续写）检测（P38）──
+    # Nitter 对回复的 title 为 "R to @账号: 内容"；官方账号回复自己的推文
+    # 即形成线程（如 公告 + 补充更正），推送时合并到父推文一并转发。
+    # 回复自身也有独立 status id（guid），可参与幂等去重。
+    reply_to_handle = ""
+    m = re.match(r"^\s*R to @([A-Za-z0-9_]+)[：:]\s*(.*)$", title, re.DOTALL)
+    if m:
+        reply_to_handle = m.group(1)
+        title = m.group(2)  # 剥掉 "R to @X: " 前缀，标题仅保留内容
+
     # ── 噪音清洗（改进计划 P1）：nitter 搜索链接等垃圾 URL 整段删除 ──
     # 例："https://nitter.net/search?f=tweets&q=%23LCB"（话题搜索噪音）
     text = re.sub(r"https?://[^\s]*nitter[^\s]*search[^\s]*", "", text, flags=re.IGNORECASE)
@@ -318,6 +329,8 @@ def parse_tweet_entry(account: dict, entry, base_url: str = "") -> dict:
         "image_urls": extract_images(summary, base_url),
         "video_urls": extract_videos(summary, base_url),
         "retweet": retweet,
+        "is_reply": bool(reply_to_handle),
+        "reply_to_handle": reply_to_handle,
         # ── 兼容旧字段 ──
         "id": f"x_{account['handle']}_{tweet_id}" if tweet_id else f"x_{account['handle']}_{published}",
         "title": title,
@@ -328,6 +341,45 @@ def parse_tweet_entry(account: dict, entry, base_url: str = "") -> dict:
         "handle": account["handle"],
         "account_name": account.get("name", account["handle"]),
     }
+
+
+def group_threads(tweets: list[dict]) -> list[dict]:
+    """把拉取到的推文按『父推文 + 官方自回帖』分组（P38）。
+
+    输入 tweets 按发布时间升序（旧→新，与 fetch_new_tweets 输出一致）。
+    规则：
+    - 非回复、非转发的推文 → 新线程（父推文），并成为当前候选父推文；
+    - 官方账号回复自己的推文（is_reply 且 reply_to_handle == 父推文 handle）
+      → 附加到当前候选父推文的 official_replies 字段，不独立成线程；
+    - 其余（转发、回复其它账号、无父可挂靠的回复）→ 独立线程。
+
+    Returns:
+        线程 dict 列表：每项或为普通推文，或为 {**parent, "official_replies": [...]}。
+        分组后仍保持原时间顺序（升序）。
+    """
+    threads: list[dict] = []
+    current: Optional[dict] = None  # 当前候选父推文
+    for tw in tweets:
+        if tw.get("retweet"):
+            # 转发不进父推文匹配（filter_retweets=True 时通常已被上游过滤）
+            threads.append(tw)
+            continue
+        if tw.get("is_reply"):
+            if (
+                current is not None
+                and str(tw.get("reply_to_handle", "")).lower()
+                == str(current.get("handle", "")).lower()
+            ):
+                # 官方自回帖：挂到当前父推文，随父推文一并转发
+                current.setdefault("official_replies", []).append(tw)
+                continue
+            # 无法挂靠的回复（回复其它账号 / 父推文不在本批）→ 独立线程
+            threads.append(tw)
+            continue
+        # 新的父推文：成为当前候选，同时作为独立线程
+        threads.append(tw)
+        current = tw
+    return threads
 
 
 class XFeedFetcher:

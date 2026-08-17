@@ -293,19 +293,45 @@ class LimbusAgent:
             groups.extend(sorted(self._push_group_ids))
         return groups
 
-    def _format_tweet_text(self, tweet: dict) -> str:
-        """把推文组装成可读文本（含链接）。"""
+    def _format_tweet_body(self, tweet: dict) -> str:
+        """推文正文 + 官方回复段落（P38）。
+
+        若推文挂了 official_replies（官方自回帖线程），按顺序追加
+        "── 官方回复 ──" 段落（正文 + 链接），随父推文一并转发。
+        """
         text = (tweet.get("text") or "").strip()
         permalink = (tweet.get("permalink") or "").strip()
-        handle = (tweet.get("handle") or "").strip()
-        header = f"【新推】{handle or 'LimbusCompany_B'}"
         body = text if text else "(无正文)"
         if permalink:
             body = f"{body}\n{permalink}"
-        return f"{header}\n{body}"
+
+        max_replies = max(
+            0, int(self.config.get("x_fetcher", {}).get("max_replies_per_tweet", 3))
+        )
+        replies = (tweet.get("official_replies") or [])[:max_replies]
+        for r in replies:
+            rtext = (r.get("text") or "").strip()
+            rlink = (r.get("permalink") or "").strip()
+            section = "── 官方回复 ──\n" + (rtext or "(无正文)")
+            if rlink:
+                section = f"{section}\n{rlink}"
+            body = f"{body}\n\n{section}"
+        return body
+
+    def _format_tweet_text(self, tweet: dict) -> str:
+        """把推文组装成可读文本（含链接 + 官方回复段落，P38）。"""
+        handle = (tweet.get("handle") or "").strip()
+        if tweet.get("is_reply"):
+            # 无法挂靠父推文的官方回复：独立成条，标题标明"官方回复"
+            header = f"【官方回复】{handle or 'LimbusCompany_B'}"
+        else:
+            header = f"【新推】{handle or 'LimbusCompany_B'}"
+        return f"{header}\n{self._format_tweet_body(tweet)}"
 
     def _prepare_tweet_media(self, tweet: dict, text: str) -> tuple[str, list, list]:
         """准备推文媒体（P33）：视频推文解析低清 mp4，封面不当作普通图片。
+
+        P38：官方自回帖（official_replies）的配图并入（父推文图片在前）。
 
         Returns:
             (text, images, videos)
@@ -313,20 +339,27 @@ class LimbusAgent:
         from crawler.x_fetcher import is_video_tweet, resolve_tweet_videos
         images = list(tweet.get("image_urls") or [])
         videos = list(tweet.get("video_urls") or [])
-        if not is_video_tweet(tweet):
-            return text, images, videos
+        if is_video_tweet(tweet):
+            # 视频推文：解析真实 mp4（默认高清 1080p；P34 分开发送已保证发出）
+            if not videos:
+                quality = str(
+                    self.config.get("x_fetcher", {}).get("video_quality", "high")
+                )
+                videos = resolve_tweet_videos(tweet, quality=quality)
+            # 视频推文的封面缩略图不作为普通图片发送（避免"模糊图片"误导）
+            images = [i for i in images if "amplify_video" not in i.lower()]
+            if not videos:
+                # 视频解析/下载失败：不发封面，正文提示查看原推文
+                text = f"{text}\n（视频未能直接下载，请点击上方原推文链接查看）"
 
-        # 视频推文：解析真实 mp4（默认高清 1080p；P34 分开发送已保证发出）
-        if not videos:
-            quality = str(
-                self.config.get("x_fetcher", {}).get("video_quality", "high")
-            )
-            videos = resolve_tweet_videos(tweet, quality=quality)
-        # 视频推文的封面缩略图不作为普通图片发送（避免"模糊图片"误导）
-        images = [i for i in images if "amplify_video" not in i.lower()]
-        if not videos:
-            # 视频解析/下载失败：不发封面，正文提示查看原推文
-            text = f"{text}\n（视频未能直接下载，请点击上方原推文链接查看）"
+        # P38：官方自回帖配图并入（父推文图片在前，去重）
+        max_replies = max(
+            0, int(self.config.get("x_fetcher", {}).get("max_replies_per_tweet", 3))
+        )
+        for r in (tweet.get("official_replies") or [])[:max_replies]:
+            for img in r.get("image_urls") or []:
+                if img not in images:
+                    images.append(img)
         return text, images, videos
 
     async def _push_tweet_to_groups(self, tweet: dict) -> bool:
@@ -380,6 +413,8 @@ class LimbusAgent:
         # ── 改进计划 P1：RT 过滤 + 初始水位线 ──
         filter_retweets = bool(x_cfg.get("filter_retweets", True))
         backfill_hours = float(x_cfg.get("initial_backfill_hours", 24))
+        # ── P38：官方自回帖合并到父推文线程，一并转发 ──
+        attach_replies = bool(x_cfg.get("attach_official_replies", True))
 
         # 首启水位线：pushed_ids 为空（首次运行/状态丢失）时只推送
         # 最近 initial_backfill_hours 小时内的推文，避免历史推文刷屏。
@@ -404,6 +439,7 @@ class LimbusAgent:
             rounds += 1
             try:
                 from crawler.x_fetcher import fetch_new_tweets as _fetch
+                from crawler.x_fetcher import group_threads
 
                 new_tweets = await _fetch(
                     state_path=str(self._x_pushed_path.parent / "x_feed_state.json"),
@@ -413,17 +449,33 @@ class LimbusAgent:
                     filter_retweets=filter_retweets,
                     min_published_at=min_published_at,
                 )
-                # 按时间正序，最多取 N 条（防刷屏）
-                to_push = new_tweets[:max_new]
-                for tweet in to_push:
-                    tid = tweet.get("tweet_id", "")
+                # P38：官方自回帖合并到父推文线程（父推文 + 官方回复 一并转发）
+                if attach_replies and new_tweets:
+                    threads = group_threads(new_tweets)
+                else:
+                    threads = list(new_tweets)
+
+                # 按时间正序，最多取 N 条线程（防刷屏）
+                to_push = threads[:max_new]
+                for thread in to_push:
+                    tid = thread.get("tweet_id", "")
                     if not tid or tid in self._x_pushed_ids:
                         continue
-                    sent = await self._push_tweet_to_groups(tweet)
+                    sent = await self._push_tweet_to_groups(thread)
                     if sent:
-                        self._x_pushed_ids.add(tid)
+                        # 线程内所有 id（父推文 + 官方回复）一并标记已推
+                        ids = [tid] + [
+                            r.get("tweet_id", "")
+                            for r in thread.get("official_replies", [])
+                        ]
+                        for i in ids:
+                            if i:
+                                self._x_pushed_ids.add(i)
                         self._save_x_pushed()
-                        self.log.info(f"已推送并记录 tweet_id={tid}")
+                        self.log.info(
+                            f"已推送并记录 tweet_id={tid}"
+                            f"（含 {len(thread.get('official_replies') or [])} 条官方回复）"
+                        )
                     else:
                         self.log.warning(f"推送失败，暂不记录已推 id（下轮重试）: {tid}")
                 if not to_push:
@@ -1816,9 +1868,12 @@ class LimbusAgent:
             await self._send_reply(msg, reply)
 
     async def _cmd_latest_tweets(self, msg: QQMessage, n: int = 3):
-        """P31：/最新推文 N —— 拉取官方账号最近 N 条推文并发送（文本+图片+视频）。"""
+        """P31：/最新推文 N —— 拉取官方账号最近 N 条推文并发送（文本+图片+视频）。
+
+        P38：官方自回帖（线程续写）合并到父推文一并展示。
+        """
         try:
-            from crawler.x_fetcher import fetch_new_tweets
+            from crawler.x_fetcher import fetch_new_tweets, group_threads
             x_cfg = self.config.get("x_fetcher", {})
             accounts = x_cfg.get("accounts") or ["LimbusCompany_B"]
             rss_urls = x_cfg.get("rss_urls") or None
@@ -1837,7 +1892,11 @@ class LimbusAgent:
                 await self._send_reply(msg, "暂时没有拉取到推文（RSS 可能暂时不可用）。")
                 return
 
-            # 最新 n 条（时间倒序）
+            # P38：官方自回帖合并到父推文线程，一并展示
+            if bool(x_cfg.get("attach_official_replies", True)):
+                tweets = group_threads(tweets)
+
+            # 最新 n 条（时间倒序，按父推文计数）
             latest = sorted(tweets, key=lambda t: t.get("published_at", ""), reverse=True)[:n]
 
             target_id, is_group = self.router.get_response_target(msg)
@@ -1847,11 +1906,8 @@ class LimbusAgent:
                 return
 
             for i, tweet in enumerate(latest, 1):
-                text = (tweet.get("text") or "").strip()
                 header = f"【官方推文 {i}/{len(latest)}】{tweet.get('handle') or 'LimbusCompany_B'}"
-                body = text if text else "(无正文)"
-                if tweet.get("permalink"):
-                    body = f"{body}\n{tweet['permalink']}"
+                body = self._format_tweet_body(tweet)
 
                 full_text, images, videos = self._prepare_tweet_media(
                     tweet, f"{header}\n{body}"
